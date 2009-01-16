@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<GroundStructures>
+<GroundStructure Name="Trandoshan_Spawn_House">
+		<GUI_Bounds_Scale>0.33</GUI_Bounds_Scale>
+		<Text_ID>UEAW_BUILDING_TRANDOSHAN_SPAWN_HOUSE</Text_ID>
+		<Encyclopedia_Text>UEAW_TOOLTIP_TRANDOSHAN_SPAWNER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Friendly_Spawn_Text> UEAW_OBJECTIVE_TRANDOSHAN_R </Friendly_Spawn_Text>
+		<Enemy_Spawn_Text> UEAW_OBJECTIVE_TRANDOSHAN_R </Enemy_Spawn_Text>
+		<Land_Model_Name>NB_Swamp_hut.alo</Land_Model_Name>
+		<Icon_Name>i_button_NB_Swamp_hut.tga</Icon_Name>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, REVEAL, HIDE_WHEN_FOGGED, DAMAGE_TRACKING, EARTHQUAKE_TARGET, SPAWN_INDIGENOUS_UNITS, DUMMY_TOOLTIP</LandBehavior>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Spawned_Indigenous_Units_Type> Trandoshan_Warrior,  Trandoshan_Warrior, Trandoshan_Warrior</Spawned_Indigenous_Units_Type>
+		<Spawned_Indigenous_Units_Delay_Seconds>10.0</Spawned_Indigenous_Units_Delay_Seconds>
+		<Spawned_Indigenous_Units_Quantity>10</Spawned_Indigenous_Units_Quantity>
+		<Spawn_Indigenous_Units_In_Packs>Yes</Spawn_Indigenous_Units_In_Packs>
+		<Spawn_Indigenous_Units_Radius>90.0f</Spawn_Indigenous_Units_Radius>
+		<Spawn_Indigenous_Units_Chance>1.0f</Spawn_Indigenous_Units_Chance>
+		<Max_Distance_From_Spawner>150</Max_Distance_From_Spawner>
+		
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Is_Branched_Map_Discardable>False</Is_Branched_Map_Discardable>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
+
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>2.0</Scale_Factor>
+
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>600</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Affiliation>Hostile</Affiliation>
+		<!--<Base_Level_Available>1</Base_Level_Available>-->
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Frigate | Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Score_Cost_Credits> 500 </Score_Cost_Credits>
+	</GroundStructure>
+</GroundStructures>

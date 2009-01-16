@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UpgradeObjects>
+<!-- Station Upgrade Sequence -->
+
+	<UpgradeObject Name="IR_Level_Two_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 80 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_Imperial_Remnant_Star_Base_1 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_imperial_station2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="ES_Level_Two_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="IR_Level_Three_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 100 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_Imperial_Remnant_Star_Base_2 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_imperial_station3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="ES_Level_Three_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Level_Four_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 4000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 120 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_Imperial_Remnant_Star_Base_3 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_imperial_station4.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="ES_Level_Four_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Level_Five_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 5500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 140 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_Imperial_Remnant_Star_Base_4 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_imperial_station5.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_FIVE_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="ES_Level_Five_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Level_Two_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 2000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 80 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_New_Republic_Star_Base_1 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_rebel_station2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_TWO_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_TWO_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="RS_Level_Two_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="NR_Level_Three_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 3200 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>600</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 100 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_New_Republic_Star_Base_2 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_rebel_station3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_THREE_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_THREE_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="RS_Level_Three_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Level_Four_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 4000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>900</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 120 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_New_Republic_Star_Base_3 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_Rebel_station4.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FOUR_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_FOUR_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="RS_Level_Four_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Level_Five_Starbase_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 5500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>1100</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 140 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> UEAW_Skirmish_New_Republic_Star_Base_4 </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> No </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_button_Rebel_station5.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_UPGRADE_LEVEL_FIVE_STARBASE  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_LEVEL_FIVE_STARBASE</Text_ID>
+		
+		<SFXEvent_Build_Started>EHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Starbase_Upgrade_Ability Name="RS_Level_Five_Starbase_Upgrade_Effect">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+			</Starbase_Upgrade_Ability>
+		</Abilities>		
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+<!-- Increase Supplies Upgrades -->
+
+	<UpgradeObject Name="IR_Increased_Supplies_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> IR_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="IR_Increased_Supplies1_L1_Bonus">
+				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Imperial_Remnant_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="RS_Increased_Supplies2_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies3_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies4_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies5_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Increased_Supplies_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> IR_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> IR_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type>IR_Increased_Supplies_L3_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="IR_Increased_Supplies1_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Imperial_Remnant_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="IR_Increased_Supplies_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>Imperial_Remnant</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 85 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> IR_Increased_Supplies_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> IR_Increased_Supplies_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>UEAW_UPGRADE_SUPPLIES3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> UEAW_TOOLTIP_SUPPLIES_UPGRADE3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>UEAW_UPGRADE_SUPPLIES3 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="IR_Increased_Supplies1_L3_Bonus">
+				<Income_Multiplier>1.60</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Imperial_Remnant_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+	<UpgradeObject Name="NR_Increased_Supplies_L1_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 250 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 40 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type></Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type> NR_Increased_Supplies_L2_Upgrade </Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies1.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L1  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L1 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="NR_Increased_Supplies1_L1_Bonus">
+				<Income_Multiplier>1.20</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>New_Republic_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<!--<Income_Stream_Mod_Ability Name="RS_Increased_Supplies2_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies3_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies4_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+			<Income_Stream_Mod_Ability Name="RS_Increased_Supplies5_L1_Bonus">
+				<Income_Multiplier>1.15</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>-->
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Increased_Supplies_L2_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer> 500 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>160</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 65 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> NR_Increased_Supplies_L1_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> NR_Increased_Supplies_L1_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type>NR_Increased_Supplies_L3_Upgrade</Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>i_multi_increased_supplies2.tga</Icon_Name>
+		
+		<Encyclopedia_Text> TEXT_UPGRADE_TOOLTIP_RS_INCREASED_SUPPLIES_L2  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>TEXT_UPGRADE_RS_INCREASED_SUPPLIES_L2 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="NR_Increased_Supplies1_L2_Bonus">
+				<Income_Multiplier>1.40</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>New_Republic_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+
+	<UpgradeObject Name="NR_Increased_Supplies_L3_Upgrade">
+		<Behavior>DUMMY_UPGRADE</Behavior>
+		<Affiliation>New_Republic</Affiliation>
+		<Tactical_Build_Cost_Multiplayer>1000 </Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Campaign>300</Tactical_Build_Cost_Campaign>
+		<Tactical_Build_Time_Seconds> 85 </Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites> NR_Increased_Supplies_L2_Upgrade </Tactical_Build_Prerequisites>
+		<Tactical_Production_Queue>Tactical_Upgrades</Tactical_Production_Queue>
+		<Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+		<Previous_Upgrade_Level_Type> NR_Increased_Supplies_L2_Upgrade </Previous_Upgrade_Level_Type>
+		<Next_Upgrade_Level_Type></Next_Upgrade_Level_Type>
+		<Show_In_Sidebar_While_Building> Yes </Show_In_Sidebar_While_Building>
+		<Show_In_Sidebar_When_Complete> Yes </Show_In_Sidebar_When_Complete>
+		<Icon_Name>UEAW_UPGRADE_SUPPLIES3.tga</Icon_Name>
+		
+		<Encyclopedia_Text> UEAW_TOOLTIP_SUPPLIES_UPGRADE3  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ECONOMY </Encyclopedia_Unit_Class>
+		<Text_ID>UEAW_UPGRADE_SUPPLIES3 </Text_ID>
+		
+		<SFXEvent_Build_Started>RHD_Upgrade_Progress</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>RHD_Upgrade_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>RHD_Upgrade_Complete</SFXEvent_Build_Complete>
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Mod_Ability Name="NR_Increased_Supplies1_L3_Bonus">
+				<Income_Multiplier>1.60</Income_Multiplier>
+				<Income_Additive_Value>0.0</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>1</Stacking_Category>
+				<Target_Stream_Source>New_Republic_Mineral_Extractor</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+		</Abilities>
+		<CategoryMask>Upgrade</CategoryMask>
+	</UpgradeObject>
+	
+</UpgradeObjects>

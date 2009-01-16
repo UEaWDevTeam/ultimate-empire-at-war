@@ -1,0 +1,115 @@
+<?xml version="1.0" ?>
+<Data>
+
+	<GroundVehicle Name="Gas_Collection_Droid">
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Text_ID>TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID</Text_ID>
+		<Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
+		
+		<Land_Model_Name>w_bespin_collector_DROID.ALO</Land_Model_Name>
+		<Behavior>SELECTABLE</Behavior>
+  		<LandBehavior>ABILITY_COUNTDOWN, WALK_LOCOMOTOR, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING, IDLE,AFFECTED_BY_SHIELD,UNIT_AI</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Mass>1.0</Mass>
+		
+        <Ranking_In_Category>8</Ranking_In_Category>
+		<Movement_Animation_Speed> 0.6 </Movement_Animation_Speed>
+		<Max_Speed>2.5</Max_Speed>
+		<Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+		<Custom_Hard_XExtent> 3.5 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 3.5 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<OverrideAcceleration> .2 </OverrideAcceleration>
+		<OverrideDeceleration> .2 </OverrideDeceleration>
+		<FormationOrder> 3 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+
+		<Garrison_Category> Infantry </Garrison_Category>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+
+		<Scale_Factor>1.5</Scale_Factor>
+		<Is_Sprite>No</Is_Sprite>
+		<Type>Walk</Type>
+		<Deploys>No</Deploys>
+		<Affiliation>Underworld</Affiliation>
+		<Size_Value>10</Size_Value>
+		<Damage>4</Damage>
+		<Sensor_Range>200</Sensor_Range>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>20</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+		<Victory_Relevant>no</Victory_Relevant>
+		<Projectile_Types />
+		<Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+		<CategoryMask> Vehicle </CategoryMask>
+		<MovementClass> Infantry </MovementClass>
+
+		<Influences_Capture_Point> False </Influences_Capture_Point>
+
+		<SFXEvent_Select>Unit_Select_MPTL_Spotter</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_MPTL_Spotter</SFXEvent_Move>
+		<SFXEvent_Attack>Unit_Attack_MPTL_Spotter</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_MPTL_Spotter</SFXEvent_Guard>
+		<SFXEvent_Assist_Move> Unit_Assist_Move_MPTL_Spotter </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Attack> Unit_Assist_Attack_MPTL_Spotter </SFXEvent_Assist_Attack>
+		<SFXEvent_Fire>Unit_MPTL_Fire</SFXEvent_Fire>
+		<Death_SFXEvent_Start_Die>Unit_Speeder_Bike_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation</Land_Damage_SFX>
+
+		<Death_Explosions_End>Small_Explosion_Land</Death_Explosions_End>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<OccupationStyle>1x1</OccupationStyle>
+
+		<No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>99</No_Refraction_Below_Detail_Level>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		<AI_Combat_Power>3</AI_Combat_Power>
+
+		<Select_Box_Scale>27</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+		<Base_Shield_Penetration_Particle>Shield_Penetration_Effect_Particle</Base_Shield_Penetration_Particle>
+		<Surface_Type_Cover_Damage_Shield>.25</Surface_Type_Cover_Damage_Shield>
+		<Weather_Category>Hover</Weather_Category>
+		<Icon_Name>i_button_collector_droid.tga</Icon_Name>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+
+		<Score_Cost_Credits>30</Score_Cost_Credits>
+
+		<Tactical_Bribe_Cost>10</Tactical_Bribe_Cost>
+
+		<!-- Non-Hero unit abilities description -->
+		
+	</GroundVehicle>
+	
+	<GroundVehicle Name="Gas_Collection_Droid_Full">
+		<Variant_Of_Existing_Type>Gas_Collection_Droid</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_UNDERWORLD_GAS_COLLECTION_DROID_FULL</Text_ID>
+		<Scale_Factor>2.25</Scale_Factor>
+	</GroundVehicle>
+	
+
+
+</Data>

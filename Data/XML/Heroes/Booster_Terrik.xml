@@ -1,0 +1,276 @@
+<?xml version="1.0"?>
+<Data>
+	<HeroUnit Name="Booster_Terrik">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Text_ID>UEAW_UNIT_BOOSTER_TERRIK</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_ERRANT_VENTURE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> UEAW_UNIT_ERRANT_VENTURE </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_BOOSTER_TERRIK.TGA</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Underworld</Affiliation>
+		<Required_Timeline>4</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Planets/>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Hypori</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>80</Damage>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Lua_Script>Tarkin</Lua_Script>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Unique_Space_Unit>Errant_Venture</Unique_Space_Unit>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+		<Neutralization_Cost>1000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<Abilities SubObjectList="Yes">
+			<Planet_Income_Gambling_Ability Name="Grand_Arena_Gambling_Income">
+				<!-- choose a new income modifier every 60 seconds -->
+				<Evaluation_Interval_In_Secs>60.0</Evaluation_Interval_In_Secs>
+				<!-- worst losses are -10% of the base -->
+				<Min_Income_Modifier>0.10</Min_Income_Modifier>
+				<!-- best positive income is +60% of the base -->
+				<Max_Income_Modifier>0.60</Max_Income_Modifier>
+				<!-- 100% of the time the income will be positive -->
+				<Chance_To_Win>1.00</Chance_To_Win>
+			</Planet_Income_Gambling_Ability>
+			<Combat_Bonus_Ability Name="Thrawn_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.10</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<System_Spy_Ability Name="Thrawn_Ship_Reveal">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>No</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>No</See_Special_Structures>
+				<See_Political_Control>No</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</HeroUnit>
+	
+	
+	<HeroCompany Name="Booster_Terrik_Team">
+		<Text_ID>UEAW_UNIT_BOOSTER_TERRIK</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_ERRANT_VENTURE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> UEAW_UNIT_ERRANT_VENTURE </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_BOOSTER_TERRIK.TGA</Icon_Name>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>60</Damage>
+		<Affiliation>Underworld</Affiliation>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures/>
+		<Required_Planets/>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>Booster_Terrik</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Kadalbe</SFXEvent_Fleet_Move>
+		<Unit_Abilities_Data SubObjectList="Yes">
+	   </Unit_Abilities_Data>
+		<CategoryMask>NonCombatHero</CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+	</HeroCompany>
+	
+	
+	<UniqueUnit Name="Errant_Venture">
+		<Variant_Of_Existing_Type>UEAW_CLASS2_ISD_GENERIC</Variant_Of_Existing_Type>
+		<Text_ID>UEAW_UNIT_BOOSTER_TERRIK</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_ERRANT_VENTURE </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> UEAW_UNIT_ERRANT_VENTURE </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_BOOSTER_TERRIK.TGA</Icon_Name>
+		<Encyclopedia_Good_Against> Star_Destroyer Calamari_Cruiser </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> B-Wing MC30_Frigate TIE_Bomber </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>REDSTARDESTROYER_TERRIK.ALO</Space_Model_Name>
+		<Is_Named_Hero>No</Is_Named_Hero>
+		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+		<Affiliation>Underworld</Affiliation>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+		<Ranking_In_Category>3</Ranking_In_Category>
+
+		<HardPoints>
+			UEAW_HP_Errant_Venture_Weapon_FL, 
+			UEAW_HP_Errant_Venture_Weapon_FR, 
+			UEAW_HP_Errant_Venture_Weapon_BL, 
+			UEAW_HP_Errant_Venture_Weapon_BR, 
+			UEAW_HP_Errant_Venture_Weapon_ML, 
+			UEAW_HP_Errant_Venture_Weapon_MR, 
+			UEAW_HP_Errant_Venture_Shield_Generator, 
+			UEAW_HP_Errant_Venture_Engines, 
+			UEAW_HP_Errant_Venture_TB_Gun, 
+			UEAW_HP_Star_Destroyer_ClassII_Fighter_Bay
+		</HardPoints>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>Underworld_Pirate_Fighter_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron_Underworld, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Errant_Venture, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>Underworld_Pirate_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron_Underworld, 2</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Errant_Venture, 4</Reserve_Spawned_Units_Tech_0>
+		<Tech_Level>99</Tech_Level>
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_UEAW_Dreadnaught2</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_UEAW_Dreadnaught2</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_UEAW_Dreadnaught2</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Dreadnaught_Empire</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_UEAW_Dreadnaught2</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_UEAW_Dreadnaught2</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_UEAW_Dreadnaught2</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_UEAW_Dreadnaught2</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_UEAW_Dreadnaught2 </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_UEAW_Dreadnaught2 </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_UEAW_Dreadnaught2 </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_UEAW_Dreadnaught2 </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+		<Build_Cost_Credits>5000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>4</Population_Value>
+		<Death_Clone>Damage_Normal, Errant_Venture_Death_Clone</Death_Clone>
+		<Neutralization_Cost>2000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5270</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites/>
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>60</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	500.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier>
+				<!-- make it faster to recharge -->
+				<Mod_Multiplier>SPEED_MULTIPLIER,			1.3f</Mod_Multiplier>
+				<Recharge_Seconds>120</Recharge_Seconds>
+				<Alternate_Name_Text>UEAW_ABILITY_ESCAPE_SHIELDS_NAME</Alternate_Name_Text>
+				<Alternate_Description_Text>UEAW_ABILITY_ESCAPE_SHIELDS</Alternate_Description_Text>
+				<Alternate_Icon_Name>I_SA_SPRINT.TGA</Alternate_Icon_Name>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		<Abilities SubObjectList="Yes">
+			<Combat_Bonus_Ability Name="Admonitor_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+				<Applicable_Unit_Types/>
+				<Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.1</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.1</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.1</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.1</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<System_Spy_Ability Name="Admonitor_Ship_Reveal">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Duration_In_Secs>-1.0</Duration_In_Secs>
+				<See_Base_Levels>No</See_Base_Levels>
+				<See_Credit_Income>No</See_Credit_Income>
+				<See_Credit_Income_Breakdown>No</See_Credit_Income_Breakdown>
+				<See_Num_Fleets>Yes</See_Num_Fleets>
+				<See_Most_Powerful_Ship>Yes</See_Most_Powerful_Ship>
+				<See_Fleet_Contents>No</See_Fleet_Contents>
+				<See_Num_Ground_Companies>No</See_Num_Ground_Companies>
+				<See_Ground_Company_Contents>No</See_Ground_Company_Contents>
+				<See_Special_Structures>No</See_Special_Structures>
+				<See_Political_Control>No</See_Political_Control>
+				<See_Political_Control_Breakdown>No</See_Political_Control_Breakdown>
+				<See_Current_Production>No</See_Current_Production>
+				<See_Minor_Stealth_Heroes>No</See_Minor_Stealth_Heroes>
+				<See_Major_Stealth_Heroes>No</See_Major_Stealth_Heroes>
+			</System_Spy_Ability>
+		</Abilities>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Errant_Venture_MP">
+		<Variant_Of_Existing_Type>Errant_Venture</Variant_Of_Existing_Type>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+	</UniqueUnit>
+	
+	<UniqueUnit Name="Errant_Venture_Death_Clone">
+		<Text_ID>UEAW_TOOLTIP_ERRANT_VENTURE</Text_ID>
+		<Space_Model_Name>REDSTARDESTROYER_TERRIK_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>REDSTARDESTROYER_TERRIK_D.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>1</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.5</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Underworld</Affiliation>
+		<Ship_Class>capital_ship</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</UniqueUnit>
+</Data>

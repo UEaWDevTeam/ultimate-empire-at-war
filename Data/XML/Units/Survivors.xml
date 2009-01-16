@@ -1,0 +1,609 @@
+<?xml version="1.0" ?>
+<Data>
+
+
+<!-- Used for exploding Empire buildings -->
+
+	<GroundCompany Name="Empire_Survivors_Small">
+		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>3</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Score_Cost_Credits>36</Score_Cost_Credits>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+	</GroundCompany>	
+
+
+	<GroundCompany Name="Empire_Survivors_Medium">
+		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>6</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Score_Cost_Credits>48</Score_Cost_Credits>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+		
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+	</GroundCompany>
+
+
+	<GroundCompany Name="Empire_Survivors_Large">
+		<Text_ID>TEXT_UNIT_STORMTROOPER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>9</Damage>
+		<Autoresolve_Health>100</Autoresolve_Health>
+		<Affiliation>Empire</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units>Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper, Squad_Stormtrooper</Company_Units>
+		<Icon_Name>i_button_storm_trooper.tga</Icon_Name>
+		<Score_Cost_Credits>54</Score_Cost_Credits>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STORMTROOPER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		
+		<Create_Team_Type> Stormtrooper_Team </Create_Team_Type>
+	</GroundCompany>	
+
+
+	<GroundCompany Name="Empire_Prison_Survivors_01">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Ewok_Hunter, Ewok_Hunter_C, Wookie_Warrior, Wookie_Warrior, Swamp_Civilian_A, Urban_Civilian_A, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Jawa_Scout, Jawa_Scout, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Sand_Person_Sniper_A, Sand_Person_Sniper_B</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Empire_Prison_Survivors_02">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Rebel</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Hutt_Civilian, Hutt_Civilian, Wookie_Warrior, Bothan_Civilian, Bothan_Civilian, Bothan_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Geonosian, Geonosian, Geonosian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Twilek_Female, Rebel_Trooper_NonVictroy, Twilek_Female, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Sand_Person_Sniper_B, Sand_Person_Sniper_A, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Ewok_Hunter_B, Ewok_Hunter_C, Pirate_Soldier_NonVictroy, Urban_Civilian_A, Urban_Civilian_A, Pirate_Soldier_NonVictroy</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Empire_Prison_Survivors_03">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Company_Units> Wampa, Jawa_Scout, Wookie_Warrior, Gungan_Warrior, Gungan_Warrior, Gungan_Warrior, Rebel_Trooper_NonVictroy, Mon_Calamari_Civilian, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Rebel_Trooper_NonVictroy, Snow_Civilian_A, Snow_Civilian_A, Shaak, Bothan_Civilian, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Plex_Soldier_NonVictroy, Desert_Civilian_A, Jawa_Scout, Pirate_Soldier_NonVictroy, Pirate_Soldier_NonVictroy, Twilek_Female, Twilek_Female, Twilek_Female</Company_Units>
+		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+
+<!-- Used for exploding pirate buildings -->
+
+	<GroundCompany Name="Pirate_Survivors_Small">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		<Score_Cost_Credits>60</Score_Cost_Credits>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>	
+
+	<GroundCompany Name="Pirate_Survivors_Medium">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		<Score_Cost_Credits>120</Score_Cost_Credits>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>	
+
+	<GroundCompany Name="Pirate_Survivors_Large">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		<Score_Cost_Credits>180</Score_Cost_Credits>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+
+
+	<GroundCompany Name="Pirate_Outpost_Survivors_01">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Pirate_Outpost_Survivors_02">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Pirate_Outpost_Survivors_03">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Pirates</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>1</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex, Pirate_Plex</Company_Units>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+	<GroundCompany Name="Pirate_Outpost_Survivors_Hostile">
+		<Text_ID>TEXT_UNIT_PIRATE_SOLDIER</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Damage>25</Damage>
+		<Autoresolve_Health>150</Autoresolve_Health>
+		<Affiliation>Hostile</Affiliation>
+		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Formation_Priority>0</Formation_Priority>
+		<Is_Escort>no</Is_Escort>
+		<Ship_Class>infantry</Ship_Class>
+		<Create_Team_Type> Pirate_Trooper_Team </Create_Team_Type>
+		<Company_Units>Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Soldier, Pirate_Plex, Pirate_Plex, Pirate_Plex </Company_Units>
+		<Max_Squad_Size> 9 </Max_Squad_Size>
+		<Icon_Name>i_button_pirate_soldier.tga</Icon_Name>
+		
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INFANTRY </Encyclopedia_Unit_Class>
+		<Encyclopedia_Text> TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY </Encyclopedia_Text>
+		
+	</GroundCompany>
+	
+  <!-- Used for exploding Rebel buildings -->
+
+  <GroundCompany Name="Rebel_Survivors_Small">
+    <Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
+
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>8</Damage>
+    <Autoresolve_Health>100</Autoresolve_Health>
+    <Affiliation>Rebel</Affiliation>
+    <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>no</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+    <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+    <Score_Cost_Credits>15</Score_Cost_Credits>
+    <Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+
+
+    <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+  </GroundCompany>
+
+
+  <GroundCompany Name="Rebel_Survivors_Medium">
+    <Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>8</Damage>
+    <Autoresolve_Health>100</Autoresolve_Health>
+    <Affiliation>Rebel</Affiliation>
+    <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>no</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+    <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+    <Score_Cost_Credits>30</Score_Cost_Credits>
+    <Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+
+    <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+  </GroundCompany>
+
+
+  <GroundCompany Name="Rebel_Survivors_Large">
+    <Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>8</Damage>
+    <Autoresolve_Health>100</Autoresolve_Health>
+    <Affiliation>Rebel</Affiliation>
+    <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>no</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
+    <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+    <Score_Cost_Credits>45</Score_Cost_Credits>
+    <Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+
+
+
+    <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+  </GroundCompany>
+
+
+	<GroundInfantry Name="Prisoner_Rebel_01">
+		<Text_ID>TEXT_UNIT_REBEL_PRISONER</Text_ID>
+		<Land_Model_Name> NI_Gmale_swamp_A.ALO </Land_Model_Name>
+		<Land_Model_Anim_Override_Name>NI_GMale_Urban_A.ALO</Land_Model_Anim_Override_Name>
+		<Icon_Name>i_button_gmale_swamp.tga</Icon_Name>
+		<Behavior>SELECTABLE</Behavior>
+		<LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,REVEAL,HIDE_WHEN_FOGGED</LandBehavior>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<CanCellStack>yes</CanCellStack>
+		<Select_Box_Scale>10</Select_Box_Scale>
+		<Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+		<Mass>1.0</Mass>
+		<GUI_Bracket_Width>5</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+		<GUI_Bracket_Size>0</GUI_Bracket_Size>
+		<Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+		<Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+		<Is_Combustible>yes</Is_Combustible>
+		<On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+		<Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+		<Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+		<SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+		
+		<Max_Speed>1</Max_Speed>
+		<Max_Rate_Of_Turn>20.0</Max_Rate_Of_Turn>
+		<Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+		<Custom_Hard_XExtent> 2.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+		<Space_Layer> Land </Space_Layer>
+		<UnitCollisionClass> Infantry </UnitCollisionClass>
+		<FormationSpacing> .5 </FormationSpacing>
+		<MinimumPushReturnDistance> 10 </MinimumPushReturnDistance>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .25 </OverrideDeceleration>
+		<FormationOrder> 2 </FormationOrder>
+		<FormationGrouping> Standard </FormationGrouping>
+
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Affiliation>Rebel</Affiliation>
+		<Required_Timeline>0</Required_Timeline>
+		<IsBuildable>No</IsBuildable>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Size_Value>10</Size_Value>
+		<Armor_Type> Armor_Infantry </Armor_Type>
+		<Damage>1</Damage>
+		<Tactical_Health>15</Tactical_Health>
+		<Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		
+		<Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+		
+		<SFXEvent_Select>Unit_Select_Rebel_Soldier</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Rebel_Soldier</SFXEvent_Move>
+		<SFXEvent_Guard>Unit_Guard_Rebel_Soldier</SFXEvent_Guard>
+		<Death_SFXEvent_Start_Die>Unit_Rebel_Soldier_Death</Death_SFXEvent_Start_Die>
+
+		<Idle_Chase_Range>500.0</Idle_Chase_Range>
+		<Guard_Chase_Range>500.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>500.0</Attack_Move_Response_Range>
+		<Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+
+		<MovementClass>Infantry</MovementClass>
+		<CategoryMask> Infantry </CategoryMask>
+		<Victory_Relevant>No</Victory_Relevant>
+		<Weather_Category>Infantry</Weather_Category>
+		
+		<Death_Clone>Damage_Force_Whirlwind, Prisoner_Rebel_Force_Whirlwind_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Force_Lightning, Prisoner_Rebel_Force_Lightning_Death_Clone</Death_Clone>
+		
+		<Score_Cost_Credits> 0 </Score_Cost_Credits>
+		
+		<OccupationStyle>1x1</OccupationStyle>
+		<Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+		<Is_Squashable> Yes </Is_Squashable>
+		
+		<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>SPREAD_OUT</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+		
+		
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_Force_Whirlwind_Death_Clone">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FW_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_Force_Lightning_Death_Clone">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+		<Specific_Death_Anim_Type>FL_DIE</Specific_Death_Anim_Type>
+		<Specific_Death_Anim_Index />
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_02">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_03">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_04">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_05">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_06">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+
+	<GroundInfantry Name="Prisoner_Rebel_07">
+		<Variant_Of_Existing_Type>Prisoner_Rebel_01</Variant_Of_Existing_Type>
+	</GroundInfantry>
+	
+	
+  <GroundCompany Name="Rebel_Prisoner_Team">
+    <Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
+    <Is_Dummy>Yes</Is_Dummy>
+    <Damage>8</Damage>
+    <Autoresolve_Health>100</Autoresolve_Health>
+    <Affiliation>Rebel</Affiliation>
+    <Build_Tab_Land_Units>No</Build_Tab_Land_Units>
+    <Build_Initially_Locked>Yes</Build_Initially_Locked>
+    <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+    <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+    <Formation_Priority>1</Formation_Priority>
+    <Is_Escort>no</Is_Escort>
+    <Ship_Class>infantry</Ship_Class>
+    <Company_Units>Prisoner_Rebel_01, Prisoner_Rebel_02, Prisoner_Rebel_03, Prisoner_Rebel_04, Prisoner_Rebel_05 Prisoner_Rebel_06 Prisoner_Rebel_07</Company_Units>
+    <Is_Homogeneous>No</Is_Homogeneous>
+
+    <Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
+
+    <Encyclopedia_Text>TEXT_TOOLTIP_PRISONER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+    <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
+
+
+    <!-- Non-Hero unit abilities description -->
+    <Unit_Abilities_Data SubObjectList="Yes">
+      <!-- Primary ability -->
+      <Unit_Ability>
+        <Type>SPREAD_OUT</Type>
+        <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
+        <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
+      </Unit_Ability>
+    </Unit_Abilities_Data>
+
+
+    <Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
+  </GroundCompany>
+
+	
+</Data>

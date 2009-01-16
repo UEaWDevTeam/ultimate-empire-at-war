@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<Data>
+  <Indigenous_Unit Name="Sarlacc">
+    <Text_ID>TEXT_INDIG_SARLACC</Text_ID>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+    <Land_Model_Name> AI_Sarlacc.alo </Land_Model_Name>
+    <LandBehavior>TARGETING, TURRET, IDLE, UNIT_AI, REVEAL,HIDE_WHEN_FOGGED, LAND_OBSTACLE</LandBehavior>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+    <Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+    <Is_Valid_Target>No</Is_Valid_Target>
+    <CanCellStack>yes</CanCellStack>
+    <Select_Box_Scale>1.0</Select_Box_Scale>
+    <Select_Box_Z_Adjust>0.0f</Select_Box_Z_Adjust>
+    <Mass>1.0</Mass>
+    <GUI_Bracket_Width>5</GUI_Bracket_Width>
+    <GUI_Bracket_Height>0</GUI_Bracket_Height>
+    <GUI_Bracket_Size>2</GUI_Bracket_Size>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+
+    <Custom_Hard_XExtent> 20.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 25.0 </Custom_Hard_YExtent>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Giant Vehicle </UnitCollisionClass>
+    <MinimumPushReturnDistance> 100 </MinimumPushReturnDistance>
+    <FormationGrouping> Solo </FormationGrouping>
+    <Is_Valid_Target> False </Is_Valid_Target>
+
+    <Scale_Factor>2.0</Scale_Factor>
+    <Affiliation>Sarlacc</Affiliation>
+    <Required_Timeline>0</Required_Timeline>
+    <IsBuildable>No</IsBuildable>
+    <!--<Is_Sprite>No</Is_Sprite>-->
+    <Size_Value>10</Size_Value>
+    <Armor_Type> Armor_Hero </Armor_Type>
+    <Damage>25</Damage>
+    <Tactical_Health>550</Tactical_Health>
+    <Influences_Capture_Point> False </Influences_Capture_Point>
+
+    <Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+    <Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+    <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
+
+    <Idle_Chase_Range>300.0</Idle_Chase_Range>
+    <Guard_Chase_Range>300.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+    <Targeting_Max_Attack_Distance>300.0</Targeting_Max_Attack_Distance>
+    <Targeting_Priority_Set>AntiInfantry_No_Structures</Targeting_Priority_Set>
+    <Fire_Category_Restrictions> Air, Structure, Vehicle </Fire_Category_Restrictions>
+
+    <Victory_Relevant>No</Victory_Relevant>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> No </Is_Squashable>
+
+    <Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+    <Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+    <Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
+    <Turret_Rotate_Speed>4.0</Turret_Rotate_Speed>
+
+    <Score_Cost_Credits>1500</Score_Cost_Credits>
+
+    <!-- Ground infantry priority 1, other targets N/A (9999) -->
+    <Turret_Targets_Ground_Infantry> 1 </Turret_Targets_Ground_Infantry>
+    <Turret_Targets_Ground_Vehicles> 9999 </Turret_Targets_Ground_Vehicles>
+    <Turret_Targets_Air_Vehicles> 9999</Turret_Targets_Air_Vehicles>
+    <Turret_Targets_Anything_Else> 9999 </Turret_Targets_Anything_Else>
+    <!-- 9999 = won't target -->
+    <Turret_XY_Only>Yes</Turret_XY_Only>
+
+    <Layer_Z_Adjust> 10 </Layer_Z_Adjust>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+    <Movie_Object>false</Movie_Object>
+
+    <Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+    <Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+
+    <Abilities SubObjectList="Yes">
+      <Eat_Attack_Ability Name="Sarlacc_Eat_Infantry">
+        <Activation_Chance>1.0</Activation_Chance>
+        <Activation_Min_Range>0.0</Activation_Min_Range>
+        <Activation_Max_Range>150</Activation_Max_Range>
+        <Damage_Amount>0.0</Damage_Amount>
+        <Damage_Percentage>1.0</Damage_Percentage>
+        <Damage_Type>Damage_Eat</Damage_Type>
+        <Attack_Animation>ATTACK</Attack_Animation>
+        <Attack_Animation_Speedup>1.0</Attack_Animation_Speedup>
+        <Owner_Attachment_Bone>B_ATTACH_01</Owner_Attachment_Bone>
+        <Attachment_Frame>30</Attachment_Frame>
+        <Target_Destruction_Frame>120</Target_Destruction_Frame>
+        <Target_Grabbed_Animation>EATEN_DIE</Target_Grabbed_Animation>
+        <Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
+
+        <Needs_To_Rotate>Yes</Needs_To_Rotate>
+        <Rotation_Base_Bone_Name>Turret_00</Rotation_Base_Bone_Name>
+        <Applicable_Unit_Types />
+      </Eat_Attack_Ability>
+    </Abilities>
+    <AI_Combat_Power>1000</AI_Combat_Power>
+    <Is_Indigenous_Unit_Corruptible>False</Is_Indigenous_Unit_Corruptible>
+  </Indigenous_Unit>
+</Data>

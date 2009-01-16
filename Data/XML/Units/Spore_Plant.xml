@@ -1,0 +1,98 @@
+<?xml version="1.0" ?>
+<Data>
+  <Indigenous_Unit Name="Felucia_Spore_Plant">
+    <Text_ID>TEXT_INDIGENOUS_FELUCIA_SPORE_PLANT</Text_ID>
+    <Encyclopedia_Unit_Class>TEXT_TOOLTIP_FELUCIA_SPORE_PLANET</Encyclopedia_Unit_Class>
+    <Land_Model_Name>W_FELUCIA_PLANT_01.ALO</Land_Model_Name>
+
+    <Enemy_Spawn_Text> TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_R_FELUCIAPLANTS TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_E_FELUCIAPLANTS TEXT_TACTICAL_INDIGENOUS_OBJECTIVE_U_FELUCIAPLANTS </Enemy_Spawn_Text>
+
+    <Select_Box_Scale>80</Select_Box_Scale>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+
+    <LandBehavior>IDLE, TURRET, TARGETING,WEAPON, UNIT_AI, REVEAL, DAMAGE_TRACKING, DUMMY_TOOLTIP</LandBehavior>
+    <Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
+    <Collidable_By_Projectile_Dead>No</Collidable_By_Projectile_Dead>
+    <Is_Valid_Target>No</Is_Valid_Target>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.0</Scale_Factor>
+    <Is_Discardable> No </Is_Discardable>
+
+    <Max_Speed>0.0</Max_Speed>
+    <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+
+    <Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
+    <Turret_Elevate_Extent_Degrees>360</Turret_Elevate_Extent_Degrees>
+
+    <Space_Layer> Land </Space_Layer>
+    <!--
+		<UnitCollisionClass> Vehicle </UnitCollisionClass>
+		<Custom_Hard_XExtent> 6.0 </Custom_Hard_XExtent>
+		<Custom_Hard_YExtent> 2.0 </Custom_Hard_YExtent>
+-->
+    <Affiliation>Hostile</Affiliation>
+    <Political_Control>0</Political_Control>
+    <Required_Timeline>0</Required_Timeline>
+    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+    <Required_Star_Base_Level>0</Required_Star_Base_Level>
+    <Required_Special_Structures />
+    <Required_Tech_Structure />
+    <Required_Planets />
+    <Build_Cost_Credits>0</Build_Cost_Credits>
+    <Build_Time_Seconds>0</Build_Time_Seconds>
+    <Size_Value>150</Size_Value>
+    <Damage>1</Damage>
+    <Sensor_Range>80</Sensor_Range>
+    <Tactical_Health>50</Tactical_Health>
+    <Energy_Capacity>0</Energy_Capacity>
+    <Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+
+    <Projectile_Types>Proj_Felucia_Planet_Spores</Projectile_Types>
+    <Projectile_Fire_Recharge_Seconds>8</Projectile_Fire_Recharge_Seconds>
+    <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+    <Projectile_Fire_Pulse_Delay_Seconds>0.02</Projectile_Fire_Pulse_Delay_Seconds>
+    <Projectile_Appearance_Delay_Frames> 56 </Projectile_Appearance_Delay_Frames>
+
+    <Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Vehicle, 1.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Air, 1.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Structure, 1.0 </Targeting_Fire_Inaccuracy>
+
+    <Land_FOW_Reveal_Range>150.0</Land_FOW_Reveal_Range>
+    <Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+    <Targeting_Max_Attack_Distance>100.0</Targeting_Max_Attack_Distance>
+    <Targeting_Min_Attack_Distance> 2 </Targeting_Min_Attack_Distance>
+
+    <Turret_Bone_Name>MUZZLEA_00</Turret_Bone_Name>
+    <Barrel_Bone_Name>MUZZLEA_00</Barrel_Bone_Name>
+
+    <Targeting_Priority_Set>Felucia_Plant_Attack_Priority</Targeting_Priority_Set>
+
+    <SFXEvent_Attack />
+
+    <Victory_Relevant>no</Victory_Relevant>
+    <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>16.0, 8.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Influences_Capture_Point> False </Influences_Capture_Point>
+    <!--
+		<OccupationStyle>1x1</OccupationStyle>
+		-->
+    <No_Colorization_Color> 128, 101, 79, 255 </No_Colorization_Color>
+    <Death_Fade_Time>0.25</Death_Fade_Time>
+    <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+    <Movie_Object>false</Movie_Object>
+
+  </Indigenous_Unit>
+
+  <Indigenous_Unit Name="Felucia_Spore_Plant_Purple">
+    <LOD_Bias>4</LOD_Bias>
+    <Variant_Of_Existing_Type>Felucia_Spore_Plant</Variant_Of_Existing_Type>
+    <Land_Model_Name>W_FELUCIA_PLANT_PURPLE.ALO</Land_Model_Name>
+  </Indigenous_Unit>
+
+  <Indigenous_Unit Name="Felucia_Spore_Plant_Purple_Large">
+    <Variant_Of_Existing_Type>Felucia_Spore_Plant</Variant_Of_Existing_Type>
+    <Land_Model_Name>W_felucia_plantBig_purple.alo</Land_Model_Name>
+  </Indigenous_Unit>
+</Data>

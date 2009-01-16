@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+<!--
+		This is an UEAW file for our own traderoutes.
+		DO NO DELETE OR MODIFY ANY!
+		They are necassary for the accessability of some planets!
+		You may add routes though.
+		regards
+		Fynbos, http://www.ultimate-eaw.com
+		
+		IMPORTANT!
+		This file is only read if the TradeRouteFiles.xml includes it.
+			Example:
+			<Trade_Route_Files>
+			<File>TradeRoutes.xml</File>
+			<File>UEAW_TradeRoutes.xml</File>
+			</Trade_Route_Files>
+		
+		IMPORTANT!
+		Traderoutes have to be activated in the specific campaign for each side, rebels and imperials.
+			Example:
+			<Trade_Routes> Kessel_TheMaw, Abregado_Rae_Fondor, ... etc
+
+
+		<Visible_Line_Name>value</Visible_Line_Name> defines the colour of the traderoute-line
+		see TradeRouteLines.xml for availbles.
+
+-->
+
+<TradeRoutes>
+
+    <TradeRoute Name="Kessel_TheMaw">
+   		<!-- without this TR themaw cannot be accessed!-->
+            <Point_A>Kessel</Point_A>
+            <Point_B>TheMaw</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0</Credit_Gain_Factor>
+            <Visible_Line_Name>UEAW</Visible_Line_Name>
+    </TradeRoute>
+    
+    <!-- UEAW, so players can enter Honoghr in FoC Single player Campaign, Fynbos -->
+        <TradeRoute Name="Honoghr_Story_NalHutta_Story">
+            <Point_A>Honoghr_Story</Point_A>
+            <Point_B>NalHutta_Story</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+    </TradeRoute>
+    
+    <!-- UEAW, so players can enter Honoghr in FoC Single player Campaign, Fynbos -->
+        <TradeRoute Name="Ryloth_NalHutta_Story">
+            <Point_A>Ryloth</Point_A>
+            <Point_B>NalHutta_Story</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+    </TradeRoute>
+
+
+</TradeRoutes>

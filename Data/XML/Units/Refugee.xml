@@ -1,0 +1,72 @@
+<?xml version="1.0" ?>
+<Data>	
+	<GenericHeroUnit Name="Rebel_Refugee">
+		<Text_ID>TEXT_UNIT_REBEL_REFUGEE</Text_ID>
+		<GUI_Row> 1 </GUI_Row>
+		<Icon_Name>i_button_field_commander.tga</Icon_Name>
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Sprite>No</Is_Sprite>
+		<Type>Walk</Type>
+		<Affiliation>Rebel</Affiliation>
+		<Political_Control>0</Political_Control>
+		<Size_Value>75</Size_Value>
+		<!--  <Damage>2</Damage> -->
+		<Autoresolve_Health>30</Autoresolve_Health>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+		<Neutralization_Cost>100.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+		
+		<!-- When a probe droid is moved by itself, it must activate its Spy ability at its destination. -->
+		<Can_Hyperspace_Without_Activating_Ability>No</Can_Hyperspace_Without_Activating_Ability>
+		
+		<Abilities SubObjectList="Yes">
+			<Galactic_Stealth_Ability Name="Rebel_Refugee_Galactic_Stealth">
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+		</Abilities>
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_REFUGEE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
+
+		<Death_Fade_Time>0.25</Death_Fade_Time>
+		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>		
+
+	</GenericHeroUnit>
+
+
+
+
+	<HeroCompany Name="Rebel_Refugee_Team">
+		<GUI_Row>1</GUI_Row>
+		<Text_ID>TEXT_UNIT_REBEL_REFUGEE</Text_ID>
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Rebel</Affiliation>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>0</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Units>Rebel_Refugee</Company_Units>
+		<Icon_Name>i_button_field_commander.tga</Icon_Name>
+		<Is_Generic_Hero>Yes</Is_Generic_Hero>
+		<Is_Stealth_Company>Yes</Is_Stealth_Company>
+		
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBEL_REFUGEE</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS</Encyclopedia_Unit_Class>
+		
+		<CategoryMask>NonCombatHero</CategoryMask>
+	</HeroCompany>
+
+
+
+</Data>

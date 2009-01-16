@@ -1,0 +1,106 @@
+<?xml version="1.0" ?>
+<Data>
+  <Indigenous_Unit Name="Hutt_Civilian">
+    <Text_ID>TEXT_INDIG_HUTT_CIV</Text_ID>
+    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_INDIGENOUS </Encyclopedia_Unit_Class>
+    <Encyclopedia_Text>TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+    <Land_Model_Name>NI_HUTT.ALO</Land_Model_Name>
+    <Icon_Name>i_button_hutt.tga</Icon_Name>
+    <Behavior>SELECTABLE</Behavior>
+    <LandBehavior>SURFACE_FX,WALK_LOCOMOTOR,IDLE,TARGETING,WEAPON, STUNNABLE,REVEAL,HIDE_WHEN_FOGGED, INDIGENOUS_UNIT</LandBehavior>
+    <SurfaceFX_Name>Generic_Footprint, Infantry_Terrain_Modifier</SurfaceFX_Name>
+    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+    <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+    <CanCellStack>yes</CanCellStack>
+    <Select_Box_Scale>10</Select_Box_Scale>
+    <Select_Box_Z_Adjust>3.0f</Select_Box_Z_Adjust>
+    <Mass>1.0</Mass>
+    <GUI_Bracket_Width>5</GUI_Bracket_Width>
+    <GUI_Bracket_Height>0</GUI_Bracket_Height>
+    <GUI_Bracket_Size>0</GUI_Bracket_Size>
+    <Movement_Animation_Speed> 0.8 </Movement_Animation_Speed>
+    <Rotation_Animation_Speed> 20.0 </Rotation_Animation_Speed>
+    <Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
+    <Is_Combustible>yes</Is_Combustible>
+    <On_Fire_Speed_Modifier>1.2f</On_Fire_Speed_Modifier>
+    <Targeting_Allowed_When_Burning>no</Targeting_Allowed_When_Burning>
+    <Burning_Damage_Per_Second>0.1</Burning_Damage_Per_Second>
+
+    <Influences_Capture_Point>True</Influences_Capture_Point>
+
+    <Max_Speed>0.6</Max_Speed>
+    <Movement_Animation_Speed> .4 </Movement_Animation_Speed>
+    <Max_Rate_Of_Turn>8.0</Max_Rate_Of_Turn>
+    <Custom_Soft_Footprint_Radius> 3.5 </Custom_Soft_Footprint_Radius>
+    <Custom_Hard_XExtent> 9.0 </Custom_Hard_XExtent>
+    <Custom_Hard_YExtent> 3.0 </Custom_Hard_YExtent>
+    <Custom_Hard_XExtent_Offset> -6.0 </Custom_Hard_XExtent_Offset>
+    <Space_Layer> Land </Space_Layer>
+    <UnitCollisionClass> Vehicle </UnitCollisionClass>
+    <FormationSpacing> .5 </FormationSpacing>
+    <OverrideAcceleration> .075 </OverrideAcceleration>
+    <OverrideDeceleration> .075 </OverrideDeceleration>
+    <FormationOrder> 2 </FormationOrder>
+    <FormationGrouping> Standard </FormationGrouping>
+    <MovementClass>Infantry</MovementClass>
+
+    <Is_Squashable> true </Is_Squashable>
+    <Scale_Factor>1.5</Scale_Factor>
+    <Affiliation>Hutts</Affiliation>
+    <Required_Timeline>0</Required_Timeline>
+    <IsBuildable>No</IsBuildable>
+    <Size_Value>10</Size_Value>
+    <Armor_Type> Armor_Infantry </Armor_Type>
+    <Damage>3</Damage>
+    <Tactical_Health>40</Tactical_Health>
+
+    <Blob_Shadow_Below_Detail_Level>3</Blob_Shadow_Below_Detail_Level>
+    <Blob_Shadow_Scale>10.0, 10.0</Blob_Shadow_Scale>
+    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+    <Blob_Shadow_Bone_Name>B_Chest</Blob_Shadow_Bone_Name>
+
+    <Projectile_Types>Proj_Hand_Blaster_Red</Projectile_Types>
+    <Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
+    <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
+    <Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+    <Projectile_Appearance_Delay_Frames> 9 </Projectile_Appearance_Delay_Frames>
+
+    <Targeting_Fire_Inaccuracy> Infantry, 2.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Vehicle, 8.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Air, 70.0 </Targeting_Fire_Inaccuracy>
+    <Targeting_Fire_Inaccuracy> Structure, 8.0 </Targeting_Fire_Inaccuracy>
+
+    <Land_FOW_Reveal_Range>120.0</Land_FOW_Reveal_Range>
+    <Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier>
+    <Targeting_Max_Attack_Distance>90.0</Targeting_Max_Attack_Distance>
+    <Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
+
+    <SFXEvent_Select />
+    <SFXEvent_Move />
+    <SFXEvent_Attack />
+    <SFXEvent_Guard />
+    <SFXEvent_Fire>Unit_Chewie_Blaster_Fire</SFXEvent_Fire>
+    <Death_SFXEvent_Start_Die>Unit_Hutt_Death</Death_SFXEvent_Start_Die>
+
+    <Idle_Chase_Range>100.0</Idle_Chase_Range>
+    <Guard_Chase_Range>100.0</Guard_Chase_Range>
+    <Attack_Move_Response_Range>100.0</Attack_Move_Response_Range>
+    <Targeting_Priority_Set>AntiInfantry</Targeting_Priority_Set>
+    <AI_Combat_Power>6</AI_Combat_Power>
+
+    <CategoryMask> Infantry </CategoryMask>
+    <Victory_Relevant>No</Victory_Relevant>
+    <Weather_Category>Infantry</Weather_Category>
+
+    <OccupationStyle>1x1</OccupationStyle>
+    <Ground_Infantry_Turret_Target> Yes </Ground_Infantry_Turret_Target>
+    <Is_Squashable> Yes </Is_Squashable>
+
+    <Death_Fade_Time>0.25</Death_Fade_Time>
+    <Death_Persistence_Duration>0.0</Death_Persistence_Duration>
+
+    <Movie_Object>false</Movie_Object>
+
+  </Indigenous_Unit>
+</Data>

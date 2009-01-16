@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+<Hutt_Faction_Units>
+
+
+	<StarBase Name="Hutt_Asteroid_Base">
+		<Text_ID>TEXT_HUTT_STAR_BASE_1</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_STATION2</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_NB_APBase.tga</Icon_Name>
+
+		<Space_Model_Name>NB_APBase.ALO</Space_Model_Name>
+		<Galactic_Model_Name>i_Pirate_station.alo</Galactic_Model_Name>
+		<Select_Box_Scale>1200</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Is_Dummy>No</Is_Dummy>
+		<Affiliation>Hutts</Affiliation>
+		<IsBuildable>No</IsBuildable>
+		<AI_Combat_Power>6000</AI_Combat_Power>
+		<Size_Value>10</Size_Value>
+		<Tech_Level>9</Tech_Level>
+		<Base_Level>1</Base_Level>
+		<CategoryMask> Capital </CategoryMask>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<Behavior>DUMMY_STAR_BASE, SELECTABLE</Behavior>
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+		
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Armor_Type> Armor_Station </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_VWing_Squadron, 3</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_VWing_Squadron, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_IPV1_Craft, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>Hutt_IPV1_Craft, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_Marauder, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>Hutt_Marauder, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>
+
+		<Autoresolve_Health>750</Autoresolve_Health>
+		<Tactical_Health>1600</Tactical_Health>
+		<Shield_Points>300</Shield_Points>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Energy_Capacity>5000</Energy_Capacity>
+		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
+		<Damage>35</Damage>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+
+		<HardPoints>
+			HP_Pirate_Base_Fighter_Bay_00,
+			HP_Pirate_Base_Shield_Gen_00,
+			HP_Pirate_Base_Heavy_Turret_00,
+			HP_Pirate_Base_Heavy_Turret_01,
+			HP_Pirate_Base_Turbolaser_00,
+			HP_Pirate_Base_Turbolaser_01,
+			HP_Pirate_Base_Turbolaser_02,
+			HP_Pirate_Base_Turbolaser_03,
+			HP_Pirate_Base_Laser_Cannon_00,
+			HP_Pirate_Base_Laser_Cannon_01
+		</HardPoints>
+
+		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
+		<SFXEvent_Barrage>Unit_Barrage_Rebel_Space_Station</SFXEvent_Barrage>
+		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Death_Clone>Damage_Normal, Pirate_Asteroid_Base_Death_Clone</Death_Clone>
+		<Death_Explosions>Huge_Explosion_Space</Death_Explosions>
+		
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Custom_Soft_Footprint_Radius> 300 </Custom_Soft_Footprint_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+        <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
+		<Radar_Icon_Name>i_radar_station1_p.tga</Radar_Icon_Name>
+		<Score_Cost_Credits> 1500</Score_Cost_Credits>
+	</StarBase>
+
+
+<!-- HUTT STRUCTURES -->
+
+
+	<SpecialStructure Name="Hutt_Command_Center_Palace">
+		<Text_ID>TEXT_STRUCTURE_HUTT_COMMAND_CENTER</Text_ID>
+		<Encyclopedia_Text> TEXT_STRUCTURE_HUTT_COMMAND_CENTER_DES  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_jabba_palace.tga</Icon_Name>
+		
+		<Land_Model_Name>W_huttpalace_variant.alo</Land_Model_Name>
+		<Scale_Factor>0.8</Scale_Factor>
+		<GUI_Row> 0 </GUI_Row>
+		<Size_Value>50</Size_Value>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bounds_Scale>0.4</GUI_Bounds_Scale>
+
+		<Behavior>SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
+		<LandBehavior>LAND_OBSTACLE, SPACE_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,SPAWN_SQUADRON,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Affiliation>Hutts</Affiliation>
+		<Tech_Level>0</Tech_Level>
+		<Base_Position>In_Base</Base_Position>
+		<Tactical_Health>1200</Tactical_Health>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Hutt_Palace_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Hutt_Palace_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Hutt_Palace_Select_SFX </SFXEvent_Select>
+		
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Score_Cost_Credits> 8000 </Score_Cost_Credits>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_Soldier_Squad, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_PLEX_Soldier_Squad, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_PLEX_Soldier_Squad, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Starting_Spawned_Units_Tech_0>Hutt_Swamp_Speeder_Team, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_Swamp_Speeder_Team, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>Hutt_Pod_Walker_Team, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Hutt_Pod_Walker_Team, -1</Reserve_Spawned_Units_Tech_0>
+		
+		<Starting_Spawned_Units_Tech_0>Twilek_Commando_Company, 1</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Twilek_Commando_Company, -1</Reserve_Spawned_Units_Tech_0>
+
+		<Spawned_Squadron_Delay_Seconds>20</Spawned_Squadron_Delay_Seconds>		
+		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
+		<Spawned_Squadron_Location_Flyout_Distances>250.0</Spawned_Squadron_Location_Flyout_Distances>		
+		<Spawn_Garrison_On_Load>True</Spawn_Garrison_On_Load>
+		
+	</SpecialStructure>
+
+
+	<SpecialStructure Name="Hutt_Communications_Array">
+		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_COMM_ARRAY_00, TEXT_ENCYCLOPEDIA_COMM_ARRAY_01  </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_COMM_ARRAY_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_communications_array.tga</Icon_Name>
+
+		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<GUI_Row> 0 </GUI_Row>
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Select_Box_Scale>100</Select_Box_Scale>
+		<Mass>1.0</Mass>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop>Structure_Communications_Array_Loop</SFXEvent_Ambient_Loop>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		
+		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI, TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+
+		<Obstacle_Proxy_Type> Communications_Array_E_Build_Pad </Obstacle_Proxy_Type>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>
+
+		<Ownership_Sticks>Yes</Ownership_Sticks>
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>	
+
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>99</Tech_Level>
+
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Hutts</Affiliation>
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Tactical_Health>350</Tactical_Health>
+		<Autoresolve_Health>600</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>0</Energy_Capacity>
+		<Energy_Refresh_Rate>0</Energy_Refresh_Rate>
+
+		<Base_Level_Available>1</Base_Level_Available>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Property_Flags>InBase</Property_Flags>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Comm_Array_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Comm_Array_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Comm_Array_Select_SFX </SFXEvent_Select>
+		
+		<Score_Cost_Credits> 4000 </Score_Cost_Credits>
+   </SpecialStructure>
+
+
+	<SpecialStructure Name="Hutt_Ground_Base_Shield">
+		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_BASE_SHIELD_00  </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
+		<GUI_Row> 0 </GUI_Row>
+
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+
+		<Behavior>DUMMY_GROUND_STRUCTURE, SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,BASE_SHIELD,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,TERRAIN_TEXTURE_MODIFICATION,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>	
+		<Radar_Range_Icon_Name>i_radar_shield.tga</Radar_Range_Icon_Name>
+
+		<Obstacle_Proxy_Type> E_Ground_Base_Shield_Build_Pad </Obstacle_Proxy_Type>
+		<Terrain_Texture_Modifier_Material>62</Terrain_Texture_Modifier_Material>			
+		<Terrain_Texture_Modifier_Join_Distance>1.0</Terrain_Texture_Modifier_Join_Distance>	
+		<Terrain_Texture_Modifier_Square>true</Terrain_Texture_Modifier_Square>			
+
+		<Shield_On_Anim>SHIELD_ON</Shield_On_Anim>
+		<Shield_Off_Anim>SHIELD_OFF</Shield_Off_Anim>
+		<Base_Shield_Radius>740</Base_Shield_Radius>
+		<Base_Shield_Always_Off> False </Base_Shield_Always_Off>
+
+		<SecondaryOccupationPassability> Shield </SecondaryOccupationPassability>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Land</Death_Explosions>
+		<Ranged_Target_Z_Adjust>30.0</Ranged_Target_Z_Adjust>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bounds_Scale>0.05</GUI_Bounds_Scale>
+		<Is_Dummy>No</Is_Dummy>
+
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		<Obstacle_Width>40.0</Obstacle_Width>
+		<Obstacle_Height>40.0</Obstacle_Height>
+		<Obstacle_X_Offset>-20.0</Obstacle_X_Offset>
+		<Obstacle_Y_Offset>-20.0</Obstacle_Y_Offset>
+		<Fine_Tune_Occupied_Passability> false </Fine_Tune_Occupied_Passability>
+		
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+		<Custom_Hard_XExtent> 50.0 </Custom_Hard_XExtent>
+  		<Custom_Hard_YExtent> 50.0 </Custom_Hard_YExtent>
+ 		<Custom_Soft_Footprint_Radius> 40.0 </Custom_Soft_Footprint_Radius>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius>775</Reinforcement_Prevention_Radius>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+
+		<Shield_Normal_Color>0.2, 0.2, 0.8, 1.0</Shield_Normal_Color>
+		<Shield_Upgraded_Color>0.2, 0.7, 0.8, 1.0</Shield_Upgraded_Color>
+		
+		<Affiliation>Hutts</Affiliation>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>In_Base</Base_Position>
+		<Tech_Level>9</Tech_Level>
+
+		<Tactical_Additional_Structure_Type>Hutt_Power_Generator</Tactical_Additional_Structure_Type>
+		<Tactical_Health>650</Tactical_Health>
+		<Icon_Name>i_button_base_shield_generator.tga</Icon_Name>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Sabotage_Cost_Credits>4000</Sabotage_Cost_Credits>
+
+		<SFXEvent_Build_Started>EHD_Shield_Generator_Build</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Shield_Generator_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Shield_Generator_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Shield_Gen_Select_SFX </SFXEvent_Select>
+		<SFXEvent_Powered_Active_Loop> Structure_Shutter_Shield_Generator_Loop </SFXEvent_Powered_Active_Loop>
+		<SFXEvent_Ambient_Loop>Structure_Barracks_Loop</SFXEvent_Ambient_Loop>
+
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<CategoryMask> Structure </CategoryMask>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
+		<Property_Flags>InBase</Property_Flags>
+		<Movie_Object>false</Movie_Object>
+		<Abilities SubObjectList="Yes">
+			<Force_Healing_Ability Name="E_Base_Shield_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+		</Abilities>
+
+	</SpecialStructure>
+
+
+	<SpecialStructure Name="Hutt_Power_Generator">
+		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
+		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </Encyclopedia_Text>
+		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_POWER_GENERATOR_00 </MP_Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<GUI_Row> 0 </GUI_Row>
+		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
+		<Is_Community_Property>Yes</Is_Community_Property>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>20.0</Ranged_Target_Z_Adjust>
+		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE, HIDE_WHEN_FOGGED,DAMAGE_TRACKING,DUMMY_LAND_BASE_LEVEL_COMPONENT,UNIT_AI,EARTHQUAKE_TARGET,ION_STUN_EFFECT, STUNNABLE</LandBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+		<Size_Value>50</Size_Value>
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>99</Tech_Level>
+		<Icon_Name>i_button_power_generator.tga</Icon_Name>
+	
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Obstacle_Proxy_Type> Power_Generator_E_Build_Pad </Obstacle_Proxy_Type>		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+	
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.2  0.1</Radar_Icon_Size>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+
+		<Select_Box_Scale>180</Select_Box_Scale>
+		<Mass>1.0</Mass>
+		<Scale_Factor>0.75</Scale_Factor>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>800</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>50</Energy_Refresh_Rate>
+		<Affiliation>Hutts</Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Victory_Relevant>No</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+		
+		<Abilities SubObjectList="Yes">
+		
+			<Base_Power_Ability Name="H_Power_Plant_Base_Power">
+				<Activation_Style>Ground_Automatic</Activation_Style>
+			</Base_Power_Ability>
+
+			<Force_Healing_Ability Name="H_Power_Plant_Self_Repair">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Heal_Range>0.0</Heal_Range>
+				<Heal_Percent>0.025</Heal_Percent>
+				<Heal_Amount>0.0</Heal_Amount>
+				<Heal_Interval_In_Secs>5.0</Heal_Interval_In_Secs>
+				<Single_Target_Heal>Yes</Single_Target_Heal>
+				<Applicable_Unit_Categories />
+				<Applicable_Unit_Types />
+				<SFXEvent_Target_Affected />
+				<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+				<Owner_Light_Effect_Color>1.2, 1.2, 1.2</Owner_Light_Effect_Color>
+				<Owner_Light_Effect_Color2 />
+				<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+				<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+			</Force_Healing_Ability>
+			
+		</Abilities>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Power_Generator_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Power_Generator_Destroyed </SFXEvent_Unit_Lost>
+		<SFXEvent_Select> Structure_Power_Gen_Select_SFX </SFXEvent_Select>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Structure_Power_Generator_Cinematic_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
+	</SpecialStructure>
+
+
+</Hutt_Faction_Units>
+
+
+

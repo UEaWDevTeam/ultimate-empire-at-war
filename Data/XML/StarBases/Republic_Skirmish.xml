@@ -1,0 +1,394 @@
+<?xml version="1.0" ?>
+<Starbases>
+<StarBase Name="UEAW_Skirmish_Republic_Star_Base_1">
+		<Variant_Of_Existing_Type>UEAW_Republic_Star_Base_1</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			HP_Empire_Station_One_Supply_Dock,
+			HP_Empire_Station_One_Comm_Array,
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_03,
+			HP_Empire_Station_One_Fighter_Bay
+		</HardPoints>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				UEAW_Republic_TIE_Squadron,
+				ES_Level_Two_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base />
+		<Next_Level_Base>UEAW_Skirmish_Republic_Star_Base_2</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>30</Base_Income_Value>
+				<Base_Interval_In_Secs>10</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>20</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>UEAW_Skirmish_Republic_Star_Base_1</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+	</StarBase>
+
+	<StarBase Name="UEAW_Skirmish_Republic_Star_Base_2">
+		<Variant_Of_Existing_Type>UEAW_Republic_Star_Base_2</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			HP_Empire_Station_One_Supply_Dock,
+			HP_Empire_Station_One_Comm_Array,
+			HP_Empire_Station_One_00, 
+			HP_Empire_Station_One_01, 
+			HP_Empire_Station_One_02, 
+			HP_Empire_Station_One_03, 
+			HP_Empire_Station_One_Fighter_Bay,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02
+		</HardPoints>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				UEAW_Republic_TIE_Squadron,
+				ES_Level_Three_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>UEAW_Skirmish_Republic_Star_Base_1</Prev_Level_Base>
+		<Next_Level_Base>UEAW_Skirmish_Republic_Star_Base_3</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>35</Base_Income_Value>
+				<Base_Interval_In_Secs>12</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
+				<Activation_Style>UEAW_Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>25</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>Skirmish_Republic_Star_Base_2</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+	</StarBase>
+
+	<StarBase Name="UEAW_Skirmish_Republic_Star_Base_3">
+		<Variant_Of_Existing_Type>UEAW_Republic_Star_Base_3</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			HP_Empire_Station_One_Supply_Dock,
+			HP_Empire_Station_One_Comm_Array,
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_03,
+			HP_Empire_Station_One_Fighter_Bay,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01, 
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Three_00,
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02
+		</HardPoints>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				UEAW_Republic_TIE_Squadron,
+				ES_Level_Four_Starbase_Upgrade,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>UEAW_Skirmish_Republic_Star_Base_2</Prev_Level_Base>
+		<Next_Level_Base>UEAW_Skirmish_Republic_Star_Base_4</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>40</Base_Income_Value>
+				<Base_Interval_In_Secs>14</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>30</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>UEAW_Skirmish_Republic_Star_Base_3</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+	</StarBase>
+
+	<StarBase Name="UEAW_Skirmish_Republic_Star_Base_4">
+		<Variant_Of_Existing_Type>UEAW_Republic_Star_Base_4</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			HP_Empire_Station_One_Supply_Dock,
+			HP_Empire_Station_One_Comm_Array,
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_Fighter_Bay,
+			HP_Empire_Station_Two_00,
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Three_00, 
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Four_00, 
+			HP_Empire_Station_Four_01,
+			HP_Empire_Station_Four_02,
+			HP_Empire_Station_Four_03
+		</HardPoints>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				UEAW_Republic_TIE_Squadron,
+				ES_Level_Five_Starbase_Upgrade,
+
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>UEAW_Skirmish_Republic_Star_Base_3</Prev_Level_Base>
+		<Next_Level_Base>UEAW_Skirmish_Republic_Star_Base_5</Next_Level_Base>
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>45</Base_Income_Value>
+				<Base_Interval_In_Secs>16</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>35</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>UEAW_Skirmish_Republic_Star_Base_4</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+	</StarBase>
+
+	<StarBase Name="UEAW_Skirmish_Republic_Star_Base_5">
+		<Variant_Of_Existing_Type>UEAW_Republic_Star_Base_5</Variant_Of_Existing_Type>
+		<Is_Community_Property>Yes</Is_Community_Property>
+
+		<!-- Replacement List of Hardpoints -->
+		<HardPoints>
+			HP_Empire_Station_One_Supply_Dock,
+			HP_Empire_Station_One_Comm_Array,
+			HP_Empire_Station_One_00,
+			HP_Empire_Station_One_01,
+			HP_Empire_Station_One_02,
+			HP_Empire_Station_One_Fighter_Bay,
+			HP_Empire_Station_Two_00, 
+			HP_Empire_Station_Two_01,
+			HP_Empire_Station_Two_02,
+			HP_Empire_Station_Three_00,
+			HP_Empire_Station_Three_01,
+			HP_Empire_Station_Three_02,
+			HP_Empire_Station_Four_00,
+			HP_Empire_Station_Four_01,
+			HP_Empire_Station_Four_02,
+			HP_Empire_Station_Four_03,
+			HP_Empire_Station_Five_00,
+			HP_Empire_Station_Five_01,
+			HP_Empire_Station_Five_02,
+			HP_Empire_Station_Five_03
+		</HardPoints>
+		
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
+		<Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>
+
+		<!-- Tactical Production Options -->
+		<SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
+		<Tactical_Buildable_Objects_Multiplayer> 
+			Republic,
+				UEAW_Republic_TIE_Squadron,
+		</Tactical_Buildable_Objects_Multiplayer>
+		<Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
+	
+		<!-- Data to prevent this from being buildable in galactic mode -->
+		<Build_Cost_Credits>0</Build_Cost_Credits>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Build_Tab_Space_Station>No</Build_Tab_Space_Station>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!-- Base upgrade sequence -->
+		<Prev_Level_Base>UEAW_Skirmish_Republic_Star_Base_4</Prev_Level_Base>
+		<Next_Level_Base />
+		
+		<!-- Special Abilities unique to Skirmish mode -->
+		<Abilities SubObjectList="Yes">
+			<Income_Stream_Ability Name="E_Starbase_Income_Stream">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Base_Income_Value>55</Base_Income_Value>
+				<Base_Interval_In_Secs>18</Base_Interval_In_Secs>
+				<Split_Income_With_Allies>Yes</Split_Income_With_Allies>
+				<Split_Favors_Owner>No</Split_Favors_Owner>
+				<Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
+			</Income_Stream_Ability>
+			<Income_Stream_Mod_Ability Name="E_Supply_Dock_Income_Bonus">
+				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
+				<Income_Multiplier>1.0</Income_Multiplier>
+				<Income_Additive_Value>45</Income_Additive_Value>
+				<Interval_Multiplier>1.0</Interval_Multiplier>
+				<Stacking_Category>0</Stacking_Category>
+				<Target_Stream_Source>UEAW_Skirmish_Republic_Star_Base_5</Target_Stream_Source>
+				<Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
+				<Reverse_Application_Logic>No</Reverse_Application_Logic>
+			</Income_Stream_Mod_Ability>
+ 			<Enable_Radar_Ability Name="E_Comm_Array_Enable_Radar">
+ 				<Activation_Style>Skirmish_Automatic</Activation_Style>
+				<Initially_Enabled>No</Initially_Enabled>			<!-- This effect is controlled by the presence of the Comm Array hardpoint -->
+ 				<Affects_All_Allies>True</Affects_All_Allies>
+ 			</Enable_Radar_Ability>
+		</Abilities>
+		
+		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
+		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
+		<Visible_On_Radar_When_Fogged>False</Visible_On_Radar_When_Fogged>
+	</StarBase>
+</StarBase>
