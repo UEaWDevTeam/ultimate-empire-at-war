@@ -245,11 +245,7 @@
 
 	<Projectile Name="Proj_Ship_Ion_Cannon_Small">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>2</Projectile_Width>
-		<Projectile_Length>5</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
+		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_IonCannon </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
@@ -275,11 +271,7 @@
 	
 	<Projectile Name="Proj_Ship_Ion_Cannon">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
+		<Space_Model_Name>Proj_Ion_Standard.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_IonCannon </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
@@ -303,12 +295,8 @@
 
 	<Projectile Name="Proj_Ship_Ion_Cannon_Large">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>104,181,230,255</Projectile_Laser_Color>
-		<Scale_Factor>1.0</Scale_Factor>
+		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.2</Scale_Factor>
 		<Damage_Type> Damage_IonCannon_LRG </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -608,11 +596,7 @@
 
 	<Projectile Name="Proj_Ship_Turbolaser_Green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>139,230,104,255</Projectile_Laser_Color>
+		<Space_Model_Name>Proj_Turbo_Orange.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
@@ -648,19 +632,13 @@
 
    	<Projectile Name="Proj_Ship_Turbolaser_Green_Heavy">
 		<Variant_Of_Existing_Type>Proj_Ship_Turbolaser_Green</Variant_Of_Existing_Type>
-		<Projectile_Width>6</Projectile_Width>
-		<Projectile_Length>13</Projectile_Length>
 	</Projectile>
 
 
 
 	<Projectile Name="Proj_Ship_Turbolaser_Red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
+		<Space_Model_Name>Proj_Turbo_Red.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
