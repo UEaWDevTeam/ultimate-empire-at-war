@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <SpaceProps>
 
-
 	<!-- PLANET BACKDROPS -->
-
 
 	<SpaceProp Name="Alderaan_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_alderaan_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
-    <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-    <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
 		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -50,7 +48,6 @@
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
-	
 	<SpaceProp Name="Bonadan_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_bonadan_high.alo</Space_Model_Name>
@@ -65,7 +62,7 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<!-- When destroyed by tactical super weapon - Death Star -->
 		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
@@ -90,11 +87,11 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 		
 		<!-- When destroyed by tactical super weapon - Death Star -->
-	   <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-	   <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 
 	</SpaceProp>
@@ -103,7 +100,7 @@
 		<Text_ID />
 		<Space_Model_Name>w_planet_urban00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>0.25</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>75.0</Scale_Factor>
@@ -113,19 +110,19 @@
 		<In_Background> Yes </In_Background>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-	  <!-- When destroyed by tactical super weapon - Death Star -->
-	  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-	  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-	  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+	<!-- When destroyed by tactical super weapon - Death Star -->
+	<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+	<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+	<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Dagobah_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_dagobah_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -135,19 +132,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Desert_Backdrop">
 		<Text_ID />
 		<Space_Model_Name>w_planet_desert00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>0.25</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>45.0</Scale_Factor>
@@ -157,19 +154,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Desert_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_desert00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -179,19 +176,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Endor_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_endor_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -201,19 +198,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Eriadu_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_eriadu_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -223,19 +220,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Forest_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_forest00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -245,19 +242,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Gas_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_gas00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -267,19 +264,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Gas_Silver_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_gas_silver.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -289,19 +286,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+		
 	<SpaceProp Name="Geonosis_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_geonosis_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -311,19 +308,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-	
+		
 	<SpaceProp Name="Hoth_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_hoth_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -333,19 +330,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Ice_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ice00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -355,20 +352,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 	
-
 	<SpaceProp Name="Kamino_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_kamino_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -378,19 +374,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Kessel_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_kessel_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -400,19 +396,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Kuat_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_kuat_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -422,19 +418,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Moon_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>300.0</Scale_Factor>
@@ -443,19 +439,19 @@
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 	
 	<SpaceProp Name="Moon_Small">
 		<Text_ID />
 		<Space_Model_Name>w_planet_moon_high.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>150.0</Scale_Factor>
@@ -464,19 +460,19 @@
 		<In_Background> Yes </In_Background>
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Is_Visible_On_Radar> No </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Naboo_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_naboo_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -486,19 +482,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Ocean_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ocean00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -508,19 +504,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Ryloth_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ryloth_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -530,20 +526,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-
 
 	<SpaceProp Name="Ralltiir_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_ralltiir_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -553,19 +548,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Swamp_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_swamp00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -575,19 +570,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Tatooine_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_tatooine_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -597,19 +592,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-	  <!-- When destroyed by tactical super weapon - Death Star -->
-	  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-	  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-	  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+	<!-- When destroyed by tactical super weapon - Death Star -->
+	<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+	<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+	<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Temperate_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_temperate00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -619,19 +614,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Urban_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_urban00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -641,19 +636,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Urban_Desert_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>W_planet_desert-urban_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -663,19 +658,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Urban_Temperate_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>W_planet_alderaan-urban_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -685,19 +680,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 		
 	<SpaceProp Name="Volcanic_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_volcanic.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -707,19 +702,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="Wayland_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_wayland_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -729,19 +724,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name>
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar> 
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
 	<SpaceProp Name="YavinIV_Backdrop_Large">
 		<Text_ID />
 		<Space_Model_Name>w_planet_yavinIV_high.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -751,19 +746,19 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 			
 	<SpaceProp Name="Temperate_Backdrop">
 		<Text_ID />
 		<Space_Model_Name>w_planet_temperate00.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration> <!-- Anything with a behavior other than IDLE can not be tagged as a decoration -->
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod> 1.0 </Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>500.0</Scale_Factor>
@@ -773,14 +768,13 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
-		  <!-- When destroyed by tactical super weapon - Death Star -->
-		  <Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
-		  <Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
-		  <Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
+		<!-- When destroyed by tactical super weapon - Death Star -->
+		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
+		<Death_SFXEvent_Start_Die> Planet_Death_SFX </Death_SFXEvent_Start_Die>
+		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
-
 
 	<SpaceProp Name="Mustafar_Backdrop_Large">
 		<Text_ID />
@@ -796,7 +790,7 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<!-- When destroyed by tactical super weapon - Death Star -->
 		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
@@ -818,7 +812,7 @@
 		<Layer_Z_Adjust>-2500.0</Layer_Z_Adjust>
 		<Radar_Icon_Name>i_radar_planet.tga</Radar_Icon_Name> 
 		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 
 		<!-- When destroyed by tactical super weapon - Death Star -->
 		<Death_Explosions> Tactical_Planet_Explode_300x_Particle </Death_Explosions>
@@ -826,26 +820,7 @@
 		<Death_By_TSW_Replacements> Destroyed_Planet_Remains_Part_1, Destroyed_Planet_Remains_Part_2 </Death_By_TSW_Replacements>
 	</SpaceProp>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- END PLANET BACKDROPS -->
-
-
-
 
 	<!-- TACTICAL PLANET DESTRUCTION REMAINS -->
 
@@ -889,8 +864,6 @@
 
 	<!-- END TACTICAL PLANET DESTRUCTION REMAINS -->
 
-
-
 	<SpaceProp Name="Orbital_NightCloak_Dathomir">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>EB_construction_pod.alo</Space_Model_Name>
@@ -919,13 +892,12 @@
 		-->
 		
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
-      <Space_Obstacle_Radius> 30 </Space_Obstacle_Radius>
+	<Space_Obstacle_Radius> 30 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
-
 
 	<SpaceProp Name="Asteroid Medium">
 		<Text_ID />
@@ -945,14 +917,13 @@
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
-      <Space_Obstacle_Radius> 60 </Space_Obstacle_Radius>
+	<Space_Obstacle_Radius> 60 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
-	
-	
+		
 	<SpaceProp Name="Asteroid Large">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid01.alo</Space_Model_Name>
@@ -971,7 +942,7 @@
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
-      <Space_Obstacle_Radius> 90 </Space_Obstacle_Radius>
+	<Space_Obstacle_Radius> 90 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
@@ -984,7 +955,7 @@
 		<Is_Decoration> No </Is_Decoration>
 		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -996,7 +967,7 @@
 		-->
 
 		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
-      <Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
+	<Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 		<CategoryMask> Structure </CategoryMask>
@@ -1007,7 +978,7 @@
 		<Text_ID />
 		<Space_Model_Name>EB_DeathStar_Trench_A.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1019,7 +990,7 @@
 		<Text_ID />
 		<Space_Model_Name>EB_DeathStar_Flat_A.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1031,7 +1002,7 @@
 		<Text_ID />
 		<Space_Model_Name>EB_DeathStar_Port.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1043,7 +1014,7 @@
 		<Text_ID />
 		<Space_Model_Name>w_lightning.alo</Space_Model_Name>
 		<Is_Decoration> Yes </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1057,7 +1028,7 @@
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1072,12 +1043,11 @@
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 	
-
 	<SpaceProp Name="Asteroid Field Small">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_small.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1095,7 +1065,7 @@
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_med.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1108,13 +1078,14 @@
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
+		
+	<!-- jdg these are non-passable versions of asteroids needed for tutorial 3 xxx-->
 	
-		<!-- jdg these are non-passable versions of asteroids needed for tutorial 3 xxx-->
 	<SpaceProp Name="Fake Asteroid Field Large_NonPassable">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_blank.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1131,19 +1102,12 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Is_Decoration> No </Is_Decoration>
 	</SpaceProp>
-	
-
-	
-	
-	
-	
-	
-
+		
 	<SpaceProp Name="Fake Asteroid Field Medium_NonPassable">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid_mass_med_blank.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1163,226 +1127,222 @@
 		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
 		<Is_Decoration> No </Is_Decoration>
 	</SpaceProp>
-	
-	
-	
-	
+		
+	<SpaceProp Name="Nebula Small">
+		<Text_ID />
+		<Space_Model_Name>w_nebula03.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Small">
-        <Text_ID />
-        <Space_Model_Name>w_nebula03.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Medium">
+		<Text_ID />
+		<Space_Model_Name>w_nebula00.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Medium">
-        <Text_ID />
-        <Space_Model_Name>w_nebula00.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Large">
+		<Text_ID />
+		<Space_Model_Name>w_nebula01.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Large">
-        <Text_ID />
-        <Space_Model_Name>w_nebula01.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Huge">
+		<Text_ID />
+		<Space_Model_Name>w_nebula02.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Huge">
-        <Text_ID />
-        <Space_Model_Name>w_nebula02.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Friggin Huge">
+		<Text_ID />
+		<Space_Model_Name>w_nebula04.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Friggin Huge">
-        <Text_ID />
-        <Space_Model_Name>w_nebula04.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Small Ion">
+		<Text_ID />
+		<Space_Model_Name>w_nebula03_ion.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Small Ion">
-        <Text_ID />
-        <Space_Model_Name>w_nebula03_ion.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>Yes</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Medium Ion">
+		<Text_ID />
+		<Space_Model_Name>w_nebula00_ion.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Medium Ion">
-        <Text_ID />
-        <Space_Model_Name>w_nebula00_ion.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>Yes</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Large Ion">
+		<Text_ID />
+		<Space_Model_Name>w_nebula01_ion.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Large Ion">
-        <Text_ID />
-        <Space_Model_Name>w_nebula01_ion.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>Yes</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>w_nebula02_ion.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
-    <SpaceProp Name="Nebula Huge Ion">
-        <Text_ID />
-        <Space_Model_Name>w_nebula02_ion.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>Yes</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
-
-    <SpaceProp Name="Nebula Friggin Huge Ion">
-        <Text_ID />
-        <Space_Model_Name>w_nebula04_ion.alo</Space_Model_Name>
-        <Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
-        <Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
-        <Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-        <Scale_Factor>1.0</Scale_Factor>
-        <Behavior>SPACE_OBSTACLE, IDLE</Behavior>
-        <Sort_Order_Adjust>-1</Sort_Order_Adjust>
-        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-        <Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
-        <Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
-        <Is_Asteroid_Field> No </Is_Asteroid_Field>
-        <Is_Ion_Storm>No</Is_Ion_Storm>
-        <Is_Nebula> Yes </Is_Nebula>
-        <Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
-        <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
-        <Space_Layer> StaticObject </Space_Layer>
-    </SpaceProp>
+	<SpaceProp Name="Nebula Friggin Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>w_nebula04_ion.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
 
 	<SpaceProp Name="Space_Movement_Compass">
 		<Text_ID />
 		<Space_Model_Name> I_FACING_ARROW.ALO </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 	</SpaceProp>
@@ -1553,7 +1513,7 @@
 		<Text_ID />
 		<Space_Model_Name>W_SpaceJunk.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1580,7 +1540,7 @@
 		<Text_ID />
 		<Space_Model_Name>W_SpaceJunk_Med.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
 		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -1599,7 +1559,7 @@
 		<Text_ID />
 		<Space_Model_Name>W_SpaceJunk_Sml.alo</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SPACE_OBSTACLE, IDLE, UNIT_AI</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1616,7 +1576,7 @@
 		<Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
 		<Space_Model_Name>W_Star_Destroyer_Construction.ALO</Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1633,7 +1593,7 @@
 		<Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
 		<Space_Model_Name>RV_MonCalCruiser_Hulk.ALO</Space_Model_Name>
 		<Is_Decoration>No</Is_Decoration>
-        <Is_Discardable> No </Is_Discardable>
+		<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
@@ -1646,28 +1606,10 @@
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<!-- =================================================================================== -->
 	<!-- Break-off pieces from destroyed hard points, there are referenced in HardPoints.xml -->
 	<!-- NOTE: These all require the DEBRIS behavior                                         -->
 	<!-- =================================================================================== -->
-
 
 	<!-- Empire Star Destroyer break-off pieces... -->
 
@@ -1675,7 +1617,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_StarDestroyer_HP00_L-F.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1697,7 +1639,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_StarDestroyer_HP00_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1719,7 +1661,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_StarDestroyer_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1741,7 +1683,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_StarDestroyer_HP00_B-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1763,7 +1705,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_StarDestroyer_HP00_M-C.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1781,14 +1723,13 @@
 
 	</SpaceProp>
 
-
 	<!-- Mon Calimari Cruiser Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_MonCal_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_F-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1810,7 +1751,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1832,7 +1773,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1854,7 +1795,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_B-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1876,7 +1817,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_M-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1898,7 +1839,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_MonCalCruiser_HP00_M-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1916,14 +1857,13 @@
 
 	</SpaceProp>
 
-
-<!-- Nebulon-B Break-off Pieces -->
+	<!-- Nebulon-B Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Nebulon_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name> RV_nebulonb_HP00_F-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1945,7 +1885,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_nebulonb_HP00_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1967,7 +1907,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_nebulonb_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -1989,7 +1929,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_nebulonb_HP00_B-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2007,13 +1947,13 @@
 
 	</SpaceProp>
 
-<!-- Alliance Assault Frigate Break-off Pieces -->
+	<!-- Alliance Assault Frigate Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_AAFrigate_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name> RV_AssaultFrigate_HP00_F-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2035,7 +1975,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_AssaultFrigate_HP00_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2057,7 +1997,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_AssaultFrigate_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2097,13 +2037,13 @@
 
 	</SpaceProp>
 
-<!-- Victory Star Destroyer Break-off Pieces -->
+	<!-- Victory Star Destroyer Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Victory_Weapon_CF">
 		<Text_ID />
 		<Space_Model_Name> EV_VictoryStarDestroyer_HP00_C-F.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2125,7 +2065,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_VictoryStarDestroyer_HP00_M-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2147,7 +2087,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_VictoryStarDestroyer_HP00_M-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2187,14 +2127,13 @@
 
 	</SpaceProp>
 
-
-<!-- Interdictor Cruiser Break-off Pieces -->
+	<!-- Interdictor Cruiser Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Interdictor_Weapon_FL">
 		<Text_ID />
 		<Space_Model_Name> EV_Interdictor_HP00_F-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2216,7 +2155,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_Interdictor_HP00_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2238,7 +2177,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_Interdictor_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2260,7 +2199,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_Interdictor_HP00_B-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2279,9 +2218,7 @@
 
 	</SpaceProp>
 
-
-<!-- Acclamator Cruiser Break-off Pieces -->
-
+	<!-- Acclamator Cruiser Break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Acclamator_Weapon_FL">
 		<Text_ID />
@@ -2351,7 +2288,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_Acclamator_HP00_B-L.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2372,7 +2309,7 @@
 		<Text_ID />
 		<Space_Model_Name> EV_Acclamator_HP00_B-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2395,7 +2332,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_01_HP01_SHG.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2416,7 +2353,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_01_HP01_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2460,7 +2397,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_02_HP02_LC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2481,7 +2418,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_02_HP02_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2504,7 +2441,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_03_HP03_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2525,7 +2462,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_03_HP03_PRT.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2542,14 +2479,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Rebel Starbase 4 break-off pieces... -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Four_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name> RB_Station_04_HP04_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2570,7 +2506,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_04_HP04_LC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2591,7 +2527,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_04_HP04_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2612,7 +2548,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_04_HP04_SHG.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2629,14 +2565,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Rebel Starbase 5 break-off pieces... -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Rebel_Station_Five_Weapon_CCM">
 		<Text_ID />
 		<Space_Model_Name> RB_Station_05_HP05_CCM.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2657,7 +2592,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_05_HP05_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2678,7 +2613,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_05_HP05_PRT.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2699,7 +2634,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_05_HP05_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2720,7 +2655,7 @@
 		<Text_ID />
 		<Space_Model_Name> RB_Station_05_HP05_TBL2.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2743,7 +2678,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_01_HP01_CM.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2764,7 +2699,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_01_HP01_LC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2785,7 +2720,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_01_HP01_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2806,7 +2741,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_01_HP01_SHG.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2844,14 +2779,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Empire Starbase 2 break-off pieces... -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Two_Weapon_PRT">
 		<Text_ID />
 		<Space_Model_Name> EB_Station_02_HP02_PRT.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2893,7 +2827,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_02_HP02_LC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2910,14 +2844,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Empire Starbase 3 break-off pieces... -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Three_Weapon_CM">
 		<Text_ID />
 		<Space_Model_Name> EB_Station_03_HP03_CM.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2938,7 +2871,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_03_HP03_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2959,7 +2892,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_03_HP03_PRT.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -2976,14 +2909,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Empire Starbase 3 break-off pieces... -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Four_Weapon_IC">
 		<Text_ID />
 		<Space_Model_Name> EB_Station_04_HP04_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3004,7 +2936,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_04_HP04_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3021,15 +2953,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-
 	<!-- Empire Starbase 3 break-off pieces... -->
-
 
 	<SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_CM">
 		<Text_ID />
 		<Space_Model_Name> EB_Station_05_HP05_CM.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3050,7 +2980,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_05_HP05_IC.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3071,7 +3001,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_05_HP05_PRT.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3092,7 +3022,7 @@
 		<Text_ID />
 		<Space_Model_Name> EB_Station_05_HP05_TBL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3109,13 +3039,13 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
 
-<!-- Home One break-off Pieces -->
+	<!-- Home One break-off Pieces -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_HomeOne_Shield_Gen">
 		<Text_ID />
 		<Space_Model_Name> RV_HomeOne_HP_SHG.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3136,7 +3066,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_TBL_BL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3157,7 +3087,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_TBL_BR.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3178,7 +3108,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_TBL_FL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3199,7 +3129,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_TBL_FR.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3220,7 +3150,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_IC_BL.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3241,7 +3171,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_IC_BR.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3283,7 +3213,7 @@
 		<Text_ID />
 		<Space_Model_Name> RV_homeone_hp_IC_FR.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3304,7 +3234,7 @@
 		<Text_ID />
 		<Space_Model_Name> NV_Jedicruiser_HP_B-M.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3325,7 +3255,7 @@
 		<Text_ID />
 		<Space_Model_Name> NV_JediCruiser_hp_F-R.alo </Space_Model_Name>
 		<Is_Decoration> No </Is_Decoration>
-    <Is_Discardable> No </Is_Discardable>
+	<Is_Discardable> No </Is_Discardable>
 		<Scale_Factor> 1.0 </Scale_Factor>
 		<Sort_Order_Adjust> -1 </Sort_Order_Adjust>
 		<Tactical_Health> 100 </Tactical_Health>
@@ -3363,7 +3293,6 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-
 
 	<SpaceProp Name="Hardpoint_Breakoff_Pirate_Frigate_BL">
 		<Text_ID />
@@ -3430,11 +3359,8 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceProp>
-	
-	
-	
-
-<!-- PIRATE ASTEROID BASE BREAKOFF PIECES -->
+		
+		<!-- PIRATE ASTEROID BASE BREAKOFF PIECES -->
 
 	<SpaceProp Name="Hardpoint_Breakoff_Asteroid_Base_Hanger">
 		<Text_ID />
@@ -3658,7 +3584,6 @@
 
 	<!-- REBEL INTRO BACKDROP AND SHIPS -->
 
-
 	<!-- SpaceProp Name="MOV_REBEL_INTRO">
 
 		<Text_ID />
@@ -3675,11 +3600,42 @@
 
 	<!-- REBEL INTRO BACKDROP AND SHIPS END -->
 
-
 	<!-- ======================================================================================= -->
 	<!-- End Break-off pieces from destroyed hard points, there are referenced in HardPoints.xml -->
 	<!-- ======================================================================================= -->
 
-
-
+	<!-- UEAW Space Props -->
+	
+	<SpaceProp Name="PropOnly_Asteroid_Small00_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_00_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="PropOnly_Asteroid_Medium00_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_01_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="PropOnly_Asteroid_Medium01_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_02_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="PropOnly_Asteroid_Large00_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_03_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
 </SpaceProps>
