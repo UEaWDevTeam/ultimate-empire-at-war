@@ -1763,25 +1763,6 @@ Fynbos - Returned to Tech 4 for balance - Doro
 		<Population_Value>3</Population_Value>
 	</SpaceUnit>
 
-    <SpaceUnit Name="Acclamator_Death_Clone">
-	<Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
-		<Space_Model_Name>EV_Acclamator_D.ALO</Space_Model_Name>
-		<xxxSpace_Model_Name>EV_Acclamator.ALO</xxxSpace_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-		<Scale_Factor>0.85</Scale_Factor>
-		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
-		<Max_Speed>1.2</Max_Speed>
-		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
-		<Max_Thrust>1</Max_Thrust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>0</Bank_Turn_Angle>
-		<Affiliation>Rebel</Affiliation>
-		<Ship_Class>frigate</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-	</SpaceUnit>
-	
 	<SpaceUnit Name="Victory_Destroyer_No_Fighters">
 		<Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
 		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Good_Against>
@@ -2464,21 +2445,6 @@ Fynbos - Returned to Tech 4 for balance - Doro
   <Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
   </SpaceUnit>
   
-	<SpaceUnit Name="Star_Destroyer_Death_Clone">
-		<Variant_Of_Existing_Type>Executor_Death_Clone</Variant_Of_Existing_Type>
-		<Tech_Level>1</Tech_Level>
-		<Scale_Factor>.70</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Speed>0.25</Max_Speed>
-		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
-		<Max_Thrust>0.05</Max_Thrust>
-		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<Affiliation>Empire, Rebel, Underworld</Affiliation>
-		<Ship_Class>super</Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
-	
 <!-- Strategic Unit --><!-- Strategic Unit --><!-- Strategic Unit --><!-- Strategic Unit --><!-- Strategic Unit --><!-- Strategic Unit --><!-- Strategic Unit -->
 
 	<SpaceUnit Name="Interdictor_Cruiser">
