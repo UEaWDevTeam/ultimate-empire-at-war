@@ -238,27 +238,6 @@
 		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 	</UniqueUnit>
 
-	<UniqueUnit Name="Jedi_Cruiser_U">
-		<Variant_Of_Existing_Type>UEAW_Jedi_Cruiser</Variant_Of_Existing_Type>
-		<Affiliation>Underworld</Affiliation>
-		<Tech_Level>0</Tech_Level>
-		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>UHD_Reinforcements_Available</SFXEvent_Build_Complete>
-		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>2100</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Population_Value>3</Population_Value>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</UniqueUnit>
-
   <SpaceUnit Name="Hutt_Refurbished_Venator">
     <Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
     <Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Broadside_Class_Cruiser </Encyclopedia_Good_Against>
