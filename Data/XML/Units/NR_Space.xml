@@ -505,7 +505,7 @@
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 
-		<Death_Clone>Damage_Normal, Corellian_Corvette_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_Corellian_Corvette_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
@@ -637,7 +637,7 @@
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Corellian_Corvette_Death_Clone">
+	<SpaceUnit Name="NR_Corellian_Corvette_Death_Clone">
 		<Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID>
 		<Space_Model_Name>RV_Corvette_D.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>RV_Corvette.ALO</xxxSpace_Model_Name>
@@ -688,7 +688,7 @@
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 
-		<Death_Clone>Damage_Normal, Corellian_Gunboat_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_Corellian_Gunboat_Death_Clone</Death_Clone>
 		<Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
@@ -822,7 +822,7 @@
 		<Population_Value>2</Population_Value>
 	</SpaceUnit>
 
-	<SpaceUnit Name="Corellian_Gunboat_Death_Clone">
+	<SpaceUnit Name="NR_Corellian_Gunboat_Death_Clone">
 		<Text_ID>TEXT_UNIT_CORELLIAN_GUNBOAT</Text_ID>
 		<Space_Model_Name>RV_gunship_D.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>RV_gunship.ALO</xxxSpace_Model_Name>
@@ -921,7 +921,7 @@
 
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-		<Death_Clone>Damage_Normal, Nebulon_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_Nebulon_Death_Clone</Death_Clone>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
 		<HardPoints>
@@ -1032,7 +1032,7 @@
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</SpaceUnit>
    
-    <SpaceUnit Name="Nebulon_Death_Clone">
+    <SpaceUnit Name="NR_Nebulon_Death_Clone">
 		<Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID>
 		<Space_Model_Name>RV_nebulonb_D.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>RV_nebulonb_D_death_00.ALO</xxxSpace_Model_Name>
@@ -1300,7 +1300,7 @@
 		<Hyperspace_Speed>1</Hyperspace_Speed>
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<Death_Clone>Damage_Normal, MC80_HomeOneType_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, NR_MC80_HomeOneType_Death_Clone</Death_Clone>
 
 		<Affiliation>New_Republic</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1467,7 +1467,7 @@
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</SpaceUnit>
 	
-	<SpaceUnit Name="MC80_HomeOneType_Death_Clone">
+	<SpaceUnit Name="NR_MC80_HomeOneType_Death_Clone">
 		<Text_ID> UEAW_UNIT_MC80_LIBERTYTYPE </Text_ID>
 		<Space_Model_Name>RV_HOMEONE_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>

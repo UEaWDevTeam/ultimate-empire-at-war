@@ -448,7 +448,7 @@
 		
 	</GenericHeroUnit>
 
-  <GenericHeroUnit Name="Squad_Generic_Field_Commander_Empire">
+  <!--<GenericHeroUnit Name="Squad_Generic_Field_Commander_Empire">
     <Variant_Of_Existing_Type>Generic_Field_Commander_Empire</Variant_Of_Existing_Type>
     <LandBehavior>LANDING, SURFACE_FX, LAND_TEAM_INFANTRY_LOCOMOTOR,IDLE,WEAPON, STUNNABLE, REVEAL,HIDE_WHEN_FOGGED,DAMAGE_TRACKING</LandBehavior>
     <Is_Squashable> Yes </Is_Squashable>
@@ -461,9 +461,9 @@
     <Create_Team>Yes</Create_Team>
     <Select_Box_Scale>0</Select_Box_Scale>
 
-    <!-- Non-Hero unit abilities description -->
+    // Non-Hero unit abilities description 
     <Unit_Abilities_Data SubObjectList="Yes">
-      <!-- Primary ability -->
+     // Primary ability
       <Unit_Ability>
         <Type>SPREAD_OUT</Type>
         <Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
@@ -471,7 +471,7 @@
       </Unit_Ability>
     </Unit_Abilities_Data>
 
-  </GenericHeroUnit>
+  </GenericHeroUnit>-->
 
 
   <Container Name="Empire_Field_Commander_Team">
@@ -685,7 +685,7 @@
 
 	</Container>
 
-	<Container Name="Empire_Field_Commander_Team">
+	<!-- <Container Name="Empire_Field_Commander_Team">
 		<Select_Box_Scale>65</Select_Box_Scale>
 		<Text_ID>TEXT_HERO_UNIT_FIELD_EMPIRE</Text_ID>
 		<Encyclopedia_Good_Against> Rebel_Trooper </Encyclopedia_Good_Against>
@@ -728,9 +728,9 @@
 		<Autonomous_Move_Extension_Vs_Attacker>200.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Tactical_Bribe_Cost>150</Tactical_Bribe_Cost>
 		
-		<!-- Non-Hero unit abilities description -->
+		/* Non-Hero unit abilities description */
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+			/*Primary ability */
 			<Unit_Ability>
 				<Type>SPREAD_OUT</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER,	 0.5f</Mod_Multiplier>
@@ -741,7 +741,7 @@
 		
 	
 		<CategoryMask>Infantry</CategoryMask>
-	</Container>
+	</Container> -->
 
 
 	<GenericHeroUnit Name="Hutt_Field_Commander">

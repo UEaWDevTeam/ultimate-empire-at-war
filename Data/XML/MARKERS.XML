@@ -868,13 +868,13 @@
 		<Faction_Anim_Subindex>Empire, 1</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Neutral, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Pirates, 2</Faction_Anim_Subindex>
-		<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>
+		<!--<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>-->
 		<Faction_Anim_Subindex>Hostile, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Hutts, 2</Faction_Anim_Subindex>
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
 		<Control_Point_Domination_Condition_Relevant>Yes</Control_Point_Domination_Condition_Relevant>
-		<Affiliation>Neutral, Rebel, Empire, Pirates, Underworld, Hutts</Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, Pirates, <!--Underworld,--> Hutts</Affiliation>
 		<Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 		<Additional_Population_Capacity>100</Additional_Population_Capacity>
@@ -954,7 +954,7 @@
 		<Faction_Anim_Subindex>Empire, 1</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Neutral, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Pirates, 2</Faction_Anim_Subindex>
-		<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>
+		<!--<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>-->
 		<Faction_Anim_Subindex>Hostile, 2</Faction_Anim_Subindex>
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
@@ -1002,7 +1002,7 @@
 		<Faction_Anim_Subindex>Empire, 1</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Neutral, 2</Faction_Anim_Subindex>
 		<Faction_Anim_Subindex>Pirates, 2</Faction_Anim_Subindex>
-		<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>
+		<!--<Faction_Anim_Subindex>Underworld, 3</Faction_Anim_Subindex>-->
 		<Faction_Anim_Subindex>Hostile, 2</Faction_Anim_Subindex>
 
 		<Influences_Capture_Point>True</Influences_Capture_Point>
@@ -1021,7 +1021,7 @@
 
 
 
-	 <Marker Name="Reinforcement_Point_Underworld">
+	 <!--<Marker Name="Reinforcement_Point_Underworld">
 		<Text_ID> TEXT_TOOLTIP_REINFORCEMENT_POINT_NAME </Text_ID>
 		<Encyclopedia_Text> TEXT_TOOLTIP_REINFORCEMENT_POINT_DESCRIPTION  </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1066,7 +1066,7 @@
 	 <Marker Name="Reinforcement_Point_Underworld_Plus4_Cap">
 		<Variant_Of_Existing_Type>Reinforcement_Point_Underworld</Variant_Of_Existing_Type>
 		<Additional_Population_Capacity>4</Additional_Population_Capacity>
-	</Marker>
+	</Marker>-->
 
 
 
@@ -1173,7 +1173,7 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		
 		<Encyclopedia_Text> TEXT_ENCYCLOPEDIA_TURBOLASER_00 TEXT_TOOLTIP_UNIT_CAPTUREABLE_STRUCTURE </Encyclopedia_Text>
-		<Affiliation>Rebel, Empire, Neutral, Pirates, Underworld</Affiliation>
+		<Affiliation>Rebel, Empire, Neutral, Pirates, <!--Underworld--></Affiliation>
 	 </Marker>
 
     <Marker Name="Bonus_Spawn_Point">
