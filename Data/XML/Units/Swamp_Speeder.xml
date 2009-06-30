@@ -165,7 +165,7 @@
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	</GroundVehicle>
 
-	<GroundVehicle Name="Swamp_Speeder_U">
+	<!--<GroundVehicle Name="Swamp_Speeder_U">
 		<Variant_Of_Existing_Type>Swamp_Speeder</Variant_Of_Existing_Type>
 		<Encyclopedia_Good_Against> Stormtrooper Rebel_Trooper </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> AT_ST_Walker Plex_Soldier UC_Empire_Buildable_Anti_Vehicle_Turret </Encyclopedia_Vulnerable_To>
@@ -173,7 +173,7 @@
 		<Affiliation>Underworld</Affiliation>
 		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundVehicle>
+	</GroundVehicle>-->
 	
 	<GroundVehicle Name="Swamp_Speeder_P">
 		<Variant_Of_Existing_Type>Swamp_Speeder</Variant_Of_Existing_Type>
@@ -303,8 +303,8 @@
 
   </GroundCompany>
 
-  <GroundCompany Name="Underworld_Swamp_Speeder_Team">
-    <!--Multiplayer Only-->
+  <!-- <GroundCompany Name="Underworld_Swamp_Speeder_Team">
+    
     <Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
 
     <Affiliation>Underworld</Affiliation>
@@ -314,20 +314,19 @@
     <SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
     <SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+    
     <Tactical_Build_Cost_Multiplayer>575</Tactical_Build_Cost_Multiplayer>
     <Tactical_Build_Time_Seconds>8</Tactical_Build_Time_Seconds>
     <Tactical_Build_Prerequisites />
     <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-    <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-    <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+    <Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
     <Score_Cost_Credits>250</Score_Cost_Credits>
     <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
     <Encyclopedia_Text>TEXT_TOOLTIP_SWAMP_SPEEDER</Encyclopedia_Text>
 
   </GroundCompany>
-
+ -->
 
   <GroundVehicle Name="Hutt_Swamp_Speeder">
     <Variant_Of_Existing_Type>Swamp_Speeder</Variant_Of_Existing_Type>

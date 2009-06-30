@@ -6,8 +6,8 @@
 		<Blob_Shadow_Scale>75.0, 20.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_PIRATE_SKIFF</Text_ID>
-		<Encyclopedia_Good_Against> AT_ST_Walker T2B_Tank Underworld_Merc</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Plex_Soldier M1_Repulsor_Tank MZ8_Pulse_Cannon_Tank</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> AT_ST_Walker T2B_Tank </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Plex_Soldier M1_Repulsor_Tank </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
@@ -174,13 +174,13 @@
 		<Destruction_Survivors> Rebel_Trooper, 1.0 </Destruction_Survivors>
 	</GroundVehicle>
 	
-	<GroundVehicle Name="Pirate_Skiff_U">
+	<!--<GroundVehicle Name="Pirate_Skiff_U">
 		<Variant_Of_Existing_Type>Skiff</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Destruction_Survivors> Underworld_Merc_Skiff_Pilot, 1.0 </Destruction_Survivors>
 		<Land_Model_Name>NV_Pskiff.ALO</Land_Model_Name>
 		<Destruction_Survivors />
-	</GroundVehicle>
+	</GroundVehicle>-->
 
 	<GroundVehicle Name="Pirate_Skiff_Captured">
 		<Variant_Of_Existing_Type>Skiff</Variant_Of_Existing_Type>
@@ -282,9 +282,8 @@
   </GroundCompany>
 
 
-  <GroundCompany Name="Underworld_Skiff_Team">
-    <!--Multiplayer Only-->
-    <Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
+  <!--<GroundCompany Name="Underworld_Skiff_Team">
+     <Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
 
     <Affiliation>Underworld</Affiliation>
 
@@ -294,19 +293,18 @@
     <SFXEvent_Tactical_Build_Complete> UHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>
     <SFXEvent_Tactical_Build_Cancelled> UHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
 
-    <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
     <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
     <Tactical_Build_Time_Seconds>7</Tactical_Build_Time_Seconds>
     <Tactical_Build_Prerequisites />
     <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-    <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-    <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-    <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+    <Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>
+    <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>
+    
 
     <Encyclopedia_Text>TEXT_TOOLTIP_SKIFF</Encyclopedia_Text>
     <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
-  </GroundCompany>
+  </GroundCompany>-->
 
 
   <GroundVehicle Name="Hutt_Skiff">
