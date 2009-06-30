@@ -704,33 +704,6 @@
 
 	<!-- Space Special things -->
 
-	<!-- MAY BE OBSOLETE -->
-	<Projectile Name="Proj_DS_Superlaser">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_LARGEG.ALO</Space_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>1.3</Projectile_Width>
-		<Projectile_Length>19.4</Projectile_Length>
-		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Default </Damage_Type>
-		<Max_Speed>25.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2500.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>30000.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>500</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Huge_Explosion_Space </Projectile_Object_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle></Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle></Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>600000</AI_Combat_Power>
-	</Projectile>
-
 	<!-- Special space projectile to instantly detonate and reveal the map via the "FOW Reveal Ping" unit ability -->
 	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -1196,37 +1169,6 @@
 		<AI_Combat_Power>3000</AI_Combat_Power>
 	</Projectile>
 
-	<!--Ueaw adds ram type thing for a-wing hero -->
-	<Projectile Name="Proj_Ship_Arvel_Crynyd">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>rv_AWing.ALO</Space_Model_Name>
-		<Projectile_Custom_Render>2</Projectile_Custom_Render>
-		<Projectile_Width>5</Projectile_Width>
-		<Projectile_Length>10</Projectile_Length>
-		<Projectile_Texture_Slot>2,0</Projectile_Texture_Slot>
-		<Projectile_Laser_Color>238,71,54,255</Projectile_Laser_Color>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Arvel </Damage_Type>
-		<Max_Speed>5</Max_Speed>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance> <!-- was 1200 -->
-		<Projectile_Max_Scan_Range>0.0</Projectile_Max_Scan_Range>	<!-- was 750, changed so it doesn't reacquire targets -->
-		<Projectile_Damage>20.0</Projectile_Damage>
-		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle> Conc_Missile_Detonation_Particle </Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Large_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle></Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle></Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle></Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>600</AI_Combat_Power>
-	</Projectile>
 
 	<!-- Ground Infantry Lazors and Indeginous -->
 
@@ -2070,7 +2012,7 @@
 		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
 		<AI_Combat_Power>5</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate>SFX_Grenade_Detonation</Projectile_SFXEvent_Detonate>
-
+	</Projectile>
 	<!-- Ground Speicals and Sabers -->
 
 		<Projectile Name="Proj_Exploding_Land_Barrel_Detonation">
@@ -4225,7 +4167,7 @@
 		<AI_Combat_Power>5</AI_Combat_Power>
 	</Projectile>
 
-</Projectile>
+
 
 	<!-- UEAW Projectiles (evilbobthebob) -->
 
