@@ -538,7 +538,7 @@
 
 	</GroundStructure>
 
-	<GroundStructure Name="Underworld_Mass_Driver_Turret">
+	<!--<GroundStructure Name="Underworld_Mass_Driver_Turret">
 		<Variant_Of_Existing_Type> Abstract_Mass_Driver_Turret </Variant_Of_Existing_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Land_Model_Name>UB_TurretMST50.alo</Land_Model_Name>
@@ -555,9 +555,9 @@
 		<Blob_Shadow_Scale>30.0, 30.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<SFXEvent_Sold_Tactical> UHD_Turret_Sold </SFXEvent_Sold_Tactical>
-		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 
-	</GroundStructure>
+	</GroundStructure>-->
 
 
 
@@ -608,7 +608,7 @@
 
 	</GroundStructure>
 
-	<GroundStructure Name="Underworld_Torpedo_Turret">
+	<!--<GroundStructure Name="Underworld_Torpedo_Turret">
 		<Variant_Of_Existing_Type> Abstract_Torpedo_Turret </Variant_Of_Existing_Type>
 		
 		<Land_Model_Name>UB_TurretPTL05.alo</Land_Model_Name>
@@ -628,9 +628,9 @@
 		
 		<SFXEvent_Fire>Unit_MPTL_Tank_Fire</SFXEvent_Fire>
 		<SFXEvent_Sold_Tactical> UHD_Turret_Sold </SFXEvent_Sold_Tactical>
-		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 
-	</GroundStructure>
+	</GroundStructure>-->
 
 
 
@@ -1185,7 +1185,7 @@
 	</GroundBuildable>
 
 
-	<GroundStructure Name="Underworld_Rocket_Pod">
+	<!--<GroundStructure Name="Underworld_Rocket_Pod">
 	
 		<Variant_Of_Existing_Type> Abstract_Turret </Variant_Of_Existing_Type>
 		
@@ -1235,10 +1235,10 @@
 		<AI_Combat_Power>125</AI_Combat_Power>
 		<Score_Cost_Credits> 1300 </Score_Cost_Credits>
 
-		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	<!-- Event for turret while rotating to fire  -->
+		<SFXEvent_Turret_Rotating_Loop> Structure_Turret_Motor </SFXEvent_Turret_Rotating_Loop>	
 		<SFXEvent_Select>Structure_Turret_Select_SFX</SFXEvent_Select>
 
-	</GroundStructure>
+	</GroundStructure>-->
 
 	<GroundBuildable Name="UC_Underworld_Rocket_Pod">
 
