@@ -361,10 +361,6 @@
   						T2B_Tank,
   						T4B_Tank,
   						HAV_Juggernaut,
-  						Canderous_Assault_Tank,
-  						F9TZ_Cloaking_Transport,
-  						MAL_Rocket_Vehicle,
-  						MZ8_Pulse_Cannon_Tank
   				</Applicable_Unit_Types>
   				
   				<Activation_Min_Range>0.0</Activation_Min_Range>
@@ -472,8 +468,8 @@
 	<!-- The Millennium Falcon is used by Han Solo & Chewbacca (Rebel Major Hero) during space battles -->
 	<UniqueUnit Name="Millennium_Falcon">
 		<Text_ID>TEXT_UNIT_MILLENNIUM_FALCON</Text_ID>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout Skipray_Blastboat</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Crusader_Gunship</Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MILLENNIUM_FALCON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_han_solo_chewbacca.tga</Icon_Name>

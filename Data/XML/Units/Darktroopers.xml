@@ -432,7 +432,7 @@
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Destroyer_Droid, T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
+				<Applicable_Unit_Types>T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 		</Abilities>
@@ -520,7 +520,7 @@
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Destroyer_Droid, T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
+				<Applicable_Unit_Types>T2B_Tank, TIE_Crawler </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 			
@@ -532,8 +532,8 @@
 	<GroundVehicle Name="Dark_Trooper_PhaseIII">
 		<LOD_Bias>2</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P3</Text_ID>
-		<Encyclopedia_Good_Against> T4B_Tank MZ8_Pulse_Cannon_Tank </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> T4B_Tank  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Land_Model_Name>EI_DARKTROOP_THREE.ALO</Land_Model_Name>
@@ -747,8 +747,8 @@
 	<GroundCompany Name="DarkTrooper_P3_Company">
 		<LOD_Bias>2</LOD_Bias>
 		<Text_ID>TEXT_UNIT_DARKTROOPER_P3</Text_ID>
-		<Encyclopedia_Good_Against> T4B_Tank MZ8_Pulse_Cannon_Tank </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> MPTL MAL_Rocket_Vehicle Underworld_Torpedo_Turret  </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> T4B_Tank  </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> MPTL  </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_DARKTROOPER_P3</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_DROID</Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_ei_darktrooper_three.tga</Icon_Name>
@@ -845,7 +845,7 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_ARC_HAMMER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Nebulon_B_Frigate </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Vulnerable_To> Y-wing  </Encyclopedia_Vulnerable_To>
 
 		<Space_Model_Name>EV_archammer.alo</Space_Model_Name>
 		<Icon_Name>i_button_Rom_Mohc.tga</Icon_Name>

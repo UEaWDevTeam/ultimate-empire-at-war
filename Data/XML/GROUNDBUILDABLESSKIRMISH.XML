@@ -43,13 +43,13 @@
 				UC_Underworld_Buildable_Repair_Facility,
 				UC_Underworld_Buildable_Sensor_Node,-->
 			
-			Hutts,
+			<!--Hutts,
 				UC_Hutt_Grenade_Mortar,
 				UC_Hutt_Rapid_Fire_Laser_Turret,
 				UC_Hutt_Anti_Aircraft_Turret,
 				UC_Hutt_Buildable_Bacta_Tank,
 				UC_Hutt_Buildable_Repair_Facility,
-				UC_Hutt_Buildable_Sensor_Node
+				UC_Hutt_Buildable_Sensor_Node-->
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -79,13 +79,13 @@
 				UC_Underworld_Buildable_Bacta_Tank,
 				UC_Underworld_Buildable_Repair_Facility,
 				UC_Underworld_Buildable_Sensor_Node,-->
-			Hutts,
+			<!--Hutts,
 				UC_Hutt_Grenade_Mortar,
 				UC_Hutt_Rapid_Fire_Laser_Turret,
 				UC_Hutt_Anti_Aircraft_Turret,
 				UC_Hutt_Buildable_Bacta_Tank,
 				UC_Hutt_Buildable_Repair_Facility,
-				UC_Hutt_Buildable_Sensor_Node
+				UC_Hutt_Buildable_Sensor_Node-->
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Text_ID> TEXT_EMPIRE_BUILD_PAD </Text_ID>
@@ -546,8 +546,8 @@
 				UC_E_Ground_Base_Shield, 
 			Rebel,
 				UC_R_Ground_Base_Shield,
-			Underworld,
-				UC_U_Ground_Base_Shield,  
+			<!--Underworld,
+				UC_U_Ground_Base_Shield,-->  
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Minimum_Time_Before_Pad_Can_Build_Again> 40.0 </Minimum_Time_Before_Pad_Can_Build_Again>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
@@ -918,8 +918,8 @@
 				UC_E_Small_Ground_Base_Shield, 
 			Rebel,
 				UC_R_Small_Ground_Base_Shield,
-			Underworld,
-				UC_U_Small_Ground_Base_Shield,  
+			<!--Underworld,
+				UC_U_Small_Ground_Base_Shield,-->  
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
 		<Behavior>TACTICAL_BUILD_OBJECTS,REVEAL</Behavior>
@@ -1587,8 +1587,8 @@
 				UC_E_Ground_Turbolaser_Tower, 
 			Rebel,
 				UC_R_Ground_Turbolaser_Tower,
-			Underworld,
-				UC_U_Ground_Turbolaser_Tower, 
+			<!--Underworld,
+				UC_U_Ground_Turbolaser_Tower, -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Affiliation>Neutral, Rebel, Empire, Underworld</Affiliation>
@@ -3605,8 +3605,8 @@
 				UC_Empire_Mineral_Processor, 
 			Rebel,
 				UC_Rebel_Mineral_Processor,
-			Underworld,
-				UC_Underworld_Mineral_Processor, 
+			<!--Underworld,
+				UC_Underworld_Mineral_Processor, -->
 		</Tactical_Buildable_Objects_Multiplayer>
 		
 		<Minimum_Time_Before_Pad_Can_Build_Again> 30.0 </Minimum_Time_Before_Pad_Can_Build_Again>
@@ -4279,7 +4279,7 @@
    </GroundBuildable>
    
    
-   <GroundBuildable Name="U_Ground_Droid_Works_Build_Pad">
+    <GroundBuildable Name="U_Ground_Droid_Works_Build_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -4526,10 +4526,10 @@
 				UC_Ground_Hutt_Palace_R,
 				UC_R_Uplink_Station, 
 
-			Underworld,
+			<!--Underworld,
 				UC_Underwold_Ground_Mining_Facility,
 				UC_Ground_Hutt_Palace_U,
-				UC_U_Ground_Gravity_Generator,				
+				UC_U_Ground_Gravity_Generator,-->			
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
@@ -5066,8 +5066,8 @@
 				UC_Empire_Bunker, 
 			Rebel,
 				UC_Rebel_Bunker, 
-			Underworld,
-				UC_Underworld_Bunker,
+			<!--Underworld,
+				UC_Underworld_Bunker,-->
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -5076,8 +5076,8 @@
 				UC_Empire_Bunker, 
 			Rebel,
 				UC_Rebel_Bunker, 
-			Underworld,
-				UC_Underworld_Bunker,
+			<!--Underworld,
+				UC_Underworld_Bunker,-->
 
 		</Tactical_Buildable_Objects_Multiplayer>
 		
