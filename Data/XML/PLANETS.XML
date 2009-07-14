@@ -73,27 +73,23 @@ a guide.  The number after the rating is used for the Underworld Black Market mo
 	4	=	Semi-Urban, Large population with plentifiul Tech (Sullust)	(0)
 	5	=	Megalopolis, Huge urban and industrial centers (Coruscant)	(-200)
 
-Black Market Modifier
+Zoomed Terrain Index
+	
+Terrain displayed when the player zooms in on the planet. 
 
-This modifier adds or subtracts from the base cost of items on the Underworld Black Market menu. It
-is a sum of the two ratings in the above tech measurements.  It can also be further modified per planet
-for special circumstances (such as the unlikelihood of finding a black market in The Maw).
-
-Corruption Type Values
-
-Supported planetary corruption types can be one of the following values:
-	* Corruption_Intimidation
-	* Corruption_Piracy
-	* Corruption_Kidnapping
-	* Corruption_Racketeering
-	* Corruption_Corrupt_Militia
-	* Corruption_Bribery
-	* Corruption_Black_Market
-	* Corruption_Bonded_Citizens
-
-A tactical battle will be launched if the corruption choice has valid entries for:
-	<Corruption_X_Tactical_Game_Mode> and <Corruption_X_Tactical_Map_Name>
-
+0 temperate, 
+1 desert, 
+2 Swamp, 
+3 volcanic, 
+4 arctic, 5 forest, 
+6 city, 
+7 asteroid, 
+8 blank, 
+9 Kamino, 
+10 Utapau, 
+11 Bespin, 
+12 Felucia
+	
 -->
 
 	<Planet Name="Abregado_Rae">
@@ -131,8 +127,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_ABREGADORAE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ABREGADORAE_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_ABREGADORAE_INFO_TER</Describe_Terrain>
@@ -166,17 +161,6 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 			</Reduce_Production_Price_Ability>
 		</Abilities>
 
-		<!--<Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
-		<Corruption_1_Credit_Cost> 1500 </Corruption_1_Credit_Cost>
-		<Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
-		<Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-		<Corruption_1_Success_Speech_Event>ABREGADORAE_BRB_VICTORY_COR01_01</Corruption_1_Success_Speech_Event>
-		<Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name>
-		<Corruption_1_Failure_Speech_Event />
-		<Corruption_1_Failure_Bink_Hologram_Name />
-		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ABREGADORAE_STORY_BRIBERY</Corruption_1_Mission_Briefing>
-		
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>-->
 	</Planet>
 
 	<Planet Name="AetenII">
@@ -215,7 +199,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
 		<Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-		<Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_AETENII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_AETENII_INFO_WL</Describe_Wildlife>
@@ -237,43 +221,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
-		<!--<Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
-		<Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-		<Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
-		<Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-		<Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
-		<Corruption_1_Tactical_Map_Name> _Space_Planet_AetenII_Piracy.ted </Corruption_1_Tactical_Map_Name>
-		<Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_AetenII_Piracy.xml </Corruption_1_Tactical_Script_Name>
-		<Corruption_1_Mission_Commencing_Speech_Event>AETENII_PIR_LOAD_COR02_01</Corruption_1_Mission_Commencing_Speech_Event>
-		<Corruption_1_Success_Speech_Event>AETENII_PIR_VICTORY_COR02_03</Corruption_1_Success_Speech_Event>
-		<Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
-		<Corruption_1_Failure_Speech_Event>AETENII_PIR_LOSS_COR02_04</Corruption_1_Failure_Speech_Event>
-		<Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
-		<Corruption_1_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_PIRACY</Corruption_1_Mission_Briefing>
-		<Corruption_1_Success_Unlock_Unit_Type>Underworld_TIE_Defender_Squadron</Corruption_1_Success_Unlock_Unit_Type>
-
-		<Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
-		<Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-		<Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
-		<Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-		<Corruption_2_Required_Unit_Type> Underworld_Disruptor_Merc </Corruption_2_Required_Unit_Type>
-		<Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
-		<Corruption_2_Success_Speech_Event> AETENII_RKT_VICTORY_COR02_05 </Corruption_2_Success_Speech_Event>
-		<Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-		<Corruption_2_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_RACKETEER</Corruption_2_Mission_Briefing>
-		
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>-->
-		
 	</Planet>
 
 	<Planet Name="Alderaan">
-		<Zoomed_Terrain_Index>8</Zoomed_Terrain_Index>
+		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
-		<Destroyed_Galactic_Model_Name />
-		<GUI_Model_Name>W_planet_Asteroids.alo</GUI_Model_Name>
+		<Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
+		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+		<GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.8</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -288,7 +245,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Credit_Value>20</Planet_Credit_Value>
 		<Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
 		<Galactic_Position>83.0, 29.0, 10.0</Galactic_Position>
-		<Special_Structures_Land>0</Special_Structures_Land>
+		<Special_Structures_Land>5</Special_Structures_Land>
 		<Special_Structures_Space>2</Special_Structures_Space>
 		<Max_Space_Base>5</Max_Space_Base>
 		<The_Force>Neutral</The_Force>
@@ -298,14 +255,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Surface_Accessible> No </Planet_Surface_Accessible>
 		<Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
 
-		<Land_Tactical_Map />
-		<Space_Tactical_Map>_Space_Planet_Alderaan_01.ted</Space_Tactical_Map>
+		<Land_Tactical_Map>_Land_Planet_Alderaan_02.ted</Land_Tactical_Map> <!-- needs updating for FoC markers -->
+		<Space_Tactical_Map>_Space_Planet_Alderaan_01.ted</Space_Tactical_Map> 
 
 		<Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-			<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+			
 
 		<Describe_Population>TEXT_PLANET_ALDERAAN_INFO_POP_02</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ALDERAAN_INFO_WILDLIFE_02</Describe_Wildlife>
@@ -323,13 +280,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
 		<Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
 		<Planet_Ability_Icon>i_pa_base_stealth_space.tga</Planet_Ability_Icon>
-		<Planet_Starbase_Stealth>Yes</Planet_Starbase_Stealth>
-		<Native_Icon_Name />
+		<Planet_Starbase_Stealth>No</Planet_Starbase_Stealth>
+		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
+		<Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
 
-		<Additional_Population_Capacity>3</Additional_Population_Capacity>
+		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 		
-		<Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-
 	</Planet>
 
 	<!--<Planet Name="Alderaan_alive"> Shouldn't need this any more, just edit the dead version. Uncomment this if needed.
@@ -367,7 +323,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ALDERAAN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ALDERAAN_INFO_WL</Describe_Wildlife>
@@ -462,7 +418,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
 		<Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ALZOCIII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ALZOCIII_INFO_WL</Describe_Wildlife>
@@ -546,7 +502,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Rebel_Ground_Shutter_Shield</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ANAXES_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ANAXES_INFO_WL</Describe_Wildlife>
@@ -653,7 +609,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Ground_Light_Vehicle_Factory</Planet_Slice_Affinity_Types>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ATZERRI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ATZERRI_INFO_WL</Describe_Wildlife>
@@ -745,7 +701,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>UEAW_PLANET_BASTION_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_BASTION_WL</Describe_Wildlife>
@@ -833,7 +789,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_BESPIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESPIN_INFO_WL</Describe_Wildlife>
@@ -919,7 +875,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_BESPIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESPIN_INFO_WL</Describe_Wildlife>
@@ -1011,7 +967,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_BESTINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BESTINE_INFO_WL</Describe_Wildlife>
@@ -1105,7 +1061,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_BONADAN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BONADAN_INFO_WL</Describe_Wildlife>
@@ -1193,7 +1149,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
+		
 
 		<Potential_Indigenous_Power>Bothan_Civilian, 150</Potential_Indigenous_Power>
 
@@ -1318,7 +1274,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, Rebel_Orbital_Long_Range_Scanner, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>2000</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_BYSS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BYSS_INFO_WL</Describe_Wildlife>
@@ -1413,7 +1369,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>1100</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_CARIDA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CARIDA_INFO_WL</Describe_Wildlife>
@@ -1518,8 +1474,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_CORELLIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORELLIA_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_CORELLIA_INFO_TER</Describe_Terrain>
@@ -1616,7 +1571,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_CORULAG_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORULAG_INFO_WL</Describe_Wildlife>
@@ -1714,7 +1669,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_CORUSCANT_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_CORUSCANT_INFO_WL</Describe_Wildlife>
@@ -1795,7 +1750,7 @@ Fynbos
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_DATHOMIR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DATHOMIR_INFO_WL</Describe_Wildlife>
@@ -1886,7 +1841,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_DAGOBAH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DAGOBAH_INFO_WL</Describe_Wildlife>
@@ -1956,7 +1911,7 @@ Fynbos
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_DANTOOINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_DANTOOINE_INFO_WL</Describe_Wildlife>
@@ -2042,7 +1997,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_FELUCIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FELUCIA_INFO_WL</Describe_Wildlife>
@@ -2144,7 +2099,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Ability_Name>UEAW_PLANETINFO_STEALTH_SPACE</Planet_Ability_Name>
 		<Planet_Ability_Description>UEAW_PLANET_EBAQ9_ENCYC</Planet_Ability_Description>
 
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 		<Planet_Ability_Icon>i_pa_base_stealth_space.tga</Planet_Ability_Icon>
 		<Planet_Starbase_Stealth>Yes</Planet_Starbase_Stealth>
 
@@ -2204,7 +2159,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ENDOR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ENDOR_INFO_WL</Describe_Wildlife>
@@ -2283,7 +2238,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>200</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ERIADU_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ERIADU_INFO_WL</Describe_Wildlife>
@@ -2375,7 +2330,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+	
 
 		<Describe_Population>TEXT_PLANET_FELUCIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FELUCIA_INFO_WL</Describe_Wildlife>
@@ -2463,7 +2418,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_FONDOR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FONDOR_INFO_WL</Describe_Wildlife>
@@ -2562,7 +2517,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_FRESIA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_FRESIA_INFO_WL</Describe_Wildlife>
@@ -2655,7 +2610,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility, R_Ground_Heavy_Vehicle_Factory, R_Ground_Light_Vehicle_Factory, Rebel_Heavy_Tank_Brigade</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_GEONOSIS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_GEONOSIS_INFO_WL</Describe_Wildlife>
@@ -2753,7 +2708,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>UEAW_PLANET_HAPES_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_HAPES_WL</Describe_Wildlife>
@@ -2852,7 +2807,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_HONOGHR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HONOGHR_INFO_WL</Describe_Wildlife>
@@ -2947,7 +2902,6 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
 		<Describe_Population>TEXT_PLANET_HONOGHR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HONOGHR_INFO_WL</Describe_Wildlife>
@@ -3037,8 +2991,7 @@ Fynbos
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_HOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HOTH_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_HOTH_INFO_TER</Describe_Terrain>
@@ -3109,7 +3062,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>-300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_HYPORI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_HYPORI_INFO_WL</Describe_Wildlife>
@@ -3188,7 +3141,7 @@ Fynbos
 
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_ILUM_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_ILUM_INFO_WL</Describe_Wildlife>
@@ -3267,7 +3220,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		
 
 		<Planet_Restricted_Unit_Categories />
 		
@@ -3376,7 +3329,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_KAMINO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KAMINO_INFO_WL_00</Describe_Wildlife>
@@ -3476,7 +3429,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>1300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_KAMINO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KAMINO_INFO_WL_00</Describe_Wildlife>
@@ -3566,7 +3519,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_KASHYYYK_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KASHYYYK_INFO_WL</Describe_Wildlife>
@@ -3648,7 +3601,7 @@ Fynbos
 		<Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_KESSEL_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KESSEL_INFO_WL</Describe_Wildlife>
@@ -3733,7 +3686,7 @@ Fynbos
 
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>800</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_AETENII_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KORRIBAN_INFO_WL</Describe_Wildlife>
@@ -3820,7 +3773,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>MC80_LibertyType</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_KUAT_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_KUAT_INFO_WL</Describe_Wildlife>
@@ -3921,7 +3874,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>UEAW_PLANET_LOK_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_LOK_WL</Describe_Wildlife>
@@ -4024,7 +3977,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MANAAN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANAAN_INFO_WL</Describe_Wildlife>
@@ -4094,7 +4047,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -4191,7 +4144,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -4284,7 +4237,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MANDALORE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MANDALORE_INFO_WL</Describe_Wildlife>
@@ -4381,7 +4334,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>UEAW_PLANET_MECHIS3_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_MECHIS3_WL</Describe_Wildlife>
@@ -4495,7 +4448,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>MC80_LibertyType</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MONCALAMARI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MONCALAMARI_INFO_WL</Describe_Wildlife>
@@ -4594,7 +4547,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MUSTAFAR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MUSTAFAR_INFO_WL</Describe_Wildlife>
@@ -4686,7 +4639,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>1200</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MUUNILINST_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MUUNILINST_INFO_WL</Describe_Wildlife>
@@ -4770,7 +4723,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>-500</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_MYRKR_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_MYRKR_INFO_WL</Describe_Wildlife>
@@ -4843,7 +4796,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_NABOO_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NABOO_INFO_WL</Describe_Wildlife>
@@ -4939,7 +4892,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -5043,7 +4996,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -5179,7 +5132,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
-		<Planet_Black_Market_Modifier>-1000</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_NALHUTTA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_NALHUTTA_INFO_WL</Describe_Wildlife>
@@ -5275,8 +5228,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>UEAW_PLANET_ONDERON_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_ONDERON_WL</Describe_Wildlife>
 		<Describe_Terrain>UEAW_PLANET_ONDERON_TER</Describe_Terrain>
@@ -5373,8 +5325,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_POLUS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_POLUS_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_POLUS_INFO_TER</Describe_Terrain>
@@ -5462,8 +5413,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_TATOOINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_TATOOINE_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TATOOINE_INFO_TER</Describe_Terrain>
@@ -5546,8 +5496,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_RYLOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_RYLOTH_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_RYLOTH_INFO_TER</Describe_Terrain>
@@ -5635,8 +5584,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_RYLOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_RYLOTH_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_RYLOTH_INFO_TER</Describe_Terrain>
@@ -5724,8 +5672,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_SALEUCAMI_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SALEUCAMI_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SALEUCAMI_INFO_TER</Describe_Terrain>
@@ -5822,8 +5769,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_SHOLA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SHOLA_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_SHOLA_INFO_TER</Describe_Terrain>
@@ -5893,8 +5839,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_RYLOTH_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_RYLOTH_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_RYLOTH_INFO_TER</Describe_Terrain>
@@ -6003,7 +5948,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Corellian_Gunboat, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_SULLUST_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_SULLUST_INFO_WL</Describe_Wildlife>
@@ -6097,8 +6042,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, R_Orbital_Jamming_Station, Corellian_Gunboat, MC80_LibertyType, Nebulon_B_Frigate, Rebel_Orbital_Long_Range_Scanner, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>-100</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_TARIS_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_TARIS_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TARIS_INFO_TER</Describe_Terrain>
@@ -6195,8 +6139,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>-400</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_TATOOINE_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_TATOOINE_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_TATOOINE_INFO_TER</Describe_Terrain>
@@ -6289,8 +6232,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>1000</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_THEMAW_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_THEMAW_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_THEMAW_INFO_TER</Describe_Terrain>
@@ -6355,8 +6297,7 @@ Fynbos -->
 		<Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
-		<Planet_Black_Market_Modifier>700</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_THYFERRA_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_THYFERRA_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_THYFERRA_INFO_TER</Describe_Terrain>
@@ -6444,8 +6385,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
-		
+				
 		<Describe_Population>UEAW_PLANET_TRANDOSHA_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_TRANDOSHA_WL</Describe_Wildlife>
 		<Describe_Terrain>UEAW_PLANET_TRANDOSHA_TER</Describe_Terrain>
@@ -6519,8 +6459,7 @@ Fynbos -->
 		<Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_UTAPAU_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_UTAPAU_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_UTAPAU_INFO_TER</Describe_Terrain>
@@ -6616,8 +6555,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
-		<Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_VERGESSO_INFO_WEA</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_VERGESSO_INFO_WEA</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_VERGESSO_INFO_TER</Describe_Terrain>
@@ -6683,8 +6621,7 @@ Fynbos -->
 		<Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
-		<Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
-
+		
 		<Describe_Population>TEXT_PLANET_WAYLAND_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_WAYLAND_INFO_WL</Describe_Wildlife>
 		<Describe_Terrain>TEXT_PLANET_WAYLAND_INFO_TER</Describe_Terrain>
@@ -6774,7 +6711,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>300</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>UEAW_PLANET_YAGA_MINOR_POP</Describe_Population>
 		<Describe_Wildlife>UEAW_PLANET_YAGA_MINOR_WL</Describe_Wildlife>
@@ -6874,7 +6811,7 @@ Fynbos
 		<Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
 		<Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types>A_Wing_Squadron, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
-		<Planet_Black_Market_Modifier>900</Planet_Black_Market_Modifier>
+		
 
 		<Describe_Population>TEXT_PLANET_YAVIN_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_YAVIN_INFO_WL</Describe_Wildlife>
