@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+
+<Campaigns>
+	
+	<!-- GC Style Guide -->
+	
+<!-- ************************************************ -->
+<!-- *** SANDBOX CAMPAIGN "UEAW Version 1 Testing" ** -->
+<!-- ************************************************ -->
+	
+<!-- Repeat this entire section for each faction playable in the GC, swapping AI control and planets for each -->
+	
+	<Campaign Name="Version1_Test_Campaign_Rebel"> <!--GC name in XML-->
+
+		<Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
+
+		<Text_ID>TEXT_V1_TESTING</Text_ID> <!--GC name in game-->
+		<Description_Text>TEXT_V1_TESTING_DESCRIPTION</Description_Text> <!-- GC description in game -->
+
+		<Camera_Shift_X> 0.0 </Camera_Shift_X> <!--initial camera pos-->
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y> <!--initial camera pos-->
+		<Camera_Distance> 1200.0 </Camera_Distance> <!--camera zoom (1200 is standard on all GCs)-->
+
+		<Locations> 
+				Galaxy_Core_Art_Model,
+				Abregado_Rae,
+				AetenII, 
+				Alderaan, 
+				AlzocIII, 
+				Anaxes, 
+				Atzerri,
+				Bastion,
+				Bespin, 
+				Bestine, 
+				Bonadan, 
+				Bothawui, 
+				Byss, 
+				Carida, 
+				Corellia, 
+				Corulag, 
+				Coruscant, 
+				Dagobah, 
+				Dantooine, 
+				Dathomir, 
+				Dxun,
+				Ebaq9,
+				Endor, 
+				Eriadu, 
+				Felucia, 
+				Fondor, 
+				Fresia, 
+				Geonosis, 
+				Hapes,
+				Honoghr, 
+				Hoth, 
+				Hypori, 
+				Ilum, 
+				Jabiim, 
+				Kamino, 
+				Kashyyyk, 
+				Kessel, 
+				Korriban, 
+				Kuat, 
+				Lok,
+				Manaan, 
+				Mandalore,
+				Mechis3,
+				MonCalimari, 
+				Mustafar, 
+				Muunilinst, 
+				Myrkr, 
+				Naboo, 
+				NalHutta,
+				Onderon, 
+				Polus,
+				Praesitlyn,
+				Ryloth, 
+				Saleucami, 
+				Shola, 
+				Sluis_Van,
+				Sullust, 
+				Taris, 
+				Tatooine, 
+				The_Maw, 
+				Thyferra,
+				Trandosha,
+				Utapau, 
+				VergessoAsteroids, 
+				Wayland,
+				Yaga_Minor,
+				Yavin 
+		
+		</Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+		<Trade_Routes> 
+			Polus_Thyferra, 
+				AlzocIII_Carida, 
+				Hoth_Mustafar, 
+				Mandalore_Utapau, 
+				Mandalore_Naboo, 
+				Bespin_Byss, 
+				Bespin_Naboo, 
+				Abregado_Rae_Byss,
+				Abregado_Rae_Jabiim,
+				Byss_Tatooine, 
+				Byss_Coruscant, 
+				Bothawui_Byss, 
+				Bothawui_Tatooine, 
+				Bothawui_Mandalore,
+				Bothawui_Kuat, 
+				Bothawui_Honoghr, 
+				Anaxes_Coruscant, 
+				Anaxes_Kuat, 
+				Felucia_Kuat, 
+				Honoghr_Korriban,
+				Muunilinst_Wayland,
+				Muunilinst_Saleucami,
+				Dathomir_Myrkr
+		</Trade_Routes> <!--hyperspace lanes, comma separated-->
+
+		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_2_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+
+        <Empire_Story_Name>UEAW_Story_Sandbox_GC_2_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
+		
+		<!-- Win Conditions -->
+
+		<Good_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled,
+				Galactic_Opponent_Controls_No_Planets
+		</Good_Victory_Conditions> <!--Good side win conditions, self explanatory. These are some examples-->
+
+		<Evil_Victory_Conditions>
+				Galactic_All_Planets_Controlled,
+				Galactic_Opponent_Controls_No_Planets,
+				Galactic_Super_Weapon_Destroys_Last_Enemy_Planet
+		</Evil_Victory_Conditions> <!--Evil side win conditions, self explanatory. These are some examples-->
+		
+		<Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
+		
+		<Home_Location>Rebel, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+		<Home_Location>Empire, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+		
+		<Starting_Active_Player>Rebel </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+		
+		<AI_Player_Control>Empire, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+		<AI_Player_Control>Rebel, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+		<AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
+		
+		<Markup_Filename></Markup_Filename> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
+		
+		
+		<Show_Completed_Tab>False</Show_Completed_Tab> <!--True/False. Controls display of completed missions tab in the mission holocron dialogue. Set to 'False' in FoC when the extra mini missions in GC were removed. --> 
+		
+	<!-- Starting Objects Faction 1-->
+
+		<Starting_Credits> Rebel, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+		<Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Hero Units -->
+		<Starting_Forces> </Starting_Forces>	
+				
+	
+	
+	
+	
+	<!-- Starting Objects Faction 2-->
+
+		<Starting_Credits> Empire, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+		<Starting_Tech_Level>5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Hero Units -->
+		<Starting_Forces> </Starting_Forces>
+		
+	<!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
+	
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+	</Campaign>
+	
+	<Campaign Name="Version1_Test_Campaign_Empire"> <!--GC name in XML-->
+
+		<Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
+
+		<Text_ID>TEXT_V1_TESTING</Text_ID> <!--GC name in game-->
+		<Description_Text>TEXT_V1_TESTING_DESCRIPTION</Description_Text> <!-- GC description in game -->
+
+		<Camera_Shift_X> 0.0 </Camera_Shift_X> <!--initial camera pos-->
+		<Camera_Shift_Y> 0.0 </Camera_Shift_Y> <!--initial camera pos-->
+		<Camera_Distance> 1200.0 </Camera_Distance> <!--camera zoom (1200 is standard on all GCs)-->
+
+		<Locations> 
+				Galaxy_Core_Art_Model,
+				Abregado_Rae,
+				AetenII, 
+				Alderaan, 
+				AlzocIII, 
+				Anaxes, 
+				Atzerri,
+				Bastion,
+				Bespin, 
+				Bestine, 
+				Bonadan, 
+				Bothawui, 
+				Byss, 
+				Carida, 
+				Corellia, 
+				Corulag, 
+				Coruscant, 
+				Dagobah, 
+				Dantooine, 
+				Dathomir, 
+				Dxun,
+				Ebaq9,
+				Endor, 
+				Eriadu, 
+				Felucia, 
+				Fondor, 
+				Fresia, 
+				Geonosis, 
+				Hapes,
+				Honoghr, 
+				Hoth, 
+				Hypori, 
+				Ilum, 
+				Jabiim, 
+				Kamino, 
+				Kashyyyk, 
+				Kessel, 
+				Korriban, 
+				Kuat, 
+				Lok,
+				Manaan, 
+				Mandalore,
+				Mechis3,
+				MonCalimari, 
+				Mustafar, 
+				Muunilinst, 
+				Myrkr, 
+				Naboo, 
+				NalHutta,
+				Onderon, 
+				Polus,
+				Praesitlyn,
+				Ryloth, 
+				Saleucami, 
+				Shola, 
+				Sluis_Van,
+				Sullust, 
+				Taris, 
+				Tatooine, 
+				The_Maw, 
+				Thyferra,
+				Trandosha,
+				Utapau, 
+				VergessoAsteroids, 
+				Wayland,
+				Yaga_Minor,
+				Yavin 
+		
+		</Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+		<Trade_Routes> 
+			Polus_Thyferra, 
+				AlzocIII_Carida, 
+				Hoth_Mustafar, 
+				Mandalore_Utapau, 
+				Mandalore_Naboo, 
+				Bespin_Byss, 
+				Bespin_Naboo, 
+				Abregado_Rae_Byss,
+				Abregado_Rae_Jabiim,
+				Byss_Tatooine, 
+				Byss_Coruscant, 
+				Bothawui_Byss, 
+				Bothawui_Tatooine, 
+				Bothawui_Mandalore,
+				Bothawui_Kuat, 
+				Bothawui_Honoghr, 
+				Anaxes_Coruscant, 
+				Anaxes_Kuat, 
+				Felucia_Kuat, 
+				Honoghr_Korriban,
+				Muunilinst_Wayland,
+				Muunilinst_Saleucami,
+				Dathomir_Myrkr
+		</Trade_Routes> <!--hyperspace lanes, comma separated-->
+
+		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_2_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+
+        <Empire_Story_Name>UEAW_Story_Sandbox_GC_2_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+
+		<Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
+		
+		<!-- Win Conditions -->
+
+		<Good_Victory_Conditions>
+				Galactic_Super_Weapon_Destruction,
+				Galactic_All_Planets_Controlled,
+				Galactic_Opponent_Controls_No_Planets
+		</Good_Victory_Conditions> <!--Good side win conditions, self explanatory. These are some examples-->
+
+		<Evil_Victory_Conditions>
+				Galactic_All_Planets_Controlled,
+				Galactic_Opponent_Controls_No_Planets,
+				Galactic_Super_Weapon_Destroys_Last_Enemy_Planet
+		</Evil_Victory_Conditions> <!--Evil side win conditions, self explanatory. These are some examples-->
+		
+		<Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
+		
+		<Home_Location>Rebel, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+		<Home_Location>Empire, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+		
+		<Starting_Active_Player>Empire </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+		
+		<AI_Player_Control>Empire, SandboxHuman </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+		<AI_Player_Control>Rebel, BasicRebel </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+		<AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
+		
+		<Markup_Filename></Markup_Filename> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
+		
+		
+		<Show_Completed_Tab>False</Show_Completed_Tab> <!--True/False. Controls display of completed missions tab in the mission holocron dialogue. Set to 'False' in FoC when the extra mini missions in GC were removed. --> 
+		
+	<!-- Starting Objects Faction 1-->
+
+		<Starting_Credits> Rebel, 50000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+		<Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Hero Units -->
+		<Starting_Forces> </Starting_Forces>	
+				
+	
+	
+	
+	
+	<!-- Starting Objects Faction 2-->
+
+		<Starting_Credits> Empire, 5000000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+		<Starting_Tech_Level>5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Hero Units -->
+		<Starting_Forces> </Starting_Forces>
+		
+	<!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
+	
+	<!--Duplicate the set of tags below for each planet-->
+		
+		<!-- Starting Structures -->
+		<Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+		
+		<!-- Starting Land Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+		<!-- Starting Space Units -->
+		<Starting_Forces> </Starting_Forces>		
+		
+	</Campaign>
+	
+</Campaigns>
