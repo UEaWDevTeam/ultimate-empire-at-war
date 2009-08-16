@@ -962,6 +962,8 @@
 		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
 	</SpaceProp>
 
+	<!-- ASTEROID PROPS -->
+	
 	<SpaceProp Name="Asteroid Small">
 		<Text_ID />
 		<Space_Model_Name>w_asteroid02.alo</Space_Model_Name>
@@ -1062,6 +1064,78 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
 
+	
+
+	<SpaceProp Name="Asteroid_Small_Semi_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_00_SF.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Medium_Semi_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_01_SF.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Large_Semi_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_02_SF.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Huge_Semi_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_03_SF.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	
+	
+	<SpaceProp Name="Asteroid_Small_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_00_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Medium_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_01_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Large_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_02_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	<SpaceProp Name="Asteroid_Huge_Frozen">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Prop_Asteroid_03_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+	</SpaceProp>
+	
+	
+	<!-- END OF ASTEROID PROPS -->
+	
+	
 	<SpaceProp Name="DeathStar Trench">
 		<Text_ID />
 		<Space_Model_Name>EB_DeathStar_Trench_A.alo</Space_Model_Name>
@@ -3692,38 +3766,5 @@
 	<!-- End Break-off pieces from destroyed hard points, there are referenced in HardPoints.xml -->
 	<!-- ======================================================================================= -->
 
-	<!-- UEAW Space Props -->
-	
-	<SpaceProp Name="PropOnly_Asteroid_Small00_Frozen">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>Prop_Asteroid_00_F.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>2.0</Scale_Factor>
-	</SpaceProp>
-	
-	<SpaceProp Name="PropOnly_Asteroid_Medium00_Frozen">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>Prop_Asteroid_01_F.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>2.0</Scale_Factor>
-	</SpaceProp>
-	
-	<SpaceProp Name="PropOnly_Asteroid_Medium01_Frozen">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>Prop_Asteroid_02_F.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>2.0</Scale_Factor>
-	</SpaceProp>
-	
-	<SpaceProp Name="PropOnly_Asteroid_Large00_Frozen">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>Prop_Asteroid_03_F.alo</Space_Model_Name>
-		<Is_Decoration> No </Is_Decoration>
-		<Is_Discardable> No </Is_Discardable>
-		<Scale_Factor>2.0</Scale_Factor>
-	</SpaceProp>
 	
 </SpaceProps>
