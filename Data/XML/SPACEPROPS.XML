@@ -1426,6 +1426,8 @@
 		<Is_Decoration> No </Is_Decoration>
 	</SpaceProp>
 		
+		<!-- NEBULAE BEGIN -->
+		
 	<SpaceProp Name="Nebula Small">
 		<Text_ID />
 		<Space_Model_Name>w_nebula03.alo</Space_Model_Name>
@@ -1636,6 +1638,644 @@
 		<Space_Layer> StaticObject </Space_Layer>
 	</SpaceProp>
 
+	
+	
+	<SpaceProp Name="Nebula_2_Small">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_2.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Medium">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_2.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Large">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_2.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_2.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Friggin Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_2.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Small Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_2_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Medium Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_2_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Large Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_2_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_2_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_2_Friggin Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_2_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+
+	<SpaceProp Name="Nebula_3_Small">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_3.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Medium">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_3.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Large">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_3.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_3.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Friggin Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_3.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Small Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_3_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Medium Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_3_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Large Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_3_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_3_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_3_Friggin Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_3_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+
+
+	<SpaceProp Name="Nebula_4_Small">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_4.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Medium">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_4.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Large">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_4.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_4.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Friggin Huge">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_4.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Small Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_SMALL_4_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 135 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Medium Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_MEDIUM_4_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 570 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Large Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_LARGE_4_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 630 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_HUGE_4_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>Yes</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+	<SpaceProp Name="Nebula_4_Friggin Huge Ion">
+		<Text_ID />
+		<Space_Model_Name>W_NEBULA_FHUGE_4_ION.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Is_Visible_On_Radar> Yes </Is_Visible_On_Radar>
+		<Is_Asteroid_Field> No </Is_Asteroid_Field>
+		<Is_Ion_Storm>No</Is_Ion_Storm>
+		<Is_Nebula> Yes </Is_Nebula>
+		<Space_Obstacle_Radius> 2800 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+	</SpaceProp>
+
+
+	<!-- NEBULAE END -->
+	
 	<SpaceProp Name="Space_Movement_Compass">
 		<Text_ID />
 		<Space_Model_Name> I_FACING_ARROW.ALO </Space_Model_Name>
