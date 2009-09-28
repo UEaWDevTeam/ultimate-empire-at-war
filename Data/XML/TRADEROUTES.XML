@@ -27,9 +27,9 @@
 
 <!-- Rimma Trade Route -->
 
-    <TradeRoute Name="Thyferra_Fondor">
+	<TradeRoute Name="Abregado_Rae_Fondor">
 		
-            <Point_A>Thyferra</Point_A>
+            <Point_A>Abregado_Rae</Point_A>
             <Point_B>Fondor</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -37,19 +37,20 @@
         
     </TradeRoute>
 
-    <TradeRoute Name="Fondor_Abregado_Rae">
+    <TradeRoute Name="Fondor_Thyferra">
 		
             <Point_A>Fondor</Point_A>
-            <Point_B>Abregado_Rae</Point_B>
+            <Point_B>Thyferra</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
     </TradeRoute>
 
-    <TradeRoute Name="Abregado_Rae_Sullust">
+   
+    <TradeRoute Name="Thyferra_Sullust">
 		
-            <Point_A>Abregado_Rae</Point_A>
+            <Point_A>Thyferra</Point_A>
             <Point_B>Sullust</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -67,10 +68,20 @@
         
     </TradeRoute>
     
-    <TradeRoute Name="Eriadu_Dagobah">
+    <TradeRoute Name="Eriadu_Praesitlyn">
 		
             <Point_A>Eriadu</Point_A>
-            <Point_B>Dagobah</Point_B>
+            <Point_B>Praesitlyn</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	    <TradeRoute Name="Praesitlyn_Sluis_Van">
+		
+            <Point_A>Praesitlyn</Point_A>
+            <Point_B>Sluis_Van</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -79,19 +90,19 @@
 
 <!-- Perlemian Trade Route (partial) -->
 
-      <TradeRoute Name="Anaxes_Coruscant">
+      <TradeRoute Name="Coruscant_Anaxes">
 		
-            <Point_A>Anaxes</Point_A>
-            <Point_B>Coruscant</Point_B>
+            <Point_A>Coruscant</Point_A>
+            <Point_B>Anaxes</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
             <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
         
     </TradeRoute>
  
-    <TradeRoute Name="Coruscant_Corulag">
+    <TradeRoute Name="Anaxes_Corulag">
 		
-            <Point_A>Coruscant</Point_A>
+            <Point_A>Anaxes</Point_A>
             <Point_B>Corulag</Point_B>
             <HS_Speed_Factor>5.0</HS_Speed_Factor>
             <Political_Control_Gain>0</Political_Control_Gain>
@@ -101,8 +112,26 @@
 
 
 <!-- Corellian Trade Spine -->
-
-
+	
+	<TradeRoute Name="Bestine_Mechis3">
+		
+            <Point_A>Bestine</Point_A>
+            <Point_B>Mechis3</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Mechis3_Bespin">
+		
+            <Point_A>Mechis3</Point_A>
+            <Point_B>Bespin</Point_B>
+            <HS_Speed_Factor>5.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
 
     <TradeRoute Name="Bespin_Hoth">
 		
@@ -114,6 +143,7 @@
         
     </TradeRoute>
 
+	
 
 <!-- Kessel Run -->
 
@@ -127,6 +157,8 @@
         
     </TradeRoute>
 
+	
+	
 <!-- Used for Medium Map -->
 
     <TradeRoute Name="Thyferra_Abregado_Rae">
