@@ -78,9 +78,9 @@
 		
 	</TradeRoute>
 	
-	<TradeRoute Name="Corulag_Carida">
+	<TradeRoute Name="Corulag_Brentaal">
 		<Point_A>Corulag</Point_A>
-		<Point_B>Carida</Point_B>
+		<Point_B>Brentaal</Point_B>
 		<HS_Speed_Factor>2.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
         <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -99,6 +99,16 @@
         <Visible_Line_Name>DEFAULT</Visible_Line_Name>
 		
 	</TradeRoute>
+	
+	<TradeRoute Name="Taris_Brentaal">
+		
+            <Point_A>Taris</Point_A>
+            <Point_B>Brentaal</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
 	
 	
 <!-- Corellian Run -->
@@ -187,6 +197,19 @@
         
     </TradeRoute>
 
+	<!-- Commenor Run -->
+	
+	<TradeRoute Name="Brentaal_Alderaan">
+		
+            <Point_A>Brentaal</Point_A>
+            <Point_B>Alderaan</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	
 	<!--Entralla Run -->
 	
 	<TradeRoute Name="Dantooine_Bastion">
