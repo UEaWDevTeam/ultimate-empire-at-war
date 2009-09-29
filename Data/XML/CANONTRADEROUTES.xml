@@ -2,17 +2,29 @@
 
 <TradeRoutes>
 
+<!-- MAJOR ROUTES, 2.0 times HS Speed Factor, 0.5 Credit Gain -->
+
 <!-- Rimma Trade Route -->
 
-	<TradeRoute Name="Abregado_Rae_Thyferra">
-		<Point_A>Abregado_Rae</Point_A>
-		<Point_B>Thyferra</Point_B>
-		<HS_Speed_Factor>2.0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
-        <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	<TradeRoute Name="Abregado_Rae_Fondor">
 		
-	</TradeRoute>
+            <Point_A>Abregado_Rae</Point_A>
+            <Point_B>Fondor</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+    <TradeRoute Name="Fondor_Thyferra">
+		
+            <Point_A>Fondor</Point_A>
+            <Point_B>Thyferra</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
 	
 	<TradeRoute Name="Thyferra_Sullust">
 		<Point_A>Thyferra</Point_A>
@@ -24,9 +36,9 @@
 		
 	</TradeRoute>
 	
-	<TradeRoute Name="Sullust_Sluis_Van">
+	<TradeRoute Name="Sullust_Eriadu">
 		<Point_A>Sullust</Point_A>
-		<Point_B>Sluis_Van</Point_B>
+		<Point_B>Eriadu</Point_B>
 		<HS_Speed_Factor>2.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
         <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -34,9 +46,9 @@
 		
 	</TradeRoute>
 	
-	<TradeRoute Name="Sullust_Eriadu">
-		<Point_A>Sullust</Point_A>
-		<Point_B>Eriadu</Point_B>
+	<TradeRoute Name="Eriadu_Sluis_Van">
+		<Point_A>Eriadu</Point_A>
+		<Point_B>Sluis_Van</Point_B>
 		<HS_Speed_Factor>2.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
         <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -88,16 +100,7 @@
 		
 	</TradeRoute>
 	
-	<TradeRoute Name="Taris_Alderaan">
-		<Point_A>Taris</Point_A>
-		<Point_B>Alderaan</Point_B>
-		<HS_Speed_Factor>2.0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
-        <Visible_Line_Name>DEFAULT</Visible_Line_Name>
-		
-	</TradeRoute>
-
+	
 <!-- Corellian Run -->
 
 	<TradeRoute Name="Coruscant_Corellia">
@@ -122,9 +125,9 @@
 	
 <!-- Corellian Trade Spine -->
 
-	<TradeRoute Name="Corellia_Bespin">
+	<TradeRoute Name="Corellia_Bestine">
 		<Point_A>Corellia</Point_A>
-		<Point_B>Bespin</Point_B>
+		<Point_B>Bestine</Point_B>
 		<HS_Speed_Factor>2.0</HS_Speed_Factor>
 		<Political_Control_Gain>0</Political_Control_Gain>
         <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
@@ -132,14 +135,180 @@
 		
 	</TradeRoute>
 	
-	<TradeRoute Name="Bespin_Hoth">
-		<Point_A>Bespin</Point_A>
-		<Point_B>Hoth</Point_B>
-		<HS_Speed_Factor>2.0</HS_Speed_Factor>
-		<Political_Control_Gain>0</Political_Control_Gain>
-        <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
-        <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+	<TradeRoute Name="Bestine_Mechis3">
 		
-	</TradeRoute>
+            <Point_A>Bestine</Point_A>
+            <Point_B>Mechis3</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Mechis3_Bespin">
+		
+            <Point_A>Mechis3</Point_A>
+            <Point_B>Bespin</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+    <TradeRoute Name="Bespin_Hoth">
+		
+            <Point_A>Bespin</Point_A>
+            <Point_B>Hoth</Point_B>
+            <HS_Speed_Factor>2.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<!-- MINOR ROUTES 1.2 times HS Speed Factor, 0.1 Credit Gain -->
+	
+	<TradeRoute Name="Eriadu_Bespin">
+		
+            <Point_A>Eriadu</Point_A>
+            <Point_B>Bespin</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Kessel_Jabiim">
+		
+            <Point_A>Kessel</Point_A>
+            <Point_B>Jabiim</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<!--Entralla Run -->
+	
+	<TradeRoute Name="Dantooine_Bastion">
+		
+            <Point_A>Dantooine</Point_A>
+            <Point_B>Bastion</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Bastion_Muunilinst">
+		
+            <Point_A>Bastion</Point_A>
+            <Point_B>Muunilinst</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Muunlinst_Yaga_Minor">
+		
+            <Point_A>Muunilinst</Point_A>
+            <Point_B>Yaga_Minor</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Yaga_Minor_Ord_Mantell">
+		
+            <Point_A>Yaga_Minor</Point_A>
+            <Point_B>Ord_Mantell</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	
+	<!-- Bothan Run/Trax Tube -->
+	
+	<TradeRoute Name="Bothawui_Kashyyyk">
+		
+            <Point_A>Bothawui</Point_A>
+            <Point_B>Kashyyyk</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<!-- Byss Run -->
+	
+	<TradeRoute Name="Byss_Coruscant">
+		
+            <Point_A>Byss</Point_A>
+            <Point_B>Coruscant</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<!-- Shipwrights' Trace -->
+	
+	<TradeRoute Name="Fondor_Atzerri">
+		
+            <Point_A>Fondor</Point_A>
+            <Point_B>Atzerri</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	
+	
+	<TradeRoute Name="NalHutta_Kashyyyk">
+		
+            <Point_A>NalHutta</Point_A>
+            <Point_B>Kashyyyk</Point_B>
+            <HS_Speed_Factor>1.2</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.1</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<!-- GAMEPLAY ROUTES 1.0 times HS Speed Factor, 0.0 Credit Gain -->
+	
+	<TradeRoute Name="AetenII_Ilum">
+		
+            <Point_A>AetenII</Point_A>
+            <Point_B>Ilum</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+        
+    </TradeRoute>
+
+	<TradeRoute Name="Endor_Bespin">
+		
+            <Point_A>Endor</Point_A>
+            <Point_B>Bespin</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
+	<TradeRoute Name="Shola_Hypori">
+		
+            <Point_A>Shola</Point_A>
+            <Point_B>Hypori</Point_B>
+            <HS_Speed_Factor>1.0</HS_Speed_Factor>
+            <Political_Control_Gain>0</Political_Control_Gain>
+            <Credit_Gain_Factor>0.0</Credit_Gain_Factor>
+        
+    </TradeRoute>
+	
 	
 </TradeRoutes>
