@@ -128,9 +128,9 @@
 
 		</Trade_Routes> <!--hyperspace lanes, comma separated-->
 
-		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_2_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_4_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
 
-        <Empire_Story_Name>UEAW_Story_Sandbox_GC_2_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+        <Empire_Story_Name>UEAW_Story_Sandbox_GC_4_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
 		
@@ -168,7 +168,7 @@
 
 		<Starting_Credits> Rebel, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
 		<Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		<Max_Tech_Level>Rebel,5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 		
 	<!--Duplicate the set of tags below for each planet IGNORED FOR TEST GC-->
 		
@@ -257,8 +257,8 @@
 	<!-- Starting Objects Faction 2-->
 
 		<Starting_Credits> Empire, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-		<Starting_Tech_Level>5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		<Starting_Tech_Level>Empire, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
 	<!--Duplicate the set of tags below for each planet-->
 		
@@ -313,6 +313,7 @@
 				Bestine, 
 				Bonadan, 
 				Bothawui, 
+				Brentaal,
 				Byss, 
 				Carida, 
 				Corellia, 
@@ -351,6 +352,7 @@
 				Naboo, 
 				NalHutta,
 				Onderon, 
+				Ord_Mantell,
 				Polus,
 				Praesitlyn,
 				Ryloth, 
@@ -368,28 +370,45 @@
 				Wayland,
 				Yaga_Minor,
 				Yavin 
-		
 		</Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
 
 		<Trade_Routes> 
-			Abregado_Rae_Thyferra,
+			Abregado_Rae_Fondor,
+		Fondor_Thyferra,
 		Thyferra_Sullust,
-		Sullust_Sluis_Van,
 		Sullust_Eriadu,
-		Coruscant_Anaxes
+		Eriadu_Sluis_Van,
+		Coruscant_Anaxes,
 		Anaxes_Corulag,
-		Corulag_Carida,
+		Corulag_Brentaal,
 		Bonadan_Taris,
-		Taris_Alderaan,
+		Taris_Brentaal,
 		Coruscant_Corellia,
 		Corellia_Ryloth,
-		Corellia_Bespin,
-		Bespin_Hoth
+		Corellia_Bestine,
+		Bestine_Mechis3,
+		Mechis3_Bespin,
+		Bespin_Hoth,
+		Eriadu_Bespin,
+		Kessel_Jabiim,
+		Dantooine_Bastion,
+		Bastion_Muunilinst,
+		Muunlinst_Yaga_Minor,
+		Bothawui_Kashyyyk,
+		Byss_Coruscant,
+		Fondor_Atzerri,
+		NalHutta_Kashyyyk
+		AetenII_Ilum,
+		Endor_Bespin,
+		Shola_Hypori,
+		Yaga_Minor_Ord_Mantell,
+		Brentaal_Alderaan
+
 		</Trade_Routes> <!--hyperspace lanes, comma separated-->
 
-		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_2_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+		<Rebel_Story_Name>UEAW_Story_Sandbox_GC_4_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
 
-        <Empire_Story_Name>UEAW_Story_Sandbox_GC_2_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+        <Empire_Story_Name>UEAW_Story_Sandbox_GC_4_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
 		
@@ -427,7 +446,7 @@
 
 		<Starting_Credits> Rebel, 50000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
 		<Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		<Max_Tech_Level>Rebel, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 		
 	<!--Duplicate the set of tags below for each planet-->
 		
@@ -450,8 +469,8 @@
 	<!-- Starting Objects Faction 2-->
 
 		<Starting_Credits> Empire, 5000000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-		<Starting_Tech_Level>5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-		<Max_Tech_Level>5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+		<Starting_Tech_Level>Empire, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+		<Max_Tech_Level>Empire, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
 	<!--Duplicate the set of tags below for each planet-->
 		
