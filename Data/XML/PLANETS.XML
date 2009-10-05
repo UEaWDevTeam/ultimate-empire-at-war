@@ -918,9 +918,9 @@ Fynbos
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_BRENTAAL</Text_ID>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Galactic_Model_Name>W_planet_desert01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_balmorra_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_balmorra_low.alo</GUI_Model_Name>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.7</Scale_Factor>
 		<Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
@@ -949,6 +949,8 @@ Fynbos
 		<Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
 		<Planet_Slice_Affinity_Types />
 		
+		<Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
+		<Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
 
 		<Describe_Population>TEXT_PLANET_BRENTAAL_INFO_POP</Describe_Population>
 		<Describe_Wildlife>TEXT_PLANET_BRENTAAL_INFO_WL</Describe_Wildlife>
@@ -2063,9 +2065,9 @@ Fynbos
 	<Planet Name="Hapes">
 		<Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
 		<Text_ID>UEAW_PLANET_HAPES</Text_ID>
-		<Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_hapes_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Temperate01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_hapes_low.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -2114,7 +2116,6 @@ Fynbos
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
 		<Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-	<!-- UEAW; we dont need all in, but that way we dont forget any indigenous people, in case the mappers cannot make up their minds; Fynbos -->
 		<Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
 		
 		<Abilities SubObjectList="Yes">
@@ -3023,9 +3024,9 @@ Fynbos -->
 	<Planet Name="Lok">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>UEAW_PLANET_LOK</Text_ID>
-		<Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_desert-urban_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_desert-urban_low.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -3076,24 +3077,8 @@ Fynbos -->
 		<Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
 		<Native_Icon_Name>load_tatooine.tga</Native_Icon_Name>
 
-	<!-- UEAW; we dont need all in, but that way we dont forget any indigenous people, in case the mappers cannot make up their minds; Fynbos -->
-		<Potential_Indigenous_Power>Bothan_Civilian, 150</Potential_Indigenous_Power>
 		<Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Ewok_Hunter, 1600</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Geonosian, 1200</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Gungan_Warrior, 120</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Imperial_Elite_Guard, 70</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Jawa_Scout, 50</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Mon_Calamari_Civilian, 400</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Rancor, 1000</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Sand_Person_Sniper_A, 50</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Sullustan_Civilian, 100</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Twilek_Female, 300</Potential_Indigenous_Power>
 		<Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Wampa, 2000</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Wookie_Warrior, 800</Potential_Indigenous_Power>
 
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
@@ -3481,24 +3466,8 @@ Fynbos -->
 		<Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
 		<Native_Icon_Name></Native_Icon_Name>
 
-	<!-- UEAW; we dont need all in, but that way we dont forget any indigenous people, in case the mappers cannot make up their minds; Fynbos -->
-		<Potential_Indigenous_Power>Bothan_Civilian, 150</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Ewok_Hunter, 1600</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Geonosian, 1200</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Gungan_Warrior, 120</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Imperial_Elite_Guard, 70</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Jawa_Scout, 50</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Mon_Calamari_Civilian, 400</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Rancor, 1000</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Sand_Person_Sniper_A, 50</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Sullustan_Civilian, 100</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Twilek_Female, 300</Potential_Indigenous_Power>
 		<Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Wampa, 2000</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Wookie_Warrior, 800</Potential_Indigenous_Power>
+
 
 		<Additional_Population_Capacity>2</Additional_Population_Capacity>
 
@@ -4240,9 +4209,9 @@ Fynbos -->
 	<Planet Name="Ord_Mantell">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_ORD_MANTELL</Text_ID>
-		<Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_balmorra_low.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
+		<GUI_Model_Name>W_planet_balmorra_low.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
 		<Mass>1.0</Mass>
@@ -4291,11 +4260,7 @@ Fynbos -->
 		<Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
 		<Native_Icon_Name>load_tatooine.tga</Native_Icon_Name>
 
-		<Potential_Indigenous_Power>Jawa_Scout, 50</Potential_Indigenous_Power>
 		<Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Rancor, 1000</Potential_Indigenous_Power>
-		<Potential_Indigenous_Power>Sand_Person_Sniper_A, 50</Potential_Indigenous_Power>
-
 		<Additional_Population_Capacity>5</Additional_Population_Capacity>
 
 		
@@ -4364,7 +4329,7 @@ Fynbos -->
 	<Planet Name="Praesitlyn">
 		<Zoomed_Terrain_Index>1</Zoomed_Terrain_Index>
 		<Text_ID>TEXT_OBJECT_STAR_SYSTEM_PRAESITLYN</Text_ID>
-		<Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
+		<Galactic_Model_Name>W_planet_desert01.alo</Galactic_Model_Name>
 		<Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
 		<GUI_Model_Name>W_planet_Desert01.alo</GUI_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
