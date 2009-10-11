@@ -142,9 +142,9 @@
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret, -->
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -159,9 +159,9 @@
 				UC_Pirate_Buildable_Anti_Aircraft_Turret,
 				UC_Pirate_Buildable_Anti_Vehicle_Turret, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Mass_Driver_Turret,
-				UC_Underworld_Buildable_Torpedo_Turret,
+				UC_Underworld_Buildable_Torpedo_Turret, -->
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -176,8 +176,8 @@
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
-				UC_Underworld_Buildable_Mass_Driver_Turret
+		<!--	Underworld,
+				UC_Underworld_Buildable_Mass_Driver_Turret -->
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -186,8 +186,8 @@
 				UC_Rebel_Buildable_Anti_Infantry_Turret,
 			Pirates, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret, 
-			Underworld, 
-				UC_Underworld_Buildable_Mass_Driver_Turret
+		<!--	Underworld, 
+				UC_Underworld_Buildable_Mass_Driver_Turret -->
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -207,10 +207,10 @@
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
 				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Bacta_Tank, 
 				UC_Underworld_Buildable_Repair_Facility, 
-				UC_Underworld_Buildable_Sensor_Node
+				UC_Underworld_Buildable_Sensor_Node -->
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -225,10 +225,10 @@
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
 				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Bacta_Tank, 
 				UC_Underworld_Buildable_Repair_Facility, 
-				UC_Underworld_Buildable_Sensor_Node
+				UC_Underworld_Buildable_Sensor_Node -->
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -244,8 +244,8 @@
 				UC_Rebel_Buildable_Bacta_Tank, 
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank
+		<!--	Underworld,
+				UC_Underworld_Buildable_Bacta_Tank -->
 		</Tactical_Buildable_Objects_Campaign>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
@@ -255,8 +255,8 @@
 				UC_Rebel_Buildable_Bacta_Tank,
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank,
-			Underworld,
-				UC_Underworld_Buildable_Bacta_Tank,
+		<!--	Underworld,
+				UC_Underworld_Buildable_Bacta_Tank, -->
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 	
@@ -277,10 +277,10 @@
 				UC_Pirate_Buildable_Bacta_Tank,
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
 				UC_Pirate_Buildable_Repair_Facility,
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Bacta_Tank,
 				UC_Underworld_Buildable_Mass_Driver_Turret, 
-				UC_Underworld_Buildable_Repair_Facility
+				UC_Underworld_Buildable_Repair_Facility -->
 		</Tactical_Buildable_Objects_Campaign>
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Empire, 
@@ -292,9 +292,9 @@
 			Pirates, 
 				UC_Pirate_Buildable_Bacta_Tank, 
 				UC_Pirate_Buildable_Anti_Infantry_Turret,
-			Underworld,
+		<!--	Underworld,
 				UC_Underworld_Buildable_Bacta_Tank, 
-				UC_Underworld_Buildable_Mass_Driver_Turret
+				UC_Underworld_Buildable_Mass_Driver_Turret -->
 		</Tactical_Buildable_Objects_Multiplayer>
 	</GroundBuildable>
 
@@ -884,7 +884,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_U_Ground_Base_Shield">
+<!--	<GroundBuildable Name="UC_U_Ground_Base_Shield">
 		<Variant_Of_Existing_Type>UC_R_Ground_Base_Shield</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 2200 </Tactical_Build_Cost_Multiplayer>
@@ -897,7 +897,7 @@
         <SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundBuildable>		
+	</GroundBuildable>		-->
 	
 <!--************************************************************************************************************-->
 
@@ -1163,7 +1163,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_U_Small_Ground_Base_Shield">
+<!--	<GroundBuildable Name="UC_U_Small_Ground_Base_Shield">
 		<Variant_Of_Existing_Type>UC_R_Small_Ground_Base_Shield</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Build_Cost_Multiplayer> 1600 </Tactical_Build_Cost_Multiplayer>
@@ -1177,7 +1177,7 @@
  		<SFXEvent_Build_Started>UHD_Shield_Generator_Build</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundBuildable>		
+	</GroundBuildable>		-->
 		
 <!--************************************************************************************************************-->	
 	
@@ -1462,7 +1462,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>	
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_Underwold_Ground_Mining_Facility">
+<!--	<GroundBuildable Name="UC_Underwold_Ground_Mining_Facility">
 		<Variant_Of_Existing_Type>UC_Rebel_Ground_Mining_Facility</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed> Skirmish_Ground_Mining_Facility_U </Tactical_Buildable_Constructed>
@@ -1474,7 +1474,7 @@
 		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundBuildable>	
+	</GroundBuildable>	-->
 	
 	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_E">
 		<Variant_Of_Existing_Type>Empire_Ground_Mining_Facility</Variant_Of_Existing_Type>
@@ -1506,7 +1506,7 @@
 		<Obstacle_Proxy_Type> Skirmish_Outpost_Pad </Obstacle_Proxy_Type>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_U">
+<!--	<GroundBuildable Name="Skirmish_Ground_Mining_Facility_U">
 		<Variant_Of_Existing_Type>U_Ground_Mining_Facility</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Behavior>TACTICAL_SELL, SELECTABLE, DUMMY_GROUND_STRUCTURE</Behavior>
@@ -1530,7 +1530,7 @@
 		
 		<!-- Defer to build pad for obstacle footprint -->
 		<Obstacle_Proxy_Type> Skirmish_Outpost_Pad </Obstacle_Proxy_Type>
-	</GroundBuildable>			
+	</GroundBuildable>			-->
 
 <!--************************************************************************************************************-->
 
@@ -1831,7 +1831,7 @@
 	</GroundBuildable>	
 	
 	
-	<GroundBuildable Name="UC_U_Ground_Turbolaser_Tower">
+<!--	<GroundBuildable Name="UC_U_Ground_Turbolaser_Tower">
 		<Variant_Of_Existing_Type>UC_R_Ground_Turbolaser_Tower</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed> U_Ground_Turbolaser_Tower </Tactical_Buildable_Constructed>
@@ -1847,7 +1847,7 @@
 	
 	<GroundBuildable Name="U_Ground_Turbolaser_Tower_Build_Pad">
 		<Variant_Of_Existing_Type>R_Ground_Turbolaser_Tower_Build_Pad</Variant_Of_Existing_Type>
-	</GroundBuildable>
+	</GroundBuildable> -->
 	
 <!--************************************************************************************************************-->
 		
@@ -3990,7 +3990,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_Underworld_Mineral_Processor">
+<!--	<GroundBuildable Name="UC_Underworld_Mineral_Processor">
 		<Variant_Of_Existing_Type>UC_Rebel_Mineral_Processor</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Text_ID> TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD </Text_ID>
@@ -4002,9 +4002,9 @@
  		<SFXEvent_Build_Started>UHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>UHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
-	</GroundBuildable>
+	</GroundBuildable> -->
 	
-	<GroundBuildable Name="Underworld_Mineral_Processor">
+<!--	<GroundBuildable Name="Underworld_Mineral_Processor">
 		<Variant_Of_Existing_Type>Rebel_Mineral_Processor</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Text_ID> TEXT_STRUCTURE_UNDERWORLD_RESOURCE_PAD </Text_ID>
@@ -4038,7 +4038,7 @@
 			</Income_Stream_Ability>
 		</Abilities>
 	
-	</GroundBuildable>
+	</GroundBuildable> -->
 	
 	
 
@@ -4046,7 +4046,7 @@
 <!--*****************************************Underworld Build Pads**********************************************-->
 <!--************************************************************************************************************-->
 
-<GroundBuildable Name="U_Ground_Merc_Outpost_Build_Pad">
+<!--<GroundBuildable Name="U_Ground_Merc_Outpost_Build_Pad">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Land_Damage_Thresholds>1</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>3</Land_Damage_Alternates>
@@ -4093,7 +4093,7 @@
 		<Last_State_Visible_Under_FOW> True </Last_State_Visible_Under_FOW>
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
 		<Immune_To_Damage>True</Immune_To_Damage>
-	</GroundBuildable>
+	</GroundBuildable> -->
 
 	
 
@@ -4662,7 +4662,7 @@
 		
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_Ground_Hutt_Palace_U">
+<!--	<GroundBuildable Name="UC_Ground_Hutt_Palace_U">
 		<Variant_Of_Existing_Type>UC_Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed> Skirmish_Ground_Hutt_Palace_U </Tactical_Buildable_Constructed>
@@ -4679,7 +4679,7 @@
 		<Tactical_Build_Cost_Multiplayer> 800 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 17 </Tactical_Build_Time_Seconds>
 		
-	</GroundBuildable>		
+	</GroundBuildable>	-->	
 		
 	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_R">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_R</Variant_Of_Existing_Type>
@@ -4725,7 +4725,7 @@
 		<Victory_Relevant>No</Victory_Relevant>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_U">
+<!--	<GroundBuildable Name="Skirmish_Ground_Hutt_Palace_U">
 		<Variant_Of_Existing_Type>Ground_Hutt_Palace_E</Variant_Of_Existing_Type>
 		<Encyclopedia_Text> TEXT_TOOLTIP_HUTT_PALACE_SKIRMISH </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -4745,7 +4745,7 @@
 		</Tactical_Buildable_Objects_Multiplayer>
 		<Tactical_Sell_Credits> 300 </Tactical_Sell_Credits>
 		<Victory_Relevant>No</Victory_Relevant>
-	</GroundBuildable>					
+	</GroundBuildable>			-->		
 
 
 <!--***************************************************************************************-->
@@ -4926,7 +4926,7 @@
 		<Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>	
 	</GroundBuildable>
 	
-	<GroundBuildable Name="Skirmish_Ground_Gravity_Generator_U">
+<!--	<GroundBuildable Name="Skirmish_Ground_Gravity_Generator_U">
 		<Variant_Of_Existing_Type>U_Ground_Gravity_Generator</Variant_Of_Existing_Type>
 		<!--<Tactical_Additional_Structure_Type>U_Ground_Palace</Tactical_Additional_Structure_Type>-->
 		<Space_Layer> Land </Space_Layer>
@@ -4941,7 +4941,7 @@
 		<Build_Cost_Credits>0</Build_Cost_Credits>
 		<Tech_Level>0</Tech_Level>
 		<Victory_Relevant>No</Victory_Relevant>
-	</GroundBuildable>
+	</GroundBuildable> -->
 	
 	
 <!--***************************************************************************************-->
@@ -5204,7 +5204,7 @@
 		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
 	</GroundBuildable>
 	
-	<GroundBuildable Name="UC_Underworld_Bunker">
+<!--	<GroundBuildable Name="UC_Underworld_Bunker">
 		<Variant_Of_Existing_Type>UC_Empire_Bunker</Variant_Of_Existing_Type>
 		<Affiliation>Underworld</Affiliation>
 		<Tactical_Buildable_Constructed> Garrison_Bunker_Underworld </Tactical_Buildable_Constructed>
@@ -5220,7 +5220,7 @@
 		<SFXEvent_Build_Complete>UHD_Construction_Complete</SFXEvent_Build_Complete>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Select>Structure_Mining_Select_SFX</SFXEvent_Select>
-	</GroundBuildable>
+	</GroundBuildable>  -->
 		
 
 </GroundBuildables>
