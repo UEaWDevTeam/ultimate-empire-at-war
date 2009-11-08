@@ -191,7 +191,7 @@
 	<RetreatAutoResolveWinnerAttrition>0.50</RetreatAutoResolveWinnerAttrition>
 	<AutoResolveLoserAttrition>0.80</AutoResolveLoserAttrition>
 	<AutoResolveWinnerAttrition>0.75</AutoResolveWinnerAttrition>
-	<Minimum_Tactical_Overrun_Time_In_Secs> 30.0 </Minimum_Tactical_Overrun_Time_In_Secs>
+	<Minimum_Tactical_Overrun_Time_In_Secs> 90.0 </Minimum_Tactical_Overrun_Time_In_Secs>
 	<Tactical_Overrun_Multiple>3.0f</Tactical_Overrun_Multiple>			<!-- Permanently reveals FOW when X-1 odds reached. -->
 
 <!---	<Overrun_Auto_Resolve_Multiple>8.0f</Overrun_Auto_Resolve_Multiple>  --> 		<!-- Comment out to disable overrun auto-resolve -->
@@ -258,9 +258,9 @@
 
 	<!-- Shields and Power Recharge -->
 
-	<ShieldRechargeIntervalInSecs>3.0</ShieldRechargeIntervalInSecs>
+	<ShieldRechargeIntervalInSecs>0.5</ShieldRechargeIntervalInSecs>
 	<EnergyRechargeIntervalInSecs>5.0</EnergyRechargeIntervalInSecs>
-	<EnergyToShieldExchangeRate>5.0</EnergyToShieldExchangeRate>
+	<EnergyToShieldExchangeRate>0.83</EnergyToShieldExchangeRate>
 
 	
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
