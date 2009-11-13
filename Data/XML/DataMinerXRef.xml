@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<xref_file>
+
+	<xref>
+		<link_from path="/*/*/HardPoints" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/HardPoints/HardPoint" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/Projectile_Types" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/Projectiles/Projectile" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/Fire_Projectile_Type" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/Projectiles/Projectile" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/Company_Units" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/GroundVehicles/GroundVehicle" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/Company_Transport_Unit" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/TransportUnits/TransportUnit" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Fire" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Select" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Move" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Fleet_Move" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Engine_Idle_Loop" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Engine_Moving_Loop" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Engine_Cinematic_Focus_Loop" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/Death_SFXEvent_Start_Die" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+	
+	<xref>
+		<link_from path="/Story/Event/Prereq" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/Story/Event" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Build_Started" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Build_Cancelled" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Build_Complete" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Ambient_Loop" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Unit_Guard_Tartan" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Unit_Stop_Tartan" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Guard" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Stop" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Laser_Weapon_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Missile_Weapon_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Torpedo_Weapon_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Ion_Cannon_Weapon_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Shield_Generator_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Gravity_Well_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_Attack_Engines_Hardpoint" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_GUI_Non_Hero_Ability_Activated" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+	<xref>
+		<link_from path="/*/*/SFXEvent_GUI_Non_Hero_Ability_Deactivated" type="TEXT" parse="COMMA_LIST"/>
+		<link_to path="/SFXEvents/SFXEvent" type="ATTRIBUTE" attribute_name="Name"/>
+	</xref>
+
+</xref_file>
