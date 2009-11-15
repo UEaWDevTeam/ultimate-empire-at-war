@@ -901,11 +901,11 @@
 		Damage_Ion_Advanced_E4,
 		Damage_Ion_Advanced_Skirmish,
 
-		Damage_Proton_Basic_E1,
-		Damage_Proton_Basic_E2,
-		Damage_Proton_Basic_E3,
-		Damage_Proton_Basic_E4,
-		Damage_Proton_Basic_Skirmish,
+		Damage_Proton_SO_E1,
+		Damage_Proton_SO_E2,
+		Damage_Proton_SO_E3,
+		Damage_Proton_SO_E4,
+		Damage_Proton_SO_Skirmish, <!-- Coded to this point: 15:42 GMT, 15/11/2009 - LTCC -->
 		Damage_Proton_AP_E1,
 		Damage_Proton_AP_E2,
 		Damage_Proton_AP_E3,
@@ -917,11 +917,6 @@
 		Damage_ConMissile_Basic_E3,
 		Damage_ConMissile_Basic_E4,
 		Damage_ConMissile_Basic_Skirmish,
-		Damage_ConMissile_AF_E1,
-		Damage_ConMissile_AF_E2,
-		Damage_ConMissile_AF_E3,
-		Damage_ConMissile_AF_E4,
-		Damage_ConMissile_AF_Skirmish,
 		Damage_ConMissile_AP_E1,
 		Damage_ConMissile_AP_E2,
 		Damage_ConMissile_AP_E3,
@@ -2258,6 +2253,376 @@
 	<!-- ooooooooooooo -->
 	<!-- IONS END -->
 	<!-- ooooooooooooo -->
+	
+	
+	<!-- ooooooooooooo -->
+	<!-- PROTONS -->
+	<!-- ooooooooooooo -->
+	
+	<!-- ERA 1 SO PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Battleship_Basic, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Battleship, 0.60 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Battleship_Superior, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Cruiser_Basic, 0.725 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Cruiser, 0.675 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Cruiser_Superior, 0.625 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Frigate_Basic, 0.80 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Frigate, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Frigate_Superior, 0.70 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Corvette_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Corvette, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Corvette_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Starfighter_Basic, 1.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Starfighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Starfighter_Superior, 1.45 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Battleship_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Battleship, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Battleship_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Cruiser_Basic, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Cruiser, 0.9 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Cruiser_Superior, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Frigate_Basic, 1.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Frigate, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Frigate_Superior, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Corvette_Basic, 1.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Corvette, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Corvette_Superior, 1.15 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Starfighter_Basic, 2.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Starfighter, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Armour_Starfighter_Superior, 1.75 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 1 SO PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 2 SO PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Battleship_Basic, 0.715 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Battleship, 0.66 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Battleship_Superior, 0.605 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Cruiser_Basic, 0.798 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Cruiser, 0.7425 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Cruiser_Superior, 0.688 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Frigate_Basic, 0.88 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Frigate, 0.825 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Frigate_Superior, 0.77 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Corvette_Basic, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Corvette, 0.88 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Corvette_Superior, 0.825 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Starfighter_Basic, 1.705 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Starfighter, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Shield_Starfighter_Superior, 1.595 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Battleship_Basic, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Battleship, 0.88 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Battleship_Superior, 0.825 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Cruiser_Basic, 1.045 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Cruiser, 0.99 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Cruiser_Superior, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Frigate_Basic, 1.155 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Frigate, 1.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Frigate_Superior, 1.045 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Corvette_Basic, 1.375 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Corvette, 1.32 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Corvette_Superior, 1.265 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Starfighter_Basic, 2.475 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Starfighter, 2.42 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E2, Armour_Starfighter_Superior, 1.925 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 2 SO PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 3 SO PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Battleship_Basic, 0.787 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Battleship, 0.726 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Battleship_Superior, 0.666 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Cruiser_Basic, 0.878 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Cruiser, 0.817 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Cruiser_Superior, 0.757 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Frigate_Basic, 0.968 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Frigate, 0.901 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Frigate_Superior, 0.847 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Corvette_Basic, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Corvette, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Corvette_Superior, 0.908 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Starfighter_Basic, 1.876 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Starfighter, 1.815 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Shield_Starfighter_Superior, 1.755 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Battleship_Basic, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Battleship, 0.968 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Battleship_Superior, 0.908 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Cruiser_Basic, 1.150 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Cruiser, 1.089 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Cruiser_Superior, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Frigate_Basic, 1.271 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Frigate, 1.21 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Frigate_Superior, 1.150 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Corvette_Basic, 1.513 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Corvette, 1.452 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Corvette_Superior, 1.392 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Starfighter_Basic, 2.723 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Starfighter, 2.662 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E3, Armour_Starfighter_Superior, 2.118 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 3 SO PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 4 SO PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Battleship_Basic, 0.866 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Battleship, 0.799 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Battleship_Superior, 0.733 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Cruiser_Basic, 0.966 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Cruiser, 0.899 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Cruiser_Superior, 0.833 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Frigate_Basic, 1.065 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Frigate, 0.991 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Frigate_Superior, 0.932 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Corvette_Basic, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Corvette, 1.132 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Corvette_Superior, 0.999 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Starfighter_Basic, 2.064 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Starfighter, 1.997 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Shield_Starfighter_Superior, 1.931 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Battleship_Basic, 1.132 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Battleship, 1.065 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Battleship_Superior, 0.999 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Cruiser_Basic, 1.265 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Cruiser, 1.198 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Cruiser_Superior, 1.132 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Frigate_Basic, 1.398 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Frigate, 1.331 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Frigate_Superior, 1.265 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Corvette_Basic, 1.664 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Corvette, 1.597 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Corvette_Superior, 1.513 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Starfighter_Basic, 3.00 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Starfighter, 2.928 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_E4, Armour_Starfighter_Superior, 2.330 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 4 SO PROTONS MODIFIER ENDS -->
+	
+	<!-- SKIRMISH SO PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Battleship_Basic, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Battleship, 0.60 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Battleship_Superior, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Cruiser_Basic, 0.725 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Cruiser, 0.675 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Cruiser_Superior, 0.625 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Frigate_Basic, 0.80 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Frigate, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Frigate_Superior, 0.70 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Corvette_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Corvette, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Corvette_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Starfighter_Basic, 1.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Starfighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Shield_Starfighter_Superior, 1.45 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Battleship_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Battleship, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Battleship_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Cruiser_Basic, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Cruiser, 0.9 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Cruiser_Superior, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Frigate_Basic, 1.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Frigate, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Frigate_Superior, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Corvette_Basic, 1.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Corvette, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Corvette_Superior, 1.15 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Starfighter_Basic, 2.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Starfighter, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_SO_Skirmish, Armour_Starfighter_Superior, 1.75 </Damage_To_Armor_Mod>
+		
+	<!-- SKIRMISH SO PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 1 AP PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Battleship_Basic, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Battleship, 0.60 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Battleship_Superior, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Cruiser_Basic, 0.725 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Cruiser, 0.675 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Cruiser_Superior, 0.625 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Frigate_Basic, 0.80 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Frigate, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Frigate_Superior, 0.70 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Corvette_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Corvette, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Corvette_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Starfighter_Basic, 1.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Starfighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Shield_Starfighter_Superior, 1.45 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Battleship, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Battleship_Superior, 0.90 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Cruiser_Basic, 1.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Cruiser, 1.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Cruiser_Superior, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Frigate_Basic, 1.20 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Frigate, 1.15 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Frigate_Superior, 1.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Corvette_Basic, 1.40 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Corvette, 1.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Corvette_Superior, 1.30 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Starfighter_Basic, 2.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Starfighter, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E1, Armour_Starfighter_Superior, 1.75 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 1 AP PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 2 AP PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Battleship_Basic, 0.715 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Battleship, 0.66 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Battleship_Superior, 0.605 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Cruiser_Basic, 0.798 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Cruiser, 0.7425 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Cruiser_Superior, 0.688 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Frigate_Basic, 0.88 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Frigate, 0.825 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Frigate_Superior, 0.77 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Corvette_Basic, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Corvette, 0.88 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Corvette_Superior, 0.825 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Starfighter_Basic, 1.705 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Starfighter, 1.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Shield_Starfighter_Superior, 1.595 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Battleship_Basic, 1.085 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Battleship, 1.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Battleship_Superior, 0.975 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Cruiser_Basic, 1.195 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Cruiser, 1.14 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Cruiser_Superior, 1.085 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Frigate_Basic, 1.305 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Frigate, 1.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Frigate_Superior, 1.195 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Corvette_Basic, 1.525 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Corvette, 1.47 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Corvette_Superior, 1.415 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Starfighter_Basic, 2.475 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Starfighter, 2.42 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E2, Armour_Starfighter_Superior, 1.925 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 2 AP PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 3 AP PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Battleship_Basic, 0.787 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Battleship, 0.726 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Battleship_Superior, 0.666 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Cruiser_Basic, 0.878 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Cruiser, 0.817 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Cruiser_Superior, 0.757 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Frigate_Basic, 0.968 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Frigate, 0.901 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Frigate_Superior, 0.847 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Corvette_Basic, 0.935 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Corvette, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Corvette_Superior, 0.908 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Starfighter_Basic, 1.876 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Starfighter, 1.815 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Shield_Starfighter_Superior, 1.755 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Battleship_Basic, 1.179 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Battleship, 1.118 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Battleship_Superior, 1.058 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Cruiser_Basic, 1.300 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Cruiser, 1.239 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Cruiser_Superior, 1.179 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Frigate_Basic, 1.421 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Frigate, 1.36 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Frigate_Superior, 1.300 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Corvette_Basic, 1.663 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Corvette, 1.602 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Corvette_Superior, 1.542 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Starfighter_Basic, 2.723 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Starfighter, 2.662 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E3, Armour_Starfighter_Superior, 2.118 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 3 AP PROTONS MODIFIER ENDS -->
+	
+	<!-- ERA 4 AP PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Battleship_Basic, 0.866 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Battleship, 0.799 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Battleship_Superior, 0.733 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Cruiser_Basic, 0.966 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Cruiser, 0.899 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Cruiser_Superior, 0.833 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Frigate_Basic, 1.065 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Frigate, 0.991 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Frigate_Superior, 0.932 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Corvette_Basic, 1.029 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Corvette, 1.132 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Corvette_Superior, 0.999 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Starfighter_Basic, 2.064 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Starfighter, 1.997 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Shield_Starfighter_Superior, 1.931 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Battleship_Basic, 1.282 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Battleship, 1.215 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Battleship_Superior, 1.149 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Cruiser_Basic, 1.415 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Cruiser, 1.348 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Cruiser_Superior, 1.282 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Frigate_Basic, 1.548 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Frigate, 1.481 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Frigate_Superior, 1.415 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Corvette_Basic, 1.814 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Corvette, 1.747 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Corvette_Superior, 1.663 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Starfighter_Basic, 3.00 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Starfighter, 2.928 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_E4, Armour_Starfighter_Superior, 2.330 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 4 AP PROTONS MODIFIER ENDS -->
+	
+	<!-- SKIRMISH AP PROTONS STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Battleship_Basic, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Battleship, 0.60 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Battleship_Superior, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Cruiser_Basic, 0.725 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Cruiser, 0.675 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Cruiser_Superior, 0.625 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Frigate_Basic, 0.80 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Frigate, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Frigate_Superior, 0.70 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Corvette_Basic, 0.85 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Corvette, 0.8 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Corvette_Superior, 0.75 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Starfighter_Basic, 1.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Starfighter, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Shield_Starfighter_Superior, 1.45 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Battleship, 0.95 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Battleship_Superior, 0.90 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Cruiser_Basic, 1.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Cruiser, 1.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Cruiser_Superior, 1.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Frigate_Basic, 1.20 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Frigate, 1.15 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Frigate_Superior, 1.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Corvette_Basic, 1.40 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Corvette, 1.35 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Corvette_Superior, 1.30 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Starfighter_Basic, 2.25 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Starfighter, 2.0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Proton_AP_Skirmish, Armour_Starfighter_Superior, 1.75 </Damage_To_Armor_Mod>
+		
+	<!-- SKIRMISH SO PROTONS MODIFIER ENDS -->
+		
+	<!-- ooooooooooooo -->
+	<!-- PROTONS END -->
+	<!-- ooooooooooooo -->
+	
 	
 	<!--                                    -->
 	<!--    END ARMOR AND DAMAGE SECTION    -->
