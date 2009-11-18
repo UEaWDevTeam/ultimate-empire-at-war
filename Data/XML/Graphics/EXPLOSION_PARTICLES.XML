@@ -5,53 +5,19 @@
 <!-- ALL PARTICLE GRAPHICS FOR SPACE TACTICAL COMBAT EXPLOSIONS -->
 <!--  ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 
-	<!-- OLD FILES FOR PLACEHOLDING AND TESTING DURING CODING -->
 	
-	<Particle Name="Small_Explosion_Space">
-		<Land_Model_Name>p_explosion_small00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_small00.alo</Space_Model_Name>
+	<Particle Name="PS_Explosion_Medium_A">
+		<Land_Model_Name>P_Explosion_Medium_A.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Medium_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
-	</Particle>
-
-	<Particle Name="Small_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_small00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_small00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
-	</Particle>
-
-	<Particle Name="Medium_Explosion_Space">
-		<Land_Model_Name>p_explosion_med00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_med00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
 	</Particle>
-
-	<Particle Name="Medium_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_med00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_med00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
-	</Particle>
-
-	<Particle Name="Large_Explosion_Space">
+	
+	<Particle Name="PS_Explosion_Large_A">
 		<Land_Model_Name>P_Explosion_Large_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Large_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -61,69 +27,20 @@
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
 	</Particle>
-
-	<Particle Name="Large_Explosion_Space_B">
-		<Land_Model_Name>P_Explosion_Large_B.ALO</Land_Model_Name>
-		<Space_Model_Name>P_Explosion_Large_B.ALO</Space_Model_Name>
+	
+	<Particle Name="PS_Explosion_Huge_A">
+		<Land_Model_Name>P_Explosion_Huge_A.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Huge_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
+	
 	</Particle>
 
-	<Particle Name="Huge_Explosion_Space">
-		<Land_Model_Name>p_explosion_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_huge00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
-	</Particle>
 
-	<Particle Name="Friggin_Huge_Explosion_Space">
-		<Land_Model_Name>p_explosion_friggin_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_friggin_huge00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
-	</Particle>
-
-	<Particle Name="Friggin_Huge_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_friggin_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_friggin_huge00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
-	</Particle>
-
-	<Particle Name="Huge_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_huge00.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
-	</Particle>
-
-	<Particle Name="Huge_Explosion_Space_Empire_No_Debris">
-		<Land_Model_Name>p_explosion_empire_huge00_no_debris.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_huge00_no_debris.alo</Space_Model_Name>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Is_Decoration>Yes</Is_Decoration>
-		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
-		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
-	</Particle>
-
+	
 	
    </Particles>
