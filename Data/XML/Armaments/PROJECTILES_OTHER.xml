@@ -2,6 +2,17 @@
 
 <Projectiles>
 
-<!-- Placeholder -->
+<!-- Placeholder to stop terrain editor complaints-->
 
+<Projectile Name="DO NOT LOAD" Description="PROJECTILE ENTRY TO STOP EDITOR WARNINGS">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Projectile_Custom_Render>1</Projectile_Custom_Render>
+		<Projectile_Width>1.0</Projectile_Width>
+		<Projectile_Length>6.0</Projectile_Length>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>11.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+	</Projectile>
 </Projectiles>
