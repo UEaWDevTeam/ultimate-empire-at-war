@@ -7,7 +7,7 @@
 
 	<!-- DESTRUCTION EXPLOSIONS -->
 	
-	<Particle Name="PS_Explosion_Smaller_A">
+	<Particle Name="PEx_Explosion_Smaller_A">
 		<Land_Model_Name>P_Explosion_Smaller_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Smaller_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -18,7 +18,7 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
-	<Particle Name="PS_Explosion_Small_A">
+	<Particle Name="PEx_Explosion_Small_A">
 		<Land_Model_Name>P_Explosion_Small_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Small_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -29,7 +29,7 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
-	<Particle Name="PS_Explosion_Medium_A">
+	<Particle Name="PEx_Explosion_Medium_A">
 		<Land_Model_Name>P_Explosion_Medium_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Medium_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -40,7 +40,7 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
 	</Particle>
 	
-	<Particle Name="PS_Explosion_Large_A">
+	<Particle Name="PEx_Explosion_Large_A">
 		<Land_Model_Name>P_Explosion_Large_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Large_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -51,7 +51,7 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
 	</Particle>
 	
-	<Particle Name="PS_Explosion_Huge_A">
+	<Particle Name="PEx_Explosion_Huge_A">
 		<Land_Model_Name>P_Explosion_Huge_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Huge_A.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -68,7 +68,7 @@
 		
 		<!-- CONCUSSION MISSILES -->
 		
-	<Particle Name="PS_Explosion_Concussion">
+	<Particle Name="PEx_Explosion_Concussion">
 		<Land_Model_Name>P_Explosion_Concussion.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Concussion.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -79,7 +79,7 @@
 	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
-	<Particle Name="PS_Explosion_Concussion_Heavy">
+	<Particle Name="PEx_Explosion_Concussion_Heavy">
 		<Land_Model_Name>P_Explosion_Concussion_Heavy.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Concussion_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -91,5 +91,29 @@
 	
 	</Particle>
 
+	<!-- PROTON TORPEDOES -->
 	
+	<Particle Name="PEx_Explosion_Proton">
+		<Land_Model_Name>P_Explosion_Proton.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Proton.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Proton_Large">
+		<Land_Model_Name>P_Explosion_Proton_Heavy.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Proton_Heavy.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	
+	</Particle>
+
    </Particles>
