@@ -7,6 +7,39 @@
 
 	<!-- DESTRUCTION EXPLOSIONS -->
 	
+	<Particle Name="PEx_Explosion_Tiniest_A">
+		<Land_Model_Name>P_Explosion_Tiniest.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Tiniest.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Tinier_A">
+		<Land_Model_Name>P_Explosion_Tinier_A.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Tinier_A.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+
+	<Particle Name="PEx_Explosion_Tiny_A">
+		<Land_Model_Name>P_Explosion_Tiny_A.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Tiny_A.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
 	<Particle Name="PEx_Explosion_Smaller_A">
 		<Land_Model_Name>P_Explosion_Smaller_A.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Smaller_A.ALO</Space_Model_Name>
@@ -91,7 +124,7 @@
 	
 	</Particle>
 
-	<!-- PROTON TORPEDOES -->
+		<!-- PROTON TORPEDOES -->
 	
 	<Particle Name="PEx_Explosion_Proton_Small">
 		<Land_Model_Name>P_Explosion_Proton_Small.ALO</Land_Model_Name>
@@ -101,7 +134,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
 	<Particle Name="PEx_Explosion_Proton">
@@ -112,7 +145,7 @@
 		<Behavior>PARTICLE</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
-	<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
 	<Particle Name="PEx_Explosion_Proton_Large">
@@ -124,7 +157,151 @@
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
-	
 	</Particle>
 
+	
+		<!-- TURBOLASERS -->
+			
+			<!-- Blue -->
+			
+	<Particle Name="PEx_Explosion_Turbo_Blue_Small">
+		<Land_Model_Name>P_Explosion_Turbo_Blue_Small.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Blue_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Blue">
+		<Land_Model_Name>P_Explosion_Turbo_Blue.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Blue.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Blue_Large">
+		<Land_Model_Name>P_Explosion_Turbo_Blue_Large.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Blue_Large.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	</Particle>
+ 
+			<!-- Green -->
+			
+	<Particle Name="PEx_Explosion_Turbo_Green_Small">
+		<Land_Model_Name>P_Explosion_Turbo_Green_Small.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Green_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Green">
+		<Land_Model_Name>P_Explosion_Turbo_Green.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Green.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Green_Large">
+		<Land_Model_Name>P_Explosion_Turbo_Green_Large.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Green_Large.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	</Particle>
+ 
+			<!-- Orange -->
+			
+	<Particle Name="PEx_Explosion_Turbo_Orange_Small">
+		<Land_Model_Name>P_Explosion_Turbo_Orange_Small.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Orange_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Orange">
+		<Land_Model_Name>P_Explosion_Turbo_Orange.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Orange.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Orange_Large">
+		<Land_Model_Name>P_Explosion_Turbo_Orange_Large.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Orange_Large.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	</Particle>
+
+			<!-- Red -->
+			
+	<Particle Name="PEx_Explosion_Turbo_Red_Small">
+		<Land_Model_Name>P_Explosion_Turbo_Red_Small.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Red_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Red">
+		<Land_Model_Name>P_Explosion_Turbo_Red.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Red.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
+	</Particle>
+	
+	<Particle Name="PEx_Explosion_Turbo_Red_Large">
+		<Land_Model_Name>P_Explosion_Turbo_Red_Large.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Turbo_Red_Large.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
+	</Particle>
+
+ 
+ 
    </Particles>
