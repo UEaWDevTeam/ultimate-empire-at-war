@@ -1064,7 +1064,31 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
 
-	
+	<SpaceProp Name="Asteroid_2">
+		<Text_ID />
+		<Space_Model_Name>Prop_Asteroid_B00.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+
+		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
+	<Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
+
 	
 	<SpaceProp Name="Asteroid_Small_Semi_Frozen">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -1166,6 +1190,30 @@
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
 	
+	<SpaceProp Name="Asteroid_2_Semi_Frozen">
+		<Text_ID />
+		<Space_Model_Name>Prop_Asteroid_B00_SF.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+
+		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
+	<Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
 	
 	
 	<SpaceProp Name="Asteroid_Small_Frozen">
@@ -1267,7 +1315,31 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Valid_Target>No</Is_Valid_Target>
 	</SpaceProp>
-	
+		
+	<SpaceProp Name="Asteroid_2_Frozen">
+		<Text_ID />
+		<Space_Model_Name>Prop_Asteroid_B00_F.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
+		<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Behavior>SPACE_OBSTACLE, IDLE</Behavior>
+		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
+		<Layer_Z_Adjust>-140.0</Layer_Z_Adjust>
+
+		<!--  Removing collidable by projectile to prevent asteroids from being destroyed and removing pathfinding. 
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Collidable_By_Projectile_Dead>Yes</Collidable_By_Projectile_Dead>
+		-->
+
+		<Is_Impassable_Asteroid> true </Is_Impassable_Asteroid>
+	<Space_Obstacle_Radius> 280 </Space_Obstacle_Radius>
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> StaticObject </Space_Layer>
+		<CategoryMask> Structure </CategoryMask>
+		<Is_Valid_Target>No</Is_Valid_Target>
+	</SpaceProp>
 	
 	<!-- END OF ASTEROID PROPS -->
 	
