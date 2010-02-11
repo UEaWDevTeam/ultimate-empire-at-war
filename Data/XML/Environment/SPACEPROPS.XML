@@ -2597,6 +2597,63 @@
 
 	<!-- NEBULAE END -->
 	
+	<SpaceProp Name="Muunilinst_Station_Tunnel_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_MUUNILINSTTUNNEL.ALO.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
+	<SpaceProp Name="Muunilinst_Station_Tunnel">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_MUUNILINSTTUNNEL.ALO.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
+	<SpaceProp Name="Muunilinst_Station_Tunnel_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_MUUNILINSTTUNNEL.ALO.alo</Space_Model_Name>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>8.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
+	<SpaceProp Name="Muunilinst_Station_Structure_Small">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Bespin_Building03.ALO</Space_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
+	<SpaceProp Name="Muunilinst_Station_Structure">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Bespin_Building03.ALO</Space_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
+	<SpaceProp Name="Muunilinst_Station_Structure_Large">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Bespin_Building03.ALO</Space_Model_Name>
+		<Behavior>LAND_OBSTACLE, SPACE_OBSTACLE</Behavior>
+		<Is_Decoration> No </Is_Decoration>
+		<Is_Discardable> No </Is_Discardable>
+		<Scale_Factor>4.0</Scale_Factor>
+		<Initial_State_Visible_Under_FOW>True</Initial_State_Visible_Under_FOW>
+	</SpaceProp>
+	
 	<SpaceProp Name="Space_Movement_Compass">
 		<Text_ID />
 		<Space_Model_Name> I_FACING_ARROW.ALO </Space_Model_Name>
