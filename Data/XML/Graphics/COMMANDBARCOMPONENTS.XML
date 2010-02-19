@@ -937,14 +937,14 @@
             <Swap_Texture>True</Swap_Texture>
     </CommandBarComponent>
 
-   <!-- <CommandBarComponent Name="b_dial">
+    <CommandBarComponent Name="b_dial">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_PROUCTION_DIAL</Tooltip_Text>
             <Icon_Texture_Name>i_button_dial_left.tga</Icon_Texture_Name>
             <Icon_Alternate_Texture_Name>i_button_dial_left.tga i_button_dial_right.tga</Icon_Alternate_Texture_Name>
             <Group>Dial</Group>
             <Swap_Texture>False</Swap_Texture>
-    </CommandBarComponent> -->
+    </CommandBarComponent>
 
     <CommandBarComponent Name="b_scroll_right">
             <Type>Button</Type>
@@ -974,7 +974,7 @@
             <Icon_Alternate_Texture_Name>i_icon_zoom_out.tga i_icon_zoom_in.tga</Icon_Alternate_Texture_Name>
     </CommandBarComponent>
 
-  <!--  <CommandBarComponent Name="b_planet_left">
+    <CommandBarComponent Name="b_planet_left">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_TOOLTIP_PREVIOUS_BUTTON</Tooltip_Text>
             <Mouse_Over_Texture_Name>i_button_planet_left_over.tga</Mouse_Over_Texture_Name>
@@ -988,7 +988,7 @@
             <Mouse_Over_Texture_Name>i_button_planet_right_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_planet_right.tga</Selected_Texture_Name>
             <Swap_Texture>True</Swap_Texture>
-    </CommandBarComponent> -->
+    </CommandBarComponent>
 
     <CommandBarComponent Name="radar_galactic">
             <Type>Button</Type>
@@ -6707,7 +6707,7 @@
             <Blink_Duration>3</Blink_Duration>
     </CommandBarComponent>
     
-    <!--<CommandBarComponent Name="g_political_control">
+    <CommandBarComponent Name="g_political_control">
             <Type>Bar</Type>
             <Bar_Overlay_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga i_bar_control_small5.tga</Bar_Overlay_Name>
             <Max_Bar_Level>0</Max_Bar_Level>
@@ -6715,9 +6715,9 @@
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
             <Default_Offset>0 10</Default_Offset>
-    </CommandBarComponent>-->
+    </CommandBarComponent>
 
-   <!-- <CommandBarComponent Name="g_ground_level">
+    <CommandBarComponent Name="g_ground_level">
             <Type>Bar</Type>
             <Bar_Texture_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga</Bar_Texture_Name>
             <Bar_Overlay_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga</Bar_Overlay_Name>
@@ -6725,7 +6725,7 @@
             <Base_Layer>0</Base_Layer>
             <Scale>1.0</Scale>
             <Default_Offset>72 -26</Default_Offset>
-    </CommandBarComponent>-->
+    </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_icon">
             <Type>Button</Type>
@@ -6917,7 +6917,7 @@
     </CommandBarComponent>
     
 
-	<!--<CommandBarComponent Name="g_credit_bar">
+	<CommandBarComponent Name="g_credit_bar">
 		<Type>Bar</Type>
 		<Bar_Texture_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Texture_Name>
 		<Bar_Overlay_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Overlay_Name>
@@ -6927,8 +6927,8 @@
 		<Cross_Fade>False</Cross_Fade>
 		<Default_Offset>0 8</Default_Offset>
 		<Scale>1.0</Scale>
-		Tooltip_Text>TEXT_TOOLTIP_CREDIT_BAR
-	</CommandBarComponent>-->
+		<!-- Tooltip_Text>TEXT_TOOLTIP_CREDIT_BAR -->
+	</CommandBarComponent>
 
     <CommandBarComponent Name="g_smuggled">
             <Type>Button</Type>
@@ -8538,7 +8538,7 @@
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_play_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_command_bar_play_press.tga</Selected_Texture_Name>
-			<!--<Disabled_Texture_Name>i_button_command_bar_disabled.tga</Disabled_Texture_Name>-->
+	    <Disabled_Texture_Name>i_button_command_bar_disabled.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
