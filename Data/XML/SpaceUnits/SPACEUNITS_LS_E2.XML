@@ -1,23 +1,23 @@
 <?xml version="1.0"?>
 <Data>
-	<!--Rebel Alliance Units -->
+	<!--Republic Units -->
 	
 	<!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters -->
 	<SpaceUnit Name="R_ARC-170">
 		<LOD_Bias>10</LOD_Bias>
 
-		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+		<Text_ID>TEXT_UNIT_ARC-170</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>rv_XWing.ALO</Space_Model_Name>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+		<Space_Model_Name>RV_ARC-170.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
+        <Damage_Type>Damage_Laser_E2</Damage_Type>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.98</Mass>
@@ -42,8 +42,8 @@
 		<Energy_Capacity>500</Energy_Capacity>
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
-		<Armor_Type> Armor_Fighter </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armour_Starfighter </Armor_Type>
+        <Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -105,7 +105,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		<Icon_Name>i_button_arc-170.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -120,7 +120,7 @@
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARC-170</Encyclopedia_Text>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -152,9 +152,9 @@
 
 	<Squadron Name="R_ARC-170_SQUADRON">
 		<LOD_Bias>10</LOD_Bias>
-		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>
+		<Text_ID>TEXT_ARC-170_SQUADRON</Text_ID>
+		<Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
@@ -175,16 +175,16 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
-		<Squadron_Units>X-Wing, X-Wing</Squadron_Units>
-		<Squadron_Units>X-Wing</Squadron_Units>
+		<Squadron_Units>R_ARC-170, R_ARC-170</Squadron_Units>
+		<Squadron_Units>R_ARC-170, R_ARC-170</Squadron_Units>
+		<Squadron_Units>R_ARC-170</Squadron_Units>
 		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
-		<Icon_Name>i_button_x_wing.tga</Icon_Name>
-		<GUI_Model_Name>RV_xwing.ALO</GUI_Model_Name>
+		<Icon_Name>i_button_arc-170.tga</Icon_Name>
+		<GUI_Model_Name>RV_ARC-170.ALO</GUI_Model_Name>
 		<GUI_Distance>95</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
@@ -213,7 +213,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARC-170</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
