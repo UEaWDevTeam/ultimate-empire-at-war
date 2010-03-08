@@ -6,11 +6,11 @@
 	<SpaceUnit Name="NR_E-WING">
 		<LOD_Bias>10</LOD_Bias>
 
-		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
+		<Text_ID>TEXT_UNIT_E_WING</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser </Encyclopedia_Vulnerable_To>
-		<Space_Model_Name>rv_XWing.ALO</Space_Model_Name>
+		<Space_Model_Name>NRV_E-WING.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
@@ -105,7 +105,7 @@
 
 		<CategoryMask> Fighter | AntiBomber</CategoryMask>
 		<Property_Flags> SmallShip </Property_Flags>
-		<Icon_Name>i_button_x_wing.tga</Icon_Name>
+		<Icon_Name>i_button_e_wing.tga</Icon_Name>
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 
@@ -120,7 +120,7 @@
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_E_WING</Encyclopedia_Text>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -152,7 +152,7 @@
 
 	<Squadron Name="NR_E-WING_SQUADRON">
 		<LOD_Bias>10</LOD_Bias>
-		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
+		<Text_ID>TEXT_E_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser Broadside_Class_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Vulnerable_To>
 		<GUI_Row> 0 </GUI_Row>
@@ -213,7 +213,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
-		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_E_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
