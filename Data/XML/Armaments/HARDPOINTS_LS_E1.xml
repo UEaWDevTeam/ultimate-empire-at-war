@@ -6,18 +6,18 @@
 <!--HARDPOINTS FOR UEAW V1 LIGHT SIDE, ERA 1: DAYS OF THE OLD REPUBLIC -->
 <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 
-<!-- S-100 STINGER HARDPOINT DATA -->
+<!-- S-250 CHELA HARDPOINT DATA -->
 
-	<HardPoint Name="HP_S100_LASER_00">
+	<HardPoint Name="HP_CHELA_LASER_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -34,29 +34,29 @@
 		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
 
-    <HardPoint Name="HP_S100_TORP_00">
-		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+    <HardPoint Name="HP_CHELA_CONC_00">
+		<Type> HARD_POINT_WEAPON_MISSILE </Type>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleC_00</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Conc_Missile_AP_E1_Medium</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
 		<Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>700.0</Fire_Range_Distance>
-		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+		<Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Fire_Category_Restrictions />
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
-<!-- S-100 STINGER HARDPOINT DATA -->
+<!-- AUREK FIGHTER HARDPOINT DATA -->
 
 	<HardPoint Name="HP_AUREK_LASER_00">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
@@ -64,10 +64,10 @@
 		<Is_Destroyable>No</Is_Destroyable>
 
 		<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+		<Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
 		<Fire_Cone_Width>20.0</Fire_Cone_Width>
 		<Fire_Cone_Height>20.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Small_Laser_Cannon_Green</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -89,11 +89,11 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 
-		<Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
-		<Fire_Bone_B>MuzzleC_00</Fire_Bone_B>
+		<Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+		<Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
 		<Fire_Cone_Width>30.0</Fire_Cone_Width>
 		<Fire_Cone_Height>30.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+		<Fire_Projectile_Type>Proj_SO_Proton_Torp_E1</Fire_Projectile_Type>
 		<Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -101,15 +101,15 @@
 		<Fire_Range_Distance>700.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
-		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
-		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+		<Fire_Category_Restrictions />
+		<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 	
 	
-<!-- OLD REPUBLIC CORVETTE HARDPOINT DATA -->
+<!-- FORAY CLASS BLOCKADE RUNNER HARDPOINT DATA -->
 
-    <HardPoint Name="HP_OR_CORVETTE_01">
+    <HardPoint Name="HP_FORAY_CLASS_MTL_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -138,7 +138,7 @@
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-    <HardPoint Name="HP_OR_CORVETTE_02">
+    <HardPoint Name="HP_FORAY_CLASS_MTL_02">
 	
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -168,17 +168,17 @@
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
    
-	<HardPoint Name="HP_OR_CORVETTE_03">
+	<HardPoint Name="HP_FORAY_CLASS_HL_01">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			  <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
-            <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP05</Fire_Bone_A>
+            <Fire_Bone_B>HP05</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -194,20 +194,20 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-    <HardPoint Name="HP_OR_CORVETTE_04">
+    <HardPoint Name="HP_FORAY_CLASS_HL_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
-            <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP06</Fire_Bone_A>
+            <Fire_Bone_B>HP06</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -223,20 +223,20 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
    
-  	<HardPoint Name="HP_OR_CORVETTE_05">
+  	<HardPoint Name="HP_FORAY_CLASS_HL_03">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			  <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
-            <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP07</Fire_Bone_A>
+            <Fire_Bone_B>HP07</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -252,20 +252,20 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-    <HardPoint Name="HP_OR_CORVETTE_06">
+    <HardPoint Name="HP_FORAY_CLASS_HL_04">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
-            <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP08</Fire_Bone_A>
+            <Fire_Bone_B>HP08</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -281,24 +281,20 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 	
-			
-	
-<!-- OLD REPUBLIC MISSILE CORVETTE HARDPOINT DATA -->
-
-    <HardPoint Name="HP_OR_MISSILE_CORVETTE_01">
+	<HardPoint Name="HP_FORAY_CLASS_HL_05">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			  <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
-            <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP09</Fire_Bone_A>
+            <Fire_Bone_B>HP09</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -314,20 +310,20 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
-
-    <HardPoint Name="HP_OR_MISSILE_CORVETTE_02">
+			
+	<HardPoint Name="HP_FORAY_CLASS_HL_06">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-			<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
-            <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>HP10</Fire_Bone_A>
+            <Fire_Bone_B>HP10</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -343,26 +339,119 @@
 			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 			
- 			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-    <HardPoint Name="HP_OR_MISSILE_CORVETTE_03">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+   <!-- PRAETORIAN CLASS FRIGATE HARDPOINT DATA -->
 
-			<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
-            <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
+    <HardPoint Name="HP_PRAETORIAN_CLASS_L_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_POINT_DEFENCE</Tooltip_Text>
+			<Health>100.0</Health>
+
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>L_L_FB01</Fire_Bone_A>
+            <Fire_Bone_B>L_L_FB02</Fire_Bone_B>
+			<Fire_Bone_C>L_L_FB03</Fire_Bone_C>
+			<Fire_Bone_D>L_L_FB04</Fire_Bone_D>
+			<Fire_Bone_E>R_L_FB01</Fire_Bone_E>
+			<Fire_Bone_F>R_L_FB02</Fire_Bone_F>
+			<Fire_Bone_G>R_L_FB03</Fire_Bone_G>
+			<Fire_Bone_H>R_L_FB04</Fire_Bone_H>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+   </HardPoint>
+
+    <HardPoint Name="HP_PRAETORIAN_CLASS_L_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_POINT_DEFENCE</Tooltip_Text>
+			<Health>100.0</Health>
+
+			  <Damage_Type>Damage_Laser_E1</Damage_Type>
+            <Fire_Bone_A>L_L_FB05</Fire_Bone_A>
+            <Fire_Bone_B>L_L_FB06</Fire_Bone_B>
+			<Fire_Bone_C>L_L_FB07</Fire_Bone_C>
+			<Fire_Bone_D>L_L_FB08</Fire_Bone_D>
+			<Fire_Bone_E>R_L_FB05</Fire_Bone_E>
+			<Fire_Bone_F>R_L_FB06</Fire_Bone_F>
+			<Fire_Bone_G>R_L_FB07</Fire_Bone_G>
+			<Fire_Bone_H>R_L_FB08</Fire_Bone_H>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+ 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+   </HardPoint>
+
+    <HardPoint Name="HP_PRAETORIAN_CLASS_LTL_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_LIGHT_TURBOLASER</Tooltip_Text>
+			<Health>100.0</Health>
+
+			<Damage_Type> Damage_Turbolaser_Basic_E1 </Damage_Type>
+            <Fire_Bone_A>FP_T01_A</Fire_Bone_A>
+            <Fire_Bone_B>FP_T01_B</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+			
+			<Model_To_Attach>ORV_PRAETORIAN_FRIGATE_TURRET_T.ALO</Model_To_Attach>
+			<Attachment_Bone>HP_ATTACH_T</Attachment_Bone>
+			<Collision_Mesh />
+			<Damage_Decal />
+			<Damage_Particles>HP_T01_EMITDAMAGE</Damage_Particles>	
+			
+			<Is_Turret> Yes </Is_Turret>
+			<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+			<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+			<Turret_Rotate_Speed> 2.0</Turret_Rotate_Speed>
+			<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+			<Turret_Elevate_Extent_Degrees> 70.0 </Turret_Elevate_Extent_Degrees>
+			<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
+			<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Light</Fire_Projectile_Type>
 			<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
-				<Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+			<Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
 
 			<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
 			<Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
@@ -375,18 +464,35 @@
  			<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
     
-    <HardPoint Name="HP_OR_MISSILE_CORVETTE_04">
+    <HardPoint Name="HP_PRAETORIAN_CLASS_LTL_02">
 			<Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>No</Is_Targetable>
-            <Is_Destroyable>No</Is_Destroyable>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+			<Tooltip_Text>TEXT_WEAPON_LIGHT_TURBOLASER</Tooltip_Text>
+			<Health>100.0</Health>
 
-			<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
-            <Fire_Bone_A>MuzzleA_03</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
+			<Damage_Type> Damage_Turbolaser_Basic_E1 </Damage_Type>
+            <Fire_Bone_A>FP_T02_A</Fire_Bone_A>
+            <Fire_Bone_B>FP_T02_B</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Medium_Laser_Cannon_Red</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+			
+			<Model_To_Attach>ORV_PRAETORIAN_FRIGATE_TURRET_B.ALO</Model_To_Attach>
+			<Attachment_Bone>HP_ATTACH_B</Attachment_Bone>
+			<Collision_Mesh />
+			<Damage_Decal />
+			<Damage_Particles>HP_T02_EMITDAMAGE</Damage_Particles>	
+			
+			<Is_Turret> Yes </Is_Turret>
+			<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+			<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+			<Turret_Rotate_Speed> 2.0</Turret_Rotate_Speed>
+			<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+			<Turret_Elevate_Extent_Degrees> 70.0 </Turret_Elevate_Extent_Degrees>
+			<Turret_Bone_Name> Turret_01 </Turret_Bone_Name>
+			<Barrel_Bone_Name> Barrel_01 </Barrel_Bone_Name>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Light</Fire_Projectile_Type>
+			<Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
@@ -405,7 +511,8 @@
    </HardPoint>
 
    
-<!-- OLD REPUBLIC FRIGATE HARDPOINT DATA -->
+   
+<!-- HAMMERHEAD CLASS CRUISER HARDPOINT DATA -->
 
     <HardPoint Name="HP_OR_FRIGATE_WEAPON_XX_01">
 			<Type> REQUIRES_VALUE </Type>
@@ -1783,7 +1890,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
-<!-- OLD REPUBLIC COMMAND SHIP HARDPOINT DATA -->
+<!-- INEXPUGNABLE CLASS TACTICAL COMMAND SHIP HARDPOINT DATA -->
 	
     <HardPoint Name="HP_OR_COMMAND_SHIP_WEAPON_XX_01">
 			<Type> REQUIRES_VALUE </Type>
