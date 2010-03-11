@@ -59,11 +59,9 @@
 			
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>7</Damage>
-        <Damage_Type>Damage_AWing</Damage_Type>
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
-		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
-		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
-		<Projectile_Fire_Recharge_Seconds>1.0</Projectile_Fire_Recharge_Seconds>
+        
+		<HardPoints>HP_AUREK_L, HP_AUREK_SOPT</HardPoints>
+		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -71,15 +69,7 @@
 		<Death_SFXEvent_Start_Die>Unit_A_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Select>Unit_Select_A_Wing</SFXEvent_Select>
 		<SFXEvent_Move>Unit_Move_A_Wing</SFXEvent_Move>
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_A_Wing</SFXEvent_Fleet_Move>
@@ -233,12 +223,19 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
-		<Squadron_Units>OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK</Squadron_Units>
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-15.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,30.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-30.0,-30.0,0.0</Squadron_Offsets>
+		<Squadron_Units>OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK, OR_AUREK</Squadron_Units>
+		<Squadron_Offsets>100.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>50.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-100.0,100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>0.0,-100.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-50.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-50.0,-150.0,0.0</Squadron_Offsets>
+		<Squadron_Offsets>-100.0,-100.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_a_wing.tga</Icon_Name>
 		<GUI_Model_Name>RV_awing.ALO</GUI_Model_Name>
 		<GUI_Distance>115</GUI_Distance>
