@@ -1972,6 +1972,24 @@ Fynbos - Returned to Tech 4 for balance - Doro
 		
 	</SpaceUnit>
 	
+	<SpaceUnit Name="Victory_Destroyer_II">
+		<Variant_Of_Existing_Type>Victory_Destroyer_No_Fighters</Variant_Of_Existing_Type>
+		<Tech_Level>2</Tech_Level>
+		<Space_Model_Name>EV_VICTORY_II.ALO</Space_Model_Name>
+		<!-- Fighter complement -->
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 3</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+		<SpaceBehavior>SPAWN_SQUADRON, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+		<Population_Value>3</Population_Value>
+		
+		<Tactical_Bribe_Cost>2800</Tactical_Bribe_Cost>
+		
+	</SpaceUnit>
+	
+	
 <!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial --><!-- Captial -->
 	
   	<SpaceUnit Name="Generic_Star_Destroyer">
