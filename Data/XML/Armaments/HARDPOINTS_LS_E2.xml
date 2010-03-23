@@ -916,7 +916,7 @@
 
     <!--Secondary Hardpoints (4 laser cannons, 2 proton torp. tubes)-->
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_L_FL">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_L_FL">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -957,7 +957,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_L_FR">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_L_FR">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -998,7 +998,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_L_LCL">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_L_LCL">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1012,7 +1012,7 @@
 
             <Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>HP_LCL_FB_01</Fire_Bone_A>
-            <Fire_Bone_B>HP_LCL_FB_01</Fire_Bone_B>
+            <Fire_Bone_B>HP_LCL_FB_02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
@@ -1033,7 +1033,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_L_LCR">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_L_LCR">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1047,7 +1047,7 @@
             <Attachment_Bone>HP_LCR_BONE</Attachment_Bone>
             <Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>HP_LCR_FB_01</Fire_Bone_A>
-            <Fire_Bone_B>HP_LCR_FB_01</Fire_Bone_B>
+            <Fire_Bone_B>HP_LCR_FB_02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
@@ -1069,7 +1069,7 @@
     </HardPoint>
 
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_APPT_01">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_APPT_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1097,7 +1097,7 @@
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_APPT_02">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_APPT_02">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1125,8 +1125,9 @@
             <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
+
     <!--Non-Weapon Hardpoints-->
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_ENGINES_01">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_ENGINES_01">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1144,7 +1145,7 @@
             <Engine_Particles>HP_ENGINE_A</Engine_Particles>
 
     </HardPoint>
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_ENGINES_02">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_ENGINES_02">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1163,7 +1164,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_I_E2_FIGHTER_BAY">
+    <HardPoint Name="HP_ACCLAMATOR_I_E2_FIGHTER_BAY">
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
@@ -1186,8 +1187,8 @@
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-
     </HardPoint>
+
     <!--Dummy-Hardpoint-->
     <HardPoint Name="HP_ACCLAMATOR_I_E2_DUMMY">
          <Type>HARD_POINT_DUMMY_ART</Type>
@@ -1196,6 +1197,7 @@
          <Attachment_Bone>HP_PROT_BONE_C</Attachment_Bone>
          <Damage_Decal>HP_PROT_C_BLAST</Damage_Decal>
     </HardPoint>
+
 
 <!-- Hard points for the Acclamator II-Class Assault Ship (Era 2) -->
 
@@ -1212,7 +1214,7 @@
 
             <Model_To_Attach>VCCr_ACCLAMATOR_UEAW_BL.ALO</Model_To_Attach>
             <Attachment_Bone>HP_BL_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_BL_COLL</Collision_Mesh>
+            <Collision_Mesh>Breakoff3_Collision</Collision_Mesh>
             <!--<Damage_Decal>HP_BL_BLAST</Damage_Decal>-->
             <Damage_Particles>HP_BL_DP_01</Damage_Particles>
 
@@ -1254,7 +1256,7 @@
 
             <Model_To_Attach>VCCr_ACCLAMATOR_UEAW_BR.ALO</Model_To_Attach>
             <Attachment_Bone>HP_BR_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_BR_COLL</Collision_Mesh>
+            <Collision_Mesh>Breakoff2_Collision</Collision_Mesh>
             <!--<Damage_Decal>HP_BL_BLAST</Damage_Decal>-->
             <Damage_Particles>HP_BR_DP_01</Damage_Particles>
 
@@ -1284,7 +1286,7 @@
 
         </Hardpoint>
 
-        <HardPoint Name="HP_ACCLAMTOR_II_E2_LTL_FL">
+        <HardPoint Name="HP_ACCLAMATOR_II_E2_LTL_FL">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1296,7 +1298,7 @@
 
             <Model_To_Attach>VCCr_ACCLAMATOR_UEAW_FL.ALO</Model_To_Attach>
             <Attachment_Bone>HP_FL_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_FL_COLL</Collision_Mesh>
+            <Collision_Mesh>Breakoff4_Collision</Collision_Mesh>
             <!--<Damage_Decal>HP_FL_BLAST</Damage_Decal>-->
             <Damage_Particles>HP_FL_DP_01</Damage_Particles>
 
@@ -1315,17 +1317,17 @@
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_II_E2_LTL_FR">
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_LTL_FR">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1337,7 +1339,7 @@
 
             <Model_To_Attach>VCCr_ACCLAMATOR_UEAW_FR.ALO</Model_To_Attach>
             <Attachment_Bone>HP_FR_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_FR_COLL</Collision_Mesh>
+            <Collision_Mesh>Breakoff1_Collision</Collision_Mesh>
             <!--<Damage_Decal>HP_FL_BLAST</Damage_Decal>-->
             <Damage_Particles>HP_FR_DP_01</Damage_Particles>
 
@@ -1356,19 +1358,19 @@
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
     <!--Secondary Weapons (4 Laser cannon batteries, 1 prot torp tube-->
 
-    <HardPoint Name="HP_ACCLAMTOR_II_E2_L_LCL">
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_L_LCL">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1379,10 +1381,10 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Damage_Decal>HP_LCL_BLAST</Damage_Decal>
-
+            <Attachment_Bone>HP_LCL_BONE</Attachment_Bone>
             <Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>HP_LCL_FB_01</Fire_Bone_A>
-            <Fire_Bone_B>HP_LCL_FB_01</Fire_Bone_B>
+            <Fire_Bone_B>HP_LCL_FB_02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
@@ -1390,7 +1392,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
                         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1403,7 +1405,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_ACCLAMTOR_II_E2_L_LCR">
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_L_LCR">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1414,10 +1416,10 @@
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Damage_Decal>HP_LCR_BLAST</Damage_Decal>
-
+            <Attachment_Bone>HP_LCR_BONE</Attachment_Bone>
             <Damage_Type> Damage_Acclamator </Damage_Type>
             <Fire_Bone_A>HP_LCR_FB_01</Fire_Bone_A>
-            <Fire_Bone_B>HP_LCR_FB_01</Fire_Bone_B>
+            <Fire_Bone_B>HP_LCR_FB_02</Fire_Bone_B>
             <Fire_Cone_Width>160</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
@@ -1425,7 +1427,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>900.0</Fire_Range_Distance>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
                         <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
@@ -1437,6 +1439,156 @@
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
+
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_L_BC_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>100.0</Health>
+
+            <Death_Explosion_Particles> Small_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Damage_Decal>HP_PROT_A_BLAST</Damage_Decal>
+            <Attachment_Bone>HP_PROT_BONE_A</Attachment_Bone>
+            <Damage_Type> Damage_Acclamator </Damage_Type>
+            <Fire_Bone_A>HP_PROT_FB_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_PROT_FB_02</Fire_Bone_B>
+            <Fire_Cone_Width>160</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_L_BC_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>100.0</Health>
+
+            <Death_Explosion_Particles> Small_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Damage_Decal>HP_PROT_B_BLAST</Damage_Decal>
+            <Attachment_Bone>HP_PROT_BONE_B</Attachment_Bone>
+            <Damage_Type> Damage_Acclamator </Damage_Type>
+            <Fire_Bone_A>HP_PROT_FB_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_PROT_FB_04</Fire_Bone_B>
+            <Fire_Cone_Width>160</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_APPT">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Health>100.0</Health>
+
+            <Death_Explosion_Particles> Small_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+            <Attachment_Bone>HP_PROT_BONE_C</Attachment_Bone>
+            <Damage_Decal>HP_PROT_C_BLAST</Damage_Decal>
+
+            <Fire_Bone_A>HP_PROT_BONE_C</Fire_Bone_A>
+            <Fire_Bone_B>HP_PROT_BONE_C</Fire_Bone_B>
+            <Fire_Cone_Width>130.0</Fire_Cone_Width>
+            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E2</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>18.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>18.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+
+            <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <!--Non-Weapon Hardpoints-->
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_ENGINES_01">
+            <Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>190.0</Health>
+
+            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>EV_Acclamator_HP00_E.alo</Model_To_Attach>
+            <Attachment_Bone>HP_ENGINE_A</Attachment_Bone>
+            <Collision_Mesh>HP_ENGINE_A_COLL</Collision_Mesh>
+            <!--<Damage_Decal />
+            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
+            <Engine_Particles>HP_ENGINE_A</Engine_Particles>
+
+    </HardPoint>
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_ENGINES_02">
+            <Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>190.0</Health>
+
+            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>EV_Acclamator_HP00_E.alo</Model_To_Attach>
+            <Attachment_Bone>HP_ENGINE_B</Attachment_Bone>
+            <Collision_Mesh>HP_ENGINE_B_COLL</Collision_Mesh>
+            <!--<Damage_Decal />
+            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
+            <Engine_Particles>HP_ENGINE_B</Engine_Particles>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_ACCLAMATOR_II_E2_SHIELD">
+            <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>180.0</Health>
+
+            <Attachment_Bone>HP_SHIELD_BONE</Attachment_Bone>
+            <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+            <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+    </HardPoint>
+
 
 <!-- Victory I-Class Cruiser hardpoints-->
 
