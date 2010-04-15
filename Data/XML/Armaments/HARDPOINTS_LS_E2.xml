@@ -78,7 +78,7 @@
                 <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
                 <Fire_Category_Restrictions />
-                <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
@@ -90,7 +90,7 @@
                 <Is_Destroyable>No</Is_Destroyable>
 
                 <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
-                <Fire_Bone_B>MuzzleA_01</Fire_Bone_B>
+                <Fire_Bone_A>MuzzleA_01</Fire_Bone_A>
                 <Fire_Bone_B>MuzzleA_03</Fire_Bone_B>
                 <Fire_Bone_B>MuzzleA_04</Fire_Bone_B>
                 <Fire_Cone_Width>10.0</Fire_Cone_Width>
@@ -184,18 +184,17 @@
                 <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
                 <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-                <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
                 <Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
     </HardPoint>
 
 <!-- Hard points for the Republic Consular-Class refit -->
 
-    <HardPoint Name="HP_CONSULAR_CLASS_LTL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+		<HardPoint Name="HP_CONSULAR_CLASS_LTL_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                          <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -216,7 +215,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
         <HardPoint Name="HP_CONSULAR_CLASS_LTL_02">
@@ -224,7 +223,6 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                          <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -245,7 +243,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
         <HardPoint Name="HP_CONSULAR_CLASS_LTL_03">
@@ -253,7 +251,6 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                          <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -274,7 +271,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
         <HardPoint Name="HP_CONSULAR_CLASS_LTL_04">
@@ -282,7 +279,6 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                          <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -303,7 +299,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
         <HardPoint Name="HP_CONSULAR_CLASS_LTL_05">
@@ -311,7 +307,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                          <Damage_Type>Damage_Corellian_Corvette</Damage_Type>
+
             <Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
@@ -332,7 +328,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
         <HardPoint Name="HP_CONSULAR_CLASS_L_01">
@@ -415,7 +411,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
     <HardPoint Name="HP_REPUBLIC_LIGHT_CRUISER_HL_02">
@@ -444,7 +440,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
     <HardPoint Name="HP_REPUBLIC_LIGHT_CRUISER_HL_03">
@@ -473,7 +469,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
     <HardPoint Name="HP_REPUBLIC_LIGHT_CRUISER_HL_04">
@@ -502,7 +498,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                         <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
     <HardPoint Name="HP_CONSULAR_CLASS_MTL_01">
@@ -1557,6 +1553,7 @@
             <Engine_Particles>HP_ENGINE_A</Engine_Particles>
 
     </HardPoint>
+	
     <HardPoint Name="HP_ACCLAMATOR_II_E2_ENGINES_02">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2224,6 +2221,7 @@
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
+	
     <HardPoint Name="HP_VICTORY_I_E2_SHIELDS">
                         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
