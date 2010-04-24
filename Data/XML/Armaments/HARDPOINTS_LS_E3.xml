@@ -90,7 +90,7 @@
                 <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
 
-		<!--- These two are wrong. Should be concussions. LTCC 15/04/2010 -->
+                <!--- These two are wrong. Should be concussions. LTCC 15/04/2010 -->
         <HardPoint Name="HP_Z-95HEADHUNTER_SOPT_E3_01">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -431,7 +431,7 @@
                 <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
 
-		<HardPoint Name="HP_Y-WING_SI_E3">
+                <HardPoint Name="HP_Y-WING_SI_E3">
             <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -536,8 +536,8 @@
                 <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
-		
-		<HardPoint Name="HP_B-WING_RBC_2_E3">
+
+                <HardPoint Name="HP_B-WING_RBC_2_E3">
                 <Type> HARD_POINT_WEAPON_LASER </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
@@ -737,18 +737,18 @@
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-			
-			<Is_Turret>Yes</Is_Turret>
-			<Model_To_Attach>VCCo_CR90_TT.ALO</Model_To_Attach>
-			<Attachment_Bone>TURRET_TOP_ATTACH</Attachment_Bone>
-			<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-			<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-			<Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
-			<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
-			<Turret_Elevate_Extent_Degrees> 55.0 </Turret_Elevate_Extent_Degrees>
-			<Turret_Bone_Name>TURRET_BONE_T</Turret_Bone_Name>
-			<Barrel_Bone_Name>BARREL_BONE_T</Barrel_Bone_Name>
-			
+
+                        <Is_Turret>Yes</Is_Turret>
+                        <Model_To_Attach>VCCo_CR90_TT.ALO</Model_To_Attach>
+                        <Attachment_Bone>TURRET_TOP_ATTACH</Attachment_Bone>
+                        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+                        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+                        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+                        <Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+                        <Turret_Elevate_Extent_Degrees> 55.0 </Turret_Elevate_Extent_Degrees>
+                        <Turret_Bone_Name>TURRET_BONE_T</Turret_Bone_Name>
+                        <Barrel_Bone_Name>BARREL_BONE_T</Barrel_Bone_Name>
+
             <Fire_Bone_A>TF_01</Fire_Bone_A>
             <Fire_Bone_B>TF_02</Fire_Bone_B>
             <Fire_Cone_Width>10.0</Fire_Cone_Width>
@@ -759,7 +759,7 @@
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+                        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
             <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
@@ -776,18 +776,18 @@
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-			
-			<Is_Turret>Yes</Is_Turret>
-			<Model_To_Attach>VCCo_CR90_BT.ALO</Model_To_Attach>
-			<Attachment_Bone>TURRET_BOTTOM_ATTACH</Attachment_Bone>
-			<Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-			<Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
-			<Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
-			<Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
-			<Turret_Elevate_Extent_Degrees> 55.0 </Turret_Elevate_Extent_Degrees>
-			<Turret_Bone_Name>TURRET_BONE_B</Turret_Bone_Name>
-			<Barrel_Bone_Name>BARREL_BONE_B</Barrel_Bone_Name>
-			
+
+                        <Is_Turret>Yes</Is_Turret>
+                        <Model_To_Attach>VCCo_CR90_BT.ALO</Model_To_Attach>
+                        <Attachment_Bone>TURRET_BOTTOM_ATTACH</Attachment_Bone>
+                        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+                        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+                        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+                        <Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
+                        <Turret_Elevate_Extent_Degrees> 55.0 </Turret_Elevate_Extent_Degrees>
+                        <Turret_Bone_Name>TURRET_BONE_B</Turret_Bone_Name>
+                        <Barrel_Bone_Name>BARREL_BONE_B</Barrel_Bone_Name>
+
             <Fire_Bone_A>BF_01</Fire_Bone_A>
             <Fire_Bone_B>BF_02</Fire_Bone_B>
             <Fire_Cone_Width>10.0</Fire_Cone_Width>
@@ -798,7 +798,7 @@
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+                        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
             <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
@@ -817,7 +817,7 @@
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleA_02</Fire_Bone_A>
-			<Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
+                        <Fire_Bone_B>MuzzleA_02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -845,7 +845,7 @@
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleA_05</Fire_Bone_A>
-			<Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
+                        <Fire_Bone_B>MuzzleA_05</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -873,7 +873,7 @@
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleA_06</Fire_Bone_A>
-			<Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
+                        <Fire_Bone_B>MuzzleA_06</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -894,14 +894,14 @@
 
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
-  
+
     <HardPoint Name="HP_CR90_E3_LT_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleA_07</Fire_Bone_A>
-			<Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
+                        <Fire_Bone_B>MuzzleA_07</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -963,7 +963,7 @@
 
     </HardPoint>
 
-	<HardPoint Name="HP_DP20_E3_MISSILE_03">
+        <HardPoint Name="HP_DP20_E3_MISSILE_03">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1004,7 +1004,7 @@
 
     </HardPoint>
 
-	<HardPoint Name="HP_DP20_E3_LASER_01">
+        <HardPoint Name="HP_DP20_E3_LASER_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1094,7 +1094,7 @@
                           <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
          </HardPoint>
 
-	<HardPoint Name="HP_DP20_E3_LT_01">
+        <HardPoint Name="HP_DP20_E3_LT_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1174,7 +1174,7 @@
 
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
-  
+
     <HardPoint Name="HP_DP20_E3_LT_04">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -1202,11 +1202,11 @@
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-	
-	
+
+
     <!-- UEAW, Hospital NebulonB, Fynbos -->
-	
-	<HardPoint Name="HP_EF76_MEDICAL_E3_LTL_FL_01">
+
+        <HardPoint Name="HP_EF76_MEDICAL_E3_LTL_FL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1285,7 +1285,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
-	
+
     <HardPoint Name="HP_EF76_MEDICAL_E3_LASER_BL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -1368,7 +1368,7 @@
 
 <!-- Hard points for the Nebulon-B Frigate -->
 
-	<HardPoint Name="HP_EF76_E3_TURBO_PFL">
+        <HardPoint Name="HP_EF76_E3_TURBO_PFL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1619,7 +1619,7 @@
 
     </HardPoint>
 
-	<HardPoint Name="HP_EF76_E3_LASER_FL">
+        <HardPoint Name="HP_EF76_E3_LASER_FL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2355,10 +2355,10 @@
                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-        <!-- MC30 FRIGATE HARD POINTS -->
+<!-- MC30 FRIGATE HARD POINTS -->
 
 
-    <HardPoint Name="HP_MC30_E3_LASER">
+    <HardPoint Name="HP_MC30_E3_LTL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2377,10 +2377,10 @@
             <Fire_Bone_B>FP_LC_00</Fire_Bone_B>
             <Fire_Cone_Width>364.0</Fire_Cone_Width>
             <Fire_Cone_Height>45.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>10</Fire_Pulse_Count>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
@@ -2395,7 +2395,44 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_MC30_E3_PROTON_BC_01">
+    <HardPoint Name="HP_MC30_E3_LTL_02">
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>400.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_LC_01_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_LC_COLL</Collision_Mesh>
+            <Damage_Decal>HP_LC_01_BLAST</Damage_Decal>
+            <Damage_Particles>HP_LC_01_EMITDAMAGE</Damage_Particles>
+
+            <Fire_Bone_A>FP_LC_01</Fire_Bone_A>
+            <Fire_Bone_B>FP_LC_01</Fire_Bone_B>
+            <Fire_Cone_Width>364.0</Fire_Cone_Width>
+            <Fire_Cone_Height>45.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+                        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 8.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_MC30_E3_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2405,21 +2442,85 @@
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_PT_B_Bone</Attachment_Bone>
+            <Attachment_Bone>HP_PT_B_BONE</Attachment_Bone>
             <Collision_Mesh>HP_PT_B_COLL</Collision_Mesh>
             <Damage_Decal>HP_PT_B_BLAST</Damage_Decal>
             <Damage_Particles>HP_PT_B_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>FP_PT_B_00</Fire_Bone_A>
-            <Fire_Bone_B>FP_PT_B_00</Fire_Bone_B>
+            <Fire_Bone_B>FP_PT_B_01</Fire_Bone_B>
+            <Fire_Bone_C>FP_PT_B_02</Fire_Bone_C>
+            <Fire_Bone_D>FP_PT_B_03</Fire_Bone_D>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+                        <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+                        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC30_E3_APPT_01">
+               <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Health>350.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_PT_L_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_PT_L_COLL</Collision_Mesh>
+            <Damage_Decal>HP_PT_L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_PT_L_EMITDAMAGE</Damage_Particles>
+
+            <Fire_Bone_A>FP_PT_L_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_PT_L_01</Fire_Bone_B>
+
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+                        <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+                        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC30_E3_APPT_02">
+               <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Health>350.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_PT_R_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_PT_R_COLL</Collision_Mesh>
+            <Damage_Decal>HP_PT_R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_PT_R_EMITDAMAGE</Damage_Particles>
+
+            <Fire_Bone_A>FP_PT_R_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_PT_R_01</Fire_Bone_B>
+
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
                         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
@@ -2435,65 +2536,6 @@
         <Damage_Particles>HP_PT_B_EMITDAMAGE</Damage_Particles>
         </HardPoint>
 
-    <HardPoint Name="HP_MC30_E3_PROTON_FL_02">
-                        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-            <Health>400.0</Health>
-
-                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
-            <Attachment_Bone>HP_PT_L_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_PT_L_COLL</Collision_Mesh>
-            <Damage_Decal>HP_PT_L_BLAST</Damage_Decal>
-            <Damage_Particles>HP_PT_L_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>FP_PT_L_00</Fire_Bone_A>
-            <Fire_Bone_B>FP_PT_L_01</Fire_Bone_B>
-            <Fire_Cone_Width>200.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-                        <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-                        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
-
-    <HardPoint Name="HP_MC30_E3_PROTON_FR_03">
-                        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-            <Health>400.0</Health>
-
-                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-
-            <Attachment_Bone>HP_PT_R_Bone</Attachment_Bone>
-            <Collision_Mesh>HP_PT_R_COLL</Collision_Mesh>
-            <Damage_Decal>HP_PT_R_BLAST</Damage_Decal>
-            <Damage_Particles>HP_PT_R_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>FP_PT_R_00</Fire_Bone_A>
-            <Fire_Bone_B>FP_PT_R_01</Fire_Bone_B>
-            <Fire_Cone_Width>200.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>5</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-                        <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-                        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
 
     <HardPoint Name="HP_MC30_E3_ENGINES">
                 <Type> HARD_POINT_ENGINE </Type>
