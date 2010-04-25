@@ -2457,7 +2457,6 @@
                         DAMAGE_TRACKING,
                         ION_STUN_EFFECT,
                         NEBULA,
-                        SPAWN_SQUADRON
                 </SpaceBehavior>
 
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -2476,14 +2475,9 @@
                         HP_ASSAULT_FRIGATE_I_E3_HL_01,
                         HP_ASSAULT_FRIGATE_I_E3_HL_02,
                         HP_ASSAULT_FRIGATE_I_E3_ENGINES,
-                        <!--HP_ASSAULT_FRIGATE_I_E3_HANGAR-->
+                        HP_ASSAUL_FRIGATE_I_E3_SHIELD
 
                 </HardPoints>
-
-        <!--Fighter complement-->
-                <Starting_Spawned_Units_Tech_0>REBEL_X-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
-                <Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-                <Reserve_Spawned_Units_Tech_0>REBEL_X-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
 
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
@@ -2557,7 +2551,7 @@
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
                 <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
-                <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
                 <Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
