@@ -1494,7 +1494,7 @@
 
                 <Icon_Name> i_button_corellian_gunship.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_REBEL.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
-                <Space_Model_Name> RV_GUNSHIP.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
+                <Space_Model_Name> VCCo_DP20.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.5 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.9995</Mass>
 
@@ -1573,14 +1573,17 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <!-- Hardpoints -->
                 <HardPoints>
-                        HP_CORELLIAN_GUNSHIP_E3_MISSILE_01,
-                        HP_CORELLIAN_GUNSHIP_E3_MISSILE_02,
-                        HP_CORELLIAN_GUNSHIP_E3_LASER_03,
-                        HP_CORELLIAN_GUNSHIP_E3_LASER_04,
-                        HP_CORELLIAN_GUNSHIP_E3_LASER_05,
-                        HP_CORELLIAN_GUNSHIP_E3_LASER_06,
-                        HP_CORELLIAN_GUNSHIP_E3_MISSILE_07,
-                        HP_CORELLIAN_GUNSHIP_E3_MISSILE_08
+                        HP_DP20_E3_APMCM_01,
+                        HP_DP20_E3_APMCM_02,
+                        HP_DP20_E3_APMCM_03,
+                        HP_DP20_E3_APMCM_04,
+                        HP_DP20_E3_L_01,
+                        HP_DP20_E3_L_02,
+                        HP_DP20_E3_L_03,
+                        HP_DP20_E3_LT_01,
+                        HP_DP20_E3_LT_02,
+                        HP_DP20_E3_LT_03,
+                        HP_DP20_E3_LT_04
 
                 </HardPoints>
         <!-- Death  Stats -->
@@ -1679,7 +1682,7 @@
 
     <SpaceUnit Name="REBEL_CORELLIAN_GUNBOAT_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
                 <Text_ID>TEXT_UNIT_CORELLIAN_GUNBOAT</Text_ID> <!-- Same as unit's -->
-                <Space_Model_Name>RV_GUNSHIP_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+                <Space_Model_Name>VCCo_DP20_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
                 <Scale_Factor>.5</Scale_Factor>
