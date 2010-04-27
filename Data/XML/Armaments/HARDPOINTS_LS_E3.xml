@@ -1552,7 +1552,7 @@
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
-            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -1593,7 +1593,7 @@
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
-            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -1701,6 +1701,7 @@
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
 
+    <!--Should be changed-->
     <HardPoint Name="HP_EF76_E3_HANGAR">
                     <Type> HARD_POINT_FIGHTER_BAY </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -1716,6 +1717,216 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BR </Death_Breakoff_Prop>
         </HardPoint>
+
+    <HardPoint Name="HP_EF76_E3_SHIELD">
+            <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>260.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+            <Attachment_Bone>SHIELD</Attachment_Bone>
+     </HardPoint>
+
+<!--Nebulon-B Hospital Frigate hardpoints-->
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_LTL_01">
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+            <Health>260.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_F-L.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_F-L_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_LTL_02">
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+            <Health>260.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_F-R.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_F-R_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_F-R_COLL</Collision_Mesh>
+            <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-R_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_L_01">
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
+            <Health>260.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_B-L.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
+            <Damage_Decal>HP_B-L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_B-L_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1150.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_L_02">
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
+            <Health>260.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach>VCFr_NEBULONB_HP00_B-R.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
+            <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
+            <Damage_Decal>HP_B-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_B-R_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1150.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+    </HardPoint>
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_SHIELD">
+            <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>200.0</Health>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+            <Attachment_Bone>SHIELD</Attachment_Bone>
+     </HardPoint>
+
+    <HardPoint Name="HP_EF76_HOSPITAL_E3_ENGINES">
+                        <Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>260.0</Health>
+
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                                <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_E_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+
 
 <!-- Dreadnaught hardpoints -->
 
