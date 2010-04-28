@@ -1206,6 +1206,90 @@
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
+       <HardPoint Name="HP_MARAUDER_E3_MTL_01">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>FB01</Fire_Bone_A>
+            <Fire_Bone_B>FB02</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+            <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+   </HardPoint>
+
+   <HardPoint Name="HP_MARAUDER_E3_MTL_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>FB03</Fire_Bone_A>
+            <Fire_Bone_B>FB04</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+            <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+   </HardPoint>
+
+   <HardPoint Name="HP_MARAUDER_E3_MTL_03">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>FB05</Fire_Bone_A>
+            <Fire_Bone_B>FB06</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+            <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 70.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+   </HardPoint>
+
 
 
     <!-- UEAW, Hospital NebulonB, Fynbos -->
@@ -1468,7 +1552,7 @@
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
             <Damage_Particles>LTL_01_EMITDAMAGE</Damage_Particles>
-			<Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
                         <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>HP_LTL_01</Fire_Bone_A>
             <Fire_Bone_B>LTL_01_FB</Fire_Bone_B>
@@ -1505,7 +1589,7 @@
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
             <Damage_Particles>LTL_02_EMITDAMAGE</Damage_Particles>
-			<Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
                         <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>HP_LTL_02</Fire_Bone_A>
@@ -1625,7 +1709,7 @@
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
             <Damage_Particles>L_02_EMITDAMAGE</Damage_Particles>
-			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
             <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>L_02_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_02_FB01</Fire_Bone_B>
@@ -1662,7 +1746,7 @@
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
             <Damage_Particles>L_01_EMITDAMAGE</Damage_Particles>
-			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
             <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>L_01_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_01_FB01</Fire_Bone_B>
@@ -2766,7 +2850,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_00.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_00</Attachment_Bone>
-			<Collision_Mesh>ATTACH_00_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_00_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -2812,7 +2896,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_01.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_01</Attachment_Bone>
-			<Collision_Mesh>ATTACH_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_01_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
@@ -2858,7 +2942,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_02.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_02</Attachment_Bone>
-			<Collision_Mesh>ATTACH_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_02_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
             <Fire_Bone_B>MUZLLEA_05</Fire_Bone_B>
@@ -2905,7 +2989,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_03.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_03</Attachment_Bone>
-			<Collision_Mesh>ATTACH_03_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_03_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_06</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
@@ -2953,7 +3037,7 @@
 
 
             <Attachment_Bone>HP_L_05</Attachment_Bone>
-			<Collision_Mesh>HP_L_05_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_05_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -2997,7 +3081,7 @@
 
 
             <Attachment_Bone>HP_L_06</Attachment_Bone>
-			<Collision_Mesh>HP_L_06_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_06_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3040,7 +3124,7 @@
 
 
             <Attachment_Bone>HP_L_03</Attachment_Bone>
-			<Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3082,7 +3166,7 @@
 
 
             <Attachment_Bone>HP_L_04</Attachment_Bone>
-			<Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3124,7 +3208,7 @@
 
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
-			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3166,7 +3250,7 @@
 
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
-			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3209,7 +3293,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_06.alo</Model_To_Attach>
             <Attachment_Bone>Attach_06</Attachment_Bone>
-			<Collision_Mesh>ATTACH_06_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_06_COLL</Collision_Mesh>
             <Fire_Bone_A>MUZZLEA_12</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_13</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
@@ -3253,7 +3337,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_07.alo</Model_To_Attach>
             <Attachment_Bone>Attach_07</Attachment_Bone>
-			<Collision_Mesh>ATTACH_07_COLL</Collision_Mesh>
+                        <Collision_Mesh>ATTACH_07_COLL</Collision_Mesh>
             <Fire_Bone_A>MUZZLEA_14</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_15</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
@@ -3494,7 +3578,7 @@
 
 
             <Attachment_Bone>HP_L_03</Attachment_Bone>
-			<Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_03_FB01</Fire_Bone_A>
@@ -3533,7 +3617,7 @@
 
 
             <Attachment_Bone>HP_L_04</Attachment_Bone>
-			<Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_03_FB04</Fire_Bone_A>
@@ -3572,7 +3656,7 @@
 
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
-			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_02_FB01</Fire_Bone_A>
@@ -3611,7 +3695,7 @@
 
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
-			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_01_FB01</Fire_Bone_A>
@@ -3650,7 +3734,7 @@
 
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
-			<Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>LTL_01_FB01</Fire_Bone_A>
@@ -3689,7 +3773,7 @@
 
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
-			<Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
+                        <Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>LTL_02_FB01</Fire_Bone_A>
