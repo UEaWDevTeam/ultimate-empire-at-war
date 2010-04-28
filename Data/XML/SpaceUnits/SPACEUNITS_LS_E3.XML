@@ -1709,7 +1709,7 @@
                 <Space_Model_Name>VCCo_MARAUDER.ALO</Space_Model_Name>
                 <Icon_Name>i_button_marauder.tga</Icon_Name>
                 <Mass>0.995</Mass>
-                <Scale_Factor>0.6</Scale_Factor>
+                <Scale_Factor>0.48</Scale_Factor>
 
         <Ranking_In_Category>7</Ranking_In_Category>
                 <Max_Speed>1.8</Max_Speed> <!-- Was 3.25 -->
@@ -1872,6 +1872,15 @@
                 <Ship_Class>corvette</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
+        </SpaceUnit>
+
+        <SpaceUnit Name="REBEL_MARAUDER_DB">
+                <Variant_of_Existing_Type>REBEL_MARAUDER</Variant_of_Existing_Type>
+                <HardPoints>
+                         HP_MARAUDER_E3_DBM_01,
+                         HP_MARAUDER_E3_DBM_02
+                </HardPoints>
+                <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
         </SpaceUnit>
 
 
