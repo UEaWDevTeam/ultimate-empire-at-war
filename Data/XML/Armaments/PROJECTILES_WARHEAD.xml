@@ -985,6 +985,49 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+<!-- oooooooooooo Diamon-Boron Missiles ooooooooooooooooooo -->
+<!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
+
+	<Projectile Name="Proj_Diamond_Boron_Missile">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Concussion_Missile.alo</Space_Model_Name>
+		<Scale_Factor>2.0</Scale_Factor>
+		<Damage_Type> Damage_Diamond_Missile </Damage_Type>
+		<Max_Speed>7.5</Max_Speed>
+		<Max_Rate_Of_Turn>30</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		
+		<Projectile_Rocket_Curve_Distance>500</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>500</Projectile_Rocket_Straight_Distance>
+
+		<Projectile_Max_Flight_Distance>5000.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Scan_Range>2000.0</Projectile_Max_Scan_Range>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+
+		<Projectile_Damage>100</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 100 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		
+		<Projectile_SFXEvent_Detonate>SFX_Concussion_Missile_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Diamond_Boron</Projectile_Object_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>PEx_Explosion_Diamond_Boron</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Diamond_Boron</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Explosion_Diamond_Boron</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>600</AI_Combat_Power>
+	</Projectile>	
+	
+	
 
 
 </Projectiles>
