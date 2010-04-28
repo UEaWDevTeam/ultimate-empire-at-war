@@ -1281,7 +1281,7 @@
 
         <!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes -->
 
-        <SpaceUnit Name="REBEL_CORELLIAN_CORVETTE">
+    <SpaceUnit Name="REBEL_CORELLIAN_CORVETTE">
 
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_CORELLIAN_CORVETTE </Text_ID> <!-- One entry Only -->
@@ -1483,11 +1483,11 @@
         </SpaceUnit>
 
 
-        <SpaceUnit Name="REBEL_CORELLIAN_GUNBOAT">
+    <SpaceUnit Name="REBEL_CORELLIAN_GUNBOAT">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_ID_CORELLIAN_GUNBOAT </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_GUNBOAT </Encyclopedia_Text> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_CORELLIAN_GUNSHIP </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_GUNSHIP </Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CORVETTE </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against>  EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_TIE_BOMBER  </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_VICTORY_DESTROYER  </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
@@ -1701,12 +1701,12 @@
 
         <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->
 
-        <SpaceUnit Name="REBEL_EF76_HOSPITAL_FRIGATE">
+    <SpaceUnit Name="REBEL_EF76_HOSPITAL_FRIGATE">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_NEBULON_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_NEBULON_B </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_EF76_HOSPITAL </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_EF76_HOSPITAL </Encyclopedia_Text> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_UTILITY </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -1921,10 +1921,10 @@
 
         <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->
 
-        <SpaceUnit Name="REBEL_EF76_FRIGATE">
+    <SpaceUnit Name="REBEL_EF76_FRIGATE">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_NEBULON_FRIGATE </Text_ID> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_NEBULON_B </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_NEBULON_B </Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
@@ -2027,8 +2027,8 @@
                         HP_EF76_E3_L_02,
                         HP_EF76_E3_L_03,
                         HP_EF76_E3_L_04,
-                        HP_EF76_E3_ENGINES,
-                        HP_EF76_E3_SHIELD
+                        HP_EF76_E3_ENGINES
+                        <!-- HP_EF76_E3_SHIELD -->
                 </HardPoints>
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
@@ -2142,17 +2142,17 @@
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
 
-        <SpaceUnit Name="IMPERIAL_NEBULON_B_FRIGATE">
+    <SpaceUnit Name="IMPERIAL_EF76_FRIGATE">
                 <Variant_of_Existing_Type>REBEL_EF76_FRIGATE</Variant_of_Existing_Type>
                 <Affiliation>Empire</Affiliation>
         </SpaceUnit>
 
 
-        <SpaceUnit Name="REBEL_MC30_FRIGATE">
+    <SpaceUnit Name="REBEL_MC30_FRIGATE">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_MC30_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_MC30_FRIGATE </Encyclopedia_Text> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_MC30 </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_MC30 </Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_STAR_DESTROYER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
@@ -2375,11 +2375,11 @@
 
         <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->
 
-                <SpaceUnit Name="REBEL_ASSAULT_FRIGATE_I">
+        <SpaceUnit Name="REBEL_ASSAULT_FRIGATE_I">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE</Encyclopedia_Text> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE_I </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE_I</Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER</Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_BROADSIDE_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
@@ -2487,9 +2487,9 @@
                         HP_ASSAULT_FRIGATE_I_E3_L_06,
                         HP_ASSAULT_FRIGATE_I_E3_HL_01,
                         HP_ASSAULT_FRIGATE_I_E3_HL_02,
-                        HP_ASSAULT_FRIGATE_I_E3_ENGINES,
-                        HP_ASSAUL_FRIGATE_I_E3_SHIELD
-
+                        HP_ASSAULT_FRIGATE_I_E3_ENGINES
+                       <!--  HP_ASSAUL_FRIGATE_I_E3_SHIELD
+ -->
                 </HardPoints>
 
         <!-- Death  Stats -->
@@ -2606,8 +2606,8 @@
         <SpaceUnit Name="REBEL_ASSAULT_FRIGATE_II">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE</Encyclopedia_Text> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE_II </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE_II</Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER</Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_BROADSIDE_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
@@ -2712,8 +2712,8 @@
                         HP_ASSAULT_FRIGATE_II_E3_L_04,
                         HP_ASSAULT_FRIGATE_II_E3_LTL_01,
                         HP_ASSAULT_FRIGATE_II_E3_LTL_02,
-                        HP_ASSAULT_FRIGATE_II_E3_ENGINES,
-                        HP_ASSAUL_FRIGATE_II_E3_SHIELD
+                        HP_ASSAULT_FRIGATE_II_E3_ENGINES
+                        <!-- HP_ASSAUL_FRIGATE_II_E3_SHIELD -->
 
                 </HardPoints>
         <!-- Death  Stats -->

@@ -1210,11 +1210,11 @@
 
     <!-- UEAW, Hospital NebulonB, Fynbos -->
 
-        <HardPoint Name="HP_EF76_MEDICAL_E3_LTL_FL_01">
+    <!-- <HardPoint Name="HP_EF76_MEDICAL_E3_LTL_FL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -1254,7 +1254,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -1294,7 +1294,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -1334,7 +1334,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -1369,7 +1369,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
-
+ -->
 <!-- Hard points for the Nebulon-B Frigate -->
 
     <HardPoint Name="HP_EF76_E3_LTL_01">
@@ -1468,7 +1468,7 @@
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
             <Damage_Particles>LTL_01_EMITDAMAGE</Damage_Particles>
-
+			<Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
                         <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>HP_LTL_01</Fire_Bone_A>
             <Fire_Bone_B>LTL_01_FB</Fire_Bone_B>
@@ -1505,6 +1505,7 @@
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
             <Damage_Particles>LTL_02_EMITDAMAGE</Damage_Particles>
+			<Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
                         <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>HP_LTL_02</Fire_Bone_A>
@@ -1624,7 +1625,8 @@
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
             <Damage_Particles>L_02_EMITDAMAGE</Damage_Particles>
-                                                                                                                                   <Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
+            <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>L_02_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_02_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1660,7 +1662,8 @@
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
             <Damage_Particles>L_01_EMITDAMAGE</Damage_Particles>
-                                                                                                                                   <Damage_Type> Damage_Nebulon_B </Damage_Type>
+			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
+            <Damage_Type> Damage_Nebulon_B </Damage_Type>
             <Fire_Bone_A>L_01_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1718,7 +1721,7 @@
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BR </Death_Breakoff_Prop>
         </HardPoint>
 
-    <HardPoint Name="HP_EF76_E3_SHIELD">
+   <!--  <HardPoint Name="HP_EF76_E3_SHIELD">
             <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1728,7 +1731,7 @@
                         <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>SHIELD</Attachment_Bone>
-     </HardPoint>
+     </HardPoint> -->
 
 <!--Nebulon-B Hospital Frigate hardpoints-->
 
@@ -1898,7 +1901,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_EF76_HOSPITAL_E3_SHIELD">
+    <!-- <HardPoint Name="HP_EF76_HOSPITAL_E3_SHIELD">
             <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1908,7 +1911,7 @@
                         <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>SHIELD</Attachment_Bone>
-     </HardPoint>
+     </HardPoint> -->
 
     <HardPoint Name="HP_EF76_HOSPITAL_E3_ENGINES">
                         <Type> HARD_POINT_ENGINE </Type>
@@ -2553,7 +2556,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>400.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2590,7 +2593,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>400.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2627,7 +2630,7 @@
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPTA</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2659,7 +2662,7 @@
                <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2690,7 +2693,7 @@
                <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2717,7 +2720,7 @@
                         <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
 
-        <HardPoint Name="HP_MC30_E3_DUMMY_BC">
+    <HardPoint Name="HP_MC30_E3_DUMMY_BC">
                 <Type> HARD_POINT_DUMMY_ART </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
@@ -2754,7 +2757,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2763,6 +2766,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_00.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_00</Attachment_Bone>
+			<Collision_Mesh>ATTACH_00_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
@@ -2799,7 +2803,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2808,6 +2812,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_01.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_01</Attachment_Bone>
+			<Collision_Mesh>ATTACH_01_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
@@ -2843,7 +2848,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2853,6 +2858,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_02.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_02</Attachment_Bone>
+			<Collision_Mesh>ATTACH_02_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
             <Fire_Bone_B>MUZLLEA_05</Fire_Bone_B>
@@ -2889,7 +2895,7 @@
                <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2899,6 +2905,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_03.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_03</Attachment_Bone>
+			<Collision_Mesh>ATTACH_03_COLL</Collision_Mesh>
 
             <Fire_Bone_A>MUZZLEA_06</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
@@ -2938,7 +2945,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2946,6 +2953,7 @@
 
 
             <Attachment_Bone>HP_L_05</Attachment_Bone>
+			<Collision_Mesh>HP_L_05_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -2981,7 +2989,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -2989,6 +2997,7 @@
 
 
             <Attachment_Bone>HP_L_06</Attachment_Bone>
+			<Collision_Mesh>HP_L_06_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3019,12 +3028,11 @@
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-
-     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_L_03">
+    <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_L_03">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3032,6 +3040,7 @@
 
 
             <Attachment_Bone>HP_L_03</Attachment_Bone>
+			<Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3065,7 +3074,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3073,6 +3082,7 @@
 
 
             <Attachment_Bone>HP_L_04</Attachment_Bone>
+			<Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3106,7 +3116,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3114,6 +3124,7 @@
 
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
+			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3147,7 +3158,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3155,6 +3166,7 @@
 
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
+			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_F-L.alo</Model_To_Attach>
             <Collision_Mesh>HP_F-L_COLL</Collision_Mesh>
             <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
@@ -3188,7 +3200,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3197,7 +3209,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_06.alo</Model_To_Attach>
             <Attachment_Bone>Attach_06</Attachment_Bone>
-
+			<Collision_Mesh>ATTACH_06_COLL</Collision_Mesh>
             <Fire_Bone_A>MUZZLEA_12</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_13</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
@@ -3232,7 +3244,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3241,7 +3253,7 @@
 
             <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_07.alo</Model_To_Attach>
             <Attachment_Bone>Attach_07</Attachment_Bone>
-
+			<Collision_Mesh>ATTACH_07_COLL</Collision_Mesh>
             <Fire_Bone_A>MUZZLEA_14</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_15</Fire_Bone_B>
             <Fire_Cone_Width>40.0</Fire_Cone_Width>
@@ -3290,7 +3302,7 @@
             <Engine_Particles>ENGINES</Engine_Particles>
     </HardPoint>
 
-        <HardPoint Name="HP_ASSAUL_FRIGATE_I_E3_SHIELD">
+   <!--  <HardPoint Name="HP_ASSAUL_FRIGATE_I_E3_SHIELD">
             <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -3304,7 +3316,7 @@
 
             <Attachment_Bone>SPAWN_00</Attachment_Bone>
      </HardPoint>
-
+ -->
 
     <!--Hardpoints for Alliance Assault Frigate MK II-->
           <!--Primary Weapons-->
@@ -3312,7 +3324,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3352,7 +3364,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3392,7 +3404,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3432,7 +3444,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3474,7 +3486,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3482,7 +3494,7 @@
 
 
             <Attachment_Bone>HP_L_03</Attachment_Bone>
-
+			<Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_03_FB01</Fire_Bone_A>
@@ -3513,7 +3525,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3521,7 +3533,7 @@
 
 
             <Attachment_Bone>HP_L_04</Attachment_Bone>
-
+			<Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_03_FB04</Fire_Bone_A>
@@ -3552,7 +3564,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3560,7 +3572,7 @@
 
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
-
+			<Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_02_FB01</Fire_Bone_A>
@@ -3591,7 +3603,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3599,7 +3611,7 @@
 
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
-
+			<Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>L_01_FB01</Fire_Bone_A>
@@ -3630,7 +3642,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3638,7 +3650,7 @@
 
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
-
+			<Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>LTL_01_FB01</Fire_Bone_A>
@@ -3669,7 +3681,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>350.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
@@ -3677,7 +3689,7 @@
 
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
-
+			<Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
             <Damage_Type> Damage_Assault_Frigate </Damage_Type>
             <Fire_Bone_A>LTL_02_FB01</Fire_Bone_A>
@@ -3721,7 +3733,7 @@
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
 
-    <HardPoint Name="HP_ASSAUL_FRIGATE_II_E3_SHIELD">
+   <!--  <HardPoint Name="HP_ASSAUL_FRIGATE_II_E3_SHIELD">
             <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -3733,7 +3745,7 @@
             <Attachment_Bone>SHIELD</Attachment_Bone>
      </HardPoint>
 
-
+ -->
 
 
 
