@@ -1700,9 +1700,9 @@
 
        <SpaceUnit Name="REBEL_MARAUDER">
                 <Text_ID>TEXT_UNIT_MARAUDER</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER</Encyclopedia_Text>
                 <Encyclopedia_Good_Against> Empire_Star_Base_1 TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 
                 <GUI_Row> 1 </GUI_Row>
@@ -1876,6 +1876,8 @@
 
         <SpaceUnit Name="REBEL_MARAUDER_DB">
                 <Variant_of_Existing_Type>REBEL_MARAUDER</Variant_of_Existing_Type>
+                <Text_ID>TEXT_UNIT_MARAUDER_M</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER_M</Encyclopedia_Text>
                 <HardPoints>
                          HP_MARAUDER_E3_DBM_01,
                          HP_MARAUDER_E3_DBM_02
@@ -1899,7 +1901,7 @@
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> i_button_escort_frigate.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_REBEL.tga = || Ensure .tga extension -->
+                <Icon_Name>UEAW_BUTTON_NEB_B_HOSPITAL.TGA</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_REBEL.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
                 <Space_Model_Name> VCFrU_HOSPITAL_NEB-B.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.50 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
