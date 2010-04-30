@@ -40,8 +40,8 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		
-		<Armor_Type> Armor_Fighter </Armor_Type>
-                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armor_Stafighter_Basic</Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter_Basic</Shield_Armor_Type>
 		
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -227,8 +227,8 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		
-		<Armor_Type> Armor_Fighter </Armor_Type>
-                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armour_Starfighter </Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type>
 		
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -449,8 +449,8 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		
-		<Armor_Type> Armor_Fighter </Armor_Type>
-                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armour_Starfighter </Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter_Basic</Shield_Armor_Type>
 		
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -644,8 +644,8 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		
-		<Armor_Type> Armor_bomber </Armor_Type>
-                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armour_Starfighter_Superior </Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type>
 		
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
@@ -1061,8 +1061,8 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		
-		<Armor_Type> Armor_bomber </Armor_Type>
-                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Armor_Type> Armour_Starfighter </Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter_Superior</Shield_Armor_Type>
 		
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
@@ -1271,7 +1271,7 @@
 
     <GUI_Bracket_Size>0</GUI_Bracket_Size>
 
-    <Armor_Type> Armor_Transport </Armor_Type>
+    <Armor_Type> Armour_Corvette_Basic </Armor_Type>
     <Max_Speed>2.0</Max_Speed>
     <Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
     <MovementClass> Space </MovementClass>
@@ -1601,7 +1601,7 @@
                 <Shield_Refresh_Rate>2.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 1500</Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 350</Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type>Armor_Corellian_Gunboat </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+                <Armor_Type>Armour_Corvette </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
         <Shield_Armor_Type> Shield_Corvette </Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 1350 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
@@ -1808,7 +1808,7 @@
                 <OverrideDeceleration> .05 </OverrideDeceleration>
 
                 <Ranged_Target_Z_Adjust>35</Ranged_Target_Z_Adjust>
-                <Armor_Type> Armor_Missile_Cruiser </Armor_Type>
+                <Armor_Type> Armour_Corvette</Armor_Type>
         <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
                 <Max_Thrust>0.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
@@ -2007,7 +2007,7 @@
                 <OverrideAcceleration> .04 </OverrideAcceleration>
                 <OverrideDeceleration> .04 </OverrideDeceleration>
 
-                <Armor_Type> Armor_Nebulon_B </Armor_Type>
+                <Armor_Type> Armour_Frigate_Basic </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
@@ -2199,8 +2199,8 @@
                 <Shield_Refresh_Rate> 8.33 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armor_Nebulon_B </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2200 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2250 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -2419,7 +2419,7 @@
                 <Shield_Refresh_Rate> 8.33 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armor_Nebulon_B </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2200 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
@@ -2646,8 +2646,8 @@
                 <Shield_Refresh_Rate> 10 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Frigate</Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -2823,7 +2823,7 @@
     <SpaceUnit Name="REBEL_MC30_FRIGATE_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
 
                 <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID> <!-- Same as unit's -->
-                <Space_Model_Name>RV_nebulonb_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+                <Space_Model_Name>VCFr_MC30MONCAL_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
                 <Scale_Factor>0.65</Scale_Factor>
@@ -2875,8 +2875,8 @@
                 <Shield_Refresh_Rate> 10.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 6000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 1000 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armor_Assault_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Frigate_Superior </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -3103,8 +3103,8 @@
                 <Shield_Refresh_Rate> 10.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armor_Assault_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Cruiser_Basic </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Cruiser_Basic</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -3322,7 +3322,7 @@
                 <OverrideAcceleration> .04 </OverrideAcceleration>
                 <OverrideDeceleration> .04 </OverrideDeceleration>
 
-                <Armor_Type> Armor_Nebulon_B </Armor_Type>
+                <Armor_Type> Armour_Frigate </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
