@@ -430,7 +430,7 @@
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>	
 	</SpaceUnit>
-
+<!-- 
 	<Squadron Name="A_Wing_Squadron">
 		<Text_ID>TEXT_A_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout TIE_Bomber </Encyclopedia_Good_Against>
@@ -480,12 +480,12 @@
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
 		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
 		
-		<!-- Non-Hero unit abilities description -->
+
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+		
 			<Unit_Ability>
 				<Type>LURE</Type>
-				<!-- details in the unit's XML -->
+				
 			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
@@ -494,16 +494,15 @@
 		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
 		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		
+	
 		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+		
 		<Population_Value>1</Population_Value>
-	</Squadron>
+	</Squadron> -->
 
 <!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers -->
 
