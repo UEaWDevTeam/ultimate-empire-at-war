@@ -143,13 +143,13 @@
                 <Is_Destroyable>No</Is_Destroyable>
 
                 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-                <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
-                <Fire_Cone_Width>20.0</Fire_Cone_Width>
-                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>180.0</Fire_Cone_Width>
+                <Fire_Cone_Height>90.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
+                <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
@@ -168,62 +168,10 @@
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
 
-                <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
-                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
-                <Fire_Cone_Width>20.0</Fire_Cone_Width>
-                <Fire_Cone_Height>20.0</Fire_Cone_Height>
-                <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
-                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-                <Fire_Range_Distance>300.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-        </HardPoint>
-
-        <HardPoint Name="HP_X-WING_L_E3_03">
-                <Type> HARD_POINT_WEAPON_LASER </Type>
-                <Is_Targetable>No</Is_Targetable>
-                <Is_Destroyable>No</Is_Destroyable>
-
                 <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
-                <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
-                <Fire_Cone_Width>20.0</Fire_Cone_Width>
-                <Fire_Cone_Height>20.0</Fire_Cone_Height>
-                <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
-                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-                <Fire_Range_Distance>300.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-        </HardPoint>
-
-        <HardPoint Name="HP_X-WING_L_E3_04">
-                <Type> HARD_POINT_WEAPON_LASER </Type>
-                <Is_Targetable>No</Is_Targetable>
-                <Is_Destroyable>No</Is_Destroyable>
-
-                <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
                 <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
-                <Fire_Cone_Width>20.0</Fire_Cone_Width>
-                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Cone_Width>180.0</Fire_Cone_Width>
+                <Fire_Cone_Height>90.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
                 <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
@@ -241,19 +189,20 @@
                 <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
 
-        <HardPoint Name="HP_X-WING_SOPT_E3_01">
+
+        <HardPoint Name="HP_X-WING_SOPT_E3">
             <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
-            <Fire_Cone_Width>30.0</Fire_Cone_Width>
-            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
@@ -263,27 +212,14 @@
 
         </HardPoint>
 
-        <HardPoint Name="HP_X-WING_SOPT_E3_02">
-            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+<!--LOl true not...-->
+
+    <HardPoint Name="HP_X-WING_ENGINE">
+                        <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
-
-            <Fire_Bone_A>MuzzleB_01</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
-            <Fire_Cone_Width>30.0</Fire_Cone_Width>
-            <Fire_Cone_Height>30.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-
-            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-
-        </HardPoint>
+            <Engine_Particles>ENGINES</Engine_Particles>
+    </HardPoint>
 
 <!--A-Wing hardpoints-->
 
