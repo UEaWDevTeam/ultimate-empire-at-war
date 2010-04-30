@@ -152,7 +152,7 @@
 		<Population_Value>0</Population_Value>
 	</SpaceUnit>
 
-	<Squadron Name="Rebel_X-Wing_Squadron">
+	<!-- <Squadron Name="Rebel_X-Wing_Squadron">
 		<LOD_Bias>10</LOD_Bias>
 		<Text_ID>TEXT_X_WING_SQUADRON</Text_ID>
 		<Encyclopedia_Good_Against> TIE_Fighter TIE_Bomber TIE_Prototype </Encyclopedia_Good_Against>
@@ -204,7 +204,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 	
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
+
 			<Unit_Ability>
 			<Type>SPOILER_LOCK</Type>
 			
@@ -217,18 +217,14 @@
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
-	</Squadron>
+	</Squadron> -->
 
 	<SpaceUnit Name="A-Wing">
 

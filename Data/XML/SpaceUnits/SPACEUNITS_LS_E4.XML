@@ -13,11 +13,6 @@
 	<Affiliation>New_Republic</Affiliation>
 	</Squadron>
 	
-	<Container Name="NR_X-WING_CONTAINER">
-	<Variant_of_Existing_Type>REBEL_X-WING_CONTAINER</Variant_of_Existing_Type>
-	<Affiliation>New_Republic</Affiliation>
-	</Container>
-	
 	<SpaceUnit Name="NR_A-WING">
 	<Variant_of_Existing_Type>REBEL_A-WING</Variant_of_Existing_Type>
 	<Affiliation>New_Republic</Affiliation>
@@ -27,11 +22,6 @@
 	<Variant_of_Existing_Type>REBEL_A-WING_SQUADRON</Variant_of_Existing_Type>
 	<Affiliation>New_Republic</Affiliation>
 	</Squadron>
-	
-	<Container Name="NR_A-WING_CONTAINER">
-	<Variant_of_Existing_Type>REBEL_A-WING_CONTAINER</Variant_of_Existing_Type>
-	<Affiliation>New_Republic</Affiliation>
-	</Container>
 	
 	<SpaceUnit Name="NR_E-WING">
 		<Text_ID>TEXT_UNIT_E_WING</Text_ID>
@@ -239,106 +229,6 @@
 
 		</Unit_Abilities_Data>
 	</Squadron>
-	
-	<Container Name="NR_E-WING_CONTAINER">
-		<Text_ID>TEXT_E_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_E_WING</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_e-wing.tga</Icon_Name>
-		
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>No</Is_Dummy>
-		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
-		<Is_Bomber>yes</Is_Bomber>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Damage>15</Damage>
-		<Affiliation>New_Republic</Affiliation>
-		<Political_Control>0</Political_Control>
-		<Tech_Level>0</Tech_Level>
-		<Required_Timeline />
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR,ABILITY_COUNTDOWN, TARGETING</Behavior>
-		<SpaceBehavior> REVEAL</SpaceBehavior>
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.8</Max_Speed>
-		<Min_Speed>3.5</Min_Speed>
-
-		<Cheap_Bribe_Cost>10</Cheap_Bribe_Cost>
-		<Expensive_Bribe_Cost>20</Expensive_Bribe_Cost>
-		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
-        
-		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
-
-		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Property_Flags> SmallShip </Property_Flags>
-		<CategoryMask> Fighter | AntiBomber</CategoryMask>
-		
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		
-		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits> 900</Score_Cost_Credits>
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,20.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-20.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-45.0,45.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-45.0,-45.0,0.0</Squadron_Offsets>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>BUZZ_DROIDS</Type>
-                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-                <SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-
-
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Buzz_Droids_Ability Name="Buzz_Droids_Viper">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range> 5 </Activation_Min_Range>
-                <Activation_Max_Range> 400 </Activation_Max_Range>
-                <Chase_Radius>300</Chase_Radius>
-                <Damage_Radius> 175 </Damage_Radius>
-                <Enemy_Damage_Per_Second> 23 </Enemy_Damage_Per_Second>
-                <Own_Damage_Per_Second> 3 </Own_Damage_Per_Second>
-                <Activation_Time_In_Seconds> 1 </Activation_Time_In_Seconds>
-                <Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
-                <Object_Type>Buzz_Droids</Object_Type>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Buzz_Droids_Ability>
-
-        </Abilities>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-	</Container>
 	
 	<!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers -->
 	<SpaceUnit Name="NR_K-WING">
@@ -548,106 +438,6 @@
 		</Unit_Abilities_Data>
 	</Squadron>
 	
-	<Container Name="NR_K-WING_CONTAINER">
-		<Text_ID>TEXT_K_WING_SQUADRON</Text_ID>
-		<Encyclopedia_Text>TEXT_TOOLTIP_K_WING</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
-		<Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-		<Icon_Name>i_button_k-wing.tga</Icon_Name>
-		
-		<GUI_Row> 1 </GUI_Row>
-		<Is_Dummy>No</Is_Dummy>
-		<Formation_Priority>2</Formation_Priority>
-		<Is_Escort>No</Is_Escort>
-		<Is_Bomber>yes</Is_Bomber>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Damage>15</Damage>
-		<Affiliation>New_Republic</Affiliation>
-		<Political_Control>0</Political_Control>
-		<Tech_Level>0</Tech_Level>
-		<Required_Timeline />
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR,ABILITY_COUNTDOWN, TARGETING</Behavior>
-		<SpaceBehavior> REVEAL</SpaceBehavior>
-		<MovementClass>Space</MovementClass>
-		<Max_Speed>5.8</Max_Speed>
-		<Min_Speed>3.5</Min_Speed>
-
-		<Cheap_Bribe_Cost>10</Cheap_Bribe_Cost>
-		<Expensive_Bribe_Cost>20</Expensive_Bribe_Cost>
-		<Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
-        
-		<SFXEvent_Build_Started>UHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>UHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Y_Wing</SFXEvent_Build_Complete>
-
-		<FormationOrder>2</FormationOrder>
-		<Squadron_Formation_Error_Tolerance>25.0</Squadron_Formation_Error_Tolerance>
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>200.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
-		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
-		<Property_Flags> SmallShip </Property_Flags>
-		<CategoryMask> Fighter | AntiBomber</CategoryMask>
-		
-		<Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		
-		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits> 900</Score_Cost_Credits>
-		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-
-		<Squadron_Offsets>30.0,0.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,20.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,-20.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-45.0,45.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-45.0,-45.0,0.0</Squadron_Offsets>
-
-		<!-- Non-Hero unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-
-            <Unit_Ability>
-                <Type>BUZZ_DROIDS</Type>
-                <GUI_Activated_Ability_Name>Buzz_Droids_Viper</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>60.0</Recharge_Seconds>
-                <SFXEvent_GUI_Unit_Ability_Activated></SFXEvent_GUI_Unit_Ability_Activated>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Unit_Ability>
-
-
-		</Unit_Abilities_Data>
-
-        <Abilities SubObjectList="Yes">
-
-            <Buzz_Droids_Ability Name="Buzz_Droids_Viper">
-                <Activation_Style> User_Input </Activation_Style>
-                <Activation_Min_Range> 5 </Activation_Min_Range>
-                <Activation_Max_Range> 400 </Activation_Max_Range>
-                <Chase_Radius>300</Chase_Radius>
-                <Damage_Radius> 175 </Damage_Radius>
-                <Enemy_Damage_Per_Second> 23 </Enemy_Damage_Per_Second>
-                <Own_Damage_Per_Second> 3 </Own_Damage_Per_Second>
-                <Activation_Time_In_Seconds> 1 </Activation_Time_In_Seconds>
-                <Activate_SFX>GUI_Buzz_Droids_SFX</Activate_SFX>
-                <Object_Type>Buzz_Droids</Object_Type>
-                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-            </Buzz_Droids_Ability>
-
-        </Abilities>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-
-	</Container>
-	
 	<SpaceUnit Name="NR_K-WING_ESCORT">
 	<Variant_of_Existing_Type>NR_K-WING</Variant_of_Existing_Type>
 	<Text_ID>TEXT_UNIT_K_WING_ESCORT</Text_ID>
@@ -670,17 +460,6 @@
 	<Squadron_Units>NR_K-WING_ESCORT, NR_K-WING_ESCORT, NR_K-WING_ESCORT, NR_K-WING_ESCORT, NR_K-WING_ESCORT</Squadron_Units>
 	</Squadron>
 	
-	<Container Name="NR_K-WING_ESCORT_CONTAINER">
-	<Variant_of_Existing_Type>NR_K-WING_CONTAINER</Variant_of_Existing_Type>
-	<Text_ID>TEXT_UNIT_K_WING_ESCORT</Text_ID>
-	<Encyclopedia_Text>TEXT_TOOLTIP_K_WING_ESCORT</Encyclopedia_Text>
-	<Encyclopedia_Unit_Class> UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
-	<Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
-	<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-	<Icon_Name>i_button_k-wing_escort.tga</Icon_Name>
-	</Container>
-	
-	
 	<SpaceUnit Name="NR_Y-WING">
 	<Variant_of_Existing_Type>REBEL_Y-WING</Variant_of_Existing_Type>
 	<Affiliation>New_Republic</Affiliation>
@@ -691,11 +470,6 @@
 	<Affiliation>New_Republic</Affiliation>
 	</Squadron>
 	
-	<Container Name="NR_Y-WING_CONTAINER">
-	<Variant_of_Existing_Type>REBEL_Y-WING_CONTAINER</Variant_of_Existing_Type>
-	<Affiliation>New_Republic</Affiliation>
-	</Container>
-	
 	<SpaceUnit Name="NR_B-WING">
 	<Variant_of_Existing_Type>REBEL_B-WING</Variant_of_Existing_Type>
 	<Affiliation>New_Republic</Affiliation>
@@ -705,11 +479,6 @@
 	<Variant_of_Existing_Type>REBEL_B-WING_SQUADRON</Variant_of_Existing_Type>
 	<Affiliation>New_Republic</Affiliation>
 	</Squadron>
-	
-	<Container Name="NR_B-WING_CONTAINER">
-	<Variant_of_Existing_Type>REBEL_B-WING_CONTAINER</Variant_of_Existing_Type>
-	<Affiliation>New_Republic</Affiliation>
-	</Container>
 	
 	<!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports -->
 	<TransportUnit Name="NR_GALLOFREE_TRANSPORT">
