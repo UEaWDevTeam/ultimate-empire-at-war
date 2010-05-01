@@ -1852,6 +1852,11 @@
                 <Build_Time_Seconds>15</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Size_Value>120</Size_Value>
+
+                <Starting_Spawned_Units_Tech_0>REBEL_Z-95_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <!--<Reserve_Spawned_Units_Tech_0>REBEL_Z-95_SQUADRON, 0</Reserve_Spawned_Units_Tech_0>-->
+
+
                 <Behavior>
                         DUMMY_STARSHIP,
                         SELECTABLE,
@@ -1859,6 +1864,7 @@
                         SHIELDED
                 </Behavior>
                 <SpaceBehavior>
+                        SPAWN_SQUADRON,
                         ABILITY_COUNTDOWN,
                         SIMPLE_SPACE_LOCOMOTOR,
                         TARGETING, REVEAL,
@@ -1873,7 +1879,8 @@
                 <HardPoints>
                          HP_MARAUDER_E3_MTL_01,
                          HP_MARAUDER_E3_MTL_02,
-                         HP_MARAUDER_E3_MTL_03
+                         HP_MARAUDER_E3_MTL_03,
+                         HP_MARAUDER_HANGAR
                 </HardPoints>
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
                 <Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
@@ -1965,7 +1972,8 @@
                 <Icon_Name>i_button_marauder_m.tga</Icon_Name>
                 <HardPoints>
                          HP_MARAUDER_E3_DBM_01,
-                         HP_MARAUDER_E3_DBM_02
+                         HP_MARAUDER_E3_DBM_02,
+                         HP_MARAUDER_HANGAR 
                 </HardPoints>
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
         </SpaceUnit>
