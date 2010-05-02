@@ -1194,6 +1194,7 @@
                 <!-- Hardpoints -->
                 <HardPoints>
                         HP_CR90_E3_LTL_TOP,
+						HP_CR90_E3_LTL_BOTTOM,
                         HP_CR90_E3_LT_01,
                         HP_CR90_E3_LT_02,
                         HP_CR90_E3_LT_03,
@@ -2909,7 +2910,8 @@
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
                 <!-- Set to spawn all units once and then not continue - no reserves-->
-                <Starting_Spawned_Units_Tech_0>REBEL_Y-Wing_Squadron, 1</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>REBEL_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+				<Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
             
                 <HardPoints>
                          HP_DREADNAUGHT_MTL_01,
@@ -3020,11 +3022,11 @@
 
      <SpaceUnit Name="REBEL_DREADNAUGHT_DEATH_CLONE">
                 <Text_ID>UEAW_UNIT_DREADNAUGHT</Text_ID>
-                <Space_Model_Name>VCCr_Dreadnaught_Rebel_d.ALO</Space_Model_Name>
+                <Space_Model_Name>VCCr_Dreadnaught_Generic_d.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Medium_Ship_Explosion</Death_Explosions>
-                <Scale_Factor>4</Scale_Factor>
-                <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+                <Scale_Factor>0.41</Scale_Factor>
+                <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
                 <Max_Thrust>1</Max_Thrust>

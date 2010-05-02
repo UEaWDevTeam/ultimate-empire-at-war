@@ -475,7 +475,7 @@
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_CR90_E3_LTLT_BOTTOM">
+    <HardPoint Name="HP_CR90_E3_LTL_BOTTOM">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -1768,7 +1768,7 @@
 
 <!--Primary Weapons-->
     <HardPoint Name="HP_DREADNAUGHT_MTL_01">
-  <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -1778,7 +1778,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
-            <Model_To_Attach>RVCr_DREADNAUGHT_TURRET00.alo</Model_To_Attach>
+            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_00.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_00</Attachment_Bone>
                         <Collision_Mesh>ATTACH_00_COLL</Collision_Mesh>
                                                 <Damage_Particles>ATTACH_00_EMITDAMAGE</Damage_Particles>
@@ -1815,7 +1815,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_DREADNAUGHT_MTL_02">
- <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -1825,7 +1825,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
-            <Model_To_Attach>RVCr_DREADNAUGHT_TURRET01.alo</Model_To_Attach>
+            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_01.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_01</Attachment_Bone>
                         <Collision_Mesh>ATTACH_01_COLL</Collision_Mesh>
                                                 <Damage_Particles>ATTACH_01_EMITDAMAGE</Damage_Particles>
@@ -1842,7 +1842,6 @@
             <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_01</Barrel_Bone_Name>
-
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -1862,7 +1861,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_DREADNAUGHT_MTL_03">
-			<Type> HARD_POINT_WEAPON_LASER </Type>
+	               <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -1872,7 +1871,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
-            <Model_To_Attach>RVCr_DREADNAUGHT_TURRET02.alo</Model_To_Attach>
+            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_02.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_02</Attachment_Bone>
                         <Collision_Mesh>ATTACH_02_COLL</Collision_Mesh>
                                                 <Damage_Particles>ATTACH_02_EMITDAMAGE</Damage_Particles>
@@ -1889,7 +1888,6 @@
             <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_02</Barrel_Bone_Name>
-
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -1909,7 +1907,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_DREADNAUGHT_MTL_04">
- 	<Type> HARD_POINT_WEAPON_LASER </Type>
+ 		               <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -1919,7 +1917,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
-            <Model_To_Attach>RVCr_DREADNAUGHT_TURRET03.alo</Model_To_Attach>
+            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_03.alo</Model_To_Attach>
             <Attachment_Bone>ATTACH_03</Attachment_Bone>
                         <Collision_Mesh>ATTACH_03_COLL</Collision_Mesh>
                                                 <Damage_Particles>ATTACH_03_EMITDAMAGE</Damage_Particles>
@@ -1936,7 +1934,6 @@
             <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_03</Barrel_Bone_Name>
-
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
@@ -2037,7 +2034,7 @@
 						
             <Fire_Bone_A>MUZZLEB_03</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_21</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2070,7 +2067,7 @@
 
             <Fire_Bone_A>MUZZLEB_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_20</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2103,7 +2100,7 @@
 
             <Fire_Bone_A>MUZZLEB_12</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_14</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2136,7 +2133,7 @@
 						
             <Fire_Bone_A>MUZZLEB_13</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_15</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2169,7 +2166,7 @@
 
             <Fire_Bone_A>MUZZLEB_09</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_11</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2202,7 +2199,7 @@
 						
             <Fire_Bone_A>MUZZLEB_08</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_10</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2235,7 +2232,7 @@
 
             <Fire_Bone_A>MUZZLEB_16</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_18</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
@@ -2268,7 +2265,7 @@
 						
             <Fire_Bone_A>MUZZLEB_17</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEB_19</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Width>160.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
