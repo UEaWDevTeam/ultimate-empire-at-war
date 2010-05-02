@@ -48,7 +48,7 @@
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
-                <Number_per_Squadron>12</Number_per_Squadron>
+                <Number_per_Squadron>6</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
                 <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA </SpaceBehavior>
@@ -141,7 +141,7 @@
         </SpaceUnit>
 
         <Squadron Name="EMPIRE_TIE_SCOUT_SQUADRON">
-                <Text_ID>TEXT_UNIT_TIE_SCOUT</Text_ID>
+                <Text_ID>TEXT_UNIT_TIE_SCOUT_SQUADRON</Text_ID>
                 <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_SCOUT</Encyclopedia_Text>
                 <Encyclopedia_Good_Against> REBEL_Y-WING REBEL_Z-95 </Encyclopedia_Good_Against>
@@ -168,22 +168,13 @@
                 <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
                 <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
                 <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
-                <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
-                <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
-                <Squadron_Units>EMPIRE_TIE_SCOUT, EMPIRE_TIE_SCOUT</Squadron_Units>
                 <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>40.0,20.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>40.0,-20.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>0.0,-40.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-20.0,-20.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-20.0,-60.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>0.0,40.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-20.0,60.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-20.0,20.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-75.0,20.0,0.0</Squadron_Offsets>
-                <Squadron_Offsets>-75.0,-20.0,0.0</Squadron_Offsets>
-                <Max_Squad_Size> 12 </Max_Squad_Size>
+                <Squadron_Offsets>40.0,15.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,-15.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>20.0,25.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>20.0,-25.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 6 </Max_Squad_Size>
                 <GUI_Model_Name>VSF_TIESCOUT.ALO</GUI_Model_Name>
                 <GUI_Distance>115</GUI_Distance>
                 <GUI_Offset>0 0 3</GUI_Offset>
@@ -464,7 +455,7 @@
         <SpaceUnit Name="EMPIRE_TIE_INTERCEPTOR">
                 <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> REBEL_Y-WING_SQUADRON REBEL_X-WING_SQUADRON</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_EV_TIE_INTERCEPTOR.TGA</Icon_Name>
@@ -587,9 +578,9 @@
 
 
         <Squadron Name="EMPIRE_TIE_INTERCEPTOR_SQUADRON">
-                <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
+                <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> REBEL_Y-WING_SQUADRON REBEL_X-WING_SQUADRON</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_EV_TIE_INTERCEPTOR.TGA</Icon_Name>
@@ -799,7 +790,7 @@
 
 
         <Squadron Name="EMPIRE_TIE_BOMBER_SQUADRON">
-                <Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
+                <Text_ID>TEXT_UNIT_TIE_BOMBER_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> REBEL_EF76_FRIGATE REBEL_MC80_LIBERTYTYPE</Encyclopedia_Good_Against>
@@ -879,7 +870,7 @@
         <SpaceUnit Name="EMPIRE_TIE_DEFENDER">
                 <Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> REBEL_Y-WING_SQUADRON REBEL_X-WING_SQUADRON</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
@@ -1015,9 +1006,9 @@
 
 
         <Squadron Name="EMPIRE_TIE_DEFENDER_SQUADRON">
-                <Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
+                <Text_ID>TEXT_UNIT_TIE_DEFENDER_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> REBEL_Y-WING_SQUADRON REBEL_X-WING_SQUADRON</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
@@ -1103,10 +1094,12 @@
         <!--Corvettes--> <!--Corvettes-->  <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes-->
 
                 <SpaceUnit Name="EMPIRE_TARTAN_CRUISER">
-                <!-- Changed from Carrack-Class Cruiser -->
-                <Text_ID>TEXT_UNIT_TARTAN_CRUISER</Text_ID>
+                <Text_ID>TEXT_UNIT_TARTAN</Text_ID>
                 <Encyclopedia_Good_Against> REBEL_X-WING REBEL_Y-WING </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_EF76_FRIGATE REBEL_ASSAULT_FRIGATE_I REBEL_ASSAULT_FRIGATE_II</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Text>TEXT_TOOLTIP_TARTAN</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
+
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCo_TARTANCRUISER.ALO</Space_Model_Name>
                 <Select_Box_Scale>370</Select_Box_Scale>
@@ -1269,8 +1262,7 @@
 
 
 
-                <Encyclopedia_Text>TEXT_TOOLTIP_TARTAN</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
+
                 <Score_Cost_Credits> 1250</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -1303,9 +1295,11 @@
         </SpaceUnit>
 
         <SpaceUnit Name="EMPIRE_IPV_PATROL_CRAFT">
-                <Text_ID>TEXT_UNIT_IPV1_SYSTEM</Text_ID>
+                <Text_ID>TEXT_UNIT_IPV1</Text_ID>
                 <Encyclopedia_Good_Against> REBEL_X-WING </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> REBEL_EF76_FRIGATE REBEL_ASSAULT_FRIGATE_I REBEL_ASSAULT_FRIGATE_II </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Text>TEXT_TOOLTIP_IPV1</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
                 <Space_Model_Name>VCCo_IPV1.ALO</Space_Model_Name>
                 <Icon_Name>i_button_ipv.tga</Icon_Name>
 
@@ -1422,8 +1416,6 @@
                 <Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
                 <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 
-                <Encyclopedia_Text>TEXT_TOOLTIP_IPV</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
                 <Score_Cost_Credits> 1200</Score_Cost_Credits>
                 <Population_Value>2</Population_Value>
 
@@ -1469,13 +1461,206 @@
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
         </SpaceUnit>
+       <SpaceUnit Name="EMPIRE_BROADSIDE">
+                <Text_ID>TEXT_UNIT_BROADSIDE</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE</Encyclopedia_Text>
+                <Encyclopedia_Good_Against> Rebel_Star_Base_1 REBEL_X-WING REBEL_CORELLIAN_CORVETTE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> REBEL_ASSAULT FRIGATE_II REBEL_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
 
+                <GUI_Row> 1 </GUI_Row>
+                <Space_Model_Name>VCFr_BROADSIDE.ALO</Space_Model_Name>
+                <Icon_Name>I_BUTTON_BROADSIDE.TGA</Icon_Name>
+                <Mass>0.995</Mass>
+                <Scale_Factor>2.1</Scale_Factor>
+
+        <Ranking_In_Category>7</Ranking_In_Category>
+                <Max_Speed>1.8</Max_Speed> <!-- Was 3.25 -->
+                <Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Corvette </Space_Layer>
+                <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>15</Bank_Turn_Angle>
+                <OverrideAcceleration> .05 </OverrideAcceleration>
+                <OverrideDeceleration> .05 </OverrideDeceleration>
+
+                <Ranged_Target_Z_Adjust>35</Ranged_Target_Z_Adjust>
+                <Armor_Type> Armour_Frigate</Armor_Type>
+                <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+                <Max_Thrust>0.5</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Maintenance_Cost>0.05</Maintenance_Cost>
+                <Min_Speed>2.0</Min_Speed>
+                <Max_Lift>0.0</Max_Lift>
+
+                <Death_Clone>Damage_Normal, EMPIRE_BROADSIDE_DEATH_CLONE</Death_Clone>
+
+                <Affiliation>Empire</Affiliation>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+                <Slice_Cost_Credits>640</Slice_Cost_Credits>
+                <Tech_Level>1</Tech_Level>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>2</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Required_Planets />
+                <Shield_Points>300</Shield_Points>
+                <Tactical_Health>650</Tactical_Health>
+                <Damage>20</Damage>
+                <Autoresolve_Health>700</Autoresolve_Health>
+                <Shield_Refresh_Rate>12</Shield_Refresh_Rate>
+                <Energy_Capacity>1500</Energy_Capacity>
+                <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+                <Ship_Class>corvette</Ship_Class>
+                <FormationPriority>3</FormationPriority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+
+                <Political_Control>0</Political_Control>
+                <Squadron_Capacity>0</Squadron_Capacity>
+                <Transport_Capacity>4</Transport_Capacity>
+                <Number_per_Squadron>1</Number_per_Squadron>
+                <Build_Cost_Credits>1850</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <AI_Combat_Power>1400</AI_Combat_Power>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Size_Value>120</Size_Value>
+
+                <Behavior>
+                        DUMMY_STARSHIP,
+                        SELECTABLE,
+                        POWERED,
+                        SHIELDED
+                </Behavior>
+                <SpaceBehavior>
+                        ABILITY_COUNTDOWN,
+                        SIMPLE_SPACE_LOCOMOTOR,
+                        TARGETING, REVEAL,
+                        HIDE_WHEN_FOGGED,
+                        UNIT_AI,
+                        ASTEROID_FIELD_DAMAGE,
+                        DAMAGE_TRACKING,
+                        ION_STUN_EFFECT,
+                        NEBULA
+                </SpaceBehavior>
+
+                <HardPoints>
+                         HP_BROADSIDE_APHCM,
+                         HP_BROADSIDE_APMCM_01,
+                         HP_BROADSIDE_APMCM_02,
+                         HP_BROADSIDE_APMCM_03,
+                         HP_BROADSIDE_APMCM_04,
+                         HP_BROADSIDE_E3_LTL_01,
+                         HP_BROADSIDE_E3_LTL_02
+                </HardPoints>
+                <Space_FOW_Reveal_Range>2500.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+
+                <CategoryMask> Corvette | AntiFrigate | AntiCapital</CategoryMask>
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Broadside_Cruiser</SFXEvent_Build_Complete>
+                <SFXEvent_Select>Unit_Select_Broadside_Cruiser</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Broadside_Cruiser</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Broadside_Cruiser</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Broadside_Cruiser</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Broadside_Cruiser</SFXEvent_Guard>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_Broadside_Cruiser </SFXEvent_Move_Into_Nebula>
+
+                <SFXEvent_Attack_With_Non_Hero_Ability>Unit_Barrage_Broadside_Cruiser</SFXEvent_Attack_With_Non_Hero_Ability>
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Broadside_Cruiser </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Engine_Idle_Loop> Unit_ATAT_Barge_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_ATAT_Barge_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_ATAT_Barge_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+                <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+                <MovementClass> Space </MovementClass>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Priority_Set>SpaceArtillery</Targeting_Priority_Set>
+
+                <Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
+
+
+                <Score_Cost_Credits> 1400</Score_Cost_Credits>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>3200</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>2</Population_Value>
+
+                <Select_Box_Scale>250</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="EMPIRE_BROADSIDE_DEATH_CLONE">
+                <Text_ID>TEXT_UNIT_BROADSIDE_CRUISER</Text_ID>
+                <Space_Model_Name>VCFr_BROADSIDE_D.ALO</Space_Model_Name>
+                <xxxSpace_Model_Name>VCFr_BROADSIDE_D.ALO</xxxSpace_Model_Name>
+                <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+                <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+                <Scale_Factor>1</Scale_Factor>
+                <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+                <Max_Speed>0.25</Max_Speed>
+                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <Max_Thrust>0.05</Max_Thrust>
+                <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <Affiliation>Empire</Affiliation>
+                <Ship_Class>capital_ship</Ship_Class>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+        </SpaceUnit>
+        <SpaceUnit Name="EMPIRE_BROADSIDE_DB">
+                 <Variant_Of_Existing_Type>EMPIRE_BROADSIDE</Variant_Of_Existing_Type>
+
+                 <Text_ID>TEXT_UNIT_BROADSIDE_M</Text_ID>
+                 <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE_M</Encyclopedia_Text>
+                <Icon_Name>I_BUTTON_BROADSIDE_M.TGA</Icon_Name>
+                 <HardPoints>
+                         HP_BROADSIDE_REFIT_E3_LTL_01,
+                         HP_BROADSIDE_REFIT_E3_LTL_02,
+                         HP_BROADSIDE_REFIT_E3_DBM_01,
+                         HP_BROADSIDE_REFIT_E3_DBM_02
+                 </HardPoints>
+        </SpaceUnit>
         <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->
 
        <SpaceUnit Name="EMPIRE_ACCLAMATOR_ASSAULT_FRIGATE_I">
-                <Text_ID>TEXT_UNIT_ACCLAMATOR</Text_ID>
+                <Text_ID>TEXT_UNIT_ACCLAMATORI</Text_ID>
                 <Encyclopedia_Good_Against> Corellian_Corvette Marauder_Missile_Cruiser Crusader_Gunship </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Calamari_Cruiser Skipray_Blastboat Y-wing </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATORI</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_TROOP_TRANSPORT </Encyclopedia_Unit_Class>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCr_ACCLAMATOR.ALO</Space_Model_Name>
                 <Icon_Name>UEAW_BUTTON_ACCLAMATOR_CRUISER_I.TGA</Icon_Name>
@@ -1503,7 +1688,7 @@
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
-                <Armor_Type> Armor_Acclamator </Armor_Type>
+                <Armor_Type> Armor_Frigate </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Damage>30</Damage>
                 <Autoresolve_Health>2400</Autoresolve_Health>
@@ -1668,8 +1853,7 @@
 
                 </Unit_Abilities_Data>
 
-                <Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATOR</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+
                 <Score_Cost_Credits> 1800</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->

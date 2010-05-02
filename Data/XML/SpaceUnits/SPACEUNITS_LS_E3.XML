@@ -207,7 +207,7 @@
         <SpaceUnit Name="REBEL_X-WING">
                 <Text_ID>TEXT_UNIT_X_WING</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_x_wing.tga</Icon_Name>
@@ -346,7 +346,7 @@
         <Squadron Name="REBEL_X-WING_SQUADRON">
                 <Text_ID>TEXT_UNIT_X_WING_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class>UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_x_wing.tga</Icon_Name>
@@ -650,7 +650,7 @@
         <SpaceUnit Name="REBEL_Y-WING">
                 <Text_ID>TEXT_UNIT_Y_WING</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_y_wing.tga</Icon_Name>
@@ -771,110 +771,10 @@
 
         </SpaceUnit>
 
-        <LandBombingUnit Name="REBEL_Y-WING_BOMBING_RUN">
-                <Text_ID>TEXT_UNIT_Y_WING</Text_ID>
-                <Land_Model_Name>rv_ywing.alo</Land_Model_Name>
-                <Icon_Name>i_button_y_wing.tga</Icon_Name>
-                <Mass>0.985</Mass>
-                <Autoresolve_Health>40.0</Autoresolve_Health>
-
-                <Max_Speed>6.0</Max_Speed>
-                <Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
-                <Max_Thrust>0.2</Max_Thrust>
-                <Max_Rate_Of_Roll>10.0</Max_Rate_Of_Roll>
-                <Max_Lift>3.0</Max_Lift>
-                <Bank_Turn_Angle>45</Bank_Turn_Angle>
-                <Behavior>POWERED</Behavior>
-                <LandBehavior> LANDBOMBER_LOCOMOTOR, SHIELDED, POWERED, AMBIENT_SFX,UNIT_AI, TARGETING, WEAPON </LandBehavior>
-                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-                <Select_Box_Scale>43</Select_Box_Scale>
-                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
-                <Scale_Factor>1.0</Scale_Factor>
-                <!--<Is_Sprite>No</Is_Sprite>-->
-                <Type>Fly</Type>
-                <Deploys>No</Deploys>
-                <Affiliation>Rebel</Affiliation>
-                <Size_Value>15</Size_Value>
-
-
-                <Armor_Type> Armor_Speeder </Armor_Type>
-                <Damage>25</Damage>
-                <Shield_Points>50</Shield_Points>
-                <Tactical_Health>50</Tactical_Health>
-                <Shield_Refresh_Rate>0.83</Shield_Refresh_Rate>
-                <Energy_Capacity>500</Energy_Capacity>
-                <Energy_Refresh_Rate>10</Energy_Refresh_Rate>
-
-                <SFXEvent_Fire>Unit_Y_Wing_Fire</SFXEvent_Fire>
-                <SFXEvent_Select>Unit_Select_Y_Wing</SFXEvent_Select>
-                <SFXEvent_Move>Unit_Move_Y_Wing</SFXEvent_Move>
-                <SFXEvent_Attack>Unit_Attack_Y_Wing</SFXEvent_Attack>
-                <SFXEvent_Guard>Unit_Guard_Y_Wing</SFXEvent_Guard>
-                <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By_Land </SFXEvent_Ambient_Moving>
-                <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 1 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-                <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 2 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-                <SFXEvent_Bomb_Run_Select_Target> Unit_Select_Y_Wing </SFXEvent_Bomb_Run_Select_Target>
-                <SFXEvent_Bomb_Run_Incoming> Unit_Bombing_Run_Y_Wing </SFXEvent_Bomb_Run_Incoming>
-
-                <Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-                <Fires_Forward> Yes </Fires_Forward> <!-- This must be YES in order to fire missiles without concern of the firing cone in Calculate_Projectile_Facing() -->
-                <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
-                <Turret_Elevate_Extent_Degrees>20</Turret_Elevate_Extent_Degrees>
-                <Land_FOW_Reveal_Range>0.0</Land_FOW_Reveal_Range>
-                <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-
-                <!-- Note: If switch back to the Y-Wing missile, the missile in incorredly defined as a BOMB and will not work! -->
-                <Projectile_Types> Y_Wing_Bombing_Run_Bomb </Projectile_Types>
-
-                <Projectile_Fire_Pulse_Count>1</Projectile_Fire_Pulse_Count>
-                <Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-                <Projectile_Fire_Recharge_Seconds>0.20</Projectile_Fire_Recharge_Seconds>
-
-                <Damage_Hit_Particles>Rebel_Bombing_Run_Explosion_Land</Damage_Hit_Particles>
-                <Shield_Hit_Particles>Projectile_Shield_Absorb_Small</Shield_Hit_Particles>
-                <Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
-                <Death_Explosions>Medium_Explosion_Land</Death_Explosions>
-                <CategoryMask> Air </CategoryMask>
-                <AI_Combat_Power>150</AI_Combat_Power>
-                <MovementClass> BombingRun </MovementClass>
-                <OccupationStyle>1x1</OccupationStyle>
-                <Victory_Relevant>yes</Victory_Relevant>
-                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-                <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
-                <Blob_Shadow_Scale>20.0, 20.0</Blob_Shadow_Scale>
-                <!-- Generic_Shadow -->
-                <Blob_Shadow_Material_Name></Blob_Shadow_Material_Name>
-                <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
-                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-                <Space_Layer> Capital </Space_Layer>
-                <Layer_Z_Adjust>100.0</Layer_Z_Adjust>
-                <Min_Speed>2.0</Min_Speed>
-                <!-- 250.0 -->
-                <Hover_Offset>100.0</Hover_Offset>
-                <Prepare_Strafe_Height>250.0</Prepare_Strafe_Height>
-                <MaxFacingLookAheadFrames>30.0</MaxFacingLookAheadFrames>
-                <Idle_Chase_Range>145.0</Idle_Chase_Range>
-                <Guard_Chase_Range>400.0</Guard_Chase_Range>
-                <Score_Cost_Credits> 700</Score_Cost_Credits>
-
-                <Death_Explosions>Small_Explosion_Space</Death_Explosions>
-                <Death_SFXEvent_Start_Die>Unit_Y_Wing_Death_SFX</Death_SFXEvent_Start_Die>
-
-                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
-                <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
-                <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
-                <Spin_Away_On_Death_Explosion>Small_Explosion_Space</Spin_Away_On_Death_Explosion>
-                <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_Y_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
-                <Remove_Upon_Death>true</Remove_Upon_Death>
-
-        </LandBombingUnit>
-
         <Squadron Name="REBEL_Y-WING_SQUADRON">
                 <Text_ID>TEXT_UNIT_Y_WING_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class>UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_y_wing.tga</Icon_Name>
@@ -951,131 +851,6 @@
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
         </Squadron>
-
-        <Container Name="Y_Wing_Squadron_Container">
-                <Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
-                <Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-                <Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
-                <Icon_Name>i_button_y_wing.tga</Icon_Name>
-                <GUI_Model_Name>RV_ywing.ALO</GUI_Model_Name>
-                <GUI_Distance>120</GUI_Distance>
-                <GUI_Offset>0 0 0</GUI_Offset>
-                <GUI_Velocity>45</GUI_Velocity>
-
-                <Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
-                <SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-
-                <Icon_Name />
-
-                <CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
-                <Max_Speed>5.0</Max_Speed>
-                <Min_Speed>1.5</Min_Speed>
-                <Hyperspace>yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
-
-                <!-- Unit abilities description -->
-                <Unit_Abilities_Data SubObjectList="Yes">
-                        <!-- Primary ability -->
-                        <Unit_Ability>
-                                <Type>ION_CANNON_SHOT</Type>
-                                <Recharge_Seconds>20.0</Recharge_Seconds>
-                                <GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                                <Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-                                <Supports_Autofire>True</Supports_Autofire>
-                        </Unit_Ability>
-                </Unit_Abilities_Data>
-
-                <Abilities SubObjectList="Yes">
-                        <Ion_Cannon_Shot_Attack_Ability Name="Y_Wing_Container_Ion_Cannon_Shot">
-                                <Activation_Style> User_Input </Activation_Style>
-                                <!-- We only consider the following unit types "valid targets": -->
-                                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-                                <Applicable_Unit_Types />
-                        </Ion_Cannon_Shot_Attack_Ability>
-                </Abilities>
-
-        </Container>
-
-        <GroundVehicle Name="REBEL_Y-WING_BOMBING">
-                <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
-                <Blob_Shadow_Scale>25.0, 20.0</Blob_Shadow_Scale>
-                <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-                <Text_ID>TEXT_UNIT_Y_WING</Text_ID>
-                <Land_Model_Name>rv_ywing.alo</Land_Model_Name>
-                <Mass>0.985</Mass>
-                <Autoresolve_Health>40.0</Autoresolve_Health>
-
-                <Max_Speed>4.0</Max_Speed>
-                <Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
-                <Max_Thrust>0.1</Max_Thrust>
-                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
-                <Max_Lift>2.0</Max_Lift>
-                <Bank_Turn_Angle>40</Bank_Turn_Angle>
-                <MovementClass> Space </MovementClass>
-                <Space_Layer> Frigate </Space_Layer>
-                <Layer_Z_Adjust>40.0</Layer_Z_Adjust>
-                <Min_Speed>2.0</Min_Speed>
-                <Hover_Offset>100.0</Hover_Offset>
-                <Prepare_Strafe_Height>100.0</Prepare_Strafe_Height>
-                <MaxFacingLookAheadFrames>30.0</MaxFacingLookAheadFrames>
-
-                <Behavior>SELECTABLE, POWERED</Behavior>
-                <LandBehavior>FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, SHIELDED, POWERED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE</LandBehavior>
-                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-                <Select_Box_Scale>43</Select_Box_Scale>
-                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
-                <Scale_Factor>1.0</Scale_Factor>
-                <!--<Is_Sprite>No</Is_Sprite>-->
-                <Type>Fly</Type>
-                <Deploys>No</Deploys>
-                <Affiliation>Rebel</Affiliation>
-                <Size_Value>15</Size_Value>
-
-                <Damage>25</Damage>
-                <Shield_Points>50</Shield_Points>
-                <Tactical_Health>75</Tactical_Health>
-                <Shield_Refresh_Rate>0.83</Shield_Refresh_Rate>
-                <Energy_Capacity>500</Energy_Capacity>
-                <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-
-                <SFXEvent_Fire>Unit_Y_Wing_Fire</SFXEvent_Fire>
-                <SFXEvent_Select>Unit_Select_Y_Wing</SFXEvent_Select>
-                <SFXEvent_Move>Unit_Move_Y_Wing</SFXEvent_Move>
-                <SFXEvent_Attack>Unit_Attack_Y_Wing</SFXEvent_Attack>
-                <SFXEvent_Guard>Unit_Guard_Y_Wing</SFXEvent_Guard>
-                <SFXEvent_Ambient_Moving> Unit_Y_Wing_Fly_By </SFXEvent_Ambient_Moving>
-                <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
-                <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
-
-                <Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-                <Fires_Forward>no</Fires_Forward>
-                <Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
-                <Turret_Elevate_Extent_Degrees>20</Turret_Elevate_Extent_Degrees>
-                <Land_FOW_Reveal_Range>220.0</Land_FOW_Reveal_Range>
-                <Targeting_Max_Attack_Distance>200.0</Targeting_Max_Attack_Distance>
-                <Projectile_Types>Proj_Ground_Proton_Torpedo</Projectile_Types>
-                <Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
-                <Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
-                <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-
-                <Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
-                <Death_Explosions>Medium_Explosion_Land</Death_Explosions>
-                <Icon_Name>i_button_rebel_speeder.tga</Icon_Name>
-                <CategoryMask> Air </CategoryMask>
-                <MovementClass> Flying </MovementClass>
-                <OccupationStyle>1x1</OccupationStyle>
-                <Victory_Relevant>yes</Victory_Relevant>
-                <No_Reflection_Below_Detail_Level>99</No_Reflection_Below_Detail_Level>
-                <No_Refraction_Below_Detail_Level>3</No_Refraction_Below_Detail_Level>
-
-                <Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
-                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-        </GroundVehicle>
-
 
         <SpaceUnit Name="REBEL_B-WING">
                 <Text_ID>TEXT_UNIT_B_WING</Text_ID>
@@ -1315,118 +1090,6 @@
 
         </Squadron>
 
-        <Squadron Name="BWing_Squadron_Tech_Tree">
-                        <Variant_Of_Existing_Type>B-Wing_Squadron</Variant_Of_Existing_Type>
-                <Tech_Level>6</Tech_Level>
-        </Squadron>
-
-
-        <!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports -->
-
-        <TransportUnit Name="REBEL_GALLOFREE_TRANSPORT">
-    <Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
-    <Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
-    <Space_Model_Name>RV_TRANSPORT.ALO</Space_Model_Name>
-    <Icon_Name>i_button_Gallofree_Transport.tga</Icon_Name>
-    <Select_Box_Scale>200</Select_Box_Scale>
-    <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-    <Mass>0.995</Mass>
-    <Scale_Factor>0.7</Scale_Factor>
-
-    <GUI_Bracket_Size>0</GUI_Bracket_Size>
-
-    <Armor_Type> Armour_Corvette_Basic </Armor_Type>
-    <Max_Speed>2.0</Max_Speed>
-    <Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
-    <MovementClass> Space </MovementClass>
-    <Space_Layer> Corvette </Space_Layer>
-    <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-    <Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-    <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-    <Bank_Turn_Angle>0</Bank_Turn_Angle>
-    <Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
-
-    <Max_Thrust>0.8</Max_Thrust>
-    <Hyperspace>Yes</Hyperspace>
-    <Hyperspace_Speed>1.5</Hyperspace_Speed>
-
-    <Affiliation>Rebel</Affiliation>
-    <Ship_Class>Transport</Ship_Class>
-    <Formation_Priority>6</Formation_Priority>
-    <Is_Escort>no</Is_Escort>
-    <Autoresolve_Health>600</Autoresolve_Health>
-    <Damage>2</Damage>
-    <Shield_Points>50</Shield_Points>
-    <Tactical_Health>350</Tactical_Health>
-    <Shield_Refresh_Rate>0.33</Shield_Refresh_Rate>
-    <Energy_Capacity>400</Energy_Capacity>
-    <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
-    <Required_Timeline>0</Required_Timeline>
-    <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-    <Required_Star_Base_Level>0</Required_Star_Base_Level>
-    <Required_Special_Structures />
-    <Required_Planets />
-    <Override_Bounty_SP>50</Override_Bounty_SP>
-    <Override_Bounty_MP>50</Override_Bounty_MP>
-    <Size_Value>120</Size_Value>
-
-    <Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
-
-    <Behavior>TRANSPORT</Behavior>
-    <SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, POWERED, SHIELDED, REVEAL, UNIT_AI, HIDE_WHEN_FOGGED, ASTEROID_FIELD_DAMAGE</SpaceBehavior>
-    <LandBehavior>SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</LandBehavior>
-    <TacticalBehavior> SELECTABLE </TacticalBehavior>
-    <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-
-    <Obstacle_Width>140.0</Obstacle_Width>
-    <Obstacle_Height>60.0</Obstacle_Height>
-    <Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
-    <Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
-
-    <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-    <Death_Explosions>Medium_Explosion_Space</Death_Explosions>
-
-    <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-    <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-    <Space_FOW_Reveal_Range>700.0</Space_FOW_Reveal_Range>
-    <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-    <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
-    <HardPoints>HP_Gallofree_01</HardPoints>
-
-    <Exit_Door_Angle_Degrees>90.0</Exit_Door_Angle_Degrees>
-    <Exit_Door_Distance>0.0</Exit_Door_Distance>
-    <Victory_Relevant>yes</Victory_Relevant>
-    <Hover_Offset>30.0</Hover_Offset>
-    <Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
-    <Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
-    <Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
-    <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
-    <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
-
-    <SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
-    <SFXEvent_Select>Unit_Select_Gallofree</SFXEvent_Select>
-    <SFXEvent_Move>Unit_Move_Gallofree</SFXEvent_Move>
-    <SFXEvent_Fleet_Move>Unit_Fleet_Move_Gallofree</SFXEvent_Fleet_Move>
-    <SFXEvent_Attack>Unit_Attack_Gallofree</SFXEvent_Attack>
-
-    <SFXEvent_Engine_Idle_Loop> Unit_Gallofree_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-    <SFXEvent_Engine_Moving_Loop> Unit_Gallofree_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-    <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Shuttle_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
-    <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-
-    <CategoryMask>Transport</CategoryMask>
-    <Landing_Transport_Variant>Gallofree_Transport_Landing</Landing_Transport_Variant>
-    <AI_Combat_Power>10</AI_Combat_Power>
-
-    <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT </Encyclopedia_Unit_Class>
-
-    <Has_Space_Evaluator>True</Has_Space_Evaluator>
-
-    <Remove_Upon_Death>true</Remove_Upon_Death>
-
-  </TransportUnit>
-
 
         <!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes -->
 
@@ -1637,7 +1300,7 @@
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_CORELLIAN_GUNSHIP </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_GUNSHIP </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_CORVETTE </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_GUNSHIP </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against>  EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_TIE_BOMBER  </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_VICTORY_DESTROYER  </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -1852,7 +1515,7 @@
                 <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER</Encyclopedia_Text>
                 <Encyclopedia_Good_Against> Empire_Star_Base_1 TIE_Fighter Starviper_Fighter </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Vengeance_Frigate Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_CORVETTE</Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCo_MARAUDER.ALO</Space_Model_Name>
@@ -1882,7 +1545,6 @@
                 <Max_Lift>0.0</Max_Lift>
 
                 <Death_Clone>Damage_Normal, REBEL_MARAUDER_DEATH_CLONE</Death_Clone>
-                <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
 
                 <Affiliation>Rebel</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2051,7 +1713,7 @@
         <SpaceUnit Name="REBEL_DREADNAUGHT_CARRIER">
                 <Text_ID>UEAW_UNIT_DREADNAUGHT_CARRIER</Text_ID>
                 <Encyclopedia_Text> UEAW_TOOLTIP_DREADNAUGHT_REBEL_CARRIER </Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UEAW_CLASS_DREADNAUGHT_CARRIER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Marauder_Missile_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Victory_Destroyer </Encyclopedia_Vulnerable_To>
                 <Icon_Name>UEAW_BUTTON_DREADNAUGHT_REBEL_CARRIER.tga</Icon_Name>
@@ -2463,7 +2125,7 @@
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_NEBULON_B </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_NEBULON_B </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_ESCORT_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -2686,7 +2348,7 @@
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_MC30 </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_MC30 </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_GUNSHIP </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_STAR_DESTROYER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -2913,7 +2575,7 @@
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE_I </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE_I</Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER</Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_FRIGATE</Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_BROADSIDE_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -3141,7 +2803,7 @@
         <!-- General ID -->
                 <Text_ID> TEXT_UNIT_ASSAULT_FRIGATE_II </Text_ID> <!-- One entry Only -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_ASSAULT_FRIGATE_II</Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER</Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_FRIGATE</Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER EMPIRE_BROADSIDE_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
@@ -3361,9 +3023,9 @@
 
 
         <SpaceUnit Name="REBEL_DREADNAUGHT">
-                <Text_ID>UEAW_UNIT_DREADNAUGHT_MODIFIED</Text_ID>
+                <Text_ID>UEAW_UNIT_DREADNAUGHT</Text_ID>
                 <Encyclopedia_Text> UEAW_TOOLTIP_DREADNAUGHT_REBEL</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UEAW_CLASS_DREADNAUGHT_MODIFIED </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Marauder_Missile_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Victory_Destroyer </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
@@ -3806,11 +3468,11 @@
 
 
         <SpaceUnit Name="REBEL_MC80_LIBERTYTYPE">
-                <Text_ID>TEXT_UNIT_CALAMARI_CRUISER</Text_ID>
+                <Text_ID>TEXT_UNIT_MC80_LIBERTY</Text_ID>
                 <Encyclopedia_Good_Against> EMPIRE_ACCLAMATOR_ASSAULT_FRIGATE_I </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text> TEXT_TOOLTIP_MON_CALAMARI_CRUISER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
+                <Encyclopedia_Text> TEXT_TOOLTIP_MC80_LIBERTY TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER </Encyclopedia_Unit_Class>
                 <Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
 
                 <GUI_Row> 1 </GUI_Row>
