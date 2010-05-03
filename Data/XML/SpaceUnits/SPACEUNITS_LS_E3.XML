@@ -2836,8 +2836,8 @@
 
 
     <SpaceUnit Name="REBEL_DREADNAUGHT">
-                <Text_ID>TEXT_UNIT_DREADNAUGHT</Text_ID>
-                <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_DREADNAUGHT_REBEL</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_REBEL</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Marauder_Missile_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Victory_Destroyer </Encyclopedia_Vulnerable_To>
@@ -2934,7 +2934,7 @@
                 </HardPoints>
 
                 <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-                <Icon_Name>UEAW_BUTTON_DREADNAUGHT_REBEL.tga</Icon_Name>
+                <Icon_Name>I_BUTTON_DREADNAUGHT.tga</Icon_Name>
                 <Victory_Relevant>yes</Victory_Relevant>
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
 
@@ -3038,8 +3038,8 @@
         </SpaceUnit>
 
     <SpaceUnit Name="REBEL_DREADNAUGHT_REFIT">
-                <Text_ID>TEXT_UNIT_DREADNAUGHT_REFIT</Text_ID>
-                <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_REFIT</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_DREADNAUGHT_REFIT_REBEL</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_REFIT_REBEL</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> Tartan_Patrol_Cruiser Marauder_Missile_Cruiser IPV1_System_Patrol_Craft </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> TIE_Bomber Star_Destroyer Victory_Destroyer </Encyclopedia_Vulnerable_To>
@@ -3130,11 +3130,13 @@
                          HP_DREADNAUGHT_REFIT_LTL_04,
                          HP_DREADNAUGHT_REFIT_SHIELD,
                          HP_DREADNAUGHT_REFIT_HANGAR,
-                         HP_DREADNAUGHT_REFIT_ENGINE
+                         HP_DREADNAUGHT_REFIT_ENGINE,
+						 HP_DREADNAUGHT_REFIT_DUMMY_01,
+						 HP_DREADNAUGHT_REFIT_DUMMY_02
                 </HardPoints>
 
                 <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-                <Icon_Name>UEAW_BUTTON_DREADNAUGHT_REBEL.tga</Icon_Name>
+                <Icon_Name>I_BUTTON_DREADNAUGHT_REFIT.tga</Icon_Name>
                 <Victory_Relevant>yes</Victory_Relevant>
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
 
