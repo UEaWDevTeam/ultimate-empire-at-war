@@ -256,8 +256,6 @@
             <Fire_Range_Distance>400.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-            <Damage_Type> Damage_IonCannon </Damage_Type>
-
             <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
@@ -287,7 +285,7 @@
 
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-            <Fire_Restrictions>Fighter | Bomber</Fire_Restrictions>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
         </HardPoint>
 
@@ -363,8 +361,6 @@
             <Fire_Range_Distance>400.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-            <Damage_Type> Damage_IonCannon </Damage_Type>
-
             <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
@@ -372,9 +368,6 @@
             <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-            <Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
         </HardPoint>
 
@@ -395,8 +388,6 @@
             <Fire_Range_Distance>400.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-            <Damage_Type> Damage_IonCannon </Damage_Type>
-
             <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
@@ -405,8 +396,6 @@
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
-            <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
-            <Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
 
         </HardPoint>
 
@@ -429,7 +418,7 @@
 
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-            <Fire_Restrictions>Fighter | Bomber</Fire_Restrictions>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
         </HardPoint>
 
@@ -719,7 +708,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                        <Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+                       
             <Fire_Bone_A>MuzzleA_08</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_08</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -749,7 +738,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                        <Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+                       
             <Fire_Bone_A>MuzzleA_09</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_09</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -779,7 +768,7 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-                        <Damage_Type> Damage_Corellian_Gunboat </Damage_Type>
+                      
             <Fire_Bone_A>MuzzleA_10</Fire_Bone_A>
             <Fire_Bone_B>MuzzleA_10</Fire_Bone_B>
             <Fire_Cone_Width>45.0</Fire_Cone_Width>
@@ -1220,7 +1209,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFr_NEBULONB_HP00_F-L.ALO</Model_To_Attach>
@@ -1231,7 +1220,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                    
             <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -1262,7 +1251,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFr_NEBULONB_HP00_F-R.ALO</Model_To_Attach>
@@ -1273,7 +1262,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                      
             <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -1304,13 +1293,13 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
             <Damage_Particles>LTL_01_EMITDAMAGE</Damage_Particles>
                         <Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                        
             <Fire_Bone_A>HP_LTL_01</Fire_Bone_A>
             <Fire_Bone_B>LTL_01_FB</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1341,14 +1330,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
             <Damage_Particles>LTL_02_EMITDAMAGE</Damage_Particles>
                         <Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                       
             <Fire_Bone_A>HP_LTL_02</Fire_Bone_A>
             <Fire_Bone_B>LTL_02_FB</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1379,7 +1368,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFr_NEBULONB_HP00_B-L.ALO</Model_To_Attach>
@@ -1390,7 +1379,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                   
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1420,7 +1409,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFr_NEBULONB_HP00_B-R.ALO</Model_To_Attach>
@@ -1431,7 +1420,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                        
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1461,13 +1450,13 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
             <Damage_Particles>L_02_EMITDAMAGE</Damage_Particles>
                         <Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
-            <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            
             <Fire_Bone_A>L_02_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_02_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1498,13 +1487,13 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
             <Damage_Particles>L_01_EMITDAMAGE</Damage_Particles>
                         <Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
-            <Damage_Type> Damage_Nebulon_B </Damage_Type>
+            
             <Fire_Bone_A>L_01_FB00</Fire_Bone_A>
             <Fire_Bone_B>L_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -1535,7 +1524,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_E_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
@@ -1552,7 +1541,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
@@ -1569,7 +1558,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>SHIELD</Attachment_Bone>
      </HardPoint> -->
@@ -1583,7 +1572,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_F-L.ALO</Model_To_Attach>
@@ -1594,7 +1583,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                       
             <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -1625,7 +1614,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_F-R.ALO</Model_To_Attach>
@@ -1636,7 +1625,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_FL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                       
             <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
             <Fire_Cone_Width>160.0</Fire_Cone_Width>
@@ -1667,7 +1656,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFrU_HOSPITAL_NEB-B_HP00_B-L.ALO</Model_To_Attach>
@@ -1678,7 +1667,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                        
             <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-L_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1708,7 +1697,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCFr_NEBULONB_HP00_B-R.ALO</Model_To_Attach>
@@ -1719,7 +1708,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Nebulon_Weapon_BL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Nebulon_B </Damage_Type>
+                        
             <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
             <Fire_Bone_B>FP_B-R_01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
@@ -1749,7 +1738,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>200.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>SHIELD</Attachment_Bone>
      </HardPoint> -->
@@ -1761,7 +1750,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_E_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
@@ -1783,7 +1772,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -1830,7 +1819,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -1876,7 +1865,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -1922,7 +1911,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -1970,7 +1959,7 @@
             <Attachment_Bone>HP_09</Attachment_Bone>
             <Collision_Mesh>HP_09_COLL</Collision_Mesh>
             <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_26</Fire_Bone_A>
@@ -2003,7 +1992,7 @@
             <Attachment_Bone>HP_08</Attachment_Bone>
             <Collision_Mesh>HP_08_COLL</Collision_Mesh>
             <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_27</Fire_Bone_A>
@@ -2038,7 +2027,7 @@
             <Attachment_Bone>HP_05</Attachment_Bone>
             <Collision_Mesh>HP_05_COLL</Collision_Mesh>
             <Damage_Particles>HP_05_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_03</Fire_Bone_A>
@@ -2071,7 +2060,7 @@
             <Attachment_Bone>HP_04</Attachment_Bone>
             <Collision_Mesh>HP_04_COLL</Collision_Mesh>
             <Damage_Particles>HP_04_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_02</Fire_Bone_A>
@@ -2104,7 +2093,7 @@
             <Attachment_Bone>HP_00</Attachment_Bone>
             <Collision_Mesh>HP_00_COLL</Collision_Mesh>
             <Damage_Particles>HP_00_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_12</Fire_Bone_A>
@@ -2137,7 +2126,7 @@
             <Attachment_Bone>HP_01</Attachment_Bone>
             <Collision_Mesh>HP_01_COLL</Collision_Mesh>
             <Damage_Particles>HP_01_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_13</Fire_Bone_A>
@@ -2170,7 +2159,7 @@
             <Attachment_Bone>HP_07</Attachment_Bone>
             <Collision_Mesh>HP_07_COLL</Collision_Mesh>
             <Damage_Particles>HP_07_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_09</Fire_Bone_A>
@@ -2203,7 +2192,7 @@
             <Attachment_Bone>HP_06</Attachment_Bone>
             <Collision_Mesh>HP_06_COLL</Collision_Mesh>
             <Damage_Particles>HP_06_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_08</Fire_Bone_A>
@@ -2236,7 +2225,7 @@
             <Attachment_Bone>HP_02</Attachment_Bone>
             <Collision_Mesh>HP_02_COLL</Collision_Mesh>
             <Damage_Particles>HP_02_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_16</Fire_Bone_A>
@@ -2269,7 +2258,7 @@
             <Attachment_Bone>HP_03</Attachment_Bone>
             <Collision_Mesh>HP_03_COLL</Collision_Mesh>
             <Damage_Particles>HP_03_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_17</Fire_Bone_A>
@@ -2301,7 +2290,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
 
@@ -2320,7 +2309,7 @@
 
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>260.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 
@@ -2336,7 +2325,7 @@
             <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_ENGINES</Engine_Particles>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
     </HardPoint>
@@ -2349,7 +2338,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -2396,7 +2385,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -2442,7 +2431,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -2488,7 +2477,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -2536,7 +2525,7 @@
             <Attachment_Bone>HP_09</Attachment_Bone>
             <Collision_Mesh>HP_09_COLL</Collision_Mesh>
             <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_26</Fire_Bone_A>
@@ -2569,7 +2558,7 @@
             <Attachment_Bone>HP_08</Attachment_Bone>
             <Collision_Mesh>HP_08_COLL</Collision_Mesh>
             <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Fire_Bone_A>MUZZLEB_27</Fire_Bone_A>
@@ -2600,7 +2589,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>200.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_06</Attachment_Bone>
@@ -2635,7 +2624,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>200.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_07</Attachment_Bone>
@@ -2671,7 +2660,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>150.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_01</Attachment_Bone>
@@ -2707,7 +2696,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>150.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_00</Attachment_Bone>
@@ -2743,7 +2732,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>150.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_02</Attachment_Bone>
@@ -2779,7 +2768,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>150.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_03</Attachment_Bone>
@@ -2815,7 +2804,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>250.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
 
@@ -2834,7 +2823,7 @@
 
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>300.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
     </HardPoint>
 
@@ -2850,7 +2839,7 @@
             <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_ENGINES</Engine_Particles>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
     </HardPoint>
@@ -2887,7 +2876,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>400.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LC_BONE</Attachment_Bone>
@@ -2924,7 +2913,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>400.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LC_01_BONE</Attachment_Bone>
@@ -2961,7 +2950,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_APPTA</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_PT_B_BONE</Attachment_Bone>
@@ -2993,7 +2982,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_PT_L_BONE</Attachment_Bone>
@@ -3024,7 +3013,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_PT_R_BONE</Attachment_Bone>
@@ -3066,7 +3055,7 @@
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
         <Health>400.0</Health>
 
-                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
         <Attachment_Bone>HP_E_BONE</Attachment_Bone>
@@ -3088,7 +3077,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3135,7 +3124,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3181,7 +3170,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3229,7 +3218,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3280,7 +3269,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3293,7 +3282,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                        
             <Fire_Bone_A>L_05_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_05_FB03</Fire_Bone_B>
             <!-- <Fire_Bone_C>L_05_FB03</Fire_Bone_C>
@@ -3325,7 +3314,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3338,7 +3327,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                       
             <Fire_Bone_A>L_06_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_06_FB03</Fire_Bone_B>
             <!-- <Fire_Bone_C>L_06_FB03</Fire_Bone_C>
@@ -3369,7 +3358,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3382,7 +3371,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                       
             <Fire_Bone_A>L_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_03_FB03</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3412,7 +3401,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3425,7 +3414,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                       
             <Fire_Bone_A>L_04_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_04_FB03</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3455,7 +3444,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3468,7 +3457,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                      
             <Fire_Bone_A>L_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_02_FB03</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3498,7 +3487,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3511,7 +3500,7 @@
             <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
 
                           -->
-                        <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+                       
             <Fire_Bone_A>L_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_01_FB03</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -3541,7 +3530,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3586,7 +3575,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3631,7 +3620,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_E.alo</Model_To_Attach>-->
@@ -3649,7 +3638,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
 
@@ -3667,7 +3656,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3707,7 +3696,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3747,7 +3736,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3787,7 +3776,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>350.0</Health> <!-- was 280 -->
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
@@ -3829,14 +3818,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_L_03</Attachment_Bone>
                         <Collision_Mesh>HP_L_03_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>L_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_03_FB02</Fire_Bone_B>
             <Damage_Particles>HP_L_03_EMITDAMAGE</Damage_Particles>
@@ -3868,14 +3857,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_L_04</Attachment_Bone>
                         <Collision_Mesh>HP_L_04_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>L_03_FB04</Fire_Bone_A>
             <Fire_Bone_B>L_03_FB03</Fire_Bone_B>
             <Damage_Particles>HP_L_04_EMITDAMAGE</Damage_Particles>
@@ -3907,14 +3896,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_L_02</Attachment_Bone>
                         <Collision_Mesh>HP_L_02_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>L_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_02_FB02</Fire_Bone_B>
             <Damage_Particles>HP_L_02_EMITDAMAGE</Damage_Particles>
@@ -3946,14 +3935,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_L_01</Attachment_Bone>
                         <Collision_Mesh>HP_L_01_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>L_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>L_01_FB02</Fire_Bone_B>
             <Damage_Particles>HP_L_01_EMITDAMAGE</Damage_Particles>
@@ -3985,14 +3974,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_LTL_01</Attachment_Bone>
                         <Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>LTL_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>LTL_01_FB02</Fire_Bone_B>
             <Damage_Particles>HP_LTL_01_EMITDAMAGE</Damage_Particles>
@@ -4024,14 +4013,14 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
 
             <Attachment_Bone>HP_LTL_02</Attachment_Bone>
                         <Collision_Mesh>HP_LTL_02_COLL</Collision_Mesh>
 
-            <Damage_Type> Damage_Assault_Frigate </Damage_Type>
+            
             <Fire_Bone_A>LTL_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>LTL_02_FB02</Fire_Bone_B>
             <Damage_Particles>HP_LTL_02_EMITDAMAGE</Damage_Particles>
@@ -4063,7 +4052,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>350.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <!--<Model_To_Attach>RV_AssaultFrigate_HP00_E.alo</Model_To_Attach>-->
@@ -4080,7 +4069,7 @@
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>SHIELD</Attachment_Bone>
      </HardPoint>
@@ -4124,10 +4113,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-              <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+              
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_B-L.ALO</Model_To_Attach>
             <Attachment_Bone>HP_B-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-L_COLL</Collision_Mesh>
@@ -4165,10 +4154,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-              <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+              
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_B-R.ALO</Model_To_Attach>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_B-R_COLL</Collision_Mesh>
@@ -4206,10 +4195,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                       
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_M-L.ALO</Model_To_Attach>
             <Attachment_Bone>HP_M-L_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-L_COLL</Collision_Mesh>
@@ -4247,10 +4236,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                        
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_M-R.ALO</Model_To_Attach>
             <Attachment_Bone>HP_M-R_BONE</Attachment_Bone>
             <Collision_Mesh>HP_M-R_COLL</Collision_Mesh>
@@ -4288,7 +4277,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_F-L.ALO</Model_To_Attach>
@@ -4329,7 +4318,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_F-R.ALO</Model_To_Attach>
@@ -4371,10 +4360,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                      
             <Attachment_Bone>HP_MTL01</Attachment_Bone>
             <Collision_Mesh>HP_MTL01_COLL</Collision_Mesh>
             <Damage_Particles>HP_MTL01_EMITDAMAGE</Damage_Particles>
@@ -4409,10 +4398,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                        
             <Attachment_Bone>HP_MTL02</Attachment_Bone>
             <Collision_Mesh>HP_MTL02_COLL</Collision_Mesh>
             <Damage_Particles>HP_MTL02_EMITDAMAGE</Damage_Particles>
@@ -4447,10 +4436,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                        
             <Attachment_Bone>HP_MTL03</Attachment_Bone>
             <Collision_Mesh>HP_MTL03_COLL</Collision_Mesh>
             <Damage_Particles>HP_MTL03_EMITDAMAGE</Damage_Particles>
@@ -4485,10 +4474,10 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>420.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-                        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+                        
             <Attachment_Bone>HP_MTL04</Attachment_Bone>
             <Collision_Mesh>HP_MTL04_COLL</Collision_Mesh>
             <Damage_Particles>HP_MTL04_EMITDAMAGE</Damage_Particles>
@@ -4523,7 +4512,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
             <Health>200.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LI01</Attachment_Bone>
@@ -4559,7 +4548,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
             <Health>200.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LI02</Attachment_Bone>
@@ -4595,7 +4584,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
             <Health>200.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LI03</Attachment_Bone>
@@ -4631,7 +4620,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
             <Health>200.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_LI04</Attachment_Bone>
@@ -4667,7 +4656,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>490.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>VCCr_MC80_LIBERTY_HP00_E.ALO</Model_To_Attach>
@@ -4684,7 +4673,7 @@
                   <Is_Destroyable>Yes</Is_Destroyable>
                   <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                   <Health>420.0</Health>
-                  <Death_Explosion_Particles>PEx_Explosion_Large_A</Death_Explosion_Particles>
+                  <Death_Explosion_Particles>PEx_Explosion_Medium_B</Death_Explosion_Particles>
                   <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
                   <Attachment_Bone>SPAWN_00</Attachment_Bone>
@@ -4702,7 +4691,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_08</Attachment_Bone>
@@ -4710,7 +4699,7 @@
             <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_08_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_08_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4741,7 +4730,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_09</Attachment_Bone>
@@ -4749,7 +4738,7 @@
             <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_09_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_09_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4780,7 +4769,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_04</Attachment_Bone>
@@ -4788,7 +4777,7 @@
             <Damage_Particles>HP_04_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_04_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_04_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4819,7 +4808,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_05</Attachment_Bone>
@@ -4827,7 +4816,7 @@
             <Damage_Particles>HP_05_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_05_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_05_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4858,7 +4847,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_00</Attachment_Bone>
@@ -4866,7 +4855,7 @@
             <Damage_Particles>HP_00_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_00_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_00_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4897,7 +4886,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_01</Attachment_Bone>
@@ -4905,7 +4894,7 @@
             <Damage_Particles>HP_01_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4936,7 +4925,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_14</Attachment_Bone>
@@ -4944,7 +4933,7 @@
             <Damage_Particles>HP_14_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_14_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_14_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -4974,7 +4963,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_15</Attachment_Bone>
@@ -4982,7 +4971,7 @@
             <Damage_Particles>HP_15_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_15_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_15_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5012,7 +5001,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_02</Attachment_Bone>
@@ -5020,7 +5009,7 @@
             <Damage_Particles>HP_02_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5051,7 +5040,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_03</Attachment_Bone>
@@ -5059,7 +5048,7 @@
             <Damage_Particles>HP_03_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5090,7 +5079,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_12</Attachment_Bone>
@@ -5098,7 +5087,7 @@
             <Damage_Particles>HP_12_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_12_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_12_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5129,7 +5118,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_13</Attachment_Bone>
@@ -5137,7 +5126,7 @@
             <Damage_Particles>HP_13_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_13_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_13_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5168,7 +5157,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_06</Attachment_Bone>
@@ -5176,7 +5165,7 @@
             <Damage_Particles>HP_06_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_06_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_06_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5206,7 +5195,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_07</Attachment_Bone>
@@ -5214,7 +5203,7 @@
             <Damage_Particles>HP_07_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_07_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_07_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5244,7 +5233,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_16</Attachment_Bone>
@@ -5252,7 +5241,7 @@
             <Damage_Particles>HP_16_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_16_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_16_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5282,7 +5271,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>500.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_17</Attachment_Bone>
@@ -5290,7 +5279,7 @@
             <Damage_Particles>HP_17_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_17_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_17_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5320,7 +5309,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>400.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_10</Attachment_Bone>
@@ -5328,7 +5317,7 @@
             <Damage_Particles>HP_10_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_10_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_10_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5359,7 +5348,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>400.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_11</Attachment_Bone>
@@ -5367,7 +5356,7 @@
             <Damage_Particles>HP_11_EMITDAMAGE</Damage_Particles>
 
 
-            <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+            
             <Fire_Bone_A>HP_11_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_11_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
@@ -5427,7 +5416,7 @@
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
             <Health>1200.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_SHIELD</Attachment_Bone>
@@ -5442,7 +5431,7 @@
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
             <Health>1000.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A_Empire </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach />
