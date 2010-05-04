@@ -3128,13 +3128,13 @@
 
 
         <!-- Victory Cruiser I hardpoints-->
-
-
+		<!-- Note: modle bones are at 90 degrees to what they should be, so fire cone width and height are reversed (width = height, height = width -->
+		
     <HardPoint Name="HP_E_VICTORY_I_E3_HTL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_HTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
@@ -3149,8 +3149,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>HTL_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>HTL_01_FB01</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
@@ -3174,7 +3174,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_HTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>600.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3189,8 +3189,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>HTL_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>HTL_02_FB01</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
@@ -3214,7 +3214,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_MTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3229,8 +3229,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>MTL_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>MTL_01_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3254,7 +3254,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_MTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
@@ -3269,8 +3269,8 @@
                         
             <Fire_Bone_A>MTL_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>MTL_02_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3294,7 +3294,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_MTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
@@ -3309,8 +3309,8 @@
                        
             <Fire_Bone_A>MTL_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>MTL_03_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3334,7 +3334,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_MTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3349,8 +3349,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>MTL_04_FB01</Fire_Bone_A>
             <Fire_Bone_B>MTL_04_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3374,7 +3374,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3385,8 +3385,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_01_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>210.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3405,7 +3405,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3416,8 +3416,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_02_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>270.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3436,7 +3436,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3447,8 +3447,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_03_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3467,7 +3467,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3478,8 +3478,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_04_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_04_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3498,7 +3498,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3509,8 +3509,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_05_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_05_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3529,7 +3529,7 @@
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>500.0</Health>
 
 
@@ -3540,8 +3540,8 @@
             <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>APHCM_06_FB01</Fire_Bone_A>
             <Fire_Bone_B>APHCM_06_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height>
+            <Fire_Cone_Width>120.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
@@ -3560,7 +3560,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3574,8 +3574,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>LTL_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>LTL_01_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>210.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3599,7 +3599,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3613,8 +3613,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>LTL_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>LTL_02_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>210.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
@@ -3638,7 +3638,7 @@
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_LTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>550.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
@@ -3652,8 +3652,8 @@
                         <Damage_Type> Damage_Victory_SD </Damage_Type>
             <Fire_Bone_A>LTL_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>LTL_03_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>

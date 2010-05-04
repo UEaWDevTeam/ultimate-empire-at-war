@@ -2535,7 +2535,8 @@
         </SpaceUnit>
 
         <SpaceUnit Name="E_VICTORY_I">
-                <Text_ID>TEXT_UNIT_VICTORY_DESTROYER</Text_ID>
+                <Text_ID>TEXT_UNIT_VICTORYI</Text_ID>
+				<Encyclopedia_Text> TEXT_TOOLTIP_VICTORYI</Encyclopedia_Text>
                 <Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat Crusader_Gunship </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat Calamari_Cruiser </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
@@ -2543,7 +2544,7 @@
                 <Select_Box_Scale>350</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>0.85</Scale_Factor>
+                <Scale_Factor>0.95</Scale_Factor>
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2551,7 +2552,7 @@
                 <Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
-                <Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+                <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>8</Bank_Turn_Angle>
                 <OverrideAcceleration> .03 </OverrideAcceleration>
@@ -2562,8 +2563,8 @@
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
-                <Armor_Type> Armor_Victory_Class </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+                <Armor_Type> Armour_Cruiser </Armor_Type>
+        <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Damage>40</Damage>
                 <Autoresolve_Health>3400</Autoresolve_Health>
                 <Shield_Points>800</Shield_Points>
@@ -2604,6 +2605,9 @@
                 <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 
                 <Death_Clone>Damage_Normal, E_VICTORY_I_DEATH_CLONE</Death_Clone>
+				
+				<Starting_Spawned_Units_Tech_0>E_TIE_FIGHTER_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+
 
                 <HardPoints>
                          HP_E_VICTORY_I_E3_HTL_01,
@@ -2630,7 +2634,7 @@
                 </HardPoints>
 
                 <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-                <Icon_Name>i_button_victory_class.tga</Icon_Name>
+                <Icon_Name>i_button_victory_I.tga</Icon_Name>
                 <GUI_Model_Name>VCCr_VICTORY_I.ALO</GUI_Model_Name>
                 <GUI_Distance>1100</GUI_Distance>
                 <GUI_Offset>0 0 0</GUI_Offset>
@@ -2733,8 +2737,8 @@
                 <Space_Model_Name>VCCr_VICTORY_I_D.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
-                <Scale_Factor>0.85</Scale_Factor>
-                <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+                <Scale_Factor>0.95</Scale_Factor>
+                <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
                 <Max_Thrust>1</Max_Thrust>
