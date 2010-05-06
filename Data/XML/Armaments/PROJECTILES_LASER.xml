@@ -1109,10 +1109,14 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
+	<!-- Special case for the ISD II -->
+	
 	<Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Quad">
 		<Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Heavy</Variant_Of_Existing_Type>
 		<Space_Model_Name>Proj_Turbo_Green_Heavy_Quad.alo</Space_Model_Name>
+		<Projectile_Damage>160</Projectile_Damage>
 	</Projectile>
+	
 	
 	<Projectile Name="Proj_Turbolaser_E4_Green_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
