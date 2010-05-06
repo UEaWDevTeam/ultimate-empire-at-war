@@ -3288,39 +3288,31 @@
                 <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-                <Death_Clone>Damage_Normal, E_ISDI_DEATH_CLONE</Death_Clone>
+                <Death_Clone>Damage_Normal, E_ISDII_DEATH_CLONE</Death_Clone>
                 <Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
 
                 <HardPoints>
-                         HP_E_ISDI_E3_HTL_01,
-                         HP_E_ISDI_E3_HTL_02,
-                         HP_E_ISDI_E3_MTL_01,
-                         HP_E_ISDI_E3_MTL_02,
-                         HP_E_ISDI_E3_MTL_03,
-                         HP_E_ISDI_E3_MTL_04,
-                         HP_E_ISDI_E3_MI_01,
-                         HP_E_ISDI_E3_MI_02,
-                         HP_E_ISDI_E3_MI_03,
-                         HP_E_ISDI_E3_MI_04,
-                         HP_E_ISDI_E3_LTL_01,
-                         HP_E_ISDI_E3_LTL_02,
-                         HP_E_ISDI_E3_LTL_03,
-                         HP_E_ISDI_E3_LTL_04,
-                         HP_E_ISDI_E3_LTL_05,
-                         HP_E_ISDI_E3_LTL_06,
-                         HP_E_ISDI_E3_HTL_03,
-                         HP_E_ISDI_E3_HTL_04,
-                         HP_E_ISDI_E3_HTL_05,
-                         HP_E_ISDI_E3_HTL_06,
-                         HP_E_ISDI_E3_HTL_07,
-                         HP_E_ISDI_E3_HTL_08,
-                         HP_E_ISDI_E3_HI_01,
-                         HP_E_ISDI_E3_HI_02,
-                         HP_E_ISDI_E3_SHIELD,
-                         HP_E_ISDI_E3_HANGAR,
-                         HP_E_ISDI_E3_ENGINE,
-                         HP_E_ISDI_E3_TRACTOR
+                         HP_E_ISDII_E3_HTL_01,
+                         HP_E_ISDII_E3_HTL_02,
+                         HP_E_ISDII_E3_HTL_03,
+                         HP_E_ISDII_E3_HTL_04,
+                         HP_E_ISDII_E3_HI_01,
+                         HP_E_ISDII_E3_HI_02,
+                         HP_E_ISDII_E3_HI_03,
+                         HP_E_ISDII_E3_HI_04,
+                         HP_E_ISDII_E3_HTL_05,
+                         HP_E_ISDII_E3_HTL_06,
+                         HP_E_ISDII_E3_HTL_07,
+                         HP_E_ISDII_E3_HTL_08,
+                         HP_E_ISDII_E3_HTL_09,
+                         HP_E_ISDII_E3_HTL_10,
+                         HP_E_ISDII_E3_HTL_11,
+                         HP_E_ISDII_E3_HTL_12
+                         HP_E_ISDII_E3_SHIELD,
+                         HP_E_ISDII_E3_ENGINE,
+                         HP_E_ISDII_E3_HANGAR,
+                         HP_E_ISDII_E3_TRACTOR
                 </HardPoints>
 
                 <SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -3369,7 +3361,7 @@
                 <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
                 <CategoryMask> Capital | AntiFrigate </CategoryMask>
-                <Icon_Name>UEAW_BUTTON_ISD_CLASS_1.TGA</Icon_Name>
+                <Icon_Name>UEAW_BUTTON_ISD_CLASS_2.TGA</Icon_Name>
                 <GUI_Distance>2300</GUI_Distance>
                 <GUI_Offset>0 0 0</GUI_Offset>
                 <GUI_Velocity>45</GUI_Velocity>
@@ -3435,9 +3427,9 @@
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
         </SpaceUnit>
 
-        <SpaceUnit Name="E_ISDI_DEATH_CLONE">
+        <SpaceUnit Name="E_ISDII_DEATH_CLONE">
                 <Text_ID>TEXT_UNIT_STAR_DESTROYER</Text_ID>
-                <Space_Model_Name>VCBa_ISDI_D.ALO</Space_Model_Name>
+                <Space_Model_Name>VCBa_ISDII_D.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Scale_Factor>1</Scale_Factor>
                 <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>

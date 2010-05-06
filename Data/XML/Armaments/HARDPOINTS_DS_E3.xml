@@ -5796,17 +5796,346 @@
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Is_Turret>Yes</Is_Turret>
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>TURRET01</Turret_Bone_Name>
+            <Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
             <Barrel_Bone_Name>BARRELS_01</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_06">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_02</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_02_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET02_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET02.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_02_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_02_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_02</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_07">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_03</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_03_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET03_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET03.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_03_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_03_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_03</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_08">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_04</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_04_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET04_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET04.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_04_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_04_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_04</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_04</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_09">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_05</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_05_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET05_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET05.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_05_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_05_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_05</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_05</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_10">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_06</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_06_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET06_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET06.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_06_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_06_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_06</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_06</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_11">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_07</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_07_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET07_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET07.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_07_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_07_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_07</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_07</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2800.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_HTL_12">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>250.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_TURRET_ATTACH_08</Attachment_Bone>
+            <Collision_Mesh>HP_TURRET_ATTACH_08_COLL</Collision_Mesh>
+            <Damage_Decal>TURRET08_BLAST</Damage_Decal>
+            <Model_To_Attach>RVBa_ISDII_TURRET08.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>TURRET_08_FB06</Fire_Bone_A>
+            <Fire_Bone_B>TURRET_087_FB02</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>90.0, 0.0, 90.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>3.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>TURRET_08</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS_08</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Green_Heavy_Quad</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
@@ -5823,8 +6152,63 @@
     </HardPoint>
 
 
+    <HardPoint Name="HP_E_ISDII_E3_SHIELD">
+                        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+            <Health>500.0</Health>
 
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
+            <Attachment_Bone>HP_SHIELD</Attachment_Bone>
+            <Collision_Mesh>HP_SHIELD_COLL</Collision_Mesh>
+            <Damage_Particles>HP_SHIELD_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_ENGINE">
+                        <Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>600.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
+            <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>ENGINES</Engine_Particles>
+    </HardPoint>
+
+        <HardPoint Name="HP_E_ISDII_E3_HANGAR">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Attachment_Bone>HP_SPAWN_00</Attachment_Bone>
+                <Collision_Mesh>HP_SPAWN_00_COLL</Collision_Mesh>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+                <Health>250.0</Health>
+                <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+        </HardPoint>
+
+    <HardPoint Name="HP_E_ISDII_E3_TRACTOR">
+                <Type> HARD_POINT_TRACTOR_BEAM </Type>
+                <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>200.0</Health>
+
+                <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
+                <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
+                <Damage_Particles>HP_TRACTOR_EMITDAMAGE</Damage_Particles>
+
+                <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+        </HardPoint>
 
 
 <!-- EXECUTOR SUPER STAR DESTROYER HARD POINTS -->
