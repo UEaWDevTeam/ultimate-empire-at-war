@@ -1047,7 +1047,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>UEAW_HOSPITAL_NEB-B_HP00_B-L.alo</Model_To_Attach>
@@ -1087,7 +1087,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>UEAW_HOSPITAL_NEB-B_HP00_B-R.alo</Model_To_Attach>
@@ -1127,7 +1127,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>UEAW_HOSPITAL_NEB-B_HP00_B-L.alo</Model_To_Attach>
@@ -1167,7 +1167,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
             <Health>260.0</Health>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>UEAW_HOSPITAL_NEB-B_HP00_B-R.alo</Model_To_Attach>
@@ -5572,17 +5572,17 @@
 
         <!-- Rebel Space Station Level 1 Hardpoints -->
 
-    <HardPoint Name="HP_Rebel_Station_One_CCM">
+    <HardPoint Name="HP_RA_STARBASE_1_APHCM">
                 <Type> HARD_POINT_WEAPON_MISSILE </Type>
                     <Is_Targetable>Yes</Is_Targetable>
                     <Is_Destroyable>Yes</Is_Destroyable>
-                    <Tooltip_Text>UEAW_STARBASE_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+                    <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
 <!--   UEAW, taken out to have the starbase more powerfull, Fynbos <Health>1000.0</Health> -->
                     <Health>1000.0</Health>
                     <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
                     <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
                     <Model_To_Attach>RB_Station_01_HP01_CCM.alo</Model_To_Attach>
@@ -5595,7 +5595,7 @@
                     <Fire_Bone_B>FP01_CCM_01</Fire_Bone_B>
                     <Fire_Cone_Width>180.0</Fire_Cone_Width>
                     <Fire_Cone_Height>180.0</Fire_Cone_Height>
-                    <Fire_Projectile_Type>UEAW_Proj_Starbase_Concussion_Missile</Fire_Projectile_Type>
+                    <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
                     <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
                     <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
                     <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -5604,16 +5604,16 @@
                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_One_LC">
+    <HardPoint Name="HP_RA_STARBASE_1_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_01_HP01_LC.alo</Model_To_Attach>
@@ -5621,13 +5621,12 @@
             <Collision_Mesh>HP01_LC_COLL</Collision_Mesh>
             <Damage_Decal>HP01_LC_BLAST</Damage_Decal>
             <Damage_Particles>HP01_LC_EMITDAMAGE</Damage_Particles>
-
-                        <Damage_Type> Damage_Station_Laser </Damage_Type>
+			
             <Fire_Bone_A>FP01_LC_00</Fire_Bone_A>
             <Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5636,26 +5635,26 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 14.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_One_TBL">
+    <HardPoint Name="HP_RA_STARBASE_1_HTL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_01_HP01_TBL.alo</Model_To_Attach>
@@ -5666,12 +5665,11 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_One_TBL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
             <Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
             <Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5683,14 +5681,14 @@
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_One_ShieldGen">
+    <HardPoint Name="HP_RA_STARBASE_1_SHIELD">
                         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5699,7 +5697,7 @@
             <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
                         <Model_To_Attach>RB_Station_01_HP01_SHG.alo</Model_To_Attach>
@@ -5712,7 +5710,7 @@
             <Damage_Particles>HP01_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-        <HardPoint Name="HP_Rebel_Station_One_Fighter_Bay">
+        <HardPoint Name="HP_RA_STARBASE_1_HANGAR">
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
@@ -5721,7 +5719,7 @@
                 <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>1000.0</Health>
-                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
         <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
@@ -5729,7 +5727,7 @@
 
         </HardPoint>
 
-        <HardPoint Name="HP_Rebel_Station_One_Supply_Dock">
+        <HardPoint Name="HP_RA_STARBASE_1_SUPPLY">
                 <Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
                 <Special_Ability_Name>R_Supply_Dock_Income_Bonus</Special_Ability_Name>
                 <Is_Targetable>Yes</Is_Targetable>
@@ -5744,11 +5742,11 @@
                 <Damage_Particles>HP01_SupD_EMITDAMAGE</Damage_Particles>
 
                 <Health>1000.0</Health>
-                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         </HardPoint>
 
-        <HardPoint Name="HP_Rebel_Station_One_Supply_Dock_Dummy">
+        <HardPoint Name="HP_RA_STARBASE_1_SUPPLY_DUMMY">
                 <Type> HARD_POINT_DUMMY_ART </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
@@ -5759,7 +5757,7 @@
         </HardPoint>
 
 
-    <HardPoint Name="HP_Rebel_Station_One_Comm_Array">
+    <HardPoint Name="HP_RA_STARBASE_1_COMM_ARRAY">
                         <Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
                         <Special_Ability_Name>R_Comm_Array_Enable_Radar</Special_Ability_Name>
                         <Is_Targetable>Yes</Is_Targetable>
@@ -5779,37 +5777,42 @@
                         <Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
 
                         <Health>1000.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
      </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_One_Comm_Array_Dummy">
-                        <Type>HARD_POINT_DUMMY_ART</Type>
-                        <Is_Targetable>No</Is_Targetable>
-                        <Is_Destroyable>No</Is_Destroyable>
-                        <Model_To_Attach>RB_Station_01_HP01_CA.alo</Model_To_Attach>
-                        <Attachment_Bone>HP01_CA_BONE</Attachment_Bone>
-                        <Collision_Mesh>HP01_CA_COLL</Collision_Mesh>
-                        <Damage_Decal>HP01_CA_BLAST</Damage_Decal>
-                        <Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
+    <HardPoint Name="HP_RA_STARBASE_1_TRACTOR">
+		<Type> HARD_POINT_TRACTOR_BEAM </Type>
+        <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>500.0</Health>
+		<Model_To_Attach>RB_Station_01_HP01_CA.alo</Model_To_Attach>
+		<Attachment_Bone>HP01_CA_BONE</Attachment_Bone>
+        <Collision_Mesh>HP01_CA_COLL</Collision_Mesh>
+        <Damage_Decal>HP01_CA_BLAST</Damage_Decal>
+        <Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
+
+                <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>  
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>          
      </HardPoint>
 
 
 <!-- Rebel Space Station Level 2 Hardpoints - use all level 1 hardpoints plus these -->
 
-    <HardPoint Name="HP_Rebel_Station_Two_LC">
+    <HardPoint Name="HP_RA_STARBASE_2_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>UEAW_RB_Station_02_HP02_LC.alo</Model_To_Attach>
+            <Model_To_Attach>RB_Station_02_HP02_LC.alo</Model_To_Attach>
             <Attachment_Bone>HP02_LC_BONE</Attachment_Bone>
             <Collision_Mesh>HP02_LC_COLL</Collision_Mesh>
             <Damage_Decal>HP02_LC_BLAST</Damage_Decal>
@@ -5817,7 +5820,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Two_Weapon_LC </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Laser </Damage_Type>
+        
             <Fire_Bone_A>FP02_LC_00</Fire_Bone_A>
             <Fire_Bone_B>FP02_LC_01</Fire_Bone_B>
             <!-- Only Fire Bones A and B are supported, there is no C and D.
@@ -5825,7 +5828,7 @@
             <Fire_Bone_D>FP02_LC_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5834,29 +5837,29 @@
                         <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 14.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Two_PRT">
+    <HardPoint Name="HP_RA_STARBASE_2_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>UEAW_RB_Station_02_HP02_PRT.alo</Model_To_Attach>
+            <Model_To_Attach>RB_Station_02_HP02_PRT.alo</Model_To_Attach>
             <Attachment_Bone>HP02_PRT_BONE</Attachment_Bone>
             <Collision_Mesh>HP02_PRT_COLL</Collision_Mesh>
             <Damage_Decal>HP02_PRT_BLAST</Damage_Decal>
@@ -5866,7 +5869,7 @@
             <Fire_Bone_B>FP02_PRT_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -5879,16 +5882,16 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Two_TBL">
+    <HardPoint Name="HP_RA_STARBASE_2_HTL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_02_HP02_TBL.alo</Model_To_Attach>
@@ -5899,7 +5902,6 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Two_Weapon_TBL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
             <Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
             <Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
             <!-- Only Fire Bones A and B are supported, there is no C and D.
@@ -5907,7 +5909,7 @@
             <Fire_Bone_D>FP02_TBL_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5919,7 +5921,7 @@
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
@@ -5929,16 +5931,16 @@
 
  <!-- Rebel Space Station Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
 
-    <HardPoint Name="HP_Rebel_Station_Three_CCM">
+    <HardPoint Name="HP_RA_STARBASE_3_APHCM">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_03_HP03_CCM.alo</Model_To_Attach>
@@ -5951,7 +5953,7 @@
             <Fire_Bone_B>FP03_CCM_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Starbase_Concussion_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -5962,16 +5964,16 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Three_IC">
+    <HardPoint Name="HP_RA_STARBASE_3_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_IONCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_03_HP03_IC.alo</Model_To_Attach>
@@ -5986,7 +5988,7 @@
             <Fire_Bone_B>FP03_IC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ion_Cannon_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -5995,26 +5997,26 @@
                         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 65.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Three_PRT">
+    <HardPoint Name="HP_RA_STARBASE_3_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_03_HP03_PRT.alo</Model_To_Attach>
@@ -6029,7 +6031,7 @@
             <Fire_Bone_B>FP03_PRT_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -6044,16 +6046,16 @@
 
  <!-- Rebel Space Station Level 4 Hardpoints - use all level 1-3 hardpoints plus these -->
 
-    <HardPoint Name="HP_Rebel_Station_Four_IC">
+    <HardPoint Name="HP_RA_STARBASE_4_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_IONCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_04_HP04_IC.alo</Model_To_Attach>
@@ -6068,7 +6070,7 @@
             <Fire_Bone_B>FP04_IC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ion_Cannon_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -6076,27 +6078,26 @@
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+						<Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 65.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Four_LC">
+    <HardPoint Name="HP_RA_STARBASE_4_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_LASERCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_04_HP04_LC.alo</Model_To_Attach>
@@ -6107,7 +6108,6 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Four_Weapon_LC </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Laser </Damage_Type>
             <Fire_Bone_A>FP04_LC_00</Fire_Bone_A>
             <Fire_Bone_B>FP04_LC_01</Fire_Bone_B>
             <!-- Only Fire Bones A and B are supported, there is no C and D.
@@ -6115,7 +6115,7 @@
             <Fire_Bone_D>FP04_LC_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Large_Laser_Cannon_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -6124,26 +6124,25 @@
                         <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 40.0 </Fire_Inaccuracy_Distance>
-
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 14.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Four_TBL">
+    <HardPoint Name="HP_RA_STARBASE_4_HTL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_04_HP04_TBL.alo</Model_To_Attach>
@@ -6154,12 +6153,12 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Four_Weapon_TBL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
+
             <Fire_Bone_A>FP04_TBL_00</Fire_Bone_A>
             <Fire_Bone_B>FP04_TBL_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -6170,14 +6169,14 @@
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Four_ShieldGen">
+    <HardPoint Name="HP_RA_STARBASE_4_SHIELD">
                         <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6186,7 +6185,7 @@
             <Repair_Cost_Per_Frame>1.7</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_04_HP04_SHG.alo</Model_To_Attach>
@@ -6201,16 +6200,16 @@
 
  <!-- Rebel Space Station Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
 
-    <HardPoint Name="HP_Rebel_Station_Five_CCM">
+    <HardPoint Name="HP_RA_STARBASE_5_APHCM">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_05_HP05_CCM.alo</Model_To_Attach>
@@ -6225,7 +6224,7 @@
             <Fire_Bone_B>FP05_CCM_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Starbase_Concussion_Missile</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Conc_Missile_AP_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -6235,16 +6234,16 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Five_IC">
+    <HardPoint Name="HP_RA_STARBASE_5_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_IONCANNON</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_05_HP05_IC.alo</Model_To_Attach>
@@ -6259,7 +6258,7 @@
             <Fire_Bone_B>FP05_IC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Ion_Cannon_Large</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Ion_Cannon_E3_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -6267,26 +6266,26 @@
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 65.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Five_PRT">
+    <HardPoint Name="HP_RA_STARBASE_5_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TORPEDOES</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_05_HP05_PRT.alo</Model_To_Attach>
@@ -6301,7 +6300,7 @@
             <Fire_Bone_B>FP05_PRT_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -6313,16 +6312,16 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Five_TBL">
+    <HardPoint Name="HP_RA_STARBASE_5_HTL01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_05_HP05_TBL.alo</Model_To_Attach>
@@ -6333,12 +6332,11 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Five_Weapon_TBL </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
             <Fire_Bone_A>FP05_TBL_00</Fire_Bone_A>
             <Fire_Bone_B>FP05_TBL_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -6349,23 +6347,24 @@
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
+
     </HardPoint>
 
-    <HardPoint Name="HP_Rebel_Station_Five_TBL2">
+    <HardPoint Name="HP_RA_STARBASE_5_HTL02">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>UEAW_STARBASE_WEAPON_TURBOLASER</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_A </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RB_Station_05_HP05_TBL2.alo</Model_To_Attach>
@@ -6376,7 +6375,6 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Rebel_Station_Five_Weapon_TBL2 </Death_Breakoff_Prop>
 
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
             <Fire_Bone_A>FP05_TBL2_00</Fire_Bone_A>
             <Fire_Bone_B>FP05_TBL2_01</Fire_Bone_B>
             <!-- Only Fire Bones A and B are supported, there is no C and D.
@@ -6384,7 +6382,7 @@
             <Fire_Bone_D>FP05_TBL2_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>UEAW_Proj_Ship_Turbolaser_Red</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -6395,7 +6393,7 @@
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
