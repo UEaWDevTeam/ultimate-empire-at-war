@@ -145,7 +145,7 @@
               <!-- Primary ability -->
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <Mod_Multiplier />
                     <GUI_Activated_Ability_Name> RA_STARBASE_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>25</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -160,8 +160,8 @@
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Slave_1</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -327,7 +327,7 @@
               <!-- Primary ability -->
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <Mod_Multiplier />
                     <GUI_Activated_Ability_Name> RA_STARBASE_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>25</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -342,16 +342,15 @@
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Slave_1</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
                     <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
-
-           </Abilities>
+			 </Abilities>
         </StarBase>
 
         <StarBase Name="RA_STARBASE_2_Death_Clone">
@@ -519,7 +518,7 @@
               <!-- Primary ability -->
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <Mod_Multiplier />
                     <GUI_Activated_Ability_Name> RA_STARBASE_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>25</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -534,8 +533,8 @@
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Slave_1</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -727,7 +726,7 @@
               <!-- Primary ability -->
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <Mod_Multiplier />
                     <GUI_Activated_Ability_Name> RA_STARBASE_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>25</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -742,8 +741,8 @@
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Slave_1</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -859,7 +858,6 @@
                         HP_RA_STARBASE_1_TRACTOR,
                         HP_RA_STARBASE_2_HL,
                         HP_RA_STARBASE_2_APHPT,
-                        HP_RA_STARBASE_2_HTL,
                         HP_RA_STARBASE_3_APHCM,
                         HP_RA_STARBASE_3_HI,
                         HP_RA_STARBASE_3_APHPT,
@@ -934,11 +932,12 @@
                 <Death_Clone>Damage_Normal, ReA_STARBASE_5_Death_Clone</Death_Clone>
                 <Additional_Population_Capacity>17</Additional_Population_Capacity>
 
-                <Unit_Abilities_Data SubObjectList="Yes">
+                
+             <Unit_Abilities_Data SubObjectList="Yes">
               <!-- Primary ability -->
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <Mod_Multiplier />
                     <GUI_Activated_Ability_Name> RA_STARBASE_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>25</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -953,8 +952,8 @@
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Slave_1</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -1354,7 +1353,6 @@
                          HP_RA_STARBASE_1_COMM_ARRAY
                          HP_RA_STARBASE_2_HL,
                          HP_RA_STARBASE_2_APHPT,
-                         HP_RA_STARBASE_2_HTL,
                          HP_RA_STARBASE_3_APHCM,
                          HP_RA_STARBASE_3_HI,
                          HP_RA_STARBASE_3_APHPT,
