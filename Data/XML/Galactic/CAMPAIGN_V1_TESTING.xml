@@ -286,9 +286,9 @@
                 <!-- Starting Space Units -->
                 <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I  </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_II  </Starting_Forces>
+                <Starting_Forces>Empire, Coruscant, E_ISDI </Starting_Forces>
+                <Starting_Forces>Empire, Coruscant, E_ISDII </Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
@@ -519,6 +519,210 @@
                 <Starting_Forces>Empire, Coruscant, E_ISDI</Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_ISDI</Starting_Forces>
                 <Starting_Forces>Empire, Coruscant, E_ISDII</Starting_Forces>
+        <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
+
+        <!--Duplicate the set of tags below for each planet-->
+
+                <!-- Starting Structures -->
+                <Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+
+                <!-- Starting Land Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Space Units -->
+                <Starting_Forces> </Starting_Forces>
+
+        </Campaign>
+
+        <Campaign Name="Version1_Test_Campaign_New_Republic"> <!--GC name in XML-->
+
+                <Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
+
+                <Text_ID>TEXT_V1_TESTING</Text_ID> <!--GC name in game-->
+                <Description_Text>TEXT_V1_TESTING_DESCRIPTION</Description_Text> <!-- GC description in game -->
+
+                <Camera_Shift_X> 0.0 </Camera_Shift_X> <!--initial camera pos-->
+                <Camera_Shift_Y> 0.0 </Camera_Shift_Y> <!--initial camera pos-->
+                <Camera_Distance> 1200.0 </Camera_Distance> <!--camera zoom (1200 is standard on all GCs)-->
+
+                <Locations>
+                                Galaxy_Core_Art_Model,
+                                Abregado_Rae,
+                                AetenII,
+                                Alderaan,
+                                AlzocIII,
+                                Anaxes,
+                                Atzerri,
+                                Bastion,
+                                Bespin,
+                                Bestine,
+                                Bonadan,
+                                Bothawui,
+                                Brentaal,
+                                Byss,
+                                Carida,
+                                Corellia,
+                                Corulag,
+                                Coruscant,
+                                Dagobah,
+                                Dantooine,
+                                Dathomir,
+                                Dxun,
+                                Ebaq9,
+                                Endor,
+                                Eriadu,
+                                Felucia,
+                                Fondor,
+                                Fresia,
+                                Geonosis,
+                                Hapes,
+                                Honoghr,
+                                Hoth,
+                                Hypori,
+                                Ilum,
+                                Jabiim,
+                                Kamino,
+                                Kashyyyk,
+                                Kessel,
+                                Korriban,
+                                Kuat,
+                                Lok,
+                                Manaan,
+                                Mandalore,
+                                Mechis3,
+                                MonCalimari,
+                                Mustafar,
+                                Muunilinst,
+                                Myrkr,
+                                Naboo,
+                                NalHutta,
+                                Onderon,
+                                Ord_Mantell,
+                                Polus,
+                                Praesitlyn,
+                                Ryloth,
+                                Saleucami,
+                                Shola,
+                                Sluis_Van,
+                                Sullust,
+                                Taris,
+                                Tatooine,
+                                The_Maw,
+                                Thyferra,
+                                Trandosha,
+                                Utapau,
+                                VergessoAsteroids,
+                                Wayland,
+                                Yaga_Minor,
+                                Yavin
+                </Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+                <Trade_Routes>
+                Abregado_Rae_Fondor,
+                Fondor_Thyferra,
+                Thyferra_Sullust,
+                Sullust_Eriadu,
+                Eriadu_Sluis_Van,
+                Coruscant_Anaxes,
+                Anaxes_Corulag,
+                Corulag_Brentaal,
+                Bonadan_Taris,
+                Taris_Brentaal,
+                Coruscant_Corellia,
+                Corellia_Ryloth,
+                Corellia_Bestine,
+                Bestine_Mechis3,
+                Mechis3_Bespin,
+                Eriadu_Bespin,
+                Kessel_Jabiim,
+                Dantooine_Bastion,
+                Bastion_Muunilinst,
+                Muunlinst_Yaga_Minor,
+                Bothawui_Kashyyyk,
+                Byss_Coruscant,
+                Fondor_Atzerri,
+                NalHutta_Kashyyyk
+                AetenII_Ilum,
+                Endor_Bespin,
+                Shola_Hypori,
+                Yaga_Minor_Ord_Mantell,
+                Brentaal_Alderaan
+
+                </Trade_Routes> <!--hyperspace lanes, comma separated-->
+
+                <Rebel_Story_Name>Story\UEAW_Story_Sandbox_GC_4_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+
+        <Empire_Story_Name>Story\UEAW_Story_Sandbox_GC_4_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+
+                <Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
+
+                <!-- Win Conditions -->
+
+                <Good_Victory_Conditions>
+                                Galactic_Super_Weapon_Destruction,
+                                Galactic_All_Planets_Controlled,
+                                Galactic_Opponent_Controls_No_Planets
+                </Good_Victory_Conditions> <!--Good side win conditions, self explanatory. These are some examples-->
+
+                <Evil_Victory_Conditions>
+                                Galactic_All_Planets_Controlled,
+                                Galactic_Opponent_Controls_No_Planets,
+                                Galactic_Super_Weapon_Destroys_Last_Enemy_Planet
+                </Evil_Victory_Conditions> <!--Evil side win conditions, self explanatory. These are some examples-->
+
+                <Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
+
+                <Home_Location>New_Republic, Alderaan </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Imperial_Remnant, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+
+                <Starting_Active_Player>New_Republic </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+
+                <AI_Player_Control>Imperial_Remnant, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>New_Republic, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
+
+                <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
+
+
+                <Show_Completed_Tab>False</Show_Completed_Tab> <!--True/False. Controls display of completed missions tab in the mission holocron dialogue. Set to 'False' in FoC when the extra mini missions in GC were removed. -->
+
+        <!-- Starting Objects Faction 1-->
+
+                <Starting_Credits> New_Republic, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>New_Republic, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>New_Republic, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+        <!--Duplicate the set of tags below for each planet-->
+
+                <!-- Starting Structures -->
+                <Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+
+                <!-- Starting Land Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Space Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Hero Units -->
+                <Starting_Forces> </Starting_Forces>
+
+
+
+
+
+        <!-- Starting Objects Faction 2-->
+
+                <Starting_Credits> Imperial_Remnant, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Imperial_Remnant, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Imperial_Remnant, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+        <!--Duplicate the set of tags below for each planet-->
+                <Starting_Forces>New_Republic, Alderaan, NR_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>New_Republic, Alderaan, NR_A-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>New_Republic, Alderaan, NR_Y-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>New_Republic, Alderaan, NR_B-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>New_Republic, Alderaan, NR_E-WING_SQUADRON </Starting_Forces> 
+                <Starting_Forces>Imperial_Remnant, Coruscant, IR_TARTAN_CRUISER</Starting_Forces>
         <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
 
         <!--Duplicate the set of tags below for each planet-->
