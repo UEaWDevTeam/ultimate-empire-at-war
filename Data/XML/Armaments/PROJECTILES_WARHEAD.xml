@@ -985,6 +985,20 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+	<!-- Special case Plasma Torpedo for the K-Wing -->
+	
+	<Projectile Name="Proj_Plasma_Torpedo_E4">
+		<Variant_Of_Existing_Type>Proj_AP_Heavy_Proton_Torp_E4</Variant_Of_Existing_Type>
+		<Space_Model_Name>P_Missile_Engine_1.alo</Space_Model_Name>
+		<Max_Speed>8.0</Max_Speed>
+		<Projectile_Damage>75</Projectile_Damage>
+		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+		<Projectile_Max_Flight_Distance>2500</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Absorbed_By_Shields_Particle>PS_Ion_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>500</AI_Combat_Power>
+	</Projectile>
+
 <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 <!-- oooooooooooo Diamond-Boron Missiles oooooooooooooooooo -->
 <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
