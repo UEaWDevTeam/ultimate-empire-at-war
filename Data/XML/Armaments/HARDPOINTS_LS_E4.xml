@@ -450,6 +450,151 @@
 
         </HardPoint>
 
+<!--K-Wing hardpoints-->
+
+        <HardPoint Name="HP_K-WING_E4_L">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEC_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEC_00</Fire_Bone_B>
+                <Fire_Cone_Width>90.0</Fire_Cone_Width>
+                <Fire_Cone_Height>60.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>500.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_K-WING_E4_LTL">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLED_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLED_02</Fire_Bone_B>
+                <Fire_Cone_Width>90.0</Fire_Cone_Width>
+                <Fire_Cone_Height>60.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Light</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.3</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.3</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>4</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>2.2</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>700.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_K-WING_E4_PPT_01">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEE_01</Fire_Bone_B>
+            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Plasma_Torpedo_E4</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1000.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+
+        </HardPoint>
+
+        <HardPoint Name="HP_K-WING_E4_PPT_02">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEB_02</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEE_00</Fire_Bone_B>
+            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Plasma_Torpedo_E4</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1000.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+
+        </HardPoint>
+
+        <HardPoint Name="HP_K-WING_E4_APPT_01">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_AP_Proton_Torp_E4</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+
+        </HardPoint>
+
+        <HardPoint Name="HP_K-WING_E4_APPT_02">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
+            <Fire_Cone_Width>60.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_AP_Proton_Torp_E4</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>700.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
+
+        </HardPoint>
 
 <!-- Hard points for the Corellian Corvette -->
 
