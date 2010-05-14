@@ -414,12 +414,91 @@
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
         </HardPoint>
 
+<!--TIE Phantom hardpoints-->
+        <HardPoint Name="HP_TIE_PHANTOM_E4_L_01">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
+                <Fire_Cone_Width>20.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E4_Green_Standard</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>400.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_TIE_PHANTOM_E4_L_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>20.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E4_Green_Standard</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>400.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+
+        <HardPoint Name="HP_TIE_PHANTOM_E4_L_03">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
+                <Fire_Cone_Width>20.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E4_Green_Standard</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>1</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.0</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>400.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
 
 
 
