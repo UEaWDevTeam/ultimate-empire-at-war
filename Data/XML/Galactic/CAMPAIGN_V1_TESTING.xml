@@ -9,7 +9,7 @@
 
 <!-- Repeat this entire section for each faction playable in the GC, swapping AI control and planets for each -->
 
-        <Campaign Name="Version1_Test_Campaign_Rebel"> <!--GC name in XML-->
+        <Campaign Name="Version1_Test_Campaign_Light_Side"> <!--GC name in XML-->
 
                 <Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
 
@@ -148,13 +148,13 @@
 
                 <Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
 
-                <Home_Location>Rebel, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
-                <Home_Location>Empire, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Light_Side, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Dark_Side, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
 
-                <Starting_Active_Player>Rebel </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+                <Starting_Active_Player>Light_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
 
-                <AI_Player_Control>Empire, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
-                <AI_Player_Control>Rebel, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Dark_Side, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>Light_Side, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
                 <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
 
                 <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
@@ -164,9 +164,9 @@
 
         <!-- Starting Objects Faction 1-->
 
-                <Starting_Credits> Rebel, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Rebel,5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Light_Side, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Light_Side,5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet IGNORED FOR TEST GC-->
 
@@ -177,87 +177,87 @@
                 <Starting_Forces> </Starting_Forces>
 
                 <!-- Starting Space Units -->
-                <Starting_Forces>Rebel, Abregado_Rae, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, AetenII, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_DREADNAUGHT  </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_ASSAULT_FRIGATE_II </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_CORELLIAN_CORVETTE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_EF76_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MARAUDER </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_A-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_Y-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_B-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MC80_HOMEONETYPE </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MC80_LIBERTYTYPE</Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, Han_Solo_Team</Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_DREADNAUGHT_REFIT</Starting_Forces>
-                <Starting_Forces>Rebel, AlzocIII, RA_ASSAULT_FRIGATE_II </Starting_Forces>
-                <Starting_Forces>Rebel, Atzerri, RA_ASSAULT_FRIGATE_II</Starting_Forces>
-                <Starting_Forces>Rebel, Bastion, RAj_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Bespin, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Bestine, RA_EF76_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Bonadan, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Bothawui, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Byss, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Carida, RA_EF76_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Corellia, RA_CORELLIAN_GUNBOAT</Starting_Forces>
-                <Starting_Forces>Rebel, Corulag, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Dagobah, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Dantooine, RAj_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Dathomir, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Dxun, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Ebaq9, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Endor, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Eriadu, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Felucia, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Fondor, RAj_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Fresia, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Geonosis, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Hapes, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Honoghr, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Hoth, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Hypori, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Ilum, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Jabiim, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Kamino, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Kashyyyk, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Kessel, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Korriban, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Kuat, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, Lok, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Manaan, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Mandalore, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Mechis3, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, MonCalimari, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Mustafar, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Muunilinst, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Myrkr, RAj_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Naboo, RA_CORELLIAN_GUNBOAT </Starting_Forces>
-                <Starting_Forces>Rebel, NalHutta, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Onderon, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Polus, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Praesitlyn, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Ryloth, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Saleucami, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Shola, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Sluis_Van, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Sullust, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Taris, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Tatooine, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, The_Maw, RA_MARAUDER_DB </Starting_Forces>
-                <Starting_Forces>Rebel, Thyferra, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Trandosha, RAj_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Utapau, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, VergessoAsteroids, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Wayland, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Yaga_Minor, RA_MC30_FRIGATE </Starting_Forces>
-                <Starting_Forces>Rebel, Yavin, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Abregado_Rae, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, AetenII, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_DREADNAUGHT  </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_II </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_CORVETTE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_EF76_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MARAUDER </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_A-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_Y-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_B-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC80_HOMEONETYPE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC80_LIBERTYTYPE</Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, Han_Solo_Team</Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_DREADNAUGHT_REFIT</Starting_Forces>
+                <Starting_Forces>Light_Side, AlzocIII, RA_ASSAULT_FRIGATE_II </Starting_Forces>
+                <Starting_Forces>Light_Side, Atzerri, RA_ASSAULT_FRIGATE_II</Starting_Forces>
+                <Starting_Forces>Light_Side, Bastion, RAj_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Bespin, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Bestine, RA_EF76_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Bonadan, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Bothawui, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Byss, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Carida, RA_EF76_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Corellia, RA_CORELLIAN_GUNBOAT</Starting_Forces>
+                <Starting_Forces>Light_Side, Corulag, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Dagobah, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Dantooine, RAj_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Dathomir, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Dxun, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Ebaq9, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Endor, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Eriadu, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Felucia, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Fondor, RAj_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Fresia, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Geonosis, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Hapes, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Honoghr, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Hoth, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Hypori, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Ilum, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Jabiim, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Kamino, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Kashyyyk, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Kessel, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Korriban, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Kuat, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Lok, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Manaan, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Mandalore, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Mechis3, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, MonCalimari, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Mustafar, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Muunilinst, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Myrkr, RAj_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Naboo, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, NalHutta, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Onderon, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Polus, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Praesitlyn, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Ryloth, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Saleucami, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Shola, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Sluis_Van, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Sullust, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Taris, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Tatooine, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, The_Maw, RA_MARAUDER_DB </Starting_Forces>
+                <Starting_Forces>Light_Side, Thyferra, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Trandosha, RAj_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Utapau, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, VergessoAsteroids, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Wayland, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Yaga_Minor, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Yavin, RA_MARAUDER_DB </Starting_Forces>
 
 
 
@@ -271,9 +271,9 @@
 
         <!-- Starting Objects Faction 2-->
 
-                <Starting_Credits> Empire, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>Empire, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Empire, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Dark_Side, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Dark_Side, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
 
@@ -284,15 +284,15 @@
                 <Starting_Forces> </Starting_Forces>
 
                 <!-- Starting Space Units -->
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_II  </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ISDI </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ISDII </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_II  </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ISDI </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ISDII </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER </Starting_Forces>
 
 
                 <!-- Starting Hero Units -->
@@ -313,7 +313,7 @@
 
         </Campaign>
 
-        <Campaign Name="Version1_Test_Campaign_Empire"> <!--GC name in XML-->
+        <Campaign Name="Version1_Test_Campaign_Dark_Side"> <!--GC name in XML-->
 
                 <Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
 
@@ -451,13 +451,13 @@
 
                 <Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
 
-                <Home_Location>Rebel, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
-                <Home_Location>Empire, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Light_Side, Hoth </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Dark_Side, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
 
-                <Starting_Active_Player>Empire </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+                <Starting_Active_Player>Dark_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
 
-                <AI_Player_Control>Empire, SandboxHuman </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
-                <AI_Player_Control>Rebel, BasicRebel </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Dark_Side, SandboxHuman </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>Light_Side, BasicRebel </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
                 <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
 
                 <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
@@ -467,9 +467,9 @@
 
         <!-- Starting Objects Faction 1-->
 
-                <Starting_Credits> Rebel, 50000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>Rebel, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Rebel, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Light_Side, 50000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Light_Side, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
 
@@ -491,34 +491,34 @@
 
         <!-- Starting Objects Faction 2-->
 
-                <Starting_Credits> Empire, 5000000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>Empire, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Empire, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Dark_Side, 5000000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Dark_Side, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
-                <Starting_Forces>Rebel, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_DREADNAUGHT  </Starting_Forces>
-                <Starting_Forces>Rebel, Alderaan, RA_MC80_HOMEONETYPE </Starting_Forces>
-                                <Starting_Forces>Rebel, Alderaan, RA_STARBASE_1</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_VICTORY_I</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_VICTORY_II</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TARTAN_CRUISER</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_IPV_PATROL_CRAFT</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_TIE_DEFENDER_SQUADRON</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_XG_STAR_WING_SQUADRON</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_BROADSIDE</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_BROADSIDE_DB</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_II</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_DREADNAUGHT</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_DREADNAUGHT_REFIT</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ISDI</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ISDI</Starting_Forces>
-                <Starting_Forces>Empire, Coruscant, E_ISDII</Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_DREADNAUGHT  </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC80_HOMEONETYPE </Starting_Forces>
+                                <Starting_Forces>Light_Side, Alderaan, RA_STARBASE_1</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_I</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_VICTORY_I</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_VICTORY_II</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TARTAN_CRUISER</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_IPV_PATROL_CRAFT</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_TIE_DEFENDER_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_XG_STAR_WING_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_BROADSIDE</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_BROADSIDE_DB</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ACCLAMATOR_ASSAULT_FRIGATE_II</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_DREADNAUGHT</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_DREADNAUGHT_REFIT</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ISDI</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ISDI</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, E_ISDII</Starting_Forces>
         <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
 
         <!--Duplicate the set of tags below for each planet-->
@@ -534,7 +534,7 @@
 
         </Campaign>
 
-        <Campaign Name="Version1_Test_Campaign_New_Republic"> <!--GC name in XML-->
+        <Campaign Name="Version1_Test_Campaign_Light_Side"> <!--GC name in XML-->
 
                 <Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
 
@@ -672,13 +672,13 @@
 
                 <Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
 
-                <Home_Location>New_Republic, Alderaan </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
-                <Home_Location>Imperial_Remnant, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Light_Side, Alderaan </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Dark_Side, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
 
-                <Starting_Active_Player>New_Republic </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+                <Starting_Active_Player>Light_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
 
-                <AI_Player_Control>Imperial_Remnant, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
-                <AI_Player_Control>New_Republic, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Dark_Side, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>Light_Side, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
                 <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
 
                 <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
@@ -688,9 +688,9 @@
 
         <!-- Starting Objects Faction 1-->
 
-                <Starting_Credits> New_Republic, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>New_Republic, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>New_Republic, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Light_Side, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Light_Side, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
 
@@ -712,19 +712,19 @@
 
         <!-- Starting Objects Faction 2-->
 
-                <Starting_Credits> Imperial_Remnant, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
-                <Starting_Tech_Level>Imperial_Remnant, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Imperial_Remnant, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+                <Starting_Credits> Dark_Side, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Dark_Side, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. n 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
-                <Starting_Forces>New_Republic, Alderaan, NR_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_A-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_Y-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_B-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_E-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_K-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>New_Republic, Alderaan, NR_K-WING_ESCORT_SQUADRON </Starting_Forces>
-                <Starting_Forces>Imperial_Remnant, Coruscant, IR_TARTAN_CRUISER</Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_A-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_Y-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_B-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_E-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_K-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_K-WING_ESCORT_SQUADRON </Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TARTAN_CRUISER</Starting_Forces>
         <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
 
         <!--Duplicate the set of tags below for each planet-->
