@@ -23,7 +23,7 @@
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 10.0, 10.0, -1.1 </Planet_Icon_Offset>
 		<Is_Playable>true</Is_Playable>
-		<Primary_Enemy> Empire </Primary_Enemy>
+		<Primary_Enemy> Dark_Side </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
 		<Force_Alignment>Light</Force_Alignment>
@@ -114,7 +114,7 @@
 
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> MC80_LibertyType, Nebulon_B_Frigate, Alliance_Assault_Frigate, Home_One </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships> RA_MC80_LibertyType, RA_MC80_HOMEONETYPE, Home_One </Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Rebel_Bombardment_Ion_Cannon </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
@@ -130,7 +130,7 @@
 
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			Rebel_X-Wing_Squadron, Rebel_X-Wing_Squadron
+			RA_X-Wing_Squadron, RA_X-Wing_Squadron
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
@@ -219,17 +219,17 @@
 		<!-- ============================================= -->
 
 		<!-- Specific vs. Factions -->
-		<Music_Event_Tactical_Win_Vs_Faction> Empire,     Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
+		<Music_Event_Tactical_Win_Vs_Faction> Dark_Side,     Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction> Pirates,    Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 		
-		<Music_Event_Tactical_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
+		<Music_Event_Tactical_Lose_Vs_Faction> Dark_Side,     Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
 <!--		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,     Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction> -->
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,        Lose_To_Rebel_Event</Music_Event_Tactical_Lose_Vs_Faction>
 
-		<Music_Event_Strategic_Win_Vs_Faction> Empire,     Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
+		<Music_Event_Strategic_Win_Vs_Faction> Dark_Side,     Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction> Pirates,    Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 	
-		<Music_Event_Strategic_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
+		<Music_Event_Strategic_Lose_Vs_Faction> Dark_Side,     Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
 <!--		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction> -->
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,       Lose_To_Rebel_Event</Music_Event_Strategic_Lose_Vs_Faction>
 
@@ -742,7 +742,7 @@
 
 
 		<Allies />
-		<Enemies>Dark_Side, Pirates, Mandalorians, Hostile, Target, Sarlacc</Enemies>
+		<Enemies>Dark_Side, Pirates, Mandalorians, Hostile, Sarlacc</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -754,16 +754,7 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
-			Mon_Mothma_Team,
-			Droids_Team,
-			Han_Solo_Team,
-			Sundered_Heart,
-			Home_One,
-			Obi_Wan_Team,
-			Rogue_Squadron_Space,
-			Garm_Bel_Iblis_Team,
-			Luke_Skywalker_Jedi_Team,
-			Yoda_Team
+			
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_REBEL.TGA</Multiplayer_Map_Preview_Icon>
@@ -807,7 +798,7 @@
 		<Planet_Icon_Scale> 10.0 </Planet_Icon_Scale>
 		<Planet_Icon_Offset> 7.0, 10.0, -1.1 </Planet_Icon_Offset>
 		<Is_Playable>true</Is_Playable>
-		<Primary_Enemy> Rebel </Primary_Enemy>
+		<Primary_Enemy> Light_Side </Primary_Enemy>
 		<Hyperspace_Speed_Factor>0.07</Hyperspace_Speed_Factor>
 		<Is_Neutral> No </Is_Neutral>
 		<Force_Alignment>Dark</Force_Alignment>
@@ -892,7 +883,7 @@
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
 		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Star_Destroyer, Acclamator_Assault_Ship, Victory_Destroyer, Executor_Super_Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Required_Orbital_Ships> E_ISDI, E_ISDII, E_ACCLAMATOR_ASSAULT_FRIGATE_I, E_ACCLAMATOR_ASSAULT_FRIGATE_II, E_VICTORY_I, E_VICTOY_II, Executor_Super_Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer </Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
 		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
 		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
@@ -908,7 +899,7 @@
 		
 		<Space_Skirmish_Unit_Buy_Credits> 100000 </Space_Skirmish_Unit_Buy_Credits>
 		<Space_Skirmish_AI_Default_Forces> 
-			TIE_Interceptor_Squadron, TIE_Interceptor_Squadron
+			E_TIE_INTERCEPTOR_SQUADRON, E_TIE_INTERCEPTOR_SQUADRON
 		</Space_Skirmish_AI_Default_Forces>
 
 		<Land_Skirmish_Unit_Buy_Credits> 50000 </Land_Skirmish_Unit_Buy_Credits>
@@ -998,19 +989,19 @@
 		<!-- ============================================== -->
 
 		<!-- Specific vs. Factions -->
-		<Music_Event_Tactical_Win_Vs_Faction> Rebel,      Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
+		<Music_Event_Tactical_Win_Vs_Faction> Light_Side,      Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction> Pirates,    Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 
-		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Tactical_Lose_Vs_Faction>
+		<Music_Event_Tactical_Lose_Vs_Faction> Light_Side,      Lose_To_Rebel_Event </Music_Event_Tactical_Lose_Vs_Faction>
 <!--		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction> -->
-		<Music_Event_Tactical_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
+		<Music_Event_Tactical_Lose_Vs_Faction> Dark_Side,    Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
 
-		<Music_Event_Strategic_Win_Vs_Faction> Rebel,      Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
+		<Music_Event_Strategic_Win_Vs_Faction> Light_Side,      Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction> Pirates,    Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 		
-		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Strategic_Lose_Vs_Faction>
+		<Music_Event_Strategic_Lose_Vs_Faction> Light_Side,      Lose_To_Rebel_Event </Music_Event_Strategic_Lose_Vs_Faction>
 <!--		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction> -->
-		<Music_Event_Strategic_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Strategic_Lose_Vs_Faction>
+		<Music_Event_Strategic_Lose_Vs_Faction> Dark_Side,    Lose_To_Empire_Event </Music_Event_Strategic_Lose_Vs_Faction>
 
 
 		<!-- Generic -->
@@ -1496,7 +1487,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Light_Side, Pirates, Mandalorians, Hostile, Target, Sarlacc</Enemies>
+		<Enemies>Light_Side, Pirates, Mandalorians, Hostile, Sarlacc</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1508,11 +1499,7 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 		
 		<Multiplayer_Campaign_Heroes>
-			Grand_Moff_Tarkin_Team,
-			Emperor_Palpatine_Team,
-			Boba_Fett_Team,
-			General_Veers_Team,
-			Accuser_Star_Destroyer
+			
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_EMPIRE.TGA</Multiplayer_Map_Preview_Icon>
@@ -1573,7 +1560,7 @@
 
 		<Allies />
 		<Enemies>Empire, Rebel, Hostile, Sarlacc, Imperial_Remnant, Old_Republic,
-		Republic, Sith, CIS
+		Republic, Sith, CIS, Dark_Side, Light_Side
 		</Enemies>
 		<Easily_Bribed> Yes </Easily_Bribed>
 

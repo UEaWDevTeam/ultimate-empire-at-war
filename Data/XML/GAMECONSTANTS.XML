@@ -240,15 +240,15 @@
    <!-- Random story generation -->
    <Random_Story_Triggers>STORY_ENTER STORY_LAND_ON STORY_CONQUER STORY_CONSTRUCT STORY_CONSTRUCT_LEVEL STORY_DESTROY STORY_DESTROY_BASE STORY_DEPLOY STORY_MOVE STORY_ACCUMULATE STORY_DEFEAT_HERO STORY_WIN_BATTLES</Random_Story_Triggers>
    <Random_Story_Max_Triggers>3</Random_Story_Max_Triggers>
-   <Random_Story_Rebel_Construction>Corellian_Corvette</Random_Story_Rebel_Construction>
-   <Random_Story_Empire_Construction>Tartan_Patrol_Cruiser</Random_Story_Empire_Construction>
-   <Random_Story_Rebel_Destroy>Tartan_Patrol_Cruiser</Random_Story_Rebel_Destroy>
-   <Random_Story_Empire_Destroy>Corellian_Corvette</Random_Story_Empire_Destroy>
+   <Random_Story_Rebel_Construction>RA_Corellian_Corvette</Random_Story_Rebel_Construction>
+   <Random_Story_Empire_Construction>E_Tartan_Cruiser</Random_Story_Empire_Construction>
+   <Random_Story_Rebel_Destroy>E_Tartan_Cruiser</Random_Story_Rebel_Destroy>
+   <Random_Story_Empire_Destroy>RA_Corellian_Corvette</Random_Story_Empire_Destroy>
    <Random_Story_Rewards>BUILDABLE_UNIT UNIQUE_UNIT CREDITS</Random_Story_Rewards>
-   <Random_Story_Reward_Rebel_Buildable>MC80_LibertyType</Random_Story_Reward_Rebel_Buildable>
-   <Random_Story_Reward_Empire_Buildable>Star_Destroyer</Random_Story_Reward_Empire_Buildable>
-   <Random_Story_Reward_Rebel_Unit>MC80_LibertyType</Random_Story_Reward_Rebel_Unit>
-   <Random_Story_Reward_Empire_Unit>Star_Destroyer</Random_Story_Reward_Empire_Unit>
+   <Random_Story_Reward_Rebel_Buildable>RA_MC80_LibertyType</Random_Story_Reward_Rebel_Buildable>
+   <Random_Story_Reward_Empire_Buildable>E_ISDI</Random_Story_Reward_Empire_Buildable>
+   <Random_Story_Reward_Rebel_Unit>RA_MC80_LibertyType</Random_Story_Reward_Rebel_Unit>
+   <Random_Story_Reward_Empire_Unit>E_ISDI</Random_Story_Reward_Empire_Unit>
 
 
 	<!-- Tactical camera overrides -->
@@ -3167,7 +3167,7 @@ Fynbos
 
 	<!-- Preferred choice of pathfinder for invading. Non-hero units are always preferred -->
 	<Preferred_Pathfinder_Types>
-		Imperial_Stormtrooper_Squad,
+		<!-- Imperial_Stormtrooper_Squad,
 		Imperial_Light_Scout_Squad,
 		Imperial_Heavy_Scout_Squad,
 		Imperial_Anti_Infantry_Brigade,
@@ -3180,7 +3180,7 @@ Fynbos
 		Rebel_Light_Tank_Brigade,
 		Rebel_Heavy_Tank_Brigade,
 		Rebel_Artillery_Brigade,
-		Rebel_Speeder_Wing,
+		Rebel_Speeder_Wing, -->
 	</Preferred_Pathfinder_Types>
 
 <!--		Destroyer_Droid_Company, this went above just for reference -->
@@ -3212,39 +3212,35 @@ Fynbos
 	
 	<!-- Files for custom ship names -->
    <ShipNameTextFiles> 
-		MC80_LibertyType, 					Data\Calamari_Cruiser.txt,
-		MC80_HomeOneType, 					Data\Calamari_Cruiser.txt,
-		MC30_Frigate, 					Data\Star_Destroyer.txt,
-		Generic_Star_Destroyer, 					Data\Star_Destroyer.txt,
-		Star_Destroyer, 					Data\Star_Destroyer.txt,
-		Star_Destroyer_Tractor_Fighters, 					Data\Star_Destroyer.txt,
-		UEAW_CLASS2_ISD_GENERIC, 					Data\Imperial_Capital.txt,
-		Star_Destroyer_Class_II, 					Data\Imperial_Capital.txt,
-		Corellian_Corvette, 					Data\Corellian_Corvette.txt,
-		Corellian_Gunboat, 					Data\Corellian_Gunboat.txt,
-		Broadside_Class_Cruiser, 					Data\Broadside_Class_Cruiser.txt,
-		Marauder_Missile_Cruiser, 					Data\Marauder_Missile_Cruiser.txt,
-		Nebulon_B_Frigate, 					Data\Nebulon_B_Frigate.txt,
-		Nebulon_B_Frigate_Hospital, 					Data\Nebulon_B_Frigate.txt,
-		UEAW_Dreadnaught_Empire, 					Data\Imperial_Frigate.txt,
-		UEAW_Dreadnaught_Rebel, 					Data\Rebel_Frigate.txt,
-		UEAW_Dreadnaught_Empire_Carrier, 					Data\Imperial_Frigate.txt,
-		UEAW_Dreadnaught_Rebel_Carrier, 					Data\Rebel_Frigate.txt,
-		UEAW_Dreadnaught_Old_Rebel, 					Data\Rebel_Frigate.txt,
-		UEAW_Dreadnaught_Old_Empire, 					Data\Imperial_Frigate.txt,
-		Pirate_Frigate, 					Data\Pirate_Frigate.txt,
+		RA_MC80_LibertyType, 					Data\Calamari_Cruiser.txt,
+		RA_MC80_HomeOneType, 					Data\Calamari_Cruiser.txt,
+		RA_MC30_Frigate, 						Data\Rebel_Frigate.txt,
+		E_ISDI, 								Data\Star_Destroyer.txt,
+		E_ISDII, 								Data\Imperial_Capital.txt,
+		RA_Corellian_Corvette, 					Data\Corellian_Corvette.txt,
+		RA_Corellian_Gunboat, 					Data\Corellian_Gunboat.txt,
+		E_Broadside, 					Data\Broadside_Class_Cruiser.txt,
+		RA_Marauder, 					Data\Marauder_Missile_Cruiser.txt,
+		RA_EF76_Frigate, 					Data\Nebulon_B_Frigate.txt,
+		RA_EF76_HOSPITAL_FRIGATE, 					Data\Nebulon_B_Frigate.txt,
+		E_DREADNAUGHT, 					Data\Imperial_Frigate.txt,
+		RA_DREADNAUGHT, 					Data\Rebel_Frigate.txt,
+		RA_DREADNAUGHT_REFIT, 					Data\Rebel_Frigate.txt,
+		E_DREADNAUGHT_REFIT, 					Data\Imperial_Frigate.txt,
+		<!-- Pirate_Frigate, 					Data\Pirate_Frigate.txt,
 		Rebel_Pirate_Frigate, 					Data\Rebel_Frigate.txt,
-		Empire_Pirate_Frigate, 					Data\Nebulon_B_Frigate.txt,
-		UEAW_Ravager, 					Data\Nebulon_B_Frigate.txt,
-		Alliance_Assault_Frigate, 					Data\Alliance_Assault_Frigate.txt,
-		Victory_Destroyer_No_Fighters, 					Data\Victory_Destroyer.txt,
-		Victory_Destroyer, 					Data\Victory_Destroyer.txt,
-		Acclamator_Assault_Ship, 					Data\Acclamator_Assault_Ship.txt,
-		Acclamator_Assault_Ship_Class_II, 					Data\Acclamator_Assault_Ship.txt,
-		Interdictor_Cruiser, 					Data\Interdictor_Cruiser.txt,
-        Tartan_Patrol_Cruiser, 					Data\Tartan_Patrol_Cruiser.txt,
-        Executor_Super_Star_Destroyer_Skirmish, 					Data\Super_Star_Dreadnaught_Imp.txt,
-        Executor_Super_Star_Destroyer_Skirmish_Rebel, 					Data\Super_Star_Dreadnaught_Reb.txt,
+		Empire_Pirate_Frigate, 					Data\Nebulon_B_Frigate.txt, -->
+		<!-- UEAW_Ravager, 					Data\Nebulon_B_Frigate.txt, -->
+		RA_ASSAULT_FRIGATE_I, 					Data\Alliance_Assault_Frigate.txt,
+		RA_ASSAULT_FRIGATE_II, 					Data\Alliance_Assault_Frigate.txt,
+		E_VICTORY_I, 							Data\Victory_Destroyer.txt,
+		E_VICTORY_II,							Data\Victory_Destroyer.txt,		
+		E_ACCLAMATOR_ASSAULT_FRIGATE_I, 					Data\Acclamator_Assault_Ship.txt,
+		E_ACCLAMATOR_ASSAULT_FRIGATE_II, 					Data\Acclamator_Assault_Ship.txt,
+	<!-- 	Interdictor_Cruiser, 					Data\Interdictor_Cruiser.txt, -->
+        E_TARTAN_CRUISER, 					Data\Tartan_Patrol_Cruiser.txt,
+        <!-- Executor_Super_Star_Destroyer_Skirmish, 					Data\Super_Star_Dreadnaught_Imp.txt,
+        Executor_Super_Star_Destroyer_Skirmish_Rebel, 					Data\Super_Star_Dreadnaught_Reb.txt, -->
     </ShipNameTextFiles>
 
 	<!-- Main menu in-game demo/attract playback -->
