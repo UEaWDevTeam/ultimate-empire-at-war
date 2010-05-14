@@ -534,12 +534,12 @@
 
         </Campaign>
 
-        <Campaign Name="Version1_Test_Campaign_Light_Side"> <!--GC name in XML-->
+        <Campaign Name="Version1_Test_E4_Campaign_Dark_Side"> <!--GC name in XML-->
 
-                <Campaign_Set>Version1_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
+                <Campaign_Set>Version1_E4_Test </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
 
-                <Text_ID>TEXT_V1_TESTING</Text_ID> <!--GC name in game-->
-                <Description_Text>TEXT_V1_TESTING_DESCRIPTION</Description_Text> <!-- GC description in game -->
+                <Text_ID>TEXT_V1_TESTING_E4</Text_ID> <!--GC name in game-->
+                <Description_Text>TEXT_V1_TESTING_E4_DESCRIPTION</Description_Text> <!-- GC description in game -->
 
                 <Camera_Shift_X> 0.0 </Camera_Shift_X> <!--initial camera pos-->
                 <Camera_Shift_Y> 0.0 </Camera_Shift_Y> <!--initial camera pos-->
@@ -547,106 +547,12 @@
 
                 <Locations>
                                 Galaxy_Core_Art_Model,
-                                Abregado_Rae,
-                                AetenII,
                                 Alderaan,
-                                AlzocIII,
-                                Anaxes,
-                                Atzerri,
-                                Bastion,
-                                Bespin,
-                                Bestine,
-                                Bonadan,
-                                Bothawui,
-                                Brentaal,
-                                Byss,
-                                Carida,
-                                Corellia,
-                                Corulag,
-                                Coruscant,
-                                Dagobah,
-                                Dantooine,
-                                Dathomir,
-                                Dxun,
-                                Ebaq9,
-                                Endor,
-                                Eriadu,
-                                Felucia,
-                                Fondor,
-                                Fresia,
-                                Geonosis,
-                                Hapes,
-                                Honoghr,
-                                Hoth,
-                                Hypori,
-                                Ilum,
-                                Jabiim,
-                                Kamino,
-                                Kashyyyk,
-                                Kessel,
-                                Korriban,
-                                Kuat,
-                                Lok,
-                                Manaan,
-                                Mandalore,
-                                Mechis3,
-                                MonCalimari,
-                                Mustafar,
-                                Muunilinst,
-                                Myrkr,
-                                Naboo,
-                                NalHutta,
-                                Onderon,
-                                Ord_Mantell,
-                                Polus,
-                                Praesitlyn,
-                                Ryloth,
-                                Saleucami,
-                                Shola,
-                                Sluis_Van,
-                                Sullust,
-                                Taris,
-                                Tatooine,
-                                The_Maw,
-                                Thyferra,
-                                Trandosha,
-                                Utapau,
-                                VergessoAsteroids,
-                                Wayland,
-                                Yaga_Minor,
-                                Yavin
+                                Coruscant
+
                 </Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
 
                 <Trade_Routes>
-                Abregado_Rae_Fondor,
-                Fondor_Thyferra,
-                Thyferra_Sullust,
-                Sullust_Eriadu,
-                Eriadu_Sluis_Van,
-                Coruscant_Anaxes,
-                Anaxes_Corulag,
-                Corulag_Brentaal,
-                Bonadan_Taris,
-                Taris_Brentaal,
-                Coruscant_Corellia,
-                Corellia_Ryloth,
-                Corellia_Bestine,
-                Bestine_Mechis3,
-                Mechis3_Bespin,
-                Eriadu_Bespin,
-                Kessel_Jabiim,
-                Dantooine_Bastion,
-                Bastion_Muunilinst,
-                Muunlinst_Yaga_Minor,
-                Bothawui_Kashyyyk,
-                Byss_Coruscant,
-                Fondor_Atzerri,
-                NalHutta_Kashyyyk
-                AetenII_Ilum,
-                Endor_Bespin,
-                Shola_Hypori,
-                Yaga_Minor_Ord_Mantell,
-                Brentaal_Alderaan
 
                 </Trade_Routes> <!--hyperspace lanes, comma separated-->
 
@@ -675,10 +581,10 @@
                 <Home_Location>Light_Side, Alderaan </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
                 <Home_Location>Dark_Side, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
 
-                <Starting_Active_Player>Light_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+                <Starting_Active_Player>Dark_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
 
-                <AI_Player_Control>Dark_Side, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
-                <AI_Player_Control>Light_Side, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Dark_Side, SandboxHuman </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>Light_Side, BasicRebel </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
                 <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
 
                 <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
@@ -688,7 +594,7 @@
 
         <!-- Starting Objects Faction 1-->
 
-                <Starting_Credits> Light_Side, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Credits> Light_Side, 50000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
                 <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
                 <Max_Tech_Level>Light_Side, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
@@ -712,19 +618,22 @@
 
         <!-- Starting Objects Faction 2-->
 
-                <Starting_Credits> Dark_Side, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Credits> Dark_Side, 5000000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
                 <Starting_Tech_Level>Dark_Side, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
-                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. n 5 -->
+                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
         <!--Duplicate the set of tags below for each planet-->
                 <Starting_Forces>Light_Side, Alderaan, NR_X-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Light_Side, Alderaan, NR_A-WING_SQUADRON </Starting_Forces>
                 <Starting_Forces>Light_Side, Alderaan, NR_Y-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, NR_A-WING_SQUADRON </Starting_Forces>
                 <Starting_Forces>Light_Side, Alderaan, NR_B-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Light_Side, Alderaan, NR_E-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Light_Side, Alderaan, NR_K-WING_SQUADRON </Starting_Forces>
-                <Starting_Forces>Light_Side, Alderaan, NR_K-WING_ESCORT_SQUADRON </Starting_Forces>
-                <Starting_Forces>Dark_Side, Coruscant, IR_TARTAN_CRUISER</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TIE_FIGHTER_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TIE_BOMBER_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TIE_INTERCEPTOR_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TIE_DEFENDER_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_TIE_SCOUT_SQUADRON</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_XG_STAR_WING_SQUADRON</Starting_Forces>
+
         <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
 
         <!--Duplicate the set of tags below for each planet-->
@@ -739,5 +648,6 @@
                 <Starting_Forces> </Starting_Forces>
 
         </Campaign>
+
 
 </Campaigns>
