@@ -93,12 +93,13 @@
 
     <CommandBarComponent Name="Text_Allegiance_A">
             <Type>Icon</Type>
-            <Icon_Alternate_Texture_Name>
+            <Icon_Alternate_Texture_Name><!-- Icon order: Good, Evil, Corrupt, Pirate, Hutt, OTHER (OTHER are considered PIRATE) -->
                i_button_command_bar_rebel_symbol.tga 
-               i_button_command_bar_empire_symbol.tga 
-               i_button_command_bar_underworld_symbol.tga 
-               i_button_command_bar_pirate_symbol.tga 
-               i_button_command_bar_jabba_symbol.tga
+               i_button_command_bar_empire_symbol.tga
+			   i_button_command_bar_jabba_symbol.tga
+               i_button_command_bar_pirate_symbol.tga        
+			   i_button_command_bar_jabba_symbol.tga
+			   i_button_blank.tga
             </Icon_Alternate_Texture_Name>
             <Scale>1.0</Scale>
             <Cross_Fade>True</Cross_Fade>
