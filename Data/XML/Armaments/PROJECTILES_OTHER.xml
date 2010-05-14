@@ -27,4 +27,34 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	
+	<Projectile Name="Proj_Cluster_Bomb">
+        <Text_ID>TEXT_NONE</Text_ID>
+        <Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
+        <Space_Model_Name>W_THERMAL_DETONATOR.ALO</Space_Model_Name>
+        <Scale_Factor>3.0</Scale_Factor>
+        <Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
+        <Max_Speed>12.0</Max_Speed>
+        <Damage_Type>Damage_Bomb</Damage_Type>
+        <Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+        <Behavior>PROJECTILE, BOMB</Behavior>
+        <Projectile_Category>CLUSTER_BOMB</Projectile_Category>
+        <Projectile_Blast_Area_Range>150.0</Projectile_Blast_Area_Range>
+        <Projectile_Blast_Area_Damage>150.0</Projectile_Blast_Area_Damage>
+        <Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
+
+        <Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+        <Projectile_Blast_Area_Dropoff_Tiers>3</Projectile_Blast_Area_Dropoff_Tiers>
+
+        <Projectile_Damage>75.0</Projectile_Damage>
+        <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+        <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+        <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+        <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+        <Death_Explosions> PEx_Explosion_Medium_B </Death_Explosions>
+        <AI_Combat_Power>300</AI_Combat_Power>
+		<Projectile_Max_Flight_Distance>500.0</Projectile_Max_Flight_Distance>
+		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+
+    </Projectile>
 </Projectiles>

@@ -1035,7 +1035,15 @@
             <Is_Destroyable>No</Is_Destroyable>
             <Attachment_Bone>SPAWN_01</Attachment_Bone>
         </HardPoint>
-
+	
+	<HardPoint Name="HP_MARAUDER_TRACTOR">
+                    <Type> HARD_POINT_TRACTOR_BEAM </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Attachment_Bone>TRACTOR</Attachment_Bone>
+        </HardPoint>
+	
+	
 
 
     <!-- UEAW, Hospital NebulonB, Fynbos -->
@@ -5439,6 +5447,22 @@
             <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
+
+    </HardPoint>
+
+	<HardPoint Name="HP_MC80_HOMEONETYPE_E3_TRACTOR">
+                        <Type> HARD_POINT_TRACTOR_BEAM </Type>
+                <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
+                <Is_Targetable>Yes</Is_Targetable>
+                <Is_Destroyable>Yes</Is_Destroyable>
+                <Health>500.0</Health>
+
+                <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
+                <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
+                <Damage_Particles>HP_TRACTOR_EMITDAMAGE</Damage_Particles>
+
+                <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
     </HardPoint>
 
