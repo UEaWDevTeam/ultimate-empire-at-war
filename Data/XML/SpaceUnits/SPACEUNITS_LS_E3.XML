@@ -49,7 +49,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_Z-95HEADHUNTER_E3_L,
@@ -265,7 +265,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_X-WING_E3_L_01,
@@ -510,7 +510,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>1</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
 
                 <HardPoints>
                          HP_A-Wing_E3_L,
@@ -591,12 +591,11 @@
 			<Unit_Ability>
 				<Type>SENSOR_JAMMING</Type>
 				<GUI_Activated_Ability_Name> A-Wing_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Recharge_Seconds>35.0</Recharge_Seconds> 
-				<Expiration_Seconds>30.0</Expiration_Seconds>
-				<Effective_Radius>300.0</Effective_Radius> 
+				<Recharge_Seconds>60.0</Recharge_Seconds> 
+				<Expiration_Seconds>20.0</Expiration_Seconds>
+				<Effective_Radius>50.0</Effective_Radius> 
                 <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
 				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
-				<Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
@@ -605,8 +604,7 @@
 
 			<Sensor_Jamming_Ability Name="A-Wing_Sensor_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
-                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
-                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect</Owner_Particle_Effect>
 			</Sensor_Jamming_Ability>
 
 		</Abilities>
@@ -767,7 +765,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>3</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_Y-WING_E3_L,

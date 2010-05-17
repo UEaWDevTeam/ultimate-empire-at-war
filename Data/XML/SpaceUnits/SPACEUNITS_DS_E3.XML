@@ -51,7 +51,7 @@
                 <Number_per_Squadron>6</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, ABILITY_COUNTDOWN, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_SCOUT_E3_L
@@ -280,7 +280,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>8</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_FIGHTER_E3_L
@@ -503,7 +503,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>8</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_INTERCEPTOR_E3_L_01,
@@ -923,7 +923,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>8</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, SHIELDED, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>HUNT, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, SHIELDED, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_DEFENDER_E3_L_01,
@@ -1087,6 +1087,20 @@
                         <Unit_Ability>
                                 <Type>HUNT</Type>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+                                <Type>POWER_TO_WEAPONS</Type>
+
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.4f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -25.0</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.2f</Mod_Multiplier>
+                                <Recharge_Seconds>50</Recharge_Seconds>
+                                <Expiration_Seconds>6</Expiration_Seconds>
+
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Deactivated />
+                        </Unit_Ability>
                 </Unit_Abilities_Data>
 
 
@@ -1150,7 +1164,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>8</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, SHIELDED, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, SHIELDED, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <HardPoints>
                          HP_XG_STAR_WING_E3_L_01,
@@ -1205,22 +1219,21 @@
                 <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
+                        
                         <Unit_Ability>
-                                <Type>HUNT</Type>
-                        </Unit_Ability>
+                                <Type>TURBO</Type>
 
-                        <Unit_Ability>
-                                <Type>POWER_TO_WEAPONS</Type>
-
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.4f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -25.0</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0</Mod_Multiplier>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.2f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                2.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.0</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        10.0</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
                                 <Recharge_Seconds>50</Recharge_Seconds>
-                                <Expiration_Seconds>6</Expiration_Seconds>
+                                <Expiration_Seconds>2</Expiration_Seconds>
 
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Tie_Defender</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated />
+								<Alternate_Name_Text>TEXT_TOOLTIP_SLAM</Alternate_Name_Text>
+								<Alternate_Description_Text>TEXT_SLAM_DESCRIPTION</Alternate_Description_Text>
                         </Unit_Ability>
 
                 </Unit_Abilities_Data>
@@ -1310,13 +1323,26 @@
                 <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
+                        
                         <Unit_Ability>
-                                <Type>HUNT</Type>
+                                <Type>TURBO</Type>
+
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                2.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.0</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        10.0</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
+                                <Recharge_Seconds>50</Recharge_Seconds>
+                                <Expiration_Seconds>2</Expiration_Seconds>
+
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Tartan</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Deactivated />
+								<Alternate_Name_Text>TEXT_TOOLTIP_SLAM</Alternate_Name_Text>
+								<Alternate_Description_Text>TEXT_SLAM_DESCRIPTION</Alternate_Description_Text>
                         </Unit_Ability>
-                </Unit_Abilities_Data>
 
-
-                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                </Unit_Abilities_Data>                
+				
+				<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />

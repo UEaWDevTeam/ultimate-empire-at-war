@@ -4,7 +4,7 @@
 
 
 
-<Projectile Name="Proj_Flechette_Cannon">
+	<Projectile Name="Proj_Flechette_Cannon">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>Proj_Flechette.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -57,4 +57,35 @@
 		<Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
 
     </Projectile>
+
+	<!-- Projectile for Sensor Ping ability -->
+	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_Blast">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Damage_Type> Damage_Default </Damage_Type>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>0.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED, REVEAL </Behavior> <!-- REVEAL for FOW -->
+
+		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range> <!-- REVEAL for FOW -->
+		<Dense_FOW_Reveal_Range_Multiplier>1.0</Dense_FOW_Reveal_Range_Multiplier> <!-- REVEAL for FOW -->
+
+		<Projectile_Category>DEFAULT</Projectile_Category>
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage> <!-- No damage, FOW reveal -->
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>					<!-- Frank STUB PLACEHOLDER -->
+		<Projectile_Object_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Object_Detonation_Particle>	<!-- Gary STUB PLACEHOLDER -->
+		<Projectile_Ground_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Ground_Detonation_Particle>	<!-- Gary STUB PLACEHOLDER -->
+		<Projectile_Lifetime_Detonation_Particle>FOW_Ping_Blast_Particles</Projectile_Lifetime_Detonation_Particle>		<!-- Gary STUB PLACEHOLDER -->
+		<Projectile_Absorbed_By_Shields_Particle />
+		<AI_Combat_Power>0</AI_Combat_Power>
+		
+		<!-- Oksana: enemy should not be able to see this particle effect. Use this flag with caution - ask me why. -->
+		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
+	</Projectile>
 </Projectiles>
