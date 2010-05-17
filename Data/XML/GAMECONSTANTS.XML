@@ -922,6 +922,34 @@
 		Damage_Concussion_AP_E3,
 		Damage_Concussion_AP_E4,
 		Damage_Concussion_AP_Skirmish,
+		
+		<!-- PLEASE add your new damage types ABOVE this point.
+			 The damage types below are from hard-coded damage enumeration. You can specify Armor type for them if you want
+			 (and understand how and where these are applied).
+			 In the future, we will merge two system together, but for now we have to have this work-around. 
+			 -Oksana			-->
+		Damage_Normal,
+		Damage_Force_Whirlwind,
+		Damage_Force_Telekinesis,
+		Damage_Force_Lightning,
+		Damage_Force_Corruption,
+		Damage_Hard_Point_Self_Destruct,
+		Damage_Fire,
+		Damage_Cable_Attack,
+		Damage_Explosion,
+		Damage_Asteroid,
+		Damage_Cable_Attack_Deployed,
+		Damage_Normal_Deployed,
+		Damage_Vehicle_Thief,
+		Damage_Crush,
+		Damage_Eat,
+		Damage_Redirected,
+		Damage_Wampa,
+        	Damage_Infection
+		Damage_Remote_Bomb,
+		Damage_Drain_Life,
+
+		<!-- DO NOT ADD new damage types after this point -->
 	</Damage_Types>
 
 

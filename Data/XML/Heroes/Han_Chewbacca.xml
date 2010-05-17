@@ -10,7 +10,7 @@
 		<Scale_Factor>1.75</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Type>Walk</Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Light_Side</Affiliation>
 		<Required_Timeline>4</Required_Timeline>
 		<IsBuildable>No</IsBuildable>
 		<Spawn_Planet>NalHutta</Spawn_Planet>
@@ -36,7 +36,6 @@
 		<OverrideDeceleration> .25 </OverrideDeceleration>
 		
 		<Deploys>No</Deploys>
-		<Affiliation>Rebel</Affiliation>
 
 		<Armor_Type> Armor_Hero </Armor_Type>
 		<Damage>50</Damage>
@@ -230,7 +229,7 @@
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
 		<Scale_Factor>1.75</Scale_Factor>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Light_Side</Affiliation>
 		<Required_Timeline>2</Required_Timeline>
 		<IsBuildable>No</IsBuildable>
 		<Size_Value>10</Size_Value>
@@ -376,7 +375,7 @@
 		<Icon_Name>i_button_han_solo_chewbacca.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>50</Damage>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Light_Side</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Combat_Power_Value>0</Combat_Power_Value>
 		<Tech_Level>2</Tech_Level>
@@ -468,8 +467,8 @@
 	<!-- The Millennium Falcon is used by Han Solo & Chewbacca (Rebel Major Hero) during space battles -->
 	<UniqueUnit Name="Millennium_Falcon">
 		<Text_ID>TEXT_UNIT_MILLENNIUM_FALCON</Text_ID>
-		<Encyclopedia_Good_Against> TIE_Fighter TIE_Scout </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
+		<Encyclopedia_Good_Against> E_TIE_FIGHTER E_TIE_SCOUT </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text> TEXT_TOOLTIP_MILLENNIUM_FALCON </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_han_solo_chewbacca.tga</Icon_Name>
@@ -508,9 +507,9 @@
 		<OverrideDeceleration> .3 </OverrideDeceleration>
 		<Layer_Z_Adjust> -20 </Layer_Z_Adjust>
 		
-		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+		<Armor_Type> Armor_Corvette_Superior </Armor_Type>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Light_Side</Affiliation>
 		<Shield_Points>300</Shield_Points>
 		<Tactical_Health>800</Tactical_Health>
 		<Autoresolve_Health>400</Autoresolve_Health>
@@ -531,7 +530,7 @@
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 	
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Medium_B</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 		
 		<HardPoints>
