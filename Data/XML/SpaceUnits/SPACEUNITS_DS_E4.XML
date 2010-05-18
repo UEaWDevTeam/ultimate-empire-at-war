@@ -1043,4 +1043,114 @@
 
         </Squadron>
 
+                <!--Corvettes--> <!--Corvettes-->  <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes--> <!--Corvettes-->
+        <SpaceUnit Name="IR_TARTAN_CRUISER">
+                <Variant_of_Existing_Type>E_TARTAN_CRUISER</Variant_of_Existing_Type>
+                <Affiliation>Dark_Side</Affiliation>
+                <Hardpoints>
+                         HP_TARTAN_CRUISER_E4_L_01,
+                         HP_TARTAN_CRUISER_E4_L_02,
+                         HP_TARTAN_CRUISER_E4_L_03,
+                         HP_TARTAN_CRUISER_E4_L_04,
+                         HP_TARTAN_CRUISER_E4_HL_01,
+                         HP_TARTAN_CRUISER_E4_HL_02
+                </Hardpoints>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_IPV_PATROL_CRAFT">
+                <Variant_of_Existing_Type>E_IPV_PATROL_CRAFT</Variant_of_Existing_Type>
+                <Affiliation>Dark_Side</Affiliation>
+                <HardPoints>
+                         HP_IPV_PATROL_CRAFT_E4_LTL_01,
+                         HP_IPV_PATROL_CRAFT_E4_LTL_02,
+                         HP_IPV_PATROL_CRAFT_E4_LTL_03,
+                         HP_IPV_PATROL_CRAFT_E4_LTL_04,
+                         HP_IPV_PATROL_CRAFT_E4_APLCM
+                </HardPoints>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_BROADSIDE">
+                <Variant_of_Existing_Type>E_BROADSIDE</Variant_of_Existing_Type>
+                <Affiliation>Dark_Side</Affiliation>
+                <HardPoints>
+                         HP_BROADSIDE_E4_APHCM,
+                         HP_BROADSIDE_E4_APMCM_01,
+                         HP_BROADSIDE_E4_APMCM_02,
+                         HP_BROADSIDE_E4_APMCM_03,
+                         HP_BROADSIDE_E4_APMCM_04,
+                         HP_BROADSIDE_E4_LTL_01,
+                         HP_BROADSIDE_E4_LTL_02
+                </HardPoints>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_BROADSIDE_DB">
+                 <Variant_Of_Existing_Type>E_BROADSIDE</Variant_Of_Existing_Type>
+
+                 <Text_ID>TEXT_UNIT_BROADSIDE_M</Text_ID>
+                 <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE_M</Encyclopedia_Text>
+                <Icon_Name>I_BUTTON_BROADSIDE_M.TGA</Icon_Name>
+                 <HardPoints>
+                         HP_BROADSIDE_REFIT_E4_LTL_01,
+                         HP_BROADSIDE_REFIT_E4_LTL_02,
+                         HP_BROADSIDE_REFIT_E4_DBM_01,
+                         HP_BROADSIDE_REFIT_E4_DBM_02
+                 </HardPoints>
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_ACCLAMATOR_ASSAULT_FRIGATE_I">
+
+                 <Variant_Of_Existing_Type>E_ACCLAMATOR_ASSAULT_FRIGATE_I</Variant_Of_Existing_Type>
+                <HardPoints>
+                         HP_ACCLAMATOR_I_E4_LTL_01,
+                         HP_ACCLAMATOR_I_E4_LTL_02,
+                         HP_ACCLAMATOR_I_E4_L_01,
+                         HP_ACCLAMATOR_I_E4_L_02,
+                         HP_ACCLAMATOR_I_E4_L_03,
+                         HP_ACCLAMATOR_I_E4_L_04,
+                         HP_ACCLAMATOR_I_E4_APPT_01,
+                         HP_ACCLAMATOR_I_E4_APPT_02,
+                         HP_ACCLAMATOR_I_E4_ENGINES_01,
+                         HP_ACCLAMATOR_I_E4_ENGINES_02,
+                         HP_ACCLAMATOR_I_E4_FIGHTER_BAY,
+                         HP_ACCLAMATOR_I_E4_SHIELD,
+                         HP_ACCLAMATOR_I_E4_DUMMY_01,
+                         HP_ACCLAMATOR_I_E4_DUMMY_02,
+                         HP_ACCLAMATOR_I_E4_DUMMY_03,
+                         HP_ACCLAMATOR_I_E4_DUMMY_04,
+                         HP_ACCLAMATOR_I_E4_DUMMY_05
+                </HardPoints>
+
+                <Starting_Spawned_Units_Tech_0>IR_TIE_FIGHTER_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>IR_TIE_FIGHTER_SQUADRON, 6</Reserve_Spawned_Units_Tech_0>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_ACCLAMATOR_ASSAULT_FRIGATE_II">
+
+                 <Variant_Of_Existing_Type>E_ACCLAMATOR_ASSAULT_FRIGATE_II</Variant_Of_Existing_Type>
+                <HardPoints>
+                         HP_ACCLAMATOR_II_E4_MTL_01,
+                         HP_ACCLAMATOR_II_E4_MTL_02,
+                         HP_ACCLAMATOR_II_E4_LTL_01,
+                         HP_ACCLAMATOR_II_E4_LTL_02,
+                         HP_ACCLAMATOR_II_E4_L_01,
+                         HP_ACCLAMATOR_II_E4_L_02,
+                         HP_ACCLAMATOR_II_E4_L_03,
+                         HP_ACCLAMATOR_II_E4_L_04,
+                         HP_ACCLAMATOR_II_E4_APPT,
+                         HP_ACCLAMATOR_II_E4_ENGINES_01,
+                         HP_ACCLAMATOR_II_E4_ENGINES_02,
+                         HP_ACCLAMATOR_II_E4_SHIELD,
+                         HP_ACCLAMATOR_II_E4_DUMMY_01,
+                         HP_ACCLAMATOR_II_E4_DUMMY_02,
+                         HP_ACCLAMATOR_II_E4_DUMMY_03,
+                         HP_ACCLAMATOR_II_E4_DUMMY_04
+                </HardPoints>
+
+        </SpaceUnit>
+
 </Data>
