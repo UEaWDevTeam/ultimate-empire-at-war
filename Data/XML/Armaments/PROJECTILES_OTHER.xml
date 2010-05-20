@@ -88,4 +88,88 @@
 		<!-- Oksana: enemy should not be able to see this particle effect. Use this flag with caution - ask me why. -->
 		<Model_Visible_To_Enemy>No</Model_Visible_To_Enemy>
 	</Projectile>
+
+	<!-- Self Destruct projectiles for Starbase retreat death explosions -->
+	<Projectile Name="Self_Destruct_Star_Base_Level_1_Empire">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>1.0</Max_Speed>
+		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE</Behavior>
+		
+		<!-- Instant explosion -->
+		<Projectile_Max_Flight_Distance>0.0</Projectile_Max_Flight_Distance>
+		
+		<!-- Not used - area_blast damage override this -->
+		<Projectile_Damage>0.0</Projectile_Damage>
+		
+		<Projectile_Blast_Area_Range>1200.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1200.0</Projectile_Blast_Area_Damage>
+		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage> 
+		<Projectile_Blast_Area_Dropoff>True</Projectile_Blast_Area_Dropoff>
+		<Projectile_Blast_Area_Dropoff_Tiers>5</Projectile_Blast_Area_Dropoff_Tiers>
+		<Damage_Type>Damage_Turbolaser_Advanced_Skirmish</Damage_Type>
+				
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Huge_B_Empire</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_SFXEvent_Detonate>SFX_Plex_Missile_Detonation</Projectile_SFXEvent_Detonate>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_2_Empire">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Empire</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1400.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1400.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_3_Empire">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Empire</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1600.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1600.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_4_Empire">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Empire</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1800.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1800.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_5_Empire">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Empire</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>2000.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>2000.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+	
+	<Projectile Name="Self_Destruct_Star_Base_Level_1_Rebel">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Empire</Variant_Of_Existing_Type>
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Huge_B</Projectile_Lifetime_Detonation_Particle>
+	</Projectile>	
+	
+	<Projectile Name="Self_Destruct_Star_Base_Level_2_Rebel">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Rebel</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1400.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1400.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_3_Rebel">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Rebel</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1600.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1600.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_4_Rebel">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Rebel</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>1800.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>1800.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
+	<Projectile Name="Self_Destruct_Star_Base_Level_5_Rebel">
+		<Variant_Of_Existing_Type>Self_Destruct_Star_Base_Level_1_Rebel</Variant_Of_Existing_Type>
+		<Projectile_Blast_Area_Range>2000.0</Projectile_Blast_Area_Range>
+		<Projectile_Blast_Area_Damage>2000.0</Projectile_Blast_Area_Damage>
+	</Projectile>	
+
 </Projectiles>
