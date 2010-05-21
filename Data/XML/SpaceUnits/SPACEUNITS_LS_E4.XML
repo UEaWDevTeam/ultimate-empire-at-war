@@ -1063,13 +1063,37 @@
 
         <!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes -->
         <SpaceUnit Name="NR_CORELLIAN_CORVETTE">
-        <Variant_of_Existing_Type>REBEL_CORELLIAN_CORVETTE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_CORELLIAN_CORVETTE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                        HP_CR90_E4_LTL_TOP,
+                        HP_CR90_E4_LTL_BOTTOM,
+                        HP_CR90_E4_LT_01,
+                        HP_CR90_E4_LT_02,
+                        HP_CR90_E4_LT_03,
+                        HP_CR90_E4_LT_04
+                </HardPoints>
         </SpaceUnit>
 
     <SpaceUnit Name="NR_CORELLIAN_GUNBOAT">
-        <Variant_of_Existing_Type>REBEL_CORELLIAN_GUNBOAT</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_CORELLIAN_GUNBOAT</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                        HP_DP20_E4_APMCM_01,
+                        HP_DP20_E4_APMCM_02,
+                        HP_DP20_E4_APMCM_03,
+                        HP_DP20_E4_APMCM_04,
+                        HP_DP20_E4_L_01,
+                        HP_DP20_E4_L_02,
+                        HP_DP20_E4_L_03,
+                        HP_DP20_E4_LT_01,
+                        HP_DP20_E4_LT_02,
+                        HP_DP20_E4_LT_03,
+                        HP_DP20_E4_LT_04
+
+                </HardPoints>
         </SpaceUnit>
 
     <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->        <!-- Carriers -->
@@ -1077,15 +1101,15 @@
         <SpaceUnit Name="NR_QUASAR_FIRE_CRUISER">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_NEBULON_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_NEBULON_B </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
-                <Encyclopedia_Good_Against> EMPIRE_TARTAN_PATROL_CRUISER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
-                <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER EMPIRE_STAR_DESTROYER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
+                <Text_ID> TEXT_UNIT_QUASAR </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_QUASAR </Encyclopedia_Text> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Encyclopedia_Good_Against>  </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> i_button_escort_frigate.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_NR.tga = || Ensure .tga extension -->
+                <Icon_Name> I_BUTTON_QUASAR_FIRE.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_NR.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
-                <Space_Model_Name> RV_NebulonB.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
+                <Space_Model_Name> VCCa_QUASAR_FIRE_CLASS.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.70 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.999</Mass>
 
@@ -1150,6 +1174,12 @@
                 <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
+
+
+                <Starting_Spawned_Units_Tech_0>NR_E-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_K-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+
         <!-- Behaviours -->
                 <Behavior>
                         DUMMY_STARSHIP,
@@ -1160,10 +1190,13 @@
                 <SpaceBehavior>
                         ABILITY_COUNTDOWN,
                         SIMPLE_SPACE_LOCOMOTOR,
+                        POWERED,
+                        SHIELDED,
                         TARGETING, REVEAL,
                         HIDE_WHEN_FOGGED,
                         UNIT_AI,
                         ASTEROID_FIELD_DAMAGE,
+                        SPAWN_SQUADRON
                         DAMAGE_TRACKING,
                         ION_STUN_EFFECT,
                         NEBULA
@@ -1172,11 +1205,14 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <!-- Hardpoints -->
                 <HardPoints>
-                        HP_NEBULON_E3_ENGINES,
-                        HP_NEBULON_E3_LASER_BL_01,
-                        HP_NEBULON_E3_LASER_BR_02,
-                        HP_NEBULON_E3_TURBO_FL_01,
-                        HP_NEBULON_E3_TURBO_FR_02,
+                         HP_QUASAR_FIRE_E4_L_01,
+                         HP_QUASAR_FIRE_E4_L_02,
+                         HP_QUASAR_FIRE_E4_L_03,
+                         HP_QUASAR_FIRE_E4_L_04,
+                         HP_QUASAR_FIRE_E4_HTL_01,
+                         HP_QUASAR_FIRE_E4_HTL_02,
+                         HP_QUASAR_FIRE_E4_HANGAR,
+                         HP_QUASAR_FIRE_E4_TRACTOR
 
                 </HardPoints>
         <!-- Death  Stats -->
@@ -1230,28 +1266,43 @@
                 <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
         <!-- Abilities -->
-                <Unit_Abilities_Data SubObjectList="Yes">
-                        <Unit_Ability>
-                                <Type>DEFEND</Type>
-                                <Recharge_Seconds>60</Recharge_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-                                <Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.8f</Mod_Multiplier>
-                                <Expiration_Seconds>15</Expiration_Seconds>
-
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
+           <Unit_Abilities_Data SubObjectList="Yes">
+              <!-- Primary ability -->
+              <Unit_Ability>
+                    <Type>TRACTOR_BEAM</Type>
+                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <Recharge_Seconds>25</Recharge_Seconds>
+                    <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
-                        </Unit_Ability>
-                </Unit_Abilities_Data>
+              </Unit_Ability>
+           </Unit_Abilities_Data>
+
+           <Abilities SubObjectList="Yes">
+              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+                    <Activation_Style> User_Input </Activation_Style>
+                    <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                    <Activation_Min_Range>10</Activation_Min_Range>
+                    <Activation_Max_Range>1200</Activation_Max_Range>
+
+
+                    <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Stacking_Category>0</Stacking_Category>
+              </Tractor_Beam_Attack_Ability>
+
+           </Abilities>
+
+
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
                 <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
-                <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>2000.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
                 <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
@@ -1275,8 +1326,8 @@
 
     <SpaceUnit Name="NR_QUASAR_FIRE_CRUISER_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
 
-                <Text_ID>TEXT_UNIT_NEBULON_FRIGATE</Text_ID> <!-- Same as unit's -->
-                <Space_Model_Name>RV_nebulonb_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+                <Text_ID>TEXT_UNIT_QUASAR</Text_ID> <!-- Same as unit's -->
+                <Space_Model_Name>VCCa_QUASAR_FIRE_CLASS_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
                 <Scale_Factor>0.76</Scale_Factor>
@@ -1286,44 +1337,252 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>New Republic</Affiliation> <!-- Same as Unit's -->
+                <Affiliation>Light_Side</Affiliation> <!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
 
+        <SpaceUnit Name="RA_MARAUDER">
+        <Variant_of_Existing_Type>RA_MARAUDER</Variant_of_Existing_Type>
+        <Affiliation>Light_Side</Affiliation>
+                <HardPoints>
+                         HP_MARAUDER_E4_MTL_01,
+                         HP_MARAUDER_E4_MTL_02,
+                         HP_MARAUDER_E4_MTL_03,
+                         HP_MARAUDER_E4_HANGAR,
+                         HP_MARAUDER_E4_TRACTOR
+                </HardPoints>
+                <Starting_Spawned_Units_Tech_0>NR_Z-95_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+        </SpaceUnit>
+
+        <SpaceUnit Name="NR_MARAUDER_DB">
+                <Variant_of_Existing_Type>RA_MARAUDER</Variant_of_Existing_Type>
+                <Text_ID>TEXT_UNIT_MARAUDER_M</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER_M</Encyclopedia_Text>
+                <Icon_Name>i_button_marauder_m.tga</Icon_Name>
+                <HardPoints>
+                         HP_MARAUDER_E4_DBM_01,
+                         HP_MARAUDER_E4_DBM_02,
+                         HP_MARAUDER_E4_HANGAR,
+                         HP_MARAUDER_E4_TRACTOR
+                </HardPoints>
+                <Starting_Spawned_Units_Tech_0>NR_Z-95_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+        </SpaceUnit>
+
         <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->
+
+        <SpaceUnit Name="NR_EF76_FRIGATE">
+        <Variant_of_Existing_Type>RA_EF76_HOSPITAL_FRIGATE</Variant_of_Existing_Type>
+        <Affiliation>Light_Side</Affiliation>
+        <HardPoints>
+                 HP_EF76_HOSPITAL_E4_LTL_01,
+                 HP_EF76_HOSPITAL_E4_LTL_02,
+                 HP_EF76_HOSPITAL_E4_L_01,
+                 HP_EF76_HOSPITAL_E4_L_02,
+                 HP_EF76_HOSPITAL_E4_ENGINES
+
+        </HardPoints>
+
+        </SpaceUnit>
 
         <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->        <!-- Frigates -->
         <SpaceUnit Name="NR_EF76_FRIGATE">
-        <Variant_of_Existing_Type>REBEL_EF76_FRIGATE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_EF76_FRIGATE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+               <HardPoints>
+                        HP_EF76_E4_LTL_01,
+                        HP_EF76_E4_LTL_02,
+                        HP_EF76_E4_LTL_03,
+                        HP_EF76_E4_LTL_04,
+                        HP_EF76_E4_L_01,
+                        HP_EF76_E4_L_02,
+                        HP_EF76_E4_L_03,
+                        HP_EF76_E4_L_04,
+                        HP_EF76_E4_ENGINES
+                        <!-- HP_EF76_E3_SHIELD -->
+                </HardPoints>
         </SpaceUnit>
 
           <SpaceUnit Name="NR_MC30_FRIGATE">
-        <Variant_of_Existing_Type>REBEL_MC30_FRIGATE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_MC30_FRIGATE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+                <HardPoints>
+                        HP_MC30_E4_LTL_01,
+                        HP_MC30_E4_LTL_02,
+                        HP_MC30_E4_DUMMY_BC,
+                        HP_MC30_E4_APHPT,
+                        HP_MC30_E4_APPT_01,
+                        HP_MC30_E4_APPT_02,
+                        HP_MC30_E4_ENGINES
+
+                </HardPoints>
         </SpaceUnit>
 
            <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->        <!-- Cruisers -->
         <SpaceUnit Name="NR_ASSAULT_FRIGATE_I">
-        <Variant_of_Existing_Type>REBEL_ASSAULT_FRIGATE_I</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_ASSAULT_FRIGATE_I</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                        HP_ASSAULT_FRIGATE_I_E4_MTL_01,
+                        HP_ASSAULT_FRIGATE_I_E4_MTL_02,
+                        HP_ASSAULT_FRIGATE_I_E4_LTL_01,
+                        HP_ASSAULT_FRIGATE_I_E4_LTL_02,
+                        HP_ASSAULT_FRIGATE_I_E4_L_01,
+                        HP_ASSAULT_FRIGATE_I_E4_L_02,
+                        HP_ASSAULT_FRIGATE_I_E4_L_03,
+                        HP_ASSAULT_FRIGATE_I_E4_L_04,
+                        HP_ASSAULT_FRIGATE_I_E4_L_05,
+                        HP_ASSAULT_FRIGATE_I_E4_L_06,
+                        HP_ASSAULT_FRIGATE_I_E4_HL_01,
+                        HP_ASSAULT_FRIGATE_I_E4_HL_02,
+                        HP_ASSAULT_FRIGATE_I_E4_ENGINES
+                </HardPoints>
         </SpaceUnit>
 
         <SpaceUnit Name="NR_ASSAULT_FRIGATE_II">
-        <Variant_of_Existing_Type>REBEL_ASSAULT_FRIGATE_II</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_ASSAULT_FRIGATE_II</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                        HP_ASSAULT_FRIGATE_II_E4_MTL_01,
+                        HP_ASSAULT_FRIGATE_II_E4_MTL_02,
+                        HP_ASSAULT_FRIGATE_II_E4_MTL_03,
+                        HP_ASSAULT_FRIGATE_II_E4_MTL_04,
+                        HP_ASSAULT_FRIGATE_II_E4_L_01,
+                        HP_ASSAULT_FRIGATE_II_E4_L_02,
+                        HP_ASSAULT_FRIGATE_II_E4_L_03,
+                        HP_ASSAULT_FRIGATE_II_E4_L_04,
+                        HP_ASSAULT_FRIGATE_II_E4_LTL_01,
+                        HP_ASSAULT_FRIGATE_II_E4_LTL_02,
+                        HP_ASSAULT_FRIGATE_II_E4_ENGINES
+                </HardPoints>
+        </SpaceUnit>
+
+        <SpaceUnit Name="NR_DREADNAUGHT">
+        <Variant_of_Existing_Type>RA_DREADNAUGHT</Variant_of_Existing_Type>
+        <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                         HP_NR_DREADNAUGHT_MTL_01,
+                         HP_NR_DREADNAUGHT_MTL_02,
+                         HP_NR_DREADNAUGHT_MTL_03,
+                         HP_NR_DREADNAUGHT_MTL_04,
+                         HP_NR_DREADNAUGHT_MTL_05,
+                         HP_NR_DREADNAUGHT_MTL_06,
+                         HP_NR_DREADNAUGHT_HL_01,
+                         HP_NR_DREADNAUGHT_HL_02,
+                         HP_NR_DREADNAUGHT_L_01,
+                         HP_NR_DREADNAUGHT_L_02,
+                         HP_NR_DREADNAUGHT_L_03,
+                         HP_NR_DREADNAUGHT_L_04,
+                         HP_NR_DREADNAUGHT_L_05,
+                         HP_NR_DREADNAUGHT_L_06,
+                         HP_NR_DREADNAUGHT_SHIELD,
+                         HP_NR_DREADNAUGHT_HANGAR,
+                         HP_NR_DREADNAUGHT_ENGINE
+                </HardPoints>
+
+                <Starting_Spawned_Units_Tech_0>NR_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+
+        </SpaceUnit>
+
+        <SpaceUnit Name="NR_DREADNAUGHT_REFIT">
+        <Variant_of_Existing_Type>RA_DREADNAUGHT</Variant_of_Existing_Type>
+        <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                         HP_NR_DREADNAUGHT_REFIT_MTL_01,
+                         HP_NR_DREADNAUGHT_REFIT_MTL_02,
+                         HP_NR_DREADNAUGHT_REFIT_MTL_03,
+                         HP_NR_DREADNAUGHT_REFIT_MTL_04,
+                         HP_NR_DREADNAUGHT_REFIT_LI_01,
+                         HP_NR_DREADNAUGHT_REFIT_LI_02,
+                         HP_NR_DREADNAUGHT_REFIT_MTL_05,
+                         HP_NR_DREADNAUGHT_REFIT_MTL_06,
+                         HP_NR_DREADNAUGHT_REFIT_LTL_01,
+                         HP_NR_DREADNAUGHT_REFIT_LTL_02,
+                         HP_NR_DREADNAUGHT_REFIT_LTL_03,
+                         HP_NR_DREADNAUGHT_REFIT_LTL_04,
+                         HP_NR_DREADNAUGHT_REFIT_SHIELD,
+                         HP_NR_DREADNAUGHT_REFIT_HANGAR,
+                         HP_NR_DREADNAUGHT_REFIT_ENGINE,
+                         HP_NR_DREADNAUGHT_REFIT_DUMMY_01,
+                         HP_NR_DREADNAUGHT_REFIT_DUMMY_02
+                </HardPoints>
+
+                <Starting_Spawned_Units_Tech_0>NR_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+
         </SpaceUnit>
 
         <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->
         <SpaceUnit Name="NR_MC80_HOMEONETYPE">
-        <Variant_of_Existing_Type>REBEL_MC80_HOMEONETYPE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>NR_MC80_HOMEONETYPE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                       HP_MC80_HOMEONETYPE_E4_HTL_01,
+                       HP_MC80_HOMEONETYPE_E4_HTL_02,
+                       HP_MC80_HOMEONETYPE_E4_MTL_01,
+                       HP_MC80_HOMEONETYPE_E4_MTL_02,
+                       HP_MC80_HOMEONETYPE_E4_MTL_03,
+                       HP_MC80_HOMEONETYPE_E4_MTL_04,
+                       HP_MC80_HOMEONETYPE_E4_HI_01,
+                       HP_MC80_HOMEONETYPE_E4_HI_02,
+                       HP_MC80_HOMEONETYPE_E4_HTL_03,
+                       HP_MC80_HOMEONETYPE_E4_HTL_04,
+                       HP_MC80_HOMEONETYPE_E4_HTL_05,
+                       HP_MC80_HOMEONETYPE_E4_HTL_06,
+                       HP_MC80_HOMEONETYPE_E4_HI_03,
+                       HP_MC80_HOMEONETYPE_E4_HI_04,
+                       HP_MC80_HOMEONETYPE_E4_HI_05,
+                       HP_MC80_HOMEONETYPE_E4_HI_06,
+                       HP_MC80_HOMEONETYPE_E4_MTL_05,
+                       HP_MC80_HOMEONETYPE_E4_MTL_06,
+                       HP_MC80_HOMEONETYPE_E4_HANGAR_01,
+                       HP_MC80_HOMEONETYPE_E4_HANGAR_02,
+                       HP_MC80_HOMEONETYPE_E4_SHIELD,
+                       HP_MC80_HOMEONETYPE_E4_ENGINE,
+                       HP_MC80_HOMEONETYPE_E4_TRACTOR
+                </HardPoints>
+
+                <Starting_Spawned_Units_Tech_0>NR_X-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_Y-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_A-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_B-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>NR_X-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>NR_Y-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>NR_A-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>NR_B-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+
+
         </SpaceUnit>
 
         <SpaceUnit Name="NR_MC80_LIBERTYTYPE">
-        <Variant_of_Existing_Type>REBEL_MC80_LIBERTYTYPE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_MC80_LIBERTYTYPE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
+
+                <HardPoints>
+                       HP_MC80_LIBERTYTYPE_E4_HTL_01,
+                       HP_MC80_LIBERTYTYPE_E4_HTL_02,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_01,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_02,
+                       HP_MC80_LIBERTYTYPE_E4_MI_01,
+                       HP_MC80_LIBERTYTYPE_E4_MI_02,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_03,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_04,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_05,
+                       HP_MC80_LIBERTYTYPE_E4_MTL_06,
+                       HP_MC80_LIBERTYTYPE_E4_LI_01,
+                       HP_MC80_LIBERTYTYPE_E4_LI_02,
+                       HP_MC80_LIBERTYTYPE_E4_LI_03,
+                       HP_MC80_LIBERTYTYPE_E4_LI_04,
+                       HP_MC80_LIBERTYTYPE_E4_ENGINES,
+                       HP_MC80_LIBERTYTYPE_E4_HANGAR
+                </HardPoints>
+
         </SpaceUnit>
 
         <SpaceUnit Name="NR_NEBULA_CLASS_STAR_DESTROYER">

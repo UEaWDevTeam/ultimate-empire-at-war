@@ -120,14 +120,14 @@
 
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
-				
-				<!-- Non-Hero unit abilities description -->
-				<Unit_Abilities_Data SubObjectList="Yes">
-					<!-- Primary ability -->
-					<Unit_Ability>
-						<Type>HUNT</Type>
-					</Unit_Ability>
-				</Unit_Abilities_Data>
+
+                                <!-- Non-Hero unit abilities description -->
+                                <Unit_Abilities_Data SubObjectList="Yes">
+                                        <!-- Primary ability -->
+                                        <Unit_Ability>
+                                                <Type>HUNT</Type>
+                                        </Unit_Ability>
+                                </Unit_Abilities_Data>
 
         </SpaceUnit>
 
@@ -200,14 +200,14 @@
                 <Score_Cost_Credits> 600</Score_Cost_Credits>
 
                 <!-- <Create_Team_Type> StarViper_Team </Create_Team_Type> -->
-				
-				<!-- Non-Hero unit abilities description -->
-				<Unit_Abilities_Data SubObjectList="Yes">
-					<!-- Primary ability -->
-					<Unit_Ability>
-						<Type>HUNT</Type>
-					</Unit_Ability>
-				</Unit_Abilities_Data>
+
+                                <!-- Non-Hero unit abilities description -->
+                                <Unit_Abilities_Data SubObjectList="Yes">
+                                        <!-- Primary ability -->
+                                        <Unit_Ability>
+                                                <Type>HUNT</Type>
+                                        </Unit_Ability>
+                                </Unit_Abilities_Data>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
@@ -355,11 +355,11 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-			
+
+                        <Unit_Ability>
+                                <Type>HUNT</Type>
+                        </Unit_Ability>
+
         </Unit_Abilities_Data>
 
         </SpaceUnit>
@@ -456,16 +456,16 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
-			
-			<Unit_Ability>
-				<Type>HUNT</Type>
-			</Unit_Ability>
-			
+
+                        <Unit_Ability>
+                                <Type>HUNT</Type>
+                        </Unit_Ability>
+
         </Unit_Abilities_Data>
 
         </Squadron>
 
-		<SpaceUnit Name="RA_A-WING">
+                <SpaceUnit Name="RA_A-WING">
                 <Text_ID>TEXT_UNIT_A_WING</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
@@ -585,34 +585,34 @@
 
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
-				
-				<Unit_Abilities_Data SubObjectList="Yes">
 
-			<Unit_Ability>
-				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> A-Wing_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Recharge_Seconds>60.0</Recharge_Seconds> 
-				<Expiration_Seconds>20.0</Expiration_Seconds>
-				<Effective_Radius>50.0</Effective_Radius> 
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
-			</Unit_Ability>
+                                <Unit_Abilities_Data SubObjectList="Yes">
 
-		</Unit_Abilities_Data>
+                        <Unit_Ability>
+                                <Type>SENSOR_JAMMING</Type>
+                                <GUI_Activated_Ability_Name> A-Wing_Sensor_Jamming </GUI_Activated_Ability_Name>
+                                <Recharge_Seconds>60.0</Recharge_Seconds>
+                                <Expiration_Seconds>20.0</Expiration_Seconds>
+                                <Effective_Radius>50.0</Effective_Radius>
+                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
+                        </Unit_Ability>
 
-		<Abilities SubObjectList="Yes">
+                </Unit_Abilities_Data>
 
-			<Sensor_Jamming_Ability Name="A-Wing_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
+                <Abilities SubObjectList="Yes">
+
+                        <Sensor_Jamming_Ability Name="A-Wing_Sensor_Jamming">
+                                <Activation_Style> User_Input </Activation_Style>
                 <Owner_Particle_Effect>Sensor_Jamming_Effect</Owner_Particle_Effect>
-			</Sensor_Jamming_Ability>
+                        </Sensor_Jamming_Ability>
 
-		</Abilities>
+                </Abilities>
 
 
         </SpaceUnit>
 
-		<Squadron Name="RA_A-WING_SQUADRON">
+                <Squadron Name="RA_A-WING_SQUADRON">
                 <Text_ID>TEXT_UNIT_A_WING_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
@@ -681,29 +681,29 @@
                 <Score_Cost_Credits> 600</Score_Cost_Credits>
 
                 <!-- <Create_Team_Type> StarViper_Team </Create_Team_Type> -->
-				
-				<Unit_Abilities_Data SubObjectList="Yes">
 
-			<Unit_Ability>
-				<Type>SENSOR_JAMMING</Type>
-				<GUI_Activated_Ability_Name> A-Wing_Sensor_Jamming </GUI_Activated_Ability_Name> 
-				<Recharge_Seconds>35.0</Recharge_Seconds> 
-				<Expiration_Seconds>30.0</Expiration_Seconds>
-				<Effective_Radius>300.0</Effective_Radius> 
+                                <Unit_Abilities_Data SubObjectList="Yes">
+
+                        <Unit_Ability>
+                                <Type>SENSOR_JAMMING</Type>
+                                <GUI_Activated_Ability_Name> A-Wing_Sensor_Jamming </GUI_Activated_Ability_Name>
+                                <Recharge_Seconds>35.0</Recharge_Seconds>
+                                <Expiration_Seconds>30.0</Expiration_Seconds>
+                                <Effective_Radius>300.0</Effective_Radius>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			</Unit_Ability>
+                        </Unit_Ability>
 
-		</Unit_Abilities_Data>
+                </Unit_Abilities_Data>
 
-		<Abilities SubObjectList="Yes">
+                <Abilities SubObjectList="Yes">
 
-			<Sensor_Jamming_Ability Name="A-Wing_Sensor_Jamming">
-				<Activation_Style> User_Input </Activation_Style>
+                        <Sensor_Jamming_Ability Name="A-Wing_Sensor_Jamming">
+                                <Activation_Style> User_Input </Activation_Style>
                 <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-			</Sensor_Jamming_Ability>
+                        </Sensor_Jamming_Ability>
 
-		</Abilities>
+                </Abilities>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
@@ -841,14 +841,14 @@
 
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
-				
-				<!-- Non-Hero unit abilities description -->
-				<Unit_Abilities_Data SubObjectList="Yes">
-					<!-- Primary ability -->
-					<Unit_Ability>
-						<Type>HUNT</Type>
-					</Unit_Ability>
-				</Unit_Abilities_Data>
+
+                                <!-- Non-Hero unit abilities description -->
+                                <Unit_Abilities_Data SubObjectList="Yes">
+                                        <!-- Primary ability -->
+                                        <Unit_Ability>
+                                                <Type>HUNT</Type>
+                                        </Unit_Ability>
+                                </Unit_Abilities_Data>
 
         </SpaceUnit>
 
@@ -921,14 +921,14 @@
                 <Score_Cost_Credits> 600</Score_Cost_Credits>
 
                 <!-- <Create_Team_Type> StarViper_Team </Create_Team_Type> -->
-				
-				<!-- Non-Hero unit abilities description -->
-				<Unit_Abilities_Data SubObjectList="Yes">
-					<!-- Primary ability -->
-					<Unit_Ability>
-						<Type>HUNT</Type>
-					</Unit_Ability>
-				</Unit_Abilities_Data>
+
+                                <!-- Non-Hero unit abilities description -->
+                                <Unit_Abilities_Data SubObjectList="Yes">
+                                        <!-- Primary ability -->
+                                        <Unit_Ability>
+                                                <Type>HUNT</Type>
+                                        </Unit_Ability>
+                                </Unit_Abilities_Data>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
@@ -1697,7 +1697,7 @@
                          HP_MARAUDER_E3_MTL_02,
                          HP_MARAUDER_E3_MTL_03,
                          HP_MARAUDER_HANGAR,
-						 HP_MARAUDER_TRACTOR
+                                                 HP_MARAUDER_TRACTOR
                 </HardPoints>
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
                 <Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
@@ -1760,8 +1760,8 @@
 
                 <Select_Box_Scale>250</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-				
-				 <!-- Non-Hero unit abilities description -->
+
+                                 <!-- Non-Hero unit abilities description -->
            <Unit_Abilities_Data SubObjectList="Yes">
               <!-- Primary ability -->
               <Unit_Ability>
@@ -1822,7 +1822,7 @@
                          HP_MARAUDER_E3_DBM_01,
                          HP_MARAUDER_E3_DBM_02,
                          HP_MARAUDER_HANGAR,
-						 HP_MARAUDER_TRACTOR
+                         HP_MARAUDER_TRACTOR
                 </HardPoints>
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
         </SpaceUnit>
@@ -2911,8 +2911,8 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
-						
-						<Unit_Ability>
+
+                                                <Unit_Ability>
                                 <Type>POWER_TO_WEAPONS</Type>
                                 <Expiration_Seconds>20</Expiration_Seconds>
                                 <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
@@ -2923,7 +2923,7 @@
 
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                         </Unit_Ability>
-						
+
                 </Unit_Abilities_Data>
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -3482,7 +3482,7 @@
                        HP_MC80_HOMEONETYPE_E3_HANGAR_02,
                        HP_MC80_HOMEONETYPE_E3_SHIELD,
                        HP_MC80_HOMEONETYPE_E3_ENGINE,
-					   HP_MC80_HOMEONETYPE_E3_TRACTOR
+                       HP_MC80_HOMEONETYPE_E3_TRACTOR
                 </HardPoints>
 
                 <GUI_Distance>1650</GUI_Distance>
@@ -3566,8 +3566,8 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
-						
-				<Unit_Ability>
+
+                                <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
                     <GUI_Activated_Ability_Name> MC80_HomeOne_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
@@ -3575,11 +3575,11 @@
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
-				</Unit_Ability>
+                                </Unit_Ability>
 
                 </Unit_Abilities_Data>
-				
-				<Abilities SubObjectList="Yes">
+
+                                <Abilities SubObjectList="Yes">
               <Tractor_Beam_Attack_Ability Name="MC80_HomeOne_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
