@@ -866,7 +866,7 @@
                 <Encyclopedia_Unit_Class>UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> IR_TIE_INTERCEPTOR</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
-                <Icon_Name>I_BUTTON_K_WING_ESCORT.TGA</Icon_Name>
+                <Icon_Name>I_BUTTON_K_WING.TGA</Icon_Name>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
@@ -958,7 +958,7 @@
         <Encyclopedia_Unit_Class> UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
         <Encyclopedia_Good_Against> TIE_Interceptor_Squadron</Encyclopedia_Good_Against>
         <Encyclopedia_Vulnerable_To> Tartan_Patrol_Cruiser </Encyclopedia_Vulnerable_To>
-        <Icon_Name>I_BUTTON_K_WING.TGA</Icon_Name>
+        <Icon_Name>I_BUTTON_K_WING_ESCORT.TGA</Icon_Name>
                  <HardPoints>
                          HP_K-WING_ESCORT_E4_L,
                          HP_K-WING_ESCORT_E4_LTL,
@@ -976,7 +976,7 @@
                 <Encyclopedia_Unit_Class>UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> IR_TIE_INTERCEPTOR</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
-                <Icon_Name>I_BUTTON_K_WING.TGA</Icon_Name>
+                <Icon_Name>I_BUTTON_K_WING_ESCORT.TGA</Icon_Name>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
@@ -2002,6 +2002,21 @@
                 <!-- Non-Hero unit abilities description -->
            <Unit_Abilities_Data SubObjectList="Yes">
               <!-- Primary ability -->
+			  <Unit_Ability>
+                                <Type>DEFEND</Type>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+                                <Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.8f</Mod_Multiplier>
+                                <Recharge_Seconds>40</Recharge_Seconds>
+                                <Expiration_Seconds>15</Expiration_Seconds>
+
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
+                                <Supports_Autofire>True</Supports_Autofire>
+                        </Unit_Ability>
+			  
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
@@ -2048,7 +2063,7 @@
                 <Text_ID> TEXT_UNIT_MC90 </Text_ID>
                 <Space_Model_Name>VCBa_MC90_D.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
-                <Scale_Factor> 0.13 </Scale_Factor>
+                <Scale_Factor> 1.5 </Scale_Factor>
                 <Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
                 <Max_Speed> 0.25 </Max_Speed>
                 <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
