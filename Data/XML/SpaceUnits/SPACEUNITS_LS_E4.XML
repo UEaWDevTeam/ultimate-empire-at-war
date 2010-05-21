@@ -508,7 +508,7 @@
                 <Icon_Name>I_BUTTON_E_WING.TGA</Icon_Name>
 
                 <Space_Model_Name>VSF_E-WING.ALO</Space_Model_Name>
-                <Scale_Factor>0.9</Scale_Factor>
+                <Scale_Factor>0.49</Scale_Factor>
                 <Select_Box_Scale>40</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -1110,12 +1110,12 @@
                 <Icon_Name> I_BUTTON_QUASAR_FIRE.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_NR.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
                 <Space_Model_Name> VCCa_QUASAR_FIRE_CLASS.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
-                <Scale_Factor> 0.70 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
+                <Scale_Factor> 0.476 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.999</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> New Republic </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Light_Side </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1131,7 +1131,7 @@
                 <Shield_Refresh_Rate> 50 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armor_Nebulon_B </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Frigate_Basic </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2200 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
@@ -1329,8 +1329,8 @@
                 <Text_ID>TEXT_UNIT_QUASAR</Text_ID> <!-- Same as unit's -->
                 <Space_Model_Name>VCCa_QUASAR_FIRE_CLASS_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-                <Death_Explosions>Large_Explosion_Space</Death_Explosions>
-                <Scale_Factor>0.76</Scale_Factor>
+                <Death_Explosions>PEx_Explosion_Large_B</Death_Explosions>
+                <Scale_Factor>0.476</Scale_Factor>
                 <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -1342,7 +1342,7 @@
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
 
-        <SpaceUnit Name="RA_MARAUDER">
+        <SpaceUnit Name="NR_MARAUDER">
         <Variant_of_Existing_Type>RA_MARAUDER</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
                 <HardPoints>
