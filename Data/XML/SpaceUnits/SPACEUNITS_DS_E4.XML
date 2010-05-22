@@ -606,7 +606,7 @@
                 <Icon_Name>I_BUTTON_EV_TIE_PHANTOM.TGA</Icon_Name>
 
                 <Space_Model_Name>VSF_TIE_PHANTOM.ALO</Space_Model_Name>
-                <Scale_Factor>0.24</Scale_Factor>
+                <Scale_Factor>0.18</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -641,7 +641,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, HUNT, ABILITY_COUNTDOWN </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_PHANTOM_E4_L_01,
@@ -728,6 +728,25 @@
                         </Unit_Ability>
 
                  </Unit_Abilities_Data>
+				 
+				 <Abilities SubObjectList="Yes">
+        
+            <Stealth_Ability Name="Stealth_Phantom">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+                <SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+            </Stealth_Ability>
+            
+			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+            
+        </Abilities>
+
 
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
@@ -818,6 +837,25 @@
                         </Unit_Ability>
 
                 </Unit_Abilities_Data>
+				
+				<Abilities SubObjectList="Yes">
+        
+            <Stealth_Ability Name="Stealth_Phantom">
+                <Activation_Style> User_Input </Activation_Style>
+                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
+                <Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+                <SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+            </Stealth_Ability>
+            
+			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
+				<Initially_Enabled>Yes</Initially_Enabled>
+				<Activation_Style>Galactic_Automatic</Activation_Style>
+				<Causes_Despawn>No</Causes_Despawn>
+				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
+			</Galactic_Stealth_Ability>
+            
+        </Abilities>
+
 
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -841,7 +879,7 @@
                 <Icon_Name>I_BUTTON_TIE_DROID.tga</Icon_Name>
 
                 <Space_Model_Name>VSF_TIE_DROID.ALO</Space_Model_Name>
-                <Scale_Factor>0.2</Scale_Factor>
+                <Scale_Factor>0.4</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -876,11 +914,15 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>4</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, HUNT </SpaceBehavior>
 
                 <HardPoints>
                          HP_TIE_DROID_E4_L
                 </HardPoints>
+				
+				<Land_Damage_Thresholds>1, 0.5</Land_Damage_Thresholds>
+                <Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+                <Land_Damage_SFX>null, null</Land_Damage_SFX>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>

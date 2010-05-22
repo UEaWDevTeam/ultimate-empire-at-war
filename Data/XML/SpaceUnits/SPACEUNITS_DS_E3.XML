@@ -726,6 +726,10 @@
                          HP_TIE_BOMBER_E3_BLCM,
                          HP_TIE_BOMBER_E3_APPT
                 </HardPoints>
+				
+				<Land_Damage_Thresholds>1, 0.5</Land_Damage_Thresholds>
+                <Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+                <Land_Damage_SFX>null, null</Land_Damage_SFX>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
@@ -1636,6 +1640,10 @@
                          HP_IPV_PATROL_CRAFT_LTL_04,
                          HP_IPV_PATROL_CRAFT_APLCM
                 </HardPoints>
+				
+				<Land_Damage_Thresholds>1, 0.6, 0.3</Land_Damage_Thresholds>
+                <Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
+                <Land_Damage_SFX>null, null, null</Land_Damage_SFX>
 
                 <CategoryMask> Corvette | AntiFighter | AntiBomber </CategoryMask>
                 <Victory_Relevant>yes</Victory_Relevant>
