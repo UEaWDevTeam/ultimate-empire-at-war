@@ -4,8 +4,8 @@
 
         <!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters -->
         <SpaceUnit Name="R_ARC-170">
-                <Text_ID>TEXT_UNIT_ARC-170</Text_ID>
-                <Encyclopedia_Text>TEXT_TOOLTIP_ARC-170</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_ARC_170</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_ARC_170</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
@@ -148,7 +148,7 @@
         </SpaceUnit>
 
         <Squadron Name="R_ARC-170_SQUADRON">
-                <Text_ID>TEXT_UNIT_ARC_170_SQUADRON</Text_ID>
+                <Text_ID>TEXT_ARC_170_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ARC_170</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
@@ -372,17 +372,7 @@
                 <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
             <!-- Primary ability -->
-            <Unit_Ability>
-                                <Type>SPOILER_LOCK</Type>
-
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
-            </Unit_Ability>
-
+            
                         <Unit_Ability>
                                 <Type>HUNT</Type>
                         </Unit_Ability>
@@ -473,17 +463,7 @@
       <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
             <!-- Primary ability -->
-            <Unit_Ability>
-                                <Type>SPOILER_LOCK</Type>
-
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
-            </Unit_Ability>
-
+          
                         <Unit_Ability>
                                 <Type>HUNT</Type>
                         </Unit_Ability>
@@ -616,17 +596,7 @@
                 <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
             <!-- Primary ability -->
-            <Unit_Ability>
-                                <Type>SPOILER_LOCK</Type>
-
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
-            </Unit_Ability>
-
+            
                         <Unit_Ability>
                                 <Type>HUNT</Type>
                         </Unit_Ability>
@@ -717,17 +687,7 @@
       <!-- Non-Hero unit abilities description -->
                 <Unit_Abilities_Data SubObjectList="Yes">
             <!-- Primary ability -->
-            <Unit_Ability>
-                                <Type>SPOILER_LOCK</Type>
-
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
-            </Unit_Ability>
-
+           
                         <Unit_Ability>
                                 <Type>HUNT</Type>
                         </Unit_Ability>
@@ -833,9 +793,6 @@
                 <MovementClass> Space </MovementClass>
                 <Victory_Relevant>yes</Victory_Relevant>
                 <Hover_Offset>0.0</Hover_Offset>
-
-                                <No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
-
 
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
@@ -952,10 +909,10 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> i_button_corellian_corvette.tga</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
+                <Icon_Name> i_button_republic_corvette.tga</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
                 <Space_Model_Name>VCCo_REPUBLIC_CORVETTE.ALO</Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
-                <Scale_Factor> 0.48 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
+                <Scale_Factor> 0.288 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.995</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1047,7 +1004,7 @@
                         HP_CONSULAR_CLASS_LTL_02,
                         HP_CONSULAR_CLASS_LTL_03,
                         HP_CONSULAR_CLASS_LTL_04,
-                        HP_CONSULAR_CLASS_LTL_05,
+						HP_CONSULAR_CLASS_LTL_05,
                         HP_CONSULAR_CLASS_L
                 </HardPoints>
         <!-- Death  Stats -->
