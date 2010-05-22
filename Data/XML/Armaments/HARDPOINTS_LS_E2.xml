@@ -6,6 +6,33 @@
 <!--HARDPOINTS FOR UEAW V1 LIGHT SIDE, ERA 2: RISE OF THE EMPIRE -->
 <!-- oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo -->
 
+<!--V-19 Torrent Starfighter Hardpoints-->
+         <HardPoint Name="HP_V19_TORRENT_HL">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>500.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
 <!-- ARC-170 HARD POINT DATA -->
 
          <HardPoint Name="HP_ARC_170_HL">
@@ -18,8 +45,8 @@
                 <Fire_Cone_Width>130.0</Fire_Cone_Width>
                 <Fire_Cone_Height>30.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+                <Fire_Min_Recharge_Seconds>0.9</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.9</Fire_Max_Recharge_Seconds>
                 <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
