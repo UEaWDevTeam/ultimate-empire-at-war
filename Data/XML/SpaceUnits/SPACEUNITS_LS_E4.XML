@@ -1372,7 +1372,7 @@
 
         <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->        <!-- Utility -->
 
-        <SpaceUnit Name="NR_EF76_FRIGATE">
+        <SpaceUnit Name="NR_EF76_HOSPITAL_FRIGATE">
         <Variant_of_Existing_Type>RA_EF76_HOSPITAL_FRIGATE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
         <HardPoints>
@@ -1460,34 +1460,6 @@
                 </HardPoints>
         </SpaceUnit>
 
-        <SpaceUnit Name="NR_DREADNAUGHT">
-        <Variant_of_Existing_Type>RA_DREADNAUGHT</Variant_of_Existing_Type>
-        <Affiliation>Light_Side</Affiliation>
-
-                <HardPoints>
-                         HP_NR_DREADNAUGHT_MTL_01,
-                         HP_NR_DREADNAUGHT_MTL_02,
-                         HP_NR_DREADNAUGHT_MTL_03,
-                         HP_NR_DREADNAUGHT_MTL_04,
-                         HP_NR_DREADNAUGHT_MTL_05,
-                         HP_NR_DREADNAUGHT_MTL_06,
-                         HP_NR_DREADNAUGHT_HL_01,
-                         HP_NR_DREADNAUGHT_HL_02,
-                         HP_NR_DREADNAUGHT_L_01,
-                         HP_NR_DREADNAUGHT_L_02,
-                         HP_NR_DREADNAUGHT_L_03,
-                         HP_NR_DREADNAUGHT_L_04,
-                         HP_NR_DREADNAUGHT_L_05,
-                         HP_NR_DREADNAUGHT_L_06,
-                         HP_NR_DREADNAUGHT_SHIELD,
-                         HP_NR_DREADNAUGHT_HANGAR,
-                         HP_NR_DREADNAUGHT_ENGINE
-                </HardPoints>
-
-                <Starting_Spawned_Units_Tech_0>NR_Y-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
-
-        </SpaceUnit>
-
         <SpaceUnit Name="NR_DREADNAUGHT_REFIT">
         <Variant_of_Existing_Type>RA_DREADNAUGHT_REFIT</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
@@ -1518,7 +1490,7 @@
 
         <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->        <!-- Capital Ships -->
         <SpaceUnit Name="NR_MC80_HOMEONETYPE">
-        <Variant_of_Existing_Type>NR_MC80_HOMEONETYPE</Variant_of_Existing_Type>
+        <Variant_of_Existing_Type>RA_MC80_HOMEONETYPE</Variant_of_Existing_Type>
         <Affiliation>Light_Side</Affiliation>
 
                 <HardPoints>
@@ -2002,7 +1974,7 @@
                 <!-- Non-Hero unit abilities description -->
            <Unit_Abilities_Data SubObjectList="Yes">
               <!-- Primary ability -->
-			  <Unit_Ability>
+                          <Unit_Ability>
                                 <Type>DEFEND</Type>
                                 <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        1.0f</Mod_Multiplier>
                                 <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
@@ -2016,7 +1988,7 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
-			  
+
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>

@@ -1438,8 +1438,10 @@
 
     </HardPoint>
 
+    <!--Secondary Hardpoints-->
+
     <HardPoint Name="HP_EF76_E4_LTL_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -1476,7 +1478,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_E4_LTL_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -1514,7 +1516,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_E4_L_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -1555,7 +1557,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_E4_L_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -1596,7 +1598,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_E4_L_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -1633,7 +1635,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_E4_L_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -1718,7 +1720,7 @@
 <!--Nebulon-B Hospital Frigate hardpoints-->
 
     <HardPoint Name="HP_EF76_HOSPITAL_E4_LTL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -1760,7 +1762,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_HOSPITAL_E4_LTL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -1802,7 +1804,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_HOSPITAL_E4_L_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -1843,7 +1845,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_EF76_HOSPITAL_E4_L_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -2066,7 +2068,7 @@
 
    <HardPoint Name="HP_QUASAR_FIRE_E4_HTL_01">
 
-              <Type> HARD_POINT_WEAPON_LASER </Type>
+              <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
@@ -2103,7 +2105,7 @@
 
    <HardPoint Name="HP_QUASAR_FIRE_E4_HTL_02">
 
-              <Type> HARD_POINT_WEAPON_LASER </Type>
+              <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
@@ -2168,574 +2170,7 @@
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
      </HardPoint>
 
-<!-- Dreadnaught Heavy Cruiser hardpoints -->
 
-
-<!--Primary Weapons-->
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>350.0</Health> <!-- was 280 -->
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_00.alo</Model_To_Attach>
-            <Attachment_Bone>ATTACH_00</Attachment_Bone>
-            <Collision_Mesh>ATTACH_00_COLL</Collision_Mesh>
-            <Damage_Particles>ATTACH_00_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, -45.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>TURRET_00</Turret_Bone_Name>
-            <Barrel_Bone_Name>BARREL_00</Barrel_Bone_Name>
-
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_02">
-                <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>350.0</Health> <!-- was 280 -->
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_01.alo</Model_To_Attach>
-            <Attachment_Bone>ATTACH_01</Attachment_Bone>
-            <Collision_Mesh>ATTACH_01_COLL</Collision_Mesh>
-            <Damage_Particles>ATTACH_01_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, -45.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
-            <Barrel_Bone_Name>BARREL_01</Barrel_Bone_Name>
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_03">
-                       <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>350.0</Health> <!-- was 280 -->
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_02.alo</Model_To_Attach>
-            <Attachment_Bone>ATTACH_02</Attachment_Bone>
-            <Collision_Mesh>ATTACH_02_COLL</Collision_Mesh>
-            <Damage_Particles>ATTACH_02_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>MUZZLEA_04</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEA_05</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, -45.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
-            <Barrel_Bone_Name>BARREL_02</Barrel_Bone_Name>
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_04">
-                                <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>350.0</Health> <!-- was 280 -->
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach>RVFr_ASSSAULT_FRIGATE_MK_I_TURRET_03.alo</Model_To_Attach>
-            <Attachment_Bone>ATTACH_03</Attachment_Bone>
-            <Collision_Mesh>ATTACH_03_COLL</Collision_Mesh>
-            <Damage_Particles>ATTACH_03_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>MUZZLEA_06</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, -45.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
-            <Barrel_Bone_Name>BARREL_03</Barrel_Bone_Name>
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_HL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_09</Attachment_Bone>
-            <Collision_Mesh>HP_09_COLL</Collision_Mesh>
-            <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_26</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_28</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_HL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_08</Attachment_Bone>
-            <Collision_Mesh>HP_08_COLL</Collision_Mesh>
-            <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_27</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_29</Fire_Bone_B>
-            <Fire_Cone_Width>90.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>8</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <!--Secondary Weapons-->
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_05">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_05</Attachment_Bone>
-            <Collision_Mesh>HP_05_COLL</Collision_Mesh>
-            <Damage_Particles>HP_05_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_03</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_21</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_MTL_06">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_04</Attachment_Bone>
-            <Collision_Mesh>HP_04_COLL</Collision_Mesh>
-            <Damage_Particles>HP_04_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_02</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_20</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E4_Red_Medium</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_L_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_00</Attachment_Bone>
-            <Collision_Mesh>HP_00_COLL</Collision_Mesh>
-            <Damage_Particles>HP_00_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_12</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_14</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_L_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_01</Attachment_Bone>
-            <Collision_Mesh>HP_01_COLL</Collision_Mesh>
-            <Damage_Particles>HP_01_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_13</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_15</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-        <HardPoint Name="HP_NR_DREADNAUGHT_L_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_07</Attachment_Bone>
-            <Collision_Mesh>HP_07_COLL</Collision_Mesh>
-            <Damage_Particles>HP_07_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_09</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_11</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_L_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_06</Attachment_Bone>
-            <Collision_Mesh>HP_06_COLL</Collision_Mesh>
-            <Damage_Particles>HP_06_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_08</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_10</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-        <HardPoint Name="HP_NR_DREADNAUGHT_L_05">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_02</Attachment_Bone>
-            <Collision_Mesh>HP_02_COLL</Collision_Mesh>
-            <Damage_Particles>HP_02_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_16</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_18</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_L_06">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
-            <Attachment_Bone>HP_03</Attachment_Bone>
-            <Collision_Mesh>HP_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_03_EMITDAMAGE</Damage_Particles>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-            <Fire_Bone_A>MUZZLEB_17</Fire_Bone_A>
-            <Fire_Bone_B>MUZZLEB_19</Fire_Bone_B>
-            <Fire_Cone_Width>160.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-    </HardPoint>
-
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_SHIELD">
-                        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>260.0</Health>
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-
-
-            <Attachment_Bone>HP_SHIELD</Attachment_Bone>
-            <Collision_Mesh>HP_SHIELD_COLL</Collision_Mesh>
-            <Damage_Particles>HP_SHIELD_EMITDAMAGE</Damage_Particles>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_HANGAR">
-                <Type> HARD_POINT_FIGHTER_BAY </Type>
-                <Is_Targetable>Yes</Is_Targetable>
-                <Is_Destroyable>Yes</Is_Destroyable>
-                <Attachment_Bone>SPAWN_00</Attachment_Bone>
-                <Collision_Mesh>SPAWN_00_COLL</Collision_Mesh>
-
-                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                <Health>260.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-    </HardPoint>
-
-    <HardPoint Name="HP_NR_DREADNAUGHT_ENGINE">
-                        <Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>260.0</Health>  <!-- Was 250 -->
-            <Attachment_Bone>HP_ENGINES</Attachment_Bone>
-            <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
-
-            <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
-            <Engine_Particles>HP_ENGINES</Engine_Particles>
-
-                        <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
-                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-
-    </HardPoint>
 <!--Dreadnaught Class Heavy Cruiser (Refit) Hardpoints-->
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_MTL_01">
@@ -2924,7 +2359,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -2957,7 +2392,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -2990,7 +2425,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_MTL_05">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -3025,7 +2460,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_MTL_06">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -3061,7 +2496,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LTL_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3097,7 +2532,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LTL_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3133,7 +2568,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LTL_03">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3169,7 +2604,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_NR_DREADNAUGHT_REFIT_LTL_04">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3277,7 +2712,7 @@
 
 
     <HardPoint Name="HP_MC30_E4_LTL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3314,7 +2749,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC30_E4_LTL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -3351,7 +2786,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC30_E4_APHPT">
-                        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPTA</Tooltip_Text>
@@ -3383,7 +2818,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC30_E4_APPT_01">
-               <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
@@ -3414,7 +2849,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC30_E4_APPT_02">
-               <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
@@ -3670,7 +3105,7 @@
     <!--Secondary Weapons-->
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3715,7 +3150,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3759,7 +3194,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3802,7 +3237,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3845,7 +3280,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_05">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3888,7 +3323,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_L_06">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -3931,7 +3366,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_HL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
@@ -3976,7 +3411,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E4_HL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
@@ -4219,7 +3654,7 @@
 <!--Secondary Weapons-->
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_L_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -4258,7 +3693,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_L_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -4297,7 +3732,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_L_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -4336,7 +3771,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_L_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
@@ -4375,7 +3810,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_LTL_01">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -4414,7 +3849,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E4_LTL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
@@ -4637,7 +4072,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -4678,7 +4113,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -4718,9 +4153,9 @@
 
     </HardPoint>
 
-<!--Secondary Weapons-->
+         <!--Secondary Weapons-->
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MTL_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -4758,7 +4193,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MTL_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -4796,7 +4231,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MTL_05">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -4834,7 +4269,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_MTL_06">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -4872,7 +4307,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_LI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -4908,7 +4343,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_LI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -4944,7 +4379,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_LI_03">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -4980,7 +4415,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_LIBERTYTYPE_E4_LI_04">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
@@ -5285,7 +4720,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5323,7 +4758,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5360,8 +4795,10 @@
 
     </HardPoint>
 
+    <!--Secondary Weapons-->
+
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HTL_03">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -5400,7 +4837,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HTL_04">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -5439,7 +4876,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HTL_05">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -5478,7 +4915,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HTL_06">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -5517,7 +4954,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_03">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5555,7 +4992,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_04">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5593,7 +5030,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_05">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5631,7 +5068,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_HI_06">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -5669,7 +5106,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_MTL_05">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -5708,7 +5145,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E4_MTL_06">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -5983,7 +5420,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_HI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -6022,7 +5459,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_HI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -6061,7 +5498,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_HI_03">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -6100,7 +5537,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_HI_04">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
@@ -6141,7 +5578,7 @@
     <!--Secondary Hardpoints-->
 
     <HardPoint Name="HP_MC90_E4_HTL_05">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -6180,7 +5617,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_HTL_06">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
@@ -6219,7 +5656,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MTL_01">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -6258,7 +5695,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MTL_02">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -6297,7 +5734,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MTL_03">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -6336,7 +5773,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MTL_04">
-               <Type> HARD_POINT_WEAPON_LASER </Type>
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -6375,7 +5812,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_01">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -6413,7 +5850,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_02">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -6451,7 +5888,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_03">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -6489,7 +5926,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_04">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -6527,7 +5964,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_05">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
@@ -6565,7 +6002,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_MC90_E4_MI_06">
-                        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
