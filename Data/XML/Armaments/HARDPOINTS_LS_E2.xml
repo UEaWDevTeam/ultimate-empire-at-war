@@ -883,11 +883,11 @@
 
 <!--Hardpoints for Victory II Class Frigate-->
 
-    <HardPoint Name="HP_VICTORY_FRIGATE_HL_01">
+    <HardPoint Name="HP_VICTORY_FRIGATE_FLAK_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_FLAK</Tooltip_Text>
             <Health>220.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -901,17 +901,17 @@
             <Fire_Bone_B>FLAK_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Flak</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1300.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
@@ -920,11 +920,11 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_VICTORY_FRIGATE_HL_02">
+    <HardPoint Name="HP_VICTORY_FRIGATE_FLAK_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_FLAK</Tooltip_Text>
             <Health>220.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -938,17 +938,17 @@
             <Fire_Bone_B>FLAK_02_FB01</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Flak</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1300.0</Fire_Range_Distance>
-                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+            <Fire_Range_Distance>800.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
@@ -959,7 +959,7 @@
 
     <!--Secondary Weapons-->
 
-    <HardPoint Name="HP_VICTORY_FRIGATE_HL_03">
+    <HardPoint Name="HP_VICTORY_FRIGATE_HL_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -996,7 +996,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_VICTORY_FRIGATE_HL_04">
+    <HardPoint Name="HP_VICTORY_FRIGATE_HL_02">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
