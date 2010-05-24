@@ -485,7 +485,7 @@
                 <Min_Speed>3.5</Min_Speed>
                 <Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>50</Bank_Turn_Angle>
                 <Max_Lift>4</Max_Lift>
                 <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
@@ -1245,18 +1245,18 @@
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 2.4 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 1.25 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.4 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 40 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>400.0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0</Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
                 <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command> <!-- Fighters always move -->
 
                 <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
-                <Max_Thrust>0.5</Max_Thrust>
+                <Max_Thrust>0.4</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
         <!-- Behaviours -->
                 <Behavior>
@@ -1450,19 +1450,19 @@
                 <Space_Layer> Corvette </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.1 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 1.2 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Speed> 2.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.3 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 15 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0 </Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>400.0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
                 <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command> <!-- Fighters always move -->
 
                 <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
-                <Max_Thrust>0.8</Max_Thrust>
+                <Max_Thrust>0.9</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
         <!-- Behaviours -->
                 <Behavior>
@@ -1622,14 +1622,14 @@
 
         <Ranking_In_Category>7</Ranking_In_Category>
                 <Max_Speed>1.8</Max_Speed> <!-- Was 3.25 -->
-                <Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Corvette </Space_Layer>
                 <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>15</Bank_Turn_Angle>
-                <OverrideAcceleration> .05 </OverrideAcceleration>
-                <OverrideDeceleration> .05 </OverrideDeceleration>
+                <OverrideAcceleration> .045 </OverrideAcceleration>
+                <OverrideDeceleration> .045 </OverrideDeceleration>
 
                 <Ranged_Target_Z_Adjust>35</Ranged_Target_Z_Adjust>
                 <Armor_Type> Armour_Corvette</Armor_Type>
@@ -1913,11 +1913,11 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 1.6 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2354,12 +2354,12 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 3.0 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.8 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .045 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .045 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2583,12 +2583,12 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <!--fast for testing-->
-                <Max_Speed> 2.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.6 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Speed> 2.1 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2810,12 +2810,12 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.7 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.6 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Rate_Of_Turn> 0.45 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .035 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .035 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -3005,12 +3005,12 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Max_Speed>1.04</Max_Speed>
-                <Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <Bank_Turn_Angle>15</Bank_Turn_Angle>
                 <OverrideAcceleration> .04 </OverrideAcceleration>
                 <OverrideDeceleration> .04 </OverrideDeceleration>
 
@@ -3018,7 +3018,7 @@
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Select_Box_Scale>150</Select_Box_Scale>
+                <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -3207,12 +3207,12 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Max_Speed>1.1</Max_Speed>
-                <Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <Bank_Turn_Angle>15</Bank_Turn_Angle>
                 <OverrideAcceleration> .04 </OverrideAcceleration>
                 <OverrideDeceleration> .04 </OverrideDeceleration>
 
@@ -3220,7 +3220,7 @@
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Select_Box_Scale>150</Select_Box_Scale>
+                <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -3393,16 +3393,16 @@
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
                 <Max_Speed>2.4</Max_Speed>
-                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
                 <Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
-                <OverrideAcceleration> .02 </OverrideAcceleration>
-                <OverrideDeceleration> .02 </OverrideDeceleration>
+                <OverrideAcceleration> .01 </OverrideAcceleration>
+                <OverrideDeceleration> .01 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>25</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
@@ -3663,16 +3663,16 @@
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
                 <Max_Speed>2.5</Max_Speed>
-                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.18</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
                 <Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
-                <OverrideAcceleration> .02 </OverrideAcceleration>
-                <OverrideDeceleration> .02 </OverrideDeceleration>
+                <OverrideAcceleration> .015 </OverrideAcceleration>
+                <OverrideDeceleration> .015 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.03</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>25</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
