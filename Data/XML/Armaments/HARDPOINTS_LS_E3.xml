@@ -1378,7 +1378,14 @@
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
-
+	
+	<HardPoint Name="HP_EF76_TRACTOR">
+                    <Type> HARD_POINT_TRACTOR_BEAM </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Attachment_Bone>HP_L_02</Attachment_Bone>
+    </HardPoint>
+	
     <!--Should be changed-->
     <HardPoint Name="HP_EF76_E3_HANGAR">
                     <Type> HARD_POINT_FIGHTER_BAY </Type>

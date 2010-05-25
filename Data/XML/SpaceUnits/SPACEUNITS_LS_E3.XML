@@ -24,7 +24,7 @@
                 <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
                 <Max_Thrust>0.7</Max_Thrust>
-                <Max_Rate_Of_Roll>4.0</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>40</Bank_Turn_Angle>
                 <Max_Lift>4</Max_Lift>
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
@@ -465,7 +465,7 @@
 
         </Squadron>
 
-                <SpaceUnit Name="RA_A-WING">
+        <SpaceUnit Name="RA_A-WING">
                 <Text_ID>TEXT_UNIT_A_WING</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
@@ -510,7 +510,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>1</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN </SpaceBehavior>
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN, LURE </SpaceBehavior>
 
                 <HardPoints>
                          HP_A-Wing_E3_L,
@@ -586,7 +586,7 @@
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
 
-                                <Unit_Abilities_Data SubObjectList="Yes">
+            <Unit_Abilities_Data SubObjectList="Yes">
 
                         <Unit_Ability>
                                 <Type>SENSOR_JAMMING</Type>
@@ -594,9 +594,39 @@
                                 <Recharge_Seconds>60.0</Recharge_Seconds>
                                 <Expiration_Seconds>20.0</Expiration_Seconds>
                                 <Effective_Radius>50.0</Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+								<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
                         </Unit_Ability>
+						
+			<Unit_Ability>
+				<Type>LURE</Type>
+				
+				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+				<Effective_Radius>350</Effective_Radius>
+				
+				<Target_Types>
+					E_TIE_Fighter, 
+					E_TIE_Fighter_Squadron, 
+					E_TIE_Interceptor,
+					E_TIE_Interceptor_Squadron,
+					E_TIE_Scout, 
+					E_TIE_Scout_Squadron, 
+					E_TIE_Defender,
+					E_TIE_Defender_Squadron,
+				<!-- every fighter needs to be here -->
+				</Target_Types>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				
+				<Is_Pulsing>Yes</Is_Pulsing>
+				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+	
+				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.9f</Mod_Multiplier><!-- Invulnerable -->
+			</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
@@ -692,6 +722,11 @@
                                 <Effective_Radius>300.0</Effective_Radius>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+							<Type>LURE</Type>
+							<!-- details in the unit's XML -->
+						</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
@@ -740,7 +775,7 @@
                 <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>1.8</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>70</Bank_Turn_Angle>
                 <Max_Lift>3</Max_Lift>
                 <Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
@@ -961,7 +996,7 @@
                 <Min_Speed>0.5</Min_Speed>
                 <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>80</Bank_Turn_Angle>
                 <Max_Lift>3</Max_Lift>
                 <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
@@ -1246,10 +1281,10 @@
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 2.4 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.4 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Roll> 0.85 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 40 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>400.0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0</Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -1333,7 +1368,7 @@
                                 <Type>TURBO</Type>
 
                                 <Expiration_Seconds>20</Expiration_Seconds>
-                                <Recharge_Seconds>50</Recharge_Seconds>
+                                <Recharge_Seconds>60</Recharge_Seconds>
                                 <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
                                 <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.0f</Mod_Multiplier>
                                 <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
@@ -1454,7 +1489,7 @@
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 2.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.3 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Roll> 0.9 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 15 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
@@ -1551,8 +1586,8 @@
                         <Unit_Ability>
                                 <Type>TURBO</Type>
 
-                                <Expiration_Seconds>23</Expiration_Seconds>
-                                <Recharge_Seconds>58</Recharge_Seconds>
+                                <Expiration_Seconds>25</Expiration_Seconds>
+                                <Recharge_Seconds>70</Recharge_Seconds>
                                 <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
                                 <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
                                 <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
@@ -1628,10 +1663,10 @@
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Corvette </Space_Layer>
                 <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.9</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>15</Bank_Turn_Angle>
-                <OverrideAcceleration> .045 </OverrideAcceleration>
-                <OverrideDeceleration> .045 </OverrideDeceleration>
+                <OverrideAcceleration> .035 </OverrideAcceleration>
+                <OverrideDeceleration> .035 </OverrideDeceleration>
 
                 <Ranged_Target_Z_Adjust>35</Ranged_Target_Z_Adjust>
                 <Armor_Type> Armour_Corvette</Armor_Type>
@@ -1915,8 +1950,8 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 1.6 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Turn> 0.5 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
@@ -2024,6 +2059,37 @@
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
                 </Unit_Abilities_Data>
+				
+				<Abilities SubObjectList="Yes">
+			
+					<Force_Healing_Ability Name="EF76_HOSPITAL_REPAIR">
+						<Activation_Style>Space_Automatic</Activation_Style>
+						<Heal_Range>850.0</Heal_Range>
+						<Heal_Amount>96.0</Heal_Amount>
+						<Blob_Color>0, 255, 0, 255</Blob_Color>
+						<Heal_Interval_In_Secs>3.0</Heal_Interval_In_Secs>
+						<Single_Target_Heal>Yes</Single_Target_Heal>
+						<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+						<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+						<Applicable_Unit_Types />
+						<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+						<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+						<Target_Particle_Bone_Name>SPOT01.TARGET, MISSILE_TARGET01, MISSILE_TARGET00</Target_Particle_Bone_Name>
+						<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+						<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+						<Target_Light_Effect_Color2 />
+						<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+						<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+						<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+						<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+						<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+						<Owner_Light_Effect_Color2 />
+						<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+						<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+						<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+					</Force_Healing_Ability>
+					
+				</Abilities>
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
@@ -2134,11 +2200,11 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 1.6 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Turn> 0.5 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2177,7 +2243,8 @@
                         HP_EF76_E3_L_02,
                         HP_EF76_E3_L_03,
                         HP_EF76_E3_L_04,
-                        HP_EF76_E3_ENGINES
+                        HP_EF76_E3_ENGINES,
+						HP_EF76_TRACTOR
                         <!-- HP_EF76_E3_SHIELD -->
                 </HardPoints>
         <!-- Death  Stats -->
@@ -2246,7 +2313,34 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+								<Type>TRACTOR_BEAM</Type>
+								<Mod_Multiplier>SPEED_MULTIPLIER, 0.9f</Mod_Multiplier>
+								<GUI_Activated_Ability_Name> Nebulon_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+								<Recharge_Seconds>25</Recharge_Seconds>
+								<SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+                                <Supports_Autofire>True</Supports_Autofire>
+						</Unit_Ability>
                 </Unit_Abilities_Data>
+				
+			<Abilities SubObjectList="Yes">
+              <Tractor_Beam_Attack_Ability Name="Nebulon_Tractor_Beam_Attack_Ability">
+                    <Activation_Style> User_Input </Activation_Style>
+                    <Applicable_Unit_Categories>Transport | Corvette </Applicable_Unit_Categories>
+                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                    <Activation_Min_Range>10</Activation_Min_Range>
+                    <Activation_Max_Range>1100</Activation_Max_Range>
+
+
+                    <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                    <Target_Speed_Decrease_Percent>0.7</Target_Speed_Decrease_Percent>
+                    <Stacking_Category>0</Stacking_Category>
+              </Tractor_Beam_Attack_Ability>
+			  
+			 </Abilities> 
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
@@ -2357,11 +2451,11 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 2.8 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Turn> 0.5 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .045 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .045 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .025 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .025 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2587,10 +2681,10 @@
                 <!--fast for testing-->
                 <Max_Speed> 2.1 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.3 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Roll> 0.36 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .03 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .03 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .02 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .02 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2691,18 +2785,15 @@
         <!-- Abilities -->
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <Unit_Ability>
-                                <Type>DEFEND</Type>
-                                <Expiration_Seconds>15</Expiration_Seconds>
+                                <Type>POWER_TO_WEAPONS</Type>
+                                <Expiration_Seconds>20</Expiration_Seconds>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -2f</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
                                 <Recharge_Seconds>60</Recharge_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-                                <Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,        0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.8f</Mod_Multiplier>
 
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Assault_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-                                <Supports_Autofire>True</Supports_Autofire>
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                         </Unit_Ability>
                 </Unit_Abilities_Data>
         <!-- Radar and FOW Stats -->
@@ -2813,11 +2904,11 @@
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.45 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Turn> 0.2 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.3 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .035 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .035 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .015 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .015 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -2929,11 +3020,11 @@
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
 
-                                                <Unit_Ability>
+                        <Unit_Ability>
                                 <Type>POWER_TO_WEAPONS</Type>
                                 <Expiration_Seconds>20</Expiration_Seconds>
                                 <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -3f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -2f</Mod_Multiplier>
                                 <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
                                 <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
                                 <Recharge_Seconds>60</Recharge_Seconds>
@@ -3007,14 +3098,14 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Max_Speed>1.04</Max_Speed>
-                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.13</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.15</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>15</Bank_Turn_Angle>
-                <OverrideAcceleration> .04 </OverrideAcceleration>
-                <OverrideDeceleration> .04 </OverrideDeceleration>
+                <OverrideAcceleration> .02 </OverrideAcceleration>
+                <OverrideDeceleration> .02 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Frigate_Basic </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
@@ -3209,14 +3300,14 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Max_Speed>1.1</Max_Speed>
-                <Max_Rate_Of_Turn>0.35</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.25</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>15</Bank_Turn_Angle>
-                <OverrideAcceleration> .04 </OverrideAcceleration>
-                <OverrideDeceleration> .04 </OverrideDeceleration>
+                <OverrideAcceleration> .03 </OverrideAcceleration>
+                <OverrideDeceleration> .03 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Frigate </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
@@ -3395,16 +3486,16 @@
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
                 <Max_Speed>2.4</Max_Speed>
-                <Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.04</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
                 <Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
-                <OverrideAcceleration> .01 </OverrideAcceleration>
-                <OverrideDeceleration> .01 </OverrideDeceleration>
+                <OverrideAcceleration> .007 </OverrideAcceleration>
+                <OverrideDeceleration> .007 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
-                <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.04</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>25</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
@@ -3584,11 +3675,11 @@
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
 
-                                <Unit_Ability>
+                <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
                     <GUI_Activated_Ability_Name> MC80_HomeOne_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                    <Recharge_Seconds>25</Recharge_Seconds>
+                    <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
@@ -3665,16 +3756,16 @@
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
                 <Max_Speed>2.5</Max_Speed>
-                <Max_Rate_Of_Turn>0.18</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>0.05</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
                 <Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
-                <OverrideAcceleration> .015 </OverrideAcceleration>
-                <OverrideDeceleration> .015 </OverrideDeceleration>
+                <OverrideAcceleration> .009 </OverrideAcceleration>
+                <OverrideDeceleration> .009 </OverrideDeceleration>
 
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
-                <Max_Rate_Of_Roll>0.03</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.06</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>25</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
