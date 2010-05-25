@@ -3,7 +3,7 @@
 <MusicEvents>
 
 	<MusicEvent Name="Main_Menu_Music_Event">
-		<Files>UND_Zann_Consortium_Theme.MP3</Files>
+		<Files>Fighting_the_destroyer_droids.MP3, REP_BATTLE_1.MP3, REP_BATTLE_2.MP3, Tie_Fighter_Attack.MP3, Imperial_Cruiser_Pursuit.MP3</Files>
         <Volume_Percent>80</Volume_Percent>
         <Fade_In_Seconds>0.0</Fade_In_Seconds>
         <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
@@ -396,6 +396,22 @@
 
 <!-- START SPACE THEMES -->
 
+	<MusicEvent Name="Space_Map_LS_Ambient_Music_Event">
+		 <Files> Imperial_Attack_1.MP3, Beginning_The_Approach.MP3, Boarding_The_Federation_Battleship.MP3, Vaders_Presence.MP3, Death_Star_Stormtroopers.MP3, Empire_At_War.MP3, REP_AMBIENT_1.MP3, REP_AMBIENT_2.MP3, REP_AMBIENT_3.MP3, REP_AMBIENT_4.MP3, REP_AMBIENT_5.MP3</Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_DS_Ambient_Music_Event">
+		 <Files> Imperial_Attack_1.MP3, Beginning_The_Approach.MP3, Boarding_The_Federation_Battleship.MP3, Vaders_Presence.MP3, Death_Star_Stormtroopers.MP3, Empire_At_War.MP3, CIS_AMBIENT_1.MP3, CIS_AMBIENT_2.MP3, CIS_AMBIENT_3.MP3, CIS_AMBIENT_4.MP3, CIS_AMBIENT_5.MP3</Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
 
 	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
 		 <Files> Imperial_Attack_1.MP3, Beginning_The_Approach.MP3, Boarding_The_Federation_Battleship.MP3, Vaders_Presence.MP3, Death_Star_Stormtroopers.MP3, Empire_At_War.MP3</Files>
@@ -413,7 +429,38 @@
 		 <Loop>Yes</Loop>
 	</MusicEvent>
 
+	<MusicEvent Name="Space_Map_Republic_Ambient_Music_Event">
+		 <Files>REP_AMBIENT_1.MP3, REP_AMBIENT_2.MP3, REP_AMBIENT_3.MP3, REP_AMBIENT_4.MP3, REP_AMBIENT_5.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
 
+	<MusicEvent Name="Space_Map_CIS_Ambient_Music_Event">
+		 <Files> CIS_AMBIENT_1.MP3, CIS_AMBIENT_2.MP3, CIS_AMBIENT_3.MP3, CIS_AMBIENT_4.MP3, CIS_AMBIENT_5.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>2.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
+	
+	<MusicEvent Name="Space_Map_LS_Battle_Music_Event">
+		 <Files> Escape_From_Naboo.MP3, Fighting_The_Destroyer_Droids.MP3, Tie_Fighter_Attack.MP3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Attacking_the_Blockade.MP3, REP_BATTLE_1.MP3, REP_BATTLE_2.MP3, REP_BATTLE_3.MP3, REP_BATTLE_4.MP3, REP_BATTLE_4B.MP3, REP_BATTLE_4C.MP3, REP_BATTLE_5.MP3, REP_BATTLE_6.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_DS_Battle_Music_Event">
+		<Files> CIS_BATTLE_1.MP3, CIS_BATTLE_2.MP3, CIS_BATTLE_3.MP3, CIS_BATTLE_4.MP3, CIS_BATTLE_4B.MP3, CIS_BATTLE_5.MP3, CIS_BATTLE_6.MP3, CIS_BATTLE_7.MP3, Escape_From_Naboo.MP3, Fighting_The_Destroyer_Droids.MP3, Tie_Fighter_Attack.MP3, Imperial_Cruiser_Pursuit.MP3, The_Asteroid_Field.MP3, Space_Pursuit.MP3, Rebellion_Advantage.MP3, Attacking_the_Blockade.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
 
 
 
@@ -432,6 +479,23 @@
 		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
 		 <Loop>Yes</Loop>
 	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Republic_Battle_Music_Event">
+		 <Files>REP_BATTLE_1.MP3, REP_BATTLE_2.MP3, REP_BATTLE_3.MP3, REP_BATTLE_4.MP3, REP_BATTLE_4B.MP3, REP_BATTLE_4C.MP3, REP_BATTLE_5.MP3, REP_BATTLE_6.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_CIS_Battle_Music_Event">
+		<Files> CIS_BATTLE_1.MP3, CIS_BATTLE_2.MP3, CIS_BATTLE_3.MP3, CIS_BATTLE_4.MP3, CIS_BATTLE_4B.MP3, CIS_BATTLE_5.MP3, CIS_BATTLE_6.MP3, CIS_BATTLE_7.MP3 </Files>
+		 <Volume_Percent>55</Volume_Percent>
+		 <Fade_In_Seconds>0.5</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>Yes</Loop>
+	</MusicEvent>
+
 
 
 
