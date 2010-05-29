@@ -929,5 +929,173 @@
 
         </Campaign>
 
+		<Campaign Name="Version1_Trailer_Campaign_Light_Side"> <!--GC name in XML-->
 
+                <Campaign_Set>Version1_Trailer </Campaign_Set> <!-- overall GC set, joins different faction named GCs together -->
+
+                <Text_ID>TEXT_V1_TRAILER</Text_ID> <!--GC name in game-->
+                <Description_Text>TEXT_V1_TRAILER_DESCRIPTION</Description_Text> <!-- GC description in game -->
+
+                <Camera_Shift_X> 0.0 </Camera_Shift_X> <!--initial camera pos-->
+                <Camera_Shift_Y> 0.0 </Camera_Shift_Y> <!--initial camera pos-->
+                <Camera_Distance> 1200.0 </Camera_Distance> <!--camera zoom (1200 is standard on all GCs)-->
+
+                <Locations>
+                                Galaxy_Core_Art_Model,
+                                Alderaan,
+                                Coruscant,
+								Brentaal,
+								Byss
+
+                </Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+                <Trade_Routes>
+
+                </Trade_Routes> <!--hyperspace lanes, comma separated-->
+
+                <Rebel_Story_Name>Story\UEAW_Story_Sandbox_GC_4_Rebel</Rebel_Story_Name> <!-- Hero spawn/story XML for faction Rebel-->
+
+        <Empire_Story_Name>Story\UEAW_Story_Sandbox_GC_4_Empire</Empire_Story_Name> <!-- Hero spawn/story XML for faction Empire-->
+
+                <Supports_Custom_Settings>True</Supports_Custom_Settings> <!-- True or false, if the player can edit the tech level, credits available etc -->
+
+                <!-- Win Conditions -->
+
+                <Good_Victory_Conditions>
+                                Galactic_Super_Weapon_Destruction,
+                                Galactic_All_Planets_Controlled,
+                                Galactic_Opponent_Controls_No_Planets
+                </Good_Victory_Conditions> <!--Good side win conditions, self explanatory. These are some examples-->
+
+                <Evil_Victory_Conditions>
+                                Galactic_All_Planets_Controlled,
+                                Galactic_Opponent_Controls_No_Planets,
+                                Galactic_Super_Weapon_Destroys_Last_Enemy_Planet
+                </Evil_Victory_Conditions> <!--Evil side win conditions, self explanatory. These are some examples-->
+
+                <Special_Case_Production> </Special_Case_Production> <!-- Planets where special structures can be built. Syntax: Faction, Planet, Structure  e.g. Empire, Abregado_Rae, Ground_Cantina_E-->
+
+                <Home_Location>Light_Side, Alderaan </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+                <Home_Location>Dark_Side, Coruscant </Home_Location> <!-- starting location for a faction. Also determines hero spawn planet. Syntax: Faction, PlanetName e.g. Empire, Coruscant -->
+
+                <Starting_Active_Player>Light_Side </Starting_Active_Player> <!-- Human controlled faction. Simply the faction name -->
+
+                <AI_Player_Control>Dark_Side, BasicEmpire </AI_Player_Control> <!-- AI controlled faction. Syntax: Faction, AIBehaviourXMLName e.g. Empire, BasicEmpire -->
+                <AI_Player_Control>Light_Side, SandboxHuman </AI_Player_Control> <!-- For the human controlled faction, the code should be: Faction, SandboxHuman -->
+                <AI_Player_Control>Pirates, None </AI_Player_Control> <!-- For pirates, set AI control to None so that they do not attack e.g. Pirates, None -->
+
+                <Markup_Filename /> <!-- Tells AI about chokepoints and planets it should concentrate on. Required for each faction Syntax: Faction, MarkupXML e.g. Empire, AlderaansDemiseHints -->
+
+
+                <Show_Completed_Tab>False</Show_Completed_Tab> <!--True/False. Controls display of completed missions tab in the mission holocron dialogue. Set to 'False' in FoC when the extra mini missions in GC were removed. -->
+
+        <!-- Starting Objects Faction 1-->
+
+                <Starting_Credits> Light_Side, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Light_Side, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+        <!--Duplicate the set of tags below for each planet-->
+
+                <!-- Starting Structures -->
+                <Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+
+                <!-- Starting Land Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Space Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Hero Units -->
+                <Starting_Forces> </Starting_Forces>
+
+
+
+
+
+        <!-- Starting Objects Faction 2-->
+
+                <Starting_Credits> Dark_Side, 50000</Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Tech_Level>Dark_Side, 5</Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
+                <Max_Tech_Level>Dark_Side, 5</Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
+
+        <!--Duplicate the set of tags below for each planet-->
+                <Starting_Forces>Light_Side, Coruscant, R_ARC-170_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_ARC-170_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_ARC-170_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_ARC-170_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_NTB_630_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_NTB_630_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_NTB_630_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_NTB_630_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_CONSULAR_CLASS </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_CONSULAR_CLASS </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_CONSULAR_CLASS </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_LIGHT_CRUISER </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_LIGHT_CRUISER </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_LIGHT_CRUISER </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_VICTORY_FRIGATE </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_VICTORY_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_CARRACK_CRUISER </Starting_Forces>
+				<Starting_Forces>Light_Side, Coruscant, R_CARRACK_CRUISER </Starting_Forces>
+                <Starting_Forces>Light_Side, Coruscant, R_CARRACK_CRUISER_ESCORT </Starting_Forces>
+
+                <Starting_Forces>Dark_Side, Byss, E_VICTORY_I</Starting_Forces>
+                <Starting_Forces>Dark_Side, Byss, E_VICTORY_II</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_VICTORY_II</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_VICTORY_II</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_ISDI</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_ISDI</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_ISDII</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_ISDII</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_TARTAN_CRUISER</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_TARTAN_CRUISER</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_TARTAN_CRUISER</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_BROADSIDE</Starting_Forces>
+				<Starting_Forces>Dark_Side, Byss, E_BROADSIDE</Starting_Forces>
+				
+				<Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_I </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_II </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_ASSAULT_FRIGATE_II </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_EF76_HOSPITAL_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_GUNBOAT </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_CORVETTE </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_CORELLIAN_CORVETTE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC30_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_EF76_FRIGATE </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_EF76_FRIGATE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MARAUDER </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_X-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_A-WING_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_A-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_Y-WING_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_Y-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_B-WING_SQUADRON </Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_B-WING_SQUADRON </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC80_HOMEONETYPE </Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, RA_MC80_LIBERTYTYPE</Starting_Forces>
+				<Starting_Forces>Light_Side, Alderaan, RA_MC80_LIBERTYTYPE</Starting_Forces>
+                <Starting_Forces>Light_Side, Alderaan, Han_Solo_Team</Starting_Forces>
+             
+
+        <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
+
+        <!--Duplicate the set of tags below for each planet-->
+
+                <!-- Starting Structures -->
+                <Starting_Forces> </Starting_Forces> <!-- Standard starting force tag. Syntax is: Faction, Planet, Unit e.g. Rebel, Corellia, R_Ground_Barracks -->
+
+                <!-- Starting Land Units -->
+                <Starting_Forces> </Starting_Forces>
+
+                <!-- Starting Space Units -->
+                <Starting_Forces> </Starting_Forces>
+
+        </Campaign>
+
+	
 </Campaigns>
