@@ -1411,10 +1411,10 @@
 		<Behavior> SPACE_OBSTACLE, TACTICAL_BUILD_OBJECTS, REVEAL, CAPTURE_POINT, HIDE_WHEN_FOGGED </Behavior>
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
-			Empire, 
+			Dark_Side, 
 				UC_Empire_Mineral_Extractor, 
 			
-			Rebel,
+			Light_Side,
 				UC_Rebel_Mineral_Extractor,
 			
 		<!--	Underworld,
@@ -1431,7 +1431,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Neutral, Rebel, Empire, CIS, Imperial_Remnant, New_Republic, Old_Republic, Republic, Sith </Affiliation>
+		<Affiliation>Neutral, Rebel, Empire, CIS, Imperial_Remnant, New_Republic, Old_Republic, Republic, Sith, Light_Side, Dark_Side </Affiliation>
 <!-- Underworld, this came from above just for reference -->
 		<Size_Value>30</Size_Value>
 		
@@ -1496,7 +1496,7 @@
 		<Icon_Name>i_button_asteroidmining.tga</Icon_Name>
 		<Select_Box_Scale>330</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Dark_Side</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
 
@@ -1543,7 +1543,7 @@
 		<Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Light_Side</Affiliation>
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1604,7 +1604,7 @@
 		<Icon_Name>i_button_asteroidmining.tga</Icon_Name>
 		<Select_Box_Scale>600</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-		<Affiliation>Empire</Affiliation>
+		<Affiliation>Empire, Dark_Side</Affiliation>
 		<Size_Value>30</Size_Value>
 		<Space_FOW_Reveal_Range>400</Space_FOW_Reveal_Range>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1682,7 +1682,7 @@
 
 	<SpaceBuildable Name="Rebel_Mineral_Extractor">
 		<Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-		<Affiliation>Rebel</Affiliation>
+		<Affiliation>Rebel, Light_Side</Affiliation>
 		<Abilities SubObjectList="Yes">
 			<Income_Stream_Ability Name="R_Mineral_Extractor_Income_Stream">
 				<Base_Income_Value>200</Base_Income_Value>
