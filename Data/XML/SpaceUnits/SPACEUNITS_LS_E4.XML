@@ -1560,21 +1560,21 @@
         <SpaceUnit Name="NR_NEBULA_CLASS_STAR_DESTROYER">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_MC30_FRIGATE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_MC30_FRIGATE </Encyclopedia_Text> <!-- One entry Only -->
-                <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_NEBULACLASS </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_NEBULACLASS </Encyclopedia_Text> <!-- One entry Only -->
+                <Encyclopedia_Unit_Class> UNIT_CLASS_DESTROYER </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> EMPIRE_STAR_DESTROYER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> EMPIRE_TIE_BOMBER </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> i_button_mc30c.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_NR.tga = || Ensure .tga extension -->
+                <Icon_Name> UEAW_BUTTON_NEBULASD.TGA </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_NR.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
-                <Space_Model_Name> RV_MC30MONCAL.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
+                <Space_Model_Name> VCCr_Nebula.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.75 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.9995</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> New Republic </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Light_Side </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1584,14 +1584,14 @@
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
                 <Damage> 40 </Damage> <!-- Unsure of this one -->
-                <Tactical_Health> 900 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
-                <Autoresolve_Health> 3500 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 3000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Tactical_Health> 7040 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Autoresolve_Health> 15488 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
+                <Shield_Points> 8448 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 60 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Cruiser </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -1619,12 +1619,12 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 4.0 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.15 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.2 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Roll> 0.9 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
-                <OverrideAcceleration> .05 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .05 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideAcceleration> .09 </OverrideAcceleration> <!-- Unsure -->
+                <OverrideDeceleration> .09 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -1633,6 +1633,12 @@
                 <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
+
+                <Starting_Spawned_Units_Tech_0>NR_E-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_B-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>NR_K-WING_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>NR_E-WING_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
         <!-- Behaviours -->
                 <Behavior>
                         DUMMY_STARSHIP,
@@ -1645,6 +1651,9 @@
                         SIMPLE_SPACE_LOCOMOTOR,
                         TARGETING,
                         REVEAL,
+                        SHIELDED,
+                        POWERED,
+                        SPAWN_SQUADRON,
                         HIDE_WHEN_FOGGED,
                         UNIT_AI,
                         ASTEROID_FIELD_DAMAGE,
@@ -1656,17 +1665,34 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <!-- Hardpoints -->
                 <HardPoints>
-                        HP_MC30_E3_LASER,
-                        HP_MC30_E3_PROTON_BC_01,
-                        HP_MC30_E3_DUMMY_BC,
-                        HP_MC30_E3_PROTON_FL_02,
-                        HP_MC30_E3_PROTON_FR_03,
-                        HP_MC30_E3_ENGINES
+                        HP_NEBULA_E4_HTL_01,
+                        HP_NEBULA_E4_HTL_02,
+                        HP_NEBULA_E4_HTL_03,
+                        HP_NEBULA_E4_HTL_04,
+                        HP_NEBULA_E4_MI_01,
+                        HP_NEBULA_E4_MI_02,
+                        HP_NEBULA_E4_MI_03,
+                        HP_NEBULA_E4_MI_04,
+                        HP_NEBULA_E4_LTL_01,
+                        HP_NEBULA_E4_LTL_02,
+                        HP_NEBULA_E4_LTL_03,
+                        HP_NEBULA_E4_LTL_04,
+                        HP_NEBULA_E4_LTL_05,
+                        HP_NEBULA_E4_LTL_06,
+                        HP_NEBULA_E4_APHCM_01,
+                        HP_NEBULA_E4_APHCM_02,
+                        HP_NEBULA_E4_APHCM_03,
+                        HP_NEBULA_E4_APHCM_04,
+                        HP_NEBULA_E4_HANGAR,
+                        HP_NEBULA_E4_ENGINES,
+                        HP_NEBULA_E4_SHIELD,
+                        HP_NEBULA_E4_TRACTOR
 
                 </HardPoints>
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-                <Death_Clone>Damage_Normal, NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE</Death_Clone>
+                <Death_Clone>Damage_Normal, NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE_00</Death_Clone>
+                <Death_Clone>Damage_Normal, NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE_01</Death_Clone>
         <!-- SFX  GC-->
                 <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -1713,36 +1739,54 @@
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
         <!-- Abilities -->
-                <Unit_Abilities_Data SubObjectList="Yes">
+           <Unit_Abilities_Data SubObjectList="Yes">
+              <!-- Primary ability -->
+                        <Unit_Ability>
+                                <Type>POWER_TO_WEAPONS</Type>
+                                <Expiration_Seconds>20</Expiration_Seconds>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.2f</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
+                                <Recharge_Seconds>60</Recharge_Seconds>
 
-            <Unit_Ability>
-                <Type>CLUSTER_BOMB</Type>
-                <Recharge_Seconds>50.0</Recharge_Seconds>
-                <GUI_Activated_Ability_Name> MC30_Cluster_Bomb </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                <Effective_Radius> 500.0 </Effective_Radius>
-                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Cluster_Bombs_MC30_Frigate</SFXEvent_GUI_Unit_Ability_Activated>
-                <Supports_Autofire>True</Supports_Autofire>
-            </Unit_Ability>
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+                        </Unit_Ability>
 
-                </Unit_Abilities_Data>
+              <Unit_Ability>
+                    <Type>TRACTOR_BEAM</Type>
+                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <Recharge_Seconds>20</Recharge_Seconds>
+                    <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+                                <Supports_Autofire>True</Supports_Autofire>
+              </Unit_Ability>
+           </Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
+           <Abilities SubObjectList="Yes">
+              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+                    <Activation_Style> User_Input </Activation_Style>
+                    <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                    <Activation_Min_Range>10</Activation_Min_Range>
+                    <Activation_Max_Range>1500</Activation_Max_Range>
 
-            <Cluster_Bomb_Ability Name="MC30_Cluster_Bomb">
-                <Activation_Style> User_Input </Activation_Style>
-                <Detonation_Time_In_Secs> 1.5 </Detonation_Time_In_Secs>
-                <Bomb_Type>Proj_Cluster_Bomb</Bomb_Type>
-                <Number_Of_Bombs> 12 </Number_Of_Bombs>
-                <SFXEvent_Activate>Unit_MC30_Launch_Cluster_Bomb</SFXEvent_Activate>
-            </Cluster_Bomb_Ability>
 
-                </Abilities>
+                    <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Stacking_Category>0</Stacking_Category>
+              </Tractor_Beam_Attack_Ability>
+
+           </Abilities>
+
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
                 <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
-                <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
                 <Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
@@ -1763,9 +1807,26 @@
 
         </SpaceUnit>
 
-        <SpaceUnit Name="NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
-                <Text_ID>TEXT_UNIT_ASSAULT_FRIGATE</Text_ID> <!-- Same as unit's -->
-                <Space_Model_Name>RV_AssaultFrigate_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+        <SpaceUnit Name="NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE_00"> <!-- Same as unit's with "_Death_Clone" suffix-->
+                <Text_ID>TEXT_UNIT_NEBULACLASS</Text_ID> <!-- Same as unit's -->
+                <Space_Model_Name>VCCr_Nebula_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+                <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+                <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+                <Scale_Factor>0.7</Scale_Factor>
+                <Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+                <Max_Speed>1.2</Max_Speed>
+                <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+                <Max_Thrust>1</Max_Thrust>
+                <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>0</Bank_Turn_Angle>
+                <Affiliation>New Republic</Affiliation> <!-- Same as Unit's -->
+                <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
+                <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
+        </SpaceUnit>
+
+        <SpaceUnit Name="NR_NEBULA_CLASS_STAR_DESTROYER_DEATH_CLONE_01"> <!-- Same as unit's with "_Death_Clone" suffix-->
+                <Text_ID>TEXT_UNIT_NEBULACLASS</Text_ID> <!-- Same as unit's -->
+                <Space_Model_Name>VCCr_Nebula_Death.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
                 <Scale_Factor>0.7</Scale_Factor>
