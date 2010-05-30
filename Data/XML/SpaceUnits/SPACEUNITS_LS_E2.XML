@@ -1325,6 +1325,8 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
                 <Scale_Factor>0.43</Scale_Factor>
+				
+				<No_Colorization_Color> 100, 100, 100, 255 </No_Colorization_Color>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -1541,6 +1543,8 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
                 <Scale_Factor>0.5</Scale_Factor>
+				
+				<No_Colorization_Color> 150, 150, 150, 255 </No_Colorization_Color>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -1744,6 +1748,8 @@
                 <Affiliation>Light_Side</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
+				
+				<No_Colorization_Color> 150, 150, 150, 255 </No_Colorization_Color>
 
         </SpaceUnit>
 
@@ -1756,6 +1762,8 @@
                 <Encyclopedia_Text> TEXT_TOOLTIP_CARRACK_ESCORT</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FRIGATE </Encyclopedia_Unit_Class>
                 <Icon_Name>I_BUTTON_CARRACK.tga</Icon_Name>
+				
+				<No_Colorization_Color> 150, 150, 150, 255 </No_Colorization_Color>
 
                 <HardPoints>
 
@@ -1985,6 +1993,8 @@
                 <Affiliation>Light_Side</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
+				
+				<No_Colorization_Color> 0, 0, 0, 0 </No_Colorization_Color>
 
         </SpaceUnit>
 
@@ -2036,39 +2046,6 @@
                          HP_R_DREADNAUGHT_HANGAR,
                          HP_R_DREADNAUGHT_ENGINE
                 </HardPoints>
-
-        </SpaceUnit>
-
-        <SpaceUnit Name="R_VICTORY_I">
-
-                 <Variant_Of_Existing_Type>E_VICTORY_I</Variant_Of_Existing_Type>
-
-                <HardPoints>
-                         HP_R_VICTORY_I_HTL_01,
-                         HP_R_VICTORY_I_HTL_02,
-                         HP_R_VICTORY_I_MTL_01,
-                         HP_R_VICTORY_I_MTL_02,
-                         HP_R_VICTORY_I_MTL_03,
-                         HP_R_VICTORY_I_MTL_04,
-                         HP_R_VICTORY_I_APHCM_01,
-                         HP_R_VICTORY_I_APHCM_02,
-                         HP_R_VICTORY_I_APHCM_03,
-                         HP_R_VICTORY_I_APHCM_04,
-                         HP_R_VICTORY_I_APHCM_05,
-                         HP_R_VICTORY_I_APHCM_06,
-                         HP_R_VICTORY_I_LTL_01,
-                         HP_R_VICTORY_I_LTL_02,
-                         HP_R_VICTORY_I_LTL_03,
-                         HP_R_VICTORY_I_SHIELD_01,
-                         HP_R_VICTORY_I_SHIELD_02,
-                         HP_R_VICTORY_I_ENGINE,
-                         HP_R_VICTORY_I_HANGAR,
-                         HP_R_VICTORY_I_TRACTOR
-
-                </HardPoints>
-
-                <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
-
 
         </SpaceUnit>
 
