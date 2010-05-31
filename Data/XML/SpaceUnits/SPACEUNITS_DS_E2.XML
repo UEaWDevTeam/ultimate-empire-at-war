@@ -15,7 +15,7 @@
                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
 
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
-                <Scale_Factor>0.60</Scale_Factor>
+                <Scale_Factor>0.40</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -216,9 +216,9 @@
         </Squadron>
 
         <SpaceUnit Name="C_VULTURE_DROID_IAI">
-                 <Variant_of_Existing_Type>C_VULTURE_DROID</Variant_of_Existing_Type>
-                 <Text_ID>TEXT_UNIT_VULTURE_IAI</Text_ID>
-                 <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_IAI</Encyclopedia_Text>
+                 <Variant_Of_Existing_Type>C_VULTURE_DROID</Variant_Of_Existing_Type>
+                 <Text_ID>TEXT_UNIT_VULTURE_AI</Text_ID>
+                 <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_AI</Encyclopedia_Text>
                  <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
                  <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                  <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
@@ -231,8 +231,8 @@
         </SpaceUnit>
 
         <Squadron Name="C_VULTURE_DROID_IAI_SQUADRON">
-                <Text_ID>TEXT_UNIT_VULTURE_IAI_SQUADRON</Text_ID>
-                <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_IAI</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_VULTURE_AI_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_AI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
@@ -319,7 +319,7 @@
                 <Icon_Name>I_BUTTON_DROID_TRIFIGHTER.TGA</Icon_Name>
 
                 <Space_Model_Name>VSF_TRIFIGHTER.ALO</Space_Model_Name>
-                <Scale_Factor>0.25</Scale_Factor>
+                <Scale_Factor>0.5</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -520,7 +520,7 @@
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
 
                 <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
-                <Scale_Factor>0.23</Scale_Factor>
+                <Scale_Factor>0.17</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -719,8 +719,9 @@
         </Squadron>
 
         <SpaceUnit Name="C_DROID_BOMBER_IAI">
-                <Text_ID>TEXT_UNIT_DROID_BOMBER_IAI</Text_ID>
-                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_IAI</Encyclopedia_Text>
+		<Variant_Of_Existing_Type>C_DROID_BOMBER</Variant_Of_Existing_Type>
+                <Text_ID>TEXT_UNIT_DROID_BOMBER_AI</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_AI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -733,9 +734,11 @@
                 </HardPoints>
          </SpaceUnit>
 
+	
+
         <Squadron Name="C_DROID_BOMBER_IAI_SQUADRON">
-                <Text_ID>TEXT_UNIT_DROID_BOMBER_IAI_SQUADRON</Text_ID>
-                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_IAI</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_DROID_BOMBER_AI_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_AI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
