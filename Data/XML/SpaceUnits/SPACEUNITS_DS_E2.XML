@@ -1,0 +1,815 @@
+<?xml version="1.0"?>
+<Data>
+
+        <!--Dark_Side CIS Units -->
+
+        <!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters --><!-- Fighters -->
+
+
+        <SpaceUnit Name="C_VULTURE_DROID">
+                <Text_ID>TEXT_UNIT_VULTURE</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_DRONE_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
+
+                <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
+                <Scale_Factor>0.60</Scale_Factor>
+                <Select_Box_Scale>30</Select_Box_Scale>
+                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+                <Mass>0.98</Mass>
+
+                <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+                <Max_Speed>4.0</Max_Speed>
+                <Min_Speed>2.5</Min_Speed>
+                <Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+                <Max_Lift>4</Max_Lift>
+                <Max_Thrust>1.5</Max_Thrust>
+                <Max_Rate_Of_Roll>5.8</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>40</Bank_Turn_Angle>
+                <Hyperspace>yes</Hyperspace>
+                <Hyperspace_Speed>2.0</Hyperspace_Speed>
+
+                <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+
+                <Affiliation>Dark_Side</Affiliation>
+
+                <Autoresolve_Health>54</Autoresolve_Health>
+                <Shield_Points>0</Shield_Points>
+                <Tactical_Health>54</Tactical_Health>
+                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Energy_Capacity>500</Energy_Capacity>
+                <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+
+                <Ship_Class>fighter</Ship_Class>
+
+                <Armor_Type> Armour_Starfighter_Basic </Armor_Type>
+
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Squadron_Capacity>0</Squadron_Capacity>
+                <Number_per_Squadron>12</Number_per_Squadron>
+                <Size_Value>8</Size_Value>
+
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+                <HardPoints>
+                         HP_VULTURE_L
+                </HardPoints>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>500.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Smaller_B_Empire</Death_Explosions>
+                <Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+                <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+
+                <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+                <SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+                <SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+                <SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Fighter </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Fighter </SFXEvent_Move_Into_Nebula>
+
+                <SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Fighter</SFXEvent_Health_Low_Warning>
+                <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Fighter </SFXEvent_Health_Critical_Warning>
+                <SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+                <SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_TIE_Fighter </SFXEvent_Attack_Hardpoint>
+
+                <!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+                <!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+                <SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+                <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+                <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+                <CategoryMask> Fighter | AntiBomber</CategoryMask>
+                <Property_Flags> SmallShip </Property_Flags>
+                <MovementClass> Space </MovementClass>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Hover_Offset>0.0</Hover_Offset>
+
+                                <No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+
+                <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+                <FormationOrder>2</FormationOrder>
+                <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+                <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+                <Create_Team>Yes</Create_Team>
+                <AI_Combat_Power>35</AI_Combat_Power>
+                <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+                <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+
+                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+                <Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+                <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+                <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B_Empire</Spin_Away_On_Death_Explosion>
+                <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+
+                <Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+                <Strafe_Distance>500.0</Strafe_Distance>
+                <Population_Value>0</Population_Value>
+
+        </SpaceUnit>
+
+
+        <Squadron Name="C_VULTURE_DROID_SQUADRON">
+                <Text_ID>TEXT_UNIT_VULTURE_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_DRONE_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Formation_Priority>1</Formation_Priority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Autoresolve_Health>648</Autoresolve_Health>
+                <Damage>25</Damage>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline />
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID, C_VULTURE_DROID</Squadron_Units>
+                <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,-40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,-20.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 12 </Max_Squad_Size>
+
+
+                <GUI_Distance>120</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+                <FormationOrder>1</FormationOrder>
+                <Squadron_Formation_Error_Tolerance>0</Squadron_Formation_Error_Tolerance>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>200.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+                <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Property_Flags> SmallShip </Property_Flags>
+                <Score_Cost_Credits> 420</Score_Cost_Credits>
+
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>1</Population_Value>
+
+        </Squadron>
+
+        <SpaceUnit Name="C_VULTURE_DROID_IAI">
+                 <Variant_of_Existing_Type>C_VULTURE_DROID</Variant_of_Existing_Type>
+                 <Text_ID>TEXT_UNIT_VULTURE_IAI</Text_ID>
+                 <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_IAI</Encyclopedia_Text>
+                 <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
+
+                 <HardPoints>
+                         HP_VULTURE_IAI_L,
+                         HP_VULTURE_IAI_SOPT
+                 </HardPoints>
+        </SpaceUnit>
+
+        <Squadron Name="C_VULTURE_DROID_IAI_SQUADRON">
+                <Text_ID>TEXT_UNIT_VULTURE_IAI_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_VULTURE_IAI</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Formation_Priority>1</Formation_Priority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Autoresolve_Health>648</Autoresolve_Health>
+                <Damage>25</Damage>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline />
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Units>C_VULTURE_DROID_IAI, C_VULTURE_DROID_IAI</Squadron_Units>
+                <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,-40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,-20.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 12 </Max_Squad_Size>
+
+
+                <GUI_Distance>120</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+                <FormationOrder>1</FormationOrder>
+                <Squadron_Formation_Error_Tolerance>0</Squadron_Formation_Error_Tolerance>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>200.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+                <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Property_Flags> SmallShip </Property_Flags>
+                <Score_Cost_Credits> 420</Score_Cost_Credits>
+
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>1</Population_Value>
+
+        </Squadron>
+
+        <SpaceUnit Name="C_TRI_FIGHTER">
+                <Text_ID>TEXT_UNIT_TRIFIGHTER</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_TRIFIGHTER</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROID_TRIFIGHTER.TGA</Icon_Name>
+
+                <Space_Model_Name>VSF_TRIFIGHTER.ALO</Space_Model_Name>
+                <Scale_Factor>0.25</Scale_Factor>
+                <Select_Box_Scale>30</Select_Box_Scale>
+                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+                <Mass>0.98</Mass>
+
+                <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+                <Max_Speed>4.4</Max_Speed>
+                <Min_Speed>3.5</Min_Speed>
+                <Max_Rate_Of_Turn>4.8</Max_Rate_Of_Turn>
+                <Max_Lift>4</Max_Lift>
+                <Max_Thrust>2.0</Max_Thrust>
+                <Max_Rate_Of_Roll>5.6</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>45</Bank_Turn_Angle>
+                <Hyperspace>yes</Hyperspace>
+                <Hyperspace_Speed>2.0</Hyperspace_Speed>
+
+                <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+
+                <Affiliation>Dark_Side</Affiliation>
+
+                <Shield_Points>0</Shield_Points>
+                <Tactical_Health>65</Tactical_Health>
+                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Energy_Capacity>500</Energy_Capacity>
+                <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+
+                <Ship_Class>fighter</Ship_Class>
+
+                <Armor_Type> Armour_Starfighter </Armor_Type>
+
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Squadron_Capacity>0</Squadron_Capacity>
+                <Number_per_Squadron>12</Number_per_Squadron>
+                <Size_Value>8</Size_Value>
+
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+                <HardPoints>
+                         HP_TRI_L_01,
+                         HP_TRI_L_02,
+                         HP_TRI_HL
+                </HardPoints>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Smaller_B_Empire</Death_Explosions>
+                <Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+                <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+                <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+                <SFXEvent_Select> Unit_Select_Tie_Interceptor </SFXEvent_Select>
+                <SFXEvent_Move> Unit_Move_Tie_Interceptor </SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Tie_Interceptor</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack> Unit_Attack_Tie_Interceptor </SFXEvent_Attack>
+                <SFXEvent_Guard> Unit_Guard_Tie_Interceptor </SFXEvent_Guard>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tie_Interceptor </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_Tie_Interceptor </SFXEvent_Move_Into_Nebula>
+
+                <SFXEvent_Health_Low_Warning> Unit_Health_Low_Tie_Interceptor</SFXEvent_Health_Low_Warning>
+                <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Tie_Interceptor </SFXEvent_Health_Critical_Warning>
+                <SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Interceptor </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+                <SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Interceptor </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Tie_Interceptor </SFXEvent_Attack_Hardpoint>
+
+                <CategoryMask> Fighter | AntiBomber</CategoryMask>
+                <Property_Flags> SmallShip </Property_Flags>
+                <MovementClass> Space </MovementClass>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Hover_Offset>0.0</Hover_Offset>
+
+                                <No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+
+                <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+                <FormationOrder>2</FormationOrder>
+                <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+                <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+                <Create_Team>Yes</Create_Team>
+                <AI_Combat_Power>35</AI_Combat_Power>
+                <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+                <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+                <Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+                <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+                <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B_Empire</Spin_Away_On_Death_Explosion>
+                <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+
+                <Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+                <Strafe_Distance>500.0</Strafe_Distance>
+                <Population_Value>0</Population_Value>
+
+        </SpaceUnit>
+
+
+        <Squadron Name="C_TRI_FIGHTER_SQUADRON">
+                <Text_ID>TEXT_UNIT_TRIFIGHTER_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_TRIFIGHTER</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROID_TRIFIGHTER.TGA</Icon_Name>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Formation_Priority>1</Formation_Priority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Autoresolve_Health>780</Autoresolve_Health>
+                <Damage>25</Damage>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline />
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Units>C_TRI_FIGHTER, C_TRI_FIGHTER</Squadron_Units>
+                <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>40.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,-40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,-60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>0.0,40.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-20.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,20.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-75.0,-20.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 12 </Max_Squad_Size>
+
+                <GUI_Distance>120</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+                <FormationOrder>1</FormationOrder>
+                <Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>200.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+                <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Property_Flags> SmallShip </Property_Flags>
+                <Score_Cost_Credits> 420</Score_Cost_Credits>
+
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>1</Population_Value>
+
+        </Squadron>
+
+        <!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers --><!-- Bombers -->
+
+        <SpaceUnit Name="C_DROID_BOMBER">
+                <Text_ID>TEXT_UNIT_DROID_BOMBER</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_DRONE_BOMBER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
+
+                <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
+                <Scale_Factor>0.23</Scale_Factor>
+                <Select_Box_Scale>30</Select_Box_Scale>
+                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+                <Mass>0.98</Mass>
+
+                <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+                <Max_Speed>2.4</Max_Speed>
+                <Min_Speed>1.0</Min_Speed>
+                <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+                <Max_Lift>3</Max_Lift>
+                <Max_Thrust>1.0</Max_Thrust>
+                <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>30</Bank_Turn_Angle>
+                <Hyperspace>yes</Hyperspace>
+                <Hyperspace_Speed>2.0</Hyperspace_Speed>
+
+                <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+
+                <Affiliation>Dark_Side</Affiliation>
+
+                <Shield_Points>0</Shield_Points>
+                <Tactical_Health>85</Tactical_Health>
+                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Energy_Capacity>999</Energy_Capacity>
+                <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+
+                <Ship_Class>fighter</Ship_Class>
+
+                <Armor_Type> Armour_Starfighter </Armor_Type>
+
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>yes</Is_Bomber>
+                <Squadron_Capacity>0</Squadron_Capacity>
+                <Number_per_Squadron>12</Number_per_Squadron>
+                <Size_Value>8</Size_Value>
+
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+                <HardPoints>
+                         HP_DROID_BOMBER_L_01,
+                         HP_DROID_BOMBER_L_02,
+                         HP_DROID_BOMBER_APPT
+                </HardPoints>
+
+                                <Land_Damage_Thresholds>1, 0.5</Land_Damage_Thresholds>
+                <Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+                <Land_Damage_SFX>null, null</Land_Damage_SFX>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Smaller_B_Empire</Death_Explosions>
+                <Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+                <SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+                <SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+                <SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+                <SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+                <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+                <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+                <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+                <CategoryMask> Bomber | AntiCapital </CategoryMask>
+                <Property_Flags> SmallShip </Property_Flags>
+                <MovementClass> Space </MovementClass>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Hover_Offset>0.0</Hover_Offset>
+
+                                <No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
+
+
+                <Create_Team>Yes</Create_Team>
+                <AI_Combat_Power>60</AI_Combat_Power>
+                <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+                <Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+                <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+                <FormationOrder>2</FormationOrder>
+                <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+                <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+                <AI_Combat_Power>35</AI_Combat_Power>
+
+                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+                <Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+                <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+                <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B_Empire</Spin_Away_On_Death_Explosion>
+                <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+
+                <Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+                <Strafe_Distance>500.0</Strafe_Distance>
+                <Population_Value>0</Population_Value>
+
+        </SpaceUnit>
+
+
+        <Squadron Name="C_DROID_BOMBER_SQUADRON">
+                <Text_ID>TEXT_UNIT_DROID_BOMBER_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_DRONE_BOMBER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Formation_Priority>1</Formation_Priority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Autoresolve_Health>1020</Autoresolve_Health>
+                <Damage>25</Damage>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline />
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER, C_DROID_BOMBER</Squadron_Units>
+                <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,30.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,-30.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,-60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,90.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,-90.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,-45.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,45.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 12 </Max_Squad_Size>
+
+                <GUI_Distance>120</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+                <FormationOrder>1</FormationOrder>
+                <Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>200.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+                <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Property_Flags> SmallShip </Property_Flags>
+                <Score_Cost_Credits> 420</Score_Cost_Credits>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>1</Population_Value>
+
+        </Squadron>
+
+        <SpaceUnit Name="C_DROID_BOMBER_IAI">
+                <Text_ID>TEXT_UNIT_DROID_BOMBER_IAI</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_IAI</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
+
+                <HardPoints>
+                         HP_DROID_BOMBER_IAI_L_01,
+                         HP_DROID_BOMBER_IAI_L_02,
+                         HP_DROID_BOMBER_IAI_APPT
+                </HardPoints>
+         </SpaceUnit>
+
+        <Squadron Name="C_DROID_BOMBER_IAI_SQUADRON">
+                <Text_ID>TEXT_UNIT_DROID_BOMBER_IAI_SQUADRON</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_IAI</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Formation_Priority>1</Formation_Priority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Autoresolve_Health>1020</Autoresolve_Health>
+                <Damage>25</Damage>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>15</Build_Time_Seconds>
+                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline />
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Units>C_DROID_BOMBER_IAI, C_DROID_BOMBER_IAI</Squadron_Units>
+                <Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,30.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,-30.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,-60.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,90.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,-90.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>10.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-40.0,0.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,-45.0,0.0</Squadron_Offsets>
+                <Squadron_Offsets>-90.0,45.0,0.0</Squadron_Offsets>
+                <Max_Squad_Size> 12 </Max_Squad_Size>
+
+                <GUI_Distance>120</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Tie_Fighter</SFXEvent_Build_Complete>
+
+                <FormationOrder>1</FormationOrder>
+                <Squadron_Formation_Error_Tolerance>35.0</Squadron_Formation_Error_Tolerance>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>200.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
+                <Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Property_Flags> SmallShip </Property_Flags>
+                <Score_Cost_Credits> 420</Score_Cost_Credits>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>1</Population_Value>
+
+        </Squadron>
+
+
+</Data>

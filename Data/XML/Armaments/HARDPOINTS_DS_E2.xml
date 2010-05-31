@@ -14,23 +14,23 @@
 
                 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
                 <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
-                <Fire_Cone_Width>20.0</Fire_Cone_Width>
-                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Cone_Width>160.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>5</Fire_Pulse_Count>
+                <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+                <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
 <!--Hardpoints Vulture Droid (Independent AI)-->
         <HardPoint Name="HP_VULTURE_IAI_L">
@@ -45,7 +45,7 @@
                 <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
                 <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>5</Fire_Pulse_Count>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
@@ -65,14 +65,14 @@
                 <Is_Destroyable>No</Is_Destroyable>
 
                 <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
-                <Fire_Bone_B />
+                <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
                 <Fire_Cone_Width>30.0</Fire_Cone_Width>
                 <Fire_Cone_Height>30.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_SO_Proton_Torp_E2</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>6.0</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
-                <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+                <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>700.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
@@ -82,20 +82,19 @@
     </HardPoint>
 
 <!--Hard points for Tri-Fighter-->
-        <HardPoint Name="HP_TRI_L">
+        <HardPoint Name="HP_TRI_L_01">
                 <Type> HARD_POINT_WEAPON_LASER </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
 
                 <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
-                <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
                 <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
                 <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>5</Fire_Pulse_Count>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
@@ -109,19 +108,47 @@
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
 
+        <HardPoint Name="HP_TRI_L_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>20.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>1</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>500.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+
+
         <HardPoint Name="HP_TRI_HL">
                 <Type> HARD_POINT_WEAPON_LASER </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
 
                 <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
-                <Fire_Bone_B />
+                <Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E2_Red_Heavy</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
                 <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>3</Fire_Pulse_Count>
+                <Fire_Pulse_Count>1</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
@@ -137,14 +164,41 @@
 
 <!-- Hard points for droid bomber -->
 
-    <HardPoint Name="HP_DROID_BOMBER_L">
+    <HardPoint Name="HP_DROID_BOMBER_L_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
-            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Damage_Type> Damage_Fighter </Damage_Type>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+        </HardPoint>
+
+    <HardPoint Name="HP_DROID_BOMBER_L_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
@@ -166,8 +220,6 @@
                         <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
 
-                        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Structure </Fire_Category_Restrictions>
-
         </HardPoint>
 
         <HardPoint Name="HP_DROID_BOMBER_APPT">
@@ -177,14 +229,14 @@
             <Damage_Type> Damage_Proton_Torp </Damage_Type>
 
             <Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
-            <Fire_Bone_B />
+            <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_AP_Proton_Torp_E2</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>700.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
@@ -196,14 +248,43 @@
 
 <!-- Hard points for droid bomber (IAI)-->
 
-    <HardPoint Name="HP_DROID_BOMBER_IAI_L">
+    <HardPoint Name="HP_DROID_BOMBER_IAI_L_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
             <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
-            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>20.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Laser_E2_Red_Standard</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+                        <Damage_Type> Damage_Fighter </Damage_Type>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+                        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Structure </Fire_Category_Restrictions>
+
+        </HardPoint>
+
+    <HardPoint Name="HP_DROID_BOMBER_IAI_L_02">
+            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
             <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
@@ -236,14 +317,14 @@
             <Damage_Type> Damage_Proton_Torp </Damage_Type>
 
             <Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
-            <Fire_Bone_B />
+            <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_AP_Proton_Torp_E2</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>1</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>15.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>700.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
 
