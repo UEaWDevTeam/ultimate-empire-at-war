@@ -1606,40 +1606,21 @@
 
 
     <!--Non-Weapon Hardpoints-->
-    <HardPoint Name="HP_ACCLAMATOR_I_E4_ENGINES_01">
+    <HardPoint Name="HP_ACCLAMATOR_I_E4_ENGINE">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>190.0</Health>
+            <Health>160.0</Health>
 
             <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>PE_ASSAULTCRUISERENGINE.ALO</Model_To_Attach>
-            <Attachment_Bone>HP_ENGINE_A</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_ENGINE_A_COLL</Collision_Mesh>
-            <!--<Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
-            <Engine_Particles>HP_ENGINE_A</Engine_Particles>
+            <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
 
-    </HardPoint>
-    <HardPoint Name="HP_ACCLAMATOR_I_E4_ENGINES_02">
-            <Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>190.0</Health>
-
-            <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach>PE_ASSAULTCRUISERENGINE.ALO</Model_To_Attach>
-            <Attachment_Bone>HP_ENGINE_B</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
-            <Collision_Mesh>HP_ENGINE_B_COLL</Collision_Mesh>
-            <!--<Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
-            <Engine_Particles>HP_ENGINE_B</Engine_Particles>
+            <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>HP_ENGINES_PARTICLE</Engine_Particles>
 
     </HardPoint>
 
@@ -2053,7 +2034,7 @@
 
 
     <!--Non-Weapon Hardpoints-->
-    <HardPoint Name="HP_ACCLAMATOR_II_E4_ENGINES_01">
+    <HardPoint Name="HP_ACCLAMATOR_II_E4_ENGINE">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -2063,30 +2044,11 @@
             <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach>PE_ASSAULTCRUISERENGINE.ALO</Model_To_Attach>
-            <Attachment_Bone>HP_ENGINE_A</Attachment_Bone>
-            <Collision_Mesh>HP_ENGINE_A_COLL</Collision_Mesh>
-            <!--<Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
-            <Engine_Particles>HP_ENGINE_A</Engine_Particles>
+            <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
 
-    </HardPoint>
-    <HardPoint Name="HP_ACCLAMATOR_II_E4_ENGINES_02">
-            <Type> HARD_POINT_ENGINE </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>190.0</Health>
-
-            <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
-            <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-
-            <Model_To_Attach>PE_ASSAULTCRUISERENGINE.ALO</Model_To_Attach>
-            <Attachment_Bone>HP_ENGINE_B</Attachment_Bone>
-            <Collision_Mesh>HP_ENGINE_B_COLL</Collision_Mesh>
-            <!--<Damage_Decal />
-            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>-->
-            <Engine_Particles>HP_ENGINE_B</Engine_Particles>
+            <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>HP_ENGINES_PARTICLE</Engine_Particles>
 
     </HardPoint>
 

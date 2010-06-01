@@ -270,7 +270,7 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
-				
+
             <Fire_When_In_Rocket_Attack_Mode>Yes</Fire_When_In_Rocket_Attack_Mode>
             <Fire_When_In_Normal_Attack_Mode>Yes</Fire_When_In_Normal_Attack_Mode>
         </HardPoint>
@@ -1087,7 +1087,7 @@
                                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
 
-				<Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
+                                <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 6.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
@@ -1494,7 +1494,7 @@
 
 
     <!--Non-Weapon Hardpoints-->
-    <HardPoint Name="HP_ACCLAMATOR_I_E3_ENGINES_01">
+    <HardPoint Name="HP_ACCLAMATOR_I_E3_ENGINE">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1503,15 +1503,15 @@
 
             <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
-			
+
             <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
-			
+
             <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_ENGINES_PARTICLE</Engine_Particles>
 
     </HardPoint>
-   
+
     <HardPoint Name="HP_ACCLAMATOR_I_E3_FIGHTER_BAY">
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
                 <Is_Targetable>Yes</Is_Targetable>
@@ -1923,7 +1923,7 @@
 
 
     <!--Non-Weapon Hardpoints-->
-    <HardPoint Name="HP_ACCLAMATOR_II_E3_ENGINES_01">
+    <HardPoint Name="HP_ACCLAMATOR_II_E3_ENGINE">
             <Type> HARD_POINT_ENGINE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -1935,12 +1935,12 @@
 
             <Attachment_Bone>HP_ENGINES</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
             <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
-			
+
             <Damage_Particles>HP_ENGINES_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_ENGINES_PARTICLE</Engine_Particles>
 
     </HardPoint>
-   
+
     <HardPoint Name="HP_ACCLAMATOR_II_E3_SHIELD">
             <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2501,7 +2501,7 @@
                         <Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Super, 6.0 </Fire_Inaccuracy_Distance> 
+                        <Fire_Inaccuracy_Distance> Super, 6.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
 
@@ -7656,7 +7656,7 @@
 
                         <Death_Breakoff_Prop> Hardpoint_Breakoff_Empire_Station_Two_Weapon_TBL </Death_Breakoff_Prop>
 
-                        
+
                         <Fire_Bone_A>FP02_TBL_00</Fire_Bone_A>
                         <Fire_Bone_B>FP02_TBL_01</Fire_Bone_B>
                         <Fire_Cone_Width>180.0</Fire_Cone_Width>
