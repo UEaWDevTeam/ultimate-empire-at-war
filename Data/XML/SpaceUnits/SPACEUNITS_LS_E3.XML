@@ -594,39 +594,39 @@
                                 <Recharge_Seconds>60.0</Recharge_Seconds>
                                 <Expiration_Seconds>20.0</Expiration_Seconds>
                                 <Effective_Radius>50.0</Effective_Radius>
-								<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
+                                                                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated>
                         </Unit_Ability>
-						
-			<Unit_Ability>
-				<Type>LURE</Type>
-				
-				<!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
-				     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
-				<Effective_Radius>350</Effective_Radius>
-				
-				<Target_Types>
-					E_TIE_Fighter, 
-					E_TIE_Fighter_Squadron, 
-					E_TIE_Interceptor,
-					E_TIE_Interceptor_Squadron,
-					E_TIE_Scout, 
-					E_TIE_Scout_Squadron, 
-					E_TIE_Defender,
-					E_TIE_Defender_Squadron,
-				<!-- every fighter needs to be here -->
-				</Target_Types>
 
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>15</Expiration_Seconds>
-				
-				<Is_Pulsing>Yes</Is_Pulsing>
-				<Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
-				<Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
-				<Particle_Effect>Lure_Ability_Particle</Particle_Effect>
-	
-				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,	0.9f</Mod_Multiplier><!-- Invulnerable -->
-			</Unit_Ability>
+                        <Unit_Ability>
+                                <Type>LURE</Type>
+
+                                <!-- If you change this - please make sure you communicate the change to artists (to Mike specifically).
+                                     Any change to this radius will require a manual adjustment to the particle effect. Thank you. -->
+                                <Effective_Radius>350</Effective_Radius>
+
+                                <Target_Types>
+                                        E_TIE_Fighter,
+                                        E_TIE_Fighter_Squadron,
+                                        E_TIE_Interceptor,
+                                        E_TIE_Interceptor_Squadron,
+                                        E_TIE_Scout,
+                                        E_TIE_Scout_Squadron,
+                                        E_TIE_Defender,
+                                        E_TIE_Defender_Squadron,
+                                <!-- every fighter needs to be here -->
+                                </Target_Types>
+
+                                <Recharge_Seconds>60</Recharge_Seconds>
+                                <Expiration_Seconds>15</Expiration_Seconds>
+
+                                <Is_Pulsing>Yes</Is_Pulsing>
+                                <Pulse_Frequency_Secs>0.5</Pulse_Frequency_Secs>
+                                <Max_Number_Of_Pulses>40</Max_Number_Of_Pulses>
+                                <Particle_Effect>Lure_Ability_Particle</Particle_Effect>
+
+                                <Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER,        0.9f</Mod_Multiplier><!-- Invulnerable -->
+                        </Unit_Ability>
 
                 </Unit_Abilities_Data>
 
@@ -722,11 +722,11 @@
                                 <Effective_Radius>300.0</Effective_Radius>
                 <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
                         </Unit_Ability>
-						
-						<Unit_Ability>
-							<Type>LURE</Type>
-							<!-- details in the unit's XML -->
-						</Unit_Ability>
+
+                                                <Unit_Ability>
+                                                        <Type>LURE</Type>
+                                                        <!-- details in the unit's XML -->
+                                                </Unit_Ability>
 
                 </Unit_Abilities_Data>
 
@@ -1028,7 +1028,7 @@
                          HP_B-WING_E3_HL,
                          HP_B-WING_E3_SI_01,
                          HP_B-WING_E3_SI_02,
-                         HP_B-WING_E3_APPT;
+                         HP_B-WING_E3_APPT
                 </HardPoints>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1327,8 +1327,8 @@
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
                 <Death_Clone>Damage_Normal, RA_CORELLIAN_CORVETTE_DEATH_CLONE</Death_Clone>
-				
-				<Land_Damage_Thresholds>1, 0.6, 0.3</Land_Damage_Thresholds>
+
+                                <Land_Damage_Thresholds>1, 0.6, 0.3</Land_Damage_Thresholds>
                 <Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
                 <Land_Damage_SFX>null, null, null</Land_Damage_SFX>
         <!-- SFX  GC-->
@@ -1357,8 +1357,8 @@
                 <SFXEvent_Engine_Idle_Loop> Unit_Corvette_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
                 <SFXEvent_Engine_Moving_Loop> Unit_Corvette_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
                 <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corvette_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-				
-				<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
+
+                                <No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
                 <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
         <!-- Abilities -->
@@ -1531,8 +1531,8 @@
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
                 <Death_Clone>Damage_Normal, RA_CORELLIAN_GUNBOAT_DEATH_CLONE</Death_Clone>
-				
-				<Land_Damage_Thresholds>1, 0.6, 0.3, 0.1</Land_Damage_Thresholds>
+
+                                <Land_Damage_Thresholds>1, 0.6, 0.3, 0.1</Land_Damage_Thresholds>
                 <Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
                 <Land_Damage_SFX>null, null</Land_Damage_SFX>
         <!-- SFX  GC-->
@@ -1746,8 +1746,8 @@
                 </HardPoints>
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
                 <Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
-				
-				<Land_Damage_Thresholds>1, 0.6, 0.3</Land_Damage_Thresholds>
+
+                                <Land_Damage_Thresholds>1, 0.6, 0.3</Land_Damage_Thresholds>
                 <Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
                 <Land_Damage_SFX>null, null, null</Land_Damage_SFX>
 
@@ -1866,8 +1866,8 @@
                 <Variant_Of_Existing_Type>RA_MARAUDER</Variant_Of_Existing_Type>
                 <Text_ID>TEXT_UNIT_MARAUDER_M</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER_M</Encyclopedia_Text>
-				
-				<Encyclopedia_Good_Against> E_TIE_BOMBER E_BROADSIDE E_ACCLAMATOR_ASSAULT_FRIGATE_I</Encyclopedia_Good_Against>
+
+                                <Encyclopedia_Good_Against> E_TIE_BOMBER E_BROADSIDE E_ACCLAMATOR_ASSAULT_FRIGATE_I</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_VICTORY_I E_ISDI</Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_marauder_m.tga</Icon_Name>
                 <HardPoints>
@@ -1877,7 +1877,7 @@
                          HP_MARAUDER_TRACTOR
                 </HardPoints>
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-				<Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
+                                <Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
         </SpaceUnit>
 
@@ -2061,37 +2061,37 @@
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
                 </Unit_Abilities_Data>
-				
-				<Abilities SubObjectList="Yes">
-			
-					<Force_Healing_Ability Name="EF76_HOSPITAL_REPAIR">
-						<Activation_Style>Space_Automatic</Activation_Style>
-						<Heal_Range>850.0</Heal_Range>
-						<Heal_Amount>96.0</Heal_Amount>
-						<Blob_Color>0, 255, 0, 255</Blob_Color>
-						<Heal_Interval_In_Secs>3.0</Heal_Interval_In_Secs>
-						<Single_Target_Heal>Yes</Single_Target_Heal>
-						<Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
-						<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-						<Applicable_Unit_Types />
-						<SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
-						<Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
-						<Target_Particle_Bone_Name>SPOT01.TARGET, MISSILE_TARGET01, MISSILE_TARGET00</Target_Particle_Bone_Name>
-						<Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
-						<Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
-						<Target_Light_Effect_Color2 />
-						<Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
-						<Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
-						<Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
-						<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
-						<Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
-						<Owner_Light_Effect_Color2 />
-						<Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
-						<Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
-						<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
-					</Force_Healing_Ability>
-					
-				</Abilities>
+
+                                <Abilities SubObjectList="Yes">
+
+                                        <Force_Healing_Ability Name="EF76_HOSPITAL_REPAIR">
+                                                <Activation_Style>Space_Automatic</Activation_Style>
+                                                <Heal_Range>850.0</Heal_Range>
+                                                <Heal_Amount>96.0</Heal_Amount>
+                                                <Blob_Color>0, 255, 0, 255</Blob_Color>
+                                                <Heal_Interval_In_Secs>3.0</Heal_Interval_In_Secs>
+                                                <Single_Target_Heal>Yes</Single_Target_Heal>
+                                                <Heal_Range_Blob_Material>Reinforcement_Point_Radius_Overlay</Heal_Range_Blob_Material>
+                                                <Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+                                                <Applicable_Unit_Types />
+                                                <SFXEvent_Target_Affected>Unit_Force_Healing_Pulse</SFXEvent_Target_Affected>
+                                                <Target_Particle_Effect>Shield_Sparks_Medium</Target_Particle_Effect>
+                                                <Target_Particle_Bone_Name>SPOT01.TARGET, MISSILE_TARGET01, MISSILE_TARGET00</Target_Particle_Bone_Name>
+                                                <Target_Light_Effect_Type>Color_Flash</Target_Light_Effect_Type>
+                                                <Target_Light_Effect_Color>1.2, 1.2, 2.0</Target_Light_Effect_Color>
+                                                <Target_Light_Effect_Color2 />
+                                                <Target_Light_Effect_Duration>0.6</Target_Light_Effect_Duration>
+                                                <Target_Light_Effect_Pulse_Count>1</Target_Light_Effect_Pulse_Count>
+                                                <Owner_Particle_Bone_Name>ROOT</Owner_Particle_Bone_Name>
+                                                <Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
+                                                <Owner_Light_Effect_Color>1.2, 1.2, 2.0</Owner_Light_Effect_Color>
+                                                <Owner_Light_Effect_Color2 />
+                                                <Owner_Light_Effect_Duration>0.6</Owner_Light_Effect_Duration>
+                                                <Owner_Light_Effect_Pulse_Count>1</Owner_Light_Effect_Pulse_Count>
+                                                <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
+                                        </Force_Healing_Ability>
+
+                                </Abilities>
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
@@ -2246,7 +2246,7 @@
                         HP_EF76_E3_L_03,
                         HP_EF76_E3_L_04,
                         HP_EF76_E3_ENGINES,
-						HP_EF76_TRACTOR
+                                                HP_EF76_TRACTOR
                         <!-- HP_EF76_E3_SHIELD -->
                 </HardPoints>
         <!-- Death  Stats -->
@@ -2315,19 +2315,19 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Nebulon</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
-						
-						<Unit_Ability>
-								<Type>TRACTOR_BEAM</Type>
-								<Mod_Multiplier>SPEED_MULTIPLIER, 0.9f</Mod_Multiplier>
-								<GUI_Activated_Ability_Name> Nebulon_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-								<Recharge_Seconds>25</Recharge_Seconds>
-								<SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+
+                                                <Unit_Ability>
+                                                                <Type>TRACTOR_BEAM</Type>
+                                                                <Mod_Multiplier>SPEED_MULTIPLIER, 0.9f</Mod_Multiplier>
+                                                                <GUI_Activated_Ability_Name> Nebulon_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                                                <Recharge_Seconds>25</Recharge_Seconds>
+                                                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
-						</Unit_Ability>
+                                                </Unit_Ability>
                 </Unit_Abilities_Data>
-				
-			<Abilities SubObjectList="Yes">
+
+                        <Abilities SubObjectList="Yes">
               <Tractor_Beam_Attack_Ability Name="Nebulon_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette </Applicable_Unit_Categories>
@@ -2341,8 +2341,8 @@
                     <Target_Speed_Decrease_Percent>0.7</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
-			  
-			 </Abilities> 
+
+                         </Abilities>
         <!-- Radar and FOW Stats -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
@@ -3850,7 +3850,7 @@
                        HP_MC80_LIBERTYTYPE_E3_LI_04,
                        HP_MC80_LIBERTYTYPE_E3_ENGINES,
                        HP_MC80_LIBERTYTYPE_E3_HANGAR,
-					   HP_MC80_LIBERTYTYPE_E3_TRACTOR
+                                           HP_MC80_LIBERTYTYPE_E3_TRACTOR
                 </HardPoints>
 
                 <GUI_Distance>1650</GUI_Distance>
@@ -3934,35 +3934,35 @@
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Calamari</SFXEvent_GUI_Unit_Ability_Activated>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
-						
-					<Unit_Ability>
-								<Type>TRACTOR_BEAM</Type>
-								<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-								<GUI_Activated_Ability_Name> MC80_Liberty_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-								<Recharge_Seconds>20</Recharge_Seconds>
-								<SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+
+                                        <Unit_Ability>
+                                                                <Type>TRACTOR_BEAM</Type>
+                                                                <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                                                                <GUI_Activated_Ability_Name> MC80_Liberty_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                                                <Recharge_Seconds>20</Recharge_Seconds>
+                                                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
                     </Unit_Ability>
 
                 </Unit_Abilities_Data>
-				
-				<Abilities SubObjectList="Yes">
-					<Tractor_Beam_Attack_Ability Name="MC80_Liberty_Tractor_Beam_Attack_Ability">
-						<Activation_Style> User_Input </Activation_Style>
-						<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-						<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-									<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-						<Activation_Min_Range>10</Activation_Min_Range>
-						<Activation_Max_Range>1400</Activation_Max_Range>
+
+                                <Abilities SubObjectList="Yes">
+                                        <Tractor_Beam_Attack_Ability Name="MC80_Liberty_Tractor_Beam_Attack_Ability">
+                                                <Activation_Style> User_Input </Activation_Style>
+                                                <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                                                <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                                                        <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                                                <Activation_Min_Range>10</Activation_Min_Range>
+                                                <Activation_Max_Range>1400</Activation_Max_Range>
 
 
-						<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-						<Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
-						<Stacking_Category>0</Stacking_Category>
-					</Tractor_Beam_Attack_Ability>
+                                                <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                                                <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                                                <Stacking_Category>0</Stacking_Category>
+                                        </Tractor_Beam_Attack_Ability>
 
-				</Abilities>
+                                </Abilities>
 
                 <Score_Cost_Credits> 42500 </Score_Cost_Credits>
 

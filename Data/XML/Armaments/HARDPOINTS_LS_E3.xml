@@ -404,8 +404,8 @@
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
 
-            <Fire_Bone_A>MuzzleC_00</Fire_Bone_A>
-            <Fire_Bone_B>MuzzleC_01</Fire_Bone_B>
+            <Fire_Bone_A>MUZZLEC_00</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEC_01</Fire_Bone_B>
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_AP_Proton_Torp_E3</Fire_Projectile_Type>
@@ -1374,14 +1374,14 @@
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
             <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
     </HardPoint>
-	
-	<HardPoint Name="HP_EF76_TRACTOR">
+
+        <HardPoint Name="HP_EF76_TRACTOR">
                     <Type> HARD_POINT_TRACTOR_BEAM </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
             <Attachment_Bone>HP_L_02</Attachment_Bone>
     </HardPoint>
-	
+
     <!--Should be changed-->
     <HardPoint Name="HP_EF76_E3_HANGAR">
                     <Type> HARD_POINT_FIGHTER_BAY </Type>
@@ -4526,7 +4526,7 @@
 
           </HardPoint>
 
-	<HardPoint Name="HP_MC80_LIBERTYTYPE_E3_TRACTOR">
+        <HardPoint Name="HP_MC80_LIBERTYTYPE_E3_TRACTOR">
                         <Type> HARD_POINT_TRACTOR_BEAM </Type>
                 <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
                 <Is_Targetable>Yes</Is_Targetable>
