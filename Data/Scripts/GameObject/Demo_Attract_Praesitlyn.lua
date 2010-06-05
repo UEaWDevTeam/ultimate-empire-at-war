@@ -75,8 +75,13 @@ function State_Init(message) --initialise
 		light_unit_list = Find_All_Objects_Of_Type(light_player)
 		
 		l_goto_list = Find_All_Objects_Of_Type ("STORY_TRIGGER_ZONE_00") --create the location list from all markers of the named type
+		d_goto_list = Find_All_Objects_Of_Type ("STORY_TRIGGER_ZONE_01")
 				
 		Move_Fleet(light_unit_list, l_goto_list) --move the light side fleet to the markers
+		
+		Sleep(5)
+		
+		Move_Fleet(dark_unit_list, d_goto_list)
 		
 		--MessageBox("Fleets Defined")
 		
