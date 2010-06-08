@@ -712,9 +712,9 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>2.4</Max_Speed>
-                <Min_Speed>1.0</Min_Speed>
-                <Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
+                <Max_Speed>3.1</Max_Speed>
+                <Min_Speed>1.3</Min_Speed>
+                <Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
                 <Max_Lift>3</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
@@ -726,9 +726,9 @@
 
                 <Affiliation>Light_Side</Affiliation>
 
-                <Shield_Points>0</Shield_Points>
+                <Shield_Points>30</Shield_Points>
                 <Tactical_Health>100</Tactical_Health>
-                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>2</Shield_Refresh_Rate>
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -973,7 +973,7 @@
                 <Attack_Move_Response_Range> 400.0</Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
                 <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command> <!-- Fighters always move -->
 
-                <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
+                <Hyperspace_Speed> 0.75 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
                 <Max_Thrust>0.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
         <!-- Behaviours -->
@@ -1133,9 +1133,9 @@
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
                 <Damage> 30 </Damage> <!-- Unsure of this one -->
-                <Tactical_Health> 3600 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
-                <Autoresolve_Health> 3600 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 700 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Tactical_Health> 1320 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Autoresolve_Health> 2420 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
+                <Shield_Points> 1100 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 8.33 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
@@ -1292,7 +1292,7 @@
 
         </SpaceUnit>
 
-    <SpaceUnit Name="R_LIGHT_CRUISER_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
+        <SpaceUnit Name="R_LIGHT_CRUISER_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
 
                 <Text_ID>TEXT_UNIT_NEBULON_B</Text_ID> <!-- Same as unit's -->
                 <Space_Model_Name>VCFr_LIGHT_CRUISER_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
@@ -1326,16 +1326,14 @@
                 <Mass>0.9995</Mass>
                 <Scale_Factor>0.43</Scale_Factor>
 
-                                <No_Colorization_Color> 100, 100, 100, 255 </No_Colorization_Color>
-
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-                <Max_Speed>2.7</Max_Speed>
-                <Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
+                <Max_Speed>2.5</Max_Speed>
+                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-110.0</Layer_Z_Adjust>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.36</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>20</Bank_Turn_Angle>
                 <OverrideAcceleration> .04 </OverrideAcceleration>
                 <OverrideDeceleration> .04 </OverrideDeceleration>
@@ -1348,9 +1346,9 @@
                 <Armor_Type> Armour_Frigate_Superior </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
                 <Damage>30</Damage>
-                <Autoresolve_Health>2400</Autoresolve_Health>
-                <Shield_Points>600</Shield_Points>
-                <Tactical_Health>2000</Tactical_Health>
+                <Autoresolve_Health>2820</Autoresolve_Health>
+                <Shield_Points>1300</Shield_Points>
+                <Tactical_Health>1520</Tactical_Health>
                 <Shield_Refresh_Rate>15</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>400</Energy_Refresh_Rate>
@@ -1528,7 +1526,7 @@
 
         </SpaceUnit>
 
-                <SpaceUnit Name="R_CARRACK_CRUISER">
+        <SpaceUnit Name="R_CARRACK_CRUISER">
                 <Text_ID>TEXT_UNIT_CARRACK</Text_ID>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -1544,11 +1542,11 @@
                 <Mass>0.9995</Mass>
                 <Scale_Factor>0.5</Scale_Factor>
 
-                                <No_Colorization_Color> 150, 150, 150, 255 </No_Colorization_Color>
+                <No_Colorization_Color> 150, 150, 150, 255 </No_Colorization_Color>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-                <Max_Speed>2.58</Max_Speed>
+                <Max_Speed>3.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
@@ -1560,15 +1558,15 @@
 
                 <Max_Thrust>0.05</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>0.6</Hyperspace_Speed>
+                <Hyperspace_Speed>0.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Frigate_Superior </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
                 <Damage>30</Damage>
-                <Autoresolve_Health>5544</Autoresolve_Health>
-                <Shield_Points>3024</Shield_Points>
-                <Tactical_Health>2520</Tactical_Health>
+                <Autoresolve_Health>5100</Autoresolve_Health>
+                <Shield_Points>2400</Shield_Points>
+                <Tactical_Health>2700</Tactical_Health>
                 <Shield_Refresh_Rate>7.5</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>400</Energy_Refresh_Rate>
