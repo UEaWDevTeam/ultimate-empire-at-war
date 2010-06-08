@@ -22,14 +22,10 @@ function State_Init(message) --initialise
 	 
 	if message == OnEnter then --unit has entered the game
 		
-		providence = Find_All_Objects_Of_Type("C_PROVIDENCE") --find all carrier units
-		--recusant = Find_All_Objects_Of_Type("C_RECUSANT")
-		--recusant_variant = Find_All_Objects_Of_Type("C_RECUSANT_CARRIER")
-		--lucrehulk = Find_All_Objects_Of_Type("C_LUCREHULK")
-		--lucrehulk_battleship = Find_All_Objects_Of_Type("C_LUCREHULK_BATTLESHIP")
-	
-		carrier_list = {providence}--, recusant, recusant_variant, lucrehulk, lucrehulk_battleship --put them all in a list
+		player = Object.Get_Owner()
 		
+		carrier_list = Find_All_Objects_Of_Type(player, "C_PROVIDENCE", "C_RECUSANT", "C_RECUSANT_CARRIER", "C_LUCREHULK", "C_LUCREHULK_BATTELSHIP") --find all carrier units
+	
 		returning_to_carrier = false --not returning yet
 		
 	elseif message == OnUpdate then --if the unit is doing something
