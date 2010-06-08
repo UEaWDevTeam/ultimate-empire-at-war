@@ -35,38 +35,28 @@ function State_Init(message) --initialise
 	elseif message == OnUpdate then --if the unit is doing something
 	
 		repeat
-			Object.Return_to_Carrier(carrier_list) --tell the unit to return to the nearest carrier unit
+			Return_to_Carrier(carrier_list, Object) --tell the unit to return to the nearest carrier unit if necessary
 		until (returning_to_carrier == true) --we don't have to run the loop once the drone is returning.
 		
 	end
 	
 end
 
---function Distance_From_Carrier(carrierdist_list)
---	 for k, carrier in pairs(carrierdist_list) do --cycle through all carriers
---		if TestValid(carrier) then --if a carrier exists
---			carrierdist = Object.Get_Distance(Find_Nearest(Object, carrier)) --find the distance to the nearest carrier to the droid fighter
---		end
---	end
-	
---	return carrierdist
-
---end	
-
-function Return_to_Carrier(carrierloc_list) --define the function
+function Return_to_Carrier(carrierloc_list, fighter) --define the function
 	for k, unit in pairs(carrierloc_list) do --cycle through all carriers
 		if TestValid(unit) then --if a carrier exists
-			carrierloc = Find_Nearest(Object, unit) --find the nearest carrier to the droid fighter
-			carrierdist = Object.Get_Distance(carrierloc.Get_Position())
+			carrierloc = Find_Nearest(fighter, unit) --find the nearest carrier to the droid fighter
+			carrierdist = fighter.Get_Distance(carrierloc)
 		else
 			Sleep (5)
-			Object.Take_Damage(500)
+			fighter.Take_Damage(500) --kill the fighter after 5 seconds if no carrier is found
 			returning_to_carrier = true
 		end
 	end
 	if carrierdist > 6000 then
-		Object.Move_To(carrierloc) --move the fighter to it
-		returning_to_carrier = true
+		fighter.Move_To(carrierloc) --move the fighter to it
+		fighter.Lock_Current_Orders() --lock the move order until complete
+		returning_to_carrier = true --the unit is returning to the carrier
 	end
 		
 end
