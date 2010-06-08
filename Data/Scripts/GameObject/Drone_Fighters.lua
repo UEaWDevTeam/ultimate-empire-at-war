@@ -30,10 +30,14 @@ function State_Init(message) --initialise
 	
 		carrier_list = {providence}--, recusant, recusant_variant, lucrehulk, lucrehulk_battleship --put them all in a list
 		
+		returning_to_carrier = false --not returning yet
+		
 	elseif message == OnUpdate then --if the unit is doing something
 	
-		Object.Return_to_Carrier(carrier_list) --tell the unit to return to the nearest carrier unit
-
+		repeat
+			Object.Return_to_Carrier(carrier_list) --tell the unit to return to the nearest carrier unit
+		until (returning_to_carrier == true) --we don't have to run the loop once the drone is returning.
+		
 	end
 	
 end
@@ -50,17 +54,19 @@ end
 --end	
 
 function Return_to_Carrier(carrierloc_list) --define the function
-	for k, carrier in pairs(carrierloc_list) do --cycle through all carriers
-		if TestValid(carrier) then --if a carrier exists
-			carrierloc = Find_Nearest(Object, carrier) --find the nearest carrier to the droid fighter
-			carrierdist = Object.Get_Distance(carrierloc)
+	for k, unit in pairs(carrierloc_list) do --cycle through all carriers
+		if TestValid(unit) then --if a carrier exists
+			carrierloc = Find_Nearest(Object, unit) --find the nearest carrier to the droid fighter
+			carrierdist = Object.Get_Distance(carrierloc.Get_Position())
 		else
 			Sleep (5)
 			Object.Take_Damage(500)
+			returning_to_carrier = true
 		end
 	end
 	if carrierdist > 6000 then
 		Object.Move_To(carrierloc) --move the fighter to it
+		returning_to_carrier = true
 	end
 		
 end
