@@ -515,20 +515,20 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>5.8</Max_Speed>
-                <Min_Speed>3.5</Min_Speed>
-                <Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
+                <Max_Speed>4.8</Max_Speed>
+                <Min_Speed>2.5</Min_Speed>
+                <Max_Rate_Of_Turn>2.3</Max_Rate_Of_Turn>
                 <Max_Thrust>0.7</Max_Thrust>
-                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>40</Bank_Turn_Angle>
                 <Max_Lift>2.67</Max_Lift>
                 <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
                 <Affiliation>Light_Side</Affiliation>
-                <Shield_Points>40</Shield_Points>
-                <Tactical_Health>60</Tactical_Health>
+                <Shield_Points>45</Shield_Points>
+                <Tactical_Health>75</Tactical_Health>
                 <Autoresolve_Health>160</Autoresolve_Health>
                 <Damage>12</Damage>
                 <Shield_Refresh_Rate>4</Shield_Refresh_Rate>
@@ -537,8 +537,7 @@
                 <Ship_Class>fighter</Ship_Class>
 
                 <Armor_Type> Armor_Fighter </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-        <Damage_Type>Damage_Fighter</Damage_Type>
+                <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
@@ -740,30 +739,30 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>5.8</Max_Speed>
-                <Min_Speed>3.5</Min_Speed>
+                <Max_Speed>2.8</Max_Speed>
+                <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
                 <Max_Thrust>0.7</Max_Thrust>
                 <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>40</Bank_Turn_Angle>
                 <Max_Lift>2.67</Max_Lift>
                 <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
-                <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Hyperspace>no</Hyperspace>
+                <Hyperspace_Speed>0</Hyperspace_Speed>
 
                 <Affiliation>Light_Side</Affiliation>
-                <Shield_Points>40</Shield_Points>
-                <Tactical_Health>60</Tactical_Health>
-                <Autoresolve_Health>160</Autoresolve_Health>
+                <Shield_Points>20</Shield_Points>
+                <Tactical_Health>100</Tactical_Health>
+                <Autoresolve_Health>200</Autoresolve_Health>
                 <Damage>12</Damage>
                 <Shield_Refresh_Rate>4</Shield_Refresh_Rate>
                 <Energy_Capacity>9999</Energy_Capacity>
                 <Energy_Refresh_Rate>180</Energy_Refresh_Rate>
                 <Ship_Class>fighter</Ship_Class>
 
-                <Armor_Type> Armor_Fighter </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
-        <Damage_Type>Damage_Fighter</Damage_Type>
+                <Armor_Type> Armor_Fighter_Superior </Armor_Type>
+                 <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+                 <Damage_Type>Damage_Fighter</Damage_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
@@ -967,6 +966,30 @@
                          HP_K-WING_ESCORT_E4_FC_01,
                          HP_K-WING_ESCORT_E4_FC_02
                 </HardPoints>
+
+                <Max_Speed>3.1</Max_Speed>
+                <Min_Speed>1.5</Min_Speed>
+                <Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
+                <Max_Thrust>0.9</Max_Thrust>
+                <Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>40</Bank_Turn_Angle>
+                <Max_Lift>2.67</Max_Lift>
+                <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
+                <Hyperspace>no</Hyperspace>
+                <Hyperspace_Speed>0</Hyperspace_Speed>
+
+                <Affiliation>Light_Side</Affiliation>
+                <Shield_Points>50</Shield_Points>
+                <Tactical_Health>100</Tactical_Health>
+                <Autoresolve_Health>200</Autoresolve_Health>
+                <Damage>12</Damage>
+                <Shield_Refresh_Rate>4</Shield_Refresh_Rate>
+                <Energy_Capacity>9999</Energy_Capacity>
+                <Energy_Refresh_Rate>180</Energy_Refresh_Rate>
+                <Ship_Class>fighter</Ship_Class>
+
+                <Armor_Type> Armor_Fighter_Superior </Armor_Type>
+                 <Shield_Armor_Type>Shield_Fighter_Superior</Shield_Armor_Type>
         </SpaceUnit>
 
 
@@ -1125,9 +1148,9 @@
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
                 <Damage> 30 </Damage> <!-- Unsure of this one -->
-                <Tactical_Health> 3600 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
-                <Autoresolve_Health> 3600 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 700 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Tactical_Health> 2500 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Autoresolve_Health> 5500 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
+                <Shield_Points> 3000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 50 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
@@ -1584,13 +1607,13 @@
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
                 <Damage> 40 </Damage> <!-- Unsure of this one -->
-                <Tactical_Health> 7040 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
-                <Autoresolve_Health> 15488 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 8448 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Tactical_Health> 9100 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Autoresolve_Health> 17600 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
+                <Shield_Points> 8500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 60 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armour_Cruiser </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Cruiser_Superior </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
         <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power> 2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
@@ -1619,9 +1642,9 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.15 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.9 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Speed> 1.8 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Rate_Of_Turn> 0.6 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 0.8 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .09 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .09 </OverrideDeceleration> <!-- Unsure -->
@@ -1631,7 +1654,7 @@
                 <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command> <!-- Fighters always move -->
 
                 <Hyperspace_Speed> 1.5 </Hyperspace_Speed> <!-- How fast the unit can move at hyperspace (GC mode) if capable || was 1.5 -->
-                <Max_Thrust>1.5</Max_Thrust>
+                <Max_Thrust>0.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace> <!-- Can this unit use Hyperspace -->
 
                 <Starting_Spawned_Units_Tech_0>NR_E-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
@@ -1860,7 +1883,7 @@
                 <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
-                <Max_Speed>2.4</Max_Speed>
+                <Max_Speed>1.94</Max_Speed>
                 <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
@@ -1874,7 +1897,7 @@
                 <Bank_Turn_Angle>25</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1</Hyperspace_Speed>
+                <Hyperspace_Speed>0.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.3</Maintenance_Cost>
 
                 <Death_Clone>Damage_Normal, NR_MC90_DEATH_CLONE</Death_Clone>
@@ -1889,9 +1912,9 @@
                 <Required_Star_Base_Level>4</Required_Star_Base_Level>
                 <Required_Special_Structures />
                 <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
-                <Autoresolve_Health>2500</Autoresolve_Health>
-                <Tactical_Health>8500</Tactical_Health>
-                <Shield_Points>5000</Shield_Points>
+                <Autoresolve_Health>33500</Autoresolve_Health>
+                <Tactical_Health>15500</Tactical_Health>
+                <Shield_Points>18000</Shield_Points>
                 <Shield_Refresh_Rate>50</Shield_Refresh_Rate>
                 <Energy_Capacity>8000</Energy_Capacity>
                 <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
