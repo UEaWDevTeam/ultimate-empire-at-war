@@ -29,8 +29,8 @@
                 <Max_Thrust>1.5</Max_Thrust>
                 <Max_Rate_Of_Roll>5.8</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>40</Bank_Turn_Angle>
-                <Hyperspace>yes</Hyperspace>
-                <Hyperspace_Speed>2.0</Hyperspace_Speed>
+                <Hyperspace>no</Hyperspace>
+                <Hyperspace_Speed>0</Hyperspace_Speed>
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
@@ -98,8 +98,8 @@
                 <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
                 <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-				
-			<Lua_Script>Drone_Fighters</Lua_Script>
+
+                        <Lua_Script>Drone_Fighters</Lua_Script>
 
                 <CategoryMask> Fighter | AntiBomber</CategoryMask>
                 <Property_Flags> SmallShip </Property_Flags>
@@ -187,8 +187,8 @@
                 <GUI_Distance>120</GUI_Distance>
                 <GUI_Offset>0 0 0</GUI_Offset>
                 <GUI_Velocity>45</GUI_Velocity>
-				
-				
+
+
 
                 <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -329,15 +329,15 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>4.4</Max_Speed>
+                <Max_Speed>5.0</Max_Speed>
                 <Min_Speed>3.5</Min_Speed>
                 <Max_Rate_Of_Turn>4.8</Max_Rate_Of_Turn>
                 <Max_Lift>4</Max_Lift>
                 <Max_Thrust>2.0</Max_Thrust>
                 <Max_Rate_Of_Roll>5.6</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>45</Bank_Turn_Angle>
-                <Hyperspace>yes</Hyperspace>
-                <Hyperspace_Speed>2.0</Hyperspace_Speed>
+                <Hyperspace>no</Hyperspace>
+                <Hyperspace_Speed>0</Hyperspace_Speed>
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
@@ -833,12 +833,12 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>2.4</Max_Speed>
-                <Min_Speed>1.0</Min_Speed>
-                <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+                <Max_Speed>3.8</Max_Speed>
+                <Min_Speed>2.4</Min_Speed>
+                <Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
                 <Max_Lift>3</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>2.9</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>30</Bank_Turn_Angle>
                 <Hyperspace>yes</Hyperspace>
                 <Hyperspace_Speed>2.0</Hyperspace_Speed>
@@ -1051,10 +1051,10 @@
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
                 <Damage> 25 </Damage> <!-- Unsure of this one -->
-                <Tactical_Health> 600 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
-                <Autoresolve_Health> 1200 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 600 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate>2.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Tactical_Health> 1500 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Autoresolve_Health> 2000 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
+                <Shield_Points> 500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate>7.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 1500</Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 350</Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type>Armour_Corvette </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -1086,9 +1086,9 @@
                 <Space_Layer> Corvette </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.9 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Speed> 1.9 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Rate_Of_Turn> 1.1 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Roll> 1.1 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 15 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
@@ -1262,7 +1262,7 @@
 
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Hyperspace_Speed>1.0</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
@@ -1270,7 +1270,7 @@
                 <Damage>40</Damage>
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
-                <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
+                <Tactical_Health>5880</Tactical_Health>
                 <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1482,7 +1482,7 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-                <Max_Speed>1.6</Max_Speed>
+                <Max_Speed>1.5</Max_Speed>
                 <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
@@ -1494,15 +1494,15 @@
 
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Hyperspace_Speed>1.0</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
         <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Damage>40</Damage>
-                <Autoresolve_Health>12936</Autoresolve_Health>
-                <Shield_Points>7056</Shield_Points>
-                <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
+                <Autoresolve_Health>14520</Autoresolve_Health>
+                <Shield_Points>7920</Shield_Points>
+                <Tactical_Health>6600</Tactical_Health>
                 <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
@@ -1730,19 +1730,19 @@
 
         <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-                <Max_Speed>1.6</Max_Speed>
-                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+                <Max_Speed>1.4</Max_Speed>
+                <Max_Rate_Of_Turn>0.26</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
-                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Max_Rate_Of_Roll>0.18</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>8</Bank_Turn_Angle>
                 <OverrideAcceleration> .013 </OverrideAcceleration>
                 <OverrideDeceleration> .013 </OverrideDeceleration>
 
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
-                <Hyperspace_Speed>1.5</Hyperspace_Speed>
+                <Hyperspace_Speed>0.75</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
