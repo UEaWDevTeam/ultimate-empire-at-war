@@ -26,22 +26,20 @@ function State_Init(message) --initialise
 
         elseif message == OnUpdate then --if the unit is doing something
 
-                carrier_list = Find_All_Objects_Of_Type("C_PROVIDENCE", "C_RECUSANT", "C_RECUSANT_CARRIER", "C_LUCREHULK", "C_LUCREHULK_BATTLESHIP") --find all carrier units
-
+                carrier_list = u Find_All_Objects_Of_Type("C_PROVIDENCE", "C_RECUSANT", "C_RECUSANT_CARRIER", "C_LUCREHULK", "C_LUCREHULK_BATTLESHIP") --find all carrier units
+	
+	
                 Return_to_Carrier(carrier_list)
-
         end
 
 end
 
 function Return_to_Carrier(carrierloc_list)
-
-         Object.Get_Owner().Give_Money(1)
+		 Object.Get_Owner().Give_Money(1)
          Carrier_exists = false
-         Carrier_in_Range = false
 
          if table.getn(carrierloc_list) ~= 0 then
-         Object.Get_Owner().Give_Money(100)
+         Object.Get_Owner().Give_Money(1000)
                  for i=0, unit(carrierloc_list) do
 
                          carrierdist = Object.Get_Distance(carrierloc_list(i))
@@ -54,12 +52,14 @@ function Return_to_Carrier(carrierloc_list)
                  end
 
         else
-                 Sleep (5)
-                 Object.Take_Damage(500)
+				 --Object.Get_Owner().Give_Money(100)	
+                 --Object.Take_Damage(500)
 
         end
+		
+		Object.Get_Owner().Give_Money(10)
 
-        if Carrier_in_Range
+        if Carrier_in_Range then
 
         else
                  Object.Move_To(Carrier_Name) --move the fighter to it
