@@ -26,8 +26,7 @@ function State_Init(message) --initialise
 
         elseif message == OnUpdate then --if the unit is doing something
 
-                carrier_list = u Find_All_Objects_Of_Type("C_PROVIDENCE", "C_RECUSANT", "C_RECUSANT_CARRIER", "C_LUCREHULK", "C_LUCREHULK_BATTLESHIP") --find all carrier units
-	
+                carrier_list = Find_All_Objects_Of_Type("C_PROVIDENCE", "C_RECUSANT", "C_RECUSANT_CARRIER", "C_LUCREHULK", "C_LUCREHULK_BATTLESHIP") --find all carrier units
 	
                 Return_to_Carrier(carrier_list)
         end
@@ -36,24 +35,22 @@ end
 
 function Return_to_Carrier(carrierloc_list)
 		 Object.Get_Owner().Give_Money(1)
-         Carrier_exists = false
+         Carrier_in_Range = false
 
-         if table.getn(carrierloc_list) ~= 0 then
-         Object.Get_Owner().Give_Money(1000)
-                 for i=0, unit(carrierloc_list) do
-
-                         carrierdist = Object.Get_Distance(carrierloc_list(i))
+        if table.getn(carrierloc_list) > 0 then
+                 for i=0, pairs(carrierloc_list) do
+                         carrierdist = Object.Get_Distance(carrierloc_list[i])
 
 
-                         if carrierdist < 2000 then
+                         if carrierdist > 2000 then
                          Carrier_in_Range = true
-                         Carrier_Name = carrierloc_list(i)
+                         Carrier_Name = carrierloc_list[i]
                          end
                  end
 
         else
-				 --Object.Get_Owner().Give_Money(100)	
-                 --Object.Take_Damage(500)
+				 Object.Get_Owner().Give_Money(100)	
+                 Object.Take_Damage(500)
 
         end
 		
@@ -62,7 +59,7 @@ function Return_to_Carrier(carrierloc_list)
         if Carrier_in_Range then
 
         else
-                 Object.Move_To(Carrier_Name) --move the fighter to it
+                 Object.Get_Parent_Object().Move_To(Carrier_Name) --move the fighter to it
                  Object.Lock_Current_Orders() --lock the move order until complete
 
         end
