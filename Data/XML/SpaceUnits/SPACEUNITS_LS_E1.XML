@@ -248,7 +248,7 @@
                 <Icon_Name>i_button_chela.tga</Icon_Name>
 
                 <Space_Model_Name>VSB_CHELA.ALO</Space_Model_Name>
-                <Scale_Factor>0.22</Scale_Factor>
+                <Scale_Factor>0.39</Scale_Factor>
                 <Select_Box_Scale>35</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -458,24 +458,24 @@
         <!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports --><!-- Transports -->
 
         <!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes --><!-- Corvettes -->
-        <SpaceUnit Name="OR_REPUBLIC_CORVETTE">
+        <SpaceUnit Name="OR_FORAY_CLASS">
 
         <!-- General ID -->
-                <Text_ID> TEXT_UNIT_CORELLIAN_CORVETTE </Text_ID> <!-- One entry Only -->
-                <Encyclopedia_Text> TEXT_TOOLTIP_CORELLIAN_CORVETTE </Encyclopedia_Text> <!-- One entry Only -->
+                <Text_ID> TEXT_UNIT_FORAY </Text_ID> <!-- One entry Only -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_FORAY </Encyclopedia_Text> <!-- One entry Only -->
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CORVETTE </Encyclopedia_Unit_Class> <!-- One entry Only -->
-                <Encyclopedia_Good_Against>EMPIRE_TIE_FIGHTER EMPIRE_TIE_BOMBER </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
-                <Encyclopedia_Vulnerable_To> EMPIRE_VICTORY_DESTROYER EMPIRE_ACCLAMATOR_ASSAULT_SHIP </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> i_button_corellian_corvette.tga</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_REBEL.tga = || Ensure .tga extension -->
+                <Icon_Name> I_BUTTON_FORAY.tga</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_REBEL.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
-                <Space_Model_Name> RV_CORVETTE.ALO</Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
+                <Space_Model_Name> VCCo_FORAY_CORVETTE.ALO</Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.5 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.995</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Republic </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Light_Side </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -548,19 +548,15 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
                 <!-- Hardpoints -->
                 <HardPoints>
-                        HP_CORELLIAN_CORVETTE_E3_LASER_01,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_02,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_03,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_04,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_05,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_06,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_07,
-                        HP_CORELLIAN_CORVETTE_E3_LASER_08
-
+                        HP_FORAY_CLASS_MTL_01,
+                        HP_FORAY_CLASS_MTL_02,
+                        HP_FORAY_CLASS_HL_01,
+                        HP_FORAY_CLASS_HL_02,
+                        HP_FORAY_CLASS_HL_03
                 </HardPoints>
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-                <Death_Clone>Damage_Normal, R_LIGHT_ASSAULT_CORVETTE_DEATH_CLONE</Death_Clone>
+                <Death_Clone>Damage_Normal, OR_FORAY_CLASS_DEATH_CLONE</Death_Clone>
         <!-- SFX  GC-->
                 <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -635,9 +631,9 @@
 
         </SpaceUnit>
 
-    <SpaceUnit Name="OR_REPUBLIC_CORVETTE_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
+    <SpaceUnit Name="OR_FORAY_CLASS_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
                 <Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID> <!-- Same as unit's -->
-                <Space_Model_Name>RV_Corvette_D.alo</Space_Model_Name> <!-- Ensure ".alo" suffix -->
+                <Space_Model_Name>VCCo_FORAY_CORVETTE_D.alo</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
                 <Scale_Factor>.5</Scale_Factor>
@@ -647,7 +643,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation> <!-- Same as Unit's -->
+                <Affiliation>Light_Side</Affiliation> <!-- Same as Unit's -->
                 <Ship_Class>Corvette</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>True</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
