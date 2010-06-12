@@ -503,7 +503,7 @@
 
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotation_Offset> 0.0, -35.0, 0.0 </Turret_Rotation_Offset>
             <Turret_Rotate_Speed> 3.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 70.0 </Turret_Elevate_Extent_Degrees>
@@ -542,7 +542,7 @@
             <Collision_Mesh>HP_FR_MTL_ATTACH_COLL</Collision_Mesh>
             <Damage_Decal>R_MTL_BLAST</Damage_Decal>
             <Damage_Particles>HP_FR_MTL_EMITDAMAGE</Damage_Particles>
-            <Model_to_Attach>RVCr_HAMMERHEAD_TURRET_L.ALO</Model_to_Attach>
+            <Model_to_Attach>RVCr_HAMMERHEAD_TURRET_R.ALO</Model_to_Attach>
 
             <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -550,7 +550,7 @@
 
             <Is_Turret> Yes </Is_Turret>
             <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
-            <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+            <Turret_Rotation_Offset> 0.0, -35.0, 0.0 </Turret_Rotation_Offset>
             <Turret_Rotate_Speed> 3.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees> 360.0 </Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees> 70.0 </Turret_Elevate_Extent_Degrees>
@@ -823,8 +823,8 @@
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
-                <Attachment_Bone>ROOT</Attachment_Bone>
-                <Collision_Mesh>ROOT</Collision_Mesh>
+                <Attachment_Bone>SPAWN_00</Attachment_Bone>
+                <Collision_Mesh>SPAWN_00_COLL</Collision_Mesh>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>240.0</Health>
                 <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
