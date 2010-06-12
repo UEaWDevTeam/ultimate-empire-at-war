@@ -29,30 +29,112 @@ function State_Init(message) --initialise
 		        providence_list = Find_All_Objects_Of_Type("C_PROVIDENCE")--find all carrier units
 		        recusant_list = Find_All_Objects_Of_Type("C_RECUSANT")--find all carrier units
 				recusant_carrier_list = Find_All_Objects_Of_Type("C_RECUSANT_CARRIER")--find all carrier units
+				lucrehulk_list = Find_All_Objects_Of_Type("C_LUCREHULK")--find all carrier units
+				lucrehulk_carrier_list = Find_All_Objects_Of_Type("C_LUCREHULK_CARRIER")--find all carrier units
 	
 				--Rec. Car. is founded but the fighters don't fly to it
 				--but fly to other units => if/else structure never ends in rec. carrier.
 				--why?
-			    if table.getn(providence_list) > 0 or table.getn(recusant_list) > 0 or table.getn(recusant_carrier_list) > 0  then
+				--right you've wrote >= instead of <=
+				--meh program don't see that there isn't any carrier...why?
+				--because you've forgot a >0 ><
+				--WHAT NOW? AGAIN THE SAME SHIT! DOESN'T KILL THE FIGHTERS! SEEMS AS SOMETHING WOULD BE FALSE AGAIN! NO REALLY? YOU'RE...meh
+			    if table.getn(providence_list) > 0 or table.getn(recusant_list) > 0 or table.getn(recusant_carrier_list) > 0 or table.getn(lucrehulk_list) > 0 or table.getn(lucrehulk_carrier_list) > 0 then
 					
 					providence_distance = 0
 					recusant_distance = 0
 					recusant_carrier_distance = 0
+					lucrehulk_distance = 0
+					lucrehulk_carrier_distance = 0
 					providence_distance = Find_Nearest_Carrier_Distance("C_PROVIDENCE")
 					recusant_distance = Find_Nearest_Carrier_Distance("C_RECUSANT")
 					recusant_carrier_distance = Find_Nearest_Carrier_Distance("C_RECUSANT_CARRIER")
+					lucrehulk_distance = Find_Nearest_Carrier_Distance("C_LUCREHULK")
+					lucrehulk_carrier_distance = Find_Nearest_Carrier_Distance("C_LUCREHULK_CARRIER")
 					
+					if(providence_distance == nil) then
+					
+						providence_distance = 50000
+					end
+					if(recusant_distance == nil) then
+					
+						recusant_distance = 50000
+					end
+					if(recusant_carrier_distance == nil) then
+					
+						recusant_carrier_distance = 50000
+					end
+					if(lucrehulk_distance == nil) then
+					
+						lucrehulk_distance = 50000
+					end
+					if(lucrehulk_carrier_distance == nil) then
+					
+						lucrehulk_carrier_distance = 50000
+					end
+					
+					--if I would explain this chain, I wont stop before tomorrow, so just one word: recursion
 					if(providence_distance <= recusant_distance) then
 						if(providence_distance <= recusant_carrier_distance) then
-							Check_and_Return("C_PROVIDENCE")
+							if(providence_distance <= lucrehulk_distance) then
+								if(providence_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_PROVIDENCE")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							else 
+								if(lucrehulk_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_LUCREHULK")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							
+							end
 						else
-							Check_and_Return("C_RECUSANT_CARRIER")
+							if(recusant_carrier_distance <= lucrehulk_distance) then
+								if(recusant_carrier_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_RECUSANT_CARRIER")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							else
+								if(lucrehulk_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_LUCREHULK")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							end
 						end
+							
 					else
 						if(recusant_distance <= recusant_carrier_distance) then
-							Check_and_Return("C_RECUSANT")
+							if(recusant_distance <= lucrehulk_distance) then
+								if(recusant_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_RECUSANT")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							else
+								if(lucrehulk_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_LUCREHULK")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							end
 						else
-							Check_and_Return("C_RECUSANT_CARRIER")
+							if(recusant_carrier_distance <= lucrehulk_distance) then 
+								if(recusant_carrier_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_RECUSANT_CARRIER")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							else
+								if(lucrehulk_distance <= lucrehulk_carrier_distance) then
+									Check_and_Return("C_LUCREHULK")
+								else
+									Check_and_Return("C_LUCREHULK_CARRIER")
+								end
+							end
 						end
 					end
 					
@@ -95,7 +177,17 @@ function Check_and_Return(carrier_type)
 			Object.Get_Parent_Object().Move_To(nearest_carrier) --move the fighter to it
 			Object.Lock_Current_Orders()
 		end
-	
+	elseif(carrier_type=="C_LUCREHULK") then
+		if(carrier_distance > 2000) then
+			Object.Get_Parent_Object().Move_To(nearest_carrier) --move the fighter to it
+			Object.Lock_Current_Orders()
+		end
+	elseif(carrier_type=="C_LUCREHULK_CARRIER") then
+		if(carrier_distance > 2000) then
+			Object.Get_Parent_Object().Move_To(nearest_carrier) --move the fighter to it
+			Object.Lock_Current_Orders()
+		end
+		
 	end
 	
 end
