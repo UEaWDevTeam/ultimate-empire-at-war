@@ -1783,10 +1783,10 @@
 
 
             <SpaceUnit Name="R_ACCLAMATOR_ASSAULT_FRIGATE_I">
-                <Text_ID>TEXT_UNIT_GCW_ACCLAMATORI</Text_ID>
+                <Text_ID>TEXT_UNIT_ACCLAMATORI</Text_ID>
                 <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_MARAUDER</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_ASSAULT_FRIGATE_I</Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text> TEXT_TOOLTIP_GCW_ACCLAMATORI</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATORI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_TROOP_TRANSPORT </Encyclopedia_Unit_Class>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCr_ACCLAMATOR.ALO</Space_Model_Name>
@@ -1856,9 +1856,9 @@
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
                 <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
-                <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>R_V19_TORRENT_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
                 <Spawned_Squadron_Delay_Seconds>2</Spawned_Squadron_Delay_Seconds>
-                <Reserve_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 6</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>R_V19_TORRENT_SQUADRON, 6</Reserve_Spawned_Units_Tech_0>
                 <!--<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 6</Reserve_Spawned_Units_Tech_0>-->
                 <Behavior>
                         DUMMY_STARSHIP,
@@ -1998,6 +1998,7 @@
         <SpaceUnit Name="R_ACCLAMATOR_ASSAULT_FRIGATE_II">
 
                  <Variant_Of_Existing_Type>E_ACCLAMATOR_ASSAULT_FRIGATE_II</Variant_Of_Existing_Type>
+				 <Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATORII</Encyclopedia_Text>
                  <Affiliation>Light_Side</Affiliation>
                 <HardPoints>
                          HP_ACCLAMATOR_II_E2_MTL_01,
@@ -2048,8 +2049,8 @@
         </SpaceUnit>
 
        <SpaceUnit Name="R_VICTORY_I">
-                <Text_ID>TEXT_UNIT_VICTORYI</Text_ID>
-                <Encyclopedia_Text> TEXT_TOOLTIP_VICTORYI</Encyclopedia_Text>
+                <Text_ID>TEXT_UNIT_CW_VICTORY</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_CW_VICTORY</Encyclopedia_Text>
                 <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_EF76_FRIGATE</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_ASSAULT_FRIGATE_II RA_B-WING</Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
