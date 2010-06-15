@@ -726,7 +726,7 @@
 
         <!-- Starting Objects Faction 1-->
 
-                <Starting_Credits> Light_Side, 5000000 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
+                <Starting_Credits> Light_Side, 0 </Starting_Credits> <!-- initial credits. Syntax: Faction, NumberOfCredits e.g. Empire, 50000 -->
                 <Starting_Tech_Level>Light_Side, 5 </Starting_Tech_Level> <!-- initial tech level. Syntax: Faction, TechLevel e.g. Empire, 2 -->
                 <Max_Tech_Level>Light_Side, 5 </Max_Tech_Level> <!-- Maximum tech level. Syntax: Faction, TechLevel e.g. Empire 5 -->
 
@@ -778,7 +778,9 @@
                 <Starting_Forces>Light_Side, Alderaan, NR_QUASAR_FIRE_CRUISER</Starting_Forces>
                 <Starting_Forces>Light_Side, Alderaan, NR_MC90</Starting_Forces>
 
-
+                <Starting_Forces>Dark_Side, Coruscant, IR_VICTORY_II</Starting_Forces>
+                <Starting_Forces>Dark_Side, Coruscant, IR_BERTH</Starting_Forces>
+                <!--
                 <Starting_Forces>Dark_Side, Coruscant, IR_TIE_FIGHTER_SQUADRON</Starting_Forces>
                 <Starting_Forces>Dark_Side, Coruscant, IR_TIE_BOMBER_SQUADRON</Starting_Forces>
                 <Starting_Forces>Dark_Side, Coruscant, IR_TIE_INTERCEPTOR_SQUADRON</Starting_Forces>
@@ -799,7 +801,7 @@
                 <Starting_Forces>Dark_Side, Coruscant, IR_VICTORY_II</Starting_Forces>
                 <Starting_Forces>Dark_Side, Coruscant, IR_ISDI</Starting_Forces>
                 <Starting_Forces>Dark_Side, Coruscant, IR_ISDII</Starting_Forces>
-
+                -->
         <!-- Non-AI controlled factions such as the Pirates do not require the Starting Objects section -->
 
         <!--Duplicate the set of tags below for each planet-->
