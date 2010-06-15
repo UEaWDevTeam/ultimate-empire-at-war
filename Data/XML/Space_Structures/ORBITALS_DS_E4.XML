@@ -5,9 +5,9 @@
         <SpecialStructure Name="IR_BERTH">
 
                  <Variant_Of_Existing_Type>GENERIC_BERTH</Variant_Of_Existing_Type>
-                 <!---<Lua_Script>Berth_IR</Lua_Script> -->
+                 <Lua_Script>Berth_IR</Lua_Script>
                  <Affiliation>Dark_Side</Affiliation>
-                 <SpaceBehavior>
+                 <!--<SpaceBehavior>
                          SPACE_OBSTACLE,
                          SELECTABLE,
                          TARGETING,
@@ -18,7 +18,9 @@
                          ABILITY_COUNTDOWN,
                          SPAWN_SQUADRON
                 </SpaceBehavior>
-                <Starting_Spawned_Units_Tech_0>IR_ISDII, 1</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>IR_ISDII, 1</Starting_Spawned_Units_Tech_0> -->
+                <Encyclopedia_Text> TEXT_TOOLTIP_ORBITAL_BERTH  </Encyclopedia_Text>
         </SpecialStructure>
 
 </SpecialStructures>
+

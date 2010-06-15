@@ -19,14 +19,14 @@ function State_Init(message) --initialise
         end
 
         if message == OnEnter then --unit has entered the game
-				Player.Get_Credits(100) 
+
 				Owner = Object.Get_Owner() 
-				--empire_list_0 = 
-				--{
-					--"IR_ISDII"
-				--}
-				--ReinforceList(empire_list_0, Orbital_Berth, Owner, true, true)
-				Spawn_Unit("IR_ISDII", Object.Get_Position(), Object.Get_Faction_Name() ) 
+				empire_list_0 = 
+				{
+					"IR_ISDII"
+				}
+				ReinforceList(empire_list_0, Object.Get_Bone_Position("SPAWN_00"), Owner, true, true)
+				--Spawn_Unit("IR_ISDII", Object, Owner) 
 		elseif message == OnUpdate then --if the unit is doing something
 			
 		end

@@ -7510,5 +7510,17 @@
 
         </HardPoint>
 
+        <HardPoint Name="HP_BERTH_HANGAR">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+                <Attachment_Bone>SPAWN_00</Attachment_Bone>
+                <Collision_Mesh>SPAWN_00_COLL</Collision_Mesh>        
+                <Health>1.0</Health>
+                <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+        </HardPoint>
+
+
 
 </HardPoints>
