@@ -25,7 +25,7 @@ function State_Init(message) --initialise
 				{
 					"IR_ISDII"
 				}
-				ReinforceList(empire_list_0, Object.Get_Bone_Position("SPAWN_00"), Owner, true, true)
+				ReinforceList(empire_list_0, Object.Get_Bone_Position("SPAWN_00"), Owner, true, true, true)
 				--Spawn_Unit("IR_ISDII", Object, Owner) 
 		elseif message == OnUpdate then --if the unit is doing something
 			
