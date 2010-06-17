@@ -32,15 +32,6 @@ function State_Init(message) --initialise
 				lucrehulk_list = Find_All_Objects_Of_Type("C_LUCREHULK")--find all carrier units
 				lucrehulk_carrier_list = Find_All_Objects_Of_Type("C_LUCREHULK_CARRIER")--find all carrier units
 	
-				--Rec. Car. is founded but the fighters don't fly to it
-				--but fly to other units => if/else structure never ends in rec. carrier.
-				--why?
-				--right you've wrote >= instead of <=
-				--meh program don't see that there isn't any carrier...why? or table.getn(lucrehulk_list) > 0 or table.getn(lucrehulk_carrier_List) > 0
-				--because you've forgot a >0 >< 
-				--WHAT NOW? AGAIN THE SAME SHIT! DOESN'T KILL THE FIGHTERS! SEEMS AS SOMETHING WOULD BE FALSE AGAIN! NO REALLY? YOU'RE...meh
-				--error is at the or-line; I've deleted the lucrehulk/lucrehulk-carrier check and everything seems fine...maybe aren't more than 3 or's allowed?
-				--yeah not more than 4 conditions are allowed
 			    if table.getn(providence_list) > 0 or table.getn(recusant_list) > 0 or table.getn(recusant_carrier_list) > 0  or table.getn(lucrehulk_list) > 0 then
 					Find_Nearest_Function()					
 									

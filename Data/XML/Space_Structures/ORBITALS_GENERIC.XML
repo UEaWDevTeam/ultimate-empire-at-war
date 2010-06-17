@@ -21,8 +21,8 @@
                 <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>400</Slice_Cost_Credits>
 
-				<Base_Position> Orbital </Base_Position>
-				
+                                <Base_Position> Orbital </Base_Position>
+
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -41,7 +41,7 @@
                 <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <Death_Explosions>Large_Explosion_Space</Death_Explosions>
-                <Icon_Name>i_button_lrs.tga</Icon_Name>
+                <Icon_Name>I_BUTTON_BERTH.TGA</Icon_Name>
                 <Victory_Relevant>yes</Victory_Relevant>
                 <GUI_Model_Name>BM_BERTH.ALO</GUI_Model_Name>
                 <GUI_Distance>1000</GUI_Distance>
@@ -118,12 +118,12 @@
                 <Build_Cost_Credits>600</Build_Cost_Credits>
                 <AI_Combat_Power>5000</AI_Combat_Power>
                 <Build_Time_Seconds>25</Build_Time_Seconds>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures> 
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Size_Value>0.3</Size_Value>
                 <Tech_Level>0</Tech_Level>
-				
-				<Base_Position> Orbital </Base_Position>
-				
+
+                                <Base_Position> Orbital </Base_Position>
+
                 <Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -214,7 +214,7 @@
                 <Layer_Z_Adjust> -150 </Layer_Z_Adjust>
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
         <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-                <Radar_Icon_Name>i_radar_station1_e.tga</Radar_Icon_Name>
+                <Radar_Icon_Name>I_RADAR_GOLAN.TGA</Radar_Icon_Name>
                 <Radar_Icon_Size>0.12  0.12</Radar_Icon_Size>
 
                 <Icon_Name>I_BUTTON_GOLAN.tga</Icon_Name>
@@ -228,7 +228,7 @@
                 <Space_Model_Name>BM_GOLAN_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
-				<Scale_Factor>0.55</Scale_Factor>
+                                <Scale_Factor>0.55</Scale_Factor>
                 <CategoryMask> Capital </CategoryMask>
                 <Death_Persistence_Duration> 34 </Death_Persistence_Duration>
                 <Should_Death_Clone_Play_Idle> true </Should_Death_Clone_Play_Idle>
