@@ -1352,7 +1352,7 @@
 
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-                <Death_Clone>Damage_Normal, RA_ASSAULT_FRIGATE_I_DEATH_CLONE</Death_Clone>
+                <Death_Clone>Damage_Normal, C_MUNIFICENT_DEATH_CLONE</Death_Clone>
         <!-- SFX  GC-->
                 <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -1396,9 +1396,10 @@
                 <SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
                 <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-                <Lua_Script>ObjectScript_PowerToShields</Lua_Script>
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
                 <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+				
+				<No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
         <!-- Abilities -->
                 <Unit_Abilities_Data SubObjectList="Yes">
