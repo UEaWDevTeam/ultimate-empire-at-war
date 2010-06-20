@@ -624,14 +624,14 @@
 <!--Hardpoints for Trade Port-->
 
    <HardPoint Name="HP_TRADE_PORT_MTL">
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Health>500.0</Health>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1.0</Health>
 
             <Model_To_Attach>BC_TRADE_PORT_TURRET.ALO</Model_To_Attach>
             <Attachment_Bone>TURRET_ATTACH</Attachment_Bone>
             <Collision_Mesh>TURRET_ATTACH_COLL</Collision_Mesh>
-            <Damage_Particles>TURRET_ATTACH_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>MUZZLE_TL</Fire_Bone_A>
             <Fire_Bone_B>MUZZLE_TR</Fire_Bone_B>
@@ -653,7 +653,7 @@
             <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
