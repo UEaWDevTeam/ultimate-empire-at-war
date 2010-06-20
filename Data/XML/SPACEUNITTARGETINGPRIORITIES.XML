@@ -60,7 +60,7 @@
 			Fighter, 3.0,
 			SpaceHero, 4.0,
 		</Attack_Priorities>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions />
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
 			Destroyable_Asteroid_Medium,
@@ -71,13 +71,15 @@
 
 	<Priority_Set Name="Frigate">
 		<Attack_Priorities>
-			Transport, 1.0,
+			Capital, 1.0,
+			Structure, 1.2
+			Transport, 1.8,
 			Bomber, 2.0,
 			Corvette, 3.0,
 			SpaceHero, 3.5,
 			Fighter, 4.0,
 		</Attack_Priorities>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions />
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
 			Destroyable_Asteroid_Medium,
@@ -96,7 +98,7 @@
 			Bomber, 4.0,
 			Fighter, 5.0,
 		</Attack_Priorities>
-		<Property_Exclusions>NotOpportunityTarget</Property_Exclusions>
+		<Property_Exclusions />
 		<Unit_Exclusions>
 			Destroyable_Asteroid_Small,
 			Destroyable_Asteroid_Medium,
@@ -162,6 +164,25 @@
 		</Unit_Exclusions>
 	</Priority_Set>	
 
+
+	<Priority_Set Name="Munificent_Ventral_Cannon">
+		<Attack_Priorities>
+			Capital, 1.0,
+			Structure, 1.2
+			Transport, 2.5,
+			Corvette, 1.5,
+			Bomber, 10.0,
+			SpaceHero, 3.5,
+			Fighter, 12.0,
+		</Attack_Priorities>
+		<Property_Exclusions />
+		<Unit_Exclusions>
+			Destroyable_Asteroid_Small,
+			Destroyable_Asteroid_Medium,
+			Destroyable_Asteroid_Large,
+			Destroyable_Asteroid_Huge
+		</Unit_Exclusions>
+	</Priority_Set>	
 
 
 	<!-- AI SPECIFIC TARGETING PRIORITY SETS 
