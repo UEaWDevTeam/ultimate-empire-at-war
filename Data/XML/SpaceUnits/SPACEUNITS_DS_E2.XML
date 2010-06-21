@@ -1300,9 +1300,9 @@
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <!--fast for testing-->
                 <Max_Speed> 2.1 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Turn> 0.8 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.36 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
-                <Bank_Turn_Angle> 40 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
+                <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .02 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .02 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
@@ -1335,7 +1335,14 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <!-- Hardpoints -->
                 <HardPoints>
-                       
+                        HP_MUNIFICENT_MTL_01,
+                        HP_MUNIFICENT_MTL_02,
+                        HP_MUNIFICENT_MTL_03,
+                        HP_MUNIFICENT_MTL_04,
+                        HP_MUNIFICENT_L_01,
+                        HP_MUNIFICENT_L_02,
+                        HP_MUNIFICENT_L_03,
+                        HP_MUNIFICENT_L_04,
                         HP_MUNIFICENT_FLAK_01,
                         HP_MUNIFICENT_FLAK_02,
                         HP_MUNIFICENT_HI,
@@ -1400,10 +1407,10 @@
                         <Unit_Ability>
                                 <Type>POWER_TO_WEAPONS</Type>
                                 <Expiration_Seconds>20</Expiration_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.75f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.8f</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -2f</Mod_Multiplier>
                                 <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.8f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
                                 <Recharge_Seconds>60</Recharge_Seconds>
 
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
@@ -1429,9 +1436,9 @@
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
-                <Targeting_Stickiness_Time_Threshold>0.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
                 <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-                <Targeting_Max_Attack_Distance>2100.0</Targeting_Max_Attack_Distance>
+                <Targeting_Max_Attack_Distance>1500.0</Targeting_Max_Attack_Distance>
 
         </SpaceUnit>
 
