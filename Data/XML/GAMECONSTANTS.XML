@@ -923,6 +923,12 @@
 		Damage_Concussion_AP_E4,
 		Damage_Concussion_AP_Skirmish,
 		
+		Damage_Flak_AS_E1,
+		Damage_Flak_AS_E2,
+		Damage_Flak_AS_E3,
+		Damage_Flak_AS_E4,
+		Damage_Flak_AS_Skirmish,
+		
 		<!-- PLEASE add your new damage types ABOVE this point.
 			 The damage types below are from hard-coded damage enumeration. You can specify Armor type for them if you want
 			 (and understand how and where these are applied).
@@ -999,6 +1005,12 @@
 	<!-- ooooooooooooo -->
 	<!-- TURBOLASERS -->
 	<!-- ooooooooooooo -->
+	
+	<!-- Turbolasers, of varying grades, are the staple weapon for most, if not all of the galaxy's major factions throughout the course of history covered in UEaW. As a 'laser' is an up-scaled blaster, so a turbolaser is an up-scaled 'laser', on vast proportions. Turbolasers fire volleys of super-heated energised gas (most usually Tibanna), which contain vast amounts of energy in the particle shot thus created, capable of vapourising things that it contacts, and with a small amount of explosive quality in addition due to the instability of each shot. Contrastingly to the individual bolts of lasers (which work upon the same principles), turbolasers fire much large and less coherent shots, created by charging and storing the energised particles for each shot in banks of capacitors, where they accumulate into the massively powerful turbolaser shots before being fired. 
+	
+Turbolasers saw extensive action against all forms of capital ships, against the smallest corvettes to the largest dreadnaughts; and usually mid-to-heavy grade turbolasers make up a capital ship's anti-capital armament. Whilst effective against the armoured hulls of vessels due to their vapourising capacity, turbolasers are less effective against shielding, which can more effectively dissipate the energy of the turbolaser shots than armour (although, thicker armour and better composites can reduce the impact of turbolasers). Whilst turbolasers' large energy output means they are not entirely ineffective against shields,  shielding usually has favourable mitigation against turbolasers.
+	
+	Lighter turbolasers were often fast enough tracking for use against starfighters (albeit with much less accuracy than laser cannons), but most turbolasers' heavy apparatus and less agile firing mechanism meant that they were ineffective at tracking and hitting fast-moving starfighters, although if a shot did contact from a lower-mid to heavy grade turbolaser, even most heavily shielded starfighters (eg. K-Wing) would be destroyed or otherwise damaged beyond usage, if not vapourised. The lighter variants are also powerful and sometimes employed in anti-starfighter roles, since despite their tracking disadvantage to lasers, they could also take out enemy fighters in 1-2 shots, usually. -->
 	
 	<!-- ERA 1 BASIC TURBOLASER STARTS -->
 	
@@ -1549,6 +1561,15 @@
 	<!-- LASERS -->
 	<!-- ooooooooooooo -->
 	
+	<!-- Lasers are the younger siblings of turbolasers (et vice versa), and the older of blasters. Blasters on a more powerful and larger scale, laser cannons fire bolts of highly energised gas (usually tibanna), and though have less raw output than turbolasers as lasers lack the capacitor arrays (and power) that define turbolasers, they have differing qualities. Laser cannons are smaller, faster,(and therefore have greater tracking capability), faster firing and require less power than turbolasers, whilst still outputting damage that is deadly to fighters and viable for targeting the light armour of small corvettes. 
+	
+	Lasers are primarily used in space combat as an anti-starfighter emplacement - since lasers are small (therefore can more can be powered and fit onto a hull to provide area defence), fast-firing, fast-tracking and sufficiently powerful to knock out enemy fighters. Firing repeating bursts of relatively accurate fire at enemy starfighters who attack or stray too close to the ship mounting them, they make up the saturation fire and front-line defence against starfighter attacks; and are probably amongst the most effective conventional weapons for this role that are mounted on capitals. On larger vessels, targeting is harder and less computation power is afforded to the numerous laser batteries that are often present, resulting in less effective defence as a ship's size increases (since it becomes harder to cover all of its area with concentrated defensive fire), whilst smaller vessels have less surface area to cover, less obstructive hull shapes and often are geared to mounting lasers as a primary armament for anti-starfighter warfare, and so are somewhat more effective. The EF76 Nebulon-B and the CR90 are examples of these forms of ships, whose lasers are somewhat more effective (though by no means infallible) at combating starfighters than those mounted on larger vessels designed to be line vessels.
+	
+	Fixed laser cannons are also the usual armament of starfighters for use in dogfights, where their effectiveness against other starfighters and reasonable cool-down time between shots make them the most effective standard armament. In addition, most point defence systems ('PDS') used laser cannons as their anti-munition weapon.
+	
+	The effect of even the heaviest lasers on things larger than starfighters is limited; though concentrated fire can prove effective on lightly armoured capital ships such as small corvettes, laser cannons are almost exclusively utilised against smaller targets, since their lack of raw power to pierce heavy armour and overcome shields (whose mitigation against lasers is rather effective) means that even the lightest turbolasers fulfil such roles much better.
+	-->
+	
 	<!-- ERA 1 LASER STARTS -->
 	
 	<Damage_To_Armor_Mod> Damage_Laser_E1, Shield_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
@@ -1736,6 +1757,10 @@
 	<!-- ooooooooooooo -->
 	<!-- IONS -->
 	<!-- ooooooooooooo -->
+	
+	<!-- Ion cannons, strangely enough, fire highly polarised masses of particles, or, in the heaviest examples, polarised plasma. Whilst the effects of these polarised shots on the hulls and armour of vessels is negligible, the purpose of these charged shots is not to physically damage the hulls of vessels; rather the massive polarisation has major effect on shields and electrical systems; though most vessels are polar-armoured against complete loss of function, ion cannons are especially effective against shielding, disrupting the energy barrier and its projectors, and can, in some circumstances, disable systems temporarily on enemy vessels.
+	
+	Ion cannons come in a variety of grades, with the lightest mounted on starfighters as an additional armament in both sorties on enemy capital ships, but also as an aid to overcoming the shields of enemy starfighters. Capital ships mount a variety from light to super-heavy, with varying roles targeting different sized foes to bring down their shields and potentially immobilise them; these turreted variants are often the size of turbolasers (and sometimes bigger) and can have a devastating effect on enemy vessels' shields. They are usually combined with turbolasers in a vessel's armament to help bring down the shields of an enemy vessel at which point the turbolasers can fire directly on enemy systems and the hull. Though the replacement of potential turbolaser batteries with ion cannons nominally reduces the offensive firepower that can potentially be brought to bear on an enemy, this is considered a more-than-fair exchange for the extra capability against shielded enemies, who make up the majority of foes faces. -->
 	
 	<!-- ERA 1 BASIC ION STARTS -->
 	
@@ -2287,6 +2312,12 @@
 	<!-- PROTONS -->
 	<!-- ooooooooooooo -->
 	
+	<!-- Proton torpedoes are a powerful weapon, individual munitions that range from nimble anti-starfighter weapons to behemoths used by capitals for anti-capital warfare and orbital bombardment. A munition containing a small shaped baradium charge and a proton detonator, it had a very powerful high-explosive detonation, which, couple with the effect from the shaped charge, could penetrate most armours with ease. Starfighters, especially bombers, capitalised on this effectiveness in even smaller torpedoes, as they could be mounted in small numbers on starfighters, providing a highly mobile attack platform for tangible anti-capital firepower.
+	
+	Proton torpedoes are, however, not the quickest munitions available, and are vulnerable to attack by point defence systems, as the metal munition could be destroyed prior to impact by precise laser fire, as well as being detonated on impact with enemy shields, to which the explosive force does reasonable damage, but is not expected to overcome as its primary function.
+	
+	-->
+	
 	<!-- ERA 1 SO PROTONS STARTS -->
 	
 	<Damage_To_Armor_Mod> Damage_Proton_SO_E1, Shield_Battleship_Basic, 0.65 </Damage_To_Armor_Mod>
@@ -2656,6 +2687,10 @@
 	<!-- CONCUSSIONS -->
 	<!-- ooooooooooooo -->
 	
+	<!-- High explosive missiles that come in a variety of shapes, sizes and roles, concussion missiles are usually faster and more adaptable than proton torpedoes, although they carry a conventional concussive explosive charge as opposed to the baradium one. Though not as effective as proton torpedoes at penetrating armour, concussion missiles are more numerous and have a larger explosive radius. Used at the lighter end of the spectrum by capitals and starfighters alike as anti-starfighter guided munitions, and the heavier as anti-capital munitions, concussion missiles are a workhorse of the battlefield, bringing explosive power to bear in large numbers in numerous roles, though with limited effect against shielding.
+	
+	Unguided rocket variants also exist, which fulfil multiple purposes, but have similar explosive warheads -->
+	
 	<!-- ERA 1 BASIC CONCUSSIONS STARTS -->
 	
 	<Damage_To_Armor_Mod> Damage_Concussion_Basic_E1, Shield_Battleship_Basic, 0.25 </Damage_To_Armor_Mod>
@@ -3013,12 +3048,200 @@
 	<Damage_To_Armor_Mod> Damage_Concussion_AP_Skirmish, Armour_Starfighter_Basic, 1.20 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Concussion_AP_Skirmish, Armour_Starfighter, 1.15 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Concussion_AP_Skirmish, Armour_Starfighter_Superior, 1.10 </Damage_To_Armor_Mod>
-		
+
+
 	<!-- SKIRMISH BASIC CONCUSSIONS MODIFIER ENDS -->
 		
 	<!-- ooooooooooooo -->
 	<!-- CONCUSSIONS END -->
 	<!-- ooooooooooooo -->
+	
+	<!-- ooooooooooooo -->
+	<!-- FLAK BEGINS -->
+	<!-- ooooooooooooo -->
+	
+		<!-- 'Flak' is derived from the German Flugzeugabwehr-Kanone - 'Air defence Cannon' - it is usually found in the form of an anti-starfighter weapon. Its modus operandi is primitive but effective; though not exceptionally accurate, flak cannons fire shells at target enemy starfighters, which are fused to detonate upon reaching a certain range, or in the more advanced models utilised by most vessels in UEaW, also on proximity to enemy fighters. These shells detonate in proximity or the estimated range, sending heavy metal shards flying in all directions around the shell; thereby reducing the problem of the lack of accuracy as well as, when a shot is aimed well, sending the fragmentation projectiles ripping through fighters caught in the explosion area. Primarily used by the CIS, the cannons are usually repeaters that send a shell flying every 1-2 seconds, much like ground AA fire in real life. There is potential for flak fire to be used on a greater scale as a contact explosive against larger enemy vessels (as seen in Episode III against a Venator), but these specialised heavy flak cannons are not the anti-starfighter variant most commonly found, and, like all flak cannons, suffer from marginal effect against shielding, as the metal shells and fragmentation warhead has very little effect on the powerful energy barriers of most ships, including starfighters-->
+		
+	
+	<!-- ERA 1 ANTI-STARFIGHTER FLAK STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Battleship_Basic, 0.02 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Battleship, 0.015 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Battleship_Superior, 0.01 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Cruiser_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Cruiser, 0.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Cruiser_Superior, 0.025 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Frigate_Basic, 0.06 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Frigate, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Frigate_Superior, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Corvette_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Corvette, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Corvette_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Starfighter_Basic, 0.50 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Starfighter, 0.40 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Shield_Starfighter_Superior, 0.30 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Battleship, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Battleship_Superior, 0.003 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Cruiser_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Cruiser, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Cruiser_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Frigate_Basic, 0.12 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Frigate, 0.11 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Frigate_Superior, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Corvette_Basic, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Corvette, 0.18 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Corvette_Superior, 0.16 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Starfighter_Basic, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Starfighter, 1.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E1, Armour_Starfighter_Superior, 1.00 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 1 ANTI-STARFIGHTER FLAK ENDS -->
+	
+	<!-- ERA 2 ANTI-STARFIGHTER FLAK STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Battleship_Basic, 0.02 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Battleship, 0.015 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Battleship_Superior, 0.01 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Cruiser_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Cruiser, 0.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Cruiser_Superior, 0.025 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Frigate_Basic, 0.06 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Frigate, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Frigate_Superior, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Corvette_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Corvette, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Corvette_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Starfighter_Basic, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Starfighter, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Shield_Starfighter_Superior, 0.35 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Battleship, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Battleship_Superior, 0.003 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Cruiser_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Cruiser, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Cruiser_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Frigate_Basic, 0.12 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Frigate, 0.11 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Frigate_Superior, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Corvette_Basic, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Corvette, 0.18 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Corvette_Superior, 0.16 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Starfighter_Basic, 1.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Starfighter, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E2, Armour_Starfighter_Superior, 1.10 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 2 ANTI-STARFIGHTER FLAK ENDS -->
+	
+	<!-- ERA 3 ANTI-STARFIGHTER FLAK STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Battleship_Basic, 0.02 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Battleship, 0.015 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Battleship_Superior, 0.01 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Cruiser_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Cruiser, 0.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Cruiser_Superior, 0.025 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Frigate_Basic, 0.06 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Frigate, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Frigate_Superior, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Corvette_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Corvette, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Corvette_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Starfighter_Basic, 0.60 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Starfighter, 0.50 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Shield_Starfighter_Superior, 0.40 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Battleship, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Battleship_Superior, 0.003 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Cruiser_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Cruiser, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Cruiser_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Frigate_Basic, 0.12 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Frigate, 0.11 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Frigate_Superior, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Corvette_Basic, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Corvette, 0.18 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Corvette_Superior, 0.16 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Starfighter_Basic, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Starfighter, 1.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E3, Armour_Starfighter_Superior, 1.20 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 3 ANTI-STARFIGHTER FLAK ENDS -->
+	
+	<!-- ERA 4 ANTI-STARFIGHTER FLAK STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Battleship_Basic, 0.02 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Battleship, 0.015 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Battleship_Superior, 0.01 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Cruiser_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Cruiser, 0.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Cruiser_Superior, 0.025 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Frigate_Basic, 0.06 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Frigate, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Frigate_Superior, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Corvette_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Corvette, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Corvette_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Starfighter_Basic, 0.65 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Starfighter, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Shield_Starfighter_Superior, 0.45 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Battleship, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Battleship_Superior, 0.003 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Cruiser_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Cruiser, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Cruiser_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Frigate_Basic, 0.12 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Frigate, 0.11 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Frigate_Superior, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Corvette_Basic, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Corvette, 0.18 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Corvette_Superior, 0.16 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Starfighter_Basic, 1.5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Starfighter, 1.4 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_E4, Armour_Starfighter_Superior, 1.30 </Damage_To_Armor_Mod>
+	
+	<!-- ERA 4 ANTI-STARFIGHTER FLAK ENDS -->
+	
+	<!-- SKIRMISH ANTI-STARFIGHTER FLAK STARTS -->
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Battleship_Basic, 0.02 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Battleship, 0.015 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Battleship_Superior, 0.01 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Cruiser_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Cruiser, 0.03 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Cruiser_Superior, 0.025 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Frigate_Basic, 0.06 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Frigate, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Frigate_Superior, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Corvette_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Corvette, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Corvette_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Starfighter_Basic, 0.55 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Starfighter, 0.45 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Shield_Starfighter_Superior, 0.35 </Damage_To_Armor_Mod>
+	
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Battleship_Basic, 0.05 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Battleship, 0.04 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Battleship_Superior, 0.003 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Cruiser_Basic, 0.1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Cruiser, 0.09 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Cruiser_Superior, 0.08 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Frigate_Basic, 0.12 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Frigate, 0.11 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Frigate_Superior, 0.10 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Corvette_Basic, 0.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Corvette, 0.18 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Corvette_Superior, 0.16 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Starfighter_Basic, 1.3 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Starfighter, 1.2 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Flak_AS_Skirmish, Armour_Starfighter_Superior, 1.10 </Damage_To_Armor_Mod>
+	
+	<!-- SKIRMISH ANTI-STARFIGHTER FLAK ENDS -->
 	
 	<!--                                    -->
 	<!--    END ARMOR AND DAMAGE SECTION    -->

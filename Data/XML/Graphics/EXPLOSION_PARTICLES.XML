@@ -381,8 +381,20 @@
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 	
+	<!-- FLAK FRAGMENTATION -->
+	
+	<Particle Name="PEx_Flak_AS">
+		<Land_Model_Name>P_Explosion_Flak_AS.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Flak_AS.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
+	</Particle>
+	
 		<!-- TURBOLASERS -->
-			
+					
 			<!-- Blue -->
 			
 	<Particle Name="PEx_Explosion_Turbo_Blue_Small">
