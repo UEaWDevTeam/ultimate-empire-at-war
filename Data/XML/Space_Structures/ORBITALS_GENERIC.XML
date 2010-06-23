@@ -350,10 +350,12 @@
         <StarBase Name="GENERIC_TRADE_PORT">
 
                 <Text_ID>TEXT_ORBITAL_TRADE_PORT</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SRUCTURE</Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ORBITAL_TRADE_PORT</Encyclopedia_Text>
                 <Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+				
+				<!-- If there is no icon visible in Galactic once it's built, Shimrra, it may simply be because we don't have icons in the game yet! LTCC 23/06/10  -->
                 <Icon_Name>I_BUTTON_TRADE_PORT.tga</Icon_Name>
 
                 <Space_Model_Name>BC_TRADE_PORT.ALO</Space_Model_Name>
@@ -371,7 +373,10 @@
 
                 <Energy_Capacity>12800</Energy_Capacity>
                 <Energy_Refresh_Rate>12800</Energy_Refresh_Rate>
-                <Damage>50</Damage>
+				
+				<!-- NO NO NO NOOOO. Absolutely NO <Damage> tags must be anywhere other than the projectiles script! Left this commented out here to make sure you're aware! LTCC 23/06/10 -->
+                <!-- <Damage>50</Damage> -->
+				<!-- ACHTUNG! ES SOLL KEINE <Damage> KODE IN UEaW GEBEN, AUßER IN PROJEKTILE! LTCC 23/06/10 -->
 
                 <Base_Position> Orbital </Base_Position>
                 <Space_Layer> Capital </Space_Layer>
@@ -387,13 +392,19 @@
                 <Build_Cost_Credits>6573</Build_Cost_Credits>
                 <AI_Combat_Power>100</AI_Combat_Power>
                 <Build_Time_Seconds>20</Build_Time_Seconds>
-                <Build_Tab_Space_Station>Yes</Build_Tab_Space_Station>
+				
+				<!-- This has been changed to Special Structures, as it is not a space station! LTCC 23/06/10 -->
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+				
+				<!-- Added this to ensure it's spawned on its marker; there should only be one anyway. LTCC 23/06/10  -->
+				<Place_At_Every_Specific_Marker_Position>True</Place_At_Every_Specific_Marker_Position>
                 <GUI_Row> 0 </GUI_Row>
                 <Size_Value>1</Size_Value>
 
                 <Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SPACE_OBSTACLE, POWERED, SHIELDED, TARGETING, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
 
+				<!-- I guess we're adding squadrons of armed freighters or local fighters? LTCC 23/06/10 -->				
                 <Spawned_Squadron_Delay_Seconds>30</Spawned_Squadron_Delay_Seconds>
 
                 <HardPoints>
@@ -416,7 +427,8 @@
                 <SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
 
                 <CategoryMask> Capital </CategoryMask>
-                <Victory_Relevant>yes</Victory_Relevant>
+				
+				<Victory_Relevant>yes</Victory_Relevant> <!-- Yes for now, but it shouldn't be for V1. I think a lua script to make surviving trade stations belong to the victor should be possible, so they inherit the mostly neutral object (assumed they board it as it is civilian after the battle; though it can still be destroyed in battle. LTCC 23/06/10 -->
                 <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
                 <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 
@@ -434,6 +446,18 @@
                 <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
                 <Score_Cost_Credits>6573</Score_Cost_Credits>
+				
+	
+	<!-- Added the code for the income modifier. Trade Ports increase profits on the existing output; since they don't produce new goods they don't give a block bonus to income, but rather amplify your existing income. Set here to 5% bonus for testing purposes. LTCC 23/06/10  -->
+				
+			<Abilities SubObjectList="Yes">
+				<Planet_Income_Bonus_Ability Name="Generic_Trade_Bonus">
+				<Specific_Mod_Source_Text>TEXT_ECONOMICS_TRADE_PORT</Specific_Mod_Source_Text>
+				<Percentage_Income_Modifier>5.0</Percentage_Income_Modifier>
+				<Absolute_Income_Modifier>0</Absolute_Income_Modifier>
+				<Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+				</Planet_Income_Bonus_Ability>
+			</Abilities>
 
         </StarBase>
 
