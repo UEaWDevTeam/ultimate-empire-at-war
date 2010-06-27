@@ -655,6 +655,22 @@
 
         </Squadron>
 
+		<SpaceUnit Name="S_HEAVY_CRUISER">
+                        <Variant_Of_Existing_Type>OR_HEAVY_CRUISER</Variant_Of_Existing_Type>
+                        <Encyclopedia_Text> TEXT_TOOLTIP_SITH_HEAVY_CRUISER</Encyclopedia_Text>
+						<Icon_Name> I_BUTTON_S_HEAVY_CRUISER.TGA </Icon_Name>
+						<Space_Model_Name>VCCr_SITH_HEAVY_CRUISER.ALO</Space_Model_Name>
+						<Affiliation> Dark_Side </Affiliation>
+						<Death_Clone>Damage_Normal, S_HEAVY_CRUISER_DEATH_CLONE</Death_Clone>
+                </SpaceUnit>
+
+		<SpaceUnit Name="S_HEAVY_CRUISER_DEATH_CLONE">
+                        <Variant_Of_Existing_Type>OR_HEAVY_CRUISER_DEATH_CLONE</Variant_Of_Existing_Type>
+						<Space_Model_Name>VCCr_SITH_HEAVY_CRUISER_D.ALO</Space_Model_Name>
+						<Affiliation> Dark_Side </Affiliation>
+        </SpaceUnit>
+
+		
         <SpaceUnit Name="S_INTERDICTOR_CRUISER">
                 <Text_ID>TEXT_UNIT_INTERDICTOR_CRUISER</Text_ID>
                 <Encyclopedia_Text> TEXT_TOOLTIP_INTERDICTOR_CRUISER</Encyclopedia_Text>
