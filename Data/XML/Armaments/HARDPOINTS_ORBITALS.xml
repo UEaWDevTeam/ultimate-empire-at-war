@@ -665,4 +665,130 @@
                         <Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
+    <HardPoint Name="ORBITAL_DEFENCE_POD_HTL">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>LASER_ATTACH</Attachment_Bone>
+            <Collision_Mesh>LASER_ATTACH_COLL</Collision_Mesh>
+            <Model_To_Attach>BM_DP_LASER_TURRET.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>4.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>45.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>LASER_TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>LASER_BARREL</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 22.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="ORBITAL_DEFENCE_POD_HTL">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>LASER_ATTACH</Attachment_Bone>
+            <Collision_Mesh>LASER_ATTACH_COLL</Collision_Mesh>
+            <Model_To_Attach>BM_DP_LASER_TURRET.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>4.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>360.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>LASER_TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>LASER_BARREL</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+                        <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 22.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+
+
+    </HardPoint>
+
+    <HardPoint Name="ORBITAL_DEFENCE_POD_APHCM">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Health>1.0</Health>
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire</Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Attachment_Bone>MISSILE_ATTACH</Attachment_Bone>
+            <Collision_Mesh>MISSILE_ATTACH_COLL</Collision_Mesh>
+            <Model_To_Attach>BM_DP_MISSILE_TURRET.ALO</Model_To_Attach>
+
+            <Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+            <Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+            <Fire_Cone_Width>90.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>4.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>360.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>MISSILE_TURRET</Turret_Bone_Name>
+            <Barrel_Bone_Name>MISSILE_BARREL</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Conc_Missile_AP_E4_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>15.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>16.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>30</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2200.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+    </HardPoint>
+
 </HardPoints>
