@@ -76,7 +76,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Capture_Point_Radius>350</Capture_Point_Radius>
@@ -139,7 +139,7 @@
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<Icon_Name>i_button_lds.tga</Icon_Name>
 		<GUI_Model_Name>NV_LDS_build.ALO</GUI_Model_Name>
@@ -155,7 +155,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
@@ -204,7 +204,7 @@
 	<SpaceBuildable Name="UC_NR_DEFSAT_L">
 		<Variant_Of_Existing_Type>UC_E_DEFSAT_L</Variant_Of_Existing_Type>
 
-		<Tactical_Buildable_Constructed> New_Republic_DEFSAT_L </Tactical_Buildable_Constructed>
+		<Tactical_Buildable_Constructed> NR_DEFSAT_L </Tactical_Buildable_Constructed>
 		<Tactical_Build_Cost_Multiplayer> 875 </Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
 		<Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
@@ -302,7 +302,7 @@
 	
 	
 	<SpaceBuildable Name="UC_RA_DEFSAT_R">
-   		<Text_ID>TEXT_ORBITAL_DEFSAT_R</Text_ID>
+   		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_REPAIR</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</Encyclopedia_Text>
 		<MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -328,12 +328,12 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<Tactical_Health>1200</Tactical_Health>
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 				
@@ -501,7 +501,7 @@
 		<Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 		<Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
 
-		<Text_ID>TEXT_ORBITAL_DEFSAT_M</Text_ID>
+		<Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_MISSILE</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Space_Model_Name>NV_MDS_build.ALO</Space_Model_Name>
@@ -514,7 +514,7 @@
 		<Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		<SFXEvent_Fire>Unit_A_Wing_Fire</SFXEvent_Fire>
 		<Victory_Relevant>No</Victory_Relevant>
 		<GUI_Model_Name>NV_MDS_build.ALO</GUI_Model_Name>
@@ -532,7 +532,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -830,7 +830,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 		<Size_Value>30</Size_Value>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<Shield_Points>700</Shield_Points>
 		<Shield_Refresh_Rate>25</Shield_Refresh_Rate>
 		<Tactical_Health>1100</Tactical_Health>
@@ -839,7 +839,7 @@
 		<Damage>12</Damage>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 
 		<SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
@@ -991,7 +991,7 @@
 		<Fire_Inaccuracy_Distance> Super, 0.0 </Fire_Inaccuracy_Distance>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		
 		<Land_Damage_Thresholds>1, 0.66, 0.33</Land_Damage_Thresholds>
 		<Land_Damage_Alternates>0, 1, 2</Land_Damage_Alternates>
@@ -1013,7 +1013,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>1</GUI_Bracket_Size>
 		<Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00 </Encyclopedia_Text>
 		<MP_Encyclopedia_Text> MP_TEXT_ENCYCLOPEDIA_DEFENSE_SAT_MISSILE_00 </MP_Encyclopedia_Text>
@@ -1179,7 +1179,7 @@
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
 		<CategoryMask> Structure </CategoryMask>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 				
 		<Influences_Capture_Point>False</Influences_Capture_Point>
@@ -1235,7 +1235,7 @@
 		<Space_FOW_Reveal_Range>275</Space_FOW_Reveal_Range>
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		<Victory_Relevant>no</Victory_Relevant>
 		<GUI_Model_Name>NB_AsteroidMining.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -1250,7 +1250,7 @@
 		<CategoryMask> Structure </CategoryMask>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
@@ -1329,7 +1329,7 @@
 		<Size_Value>30</Size_Value>
 		<Space_FOW_Reveal_Range>400</Space_FOW_Reveal_Range>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Death_Explosions>PEx_Explosion_Huge_B</Death_Explosions>
 		<Victory_Relevant>no</Victory_Relevant>
 		<GUI_Model_Name>NB_AsteroidMining_Full.ALO</GUI_Model_Name>
 		<GUI_Distance>1000</GUI_Distance>
@@ -1348,7 +1348,7 @@
 		<Radar_Icon_Name>mini_map_mining_facilities.tga</Radar_Icon_Name>
 		<Radar_Icon_Size>0.08  0.08</Radar_Icon_Size>
 		
-		<Armor_Type> Armor_Satellite </Armor_Type>
+		<Armor_Type> Armour_Cruiser </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Custom_Soft_Footprint_Radius> 275 </Custom_Soft_Footprint_Radius>
 		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
