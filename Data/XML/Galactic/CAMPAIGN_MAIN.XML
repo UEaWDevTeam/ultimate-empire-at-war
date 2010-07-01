@@ -1,0 +1,174 @@
+<?xml version="1.0" ?>
+
+<Story_Campaign_Underworld_Data>
+
+<!-- **************************************************** -->
+<!-- *****  MAIN STORY CAMPAIGN: LS VERSION  ************ -->
+<!-- **************************************************** -->
+
+         <Campaign Name="Full_Story_Campaign_Light_Side">
+                 <Markup_Filename>Dark_Side, DefaultGalacticHints</Markup_Filename>
+                 <Markup_Filename>Ligth_Side, DefaultGalacticHints </Markup_Filename>
+
+                 <Campaign_Set> LS_Story_Campaign </Campaign_Set>
+
+                 <Text_ID> TEXT_CAMPAIGN_MAIN </Text_ID>
+                 <Description_Text> TEXT_DESCRIPTION_CAMPAIGN_MAIN </Description_Text>
+
+                 <Camera_Shift_X> 40.0 </Camera_Shift_X>
+                 <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+                 <Camera_Distance> 1400.0 </Camera_Distance>
+
+                 <Planet_Auto_Reveal>False</Planet_Auto_Reveal>
+                 <Is_Listed>False</Is_Listed>
+                 <Is_Autoresolve_Allowed>True</Is_Autoresolve_Allowed>
+                 <Is_Story_Campaign>True</Is_Story_Campaign>
+
+                <Locations>
+                                Galaxy_Core_Art_Model,
+                                Abregado_Rae,
+                                AetenII,
+                                Alderaan,
+                                AlzocIII,
+                                Anaxes,
+                                Atzerri,
+                                Bastion,
+                                Bespin,
+                                Bestine,
+                                Bonadan,
+                                Bothawui,
+                                Brentaal,
+                                Byss,
+                                Carida,
+                                Corellia,
+                                Corulag,
+                                Coruscant,
+                                Dagobah,
+                                Dantooine,
+                                Dathomir,
+                                Dxun,
+                                Ebaq9,
+                                Endor,
+                                Eriadu,
+                                Felucia,
+                                Fondor,
+                                Fresia,
+                                Geonosis,
+                                Hapes,
+                                Honoghr,
+                                Hoth,
+                                Hypori,
+                                Ilum,
+                                Jabiim,
+                                Kamino,
+                                Kashyyyk,
+                                Kessel,
+                                Korriban,
+                                Kuat,
+                                Lok,
+                                Manaan,
+                                Mandalore,
+                                Mechis3,
+                                MonCalimari,
+                                Mustafar,
+                                Muunilinst,
+                                Myrkr,
+                                Naboo,
+                                NalHutta,
+                                Onderon,
+                                Ord_Mantell,
+                                Polus,
+                                Praesitlyn,
+                                Ryloth,
+                                Saleucami,
+                                Shola,
+                                Sluis_Van,
+                                Sullust,
+                                Taris,
+                                Tatooine,
+                                The_Maw,
+                                Thyferra,
+                                Trandosha,
+                                Utapau,
+                                VergessoAsteroids,
+                                Wayland,
+                                Yaga_Minor,
+                                Yavin
+
+                </Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+                <Trade_Routes>
+                Abregado_Rae_Fondor,
+                Fondor_Thyferra,
+                Thyferra_Sullust,
+                Sullust_Eriadu,
+                Eriadu_Sluis_Van,
+                Coruscant_Anaxes,
+                Anaxes_Corulag,
+                Corulag_Brentaal,
+                Bonadan_Taris,
+                Taris_Brentaal,
+                Coruscant_Corellia,
+                Corellia_Ryloth,
+                Corellia_Bestine,
+                Bestine_Mechis3,
+                Mechis3_Bespin,
+                Eriadu_Bespin,
+                Kessel_Jabiim,
+                Dantooine_Bastion,
+                Bastion_Muunilinst,
+                Muunlinst_Yaga_Minor,
+                Bothawui_Kashyyyk,
+                Byss_Coruscant,
+                Fondor_Atzerri,
+                NalHutta_Kashyyyk
+                AetenII_Ilum,
+                Endor_Bespin,
+                Shola_Hypori,
+                Yaga_Minor_Ord_Mantell,
+                Brentaal_Alderaan
+
+                </Trade_Routes>
+
+                <Underworld_Story_Name>Story\Story_Plots_Campaign_LS.XML</Underworld_Story_Name>
+
+                <Home_Location> Light_Side, Coruscant </Home_Location>
+                <!--Yeah, I know, Home Location should be Lehon, but it hasn't been coded yet-->
+                <Home_Location> Dark_Side, Korriban </Home_Location>
+                <Starting_Active_Player> Light_Side </Starting_Active_Player>
+
+                <AI_Player_Control> Dark_Side, None </AI_Player_Control>
+                <AI_Player_Control> Hutts, None </AI_Player_Control>
+                <AI_Player_Control> Pirates, None </AI_Player_Control>
+                <AI_Player_Control> Light_Side, ScriptableHuman </AI_Player_Control>
+
+                <Supports_Custom_Settings>False</Supports_Custom_Settings>
+
+                <!-- Light Side Starting Forces -->
+
+                <Starting_Credits> Light_Side,  10000 </Starting_Credits>
+                <Starting_Tech_Level> Light_Side, 1 </Starting_Tech_Level>
+                <Max_Tech_Level> Light_Side, 5 </Max_Tech_Level>
+
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_HAMMERHEAD </Starting_Forces>
+
+                <!-- Dark Side Starting Forces -->
+
+                <Starting_Credits> Dark_Side,  5000 </Starting_Credits>
+                <Starting_Tech_Level> Dark_Side, 1 </Starting_Tech_Level>
+                <Max_Tech_Level> Dark_Side, 5 </Max_Tech_Level>
+
+                <Starting_Forces> Dark_Side, Korriban, S_SITH_FIGHTER </Starting_Forces>
+                <Starting_Forces> Dark_Side, Korriban, S_SITH_FIGHTER </Starting_Forces>
+                <Starting_Forces> Dark_Side, Korriban, S_SITH_FIGHTER </Starting_Forces>
+                <Starting_Forces> Dark_Side, Korriban, S_INTERDICTOR_CRUISER </Starting_Forces>
+                <Starting_Forces> Dark_Side, Korriban, S_INTERDICTOR_CRUISER </Starting_Forces>
+                <Starting_Forces> Dark_Side, Korriban, S_INTERDICTOR_CRUISER </Starting_Forces>
+
+         </Campaign>
+</Story_Campaign_Underworld_Data>
