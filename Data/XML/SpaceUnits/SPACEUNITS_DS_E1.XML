@@ -222,16 +222,19 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
-			
+
+		</Unit_Abilities_Data>
+		
+		<Abilities SubObjectList="Yes">
+		
 			<Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
                 <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
                 <Absolute_Income_Modifier>-0.2</Absolute_Income_Modifier>
                 <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
             </Planet_Income_Bonus_Ability>
-
-		</Unit_Abilities_Data>
-
+			
+		</Abilities>	
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
@@ -441,7 +444,7 @@
 		<Property_Flags> SmallShip </Property_Flags>
 		<Score_Cost_Credits> 420</Score_Cost_Credits>
 		
-		<Unit_Abilities_Data SubObjectList = "Yes" >
+		<Abilities SubObjectList="Yes">
 		
 			<Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
@@ -450,7 +453,7 @@
                 <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
             </Planet_Income_Bonus_Ability>
 		
-		</Unit_Abilities_Data>
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>75</Tactical_Build_Cost_Multiplayer>
@@ -644,7 +647,7 @@
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 		
-		<Unit_Abilities_Data SubObjectList = "Yes" >
+		<Abilities SubObjectList="Yes">
 		
 			<Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
@@ -653,7 +656,7 @@
                 <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
             </Planet_Income_Bonus_Ability>
 		
-		</Unit_Abilities_Data>
+		</Abilities>
 
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
@@ -885,13 +888,6 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		
-			<Planet_Income_Bonus_Ability Name="Maintenance">
-                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
-                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-                <Absolute_Income_Modifier>-5</Absolute_Income_Modifier>
-                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
-            </Planet_Income_Bonus_Ability>
-
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -908,6 +904,13 @@
 				<Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Tractor_Beam_Attack_Ability>
+			
+			<Planet_Income_Bonus_Ability Name="Maintenance">
+                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
+                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+                <Absolute_Income_Modifier>-5</Absolute_Income_Modifier>
+                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+            </Planet_Income_Bonus_Ability>
 
 		</Abilities>
 
@@ -1126,7 +1129,11 @@
 
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
 			</Unit_Ability>
-		
+	
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			
 			<Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
                 <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
@@ -1134,8 +1141,7 @@
                 <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
             </Planet_Income_Bonus_Ability>
 
-		</Unit_Abilities_Data>
-
+		</Abilities>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_SITH_STAR_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> UNIT_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
@@ -1364,13 +1370,6 @@
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
 		
-			<Planet_Income_Bonus_Ability Name="Maintenance">
-                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
-                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-                <Absolute_Income_Modifier>-6</Absolute_Income_Modifier>
-                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
-            </Planet_Income_Bonus_Ability>
-		
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -1387,6 +1386,13 @@
 				<Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
 				<Stacking_Category>0</Stacking_Category>
 			</Tractor_Beam_Attack_Ability>
+		
+			<Planet_Income_Bonus_Ability Name="Maintenance">
+                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
+                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+                <Absolute_Income_Modifier>-6</Absolute_Income_Modifier>
+                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+            </Planet_Income_Bonus_Ability>
 
 		</Abilities>
 
