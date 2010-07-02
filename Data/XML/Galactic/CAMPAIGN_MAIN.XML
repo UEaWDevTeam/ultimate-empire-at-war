@@ -8,9 +8,9 @@
 
          <Campaign Name="Full_Story_Campaign_Light_Side">
                  <Markup_Filename>Dark_Side, DefaultGalacticHints</Markup_Filename>
-                 <Markup_Filename>Ligth_Side, DefaultGalacticHints </Markup_Filename>
+                 <Markup_Filename>Light_Side, DefaultGalacticHints </Markup_Filename>
 
-                 <Campaign_Set> LS_Story_Campaign </Campaign_Set>
+                 <Campaign_Set> Full_Scripted_Campaign </Campaign_Set>
 
                  <Text_ID> TEXT_CAMPAIGN_MAIN </Text_ID>
                  <Description_Text> TEXT_DESCRIPTION_CAMPAIGN_MAIN </Description_Text>
@@ -20,7 +20,7 @@
                  <Camera_Distance> 1400.0 </Camera_Distance>
 
                  <Planet_Auto_Reveal>False</Planet_Auto_Reveal>
-                 <Is_Listed>False</Is_Listed>
+                 <Is_Listed>True</Is_Listed>
                  <Is_Autoresolve_Allowed>True</Is_Autoresolve_Allowed>
                  <Is_Story_Campaign>True</Is_Story_Campaign>
 
@@ -130,7 +130,7 @@
 
                 </Trade_Routes>
 
-                <Underworld_Story_Name>Story\Story_Plots_Campaign_LS.XML</Underworld_Story_Name>
+                <Rebel_Story_Name>Story\Story_Plots_Campaign_LS.XML</Rebel_Story_Name>
 
                 <Home_Location> Light_Side, Coruscant </Home_Location>
                 <!--Yeah, I know, Home Location should be Lehon, but it hasn't been coded yet-->

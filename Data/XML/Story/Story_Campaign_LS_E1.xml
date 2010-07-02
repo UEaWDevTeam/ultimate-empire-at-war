@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+
+<Story>
+<!-- Preliminary Setup  -->
+         <!--Begin-->
+        <Event Name="LS_E1_Begin">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
+
+        <!--Setting "Tech Level" to Era 1-->
+        <Event Name="LS_E1_Constrain_Tech">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
+                <Reward_Param1>Light_Side</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_Obj4_Begin</Prereq>
+        </Event>
+</Story>
