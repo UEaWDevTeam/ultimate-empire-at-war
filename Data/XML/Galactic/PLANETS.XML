@@ -1346,7 +1346,7 @@ Fynbos
                 <Potential_Indigenous_Power>Urban_Civilian_A, 450</Potential_Indigenous_Power>
 
                 <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Alderaan_Structure_Price_Reducing">
+                        <Reduce_Production_Price_Ability Name="Corulag_Structure_Price_Reducing">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
                                 <Applicable_Unit_Types> LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE,  LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY </Applicable_Unit_Types>
@@ -1846,7 +1846,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Additional_Population_Capacity>7</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Urban_Civilian_A, 150</Potential_Indigenous_Power>
-                
+
                  <Abilities SubObjectList="Yes">
                         <Reduce_Production_Price_Ability Name="Eriadu_Structure_Price_Reducing">
                                 <Unit_Strength_Category />
@@ -1880,12 +1880,12 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Swamp</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>80</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>330.0, 330.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
                 <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <!-- <Land_Tactical_Map> _Land_Planet_Felucia_00.ted </Land_Tactical_Map> -->
@@ -1893,7 +1893,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Space_Tactical_Map>_Space_Planet_Felucia.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 2100 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -1917,16 +1917,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Planet_Ability_Icon>i_pa_tactical_environment.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_groundbeetle.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
-                <!-- Weatherproof upgrade for all factions -->
-                <Abilities SubObjectList="Yes">
-                        <Galaxy_Wide_Upgrade_Ability Name="Felucia_Upgrade_Bonus">
-                                <Space_Upgrade_Type />
-                                <Land_Upgrade_Type> Felucia_Plantary_Advantage </Land_Upgrade_Type>
-                        </Galaxy_Wide_Upgrade_Ability>
-                </Abilities>
-
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
         </Planet>
 
@@ -1949,19 +1940,19 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Urban</Terrain>
-                <Planet_Credit_Value>90</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>165</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>8</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>20.0, -30.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
                 <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
                 <Space_Tactical_Map>_Space_Planet_Fondor.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Fondor_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 2900 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
@@ -1985,20 +1976,32 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>6</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Urban_Civilian_A, 200</Potential_Indigenous_Power>
 
                 <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Fondor_Assault_Frigate_Production_Boost">
+                         <Reduce_Production_Price_Ability Name="Fondor_Production_Cost_Bonus">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories />
+                                 <Applicable_Unit_Types> LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY</Applicable_Unit_Types>
+                                 <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
+                                 <Stacking_Category>9</Stacking_Category>
+                                 <Galaxy_Wide> No </Galaxy_Wide>
+                         </Reduce_Production_Price_Ability>
+
+                         <Reduce_Production_Time_Ability Name="Fondor_Production_Time_Penalty">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Alliance_Assault_Frigate </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                 <Applicable_Unit_Types> LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Time_Reduction_Percentage>0.05</Time_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
                 </Abilities>
+
 
 
         </Planet>
@@ -2022,16 +2025,16 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>140</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>-45.0, 120.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
+                <Special_Structures_Space>2</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 1500 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3100 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Fresia_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Fresia.ted</Space_Tactical_Map>
@@ -2059,21 +2062,51 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>3</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
 
                 <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Fresia_AWing_Production_Boost">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> A_Wing_Squadron </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
-                </Abilities>
+                         <Reduce_Production_Price_Ability Name="Fresia_Production_Cost_Bonus_I">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories> fighter </Applicable_Unit_Categories>
+                                 <Applicable_Unit_Types />
+                                 <Excluded_Unit_Types> R_ARC-170_SQUADRON, R_NTB_630_SQUADRON, RA_X-WING_SQUADRON, NR_X-WING_SQUADRON </Excluded_Unit_Types>
+                                 <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                 <Stacking_Category>9</Stacking_Category>
+                                 <Galaxy_Wide> No </Galaxy_Wide>
+                         </Reduce_Production_Price_Ability>
 
+                         <Reduce_Production_Time_Ability Name="Fresia_Production_Time_Penalty_I">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories> fighter </Applicable_Unit_Categories>
+                                 <Applicable_Unit_Types />
+                                 <Excluded_Unit_Types> R_ARC-170_SQUADRON, R_NTB_630_SQUADRON, RA_X-WING_SQUADRON, NR_X-WING_SQUADRON </Excluded_Unit_Types>
+                                 <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                         <Reduce_Production_Price_Ability Name="Fresia_Production_Cost_Bonus_II">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories />
+                                 <Applicable_Unit_Types> R_ARC-170_SQUADRON, R_NTB_630_SQUADRON, RA_X-WING_SQUADRON, NR_X-WING_SQUADRON</Applicable_Unit_Types>
+                                 <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.3</Price_Reduction_Percentage>
+                                 <Stacking_Category>9</Stacking_Category>
+                                 <Galaxy_Wide> No </Galaxy_Wide>
+                         </Reduce_Production_Price_Ability>
+
+                         <Reduce_Production_Time_Ability Name="Fresia_Production_Time_Penalty_II">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories />
+                                 <Applicable_Unit_Types> R_ARC-170_SQUADRON, R_NTB_630_SQUADRON, RA_X-WING_SQUADRON, NR_X-WING_SQUADRON</Applicable_Unit_Types>
+                                 <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.3</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+                </Abilities>
 
         </Planet>
 
@@ -2096,11 +2129,11 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Desert</Terrain>
-                <Planet_Credit_Value>90</Planet_Credit_Value>
+                <Planet_Credit_Value>130</Planet_Credit_Value>
                 <Planet_Destroyed_Credit_Value>8</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>330.0, -190.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
+                <Special_Structures_Space>4</Special_Structures_Space>
                 <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -2109,7 +2142,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <!-- <Land_Tactical_Map> _Land_Planet_Geonosis_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Geonosis.ted</Space_Tactical_Map>
-                <Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 2700 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>Ground_Infiltrator_Facility, R_Ground_Heavy_Vehicle_Factory, R_Ground_Light_Vehicle_Factory, Rebel_Heavy_Tank_Brigade</Planet_Slice_Affinity_Types>
@@ -2133,7 +2166,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_geonosian.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>8</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Geonosian, 1200</Potential_Indigenous_Power>
 
