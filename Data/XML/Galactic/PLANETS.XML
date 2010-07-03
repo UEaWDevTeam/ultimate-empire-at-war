@@ -1133,16 +1133,16 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>40</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>150</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>11</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>90.0, 170.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>3</Max_Space_Base>
+                <Special_Structures_Space>4</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3700 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> UEAW_Carida_Land.ted </Land_Tactical_Map>
                 <Space_Tactical_Map> UEAW_Carida_Space.ted </Space_Tactical_Map> -->
                 <!-- <Land_Tactical_Map> _Land_Planet_Carida_02.ted </Land_Tactical_Map> -->
@@ -1172,21 +1172,10 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>3</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
                 <Potential_Indigenous_Power>Rancor, 1000</Potential_Indigenous_Power>
-
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Carida_Infantry_Production_Boost">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
-                </Abilities>
 
 
         </Planet>
@@ -1210,11 +1199,11 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>105</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>200</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>13</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>76.0, 55.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
+                <Special_Structures_Space>7</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -1222,7 +1211,7 @@ Fynbos
                 <Space_Tactical_Map>_Space_Planet_Corellia.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Corellia_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 2000 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4300 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
@@ -1249,16 +1238,48 @@ Fynbos
 
                 <Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
 
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Corellia_Corellian_Corvette_Production_Boost">
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Corellia_Production_Cost_Bonus_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> fighter, bomber, corvette, frigate, capital, super </Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+                                <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+
+                        <Reduce_Production_Time_Ability Name="Corellia_Production_Time_Penalty_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> fighter, bomber, corvette, frigate, capital, super </Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+
+                                <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                        <Reduce_Production_Price_Ability Name="Corellia_Production_Cost_Bonus_II">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Corellian_Corvette </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                <Applicable_Unit_Types>RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Price_Reduction_Percentage>0.3</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                                <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Price_Ability>
-                </Abilities>
+
+                        <Reduce_Production_Time_Ability Name="Corellia_Production_Time_Penalty_II">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Time_Reduction_Percentage>0.3</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+                 </Abilities>
 
 
         </Planet>
@@ -1282,12 +1303,12 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>35</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>170</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>45.0, 198.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>6</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
@@ -1296,7 +1317,7 @@ Fynbos
                 <Space_Tactical_Map>_Space_Planet_Corulag.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Corulag_02.ted </Land_Tactical_Map>  -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3900 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>Alliance_Assault_Frigate, Nebulon_B_Frigate</Planet_Slice_Affinity_Types>
@@ -1320,18 +1341,18 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>7</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Urban_Civilian_A, 450</Potential_Indigenous_Power>
 
                 <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Corulag_Infantry_Production_Boost">
+                        <Reduce_Production_Price_Ability Name="Alderaan_Structure_Price_Reducing">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                <Applicable_Unit_Types> LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE,  LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY </Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                                <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Price_Ability>
                 </Abilities>
 
@@ -1357,11 +1378,11 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>160</Planet_Credit_Value>
+                <Planet_Credit_Value>250</Planet_Credit_Value>
                 <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>0.0, 150.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>4</Special_Structures_Space>
+                <Special_Structures_Space>7</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -1369,7 +1390,7 @@ Fynbos
                 <Space_Tactical_Map>_Space_Planet_Coruscant.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Coruscant_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4900 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -1393,7 +1414,7 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_royal_guard.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>10</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Urban_Civilian_A, 250</Potential_Indigenous_Power>
                 <Potential_Indigenous_Power>Imperial_Elite_Guard, 70</Potential_Indigenous_Power>
