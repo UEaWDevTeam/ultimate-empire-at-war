@@ -1353,4 +1353,29 @@
                 </Abilities>
         </Props_Generic>
 
+<Props_Generic Name="PROP_LS_HERO_ENHANCEMENT">
+                <Text_ID>TEXT_NONE</Text_ID>
+                <Behavior> IDLE </Behavior>
+                <Space_Model_Name>W_Prop_ElecBox.ALO</Space_Model_Name>
+                <Scale_Factor>1.0</Scale_Factor>
+                <!--<Is_Sprite>No</Is_Sprite>-->
+                <Is_Decoration>No</Is_Decoration>
+                <Abilities SubObjectList="Yes">
+                        <Combat_Bonus_Ability Name="Space_LS_Hero_Enhancement">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>SpaceHero</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>SpaceHero</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Specific_Faction>Light_Side</Specific_Faction>
+                                <Health_Bonus_Percentage>0.50</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
+                </Abilities>
+        </Props_Generic>
+
 </Props_Generic>
