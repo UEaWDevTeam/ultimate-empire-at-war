@@ -648,19 +648,19 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>140.0, 10.0, 90.0</Facing_Adjust>
-                <Planet_Credit_Value>105</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>195</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>14</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>-40.0, 480.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
+                <Special_Structures_Space>6</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
                 <Space_Tactical_Map> _Space_Planet_Bastion.ted </Space_Tactical_Map>
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 3000 </Planet_Capture_Bonus_Reward>
-                <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
+                <Planet_Capture_Bonus_Reward> 4500 </Planet_Capture_Bonus_Reward>
+                <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>Corellian_Gunboat</Planet_Slice_Affinity_Types>
 
@@ -685,7 +685,18 @@ Fynbos
 
                 <Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>6</Additional_Population_Capacity>
+
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Bastion_Structure_Price_Reducing">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types> LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY</Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.2</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                </Abilities>
 
         </Planet>
 
@@ -708,11 +719,11 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>130</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>8</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>170</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>10</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>-45.0, -270.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
+                <Special_Structures_Space>4</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -721,7 +732,7 @@ Fynbos
                 <Land_Tactical_Map />
                 <!-- <Land_Tactical_Map> _Land_Planet_Bespin_01.ted </Land_Tactical_Map> -->
                 <Destroyed_Space_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 1500 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3300 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -745,7 +756,7 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
 
         </Planet>
@@ -769,16 +780,16 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>90</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>8</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>145</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>59.0, -51.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>5</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3900 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Bestine_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Bestine.ted</Space_Tactical_Map>
@@ -806,19 +817,19 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_swamp.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>3</Additional_Population_Capacity>
 
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Bestine_Acclamator_Production_Boost">
+
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Bastion_Structure_Price_Reducing">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Acclamator_Assault_Ship </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                <Applicable_Unit_Types> LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING</Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.5</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                                <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Price_Ability>
                 </Abilities>
-
 
         </Planet>
 
@@ -841,19 +852,19 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>135</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>175</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>13</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>370.0, 450.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
-                <Max_Space_Base>3</Max_Space_Base>
+                <Special_Structures_Space>6</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
                 <Space_Tactical_Map>_Space_Planet_Bonadan.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Bonadan_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4100 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -877,7 +888,7 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>7</Additional_Population_Capacity>
 
 
         </Planet>
@@ -901,16 +912,16 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Forest</Terrain>
-                <Planet_Credit_Value>50</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>4</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>160</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>11</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>305.0, -73.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>4</Max_Space_Base>
+                <Special_Structures_Space>4</Special_Structures_Space>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3700 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Bothawui_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Bothawui.ted</Space_Tactical_Map>
@@ -988,11 +999,11 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Desert</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>195</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>13</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>75.0, 227.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
+                <Special_Structures_Space>6</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -1000,9 +1011,9 @@ Fynbos
                 <Space_Tactical_Map>_Space_Planet_Brentaal.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
-                <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-                <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
+                <Planet_Capture_Bonus_Reward> 4100 </Planet_Capture_Bonus_Reward>
+                <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
+                <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
 
                 <Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
@@ -1025,7 +1036,18 @@ Fynbos
                 <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>9</Additional_Population_Capacity>
+
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Brentaal_Structure_Price_Reducing">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types> LS_TRADE_PORT, DS_TRADE_PORT, LS_HYPERLANES, DS_HYPERLANES</Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.5</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                </Abilities>
 
 
         </Planet>
@@ -1049,12 +1071,12 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>30</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>165</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>11</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>-25.0, 60.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>5</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
@@ -1062,7 +1084,7 @@ Fynbos
                 <!-- <Land_Tactical_Map> _Land_Planet_Byss_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Byss.ted</Space_Tactical_Map>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3500 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, Rebel_Orbital_Long_Range_Scanner, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
@@ -1086,16 +1108,9 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_improved_atat_reactors.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_swamp.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>8</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Swamp_Civilian_A, 100</Potential_Indigenous_Power>
-
-                <Abilities SubObjectList="Yes">
-                        <Galaxy_Wide_Upgrade_Ability Name="Byss_Upgrade_Bonus">
-                                <Space_Upgrade_Type />
-                                <Land_Upgrade_Type> Byss_ATAT_Enhanced_Damage_Bonus </Land_Upgrade_Type>
-                        </Galaxy_Wide_Upgrade_Ability>
-                </Abilities>
 
         </Planet>
 
