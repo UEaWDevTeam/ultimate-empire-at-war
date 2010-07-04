@@ -2175,7 +2175,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                          <Reduce_Production_Price_Ability Name="Geonosis_Production_Cost_Bonus">
                                  <Unit_Strength_Category />
                                  <Applicable_Unit_Categories />
-                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON, C_MISSILE_FRIGATE, C_MUNIFICENT, C_RECUSANT_CARRIER, C_RECUSANT, C_PROVIDENCE, C_LUCREHULK, C_LUCREHULK_CARRIER</Applicable_Unit_Types>
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
                                  <Excluded_Unit_Types />
                                  <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
                                  <Stacking_Category>9</Stacking_Category>
@@ -2185,7 +2185,7 @@ renamed our first The Maw to Ebaq9, because the maw is in FoC.
                          <Reduce_Production_Time_Ability Name="Geonosis_Production_Time_Penalty">
                                  <Unit_Strength_Category />
                                  <Applicable_Unit_Categories />
-                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON, C_MISSILE_FRIGATE, C_MUNIFICENT, C_RECUSANT_CARRIER, C_RECUSANT, C_PROVIDENCE, C_LUCREHULK, C_LUCREHULK_CARRIER</Applicable_Unit_Types>
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
                                  <Excluded_Unit_Types />
                                  <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
@@ -2443,7 +2443,7 @@ Fynbos
                          <Reduce_Production_Price_Ability Name="Hypori_Production_Cost_Bonus">
                                  <Unit_Strength_Category />
                                  <Applicable_Unit_Categories />
-                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON, C_MISSILE_FRIGATE, C_MUNIFICENT, C_RECUSANT_CARRIER, C_RECUSANT, C_PROVIDENCE, C_LUCREHULK, C_LUCREHULK_CARRIER</Applicable_Unit_Types>
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
                                  <Excluded_Unit_Types />
                                  <Price_Reduction_Percentage>0.15</Price_Reduction_Percentage>
                                  <Stacking_Category>9</Stacking_Category>
@@ -2453,7 +2453,7 @@ Fynbos
                          <Reduce_Production_Time_Ability Name="Hypori_Production_Time_Penalty">
                                  <Unit_Strength_Category />
                                  <Applicable_Unit_Categories />
-                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON, C_MISSILE_FRIGATE, C_MUNIFICENT, C_RECUSANT_CARRIER, C_RECUSANT, C_PROVIDENCE, C_LUCREHULK, C_LUCREHULK_CARRIER</Applicable_Unit_Types>
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
                                  <Excluded_Unit_Types />
                                  <Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
@@ -2626,16 +2626,16 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>75</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>150</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>370.0, -123.0, 50.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
+                <Special_Structures_Space>3</Special_Structures_Space>
                 <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3100 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Kamino_01.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Kamino.ted</Space_Tactical_Map>
@@ -2661,30 +2661,7 @@ Fynbos
 
                 <Additional_Population_Capacity>5</Additional_Population_Capacity>
 
-                <!-- need to add production time increase -->
-                <Abilities SubObjectList="Yes">
-
-                        <Reduce_Production_Price_Ability Name="Kamino_Infantry_Production_Cost_Bonus">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
-                                <Applicable_Unit_Types />
-                                <Excluded_Unit_Types>Night_Sister_Company, Vornskr_Wolf_Pack</Excluded_Unit_Types>
-                                <Price_Reduction_Percentage>0.99999</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> No </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
-
-                        <Reduce_Production_Time_Ability Name="Kamino_Infantry_Production_Time_Penalty">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories> Infantry </Applicable_Unit_Categories>
-                                <Applicable_Unit_Types />
-                                <Excluded_Unit_Types>Night_Sister_Company, Vornskr_Wolf_Pack</Excluded_Unit_Types>
-                                <Time_Reduction_Percentage>-0.15</Time_Reduction_Percentage>                        <!-- 15% longer build times -->
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> No </Galaxy_Wide>
-                        </Reduce_Production_Time_Ability>
-
-                </Abilities>
+                <Planet_Groundbase_Stealth>Yes</Planet_Groundbase_Stealth>
 
 
         </Planet>
@@ -2708,8 +2685,8 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Forest</Terrain>
-                <Planet_Credit_Value>30</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>95</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>230.0, 180.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
                 <Special_Structures_Space>2</Special_Structures_Space>
@@ -2717,7 +2694,7 @@ Fynbos
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Kashyyyk_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Kashyyyk.ted</Space_Tactical_Map>
@@ -2748,7 +2725,18 @@ Fynbos
 
                 <Potential_Indigenous_Power>Wookie_Warrior, 800</Potential_Indigenous_Power>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>3</Additional_Population_Capacity>
+
+                <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Kashyyyk_Structure_Cost_Reduction">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types> DS_HYPERLANES, LS_HYPERLANES </Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.50</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                </Abilities>
 
 
         </Planet>
@@ -2772,11 +2760,11 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Desert</Terrain>
-                <Planet_Credit_Value>160</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>20</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>155</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>410.0, 145.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
+                <Special_Structures_Space>5</Special_Structures_Space>
                 <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -2784,7 +2772,7 @@ Fynbos
                 <Space_Tactical_Map>_Space_Planet_Kessel.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Kessel_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 500 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3100 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
 
@@ -2807,7 +2795,18 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_prisoners.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>1</Additional_Population_Capacity>
+
+                <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Kessel_Structure_Cost_Reduction">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types> DS_TRADE_PORT, LS_TRADE_PORT </Applicable_Unit_Types>
+                                <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                </Abilities>
 
 
 
@@ -2832,16 +2831,16 @@ Fynbos
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Desert</Terrain>
-                <Planet_Credit_Value>30</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>85</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>310.0, 385.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>0</Special_Structures_Space>
+                <Special_Structures_Space>2</Special_Structures_Space>
                 <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 2100 </Planet_Capture_Bonus_Reward>
                 <!-- <Land_Tactical_Map> _Land_Planet_Korriban_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Korriban.ted</Space_Tactical_Map>
@@ -2868,27 +2867,14 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_desert.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>3</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Desert_Civilian_A, 150</Potential_Indigenous_Power>
-
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Korriban_2M_Repulsortank_Production_Boost">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Imperial_Armor_Group </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
-                </Abilities>
-
-
 
         </Planet>
 
         <Planet Name="Kuat">
-                <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+                <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
                 <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KUAT</Text_ID>
                 <Galactic_Model_Name>W_planet_Kuat_low.alo</Galactic_Model_Name>
                 <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2906,11 +2892,11 @@ Fynbos
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>75</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>230</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>15</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>95.0, 110.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
+                <Special_Structures_Space>7</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -2921,7 +2907,7 @@ Fynbos
                 <Land_Tactical_Map />
         <!--        <Space_Tactical_Map>_Space_Planet_Kuat_01.ted</Space_Tactical_Map>
                 <Land_Tactical_Map> _Land_Planet_Kuat_02.ted </Land_Tactical_Map> -->
-                <Planet_Capture_Bonus_Reward> 1800 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4700 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>MC80_LibertyType</Planet_Slice_Affinity_Types>
@@ -2945,20 +2931,61 @@ Fynbos
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>6</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
 
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Kuat_Star_Destroyer_Production_Boost">
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Kuat_Production_Cost_Bonus_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> capital </Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>E_ISDI, E_ISDII, IR_ISDI, IR_ISDII, OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+                                <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+
+                        <Reduce_Production_Time_Ability Name="Kuat_Production_Time_Penalty_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> capital</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>E_ISDI, E_ISDII, IR_ISDI, IR_ISDII, OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+                                <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                        <Reduce_Production_Price_Ability Name="Kuat_Production_Cost_Bonus_II">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> Star_Destroyer </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                <Applicable_Unit_Types>R_V-WING_SQUADRON, E_ISDI, E_ISDII, IR_ISDI, IR_ISDII, E_VICTORY_I, E_VICTORY_II, IR_VICTORY_I, IR_VICTORY_II, R_ACCLAMATOR_ASSAULT_FRIGATE_I, R_ACCLAMATOR_ASSAULT_FRIGATE_II, E_ACCLAMATOR_ASSAULT_FRIGATE_I, E_ACCLAMATOR_ASSAULT_FRIGATE_II, IR_ACCLAMATOR_ASSAULT_FRIGATE_I, IR_ACCLAMATOR_ASSAULT_FRIGATE_II, R_VENATOR, E_BROADSIDE, IR_BROADSIDE, R_CARRACK_CRUISER, R_CARRACK_CRUISER_ESCORT, RA_EF76_FRIGATE, NR_EF76_FRIGATE, RA_EF76_HOSPITAL_FRIGATE, NR_EF76_HOSPITAL_FRIGATE</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.3</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                                <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Price_Ability>
-                </Abilities>
+
+                        <Reduce_Production_Time_Ability Name="Kuat_Production_Time_Penalty_II">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>R_V-WING_SQUADRON, E_ISDI, E_ISDII, IR_ISDI, IR_ISDII, E_VICTORY_I, E_VICTORY_II, IR_VICTORY_I, IR_VICTORY_II, R_ACCLAMATOR_ASSAULT_FRIGATE_I, R_ACCLAMATOR_ASSAULT_FRIGATE_II, E_ACCLAMATOR_ASSAULT_FRIGATE_I, E_ACCLAMATOR_ASSAULT_FRIGATE_II, IR_ACCLAMATOR_ASSAULT_FRIGATE_I, IR_ACCLAMATOR_ASSAULT_FRIGATE_II, R_VENATOR, E_BROADSIDE, IR_BROADSIDE, R_CARRACK_CRUISER, R_CARRACK_CRUISER_ESCORT, RA_EF76_FRIGATE, NR_EF76_FRIGATE, RA_EF76_HOSPITAL_FRIGATE, NR_EF76_HOSPITAL_FRIGATE</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Time_Reduction_Percentage>0.3</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                         <Reduce_Production_Price_Ability Name="Kuat_Production_Cost_Bonus_III">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>DS_ORBITAL_MANUFACTURING, LS_ORBITAL_MANUFACTURING</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                 </Abilities>
 
 
         </Planet>
@@ -2985,12 +3012,12 @@ Fynbos -->
                 <Political_Control>0</Political_Control>
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-                <Planet_Credit_Value>35</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>2</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>70</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>270.0, -220.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
-                <Max_Space_Base>1</Max_Space_Base>
+                <Special_Structures_Space>2</Special_Structures_Space>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
@@ -2998,9 +3025,9 @@ Fynbos -->
                 <Space_Tactical_Map>_Space_Planet_Lok.ted </Space_Tactical_Map>
                 <Land_Tactical_Map />
 
-                <Planet_Capture_Bonus_Reward> 900 </Planet_Capture_Bonus_Reward>
-                <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-                <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
+                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
+                <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+                <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
                 <Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
 
 
@@ -3025,19 +3052,12 @@ Fynbos -->
                 <Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
                 <Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
-                <Abilities SubObjectList="Yes">
-                        <Galaxy_Wide_Upgrade_Ability Name="Tatooine_Upgrade_Bonus">
-                                <Space_Upgrade_Type />
-                                <Land_Upgrade_Type> RL_Light_Armor_L1_Upgrade </Land_Upgrade_Type>
-                        </Galaxy_Wide_Upgrade_Ability>
-                </Abilities>
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
         </Planet>
 
         <Planet Name="Manaan">
-                <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+                <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>
                 <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANAAN</Text_ID>
                 <Galactic_Model_Name>W_planet_Kamino_low.alo</Galactic_Model_Name>
                 <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3055,11 +3075,11 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>45</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>3</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>135</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>9</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>180.0, 80.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>1</Special_Structures_Space>
+                <Special_Structures_Space>4</Special_Structures_Space>
                 <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -3067,7 +3087,7 @@ Fynbos -->
                 <Space_Tactical_Map>_Space_Planet_Manaan.ted</Space_Tactical_Map>
                 <!-- <Land_Tactical_Map> _Land_Planet_Manaan_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
-                <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3100 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -3090,13 +3110,13 @@ Fynbos -->
                 <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
                 <Planet_Ability_Icon>i_pa_tactical_heal_Infantry.tga</Planet_Ability_Icon>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
 
         </Planet>
 
         <Planet Name="Mandalore"> <!-- EXPANSION PLANET -->
-                <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
+                <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
                 <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
                 <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
                 <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3114,12 +3134,12 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Swamp</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>140</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>10</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>180.0, 280.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>3</Special_Structures_Space>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <!-- <Land_Tactical_Map> _Land_Planet_Mandalore_01.ted </Land_Tactical_Map> -->
@@ -3127,9 +3147,9 @@ Fynbos -->
                 <Space_Tactical_Map>_Space_Planet_Mandalore.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3300 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
-                <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
+                <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
 
 
@@ -3151,18 +3171,7 @@ Fynbos -->
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_mandalorian.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
-
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Mandalore_Price_Reduction">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> StarViper_Squadron, Crusader_Gunship, Kedalbe_Battleship, Canderous_Assault_Tank_Company </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
-                </Abilities>
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
 
         </Planet>
@@ -3190,21 +3199,21 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 40.0, -40.0</Facing_Adjust>
                 <Terrain>Volcanic</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>160</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>12</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>47.0, -95.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>5</Special_Structures_Space>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <Land_Tactical_Map />
                 <Space_Tactical_Map>_Space_Planet_Mechis3.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2000 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 3900 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
-                <Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
+                <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
 
 
@@ -3232,27 +3241,28 @@ Fynbos -->
 
                 <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Kamino_Infantry_Production_Cost_Bonus">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types>Destroyer_Droid_Company</Applicable_Unit_Types>
-                                <Excluded_Unit_Types>Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad, Night_Sister_Company, Vornskr_Wolf_Pack</Excluded_Unit_Types>
-                                <Price_Reduction_Percentage>0.50</Price_Reduction_Percentage>
-                                <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> No </Galaxy_Wide>
-                        </Reduce_Production_Price_Ability>
+                  <Abilities SubObjectList="Yes">
+                         <Reduce_Production_Price_Ability Name="Mechis3_Production_Cost_Bonus">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories />
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
+                                 <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.2</Price_Reduction_Percentage>
+                                 <Stacking_Category>9</Stacking_Category>
+                                 <Galaxy_Wide> No </Galaxy_Wide>
+                         </Reduce_Production_Price_Ability>
 
-                        <Reduce_Production_Time_Ability Name="Kamino_Infantry_Production_Time_Penalty">
-                                <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types>Destroyer_Droid_Company</Applicable_Unit_Types>
-                                <Excluded_Unit_Types>Rebel_Infantry_Squad, Rebel_Tank_Buster_Squad, Rebel_Infiltrator_Team, Imperial_Stormtrooper_Squad, Imperial_Light_Scout_Squad, Night_Sister_Company, Vornskr_Wolf_Pack</Excluded_Unit_Types>
-                                <Time_Reduction_Percentage>0.50</Time_Reduction_Percentage>
+                         <Reduce_Production_Time_Ability Name="Mechis3_Production_Time_Penalty">
+                                 <Unit_Strength_Category />
+                                 <Applicable_Unit_Categories />
+                                 <Applicable_Unit_Types>C_VULTURE_DROID_SQUADRON, C_VULTURE_DROID_IAI_SQUADRON, C_TRI_FIGHTER_SQUADRON, C_DROID_BOMBER_SQUADRON, C_DROID_BOMBER_IAI_SQUADRON, C_HYENA_SQUADRON</Applicable_Unit_Types>
+                                 <Excluded_Unit_Types />
+                                 <Time_Reduction_Percentage>0.2</Time_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
                                 <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Time_Ability>
-                </Abilities>
+                 </Abilities>
+
                 <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
         </Planet>
@@ -3277,11 +3287,11 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>75</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>180</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>13</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>460.0, 310.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>3</Special_Structures_Space>
+                <Special_Structures_Space>7</Special_Structures_Space>
                 <Max_Space_Base>5</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
@@ -3291,7 +3301,7 @@ Fynbos -->
                 <!-- <Land_Tactical_Map> _Land_Planet_MonCalimari_02.ted </Land_Tactical_Map> -->
                 <Land_Tactical_Map />
 
-                <Planet_Capture_Bonus_Reward> 1600 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4300 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types>MC80_LibertyType</Planet_Slice_Affinity_Types>
@@ -3315,20 +3325,61 @@ Fynbos -->
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_mon_cal.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>7</Additional_Population_Capacity>
 
                 <Potential_Indigenous_Power>Mon_Calamari_Civilian, 400</Potential_Indigenous_Power>
 
-                <Abilities SubObjectList="Yes">
-                        <Reduce_Production_Price_Ability Name="Mon_Calamari_MC80_LibertyType_Production_Boost">
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="MonCalimari_Production_Cost_Bonus_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> capital </Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>RA_MC80_HOMEONETYPE, NR_MC80_HOMEONETYPE, RA_MC80_LIBERTYTYPE, NR_MC80_LIBERTYTYPE, NR_MC90, RA_MC30_FRIGATE, NR_MC30_FRIGATE, OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+                                <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+
+                        <Reduce_Production_Time_Ability Name="MonCalimari_Production_Time_Penalty_I">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories> capital</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Excluded_Unit_Types>RA_MC80_HOMEONETYPE, NR_MC80_HOMEONETYPE, RA_MC80_LIBERTYTYPE, NR_MC80_LIBERTYTYPE, NR_MC90, RA_MC30_FRIGATE, NR_MC30_FRIGATE, OR_STARBASE_1, OR_STARBASE_2, OR_STARBASE_3, OR_STARBASE_4, OR_STARBASE_5, S_STARBASE_1, S_STARBASE_2, S_STARBASE_3, S_STARBASE_4, S_STARBASE_5, C_STARBASE_1, C_STARBASE_2, C_STARBASE_3, C_STARBASE_4, C_STARBASE_5, R_STARBASE_1, R_STARBASE_2, R_STARBASE_3, R_STARBASE_4, R_STARBASE_5, RA_STARBASE_1, RA_STARBASE_2, RA_STARBASE_3, RA_STARBASE_4, RA_STARBASE_5, E_STARBASE_1, E_STARBASE_2, E_STARBASE_3, E_STARBASE_4, E_STARBASE_5, NR_STARBASE_1, NR_STARBASE_2, NR_STARBASE_3, NR_STARBASE_4, NR_STARBASE_5, IR_STARBASE_1, IR_STARBASE_2, IR_STARBASE_3, IR_STARBASE_4, IR_STARBASE_5, LS_ORBITAL_MANUFACTURING, DS_ORBITAL_MANUFACTURING, LS_TRADE_PORT, DS_TRADE_PORT, LS_CARGO, DS_CARGO, DS_HYDROPONICS, LS_HYDROPONICS, LS_HYPERLANES, DS_HYPERLANES, LS_ASTEROID_MINE, DS_ASTEROID_MINE, LS_ORBITAL_DEFENCE_POD, DS_ORBITAL_DEFENCE_POD, LS_PERIMETER_OUTPOST, DS_PERIMETER_OUTPOST, DS_HANGAR, LS_HANGAR, LS_SENSOR_RELAY, DS_SENSOR_RELAY, RA_CORELLIAN_CORVETTE, RA_CORELLIAN_GUNBOAT, NR_CORELLIAN_CORVETTE, NR_CORELLIAN_GUNBOAT </Excluded_Unit_Types>
+                                <Time_Reduction_Percentage>0.1</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                        <Reduce_Production_Price_Ability Name="MonCalimari_Production_Cost_Bonus_II">
                                 <Unit_Strength_Category />
                                 <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types> MC80_LibertyType </Applicable_Unit_Types>
-                                <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
+                                <Applicable_Unit_Types>RA_MC80_HOMEONETYPE, NR_MC80_HOMEONETYPE, RA_MC80_LIBERTYTYPE, NR_MC80_LIBERTYTYPE, NR_MC90, RA_MC30_FRIGATE, NR_MC30_FRIGATE</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.3</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
+                                <Galaxy_Wide> No </Galaxy_Wide>
                         </Reduce_Production_Price_Ability>
-                </Abilities>
+
+                        <Reduce_Production_Time_Ability Name="MonCalimari_Production_Time_Penalty_II">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>RA_MC80_HOMEONETYPE, NR_MC80_HOMEONETYPE, RA_MC80_LIBERTYTYPE, NR_MC80_LIBERTYTYPE, NR_MC90, RA_MC30_FRIGATE, NR_MC30_FRIGATE</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Time_Reduction_Percentage>0.3</Time_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Time_Ability>
+
+                         <Reduce_Production_Price_Ability Name="MonCalimari_Production_Cost_Bonus_III">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>DS_ORBITAL_MANUFACTURING, LS_ORBITAL_MANUFACTURING</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                 <Price_Reduction_Percentage>0.1</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                 </Abilities>
 
         </Planet>
 
@@ -3351,12 +3402,12 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Volcanic</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>135</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>6</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>30.0, -340.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
                 <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <!-- <Land_Tactical_Map> _Land_Planet_Mustafar_01.ted </Land_Tactical_Map> -->
@@ -3388,26 +3439,25 @@ Fynbos -->
                 <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_mustafarian.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>1</Additional_Population_Capacity>
 
-                <Abilities SubObjectList="Yes">
-                <!-- production time reduction capital ships -->
-                        <Reduce_Production_Time_Ability Name="Mustafar_Capital_Ship_Production_Time_Reduction">
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Mustafar_Production_Cost_Bonus_I">
                                 <Unit_Strength_Category />
-                                <Applicable_Unit_Categories />
-                                <Applicable_Unit_Types>MC80_LibertyType, Star_Destroyer, Kedalbe_Battleship, Krayt_Class_Destroyer</Applicable_Unit_Types>
+                                <Applicable_Unit_Categories> All </Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
                                 <Excluded_Unit_Types />
-                                <Time_Reduction_Percentage>0.25</Time_Reduction_Percentage>
+                                <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
                                 <Stacking_Category>9</Stacking_Category>
-                                <Galaxy_Wide> Yes </Galaxy_Wide>
-                        </Reduce_Production_Time_Ability>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
                 </Abilities>
 
 
         </Planet>
 
         <Planet Name="Muunilinst"> <!-- EXPANSION PLANET -->
-                <Zoomed_Terrain_Index>6</Zoomed_Terrain_Index>
+                <Zoomed_Terrain_Index>0</Zoomed_Terrain_Index>
                 <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUUNILINST</Text_ID>
                 <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
                 <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3425,12 +3475,12 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Temperate</Terrain>
-                <Planet_Credit_Value>150</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>200</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>13</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>-30.0, 430.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
-                <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Special_Structures_Space>6</Special_Structures_Space>
+                <Max_Space_Base>3</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <!-- <Land_Tactical_Map> _Land_Planet_Muunilinst_01.ted </Land_Tactical_Map> -->
@@ -3438,9 +3488,9 @@ Fynbos -->
                 <Space_Tactical_Map>_Space_Planet_Muunilinst.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 4100 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
-                <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
+                <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
 
 
@@ -3462,13 +3512,25 @@ Fynbos -->
                 <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>6</Additional_Population_Capacity>
+
+                 <Abilities SubObjectList="Yes">
+                        <Reduce_Production_Price_Ability Name="Muunilinst_Production_Cost_Bonus">
+                                <Unit_Strength_Category />
+                                <Applicable_Unit_Categories />
+                                <Applicable_Unit_Types>DS_TRADE_PORT, LS_TRADE_PORT, DS_HYERPLANES, LS_HYPERLANES, LS_CARGO, DS_CARGO</Applicable_Unit_Types>
+                                <Excluded_Unit_Types />
+                                <Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
+                                <Stacking_Category>9</Stacking_Category>
+                                <Galaxy_Wide> No </Galaxy_Wide>
+                        </Reduce_Production_Price_Ability>
+                </Abilities>
 
 
         </Planet>
 
         <Planet Name="Myrkr"> <!-- EXPANSION PLANET -->
-                <Zoomed_Terrain_Index>5</Zoomed_Terrain_Index>
+                <Zoomed_Terrain_Index>2</Zoomed_Terrain_Index>
                 <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYRKR</Text_ID>
                 <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
                 <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3486,12 +3548,12 @@ Fynbos -->
                 <Camera_Aligned>yes</Camera_Aligned>
                 <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
                 <Terrain>Forest</Terrain>
-                <Planet_Credit_Value>85</Planet_Credit_Value>
-                <Planet_Destroyed_Credit_Value>7</Planet_Destroyed_Credit_Value>
+                <Planet_Credit_Value>70</Planet_Credit_Value>
+                <Planet_Destroyed_Credit_Value>5</Planet_Destroyed_Credit_Value>
                 <Galactic_Position>120.0, 202.0, 10.0</Galactic_Position>
                 <Special_Structures_Land>0</Special_Structures_Land>
                 <Special_Structures_Space>2</Special_Structures_Space>
-                <Max_Space_Base>5</Max_Space_Base>
+                <Max_Space_Base>4</Max_Space_Base>
                 <The_Force>Neutral</The_Force>
                 <Force_Strength>0.0</Force_Strength>
                 <!-- <Land_Tactical_Map> _Land_Planet_Myrkr_01.ted </Land_Tactical_Map> -->
@@ -3499,7 +3561,7 @@ Fynbos -->
                 <Space_Tactical_Map>_Space_Planet_Myrkr.ted</Space_Tactical_Map>
                 <Destroyed_Space_Tactical_Map />
                 <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
-                <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+                <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
                 <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
                 <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
                 <Planet_Slice_Affinity_Types />
@@ -3523,7 +3585,7 @@ Fynbos -->
                 <Planet_Ability_Icon>i_pa_tactical_force.tga</Planet_Ability_Icon>
                 <Native_Icon_Name>load_urban.tga</Native_Icon_Name>
 
-                <Additional_Population_Capacity>5</Additional_Population_Capacity>
+                <Additional_Population_Capacity>2</Additional_Population_Capacity>
 
 
         </Planet>
