@@ -4,4 +4,113 @@
 
 <!--SITH starbases here-->
 
+<SpecialStructure Name="S_STAR_FORGE">
+                <Text_ID>TEXT_ORBITAL_SENSOR_RELAY</Text_ID>
+                <GUI_Row> 0 </GUI_Row>
+                <Is_Dummy>No</Is_Dummy>
+                <Space_Model_Name>BCam_STAR_FORGE.ALO</Space_Model_Name>
+                <Select_Box_Scale>330</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+                <Affiliation>Dark_Side</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>100</Build_Cost_Credits> <!-- Set minimal for testing purposes only -->
+                <Build_Time_Seconds>5</Build_Time_Seconds> <!-- Set minimal for testing purposes only -->
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+                <Size_Value>30</Size_Value>
+                <Scale_Factor>18.083</Scale_Factor>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+                <Armor_Type> Armour_Battleship_Superior </Armor_Type>
+                <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
+
+                <Slice_Cost_Credits>400</Slice_Cost_Credits>
+                <Base_Position>Orbital</Base_Position>
+                <Tech_Level>1</Tech_Level>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>1</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Required_Planets>Rakata_Prime</Required_Planets>
+                <Tactical_Health>50000</Tactical_Health>
+                <Shield_Points>100000</Shield_Points>
+                <Shield_Refresh_Rate>150</Shield_Refresh_Rate>
+                <Behavior>SELECTABLE, DUMMY_ORBITAL_STRUCTURE</Behavior>
+                <SpaceBehavior>SPACE_OBSTACLE, POWERED, SHIELDED, SPAWN_SQUADRON, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, ION_STUN_EFFECT</SpaceBehavior>
+                <Last_State_Visible_Under_FOW> Yes </Last_State_Visible_Under_FOW>
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Death_Explosions>Large_Explosion_Space</Death_Explosions>
+                <Icon_Name>i_button_lrs.tga</Icon_Name>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Icon_Name>i_button_lrs.tga</Icon_Name>
+                <GUI_Model_Name>BCam_STAR_FORGE.ALO</GUI_Model_Name>
+                <GUI_Distance>1000</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+                <No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+                <No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+                <Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 20</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, -1</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>12</Spawned_Squadron_Delay_Seconds>
+
+                <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+                <Space_FOW_Reveal_Range>5000.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>2300.0</Targeting_Max_Attack_Distance>
+
+                <HardPoints>
+                        HP_STAR_FORGE_LTL_01,
+                        HP_STAR_FORGE_LTL_02,
+                        HP_STAR_FORGE_LTL_03,
+                        HP_STAR_FORGE_LTL_04,
+                        HP_STAR_FORGE_LTL_05,
+                        HP_STAR_FORGE_LTL_06,
+                        HP_STAR_FORGE_LTL_07,
+                        HP_STAR_FORGE_LTL_08,
+                        HP_STAR_FORGE_LTL_09,
+                        HP_STAR_FORGE_HANGAR_01,
+                        HP_STAR_FORGE_HANGAR_02,
+                        HP_STAR_FORGE_HANGAR_03,
+                        HP_STAR_FORGE_HANGAR_04,
+                        HP_STAR_FORGE_HANGAR_05,
+                        HP_STAR_FORGE_HANGAR_06,
+                        HP_STAR_FORGE_HANGAR_07,
+                        HP_STAR_FORGE_HANGAR_08,
+                        HP_STAR_FORGE_HANGAR_09
+
+                </HardPoints>
+
+                <Layer_Z_Adjust>-1500.0</Layer_Z_Adjust>
+
+                <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+                <Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+                <SFXEvent_Unit_Under_Attack> RHD_Scanner_Under_Attack </SFXEvent_Unit_Under_Attack>
+                <SFXEvent_Unit_Lost> RHD_Scanner_Destroyed </SFXEvent_Unit_Lost>
+                <SFXEvent_Select> Structure_Scanner_Select_SFX </SFXEvent_Select>
+
+
+                <CategoryMask> Structure </CategoryMask>
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+                <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+                <GUI_Bracket_Size>2</GUI_Bracket_Size>
+                <Influences_Capture_Point>False</Influences_Capture_Point>
+                <!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+                <Galactic_Influence_Range>50.0</Galactic_Influence_Range>
+                <Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
+
+                <Encyclopedia_Text> TEXT_TOOLTIP_ORBITAL_SENSOR_RELAY</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+                <Score_Cost_Credits> 21000 </Score_Cost_Credits>
+                <Custom_Soft_Footprint_Radius> 200 </Custom_Soft_Footprint_Radius>
+                <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
+                <Space_Layer> StaticObject </Space_Layer>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+        </SpecialStructure>
+
+
+
 </StarBases>

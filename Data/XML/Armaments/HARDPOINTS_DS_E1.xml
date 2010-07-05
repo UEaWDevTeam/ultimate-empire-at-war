@@ -1781,8 +1781,8 @@
                 <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
         </HardPoint>
-		
-	<!-- Leviathan  Hardpoints -->
+
+        <!-- Leviathan  Hardpoints -->
 
         <HardPoint Name="HP_LEVIATHAN_MTL_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -2264,6 +2264,368 @@
 
                 <Death_Explosion_Particles> PEx_Explosion_Medium_B_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+        </HardPoint>
+
+<!--Star forge hardpoints-->
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_01</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_01_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_01</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_02</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_02">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_03</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_03_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_03</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_04</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_03">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_05</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_05_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_05</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_06</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_04">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_07</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_07_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_07</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_08</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_05">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_09</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_09_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_09</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_10</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_06">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_11</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_11_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_11</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_12</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_07">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_13</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_13_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_13</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_14</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_08">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_15</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_15_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_15</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_16</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+   <HardPoint Name="HP_STAR_FORGE_LTL_09">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
+
+            <Attachment_Bone>HP_LTL_17</Attachment_Bone>
+            <Collision_Mesh>HP_LTL_17_COLL</Collision_Mesh>
+
+            <Fire_Bone_A>HP_LTL_17</Fire_Bone_A>
+            <Fire_Bone_B>HP_LTL_18</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Light</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2300.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+                        <Fire_Inaccuracy_Distance> Fighter, 19.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 18.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 21.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_01">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_01_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_02">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_02</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_02_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_03">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_03</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_03_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_04">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_04</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_04_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_05">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_05</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_05_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_06">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_06</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_06_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_07">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_07</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_07_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_08">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_08</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_08_COLL</Collision_Mesh>
+        </HardPoint>
+
+        <HardPoint Name="HP_STAR_FORGE_HANGAR_09">
+                <Type> HARD_POINT_FIGHTER_BAY </Type>
+                 <Is_Targetable>No</Is_Targetable>
+                 <Is_Destroyable>No</Is_Destroyable>
+
+                <Attachment_Bone>HP_HANGAR_09</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_09_COLL</Collision_Mesh>
         </HardPoint>
 
 </HardPoints>
