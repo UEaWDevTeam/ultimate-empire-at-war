@@ -14,6 +14,173 @@
                 <Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
                 <Reward_Param1>Light_Side</Reward_Param1>
                 <Reward_Param2>1</Reward_Param2>
-                <Prereq>LS_Obj4_Begin</Prereq>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_LS_Tech">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SET_TECH_LEVEL</Reward_Type>
+                <Reward_Param1>Light_Side</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O1_No_Retreat">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_RETREAT</Reward_Type>
+                <Reward_Param1>Dark_Side</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                 <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <!--Locking units/tech/w/e-->
+        <Event Name="Lock_OR_PRAETORIAN_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_PRAETORIAN</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_PRAETORIAN_SU_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_PRAETORIAN_SU</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_THRANTA_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_THRANTA</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+
+        <Event Name="Lock_OR_THRANTA_SU_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_THRANTA_SU</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_HEAVY_CRUISER_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_HEAVY_CRUISER</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_INEXPUGNABLE_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_INEXPUGNABLE</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_CENTURION_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_CENTURION</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_CENTURION_SU_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_CENTURION_SU</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <!--Reveal Planets-->
+        <Event Name="LS_E1_Reveal_00">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Fresia</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_01">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Byss</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_02">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Corellia</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_03">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Anaxes</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_04">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Corulag</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_05">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Brentaal</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_Reveal_06">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>Alderaan</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+<!--Win Condition>
+        <Event Name="LS_E1_Check_Win_00">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                <Event_Param2>fleet01_destroyed</Event_Param2>
+        </Event>
+-->
+<!-- Dialog when super fleet leaves MechisIII -->
+    <Event Name="LS_E1_Fleet01_Trigger">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                <Event_Param2>Fleet01_Moves</Event_Param2>
+                <Branch>First_Warning</Branch>
+        </Event>
+
+<!-- Dialog first attack -->
+        <Event Name="LS_E1_Fleet01_at_Bestine_00">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_LS_E1_O1_FLEET01_MOVES</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>
+                <Reward_Param8>LS_E1_O1_FLEET01_MOVES</Reward_Param8>
+                <Reward_Param9>Wedge_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>LS_E1_Fleet01_Trigger</Prereq>
+                <Branch>First_Warning</Branch>
+        </Event>
+
+        <Event Name="LS_E1_Fleet01_at_Bestine_00_Remove_Text">
+                <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                <Event_Param1>LS_E1_O1_FLEET01_MOVES</Event_Param1>
+                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_LS_E1_O1_FLEET01_MOVES</Reward_Param1>
+                <Reward_Param4>remove</Reward_Param4>
+                <Prereq>LS_E1_Fleet01_at_Bestine_00</Prereq>
+                <Branch>First_Warning</Branch>
         </Event>
 </Story>

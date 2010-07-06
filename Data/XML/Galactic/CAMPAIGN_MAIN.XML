@@ -47,7 +47,6 @@
                                 Dantooine,
                                 Dathomir,
                                 Dxun,
-                                Ebaq9,
                                 Endor,
                                 Eriadu,
                                 Felucia,
@@ -79,6 +78,7 @@
                                 Ord_Mantell,
                                 Polus,
                                 Praesitlyn,
+                                Rakata_Prime,
                                 Ryloth,
                                 Saleucami,
                                 Shola,
@@ -126,7 +126,8 @@
                 Endor_Bespin,
                 Shola_Hypori,
                 Yaga_Minor_Ord_Mantell,
-                Brentaal_Alderaan
+                Brentaal_Alderaan,
+                Endor_RakataPrime
 
                 </Trade_Routes>
 
@@ -150,12 +151,74 @@
                 <Starting_Tech_Level> Light_Side, 1 </Starting_Tech_Level>
                 <Max_Tech_Level> Light_Side, 5 </Max_Tech_Level>
 
-                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
-                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
-                <Starting_Forces> Light_Side, Coruscant, OR_AUREK </Starting_Forces>
+                <!--Coruscant Starting Forces-->
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_AUREK_SQUADRON </Starting_Forces>
                 <Starting_Forces> Light_Side, Coruscant, OR_FORAY_CLASS </Starting_Forces>
                 <Starting_Forces> Light_Side, Coruscant, OR_FORAY_CLASS </Starting_Forces>
                 <Starting_Forces> Light_Side, Coruscant, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Coruscant, OR_HAMMERHEAD </Starting_Forces>
+
+                <!--Fresia Starting Forces-->
+                <Starting_Forces> Light_Side, Fresia, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_CEELA_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Fresia, OR_HAMMERHEAD </Starting_Forces>
+
+                <!--Byss Starting Forces-->
+                <Starting_Forces> Light_Side, Byss, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Byss, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Byss, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Byss, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Byss, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Byss, OR_FORAY_CLASS </Starting_Forces>
+
+                <!--Byss Starting Forces-->
+                <Starting_Forces> Light_Side, Corellia, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Corellia, OR_HAMMERHEAD </Starting_Forces>
+
+                <!--Anaxes Starting Forces-->
+                <Starting_Forces> Light_Side, Anaxes, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Anaxes, OR_CHELA_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Anaxes, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Anaxes, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Anaxes, OR_HAMMERHEAD </Starting_Forces>
+
+                <!--Corulag Starting Forces-->
+                <Starting_Forces> Light_Side, Corulag, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corulag, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corulag, OR_CHELA_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corulag, OR_CHELA_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Corulag, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Corulag, OR_HAMMERHEAD </Starting_Forces>
+
+                <!--Brentaal Starting Forces-->
+                <Starting_Forces> Light_Side, Brentaal, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Brentaal, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Brentaal, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Brentaal, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Brentaal, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Brentaal, OR_FORAY_CLASS </Starting_Forces>
+
+                <Starting_Forces> Light_Side, Alderaan, OR_AUREK_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Alderaan, OR_CHELA_SQUADRON </Starting_Forces>
+                <Starting_Forces> Light_Side, Alderaan, OR_FORAY_CLASS </Starting_Forces>
+                <Starting_Forces> Light_Side, Alderaan, OR_HAMMERHEAD </Starting_Forces>
+                <Starting_Forces> Light_Side, Alderaan, OR_HAMMERHEAD </Starting_Forces>
 
                 <!-- Dark Side Starting Forces -->
 

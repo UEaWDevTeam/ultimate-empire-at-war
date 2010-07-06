@@ -330,7 +330,7 @@
 
 <!--Generic Trade Port-->
 
-    <StarBase Name="GENERIC_TRADE_PORT_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
+    <SpecialStructure Name="GENERIC_TRADE_PORT_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
                 <Text_ID>TEXT_ORBITAL_TRADE_PORT</Text_ID> <!-- Same as unit's -->
                 <Space_Model_Name>BC_TRADE_PORT_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
@@ -344,9 +344,9 @@
                 <Affiliation>Neutral</Affiliation>
                 <Remove_Upon_Death>True</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
                  <CategoryMask> Capital </CategoryMask>
-       </StarBase>
+       </SpecialStructure>
 
-        <StarBase Name="GENERIC_TRADE_PORT">
+        <SpecialStructure Name="GENERIC_TRADE_PORT">
 
                 <Text_ID>TEXT_ORBITAL_TRADE_PORT</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -377,7 +377,7 @@
                 <Space_Layer> Capital </Space_Layer>
                 <Layer_Z_Adjust>-445.0</Layer_Z_Adjust>
 
-                                <Is_Dummy>Yes</Is_Dummy>
+                                <Is_Dummy>No</Is_Dummy>
                                 <Affiliation>Light_Side</Affiliation>
                                 <Political_Control>0</Political_Control>
                                 <Build_Cost_Credits>100</Build_Cost_Credits> <!-- Set minimal for testing purposes only -->
@@ -388,7 +388,6 @@
                                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
 
-                                <Base_Position>Orbital</Base_Position>
                                 <Tech_Level>0</Tech_Level>
                                 <Required_Timeline>0</Required_Timeline>
                                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -461,7 +460,7 @@
                                 </Planet_Income_Bonus_Ability>
                         </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
                 <!--Because there are just LS/DS variants, in some cases, adding orbitals here-->
         <SpecialStructure Name="DS_SENSOR_RELAY">
@@ -478,19 +477,19 @@
                                  <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
         </SpecialStructure>
 
-        <StarBase Name="LS_TRADE_PORT">
+        <SpecialStructure Name="LS_TRADE_PORT">
 
                  <Variant_Of_Existing_Type>GENERIC_TRADE_PORT</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_TRADE_PORT">
+        <SpecialStructure Name="DS_TRADE_PORT">
 
                  <Variant_Of_Existing_Type>GENERIC_TRADE_PORT</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
 
          <SpecialStructure Name="GENERIC_HYDROPONICS">
@@ -606,7 +605,7 @@
                  <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
         </SpecialStructure>
 
-        <StarBase Name="GENERIC_CARGO">
+        <SpecialStructure Name="GENERIC_CARGO">
 
                 <Text_ID>TEXT_ORBITAL_CARGO_STORAGE</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -714,23 +713,23 @@
                                 </Planet_Income_Bonus_Ability>
               </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="LS_CARGO">
+        <SpecialStructure Name="LS_CARGO">
 
                  <Variant_Of_Existing_Type>GENERIC_CARGO</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_CARGO">
+        <SpecialStructure Name="DS_CARGO">
 
                  <Variant_Of_Existing_Type>GENERIC_CARGO</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="GENERIC_HYPERLANES">
+        <SpecialStructure Name="GENERIC_HYPERLANES">
 
                 <Text_ID>TEXT_ORBITAL_HYPERSPACE_LANES</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -832,23 +831,23 @@
                                 </Planet_Income_Bonus_Ability>
                     </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="LS_HYPERLANES">
+        <SpecialStructure Name="LS_HYPERLANES">
 
                  <Variant_Of_Existing_Type>GENERIC_HYPERLANES</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_HYPERLANES">
+        <SpecialStructure Name="DS_HYPERLANES">
 
                  <Variant_Of_Existing_Type>GENERIC_HYPERLANES</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="GENERIC_ORBITAL_MANUFACTURING">
+        <SpecialStructure Name="GENERIC_ORBITAL_MANUFACTURING">
 
                 <Text_ID>TEXT_ORBITAL_MANUFACTURING</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -969,23 +968,23 @@
 
                 </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="LS_ORBITAL_MANUFACTURING">
+        <SpecialStructure Name="LS_ORBITAL_MANUFACTURING">
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_MANUFACTURING</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_ORBITAL_MANUFACTURING">
+        <SpecialStructure Name="DS_ORBITAL_MANUFACTURING">
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_MANUFACTURING</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="GENERIC_ASTEROID_MINE">
+        <SpecialStructure Name="GENERIC_ASTEROID_MINE">
 
                 <Text_ID>TEXT_ORBITAL_ASTEROID_MINES</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1094,23 +1093,23 @@
                                 </Planet_Income_Bonus_Ability>
               </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
-         <StarBase Name="LS_ASTEROID_MINE">
+         <SpecialStructure Name="LS_ASTEROID_MINE">
 
                  <Variant_Of_Existing_Type>GENERIC_ASTEROID_MINE</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_ASTEROID_MINE">
+        <SpecialStructure Name="DS_ASTEROID_MINE">
 
                  <Variant_Of_Existing_Type>GENERIC_ASTEROID_MINE</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="GENERIC_GAS_EXTRACTOR">
+        <SpecialStructure Name="GENERIC_GAS_EXTRACTOR">
 
                 <Text_ID>TEXT_ORBITAL_GAS_EXTRACTORS</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1218,23 +1217,23 @@
                                 </Planet_Income_Bonus_Ability>
               </Abilities>
 
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="LS_GAS_EXTRACTOR">
+        <SpecialStructure Name="LS_GAS_EXTRACTOR">
 
                  <Variant_Of_Existing_Type>GENERIC_GAS_EXTRACTOR</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_GAS_EXTRACTOR">
+        <SpecialStructure Name="DS_GAS_EXTRACTOR">
 
                  <Variant_Of_Existing_Type>GENERIC_GAS_EXTRACTOR</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="GENERIC_ORBITAL_DEFENCE_POD">
+        <SpecialStructure Name="GENERIC_ORBITAL_DEFENCE_POD">
 
                 <Text_ID>TEXT_ORBITAL_DEFENCE_PODS</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1286,7 +1285,6 @@
 
                 <AI_Combat_Power>100</AI_Combat_Power>
 
-                <!-- Added this to ensure it's spawned on its marker; there should only be one anyway. LTCC 23/06/10  -->
                 <Place_At_Every_Specific_Marker_Position>True</Place_At_Every_Specific_Marker_Position>
                 <GUI_Row> 0 </GUI_Row>
                 <Size_Value>1</Size_Value>
@@ -1334,26 +1332,26 @@
 
                 <Score_Cost_Credits>500</Score_Cost_Credits>
 
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="LS_ORBITAL_DEFENCE_POD">
+        <SpecialStructure Name="LS_ORBITAL_DEFENCE_POD">
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_DEFENCE_POD</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_ORBITAL_DEFENCE_POD">
+        <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD">
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_DEFENCE_POD</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked>
-        </StarBase>
+        </SpecialStructure>
 
 <!--Generic Hangar-->
 
 
-    <StarBase Name="GENERIC_HANGAR_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
+    <SpecialStructure Name="GENERIC_HANGAR_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
                 <Text_ID>TEXT_ORBITAL_HANGAR</Text_ID> <!-- Same as unit's -->
                 <Space_Model_Name>BM_HANGAR_DEATH.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
@@ -1367,9 +1365,9 @@
                 <Affiliation>Neutral</Affiliation>
                 <Remove_Upon_Death>True</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
                  <CategoryMask> Capital </CategoryMask>
-       </StarBase>
+       </SpecialStructure>
 
-        <StarBase Name="LS_HANGAR">
+        <SpecialStructure Name="LS_HANGAR">
                 <Text_ID>TEXT_ORBITAL_HANGAR</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ORBITAL_HANGAR</Encyclopedia_Text>
@@ -1479,9 +1477,9 @@
 
                 <Reserve_Spawned_Units_Tech_0>R_X-WING_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
                 <Reserve_Spawned_Units_Tech_0>R_Y-WING_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
-        </StarBase>
+        </SpecialStructure>
 
-        <StarBase Name="DS_HANGAR">
+        <SpecialStructure Name="DS_HANGAR">
 
                 <Text_ID>TEXT_ORBITAL_HANGAR</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
@@ -1593,6 +1591,6 @@
                 <Reserve_Spawned_Units_Tech_0>E_TIE_FIGHTER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
                 <Reserve_Spawned_Units_Tech_0>E_TIE_BOMBER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
 
-        </StarBase>
+        </SpecialStructure>
 
 </Data>
