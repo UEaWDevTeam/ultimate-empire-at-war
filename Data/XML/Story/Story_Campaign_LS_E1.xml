@@ -298,33 +298,35 @@
                 <Event_Param2>fleet01_destroyed</Event_Param2>
         </Event>
 -->
-<!-- Dialog when super fleet leaves MechisIII -->
+<!-- Dialog after last attack -->
     <Event Name="LS_E1_Fleet01_Trigger">
                 <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
-                <Event_Param2>Fleet01_Moves</Event_Param2>
-                <Branch>First_Warning</Branch>
+                <Event_Param2>last_fleet_arrived</Event_Param2>
+                <Branch>Fleet_attack</Branch>
         </Event>
 
-<!-- Dialog first attack -->
-        <Event Name="LS_E1_Fleet01_at_Bestine_00">
+<!-- Dialog after last attack -->
+        <Event Name="LS_E1_Last_Fleet_Arrived">
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>MULTIMEDIA</Reward_Type>
                 <Reward_Param1>TEXT_SPEECH_LS_E1_O1_FLEET01_MOVES</Reward_Param1>
                 <Reward_Param2>-1</Reward_Param2>
-                <Reward_Param8>Fleet01_Moves</Reward_Param8>
-                <Reward_Param9>Wedge_Loop</Reward_Param9><!--Wedge_Loop-->
+                <Reward_Param8>LS_E1_O1_FLEET01_MOVES</Reward_Param8>
+                <!--<Reward_Param9>Wedge_Loop</Reward_Param9>Wedge_Loop-->
                 <Reward_Param10>1</Reward_Param10>
                 <Prereq>LS_E1_Fleet01_Trigger</Prereq>
-                <Branch>First_Warning</Branch>
+                <Branch>Fleet_attack</Branch>
         </Event>
 
-        <Event Name="LS_E1_Fleet01_at_Bestine_00_Remove_Text">
+        <Event Name="LS_E1_Last_Fleet_Arrived_Remove_Text">
                 <Event_Type>STORY_SPEECH_DONE</Event_Type>
-                <Event_Param1>Fleet01_Moves</Event_Param1>
+                <Event_Param1>LS_E1_O1_FLEET01_MOVES</Event_Param1>
                 <Reward_Type>SCREEN_TEXT</Reward_Type>
                 <Reward_Param1>TEXT_SPEECH_LS_E1_O1_FLEET01_MOVES</Reward_Param1>
                 <Reward_Param4>remove</Reward_Param4>
-                <Prereq>LS_E1_Fleet01_at_Bestine_00</Prereq>
-                <Branch>First_Warning</Branch>
+                <Prereq>LS_E1_Last_Fleet_Arrived</Prereq>
+                <Branch>Fleet_attack</Branch>
         </Event>
+
+
 </Story>

@@ -31,7 +31,7 @@ function Definitions()
                 ,"S_SITH_BOMBER_SQUADRON"
 
         }
-		
+
         sith_list_1 = {
                 "S_INTERDICTOR_CRUISER"
                 ,"S_INTERDICTOR_CRUISER"
@@ -136,13 +136,13 @@ function State_LS_E1_Begin(message)
 
                 -- Start a new thread so other events won't be blocked
                 Create_Thread("Move_Fleet01")
-								
-				Create_Thread("Move_Fleet02")
-				Create_Thread("Move_Fleet03")
-				Create_Thread("Move_Fleet04")
-				Create_Thread("Move_Fleet05")
-				Create_Thread("Move_Fleet06")
-				
+
+                                Create_Thread("Move_Fleet02")
+                                Create_Thread("Move_Fleet03")
+                                Create_Thread("Move_Fleet04")
+                                Create_Thread("Move_Fleet05")
+                                Create_Thread("Move_Fleet06")
+
 
 
 
@@ -154,7 +154,7 @@ function State_LS_E1_Begin(message)
                 if fleet_created and not TestValid(sith_fleet_units_01) then
                         Story_Event("fleet01_destroyed")
                 end
-				if fleet_created and not TestValid(sith_fleet_units_02) then
+                                if fleet_created and not TestValid(sith_fleet_units_02) then
                         Story_Event("fleet02_destroyed")
                 end
                 if fleet_created and not TestValid(sith_fleet_units_03) then
@@ -184,7 +184,7 @@ function Move_Fleet01()
         Sleep(fleet_delay)
 
         Story_Event("Fleet01_Moves")
-        Move_Fleet_To_Planet(sullust)
+        --Move_Fleet_To_Planet(sullust)
         BlockOnCommand(sith_fleet01.Move_To(sullust))
         if TestValid(sith_fleet01) then
                 Story_Event("sith_fleet01_arrived")
@@ -201,10 +201,10 @@ function Move_Fleet02()
         Sleep(fleet_delay)
 
         Story_Event("Fleet02_Moves")
-        Move_Fleet_To_Planet(naboo)
+        --Move_Fleet_To_Planet(naboo)
         BlockOnCommand(sith_fleet02.Move_To(naboo))
         if TestValid(sith_fleet02) then
-                Story_Event("sith_fleet02_arrived")
+                Story_Event("last_fleet_arrived")
         end
 end
 
@@ -218,7 +218,7 @@ function Move_Fleet03()
         Sleep(fleet_delay)
 
         Story_Event("Fleet03_Moves")
-        Move_Fleet_To_Planet(bothawui)
+        --Move_Fleet_To_Planet(bothawui)
         BlockOnCommand(sith_fleet03.Move_To(bothawui))
         if TestValid(sith_fleet03) then
                 Story_Event("sith_fleet03_arrived")
@@ -235,7 +235,7 @@ function Move_Fleet04()
         Sleep(fleet_delay)
 
         Story_Event("Fleet04_Moves")
-        Move_Fleet_To_Planet(ord_mantell)
+        --Move_Fleet_To_Planet(ord_mantell)
         BlockOnCommand(sith_fleet04.Move_To(ord_mantell))
         if TestValid(sith_fleet04) then
                 Story_Event("sith_fleet04_arrived")
@@ -252,7 +252,7 @@ function Move_Fleet05()
         Sleep(fleet_delay)
 
         Story_Event("Fleet05_Moves")
-        Move_Fleet_To_Planet(carida)
+        --Move_Fleet_To_Planet(carida)
         BlockOnCommand(sith_fleet05.Move_To(carida))
         if TestValid(sith_fleet05) then
                 Story_Event("sith_fleet05_arrived")
@@ -269,7 +269,7 @@ function Move_Fleet06()
         Sleep(fleet_delay)
 
         Story_Event("Fleet06_Moves")
-        Move_Fleet_To_Planet(trandosha)
+        --Move_Fleet_To_Planet(trandosha)
         BlockOnCommand(sith_fleet06.Move_To(trandosha))
         if TestValid(sith_fleet06) then
                 Story_Event("sith_fleet06_arrived")
