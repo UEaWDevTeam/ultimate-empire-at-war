@@ -8,6 +8,13 @@
                 <Event_Param1>0</Event_Param1>
         </Event>
 
+         <Event Name="Empire_M03_Turn_Off_Space_Advisor">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>SET_ADVISOR</Reward_Type>
+                 <Reward_Param1>0</Reward_Param1>
+                 <Prereq>LS_E1_Begin</Prereq>
+         </Event>
+
         <!--Setting "Tech Level" to Era 1-->
         <Event Name="LS_E1_Constrain_Tech">
                 <Event_Type>STORY_TRIGGER</Event_Type>
@@ -25,7 +32,7 @@
                 <Prereq>LS_E1_Begin</Prereq>
         </Event>
 
-        <Event Name="LS_E1_O1_No_Retreat">
+        <Event Name="DS_E1_O1_No_Retreat">
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>DISABLE_RETREAT</Reward_Type>
                 <Reward_Param1>Dark_Side</Reward_Param1>
@@ -88,6 +95,13 @@
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>LOCK_UNIT</Reward_Type>
                 <Reward_Param1>OR_CENTURION_SU</Reward_Param1>
+                <Prereq>LS_E1_Begin</Prereq>
+        </Event>
+
+        <Event Name="Lock_OR_HAMMERHEAD_for_LS">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Reward_Param1>OR_HAMMERHEAD</Reward_Param1>
                 <Prereq>LS_E1_Begin</Prereq>
         </Event>
 
@@ -326,6 +340,82 @@
                 <Reward_Param4>remove</Reward_Param4>
                 <Prereq>LS_E1_Last_Fleet_Arrived</Prereq>
                 <Branch>Fleet_attack</Branch>
+        </Event>
+
+<!--Give player order to kill revan over AetenII-->
+
+        <Event Name="LS_E1_Objective_1_Text_Galactic">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                <Reward_Param1>TEXT_STORY_LS_E1_OBJECTIVE_2_GALACTIC_TEXT</Reward_Param1>
+                <Reward_Param2>10</Reward_Param2>
+                <Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
+                <Prereq>LS_E1_Last_Fleet_Arrived_Remove_Text</Prereq>
+        </Event>
+         <!--ADD holocron entry for AetenII-->
+        <Event Name="LS_E1_O2_ADD_Entry">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Story_Dialog>Dialog_E1_Objective_2</Story_Dialog>
+                <Story_Chapter>2</Story_Chapter>
+                <Story_Dialog_Popup>True</Story_Dialog_Popup>
+                <Story_Tag>E1_LS_O2_HOLOCRON_ENTRY</Story_Tag>
+                <Prereq>LS_E1_Objective_1_Text_Galactic</Prereq>
+        </Event>
+
+         <!--Reveal Aeten II-->
+        <Event Name="LS_E1_O2_Reveal_AetenII">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>REVEAL_PLANET</Reward_Type>
+                <Reward_Param1>AetenII</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_O2_ADD_Entry</Prereq>
+        </Event>
+
+         <!-- adding in flash event for AetenII -->
+        <Event Name="LS_E1_O2_Flash_Fondor">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>FLASH_PLANET_GUI</Reward_Type>
+                <Reward_Param1>AetenII</Reward_Param1>
+                <Reward_Param2>FLASH_PLANET</Reward_Param2>
+                <Reward_Param4>AetenII_GUI_Flash</Reward_Param4>
+                <Reward_Param5>True</Reward_Param5>
+                <Prereq>LS_E1_O2_Reveal_AetenII</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Mission">
+                <Event_Type>STORY_ENTER</Event_Type>
+                <Event_Param1>AetenII</Event_Param1>
+                <Event_Param3>Bastila_Team</Event_Param3>
+                <Reward_Type>LINK_TACTICAL</Reward_Type>
+                <Reward_Param1>AetenII</Reward_Param1>
+                <Reward_Param2>SPACE</Reward_Param2>
+                <Reward_Param3>Light_Side</Reward_Param3>
+                <Reward_Param4>Campaign_E1_O2_AetenII.ted</Reward_Param4>
+                <Reward_Param5>Dark_Side</Reward_Param5>
+                <Reward_Param6></Reward_Param6>
+                <Reward_Param7>Story_Plots_LS_E1_Obj_2.XML</Reward_Param7>
+                <Reward_Param8>1</Reward_Param8>
+                <Reward_Param9>2</Reward_Param9> <!--  **** this is where you delay the player ships heyperspacing in -->
+                <Reward_Param10>1</Reward_Param10>
+                <Reward_Param11>0</Reward_Param11>
+                <Branch>BRANCH_LSE1O2_QUICKSTART</Branch>
+                <Prereq>LS_E1_O2_Reveal_AetenII</Prereq>
+        </Event>
+
+        <!--Mission lost...HAHA ^^-->
+        <Event Name="LS_E1_O2_Mission_Failed">
+                <Event_Type>STORY_MISSION_LOST</Event_Type>
+                <Event_Param1>Story_Plots_Rebel_ActIII_M09_SPACE.XML</Event_Param1>
+                <Prereq>LS_E1_O2_Mission</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
+        </Event>
+
+        <Event Name="LS_E1_O2_Mission_Failed_02">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>RESET_BRANCH</Reward_Type>
+                <Reward_Param1>BRANCH_RA03M09</Reward_Param1>
+                <Prereq>Rebel_ActIII_Mission_Nine_Failed_01a_Remove_Movie</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
         </Event>
 
 

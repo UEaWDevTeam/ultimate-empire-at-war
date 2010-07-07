@@ -1,0 +1,96 @@
+<?xml version="1.0" ?>
+<Story>
+        <!-- Setup -->
+
+        <Event Name="LS_E1_O2_Begin">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>1</Event_Param1>
+        </Event>
+
+        <Event Name="LS_E1_O2_Begin_Autoresolve_Off">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>HIDE_AUTORESOLVE</Reward_Type>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Prevent_Retreat">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_RETREAT</Reward_Type>
+                <Reward_Param1>Dark_Side</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Win_Flag_Set">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SET_FLAG</Reward_Type>
+                <Reward_Param1>LS_E1_O2_Win</Reward_Param1>
+                <Reward_Param2>0</Reward_Param2>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Prevent_Victory">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>ENABLE_VICTORY</Reward_Type>
+                <Reward_Param1>Light_Side</Reward_Param1>
+                <Reward_Param2>0</Reward_Param2>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+        <!-- Goal List -->
+
+        <Event Name="LS_E1_O2_Goal_00">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>ADD_OBJECTIVE</Reward_Type>
+                <Reward_Param1>TEXT_STORY_LS_E1_O2_BATTLE_OBJECTIVE_00</Reward_Param1>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+        <!-- LOSS CONDITION:Shuttle lost -->
+        <Event Name="LS_E1_O2_Transport_Destroyed">
+                <Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+                <Event_Param1>RM09_ALLIANCE_SHUTTLE</Event_Param1>
+                <Event_Param3>1</Event_Param3>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_STORY_LS_E1_O2_BATTLE_TRANSPORT_LOST</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>
+                <Reward_Param8>LS_E1_O2_TRANSPORT_DESTROYED</Reward_Param8>
+                <Reward_Param9>Antillies_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>LS_E1_O2_Begin</Prereq>
+        </Event>
+
+                        <Event Name="LS_E1_O2_Transport_Destroyed_a">
+                                <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                                <Event_Param1>LS_E1_O2_TRANSPORT_DESTROYED</Event_Param1>
+                                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                                <Reward_Param1>TEXT_STORY_LS_E1_O2_BATTLE_TRANSPORT_LOST</Reward_Param1>
+                                <Reward_Param4>Remove</Reward_Param4>
+                                <Prereq>LS_E1_O2_Transport_Destroyed</Prereq>
+                        </Event>
+
+        <Event Name="LS_E1_O2_Transport_Destroyed_03a_Remove_Movie">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                <Prereq>LS_E1_O2_Transport_Destroyed_a</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Mission_Lost">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>3</Event_Param1>
+                <Reward_Type>VICTORY</Reward_Type>
+                <Reward_Param1>Dark_Side</Reward_Param1>
+                <Prereq>LS_E1_O2_Transport_Destroyed_03a_Remove_Movie</Prereq>
+        </Event>
+
+        <!--Update Goal List-->
+        <Event Name="LS_E1_O2_Goal_08">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>OBJECTIVE_FAILED</Reward_Type>
+                <Reward_Param1>TEXT_STORY_LS_E1_O2_BATTLE_OBJECTIVE_00</Reward_Param1>
+
+                <Prereq>LS_E1_O2_Mission_Lost</Prereq>
+        </Event>
+
+
+</Story>
