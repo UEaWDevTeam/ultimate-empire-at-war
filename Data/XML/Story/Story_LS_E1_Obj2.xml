@@ -37,6 +37,38 @@
                 <Prereq>LS_E1_O2_Begin</Prereq>
         </Event>
 
+<!-- Pre-Mission Dialog -->
+
+    <!-- Cinematic line 01
+    TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_31
+    Rebel Pilot: It's like time just stopped here.-->
+    <Event Name="LS_E1_O2_Dialog_Line_01">
+        <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+        <Event_Param2>CUE_M09_DIALOG_REBELPILOT_01</Event_Param2>
+        <Reward_Type>MULTIMEDIA</Reward_Type>
+        <Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_31</Reward_Param1>
+        <Reward_Param2>-1</Reward_Param2>
+        <Reward_Param8>REBEL_ACT03_MISSION_NINE_31</Reward_Param8>
+        <Reward_Param9>Rebel_Pilot_Loop</Reward_Param9>
+        <Reward_Param10>1</Reward_Param10>
+        <Prereq>LS_E1_O2_Begins</Prereq>
+    </Event>
+
+                        <Event Name="LS_E1_O2_Dialog_Line_01_Remove_Text">
+                            <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                            <Event_Param1>REBEL_ACT03_MISSION_NINE_31</Event_Param1>
+                            <Reward_Type>SCREEN_TEXT</Reward_Type>
+                            <Reward_Param1>TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_31</Reward_Param1>
+                            <Reward_Param4>Remove</Reward_Param4>
+                            <Prereq>LS_E1_O2_Dialog_Line_01</Prereq>
+                        </Event>
+
+                         <Event Name="LS_E1_O2_Dialog_Line_01_Remove_Movie">
+                            <Event_Type>STORY_TRIGGER</Event_Type>
+                            <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                            <Prereq>LS_E1_O2_Dialog_Line_01_Remove_Text</Prereq>
+                        </Event>
+
         <!-- Goal List -->
 
         <Event Name="LS_E1_O2_Goal_00">
@@ -84,12 +116,20 @@
         </Event>
 
         <!--Update Goal List-->
-        <Event Name="LS_E1_O2_Goal_08">
+        <Event Name="LS_E1_O2_Goal_04">
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>OBJECTIVE_FAILED</Reward_Type>
                 <Reward_Param1>TEXT_STORY_LS_E1_O2_BATTLE_OBJECTIVE_00</Reward_Param1>
 
                 <Prereq>LS_E1_O2_Mission_Lost</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_VICTORY">
+                <Event_Type>STORY_VICTORY</Event_Type>
+                <Event_Param1>Light_Side</Event_Param1>
+                <Reward_Type>INCREMENT_FLAG</Reward_Type>
+                <Reward_Param1>LS_E1_O2_Win</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
         </Event>
 
 

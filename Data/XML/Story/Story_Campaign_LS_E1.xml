@@ -351,6 +351,7 @@
                 <Reward_Param2>10</Reward_Param2>
                 <Reward_Param7>Task</Reward_Param7><!-- TASK color coding - Blue -->
                 <Prereq>LS_E1_Last_Fleet_Arrived_Remove_Text</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
         </Event>
          <!--ADD holocron entry for AetenII-->
         <Event Name="LS_E1_O2_ADD_Entry">
@@ -372,7 +373,7 @@
         </Event>
 
          <!-- adding in flash event for AetenII -->
-        <Event Name="LS_E1_O2_Flash_Fondor">
+        <Event Name="LS_E1_O2_Flash_AetenII">
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>FLASH_PLANET_GUI</Reward_Type>
                 <Reward_Param1>AetenII</Reward_Param1>
@@ -393,19 +394,18 @@
                 <Reward_Param4>Campaign_E1_O2_AetenII.ted</Reward_Param4>
                 <Reward_Param5>Dark_Side</Reward_Param5>
                 <Reward_Param6></Reward_Param6>
-                <Reward_Param7>Story_Plots_LS_E1_Obj_2.XML</Reward_Param7>
+                <Reward_Param7>Story\Story_Plots_LS_E1_Obj_2.xml</Reward_Param7>
                 <Reward_Param8>1</Reward_Param8>
-                <Reward_Param9>2</Reward_Param9> <!--  **** this is where you delay the player ships heyperspacing in -->
+                <Reward_Param9>2</Reward_Param9> <!--  **** this is where you delay the player ships hyperspacing in -->
                 <Reward_Param10>1</Reward_Param10>
                 <Reward_Param11>0</Reward_Param11>
                 <Branch>BRANCH_LSE1O2_QUICKSTART</Branch>
-                <Prereq>LS_E1_O2_Reveal_AetenII</Prereq>
         </Event>
 
-        <!--Mission lost...HAHA ^^-->
+        <!--Mission failed-->
         <Event Name="LS_E1_O2_Mission_Failed">
                 <Event_Type>STORY_MISSION_LOST</Event_Type>
-                <Event_Param1>Story_Plots_Rebel_ActIII_M09_SPACE.XML</Event_Param1>
+                <Event_Param1>Story_Plots_LS_E1_Obj_2.xml</Event_Param1>
                 <Prereq>LS_E1_O2_Mission</Prereq>
                 <Branch>BRANCH_LSE1O2</Branch>
         </Event>
@@ -414,8 +414,90 @@
                 <Event_Type>STORY_TRIGGER</Event_Type>
                 <Reward_Type>RESET_BRANCH</Reward_Type>
                 <Reward_Param1>BRANCH_RA03M09</Reward_Param1>
-                <Prereq>Rebel_ActIII_Mission_Nine_Failed_01a_Remove_Movie</Prereq>
+                <Prereq>LS_E1_O2_Mission_Failed</Prereq>
                 <Branch>BRANCH_LSE1O2</Branch>
+        </Event>
+
+        <Event Name="LS_E1_O2_01_Start_Dialog">
+                <Event_Type>STORY_GENERIC</Event_Type>
+                <Event_Param1>battle_end_closed</Event_Param1>
+                <Prereq>LS_E1_O2_Mission_Failed_02</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
+        </Event>
+
+        <Event Name="LS_E1_O2_Mission_Failed_04_Quickstart">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>RESET_BRANCH</Reward_Type>
+                <Reward_Param1>BRANCH_LSE1O2_QUICKSTART</Reward_Param1>
+                <Prereq>LS_E1_O2_01_Start_Dialog</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
+        </Event>
+
+<!-- Re-enable mission 2 -->
+        <Event Name="LS_E1_O2_Mission_Failed_04">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>RESET_BRANCH</Reward_Type>
+                <Reward_Param1>BRANCH_LSE1O2</Reward_Param1>
+                <Prereq>LS_E1_O2_Mission_Failed_04_Quickstart</Prereq>
+                <Branch>BRANCH_LSE1O2</Branch>
+        </Event>
+
+<!-- Mission 9 ends successfully -->
+        <Event Name="LS_E1_O2_Completed">
+                <Event_Type>STORY_FLAG</Event_Type>
+                <Event_Param1>LS_E1_O2_Win</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Event_Param3>GREATER_THAN_EQUAL_TO</Event_Param3>
+        </Event>
+
+                        <Event Name="LS_E1_O2_RemoveFlash_AetenII">
+                                <Event_Type>STORY_TRIGGER</Event_Type>
+                                <Reward_Type>HIDE_TUTORIAL_CURSOR</Reward_Type>
+                                <Reward_Param1>AetenII_GUI_Flash</Reward_Param1>
+                                <Prereq>LS_E1_O2_Completed</Prereq>
+                        </Event>
+
+        <Event Name="LS_E1_O2_Disable_Branch">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_BRANCH</Reward_Type>
+                <Reward_Param1>BRANCH_LSE1O2</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_O2_Completed</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Disable_Branch_Quickstart">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_BRANCH</Reward_Type>
+                <Reward_Param1>BRANCH_LSE1O2_QUICKSTART</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_O2_Disable_Branch</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Completed_00">
+                <Event_Type>STORY_GENERIC</Event_Type>
+                <Event_Param1>battle_end_closed</Event_Param1>
+                <Prereq>LS_E1_O2_Completed</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Completed_01">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>STORY_GOAL_COMPLETED</Reward_Type>
+                <Reward_Param1>E1_LS_O2_HOLOCRON_ENTRY</Reward_Param1>
+                <Prereq>LS_E1_O2_Completed</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Completed_02">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>2</Event_Param1>
+                <Prereq>LS_E1_O2_Completed</Prereq>
+        </Event>
+
+        <Event Name="LS_E1_O2_Completed_03">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+                <Reward_Param1>AetenII</Reward_Param1>
+                <Reward_Param2>0</Reward_Param2>
+                <Prereq>LS_E1_O2_Completed</Prereq>
         </Event>
 
 
