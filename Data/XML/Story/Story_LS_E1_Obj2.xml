@@ -41,7 +41,8 @@
 
     <!-- Cinematic line 01
     TEXT_SPEECH_REBEL_ACT03_MISSION_NINE_31
-    Rebel Pilot: It's like time just stopped here.-->
+    Rebel Pilot: It's like time just stopped here.
+    commented out because of crash issue 08/07/2010 Shimrra
     <Event Name="LS_E1_O2_Dialog_Line_01">
         <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
         <Event_Param2>CUE_M09_DIALOG_REBELPILOT_01</Event_Param2>
@@ -68,7 +69,7 @@
                             <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
                             <Prereq>LS_E1_O2_Dialog_Line_01_Remove_Text</Prereq>
                         </Event>
-
+                      -->
         <!-- Goal List -->
 
         <Event Name="LS_E1_O2_Goal_00">

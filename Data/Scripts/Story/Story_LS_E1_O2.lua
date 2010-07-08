@@ -13,7 +13,7 @@ function Definitions()
 	StoryModeEvents = 
 	{
 		LS_E1_O2_Begin = State_LS_E1_O2_Begin
-		,LS_E1_O2_Dialog_Line_01_Remove_Text = State_IntroCine_Dialog_Line_01_Remove_Text
+		--,LS_E1_O2_Dialog_Line_01_Remove_Text = State_IntroCine_Dialog_Line_01_Remove_Text
 	}
 	
 	exit_range = 300
@@ -62,7 +62,7 @@ function State_LS_E1_O2_Begin(message)
 			end
 		end
 
-		Create_Thread("Intro_Cinematic")
+		MoveTransportToRevan()
 
 	end
 end

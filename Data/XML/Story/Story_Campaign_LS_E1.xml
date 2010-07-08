@@ -372,6 +372,14 @@
                 <Prereq>LS_E1_O2_ADD_Entry</Prereq>
         </Event>
 
+        <Event Name="LS_E1_O2_Restrict_AetenII">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>SET_PLANET_RESTRICTED</Reward_Type>
+                <Reward_Param1>AetenII</Reward_Param1>
+                <Reward_Param2>1</Reward_Param2>
+                <Prereq>LS_E1_O2_Reveal_AetenII</Prereq>
+        </Event>
+
          <!-- adding in flash event for AetenII -->
         <Event Name="LS_E1_O2_Flash_AetenII">
                 <Event_Type>STORY_TRIGGER</Event_Type>
@@ -380,13 +388,47 @@
                 <Reward_Param2>FLASH_PLANET</Reward_Param2>
                 <Reward_Param4>AetenII_GUI_Flash</Reward_Param4>
                 <Reward_Param5>True</Reward_Param5>
-                <Prereq>LS_E1_O2_Reveal_AetenII</Prereq>
+                <Prereq>LS_E1_O2_Restrict_AetenII</Prereq>
         </Event>
 
+<!-- fett only player message -->
+<!-- TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62
+Boba Fett: That is my bounty, scav! Don't even think of starting without me!-->
+        <Event Name="Empire_ActI_Ilum_Fleet_Bounced_Fett">
+                <Event_Type>STORY_FLEET_BOUNCED</Event_Type>
+                <Event_Param1>AetenII</Event_Param1>
+                <Reward_Type>MULTIMEDIA</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62</Reward_Param1>
+                <Reward_Param2>-1</Reward_Param2>
+                <Reward_Param8>EMPIRE_ACT01_MISSION_THREE_62</Reward_Param8> <!-- Put speech file name here -->
+                <Reward_Param9>Boba_Fett_Loop</Reward_Param9>
+                <Reward_Param10>1</Reward_Param10>
+                <Prereq>LS_E1_O2_Flash_AetenII</Prereq>
+                <Perpetual>True</Perpetual>
+        </Event>
+
+        <Event Name="Empire_ActI_Ilum_Fett_Bounced_Remove_Text">
+                <Event_Type>STORY_SPEECH_DONE</Event_Type>
+                <Event_Param1>EMPIRE_ACT01_MISSION_THREE_62</Event_Param1>
+                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                <Reward_Param1>TEXT_SPEECH_EMPIRE_ACT01_MISSION_THREE_62</Reward_Param1>
+                <Reward_Param4>remove</Reward_Param4>
+                <Prereq>Empire_ActI_Ilum_Fleet_Bounced_Fett</Prereq>
+                <Perpetual>True</Perpetual>
+        </Event>
+
+        <Event Name="Empire_ActI_Ilum_Fett_Bounced_Stop_Movie">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>STOP_COMMANDBAR_MOVIE</Reward_Type>
+                <Prereq>Empire_ActI_Ilum_Fett_Bounced_Remove_Text</Prereq>
+                <Perpetual>True</Perpetual>
+        </Event>
+
+        <!--Start story, require Bastila-->
         <Event Name="LS_E1_O2_Mission">
                 <Event_Type>STORY_ENTER</Event_Type>
                 <Event_Param1>AetenII</Event_Param1>
-                <Event_Param3>Bastila_Team</Event_Param3>
+                <Event_Param3>Bastila</Event_Param3>
                 <Reward_Type>LINK_TACTICAL</Reward_Type>
                 <Reward_Param1>AetenII</Reward_Param1>
                 <Reward_Param2>SPACE</Reward_Param2>
@@ -396,12 +438,11 @@
                 <Reward_Param6></Reward_Param6>
                 <Reward_Param7>Story\Story_Plots_LS_E1_Obj_2.xml</Reward_Param7>
                 <Reward_Param8>1</Reward_Param8>
-                <Reward_Param9>2</Reward_Param9> <!--  **** this is where you delay the player ships hyperspacing in -->
-                <Reward_Param10>1</Reward_Param10>
+                <Reward_Param9>0</Reward_Param9> <!--  **** use pre-battle cinematics, count -->
+                <Reward_Param10>0</Reward_Param10>
                 <Reward_Param11>0</Reward_Param11>
                 <Branch>BRANCH_LSE1O2_QUICKSTART</Branch>
         </Event>
-
         <!--Mission failed-->
         <Event Name="LS_E1_O2_Mission_Failed">
                 <Event_Type>STORY_MISSION_LOST</Event_Type>
