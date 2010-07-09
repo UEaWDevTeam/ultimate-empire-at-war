@@ -803,5 +803,52 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
+	<Projectile Name="Proj_Laser_Green_Capital_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Laser_Green_Standard_Skirmish</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+				<Scale_Factor>0.69</Scale_Factor>
+    </Projectile>
+		
+	<Projectile Name="Proj_Laser_Green_Capital_Heavy_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Laser_Green_Heavy_Skirmish</Variant_Of_Existing_Type>
+                <Projectile_Damage>22.5</Projectile_Damage>
+				<Scale_Factor>1.1</Scale_Factor>
+    </Projectile>
+	
+	<!-- Special cases for the ISD I -->
+	
+	<Projectile Name="Proj_Turbolaser_Green_Light_Advanced_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Light_Skirmish</Variant_Of_Existing_Type>
+				<Damage_Type>Damage_Turbolaser_Advanced_Skirmish</Damage_Type>
+        </Projectile>
+		
+	<Projectile Name="Proj_Turbolaser_Green_Medium_Advanced_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Medium_Skirmish</Variant_Of_Existing_Type>
+				<Damage_Type>Damage_Turbolaser_Advanced_Skirmish</Damage_Type>
+    </Projectile>
+	
+	<Projectile Name="Proj_Turbolaser_Green_Heavy_Advanced_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Heavy_Skirmish</Variant_Of_Existing_Type>
+				<Damage_Type>Damage_Turbolaser_Advanced_Skirmish</Damage_Type>
+    </Projectile>
+	
+	<!-- Special cases for the ISD II -->
+	
+	<Projectile Name="Proj_Turbolaser_Green_Heavy_Quad_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Heavy_Skirmish</Variant_Of_Existing_Type>
+                <Space_Model_Name>Proj_Turbo_Green_Heavy_Quad.alo</Space_Model_Name>
+                <Projectile_Damage>160</Projectile_Damage>
+				<Damage_Type>Damage_Turbolaser_Advanced_Skirmish</Damage_Type>
+        </Projectile>
+		
+		<Projectile Name="Proj_Turbolaser_Green_Heavy_Superior_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Heavy_Skirmish</Variant_Of_Existing_Type>
+				<Damage_Type>Damage_Turbolaser_Superior_Skirmish</Damage_Type>
+        </Projectile>
+		
+		<Projectile Name="Proj_Turbolaser_Green_Medium_Superior_Skirmish">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Medium_Skirmish</Variant_Of_Existing_Type>
+				<Damage_Type>Damage_Turbolaser_Superior_Skirmish</Damage_Type>
+        </Projectile>
 	
 </Projectiles>
