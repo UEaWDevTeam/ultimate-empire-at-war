@@ -3,143 +3,148 @@
 <Projectiles>
 
 
-
-        <Projectile Name="Proj_Flechette_Cannon">
-                <Text_ID>TEXT_NONE</Text_ID>
-                <Space_Model_Name>Proj_Flechette.ALO</Space_Model_Name>
-                <Scale_Factor>1.0</Scale_Factor>
-                <Max_Speed>33.0</Max_Speed>
-                <Projectile_Damage>10.0</Projectile_Damage>
-                <Damage_Type>Damage_Turbolaser_Basic_E4</Damage_Type>
-                <Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
-                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-                <Projectile_Category>Laser</Projectile_Category>
-                <Projectile_Max_Flight_Distance>400</Projectile_Max_Flight_Distance>
-                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-                <AI_Combat_Power>100</AI_Combat_Power>
-                <Projectile_Object_Detonation_Particle>PEx_Explosion_Turbo_Orange_Small</Projectile_Object_Detonation_Particle>
-                <Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Turbo_Orange_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
-                <Projectile_Lifetime_Detonation_Particle />
-                <Projectile_Absorbed_By_Shields_Particle>PS_Turbo_Orange_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-                <Projectile_Ground_Detonation_SurfaceFX />
-                <Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
-                <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-        </Projectile>
-
-        <Projectile Name="Proj_Flak_AS_E1">
-                <Text_ID>TEXT_NONE</Text_ID>
-                <Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
-                <Scale_Factor>1.0</Scale_Factor>
-                <Damage_Type> Damage_Turbolaser_Superior_E1</Damage_Type>
-                <Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
-                <Max_Speed>35.0</Max_Speed>
-                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-                <Projectile_Category>ROCKET</Projectile_Category>
-                <Projectile_Max_Flight_Distance>800.0</Projectile_Max_Flight_Distance>
-                <Projectile_Damage>10.0</Projectile_Damage>
-                <Projectile_Blast_Area_Damage> 90 </Projectile_Blast_Area_Damage>
-                <Projectile_Blast_Area_Range> 65 </Projectile_Blast_Area_Range>
-                <Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-                <Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-                <Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
-                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-                <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-                <Projectile_Object_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Object_Detonation_Particle>
-                <Projectile_Ground_Detonation_Particle />
-                <Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Lifetime_Detonation_Particle>
-                <Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
-                <AI_Combat_Power>100</AI_Combat_Power>
-        </Projectile>
-
-        <Projectile Name="Proj_Flak_AS_E2">
-                <Text_ID>TEXT_NONE</Text_ID>
-                <Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
-                <Scale_Factor>3.0</Scale_Factor>
-                <Damage_Type> Damage_Turbolaser_Basic_E2</Damage_Type>
-                <Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
-                <Max_Speed>30.0</Max_Speed>
-                <Collision_Mesh>Collision</Collision_Mesh>
-                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-                <Projectile_Category>ROCKET</Projectile_Category>
-                <Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
-                <Projectile_Damage>0.0</Projectile_Damage>
-                <Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
-                <Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
-                <Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
-                <Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-                <Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
-                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-                <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-                <Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
-                <Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
-                <Projectile_Ground_Detonation_Particle />
-                <Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
-                <Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
-                <AI_Combat_Power>100</AI_Combat_Power>
-        </Projectile>
-
-        <Projectile Name="Proj_Flak_AS_E3">
-                <Text_ID>TEXT_NONE</Text_ID>
-                <Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
-                <Scale_Factor>1.0</Scale_Factor>
-                <Damage_Type> Damage_Turbolaser_Superior_E3</Damage_Type>
-                <Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
-                <Max_Speed>35.0</Max_Speed>
-                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-                <Projectile_Category>ROCKET</Projectile_Category>
-                <Projectile_Max_Flight_Distance>800.0</Projectile_Max_Flight_Distance>
-                <Projectile_Damage>10.0</Projectile_Damage>
-                <Projectile_Blast_Area_Damage> 90 </Projectile_Blast_Area_Damage>
-                <Projectile_Blast_Area_Range> 65 </Projectile_Blast_Area_Range>
-                <Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-                <Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-                <Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
-                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-                <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-                <Projectile_Object_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Object_Detonation_Particle>
-                <Projectile_Ground_Detonation_Particle />
-                <Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Lifetime_Detonation_Particle>
-                <Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
-                <AI_Combat_Power>100</AI_Combat_Power>
-        </Projectile>
-
-        <Projectile Name="Proj_Flak_AS_E4">
-                <Text_ID>TEXT_NONE</Text_ID>
-                <Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
-                <Scale_Factor>1.0</Scale_Factor>
-                <Damage_Type> Damage_Turbolaser_Superior_E4</Damage_Type>
-                <Explode_When_Reached_Target_Radius> True </Explode_When_Reached_Target_Radius>
-                <Max_Speed>35.0</Max_Speed>
-                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-                <Projectile_Category>ROCKET</Projectile_Category>
-                <Projectile_Max_Flight_Distance>800.0</Projectile_Max_Flight_Distance>
-                <Projectile_Damage>10.0</Projectile_Damage>
-                <Projectile_Blast_Area_Damage> 90 </Projectile_Blast_Area_Damage>
-                <Projectile_Blast_Area_Range> 65 </Projectile_Blast_Area_Range>
-                <Projectile_SFXEvent_Detonate>SFX_Proton_Torpedo_Detonation</Projectile_SFXEvent_Detonate>
-                <Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-                <Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
-                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-                <Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-                <Projectile_Object_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Object_Detonation_Particle>
-                <Projectile_Ground_Detonation_Particle />
-                <Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tinier_B</Projectile_Lifetime_Detonation_Particle>
-                <Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
-                <AI_Combat_Power>100</AI_Combat_Power>
-        </Projectile>
-
-
+	<Projectile Name="Proj_Flechette_Cannon">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flechette.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>33.0</Max_Speed>
+		<Projectile_Damage>10.0</Projectile_Damage>
+		<Damage_Type>Damage_Turbolaser_Basic_E4</Damage_Type>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>400</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Turbo_Orange_Small</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Turbo_Orange_Small</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>PS_Turbo_Orange_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Flak_AS_E1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser_Basic_E1</Damage_Type>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>30.0</Max_Speed>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Flak_AS_E2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser_Basic_E2</Damage_Type>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>30.0</Max_Speed>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Flak_AS_E3">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser_Basic_E3</Damage_Type>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>30.0</Max_Speed>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
+	
+	<Projectile Name="Proj_Flak_AS_E4">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Turbolaser_Basic_E4</Damage_Type>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>30.0</Max_Speed>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 80 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
+	
         <Projectile Name="Proj_Cluster_Bomb">
+>>>>>>> .r1102
         <Text_ID>TEXT_NONE</Text_ID>
         <Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
         <Space_Model_Name>W_THERMAL_DETONATOR.ALO</Space_Model_Name>
