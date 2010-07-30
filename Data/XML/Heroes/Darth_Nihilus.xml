@@ -1,13 +1,13 @@
 <?xml version="1.0" ?>
 <Data>	
 
-	<HeroUnit Name="Darth_Malak">
+	<HeroUnit Name="Darth_Nihilus">
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
+		<Text_ID>UEAW_UNIT_DARTH_NIHILUS</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_NIHILUS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK.tga</Icon_Name>
+		<Icon_Name>UEAW_BUTTON_DARTH_NIHILUS.tga</Icon_Name>
 
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -25,7 +25,7 @@
 		<Damage>80</Damage>
 		<Autoresolve_Health>200</Autoresolve_Health>
 		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Unique_Space_Unit>Leviathan</Unique_Space_Unit>
+		<Unique_Space_Unit>Ravager</Unique_Space_Unit>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
@@ -47,14 +47,6 @@
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
                         <Unit_Ability>
-                                <Type>INTERDICT</Type>
-                                <Disable_Movement>Yes</Disable_Movement>
-
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated />
-                        </Unit_Ability>
-
-                        <Unit_Ability>
                                 <Type>TRACTOR_BEAM</Type>
                                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
                                 <GUI_Activated_Ability_Name> VSD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
@@ -63,11 +55,22 @@
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+							<Type>power_to_weapons</Type>
+							<Expiration_Seconds>20</Expiration_Seconds>
+							<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+							<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+							<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+							<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+							<Recharge_Seconds>60</Recharge_Seconds>
+							<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+						</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Tractor_Beam_Attack_Ability Name="Leviathan_Tractor_Beam_Attack_Ability">
+                        <Tractor_Beam_Attack_Ability Name="Ravager_Tractor_Beam_Attack_Ability">
                                 <Activation_Style> User_Input </Activation_Style>
                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
                                 <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
@@ -81,7 +84,7 @@
                                 <Stacking_Category>0</Stacking_Category>
                         </Tractor_Beam_Attack_Ability>
 
-                        <Combat_Bonus_Ability Name="Malak_Space_Combat_Bonus">
+                        <Combat_Bonus_Ability Name="Nihilus_Space_Combat_Bonus">
                                 <Activation_Style>Space_Automatic</Activation_Style>
                                 <Unit_Strength_Category>Super | Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
                                 <Applicable_Unit_Categories>Super |Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
@@ -99,11 +102,11 @@
 	</HeroUnit>
 
 
-	<HeroCompany Name="Darth_Malak_Team">
-		<Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
+	<HeroCompany Name="Darth_Nihilus_Team">
+		<Text_ID>UEAW_UNIT_DARTH_NIHILUS</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_NIHILUS </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK2.tga</Icon_Name>
+		<Icon_Name>UEAW_BUTTON_DARTH_NIHILUS.tga</Icon_Name>
 
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Dark_Side</Affiliation>
@@ -119,18 +122,21 @@
 		<Required_Planets></Required_Planets>
 		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
 		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Darth_Malak</Company_Units>
+		<Company_Units>Darth_Nihilus</Company_Units>
 		<Is_Named_Hero>Yes</Is_Named_Hero>	
 		
 				<Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
                         <Unit_Ability>
-                                <Type>INTERDICT</Type>
-                                <Disable_Movement>Yes</Disable_Movement>
-
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated />
-                        </Unit_Ability>
+							<Type>power_to_weapons</Type>
+							<Expiration_Seconds>20</Expiration_Seconds>
+							<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+							<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+							<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+							<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+							<Recharge_Seconds>60</Recharge_Seconds>
+							<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+						</Unit_Ability>
 
                         <Unit_Ability>
                                 <Type>TRACTOR_BEAM</Type>
@@ -145,7 +151,7 @@
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Tractor_Beam_Attack_Ability Name="Leviathan_Tractor_Beam_Attack_Ability">
+                        <Tractor_Beam_Attack_Ability Name="Ravager_Tractor_Beam_Attack_Ability">
                                 <Activation_Style> User_Input </Activation_Style>
                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
                                 <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
@@ -158,45 +164,88 @@
                                 <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
                                 <Stacking_Category>0</Stacking_Category>
                         </Tractor_Beam_Attack_Ability>
-				</Abilities>
 	</HeroCompany>
 	
 		
 	<UniqueUnit Name="Leviathan">
 		<Variant_Of_Existing_Type>S_INTERDICTOR_CRUISER</Variant_Of_Existing_Type>
-		<Text_ID>UEAW_UNIT_LEVIATHAN</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
+		<Text_ID>UEAW_UNIT_RAVAGER</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_RAVAGER </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK.tga</Icon_Name>
+		<Icon_Name>UEAW_BUTTON_DARTH_NIHILUS.tga</Icon_Name>
+		
+		<Space_Model_Name>VCBa_RAVAGER.ALO</Space_Model_Name>
+		
+                <Ranking_In_Category>5</Ranking_In_Category>
+
+				<GUI_Bracket_Height>500</GUI_Bracket_Height>
+                <GUI_Bracket_Size>2</GUI_Bracket_Size>
+
+                <Select_Box_Scale>800</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+
+                <Scale_Factor>0.807</Scale_Factor>
+                <Mass>0.999</Mass>
+                <Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+                <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+
+                <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+                <Armor_Type> Armour_Battleship </Armor_Type>
+                <Shield_Armor_Type>Shield_Battleship</Shield_Armor_Type>
+
+                <Max_Speed>2.4</Max_Speed>
+                <Max_Rate_Of_Turn>0.2</Max_Rate_Of_Turn>
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Capital </Space_Layer>
+                <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+                <Max_Rate_Of_Roll>0.14</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <OverrideAcceleration> .009 </OverrideAcceleration>
+                <OverrideDeceleration> .009 </OverrideDeceleration>
+
+                <Max_Thrust>0.1</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+                <Hyperspace_Speed>1</Hyperspace_Speed>
+                <Maintenance_Cost>0.3</Maintenance_Cost>
+				<Shield_Points>5000</Shield_Points>
+                <Tactical_Health>10000</Tactical_Health> <!-- was 6000 -->
+                <Shield_Refresh_Rate>44.2</Shield_Refresh_Rate>
+                <Energy_Capacity>8000</Energy_Capacity>
+                <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
+                <Ship_Class>capital</Ship_Class>
+                <Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+		
 		<Tech_Level>99</Tech_Level>
 		<AI_Combat_Power>4000</AI_Combat_Power>
 		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
         <Build_Cost_Credits>5000</Build_Cost_Credits>
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>3</Population_Value>
+		<Population_Value>6</Population_Value>
 
-		<HardPoints>
-                         HP_LEVIATHAN_MTL_01,
-                         HP_LEVIATHAN_MTL_02,
-                         HP_LEVIATHAN_MTL_03,
-                         HP_LEVIATHAN_MTL_04,
-                         HP_LEVIATHAN_MTL_05,
-                         HP_LEVIATHAN_MTL_06,
-                         HP_LEVIATHAN_MTL_07,
-                         HP_LEVIATHAN_L_01,
-                         HP_LEVIATHAN_L_02,
-                         HP_LEVIATHAN_L_03,
-                         HP_LEVIATHAN_L_04,
-                         HP_LEVIATHAN_SHIELD,
-                         HP_LEVIATHAN_ENGINE,
-                         HP_LEVIATHAN_TRACTOR,
-                         HP_LEVIATHAN_HANGAR,
-                         HP_LEVIATHAN_GRAVITY_WELL
-
-                </HardPoints>
-				
-				<Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+				<Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 4</Starting_Spawned_Units_Tech_0>
                 <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 4</Reserve_Spawned_Units_Tech_0>
+		
+		<HardPoints>
+                         HP_RAVAGER_HTL_01,
+                         HP_RAVAGER_HTL_02,
+                         HP_RAVAGER_HTL_03,
+                         HP_RAVAGER_HI_01,
+                         HP_RAVAGER_HI_02,
+                         HP_RAVAGER_HI_03,
+                         HP_RAVAGER_L_01,
+                         HP_RAVAGER_L_02,
+                         HP_RAVAGER_L_03,
+                         HP_RAVAGER_L_04,
+                         HP_RAVAGER_APPT_01,
+                         HP_RAVAGER_APPT_02,
+                         HP_RAVAGER_SHIELD,
+                         HP_RAVAGER_ENGINE,
+                         HP_RAVAGER_HANGAR_01,
+                         HP_RAVAGER_HANGAR_02,
+						 HP_RAVAGER_TRACTOR
+
+        </HardPoints>
 		
 		<Neutralization_Cost>6000.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
@@ -212,15 +261,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-                        <!-- Primary ability -->
-                        <Unit_Ability>
-                                <Type>INTERDICT</Type>
-                                <Disable_Movement>Yes</Disable_Movement>
-
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Interdictor_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated />
-                        </Unit_Ability>
-
                         <Unit_Ability>
                                 <Type>TRACTOR_BEAM</Type>
                                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
@@ -230,11 +270,22 @@
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+							<Type>power_to_weapons</Type>
+							<Expiration_Seconds>20</Expiration_Seconds>
+							<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+							<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+							<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+							<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+							<Recharge_Seconds>60</Recharge_Seconds>
+							<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Acclamator</SFXEvent_GUI_Unit_Ability_Activated>
+						</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Tractor_Beam_Attack_Ability Name="Leviathan_Tractor_Beam_Attack_Ability">
+                        <Tractor_Beam_Attack_Ability Name="Revager_Tractor_Beam_Attack_Ability">
                                 <Activation_Style> User_Input </Activation_Style>
                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
                                 <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
@@ -247,8 +298,26 @@
                                 <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
                                 <Stacking_Category>0</Stacking_Category>
                         </Tractor_Beam_Attack_Ability>
-				</Abilities>		
 
-		<Death_Clone>Damage_Normal, S_Interdictor_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Ravager_Death_Clone</Death_Clone>
 	</UniqueUnit>
+	
+	<SpaceUnit Name="RAVAGER_DEATH_CLONE">
+                <Text_ID>TEXT_UNIT_RAVAGER</Text_ID>
+                <Space_Model_Name>VCBa_RAVAGER_D.ALO</Space_Model_Name>
+                <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+                <Scale_Factor>0.807</Scale_Factor>
+                <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+                <Max_Speed>0.25</Max_Speed>
+                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <Max_Thrust>0.05</Max_Thrust>
+                <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <Affiliation>Dark_Side</Affiliation>
+                <Ship_Class>capital_ship</Ship_Class>
+                <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+    </SpaceUnit>
+		
 </Data>

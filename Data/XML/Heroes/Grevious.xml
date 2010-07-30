@@ -1,0 +1,237 @@
+<?xml version="1.0" ?>
+<Data>	
+
+	<HeroUnit Name="General_Grevious">
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+
+		<Text_ID>UEAW_UNIT_GENERAL_GREVIOUS</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_GENERAL_GREVIOUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_GENERAL_GREVIOUS.tga</Icon_Name>
+
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Type>Walk</Type>
+		<Affiliation>Dark_Side</Affiliation>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<IsBuildable>No</IsBuildable>
+		<Spawn_Planet>Geonosis</Spawn_Planet>
+		<Size_Value>75</Size_Value>
+		<Damage>80</Damage>
+		<Autoresolve_Health>200</Autoresolve_Health>
+		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+		<Unique_Space_Unit>Invisible_Hand</Unique_Space_Unit>
+		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+
+
+		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
+
+		<CategoryMask> NonCombatHero </CategoryMask>
+		<Ranking_In_Category> 3 </Ranking_In_Category>
+
+		<Neutralization_Cost>1500.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+                <Unit_Abilities_Data SubObjectList="Yes">
+                        <!-- Primary ability -->
+					<Unit_Ability>
+						<Type>CONCENTRATE_FIRE</Type>
+						<Effective_Radius>6000</Effective_Radius>
+						<Recharge_Seconds>20</Recharge_Seconds>
+						<Expiration_Seconds>15</Expiration_Seconds>
+						<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+						<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+					</Unit_Ability>
+					
+                </Unit_Abilities_Data>
+
+                <Abilities SubObjectList="Yes">
+
+
+                        <Combat_Bonus_Ability Name="Grevious_Space_Combat_Bonus">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>Super | Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>Super |Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types />
+                                <Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.10</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.05</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.25</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.10</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.10</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
+						
+						<Concentrate_Fire_Attack_Ability Name="Grevious_Ability">
+							<Activation_Style> User_Input </Activation_Style>
+							<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+							<Applicable_Unit_Types />
+				
+							<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+							<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
+							<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+							<Stacking_Category>0</Stacking_Category>
+						</Concentrate_Fire_Attack_Ability>
+
+                </Abilities>
+	</HeroUnit>
+
+
+	<HeroCompany Name="General_Grevious_Team">
+		<Text_ID>UEAW_UNIT_GENERAL_GREVIOUS</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_GENERAL_GREVIOUSK </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_GENERAL_GREVIOUS.tga</Icon_Name>
+
+		<Is_Dummy>Yes</Is_Dummy>
+		<Affiliation>Dark_Side</Affiliation>
+		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+		<Damage>100</Damage>
+		<Build_Time_Seconds>0</Build_Time_Seconds>
+		<Combat_Power_Value>0</Combat_Power_Value>
+		<Tech_Level>1</Tech_Level>
+		<Required_Timeline>1</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+		<Required_Special_Structures></Required_Special_Structures>
+		<Required_Planets></Required_Planets>
+		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
+		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+		<Company_Units>General_Grevious</Company_Units>
+		<Is_Named_Hero>Yes</Is_Named_Hero>	
+		
+		<Unit_Abilities_Data SubObjectList="Yes">
+                        <!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>6000</Effective_Radius>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+			
+        </Unit_Abilities_Data>
+
+
+	</HeroCompany>
+	
+		
+	<UniqueUnit Name="Invisible_Hand">
+		<Variant_Of_Existing_Type>C_PROVIDENCE</Variant_Of_Existing_Type>
+		<Space_Model_Name>VCBa_INVISIBLEHAND.ALO</Space_Model_Name>
+		<Text_ID>UEAW_UNIT_INVISIBLE_HAND</Text_ID>
+		<Encyclopedia_Text> UEAW_TOOLTIP_GENERAL_GREVIOUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+		<Icon_Name>UEAW_BUTTON_GENERAL_GREVIOUS.tga</Icon_Name>
+		<Tech_Level>99</Tech_Level>
+		<Scale_Factor>1.3</Scale_Factor>
+		<AI_Combat_Power>4000</AI_Combat_Power>
+		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Population_Value>5</Population_Value>
+
+		<HardPoints>
+                         HP_INVIS_HAND_MTL_01,
+                         HP_INVIS_HAND_MTL_02,
+                         HP_INVIS_HAND_MTL_03,
+                         HP_INVIS_HAND_MTL_04,
+                         HP_INVIS_HAND_HI_01,
+                         HP_INVIS_HAND_HI_02,
+                         HP_INVIS_HAND_FLAK_01,
+						 HP_INVIS_HAND_FLAK_02,
+                         HP_INVIS_HAND_MI_01,
+                         HP_INVIS_HAND_MI_02,
+                         HP_INVIS_HAND_APPTA_01,
+                         HP_INVIS_HAND_APPTA_02,
+						 HP_INVIS_HAND_APPTA_03,
+						 HP_INVIS_HAND_APPTA_04,
+						 HP_INVIS_HAND_L_01,
+						 HP_INVIS_HAND_L_02,
+						 HP_INVIS_HAND_L_03,
+						 HP_INVIS_HAND_L_04,
+						 HP_INVIS_HAND_HL_01,
+						 HP_INVIS_HAND_HL_02,
+                         HP_INVIS_HAND_ENGINE,
+                         HP_INVIS_HAND_HANGAR_01,
+                         HP_INVIS_HAND_HANGAR_02,
+        </HardPoints>
+				
+		<Starting_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 4</Reserve_Spawned_Units_Tech_0>
+		
+		<Neutralization_Cost>6000.0</Neutralization_Cost>
+		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+                        <!-- Primary ability -->
+			<Unit_Ability>
+				<Type>CONCENTRATE_FIRE</Type>
+				<Effective_Radius>6000</Effective_Radius>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+				<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
+				<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+			</Unit_Ability>
+
+        </Unit_Abilities_Data>
+
+        <Abilities SubObjectList="Yes">
+			<Concentrate_Fire_Attack_Ability Name="Grevious_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Damage_Increase_Percent>0.5</Target_Damage_Increase_Percent>
+				<Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Concentrate_Fire_Attack_Ability>
+		</Abilities>
+		<Death_Clone>Damage_Normal, Invisible_Hand_Death_Clone</Death_Clone>
+	</UniqueUnit>
+	
+	<SpaceUnit Name="Invisible_Hand_Death_Clone">
+		<Text_ID>TEXT_UNIT_PROVIDENCE</Text_ID>
+		<Space_Model_Name>VCBa_INVISIBLEHAND_D.alo</Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
+		<Scale_Factor>1.3</Scale_Factor>
+		<Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+		<Max_Speed>1.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
+		<Max_Thrust>1</Max_Thrust>
+		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>0</Bank_Turn_Angle>
+		<Affiliation>Dark_Side</Affiliation>
+		<Ship_Class>frigate</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+</Data>
