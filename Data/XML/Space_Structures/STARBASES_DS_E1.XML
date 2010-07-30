@@ -111,7 +111,7 @@
 
         </SpecialStructure>
 
-<!--old republic starbases here-->
+<!--sith starbases here-->
         <StarBase Name="S_STARBASE_1">
                 <GUI_Bounds_Scale>0.5</GUI_Bounds_Scale>
                 <Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
@@ -1068,7 +1068,7 @@
                 <!-- Tactical Production Options -->
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
                 <Tactical_Buildable_Objects_Multiplayer>
-                        Light_Side,
+                        Sith,
                                 S_SITH_FIGHTER_SQUADRON,
                                 S_SITH_BOMBER_SQUADRON,
                                 S_Starbase_Upgrade_Level_2
@@ -1089,7 +1089,7 @@
 
                 <!-- Special Abilities unique to Skirmish mode -->
                 <Abilities SubObjectList="Yes">
-                        <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+                        <Income_Stream_Ability Name="S_Starbase_Income_Stream">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>Yes</Initially_Enabled>
                                 <Base_Income_Value>30</Base_Income_Value>
@@ -1098,18 +1098,18 @@
                                 <Split_Favors_Owner>No</Split_Favors_Owner>
                                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
                         </Income_Stream_Ability>
-                        <Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+                        <Income_Stream_Mod_Ability Name="S_Supply_Dock_Income_Bonus">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>                        <!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
                                 <Income_Multiplier>1.0</Income_Multiplier>
                                 <Income_Additive_Value>20</Income_Additive_Value>
                                 <Interval_Multiplier>1.0</Interval_Multiplier>
                                 <Stacking_Category>0</Stacking_Category>
-                                <Target_Stream_Source>Skirmish_Rebel_Star_Base_1</Target_Stream_Source>
+                                <Target_Stream_Source>S_SKIRMISH_STARBASE_1</Target_Stream_Source>
                                 <Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
                                 <Reverse_Application_Logic>No</Reverse_Application_Logic>
                         </Income_Stream_Mod_Ability>
-                         <Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+                         <Enable_Radar_Ability Name="S_Comm_Array_Enable_Radar">
                                  <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>                        <!-- This effect is controlled by the presence of the Comm Array hardpoint -->
                                  <Affects_All_Allies>True</Affects_All_Allies>
@@ -1146,11 +1146,11 @@
                 <!-- Tactical Production Options -->
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
                 <Tactical_Buildable_Objects_Multiplayer>
-                        Light_Side,
-                                 S_AUREK_SQUADRON,
-                                 S_CHELA_SQUADRON,
-                                 S_FORAY_CLASS,
-                                 S_HAMMERHEAD
+                        Sith,
+                                S_SITH_FIGHTER_SQUADRON,
+                                S_SITH_BOMBER_SQUADRON,
+                                S_SITH_GUNBOAT,
+                                 S_Starbase_Upgrade_Level_3
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -1167,7 +1167,7 @@
 
                 <!-- Special Abilities unique to Skirmish mode -->
                 <Abilities SubObjectList="Yes">
-                        <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+                        <Income_Stream_Ability Name="S_Starbase_Income_Stream">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>Yes</Initially_Enabled>
                                 <Base_Income_Value>35.0</Base_Income_Value>
@@ -1176,18 +1176,18 @@
                                 <Split_Favors_Owner>No</Split_Favors_Owner>
                                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
                         </Income_Stream_Ability>
-                        <Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+                        <Income_Stream_Mod_Ability Name="S_Supply_Dock_Income_Bonus">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>                        <!-- This bonus income is controlled by the presence of the Supply Dock hardpoint -->
                                 <Income_Multiplier>1.0</Income_Multiplier>
                                 <Income_Additive_Value>25.0</Income_Additive_Value>
                                 <Interval_Multiplier>1.0</Interval_Multiplier>
                                 <Stacking_Category>0</Stacking_Category>
-                                <Target_Stream_Source>Skirmish_Rebel_Star_Base_2</Target_Stream_Source>
+                                <Target_Stream_Source>S_SKIRMISH_STARBASE_2</Target_Stream_Source>
                                 <Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
                                 <Reverse_Application_Logic>No</Reverse_Application_Logic>
                         </Income_Stream_Mod_Ability>
-                         <Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+                         <Enable_Radar_Ability Name="S_Comm_Array_Enable_Radar">
                                  <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>                        <!-- This effect is controlled by the presence of the Comm Array hardpoint -->
                                  <Affects_All_Allies>True</Affects_All_Allies>
@@ -1227,13 +1227,12 @@
 
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
                 <Tactical_Buildable_Objects_Multiplayer>
-                        Light_Side,
-                                 S_AUREK_SQUADRON,
-                                 S_CHELA_SQUADRON,
-                                 S_FORAY_CLASS,
-                                 S_HAMMERHEAD,
-                                 S_PREATORIAN,
-                                 S_THRANTA
+                        Sith,
+                                S_SITH_FIGHTER_SQUADRON,
+                                S_SITH_BOMBER_SQUADRON,
+                                S_SITH_GUNBOAT,
+                                S_INTERDICTOR_CRUISER,
+                                 S_Starbase_Upgrade_Level_4
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -1250,7 +1249,7 @@
 
 
                 <Abilities SubObjectList="Yes">
-                        <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+                        <Income_Stream_Ability Name="S_Starbase_Income_Stream">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>Yes</Initially_Enabled>
                                 <Base_Income_Value>40.0</Base_Income_Value>
@@ -1259,18 +1258,18 @@
                                 <Split_Favors_Owner>No</Split_Favors_Owner>
                                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
                         </Income_Stream_Ability>
-                        <Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+                        <Income_Stream_Mod_Ability Name="S_Supply_Dock_Income_Bonus">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                 <Income_Multiplier>1.0</Income_Multiplier>
                                 <Income_Additive_Value>30</Income_Additive_Value>
                                 <Interval_Multiplier>1.0</Interval_Multiplier>
                                 <Stacking_Category>0</Stacking_Category>
-                                <Target_Stream_Source>Skirmish_Rebel_Star_Base_3</Target_Stream_Source>
+                                <Target_Stream_Source>S_SKIRMISH_STARBASE_3</Target_Stream_Source>
                                 <Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
                                 <Reverse_Application_Logic>No</Reverse_Application_Logic>
                         </Income_Stream_Mod_Ability>
-                         <Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+                         <Enable_Radar_Ability Name="S_Comm_Array_Enable_Radar">
                                  <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                  <Affects_All_Allies>True</Affects_All_Allies>
@@ -1314,14 +1313,13 @@
 
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
                 <Tactical_Buildable_Objects_Multiplayer>
-                        Light_Side,
-                                 S_AUREK_SQUADRON,
-                                 S_CHELA_SQUADRON,
-                                 S_FORAY_CLASS,
-                                 S_HAMMERHEAD,
-                                 S_PREATORIAN,
-                                 S_THRANTA,
-                                 S_HEAVY_CRUISER
+                        Sith,
+                                S_SITH_FIGHTER_SQUADRON,
+                                S_SITH_BOMBER_SQUADRON,
+                                S_SITH_GUNBOAT,
+                                S_INTERDICTOR_CRUISER,
+                                S_HEAVY_CRUISER,
+                                 S_Starbase_Upgrade_Level_5
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -1337,7 +1335,7 @@
                 <Next_Level_Base>S_SKIRMISH_STARBASE_5</Next_Level_Base>
 
                 <Abilities SubObjectList="Yes">
-                        <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+                        <Income_Stream_Ability Name="S_Starbase_Income_Stream">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>Yes</Initially_Enabled>
                                 <Base_Income_Value>45.0</Base_Income_Value>
@@ -1346,18 +1344,18 @@
                                 <Split_Favors_Owner>No</Split_Favors_Owner>
                                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
                         </Income_Stream_Ability>
-                        <Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+                        <Income_Stream_Mod_Ability Name="S_Supply_Dock_Income_Bonus">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                 <Income_Multiplier>1.0</Income_Multiplier>
                                 <Income_Additive_Value>35</Income_Additive_Value>
                                 <Interval_Multiplier>1.0</Interval_Multiplier>
                                 <Stacking_Category>0</Stacking_Category>
-                                <Target_Stream_Source>Skirmish_Rebel_Star_Base_4</Target_Stream_Source>
+                                <Target_Stream_Source>S_SKIRMISH_STARBASE_4</Target_Stream_Source>
                                 <Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
                                 <Reverse_Application_Logic>No</Reverse_Application_Logic>
                         </Income_Stream_Mod_Ability>
-                         <Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+                         <Enable_Radar_Ability Name="S_Comm_Array_Enable_Radar">
                                  <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                  <Affects_All_Allies>True</Affects_All_Allies>
@@ -1403,15 +1401,13 @@
 
                 <SpaceBehavior> SPACE_OBSTACLE, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, UNIT_AI, SPAWN_SQUADRON, ION_STUN_EFFECT</SpaceBehavior>
                 <Tactical_Buildable_Objects_Multiplayer>
-                        Light_Side,
-                                 S_AUREK_SQUADRON,
-                                 S_CHELA_SQUADRON,
-                                 S_FORAY_CLASS,
-                                 S_HAMMERHEAD,
-                                 S_PREATORIAN,
-                                 S_THRANTA,
-                                 S_HEAVY_CRUISER,
-                                 S_CENTURION
+                        Sith,
+                                S_SITH_FIGHTER_SQUADRON,
+                                S_SITH_BOMBER_SQUADRON,
+                                S_SITH_GUNBOAT,
+                                S_INTERDICTOR_CRUISER,
+                                S_HEAVY_CRUISER,
+                                S_CENTURION
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
 
@@ -1425,7 +1421,7 @@
                 <Next_Level_Base />
 
                 <Abilities SubObjectList="Yes">
-                        <Income_Stream_Ability Name="R_Starbase_Income_Stream">
+                        <Income_Stream_Ability Name="S_Starbase_Income_Stream">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>Yes</Initially_Enabled>
                                 <Base_Income_Value>55</Base_Income_Value>
@@ -1434,18 +1430,18 @@
                                 <Split_Favors_Owner>No</Split_Favors_Owner>
                                 <Full_Amount_To_Everyone>Yes</Full_Amount_To_Everyone>
                         </Income_Stream_Ability>
-                        <Income_Stream_Mod_Ability Name="R_Supply_Dock_Income_Bonus">
+                        <Income_Stream_Mod_Ability Name="S_Supply_Dock_Income_Bonus">
                                 <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                 <Income_Multiplier>1.0</Income_Multiplier>
                                 <Income_Additive_Value>45</Income_Additive_Value>
                                 <Interval_Multiplier>1.0</Interval_Multiplier>
                                 <Stacking_Category>0</Stacking_Category>
-                                <Target_Stream_Source>Skirmish_Rebel_Star_Base_5</Target_Stream_Source>
+                                <Target_Stream_Source>S_SKIRMISH_STARBASE_5</Target_Stream_Source>
                                 <Affects_All_Allied_Sources>Yes</Affects_All_Allied_Sources>
                                 <Reverse_Application_Logic>No</Reverse_Application_Logic>
                         </Income_Stream_Mod_Ability>
-                         <Enable_Radar_Ability Name="R_Comm_Array_Enable_Radar">
+                         <Enable_Radar_Ability Name="S_Comm_Array_Enable_Radar">
                                  <Activation_Style>Skirmish_Automatic</Activation_Style>
                                 <Initially_Enabled>No</Initially_Enabled>
                                  <Affects_All_Allies>True</Affects_All_Allies>
@@ -1459,4 +1455,3 @@
 
 </StarBases>
 
-              
