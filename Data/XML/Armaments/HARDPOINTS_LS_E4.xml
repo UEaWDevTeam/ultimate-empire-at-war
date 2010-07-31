@@ -6886,17 +6886,13 @@
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
     </HardPoint>
-
-
-
-<!-- Rebel Space Station Level 1 Hardpoints -->
-
+                                                              
     <HardPoint Name="HP_NR_STARBASE_1_APHCM">
                 <Type> HARD_POINT_WEAPON_MISSILE </Type>
                     <Is_Targetable>Yes</Is_Targetable>
                     <Is_Destroyable>Yes</Is_Destroyable>
                     <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
-         <!--   UEAW, taken out to have the starbase more powerfull, Fynbos <Health>1000.0</Health> -->
+<!--   UEAW, taken out to have the starbase more powerfull, Fynbos <Health>1000.0</Health> -->
                     <Health>1000.0</Health>
                     <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
                     <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
@@ -6945,7 +6941,7 @@
             <Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E4_Red_Capital_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -7117,7 +7113,7 @@
      </HardPoint>
 
 
-<!-- Rebel Space Station Level 2 Hardpoints - use all level 1 hardpoints plus these -->
+<!-- New Republic Space Station Level 2 Hardpoints - use all level 1 hardpoints plus these -->
 
     <HardPoint Name="HP_NR_STARBASE_2_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -7147,7 +7143,7 @@
             <Fire_Bone_D>FP02_LC_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E4_Red_Capital_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -7434,7 +7430,7 @@
             <Fire_Bone_D>FP04_LC_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E4_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E4_Red_Capital_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -7718,9 +7714,5 @@
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
     </HardPoint>
-
-
-
-
 
 </HardPoints>
