@@ -1340,14 +1340,12 @@
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_DEFENCE_POD</Variant_Of_Existing_Type>
                  <Affiliation>Light_Side, Old_Republic, Republic, Rebel, New_Republic</Affiliation>
-                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpecialStructure>
 
         <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD">
 
                  <Variant_Of_Existing_Type>GENERIC_ORBITAL_DEFENCE_POD</Variant_Of_Existing_Type>
                  <Affiliation>Dark_Side, Sith, CIS, Empire, Imperial_Remnant</Affiliation>
-                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpecialStructure>
 
 
@@ -1356,43 +1354,51 @@
                 <Text_ID>TEXT_ORBITAL_DEFENCE_PODS</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ORBITAL_DEFENCE_PODS</Encyclopedia_Text>
+                <Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
 
-                <GUI_Row> 0 </GUI_Row>
-                <Affiliation>Light_Side</Affiliation>
-
-                <Space_Model_Name>BM_DEFENCE_POD.ALO</Space_Model_Name>
-                <Is_Dummy>No</Is_Dummy>
-                <Behavior>SELECTABLE, DUMMY_SPACE_STRUCTURE</Behavior>
-
-                <GUI_Bracket_Size>2</GUI_Bracket_Size>
-                <GUI_Bounds_Scale>0.7</GUI_Bounds_Scale>
-                <AI_Combat_Power>1500</AI_Combat_Power>
-
-                <!-- All derived types need to specify a value for this entry that corresponds to the correct tactical Turbolaser Tower type for that faction. -->
-                <!--<Place_Other_Type_At_Every_Specific_Marker_Position>Template_Ground_Turbolaser_Tower</Place_Other_Type_At_Every_Specific_Marker_Position>   -->
-                <Damage>300</Damage>
-                <Mass>1.0</Mass>
-                <SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
-                <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Time_Seconds>1</Build_Time_Seconds>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
-                <Size_Value>50</Size_Value>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-                <Base_Position>Orbital</Base_Position>
-                <Tech_Level>99</Tech_Level>
-                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Timeline>0</Required_Timeline>
-                <Required_Star_Base_Level>0</Required_Star_Base_Level>
-                <Required_Planets />
                 <Icon_Name>i_button_defence_pod.tga</Icon_Name>
 
-                <Sabotage_Cost_Credits>8000</Sabotage_Cost_Credits>
+                <Space_Model_Name>BM_DEFENCE_POD.ALO</Space_Model_Name>
 
-                <CategoryMask> Structure | AntiVehicle</CategoryMask>
-                <Score_Cost_Credits> 20000 </Score_Cost_Credits>
-                <Property_Flags>InBase</Property_Flags>
+                <Base_Position> Orbital </Base_Position>
+                <Space_Layer> Capital </Space_Layer>
+                <Layer_Z_Adjust>30.0</Layer_Z_Adjust>
+
+                <Is_Dummy>Yes</Is_Dummy>
+                <Affiliation>neutral</Affiliation>
+                <Political_Control>0</Political_Control>
+                <Build_Cost_Credits>100</Build_Cost_Credits> <!-- Set minimal for testing purposes only -->
+                <Build_Time_Seconds>5</Build_Time_Seconds> <!-- Set minimal for testing purposes only -->
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
+                <Size_Value>30</Size_Value>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+
+
+                <Base_Position>Orbital</Base_Position>
+                <Tech_Level>0</Tech_Level>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>1</Required_Star_Base_Level> <!-- Set minimal for testing purposes only -->
+                <Required_Special_Structures />
+                <Required_Planets />
+
+                <AI_Combat_Power>100</AI_Combat_Power>
+
+                <!-- Added this to ensure it's spawned on its marker; there should only be one anyway. LTCC 23/06/10  -->
+                <Place_At_Every_Specific_Marker_Position>True</Place_At_Every_Specific_Marker_Position>
+                <GUI_Row> 0 </GUI_Row>
+                <Size_Value>1</Size_Value>
+
+                <Behavior>DUMMY_ORBITAL_STRUCTURE, SELECTABLE</Behavior>                                                 
+
+                <SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+
+                <CategoryMask>Structure</CategoryMask>
+
         </SpecialStructure>
 
 
