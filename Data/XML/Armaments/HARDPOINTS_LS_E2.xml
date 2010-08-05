@@ -4109,8 +4109,7 @@
 
             <Attachment_Bone>HP_MTL_03</Attachment_Bone>
             <Collision_Mesh>HP_MTL_03_COLL</Collision_Mesh>
-            <Damage_Decal>HP_MTL_03_BLAST</Damage_Decal>
-
+            <Damage_Decal>MTL3BLAST1</Damage_Decal>
             <Fire_Bone_A>HP_MTL_03_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_MTL_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -4146,7 +4145,7 @@
             <Attachment_Bone>HP_MTL_04</Attachment_Bone>
             <Collision_Mesh>HP_MTL_04_COLL</Collision_Mesh>
             <Damage_Particles>HP_MTL_04_EMIT_DAMAGE</Damage_Particles>
-            <Damage_Decal>HP_MTL_04_BLAST</Damage_Decal>
+            <Damage_Decal>MTL4BLASTDECAL</Damage_Decal>
 
             <Fire_Bone_A>HP_MTL_04_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_MTL_04_FB02</Fire_Bone_B>
@@ -4328,9 +4327,12 @@
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_L01.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_05</Attachment_Bone>
             <Collision_Mesh>HP_HTL_05_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_05_EMITDAMAGE</Damage_Particles>
@@ -4343,14 +4345,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4360,9 +4362,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4375,9 +4377,12 @@
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_L02.ALO</Model_To_Attach>
+            <Model_To_Attach>RVBa_VENATOR_TURRET_2.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_06</Attachment_Bone>
             <Collision_Mesh>HP_HTL_06_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_06_EMITDAMAGE</Damage_Particles>
@@ -4390,14 +4395,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4407,9 +4412,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4423,8 +4428,12 @@
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_L03.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET_3.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_07</Attachment_Bone>
             <Collision_Mesh>HP_HTL_07_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_07_EMITDAMAGE</Damage_Particles>
@@ -4437,14 +4446,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4454,9 +4463,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4470,8 +4479,12 @@
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_L04.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET_4.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_08</Attachment_Bone>
             <Collision_Mesh>HP_HTL_08_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_08_EMITDAMAGE</Damage_Particles>
@@ -4484,14 +4497,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4501,9 +4514,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4517,8 +4530,12 @@
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_R05.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET_5.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_01</Attachment_Bone>
             <Collision_Mesh>HP_HTL_01_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_01_EMITDAMAGE</Damage_Particles>
@@ -4531,14 +4548,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4548,9 +4565,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4564,8 +4581,12 @@
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_R06.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET_6.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_02</Attachment_Bone>
             <Collision_Mesh>HP_HTL_02_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_02_EMITDAMAGE</Damage_Particles>
@@ -4578,26 +4599,25 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4611,8 +4631,12 @@
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_R07.ALO</Model_To_Attach>
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+			
+            <Model_To_Attach>RVBa_VENATOR_TURRET_7.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_03</Attachment_Bone>
             <Collision_Mesh>HP_HTL_03_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_03_EMITDAMAGE</Damage_Particles>
@@ -4625,14 +4649,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4642,9 +4666,9 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
@@ -4657,9 +4681,13 @@
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+						
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Heavy_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-
-            <Model_To_Attach>RVBa_VENATOR_TURRET_R08.ALO</Model_To_Attach>
+            <Model_To_Attach>RVBa_VENATOR_TURRET_8.ALO</Model_To_Attach>
             <Attachment_Bone>HP_HTL_04</Attachment_Bone>
             <Collision_Mesh>HP_HTL_04_COLL</Collision_Mesh>
             <Damage_Particles>HP_HTL_04_EMITDAMAGE</Damage_Particles>
@@ -4672,14 +4700,14 @@
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
             <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>180.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Rotate_Extent_Degrees>90.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>85.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_BONE</Turret_Bone_Name>
             <Barrel_Bone_Name>BARREL_BONE</Barrel_Bone_Name>
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2500.0</Fire_Range_Distance>
@@ -4689,12 +4717,116 @@
              <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Transport, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Frigate, 45.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 35.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 28.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
+	 <HardPoint Name="HP_VENATOR_CLASS_MTL_03">
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>400.0</Health> <!-- was 280 -->
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+			
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Medium_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+            <Model_To_Attach>RVBa_VENATOR_TURRET_MTL_R.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_MTL_01</Attachment_Bone>
+            <Collision_Mesh>HP_MTL_01_COLL</Collision_Mesh>
+            <Damage_Particles>HP_MTL_01_EMITDAMAGE</Damage_Particles>
+
+            <Fire_Bone_A>RMTL_FB_01</Fire_Bone_A>
+            <Fire_Bone_B>RMTL_FB_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>10.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>1.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>80.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>MESH</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Medium</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+             <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 22.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 18.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+	
+	 <HardPoint Name="HP_VENATOR_CLASS_MTL_04">
+               <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
+            <Health>400.0</Health> <!-- was 280 -->
+
+                        <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+						
+			<SpaceBehaviour>TARGETING</SpaceBehaviour>
+            <Targeting_Priority_Set>Medium_Turbolaser_Turret</Targeting_Priority_Set>
+			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+            <Model_To_Attach>RVBa_VENATOR_TURRET_MTL_L.ALO</Model_To_Attach>
+            <Attachment_Bone>HP_MTL_02</Attachment_Bone>
+            <Collision_Mesh>HP_MTL_02_COLL</Collision_Mesh>
+            <Damage_Particles>HP_MTL_02_EMITDAMAGE</Damage_Particles>
+
+            <Fire_Bone_A>LMTL_FB_01</Fire_Bone_A>
+            <Fire_Bone_B>LMTL_FB_02</Fire_Bone_B>
+            <Fire_Cone_Width>20.0</Fire_Cone_Width>
+            <Fire_Cone_Height>10.0</Fire_Cone_Height>
+            <Is_Turret>Yes</Is_Turret>
+            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
+            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
+            <Turret_Rotate_Speed>1.5</Turret_Rotate_Speed>
+            <Turret_Rotate_Extent_Degrees>1.0</Turret_Rotate_Extent_Degrees>
+            <Turret_Elevate_Extent_Degrees>80.0</Turret_Elevate_Extent_Degrees>
+            <Turret_Bone_Name>MESH</Turret_Bone_Name>
+            <Barrel_Bone_Name>BARRELS</Barrel_Bone_Name>
+
+            <Fire_Projectile_Type>Proj_Turbolaser_E3_Blue_Medium</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+             <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 22.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 18.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+    </HardPoint>
+
+
+   
         <HardPoint Name="HP_VENATOR_CLASS_L_01">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5254,7 +5386,7 @@
         </HardPoint>
 
 <!-- Integrity (Venator Class Battleship) Hard Points -->
-
+<!--
     <HardPoint Name="HP_VENATOR_CLASS_MTL_01">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -6062,7 +6194,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach>RV_MonCalCruiser_HP00_E.alo</Model_To_Attach>
-            <Attachment_Bone>HP_E_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Attachment_Bone>HP_E_BONE</Attachment_Bone> 
             <Collision_Mesh>HP_E_COLL</Collision_Mesh>
             <Damage_Decal />
             <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
@@ -6104,7 +6236,7 @@
             <Damage_Particles>HP_SHG_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
-
+-->
 <!-- Republic Space Station Level 1 Hardpoints -->
 
     <HardPoint Name="HP_R_STARBASE_1_APHCM">
