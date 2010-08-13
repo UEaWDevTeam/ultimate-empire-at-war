@@ -161,7 +161,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Light_Side, Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -407,7 +406,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Light_Side, Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -643,7 +641,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Light_Side, Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -871,7 +868,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Light_Side, Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -972,7 +968,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 20 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 750 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 750 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 600 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -1190,7 +1185,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 30 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 1320 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 2420 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 1100 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -1415,7 +1409,6 @@
 
                 <Armor_Type> Armour_Frigate_Superior </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
-                <Damage>30</Damage>
                 <Autoresolve_Health>2820</Autoresolve_Health>
                 <Shield_Points>1300</Shield_Points>
                 <Tactical_Health>1520</Tactical_Health>
@@ -1645,7 +1638,6 @@
 
                 <Armor_Type> Armour_Frigate_Superior </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
-                <Damage>30</Damage>
                 <Autoresolve_Health>5100</Autoresolve_Health>
                 <Shield_Points>2400</Shield_Points>
                 <Tactical_Health>2700</Tactical_Health>
@@ -1910,7 +1902,6 @@
 
                 <Armor_Type> Armour_Frigate_Superior </Armor_Type>
                 <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
-                <Damage>30</Damage>
                 <Autoresolve_Health>4220</Autoresolve_Health>
                 <Shield_Points>2300</Shield_Points>
                 <Tactical_Health>1920</Tactical_Health>
@@ -2188,7 +2179,6 @@
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
                 <Autoresolve_Health>13080</Autoresolve_Health>
                 <Shield_Points>7100</Shield_Points>
                 <Tactical_Health>5980</Tactical_Health>  <!-- was 2600 -->
@@ -2409,7 +2399,7 @@
 
         </SpaceUnit>
 
-		
+
         <SpaceUnit Name="R_VENATOR">
                 <Text_ID>TEXT_UNIT_VENATOR</Text_ID>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
@@ -2455,8 +2445,7 @@
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
                 <Required_Special_Structures />
-              <!--  <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets> -->
-                <Damage>70</Damage>
+                
                 <Autoresolve_Health>23600</Autoresolve_Health>
                 <Shield_Points>6720</Shield_Points>
                 <Shield_Refresh_Rate>44.2</Shield_Refresh_Rate>
@@ -2471,7 +2460,7 @@
                 <Build_Time_Seconds>3</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Size_Value>8</Size_Value>
-				<Build_Initially_Locked>No</Build_Initially_Locked>
+                                <Build_Initially_Locked>No</Build_Initially_Locked>
 
                 <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
                 <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 8</Starting_Spawned_Units_Tech_0>
@@ -2498,7 +2487,7 @@
                          HP_VENATOR_CLASS_HL_02,
                          HP_VENATOR_CLASS_HL_03,
                          HP_VENATOR_CLASS_HL_04,
-						 HP_VENATOR_CLASS_HTL_02,
+                                                 HP_VENATOR_CLASS_HTL_02,
                          HP_VENATOR_CLASS_HTL_01,
                          HP_VENATOR_CLASS_HTL_03,
                          HP_VENATOR_CLASS_HTL_04,
@@ -2518,8 +2507,8 @@
                          HP_VENATOR_CLASS_HANGAR_02,
                          HP_VENATOR_CLASS_SHIELD_01,
                          HP_VENATOR_CLASS_SHIELD_02,
-						 HP_VENATOR_CLASS_MTL_03,
-						 HP_VENATOR_CLASS_MTL_04
+                                                 HP_VENATOR_CLASS_MTL_03,
+                                                 HP_VENATOR_CLASS_MTL_04
                 </HardPoints>
 
                 <SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>

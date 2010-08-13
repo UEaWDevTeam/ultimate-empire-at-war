@@ -58,7 +58,6 @@
                 <SpaceBehavior>HUNT, ABILITY_COUNTDOWN, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-                <Damage>7</Damage>
 
                 <HardPoints>HP_AUREK_L, HP_AUREK_SOPT</HardPoints>
 
@@ -154,7 +153,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>35</Damage>
                 <Affiliation>Light_Side, Old_Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -376,7 +374,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Damage>35</Damage>
                 <Affiliation>Light_Side, Old_Republic</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -482,7 +479,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 20 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 750 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 750 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 600 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -674,7 +670,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 30 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 2280 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 3280 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 1500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -2150,7 +2145,7 @@
                 <Required_Star_Base_Level>4</Required_Star_Base_Level>
                 <Required_Special_Structures />
                 <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
-                <Damage>70</Damage>
+                
                 <Autoresolve_Health>15000</Autoresolve_Health>
                                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Shield_Points>5000</Shield_Points>

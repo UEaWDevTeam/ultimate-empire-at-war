@@ -152,7 +152,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>648</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -242,8 +241,8 @@
                          HP_VULTURE_IAI_L,
                          HP_VULTURE_IAI_SOPT
                 </HardPoints>
-				
-				<Lua_Script />
+
+                                <Lua_Script />
         </SpaceUnit>
 
         <Squadron Name="C_VULTURE_DROID_IAI_SQUADRON">
@@ -260,7 +259,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>648</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -471,7 +469,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>780</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -691,7 +688,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>1020</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -781,8 +777,8 @@
                          HP_DROID_BOMBER_IAI_L_02,
                          HP_DROID_BOMBER_IAI_APPT
                 </HardPoints>
-				
-				<Lua_Script />
+
+                                <Lua_Script />
         </SpaceUnit>
 
         <Squadron Name="C_DROID_BOMBER_IAI_SQUADRON">
@@ -799,7 +795,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>1020</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -1017,7 +1012,6 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>1020</Autoresolve_Health>
-                <Damage>25</Damage>
                 <Affiliation>Dark_Side, CIS</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
@@ -1119,7 +1113,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 25 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 1500 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 2000 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -1343,7 +1336,6 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Damage> 500 </Damage> <!-- Unsure of this one -->
                 <Tactical_Health> 4160 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total ||-->
                 <Autoresolve_Health> 7260 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 3100 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
@@ -1586,7 +1578,6 @@
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>
@@ -1829,7 +1820,6 @@
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
                 <Autoresolve_Health>14520</Autoresolve_Health>
                 <Shield_Points>7920</Shield_Points>
                 <Tactical_Health>6600</Tactical_Health>
@@ -2087,7 +2077,6 @@
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
@@ -2337,7 +2326,6 @@
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
@@ -2573,8 +2561,7 @@
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
-                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Damage>40</Damage>
+                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>  
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
