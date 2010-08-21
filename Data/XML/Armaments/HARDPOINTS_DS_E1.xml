@@ -19,8 +19,7 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>0.2</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>0.2</Fire_Max_Recharge_Seconds>
+                <Projectile_Fire_Recharge_Seconds>0.9</Projectile_Fire_Recharge_Seconds>
                 <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -47,8 +46,7 @@
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+            <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -127,8 +125,7 @@
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>0.4</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.4</Fire_Max_Recharge_Seconds>
+            <Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -154,11 +151,10 @@
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Flak</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>0.8</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>0.8</Fire_Max_Recharge_Seconds>
+            <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>600.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
                 <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
@@ -3078,7 +3074,7 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_ion_Death</Death_Explosion_SFXEvent>
 
             <Attachment_Bone>HP_HI_02</Attachment_Bone>
-            <Collision_Mesh>HP_HI_02_COLL</Collision_Mesh>   
+            <Collision_Mesh>HP_HI_02_COLL</Collision_Mesh>
             <Damage_Particles>HP_HI_02_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>HP_HI_02_FB01</Fire_Bone_A>
