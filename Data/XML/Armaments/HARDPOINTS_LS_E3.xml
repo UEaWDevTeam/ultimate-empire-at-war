@@ -48,9 +48,8 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.6</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>1.6</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
@@ -98,9 +97,8 @@
                 <Fire_Cone_Width>15.0</Fire_Cone_Width>
                 <Fire_Cone_Height>15.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.4</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>1.4</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
@@ -124,9 +122,8 @@
                 <Fire_Cone_Width>15.0</Fire_Cone_Width>
                 <Fire_Cone_Height>15.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.4</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>1.4</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
@@ -163,6 +160,54 @@
 
         </HardPoint>
 
+        <!-- variant of X-WING SOPT, because 6 are to many just against fighters, they can rule the whole battlefield at the skirmish startup away -Shimrra 08/22/2010 -->
+
+        <HardPoint Name="HP_X-WING_E3_SOPT_01">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>6.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+
+        </HardPoint>
+
+        <HardPoint Name="HP_X-WING_E3_SOPT_02">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>120.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>6.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>s
+
+        </HardPoint>
+
 <!--A-Wing hardpoints-->
 
         <HardPoint Name="HP_A-WING_E3_L">
@@ -175,9 +220,8 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>120.0</Fire_Cone_Height> <!-- see wookieepedia -->
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.3</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>1.3</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>1.1</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_A_Wing_Fire</Fire_SFXEvent>
@@ -223,9 +267,8 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>4</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>1.2</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
@@ -302,9 +345,8 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-                <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>3</Fire_Pulse_Count>
+                <Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>1</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
