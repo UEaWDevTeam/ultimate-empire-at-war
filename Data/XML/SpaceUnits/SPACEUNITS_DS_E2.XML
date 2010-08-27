@@ -13,6 +13,9 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
+                <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
+                <!--100 is to less, attached 300, think it's kind of vertical distance-->
+                <LOD_Bias>300</LOD_Bias>
 
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
@@ -2561,7 +2564,7 @@
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
                 <Armor_Type> Armour_Cruiser </Armor_Type>
-                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>  
+                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Autoresolve_Health>12936</Autoresolve_Health>
                 <Shield_Points>7056</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
