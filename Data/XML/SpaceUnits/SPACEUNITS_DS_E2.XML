@@ -791,6 +791,8 @@
                 <Strafe_Distance>500.0</Strafe_Distance>
                 <Population_Value>0</Population_Value>
 
+                <Lua_Script>Drone_Fighters</Lua_Script>
+
         </SpaceUnit>
 
         <Squadron Name="C_DROID_BOMBER_SQUADRON">
@@ -881,9 +883,7 @@
 
         </Squadron>
 
-
         <SpaceUnit Name="C_DROID_BOMBER_IAI">
-                <Variant_Of_Existing_Type>C_DROID_BOMBER</Variant_Of_Existing_Type>
                 <Text_ID>TEXT_UNIT_DROID_BOMBER_AI</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_DROID_BOMBER_AI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
@@ -891,13 +891,124 @@
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
 
+                <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
+                <Scale_Factor>0.17</Scale_Factor>
+                <Select_Box_Scale>30</Select_Box_Scale>
+                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+                <Mass>0.98</Mass>
+
+                <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
+
+                <Max_Speed>2.4</Max_Speed>
+                <Min_Speed>1.0</Min_Speed>
+                <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+                <Max_Lift>3</Max_Lift>
+                <Max_Thrust>1.0</Max_Thrust>
+                <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>30</Bank_Turn_Angle>
+                <Hyperspace>no</Hyperspace>
+                <Hyperspace_Speed>0</Hyperspace_Speed>
+
+                <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
+
+                <Affiliation>Dark_Side, CIS</Affiliation>
+
+                <Shield_Points>0</Shield_Points>
+                <Tactical_Health>85</Tactical_Health>
+                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Energy_Capacity>999</Energy_Capacity>
+                <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+
+                <Ship_Class>fighter</Ship_Class>
+
+                <Armor_Type> Armour_Starfighter </Armor_Type>
+
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>yes</Is_Bomber>
+                <Squadron_Capacity>0</Squadron_Capacity>
+                <Number_per_Squadron>12</Number_per_Squadron>
+                <Size_Value>8</Size_Value>
+
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
                 <HardPoints>
                          HP_DROID_BOMBER_IAI_L_01,
                          HP_DROID_BOMBER_IAI_L_02,
                          HP_DROID_BOMBER_IAI_APPT
                 </HardPoints>
 
-                                <Lua_Script />
+                <Land_Damage_Thresholds>1, 0.5</Land_Damage_Thresholds>
+                <Land_Damage_Alternates>0, 1</Land_Damage_Alternates>
+                <Land_Damage_SFX>null, null</Land_Damage_SFX>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>600.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>600.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Smaller_B_Empire</Death_Explosions>
+                <Death_SFXEvent_Start_Die>Unit_Tie_Fighter_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <SFXEvent_Fire> Unit_TIE_Bomber_Fire </SFXEvent_Fire>
+                <SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_TIE_Bomber</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Bomber</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_TIE_Bomber</SFXEvent_Attack>
+                <SFXEvent_Select>Unit_Select_TIE_Bomber</SFXEvent_Select>
+                <SFXEvent_Guard>Unit_Guard_TIE_Bomber</SFXEvent_Guard>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_TIE_Bomber </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_TIE_Bomber </SFXEvent_Move_Into_Nebula>
+
+                <SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Bomber </SFXEvent_Health_Low_Warning>
+                <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Bomber </SFXEvent_Health_Critical_Warning>
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_TIE_Bomber </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Ambient_Moving> Unit_TIE_Bomber_Fly_By </SFXEvent_Ambient_Moving>
+                <SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+                <SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Bomber_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+                <CategoryMask> Bomber | AntiCapital </CategoryMask>
+                <Property_Flags> SmallShip </Property_Flags>
+                <MovementClass> Space </MovementClass>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Hover_Offset>0.0</Hover_Offset>
+
+                <No_Colorization_Color />
+
+
+                <Create_Team>Yes</Create_Team>
+                <AI_Combat_Power>60</AI_Combat_Power>
+                <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+                <Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+
+                <Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+                <FormationOrder>2</FormationOrder>
+                <Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+                <Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+                <AI_Combat_Power>35</AI_Combat_Power>
+
+                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+                <Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
+                <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+                <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B_Empire</Spin_Away_On_Death_Explosion>
+                <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_TIE_Fighter_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+
+
+                <Tactical_Bribe_Cost>100</Tactical_Bribe_Cost>
+
+                <Strafe_Distance>500.0</Strafe_Distance>
+                <Population_Value>0</Population_Value>
+
         </SpaceUnit>
 
         <Squadron Name="C_DROID_BOMBER_IAI_SQUADRON">
@@ -1223,7 +1334,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <!-- Basic Stats -->
-                <Affiliation> Light_Side </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Dark_Side, CIS </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Corvette | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1446,7 +1557,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <!-- Basic Stats -->
-                <Affiliation> Dark_Side </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Dark_Side, CIS </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
