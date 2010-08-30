@@ -1,48 +1,48 @@
 <?xml version="1.0" ?>
-<Data>	
+<Data>
 
-	<HeroUnit Name="Darth_Malak">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+        <HeroUnit Name="Darth_Malak">
+                <Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK.tga</Icon_Name>
+                <Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
+                <Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+                <Icon_Name>UEAW_BUTTON_DARTH_MALAK.tga</Icon_Name>
 
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Walk</Type>
-		<Affiliation>Dark_Side</Affiliation>
-		<Required_Timeline>1</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Rakata</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Unique_Space_Unit>Leviathan</Unique_Space_Unit>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+                <Mass>1.0</Mass>
+                <Scale_Factor>1.0</Scale_Factor>
+                <!--<Is_Sprite>No</Is_Sprite>-->
+                <Type>Walk</Type>
+                <Affiliation>Dark_Side, Sith</Affiliation>
+                <Required_Timeline>1</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <IsBuildable>No</IsBuildable>
+                <Spawn_Planet>Rakata</Spawn_Planet>
+                <Size_Value>75</Size_Value>
+                <Damage>80</Damage>
+                <Autoresolve_Health>200</Autoresolve_Health>
+                <Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+                <Unique_Space_Unit>Leviathan</Unique_Space_Unit>
+                <Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+                <Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
 
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
+                <SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+                <!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
 
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
+                <CategoryMask> NonCombatHero </CategoryMask>
+                <Ranking_In_Category> 3 </Ranking_In_Category>
 
-		<Neutralization_Cost>1500.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+                <Neutralization_Cost>1500.0</Neutralization_Cost>
+                <Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+                <Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
@@ -96,34 +96,32 @@
                         </Combat_Bonus_Ability>
 
                 </Abilities>
-	</HeroUnit>
+        </HeroUnit>
 
 
-	<HeroCompany Name="Darth_Malak_Team">
-		<Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK2.tga</Icon_Name>
+        <HeroCompany Name="Darth_Malak_Team">
+                <Text_ID>UEAW_UNIT_DARTH_MALAK</Text_ID>
+                <Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+                <Icon_Name>UEAW_BUTTON_DARTH_MALAK2.tga</Icon_Name>
 
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Dark_Side</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
-		<Damage>100</Damage>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Darth_Malak</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>	
-		
-				<Unit_Abilities_Data SubObjectList="Yes">
-                        <!-- Primary ability -->
+                <Is_Dummy>Yes</Is_Dummy>
+                <Affiliation>Dark_Side, Sith</Affiliation>
+                <Damage>100</Damage>
+                <Build_Time_Seconds>0</Build_Time_Seconds>
+                <Combat_Power_Value>0</Combat_Power_Value>
+                <Tech_Level>1</Tech_Level>
+                <Required_Timeline>1</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+                <Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+                <Company_Units>Darth_Malak</Company_Units>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+
+                                <Unit_Abilities_Data SubObjectList="Yes">
                         <Unit_Ability>
                                 <Type>INTERDICT</Type>
                                 <Disable_Movement>Yes</Disable_Movement>
@@ -135,7 +133,7 @@
                         <Unit_Ability>
                                 <Type>TRACTOR_BEAM</Type>
                                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                                <GUI_Activated_Ability_Name> VSD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                <GUI_Activated_Ability_Name> VSD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name>
                                 <Recharge_Seconds>25</Recharge_Seconds>
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -154,28 +152,93 @@
                                 <Activation_Max_Range>1200</Activation_Max_Range>
 
 
-                                <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
                                 <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
                                 <Stacking_Category>0</Stacking_Category>
                         </Tractor_Beam_Attack_Ability>
-				</Abilities>
-	</HeroCompany>
-	
-		
-	<UniqueUnit Name="Leviathan">
-		<Variant_Of_Existing_Type>S_INTERDICTOR_CRUISER</Variant_Of_Existing_Type>
-		<Text_ID>UEAW_UNIT_LEVIATHAN</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_DARTH_MALAK </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_DARTH_MALAK.tga</Icon_Name>
-		<Tech_Level>99</Tech_Level>
-		<AI_Combat_Power>4000</AI_Combat_Power>
-		<Score_Cost_Credits> 50000 </Score_Cost_Credits>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
-		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>3</Population_Value>
+                </Abilities>
+        </HeroCompany>
 
-		<HardPoints>
+        <UniqueUnit Name="LEVIATHAN">
+                <Text_ID>TEXT_UNIT_LEVIATHAN</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_LEVIATHAN</Encyclopedia_Text>
+                <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SITH_LORD </Encyclopedia_Unit_Class>
+                <Icon_Name>I_BUTTON_HERO_MALAK.tga</Icon_Name>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+
+                <GUI_Row> 1 </GUI_Row>
+                <Space_Model_Name>VCCr_INTERDICTOR_CLASS.ALO</Space_Model_Name>
+
+                <Select_Box_Scale>350</Select_Box_Scale>
+                <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
+                <Mass>0.9995</Mass>
+                <Scale_Factor>0.389</Scale_Factor>
+
+                <Ranking_In_Category>6</Ranking_In_Category>
+                <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+                <Max_Speed>1.6</Max_Speed>
+                <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Frigate </Space_Layer>
+                <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+                <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>8</Bank_Turn_Angle>
+                <OverrideAcceleration> .013 </OverrideAcceleration>
+                <OverrideDeceleration> .013 </OverrideDeceleration>
+
+                <Max_Thrust>0.1</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+                <Hyperspace_Speed>1.0</Hyperspace_Speed>
+                <Maintenance_Cost>0.1</Maintenance_Cost>
+
+                <Armor_Type> Armour_Cruiser </Armor_Type>
+                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
+                <Autoresolve_Health>8050</Autoresolve_Health>
+                <Shield_Points>3500</Shield_Points>
+                <Tactical_Health>4550</Tactical_Health>  <!-- was 2600 -->
+                <Shield_Refresh_Rate>15</Shield_Refresh_Rate>
+                <Energy_Capacity>3000</Energy_Capacity>
+                <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+                <Affiliation>Dark_Side, Sith</Affiliation>
+                <Tech_Level>99</Tech_Level>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>3</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Required_Planets />
+                <Ship_Class>frigate</Ship_Class>
+                <Formation_Priority>3</Formation_Priority>
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Political_Control>0</Political_Control>
+                <Squadron_Capacity>15</Squadron_Capacity>
+                <Transport_Capacity>12</Transport_Capacity>
+                <Number_per_Squadron>1</Number_per_Squadron>
+                <Build_Cost_Credits>3800</Build_Cost_Credits>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <AI_Combat_Power>3800</AI_Combat_Power>
+                <Build_Time_Seconds>30</Build_Time_Seconds>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Size_Value>8</Size_Value>
+                <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+                <SpaceBehavior>ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+                <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+                <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>2500.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
+
+                <Death_Clone>Damage_Normal, S_INTERDICTOR_CRUISER_DEATH_CLONE</Death_Clone>
+
+                <Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+
+                <HardPoints>
                          HP_LEVIATHAN_MTL_01,
                          HP_LEVIATHAN_MTL_02,
                          HP_LEVIATHAN_MTL_03,
@@ -194,24 +257,76 @@
                          HP_LEVIATHAN_GRAVITY_WELL
 
                 </HardPoints>
-				
-				<Starting_Spawned_Units_Tech_0>S_SITH_FIGHTER_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
-                <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-		
-		<Neutralization_Cost>6000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <CategoryMask> Frigate | AntiCorvette</CategoryMask>
+                <GUI_Model_Name>VCCr_INTERDICTOR_CLASS.ALO</GUI_Model_Name>
+                <GUI_Distance>1100</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-		<Unit_Abilities_Data SubObjectList="Yes">
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+                <SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+                <SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+                <SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+                <SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
+                <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+                <SFXEvent_Bombard_Select_Target>        EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+                <SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+                <SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+                <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+                <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+                <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>0.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Lua_Script>ObjectScript_MissileShield</Lua_Script>
+
+
+
+                <!-- Non-Hero unit abilities description -->
+                <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
                         <Unit_Ability>
                                 <Type>INTERDICT</Type>
@@ -231,10 +346,11 @@
                                 <Supports_Autofire>True</Supports_Autofire>
                         </Unit_Ability>
 
+
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Tractor_Beam_Attack_Ability Name="Leviathan_Tractor_Beam_Attack_Ability">
+                        <Tractor_Beam_Attack_Ability Name="VSD_Tractor_Beam_Attack_Ability">
                                 <Activation_Style> User_Input </Activation_Style>
                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
                                 <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
@@ -247,8 +363,34 @@
                                 <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
                                 <Stacking_Category>0</Stacking_Category>
                         </Tractor_Beam_Attack_Ability>
-				</Abilities>		
 
-		<Death_Clone>Damage_Normal, S_Interdictor_Death_Clone</Death_Clone>
-	</UniqueUnit>
+                        <Combat_Bonus_Ability Name="Malak_Combat_Bonus_General">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types></Applicable_Unit_Types>
+                                <Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
+            </Planet_Income_Bonus_Ability>
+
+                </Abilities>
+
+                <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER </Encyclopedia_Unit_Class>
+                <Score_Cost_Credits> 2250</Score_Cost_Credits>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+        </UniqueUnit>
 </Data>
