@@ -128,21 +128,85 @@
 
         </HeroCompany>
 
-
-        <UniqueUnit Name="Invisible_Hand">
-                <Variant_Of_Existing_Type>C_PROVIDENCE</Variant_Of_Existing_Type>
+        <UniqueUnit Name="INVISIBLE_HAND">
                 <Space_Model_Name>VCBa_INVISIBLEHAND.ALO</Space_Model_Name>
                 <Text_ID>UEAW_UNIT_INVISIBLE_HAND</Text_ID>
                 <Text_ID>TEXT_HERO_GENERAL_GRIEVOUS</Text_ID>
                 <Encyclopedia_Text> TEXT_HERO_TOOLTIP_GENERAL_GRIEVOUS </Encyclopedia_Text>
-                <Icon_Name>I_BUTTON_GENERAL_GRIEVOUS.tga</Icon_Name>
+                <Icon_Name>I_BUTTON_HERO_GRIEVOUS.tga</Icon_Name>
+                <GUI_Row> 1 </GUI_Row>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+
+                <Select_Box_Scale>500</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
+                <Mass>0.9995</Mass>
+                <Scale_Factor>1.01</Scale_Factor>
+
+                <Ranking_In_Category>6</Ranking_In_Category>
+                <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+                <Max_Speed>1.4</Max_Speed>
+                <Max_Rate_Of_Turn>0.26</Max_Rate_Of_Turn>
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Frigate </Space_Layer>
+                <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+                <Max_Rate_Of_Roll>0.18</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>8</Bank_Turn_Angle>
+                <OverrideAcceleration> .013 </OverrideAcceleration>
+                <OverrideDeceleration> .013 </OverrideDeceleration>
+
+                <Max_Thrust>0.1</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+                <Hyperspace_Speed>0.75</Hyperspace_Speed>
+                <Maintenance_Cost>0.1</Maintenance_Cost>
+
+                <Armor_Type> Armour_Cruiser </Armor_Type>
+                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
+                <Autoresolve_Health>12936</Autoresolve_Health>
+                <Shield_Points>7056</Shield_Points>
+                <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
+                <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
+                <Energy_Capacity>3000</Energy_Capacity>
+                <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+                <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
+
+                <Affiliation>Dark_Side, CIS</Affiliation>
                 <Tech_Level>99</Tech_Level>
-                <Scale_Factor>1.3</Scale_Factor>
-                <AI_Combat_Power>4000</AI_Combat_Power>
-                <Score_Cost_Credits> 50000 </Score_Cost_Credits>
-        <Build_Cost_Credits>5000</Build_Cost_Credits>
-                <CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-                <Population_Value>5</Population_Value>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>3</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Required_Planets />
+                <Ship_Class>frigate</Ship_Class>
+                <Formation_Priority>3</Formation_Priority>
+                <Is_Escort>yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Political_Control>0</Political_Control>
+                <Squadron_Capacity>15</Squadron_Capacity>
+                <Transport_Capacity>12</Transport_Capacity>
+                <Number_per_Squadron>1</Number_per_Squadron>
+                <Piracy_Value_Credits>50</Piracy_Value_Credits>
+                <Build_Time_Seconds>30</Build_Time_Seconds>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Size_Value>8</Size_Value>
+                <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+                <SpaceBehavior>ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+                <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+                <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+                <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
+
+                <Death_Clone>Damage_Normal, INVISIBLE_HAND_DEATH_CLONE</Death_Clone>
+
+                <Starting_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>C_VULTURE_DROID_IAI_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+                <Reserve_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>C_VULTURE_DROID_IAI_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+
 
                 <HardPoints>
                          HP_INVISIBLE_HAND_MTL_01,
@@ -170,24 +234,74 @@
                          HP_INVISIBLE_HAND_HANGAR_02,
         </HardPoints>
 
-                <Starting_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
-                <Starting_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
-                <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-                <Reserve_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 4</Reserve_Spawned_Units_Tech_0>
-                <Reserve_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 4</Reserve_Spawned_Units_Tech_0>
+                <AI_Combat_Power>4000</AI_Combat_Power>
+                <Score_Cost_Credits> 50000 </Score_Cost_Credits>
+                <Build_Cost_Credits>5000</Build_Cost_Credits>
+                <CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 
-                <Neutralization_Cost>6000.0</Neutralization_Cost>
-                <Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-                <Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+                <GUI_Distance>1100</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>5500</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>60</Tactical_Build_Time_Seconds>
-                <Tactical_Build_Prerequisites />
-                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-                <Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
-                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+                <SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+                <SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+                <SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+                <SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
+                <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+                <SFXEvent_Bombard_Select_Target>        EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+                <SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+                <SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+
+                <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+                <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+                <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>0.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+
 
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
@@ -213,25 +327,53 @@
                                 <Target_Speed_Decrease_Percent>0.0</Target_Speed_Decrease_Percent>
                                 <Stacking_Category>0</Stacking_Category>
                         </Concentrate_Fire_Attack_Ability>
+
+                        <Combat_Bonus_Ability Name="Grievous_Combat_Bonus_General">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types></Applicable_Unit_Types>
+                                <Health_Bonus_Percentage>0.20</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.20</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
                 </Abilities>
-                <Death_Clone>Damage_Normal, Invisible_Hand_Death_Clone</Death_Clone>
+
+
+                <Score_Cost_Credits> 2250</Score_Cost_Credits>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>5</Population_Value>
+
         </UniqueUnit>
 
-        <SpaceUnit Name="Invisible_Hand_Death_Clone">
+        <SpaceUnit Name="INVISIBLE_HAND_DEATH_CLONE">
                 <Text_ID>TEXT_UNIT_PROVIDENCE</Text_ID>
                 <Space_Model_Name>VCBa_INVISIBLEHAND_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>1.3</Scale_Factor>
+                <Scale_Factor>0.95</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Dark_Side</Affiliation>
+                <Affiliation>Dark_Side, CIS</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
         </SpaceUnit>
+
 </Data>
