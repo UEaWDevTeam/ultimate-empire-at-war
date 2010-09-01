@@ -10921,7 +10921,99 @@
                 <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
         </HardPoint>
 
+         <!--Boba Fett hardpoints-->
+        <HardPoint Name="HP_BOBA_FETT_L_01">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_02</Fire_Bone_B>
+                <Fire_Cone_Width>30.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>0.15</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Slave_1_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_BOBA_FETT_L_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
+                <Fire_Cone_Width>30.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>0.1</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Slave_1_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_BOBA_FETT_L_03">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
+                <Fire_Cone_Width>30.0</Fire_Cone_Width>
+                <Fire_Cone_Height>20.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>500.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Slave_1_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_BOBA_FETT_LCM">
+                <Type> HARD_POINT_WEAPON_MISSILE </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEC_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEC_01</Fire_Bone_B>
+                <Fire_Cone_Width>45.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Conc_Missile_E3_Light</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>30.0</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>30.0</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>15</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>1.5</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>1000.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
 
-
+        </HardPoint>
 </HardPoints>
