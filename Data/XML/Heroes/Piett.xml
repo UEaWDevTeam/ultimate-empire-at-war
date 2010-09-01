@@ -1,133 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- fixed applied sds for excetor not accuser -->
-<Data>	
+<Data>
 
-	<!-- Accuser Piett -->
-	
-	<HeroUnit Name="Captain_Piett">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>UEAW_HERO_CAPTAIN_PIETT</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_CAPTAIN_PIETT </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_DESTROYER </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Walk</Type>
-		<Affiliation>Dark_Side</Affiliation>
-		<Required_Timeline>4</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Anaxes</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Unique_Space_Unit>UEAW_Accuser</Unique_Space_Unit>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+        <!-- Accuser Piett -->
 
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die>
+        <HeroUnit Name="Captain_Piett">
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+                <Text_ID>UEAW_HERO_CAPTAIN_PIETT</Text_ID>
+                <Encyclopedia_Text> UEAW_TOOLTIP_CAPTAIN_PIETT </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_DESTROYER </Encyclopedia_Unit_Class>
+                <Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
+                <Mass>1.0</Mass>
+                <Scale_Factor>1.0</Scale_Factor>
+                <!--<Is_Sprite>No</Is_Sprite>-->
+                <Type>Walk</Type>
+                <Affiliation>Dark_Side, Empire</Affiliation>
+                <Required_Timeline>4</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <IsBuildable>No</IsBuildable>
+                <Spawn_Planet>Anaxes</Spawn_Planet>
+                <Size_Value>75</Size_Value>
+                <Damage>80</Damage>
+                <Autoresolve_Health>200</Autoresolve_Health>
+                <Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+                <Unique_Space_Unit>UEAW_Accuser</Unique_Space_Unit>
+                <Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
 
-		<CategoryMask> SpaceHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
+                <SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+                <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die>
 
-		<Neutralization_Cost>5000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
+                <CategoryMask> SpaceHero </CategoryMask>
+                <Ranking_In_Category> 3 </Ranking_In_Category>
 
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Piett_Combat_Bonus_General">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-		</Abilities>
-	</HeroUnit>
+                <Neutralization_Cost>5000.0</Neutralization_Cost>
+                <Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+                <Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
 
-	
-
-	
-	<HeroCompany Name="Piett_Team_Accuser">
-		<Text_ID>UEAW_HERO_PIETT_TEAM</Text_ID>
-		<Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Dark_Side</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
-		<Damage>100</Damage>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>4</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Captain_Piett</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>	
-		<Encyclopedia_Text> UEAW_TOOLTIP_CAPTAIN_PIETT </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Respawn_Piett</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Piett</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+                <Abilities SubObjectList="Yes">
+                        <Combat_Bonus_Ability Name="Piett_Combat_Bonus_General">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types></Applicable_Unit_Types>
+                                <Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
+                </Abilities>
+        </HeroUnit>
 
 
-	   <Unit_Abilities_Data SubObjectList="Yes">
-			<Unit_Ability>
-					<Type>TRACTOR_BEAM</Type>
-					<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-					<GUI_Activated_Ability_Name> Piet_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-					<Recharge_Seconds>20</Recharge_Seconds>
-			</Unit_Ability>
 
-	      <Unit_Ability>
-	         <Type>ENERGY_WEAPON</Type>
-	         <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	         <GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	         <Recharge_Seconds>20</Recharge_Seconds>
-				<Expiration_Seconds>10</Expiration_Seconds>
-	      </Unit_Ability>
-	   </Unit_Abilities_Data>
-		<CategoryMask>SpaceHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-	</HeroCompany>
-	
-	<UniqueUnit Name="UEAW_Accuser">
-		<Variant_Of_Existing_Type>E_ISDII</Variant_Of_Existing_Type>
-		<Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To> Y-wing </Encyclopedia_Vulnerable_To>
-		<Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
 
-		<Text_ID>UEAW_UNIT_ACCUSER</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_PIETT </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+        <HeroCompany Name="Piett_Team_Accuser">
+                <Text_ID>UEAW_HERO_PIETT_TEAM</Text_ID>
+                <Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Affiliation>Dark_Side, Empire</Affiliation>
+                <!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+                <Damage>100</Damage>
+                <Build_Time_Seconds>0</Build_Time_Seconds>
+                <Combat_Power_Value>0</Combat_Power_Value>
+                <Tech_Level>1</Tech_Level>
+                <Required_Timeline>4</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+                <Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+                <Company_Units>Captain_Piett</Company_Units>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+                <Encyclopedia_Text> UEAW_TOOLTIP_CAPTAIN_PIETT </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+                <SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Respawn_Piett</SFXEvent_Build_Complete>
+                <SFXEvent_Hero_Respawned>Unit_Respawn_Piett</SFXEvent_Hero_Respawned>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
 
-		<HardPoints>    
-						HP_E_Accuser_E3_HTL_01,
+
+           <Unit_Abilities_Data SubObjectList="Yes">
+                        <Unit_Ability>
+                                        <Type>TRACTOR_BEAM</Type>
+                                        <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                                        <GUI_Activated_Ability_Name> Piet_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                        <Recharge_Seconds>20</Recharge_Seconds>
+                        </Unit_Ability>
+
+              <Unit_Ability>
+                 <Type>ENERGY_WEAPON</Type>
+                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                 <GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                 <Recharge_Seconds>20</Recharge_Seconds>
+                                <Expiration_Seconds>10</Expiration_Seconds>
+              </Unit_Ability>
+           </Unit_Abilities_Data>
+                <CategoryMask>SpaceHero</CategoryMask>
+                <Ranking_In_Category> 3 </Ranking_In_Category>
+        </HeroCompany>
+
+        <UniqueUnit Name="UEAW_Accuser">
+                <Variant_Of_Existing_Type>E_ISDII</Variant_Of_Existing_Type>
+                <Encyclopedia_Good_Against> Corellian_Corvette Corellian_Gunboat </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> Y-wing </Encyclopedia_Vulnerable_To>
+                <Icon_Name>I_button_captain_firmus_piett.tga</Icon_Name>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+                <Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+
+                <Text_ID>TEXT_UNIT_SD_ACCUSER</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_PIETT </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+
+                <SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+
+                <HardPoints>
+                        HP_E_Accuser_E3_HTL_01,
                         HP_E_Accuser_E3_HTL_02,
                         HP_E_Accuser_E3_HTL_03,
                         HP_E_Accuser_E3_HTL_04,
@@ -151,465 +151,121 @@
                         HP_E_Accuser_E3_ENGINE,
                         HP_E_Accuser_E3_HANGAR,
                         HP_E_Accuser_E3_TRACTOR
-		</HardPoints>
+                </HardPoints>
 
-		<Tech_Level>99</Tech_Level>
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+                <Tech_Level>99</Tech_Level>
+                <SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
+                <SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
+                <SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
+                <SFXEvent_Bombard_Select_Target>        EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+                <SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-	  
+                <SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
-		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>10</Population_Value>
-		<GUI_Row> 0 </GUI_Row>
-		<Neutralization_Cost>2000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+                <Population_Value>10</Population_Value>
+                <GUI_Row> 0 </GUI_Row>
+                <Neutralization_Cost>2000.0</Neutralization_Cost>
+                <Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
+                <Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			
-			<Unit_Ability>
-				<Type>ENERGY_WEAPON</Type>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-				<Recharge_Seconds>120</Recharge_Seconds>
-				<Expiration_Seconds>5</Expiration_Seconds>
-				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
-			
-		  <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
-		</Unit_Abilities_Data>
+                <!-- Hero abilities for Captain Piett added to ship; Hero "moveable" unit removed -->
+                <Unit_Abilities_Data SubObjectList="Yes">
 
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Piett_Combat_Bonus_General">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
+                        <Unit_Ability>
+                                <Type>ENERGY_WEAPON</Type>
+                                <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                                <GUI_Activated_Ability_Name> Piet_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                <Recharge_Seconds>120</Recharge_Seconds>
+                                <Expiration_Seconds>5</Expiration_Seconds>
+                                <SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop>
+                                <Supports_Autofire>True</Supports_Autofire>
+                        </Unit_Ability>
 
-			<Energy_Weapon_Attack_Ability Name="Piett_Energy_Weapon_Attack_Ability">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
+                  <Unit_Ability>
+                    <Type>TRACTOR_BEAM</Type>
+                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.6f</Mod_Multiplier>
+                    <GUI_Activated_Ability_Name>Piet_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <Recharge_Seconds>20</Recharge_Seconds>
+                    <SFXEvent_Target_Ability>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_Target_Ability>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+                                <Supports_Autofire>True</Supports_Autofire>
+              </Unit_Ability>
+
+                </Unit_Abilities_Data>
+
+                <Abilities SubObjectList="Yes">
+                        <Combat_Bonus_Ability Name="Piett_Combat_Bonus_General">
+                                <Activation_Style>Space_Automatic</Activation_Style>
+                                <Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
+                                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types></Applicable_Unit_Types>
+                                <Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+                                <Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+                                <Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+                                <Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+                                <Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+                                <Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+                                <Stacking_Category>0</Stacking_Category>
+                        </Combat_Bonus_Ability>
+
+                        <Energy_Weapon_Attack_Ability Name="Piett_Energy_Weapon_Attack_Ability">
+                                <Activation_Style> User_Input </Activation_Style>
+                                <Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter | Bomber | Transport</Applicable_Unit_Categories>
+                                <Applicable_Unit_Types></Applicable_Unit_Types>
                 <Owner_Particle_Effect>Piet_Powerup_Particle_Effect</Owner_Particle_Effect>
                 <Owner_Particle_Bone_Name>HP_trac_bone</Owner_Particle_Bone_Name>
-				<Activation_Min_Range>0</Activation_Min_Range>
-	            <Activation_Max_Range>800</Activation_Max_Range>
+                                <Activation_Min_Range>0</Activation_Min_Range>
+                    <Activation_Max_Range>800</Activation_Max_Range>
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Damage_Per_Frame>50</Damage_Per_Frame>			
-			</Energy_Weapon_Attack_Ability>
+                                <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                                <Damage_Per_Frame>50</Damage_Per_Frame>
+                        </Energy_Weapon_Attack_Ability>
 
-			<Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
-				<Activation_Style> User_Input </Activation_Style>
-				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
-				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-				<Activation_Min_Range>5</Activation_Min_Range>
-	            <Activation_Max_Range>1100</Activation_Max_Range>
+                        <Tractor_Beam_Attack_Ability Name="Piet_Tractor_Beam_Attack_Ability">
+                                <Activation_Style> User_Input </Activation_Style>
+                                <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                    <Applicable_Unit_Types>Millennium_Falcon, Sundered_Heart</Applicable_Unit_Types>
+                                <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                                <Activation_Min_Range>5</Activation_Min_Range>
+                    <Activation_Max_Range>1100</Activation_Max_Range>
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
-				<Stacking_Category>2</Stacking_Category>			
-			</Tractor_Beam_Attack_Ability>
+                                <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                                <Target_Speed_Decrease_Percent>.98</Target_Speed_Decrease_Percent>
+                                <Stacking_Category>2</Stacking_Category>
+                        </Tractor_Beam_Attack_Ability>
 
 
-		</Abilities>
-		
-	</UniqueUnit>
-	
-	<!-- Executor Piett -->
-	
-	<HeroUnit Name="Admiral_Piett">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Text_ID>UEAW_HERO_ADMIRAL_PIETT</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_ADMIRAL_PIETT </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> UEAW_CLASS_EXECUTOR_SSD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_button_captain_admiral_piett.tga</Icon_Name>
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Walk</Type>
-		<Affiliation>Dark_Side</Affiliation>
-		<Required_Timeline>4</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Anaxes</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Unique_Space_Unit>Executor_Super_Star_Destroyer_Piett</Unique_Space_Unit>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+                </Abilities>
 
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die>
+        </UniqueUnit>
 
-		<CategoryMask> SpaceHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-
-		<Neutralization_Cost>5000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>Yes</Can_Be_Neutralized_By_Minor_Heroes>
-
-		<Abilities SubObjectList="Yes">
-			<Combat_Bonus_Ability Name="Piett_Combat_Bonus_General">
-				<Activation_Style>Space_Automatic</Activation_Style>
-				<Unit_Strength_Category>Capital | Corvette | Frigate | Fighter</Unit_Strength_Category>
-				<Applicable_Unit_Categories>Capital | Corvette | Frigate | Fighter</Applicable_Unit_Categories>
-				<Applicable_Unit_Types></Applicable_Unit_Types>
-				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
-				<Damage_Bonus_Percentage>0.25</Damage_Bonus_Percentage>
-				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
-				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
-				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
-				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Combat_Bonus_Ability>
-		</Abilities>
-	</HeroUnit>
-	
-	
-	<HeroCompany Name="Piett_Team_Executor">
-		<Text_ID>UEAW_UNIT_ADMIRAL_PIETT</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_ADMIRAL_PIETT </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> UEAW_CLASS_EXECUTOR_SSD </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_button_captain_firmus_piett.tga</Icon_Name>
-		<Scale_Factor>.70</Scale_Factor>
-		<GUI_Row> 0 </GUI_Row>
-
-		<Affiliation>Dark_Side</Affiliation>
-		<Damage>100</Damage>
-		<Combat_Power_Value>0</Combat_Power_Value>
-		
-		<Tech_Level>5</Tech_Level>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>5</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, The_Maw</Required_Planets>
-		<Build_Time_Seconds>300</Build_Time_Seconds>
-		<Build_Cost_Credits>30000</Build_Cost_Credits>
-		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
-
-		<Is_Dummy>Yes</Is_Dummy>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Admiral_Piett</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Is_Force_Sensitive>No</Is_Force_Sensitive>
-		<Available_In_Skirmish>yes</Available_In_Skirmish>
-		<Can_Be_Only_One>true</Can_Be_Only_One>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
-
-		<CategoryMask>LandHero | SpaceHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-		<Population_Value>3</Population_Value>
-		<Land_Override_Population_Value>1</Land_Override_Population_Value>
-		<Score_Cost_Credits> 20000 </Score_Cost_Credits>
-
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-	   <Unit_Abilities_Data SubObjectList="Yes">
-	      <!-- Primary ability -->
-	      <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-	   </Unit_Abilities_Data>
-	   
-	   <Abilities SubObjectList="Yes">
-	      <Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-	            
-				<Excluded_Unit_Types>
-					Buzz_Droids,
-					Rebel_Star_Base_1,
-					Rebel_Star_Base_2,
-					Rebel_Star_Base_3,
-					Rebel_Star_Base_4,
-					Rebel_Star_Base_5,
-					Empire_Star_Base_1,
-					Empire_Star_Base_2,
-					Empire_Star_Base_3,
-					Empire_Star_Base_4,
-					Empire_Star_Base_5,
-					Pirate_Asteroid_Base,
-					Skirmish_Rebel_Star_Base_1,
-					Skirmish_Rebel_Star_Base_2,
-					Skirmish_Rebel_Star_Base_3,
-					Skirmish_Rebel_Star_Base_4,
-					Skirmish_Rebel_Star_Base_5,
-					Skirmish_Empire_Star_Base_1,
-					Skirmish_Empire_Star_Base_2,
-					Skirmish_Empire_Star_Base_3,
-					Skirmish_Empire_Star_Base_4,
-					Skirmish_Empire_Star_Base_5,
-					Underworld_Star_Base_1,
-					Underworld_Star_Base_2,
-					Underworld_Star_Base_3,
-					Underworld_Star_Base_4,
-					Underworld_Star_Base_5,
-					Skirmish_Underworld_Star_Base_1,
-					Skirmish_Underworld_Star_Base_2,
-					Skirmish_Underworld_Star_Base_3,
-					Skirmish_Underworld_Star_Base_4,
-					Skirmish_Underworld_Star_Base_5,
-					Hutt_Asteroid_Base,
-					Skirmish_Hutt_Asteroid_Base
-				</Excluded_Unit_Types>
-				
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>2000</Activation_Max_Range>
-
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
-	      </Tractor_Beam_Attack_Ability>
-   	   </Abilities>
-		<Death_Clone>Damage_Normal, Executor_Super_Star_Destroyer_Skirmish_Deathclone</Death_Clone>
-	</HeroCompany>
-	
-	<UniqueUnit Name="Executor_Super_Star_Destroyer_Piett">
-		<Variant_Of_Existing_Type>Executor_Super_Star_Destroyer</Variant_Of_Existing_Type>
-		<Icon_Name>UEAW_button_admiral_firmus_piett.tga</Icon_Name>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		<Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
-
-		<Text_ID>UEAW_UNIT_EXECUTOR</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_PIETT_ADMIRAL </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_SSD </Encyclopedia_Unit_Class>
-		
-		<HardPoints>
-                        HP_EXECUTOR_PIETT_E3_HTL_01,
-                        HP_EXECUTOR_PIETT_E3_HTL_02,
-                        HP_EXECUTOR_PIETT_E3_HTL_03,
-                        HP_EXECUTOR_PIETT_E3_HTL_04,
-                        HP_EXECUTOR_PIETT_E3_HTL_05,
-                        HP_EXECUTOR_PIETT_E3_HTL_06,
-                        HP_EXECUTOR_PIETT_E3_HTL_07,
-                        HP_EXECUTOR_PIETT_E3_HTL_08,
-                        HP_EXECUTOR_PIETT_E3_HTL_09,
-                        HP_EXECUTOR_PIETT_E3_HTL_10,
-                        HP_EXECUTOR_PIETT_E3_HI_01,
-                        HP_EXECUTOR_PIETT_E3_HI_02,
-                        HP_EXECUTOR_PIETT_E3_HI_03,
-                        HP_EXECUTOR_PIETT_E3_HI_04,
-                        HP_EXECUTOR_PIETT_E3_L_01,
-                        HP_EXECUTOR_PIETT_E3_L_02,
-                        HP_EXECUTOR_PIETT_E3_L_03,
-                        HP_EXECUTOR_PIETT_E3_L_04,
-                        HP_EXECUTOR_PIETT_E3_L_05,
-                        HP_EXECUTOR_PIETT_E3_L_06,
-                        HP_EXECUTOR_PIETT_E3_MTL_01,
-                        HP_EXECUTOR_PIETT_E3_MTL_02,
-                        HP_EXECUTOR_PIETT_E3_MTL_03,
-                        HP_EXECUTOR_PIETT_E3_MTL_04,
-                        HP_EXECUTOR_PIETT_E3_MTL_05,
-                        HP_EXECUTOR_PIETT_E3_APHCM_01,
-                        HP_EXECUTOR_PIETT_E3_APHCM_02,
-                        HP_EXECUTOR_PIETT_E3_APHCM_03,
-                        HP_EXECUTOR_PIETT_E3_APHCM_04,
-                        HP_EXECUTOR_PIETT_E3_APHCM_05,
-                        HP_EXECUTOR_PIETT_E3_TRACTOR,
-                        HP_EXECUTOR_PIETT_E3_SHIELD_00,
-                        HP_EXECUTOR_PIETT_E3_SHIELD_01,
-                        HP_EXECUTOR_PIETT_E3_SHIELD_02,
-                        HP_EXECUTOR_PIETT_E3_ENGINES_00,
-                        HP_EXECUTOR_PIETT_E3_ENGINES_01,
-                        HP_EXECUTOR_PIETT_E3_HANGAR
-        </HardPoints>
-		
-		<Tech_Level>99</Tech_Level>
-		<SFXEvent_Select>Unit_Select_Piett</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Piett</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Piett</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Piett</SFXEvent_Guard>
-		<SFXEvent_Health_Low_Warning> Unit_Health_Low_Piett </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_Piett </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
-
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Piett </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Piett</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-		<SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-	  
-
-		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
-		<Population_Value>10</Population_Value>
-		<GUI_Row> 0 </GUI_Row>
-		<Neutralization_Cost>2000.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>No</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
-		
-		<Unit_Abilities_Data SubObjectList="Yes">
-	      <!-- Primary ability -->
-	      <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name>Executor_Tractor_Beam_Attack_Ability</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>20</Recharge_Seconds>
-	            <SFXEvent_Target_Ability>Unit_Tractor_Beam_Vader_Executor</SFXEvent_Target_Ability>
-				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-	   </Unit_Abilities_Data>
-	   
-	   <Abilities SubObjectList="Yes">
-	      <Tractor_Beam_Attack_Ability Name="Executor_Tractor_Beam_Attack_Ability">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-	            
-				<Excluded_Unit_Types>
-					Buzz_Droids,
-					Rebel_Star_Base_1,
-					Rebel_Star_Base_2,
-					Rebel_Star_Base_3,
-					Rebel_Star_Base_4,
-					Rebel_Star_Base_5,
-					Empire_Star_Base_1,
-					Empire_Star_Base_2,
-					Empire_Star_Base_3,
-					Empire_Star_Base_4,
-					Empire_Star_Base_5,
-					Pirate_Asteroid_Base,
-					Skirmish_Rebel_Star_Base_1,
-					Skirmish_Rebel_Star_Base_2,
-					Skirmish_Rebel_Star_Base_3,
-					Skirmish_Rebel_Star_Base_4,
-					Skirmish_Rebel_Star_Base_5,
-					Skirmish_Empire_Star_Base_1,
-					Skirmish_Empire_Star_Base_2,
-					Skirmish_Empire_Star_Base_3,
-					Skirmish_Empire_Star_Base_4,
-					Skirmish_Empire_Star_Base_5,
-					Underworld_Star_Base_1,
-					Underworld_Star_Base_2,
-					Underworld_Star_Base_3,
-					Underworld_Star_Base_4,
-					Underworld_Star_Base_5,
-					Skirmish_Underworld_Star_Base_1,
-					Skirmish_Underworld_Star_Base_2,
-					Skirmish_Underworld_Star_Base_3,
-					Skirmish_Underworld_Star_Base_4,
-					Skirmish_Underworld_Star_Base_5,
-					Hutt_Asteroid_Base,
-					Skirmish_Hutt_Asteroid_Base
-				</Excluded_Unit_Types>
-				
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>2000</Activation_Max_Range>
-
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
-	      </Tractor_Beam_Attack_Ability>
-   	   </Abilities>
-
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>50000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
 </Data>
