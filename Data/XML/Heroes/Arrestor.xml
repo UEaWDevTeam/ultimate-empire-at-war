@@ -1,25 +1,25 @@
 <?xml version="1.0" ?> 
 <Data>
-<UniqueUnit Name="Reliance_I">
+<UniqueUnit Name="Arrestor">
 
 	<!-- General ID -->
-		<Text_ID>TEXT_HERO_RELIANCE_I</Text_ID>
+		<Text_ID>TEXT_HERO_ARRESTOR</Text_ID>
 		<Encyclopedia_Good_Against>    </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>    </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_RELIANCE_I</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_ARRESTOR</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_captain_antillies.tga</Icon_Name>
 	<!-- Unit Model Details -->
-		<Space_Model_Name>VCBa_INEXPUGNABLE_CLASS.alo</Space_Model_Name>
+		<Space_Model_Name>VCCr_ACCLAMATOR.alo</Space_Model_Name>
 		<Scale_Factor>0.63</Scale_Factor>
 		<Mass>0.999</Mass>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<!-- Basic Stats -->
-		<Affiliation>Light_Side, Old_Republic</Affiliation>
-		<Ship_Class>Battleship</Ship_Class>
-		<CategoryMask> Battleship </CategoryMask>
+		<Affiliation>Light_Side, Republic</Affiliation>
+		<Ship_Class>Frigate</Ship_Class>
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
 		<FormationPriority>3</FormationPriority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -28,21 +28,21 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
 		<Damage>20</Damage>
-		<Tactical_Health>17500</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
-		<Autoresolve_Health>37500</Autoresolve_Health>
-		<Shield_Points>20000</Shield_Points>
-		<Shield_Refresh_Rate>750</Shield_Refresh_Rate>
+		<Tactical_Health>2160</Tactical_Health>
+		<Autoresolve_Health>1800</Autoresolve_Health>
+		<Shield_Points>2592</Shield_Points>
+		<Shield_Refresh_Rate>300</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Armor_Type> Armour_Battleship </Armor_Type>
-		<Shield_Armor_Type>Shield_Battleship</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+		<Armor_Type> Armour_Frigate </Armor_Type>
+		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 		
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Size_Value>8</Size_Value>		
 	<!-- Build Stats -->			
-		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Cost_Credits>1000</Build_Cost_Credits>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -51,19 +51,19 @@
 		<GUI_Row> 1 </GUI_Row>
 	<!-- Movement Stats -->
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Battleship </Space_Layer>
+		<Space_Layer> Corvette </Space_Layer>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-		<Max_Speed>1.9585</Max_Speed>
+		<Max_Speed>4.90</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
-		<Max_Rate_Of_Turn>0.030067787</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>0.036081345</Max_Rate_Of_Roll>
+		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
-		<OverrideAcceleration> .007 </OverrideAcceleration>
-		<OverrideDeceleration> .007 </OverrideDeceleration>	
-		<Guard_Chase_Range>2000.0</Guard_Chase_Range>
+		<OverrideAcceleration> .12 </OverrideAcceleration>
+		<OverrideDeceleration> .12 </OverrideDeceleration>	
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>400.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
 		
@@ -91,31 +91,17 @@
 		</SpaceBehavior>
 	<!-- Hardpoints -->
 		<HardPoints> 
-				HP_INEXPUGNABLE_CLASS_MTL_01, 
-				HP_INEXPUGNABLE_CLASS_MTL_02, 
-				HP_INEXPUGNABLE_CLASS_MTL_03, 
-				HP_INEXPUGNABLE_CLASS_MTL_04, 
-				HP_INEXPUGNABLE_CLASS_HTL_01,
-				HP_INEXPUGNABLE_CLASS_HTL_02,
-				HP_INEXPUGNABLE_CLASS_LTL_01,
-				HP_INEXPUGNABLE_CLASS_LTL_02,
-				HP_INEXPUGNABLE_CLASS_LTL_03,
-				HP_INEXPUGNABLE_CLASS_LTL_04,
-				HP_INEXPUGNABLE_CLASS_LTL_05,
-				HP_INEXPUGNABLE_CLASS_LTL_06,
-				HP_INEXPUGNABLE_CLASS_L_01,
-				HP_INEXPUGNABLE_CLASS_L_02,
-				HP_INEXPUGNABLE_CLASS_L_03,
-				HP_INEXPUGNABLE_CLASS_L_04,
-				HP_INEXPUGNABLE_CLASS_ENGINES_01,
-				HP_INEXPUGNABLE_CLASS_ENGINES_02,
-				HP_INEXPUGNABLE_CLASS_SHIELDS,
-				HP_INEXPUGNABLE_CLASS_HANGAR,
-				HP_INEXPUGNABLE_CLASS_TRACTOR
-				
+				HP_Arrestor_Weapon_FL, 
+				HP_Arrestor_Weapon_FR, 
+				HP_Arrestor_Weapon_FC, 
+				HP_Arrestor_Weapon_BL, 
+				HP_Arrestor_Weapon_BR,
+				HP_Arrestor_Weapon_BC,
+				HP_Arrestor_Engines,
+				HP_Arrestor_Fighter_Bay
 		</HardPoints>
 	<!-- Death Stats -->
-		<Death_Clone>Damage_Normal, Reliance_I_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Arrestor_Death_Clone</Death_Clone>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 	<!-- SFX GC -->
@@ -146,23 +132,16 @@
 	<!-- Abilities -->
             <Unit_Abilities_Data SubObjectList="Yes">
                 <!-- Primary ability -->
-				<Unit_Ability>
-                    <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                    <Recharge_Seconds>22</Recharge_Seconds>
-                    <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
-					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-					<Supports_Autofire>True</Supports_Autofire>
-                </Unit_Ability>
-				
-				<Unit_Ability>
-					<Type>CONCENTRATE_FIRE</Type>
-					<Effective_Radius>6000</Effective_Radius>
-					<Recharge_Seconds>20</Recharge_Seconds>
-					<Expiration_Seconds>15</Expiration_Seconds>
-					<Particle_Effect>Home_One_Target_Particles</Particle_Effect>
-					<GUI_Activated_Ability_Name>Akbar_Home_One_Ability</GUI_Activated_Ability_Name>
+				 <Unit_Ability>
+					<Type>TURBO</Type> 
+					<Expiration_Seconds>20</Expiration_Seconds> 
+					<Recharge_Seconds>60</Recharge_Seconds> 
+					<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 2.0f</Mod_Multiplier> 
+					<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier> 
+					<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER, 1.0f</Mod_Multiplier> 
+					<Mod_Multiplier>SPEED_MULTIPLIER, 0.5f</Mod_Multiplier> 
+					<SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated> 
+					<SFXEvent_GUI_Unit_Ability_Deactivated /> 
 				</Unit_Ability>
              </Unit_Abilities_Data>
 	<!-- Radar and FOW Stats -->
@@ -175,7 +154,7 @@
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
 	<!-- Multiplayer / Skirmish -->
-		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Cost_Multiplayer>1000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -191,22 +170,18 @@
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 	<!-- Squadron Stats --> 
-		<Squadron_Capacity>14</Squadron_Capacity>
+		<Squadron_Capacity>12</Squadron_Capacity>
 		<Transport_Capacity>4</Transport_Capacity>
 		
-		<Starting_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 12</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 12</Starting_Spawned_Units_Tech_0>
         <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 0</Reserve_Spawned_Units_Tech_0>
-		
-		<Starting_Spawned_Units_Tech_0>OR_CHELA_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
-        <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>OR_CHELA_SQUADRON, 0</Reserve_Spawned_Units_Tech_0>
+        <Reserve_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 0</Reserve_Spawned_Units_Tech_0>
 		
 	</UniqueUnit>
 
-	<UniqueUnit Name="Reliance_I_Death_Clone">
-		<Text_ID>TEXT_UNIT_RELIANCE_I</Text_ID>
-		<Space_Model_Name>VCBa_INEXPUGNABLE_CLASS_D.alo</Space_Model_Name>
+	<UniqueUnit Name="Arrestor_Death_Clone">
+		<Text_ID>TEXT_UNIT_ARRESTOR</Text_ID>
+		<Space_Model_Name>VCCr_ACCLAMATOR_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>

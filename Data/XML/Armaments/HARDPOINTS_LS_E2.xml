@@ -5377,6 +5377,105 @@
                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
         </HardPoint>
+		
+<!-- Jedi Actis Hard Points -->
+
+		<HardPoint Name="HP_Jedi_Actis_L_01">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_00</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+		<HardPoint Name="HP_Jedi_Actis_L_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_01</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+		<HardPoint Name="HP_Jedi_Actis_LI_01">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEB_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEB_00</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Light</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+		<HardPoint Name="HP_Jedi_Actis_LI_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEB_01</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEB_01</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>30.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Light</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>1.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Republic_Ship_Laser_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+        </HardPoint>
 
 <!-- Integrity (Venator Class Battleship) Hard Points -->
 <!--

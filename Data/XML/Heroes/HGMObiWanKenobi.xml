@@ -1,25 +1,25 @@
 <?xml version="1.0" ?> 
 <Data>
-<UniqueUnit Name="Admiral_Dodonna">
+<UniqueUnit Name="HGM_Obi_Wan_Kenobi">
 
 	<!-- General ID -->
-		<Text_ID>TEXT_HERO_ADMIRAL_DODONNA</Text_ID>
+		<Text_ID>TEXT_HERO_HGM_OBI_WAN_KENOBI</Text_ID>
 		<Encyclopedia_Good_Against>    </Encyclopedia_Good_Against>
 		<Encyclopedia_Vulnerable_To>    </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_ADMIRAL_DODONNA</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_HGM_OBI_WAN_KENOBI</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
 		
 		<Icon_Name>i_button_captain_antillies.tga</Icon_Name>
 	<!-- Unit Model Details -->
-		<Space_Model_Name>VCCr_HAMMERHEAD_CRUISER.alo</Space_Model_Name>
+		<Space_Model_Name>VSF_ETA-2_ACTIS.alo</Space_Model_Name>
 		<Scale_Factor>0.63</Scale_Factor>
 		<Mass>0.999</Mass>
 		
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 	<!-- Basic Stats -->
 		<Affiliation>Light_Side, Old_Republic</Affiliation>
-		<Ship_Class>Frigate</Ship_Class>
-		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<Ship_Class>fighter</Ship_Class>
+		<CategoryMask> Fighter | AntiBomber </CategoryMask>
 		<FormationPriority>3</FormationPriority>
 		<Is_Escort>Yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -28,21 +28,21 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		
 		<Damage>20</Damage>
-		<Tactical_Health>2280</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
-		<Autoresolve_Health>1800</Autoresolve_Health>
-		<Shield_Points>1000</Shield_Points>
-		<Shield_Refresh_Rate>30</Shield_Refresh_Rate>
+		<Tactical_Health>100</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
+		<Autoresolve_Health>175</Autoresolve_Health>
+		<Shield_Points>75</Shield_Points>
+		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
 		<Energy_Capacity>9999</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Armor_Type> Armour_Corvette_Basic </Armor_Type>
-		<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+		<Armor_Type> Armour_Starfighter </Armor_Type>
+		<Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 		
 		<AI_Combat_Power>1000</AI_Combat_Power>
 		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
 		<Number_per_Squadron>1</Number_per_Squadron>
 		<Size_Value>8</Size_Value>		
 	<!-- Build Stats -->			
-		<Build_Cost_Credits>3000</Build_Cost_Credits>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Maintenance_Cost>0.1</Maintenance_Cost>
@@ -91,60 +91,60 @@
 		</SpaceBehavior>
 	<!-- Hardpoints -->
 		<HardPoints> 
-				HP_DODANNA_MTL_01, 
-				HP_DODANNA_MTL_02, 
-				HP_DODANNA_MTL_03, 
-				HP_DODANNA_MTL_04, 
-				HP_DODANNA_L_01,
-				HP_DODANNA_L_02,
-				HP_DODANNA_HL_01,
-				HP_DODANNA_HL_02,
-				HP_DODANNA_ENGINE,
-				HP_DODANNA_HANGAR,
-				HP_DODANNA_SHIELD
+				HP_Jedi_Actis_L_01, 
+				HP_Jedi_Actis_L_02, 
+				HP_Jedi_Actis_LI_01, 
+				HP_Jedi_Actis_LI_02
 		</HardPoints>
 	<!-- Death Stats -->
-		<Death_Clone>Damage_Normal, Ebon_Hawk_Death_Clone</Death_Clone>
-		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+        <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+        <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B</Spin_Away_On_Death_Explosion>
+        <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+        <Remove_Upon_Death>true</Remove_Upon_Death>
+		<Death_Explosions>PEx_Explosion_Smaller_B</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 	<!-- SFX GC -->
 		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
 	<!-- SFX Given basic Order-->
-		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
+		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
 		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_Antilles</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Antilles</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Antilles</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Antilles</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Antilles</SFXEvent_Guard>
+		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
 	 <!-- SFX Given Attack Order -->
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Corvette </SFXEvent_Attack_Hardpoint>
-        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Corvette </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
+        <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
 	<!-- Random -->
 		<SFXEvent_Engine_Idle_Loop> Unit_Corvette_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Corvette_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corvette_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 	<!-- Abilities -->
-            <Unit_Abilities_Data SubObjectList="Yes">
-                <!-- Primary ability -->
-				<Unit_Ability>
-                    <Type>TRACTOR_BEAM</Type>
-                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-                    <Recharge_Seconds>22</Recharge_Seconds>
-                    <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
-					<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
-					<Supports_Autofire>True</Supports_Autofire>
-                </Unit_Ability>
-             </Unit_Abilities_Data>
+	<Unit_Abilities_Data SubObjectList="Yes">
+                        <!-- Primary ability -->
+                        <Unit_Ability>
+                                <Type>SPOILER_LOCK</Type>
+
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+                        </Unit_Ability>
+       </Unit_Abilities_Data>
+
 	<!-- Radar and FOW Stats -->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 	
@@ -171,27 +171,7 @@
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
 	<!-- Squadron Stats --> 
-		<Squadron_Capacity>1</Squadron_Capacity>
-		<Transport_Capacity>4</Transport_Capacity>
 		
-		<Starting_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
-        <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-        <Reserve_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 0</Reserve_Spawned_Units_Tech_0>
 		
-	</UniqueUnit>
-
-	<UniqueUnit Name="Admiral_Dodonna_Death_Clone">
-		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
-		<Space_Model_Name>RV_AntilliesVette_D.alo</Space_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>0.5</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Speed>0.25</Max_Speed>
-		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
-		<Max_Thrust>0.05</Max_Thrust>
-		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
 	</UniqueUnit>
 </Data>
