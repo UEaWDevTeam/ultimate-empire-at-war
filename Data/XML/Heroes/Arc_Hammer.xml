@@ -1,265 +1,287 @@
 <?xml version="1.0"?>
 <!-- fixed applied sds -->
-<Data>	
-	<HeroUnit Name="Rom_Mohc">
-		<Is_Named_Hero>Yes</Is_Named_Hero>
+<Data>
+        <HeroUnit Name="Rom_Mohc">
+                <Is_Named_Hero>Yes</Is_Named_Hero>
 
-		<Text_ID>UEAW_UNIT_ROM_MOHC</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_ROM_MOHC </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_ROM_MOHC.tga</Icon_Name>
+                <Text_ID>UEAW_UNIT_ROM_MOHC</Text_ID>
+                <Encyclopedia_Text> UEAW_TOOLTIP_ROM_MOHC </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+                <Icon_Name>UEAW_BUTTON_ROM_MOHC.tga</Icon_Name>
 
-		<Mass>1.0</Mass>
-		<Scale_Factor>1.0</Scale_Factor>
-		<!--<Is_Sprite>No</Is_Sprite>-->
-		<Type>Walk</Type>
-		<Affiliation>Dark_Side</Affiliation>
-		<Required_Timeline>4</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<IsBuildable>No</IsBuildable>
-		<Spawn_Planet>Coruscant</Spawn_Planet>
-		<Size_Value>75</Size_Value>
-		<Damage>80</Damage>
-		<Autoresolve_Health>200</Autoresolve_Health>
-		<Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
-		<Unique_Space_Unit>Arc_Hammer_UEAW</Unique_Space_Unit>
-		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
-		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
+                <Mass>1.0</Mass>
+                <Scale_Factor>1.0</Scale_Factor>
+                <!--<Is_Sprite>No</Is_Sprite>-->
+                <Type>Walk</Type>
+                <Affiliation>Dark_Side, Empire</Affiliation>
+                <Required_Timeline>4</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <IsBuildable>No</IsBuildable>
+                <Spawn_Planet>Coruscant</Spawn_Planet>
+                <Size_Value>75</Size_Value>
+                <Damage>80</Damage>
+                <Autoresolve_Health>200</Autoresolve_Health>
+                <Attach_To_Flagship_During_Space_Battle>No</Attach_To_Flagship_During_Space_Battle>
+                <Unique_Space_Unit>Arc_Hammer</Unique_Space_Unit>
+                <Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
+                <Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 
 
-		<SFXEvent_Select>Unit_Select_Arc_Hammer</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Arc_Hammer</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Arc_Hammer</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Arc_Hammer</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Arc_Hammer</SFXEvent_Guard>
-		<!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
+                <SFXEvent_Select>Unit_Select_Arc_Hammer</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Arc_Hammer</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Arc_Hammer</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Arc_Hammer</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Arc_Hammer</SFXEvent_Guard>
+                <!-- <Death_SFXEvent_Start_Die> Unit_Defeat_Piett </Death_SFXEvent_Start_Die> -->
 
-		<CategoryMask> NonCombatHero </CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
+                <CategoryMask> NonCombatHero </CategoryMask>
+                <Ranking_In_Category> 3 </Ranking_In_Category>
 
-		<Neutralization_Cost>1500.0</Neutralization_Cost>
-		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
-		<Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+                <Neutralization_Cost>1500.0</Neutralization_Cost>
+                <Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+                <Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
 
-		<Abilities SubObjectList="Yes">
+                <Abilities SubObjectList="Yes">
 
-		</Abilities>
-	</HeroUnit>
+                </Abilities>
+        </HeroUnit>
 
-	<HeroCompany Name="Arc_Hammer_Team">
-		<Text_ID>UEAW_UNIT_ROM_MOHC</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_ROM_MOHC </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
-		<Icon_Name>UEAW_BUTTON_ROM_MOHC.tga</Icon_Name>
+        <HeroCompany Name="Arc_Hammer_Team">
+                <Text_ID>UEAW_UNIT_ROM_MOHC</Text_ID>
+                <Encyclopedia_Text> UEAW_TOOLTIP_ROM_MOHC </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_GENERAL </Encyclopedia_Unit_Class>
+                <Icon_Name>UEAW_BUTTON_ROM_MOHC.tga</Icon_Name>
 
-		<Is_Dummy>Yes</Is_Dummy>
-		<Affiliation>Dark_Side</Affiliation>
-		<!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
-		<Damage>100</Damage>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
-		<Required_Timeline>1</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>0</Required_Star_Base_Level>
-		<Required_Special_Structures></Required_Special_Structures>
-		<Required_Planets></Required_Planets>
-		<Behavior>DUMMY_GROUND_COMPANY</Behavior>
-		<Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
-		<Company_Units>Rom_Mohc</Company_Units>
-		<Is_Named_Hero>Yes</Is_Named_Hero>	
-		
-		<SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>		
-		<SFXEvent_Build_Complete>Unit_Respawn_Piett</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Respawn_Piett</SFXEvent_Hero_Respawned>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
+                <Is_Dummy>Yes</Is_Dummy>
+                <Affiliation>Dark_Side, Empire</Affiliation>
+                <!-- <Build_Cost_Credits>-1</Build_Cost_Credits> -->
+                <Damage>100</Damage>
+                <Build_Time_Seconds>0</Build_Time_Seconds>
+                <Combat_Power_Value>0</Combat_Power_Value>
+                <Tech_Level>1</Tech_Level>
+                <Required_Timeline>1</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>0</Required_Star_Base_Level>
+                <Required_Special_Structures></Required_Special_Structures>
+                <Required_Planets></Required_Planets>
+                <Behavior>DUMMY_GROUND_COMPANY</Behavior>
+                <Company_Transport_Unit>Shuttle_Tyderium</Company_Transport_Unit>
+                <Company_Units>Rom_Mohc</Company_Units>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
 
-	   <Unit_Abilities_Data SubObjectList="Yes">
+                <SFXEvent_Build_Started>EHD_Request_Assistance</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Request_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Respawn_Piett</SFXEvent_Build_Complete>
+                <SFXEvent_Hero_Respawned>Unit_Respawn_Piett</SFXEvent_Hero_Respawned>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Piett</SFXEvent_Fleet_Move>
 
-            </Unit_Ability>
-	   </Unit_Abilities_Data>
-		<CategoryMask>NonCombatHero</CategoryMask>
-		<Ranking_In_Category> 3 </Ranking_In_Category>
-	</HeroCompany>
-	
-	<UniqueUnit Name="Arc_Hammer_UEAW">
-		<Text_ID>UEAW_UNIT_ARC_HAMMER</Text_ID>
-		<Encyclopedia_Text> UEAW_TOOLTIP_ARC_HAMMER </Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
-		<Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat MC30_Frigate </Encyclopedia_Vulnerable_To>
-		<Icon_Name>UEAW_BUTTON_ARCHAMMER.TGA</Icon_Name>
+           <Unit_Abilities_Data SubObjectList="Yes">
 
-		<GUI_Row>0 </GUI_Row>
-		<Space_Model_Name>VCBaU_ARC_HAMMER.ALO</Space_Model_Name>
+           </Unit_Abilities_Data>
+                <CategoryMask>NonCombatHero</CategoryMask>
+                <Ranking_In_Category> 3 </Ranking_In_Category>
+        </HeroCompany>
 
-		<Ranking_In_Category>5</Ranking_In_Category>
+        <UniqueUnit Name="Arc_Hammer">
+                <Text_ID>TEXT_UNIT_ARC_HAMMER</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_ARC_HAMMER </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FACTORY_SHIP </Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> Y-wing Skipray_Blastboat </Encyclopedia_Vulnerable_To>
 
-		<GUI_Model_Name>EV_StarDestroyer_hulk.ALO</GUI_Model_Name>
-		<GUI_Distance>2300</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-	    <GUI_Bracket_Height>500</GUI_Bracket_Height>
-		<GUI_Bracket_Size>2</GUI_Bracket_Size>
+                <Space_Model_Name>VCBaU_ARC_HAMMER.ALO</Space_Model_Name>
+                <Icon_Name>i_button_Rom_Mohc.tga</Icon_Name>
 
-		<Select_Box_Scale>800</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
 
-		<Scale_Factor>1.0</Scale_Factor>
-		<Mass>0.999</Mass>
-		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
-		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
-		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type> Armour_Battleship </Armor_Type>
-		<Shield_Armor_Type>Shield_Battleship</Shield_Armor_Type>
+                <GUI_Row> 1 </GUI_Row>
+                <GUI_Bracket_Height>500</GUI_Bracket_Height>
+                <GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Max_Speed>1.4</Max_Speed>
-		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<OverrideAcceleration> .02 </OverrideAcceleration>
-		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
-		<Max_Thrust>0.1</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-		<Hyperspace_Speed>2</Hyperspace_Speed>
-		<Maintenance_Cost>0.3</Maintenance_Cost>
+                <Select_Box_Scale>800</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
-		<Affiliation>Dark_Side</Affiliation>
-		<Tech_Level>99</Tech_Level>
-		<Required_Timeline>0</Required_Timeline>
-		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		<Required_Special_Structures />
-		<Required_Planets></Required_Planets> 
-		<Damage>70</Damage>
-		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>5750</Shield_Points>
-		<Tactical_Health>7500</Tactical_Health> <!-- was 6000 -->
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
-		<Energy_Capacity>8000</Energy_Capacity>
-		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
-		<Ship_Class>capital</Ship_Class>
-		<Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
-		<!--<Political_Control>1</Political_Control>-->
-		<Political_Faction>Dark_Side</Political_Faction>
-		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>0</Build_Cost_Credits>
-		<Piracy_Value_Credits>250</Piracy_Value_Credits>
-		<AI_Combat_Power>5900</AI_Combat_Power>
-		<Build_Time_Seconds>0</Build_Time_Seconds>
-		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
-		<Size_Value>8</Size_Value>
+                <Scale_Factor>1.0</Scale_Factor>
+                <Mass>0.999</Mass>
+                <Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+                <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
-		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-		<Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+                <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+                <Armor_Type> Armour_Cruiser_Heavy </Armor_Type>
+                <Shield_Armor_Type>Shield_Cruiser_Heavy</Shield_Armor_Type>
 
-		<Death_Clone>Damage_Normal, UEAWArcHammer_Death_Clone</Death_Clone>
-		<Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
-		<Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
+                <Max_Speed>1.6</Max_Speed>
+                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Capital </Space_Layer>
+                <Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
+                <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <OverrideAcceleration> .02 </OverrideAcceleration>
+                <OverrideDeceleration> .02 </OverrideDeceleration>
 
-		<HardPoints> 
-			HP_E_ARC_HAMMER_E3_LTL_01,
-			HP_E_ARC_HAMMER_E3_LTL_02,
-			HP_E_ARC_HAMMER_E3_LTL_03,
-			HP_E_ARC_HAMMER_E3_LTL_04,
-			HP_E_ARC_HAMMER_E3_APHCM_01,
-			HP_E_ARC_HAMMER_E3_APHCM_02,
-			HP_E_ARC_HAMMER_E3_MI_01,
-			HP_E_ARC_HAMMER_E3_MI_02,
-			HP_E_ARC_HAMMER_E3_SHIELD,
-			HP_E_ARC_HAMMER_E3_ENGINE
-		</HardPoints>
+                <Max_Thrust>0.1</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+                <Hyperspace_Speed>2</Hyperspace_Speed>
+                <Maintenance_Cost>0.3</Maintenance_Cost>
 
-		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>EHD_Reinforcements_Available</SFXEvent_Build_Complete>
-		<SFXEvent_Tactical_Build_Started> EHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
-		<SFXEvent_Tactical_Build_Complete> EHD_Reinforcements_Available </SFXEvent_Tactical_Build_Complete>		
-		<SFXEvent_Tactical_Build_Cancelled> EHD_Reinforcements_Cancelled  </SFXEvent_Tactical_Build_Cancelled>
+                <Affiliation>Dark_Side, Empire</Affiliation>
+                <Tech_Level>99</Tech_Level>
+                <Required_Timeline>0</Required_Timeline>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Star_Base_Level>4</Required_Star_Base_Level>
+                <Required_Special_Structures />
+                <Required_Planets />
 
-		<SFXEvent_Ambient_Loop>Unit_Starbase_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Fire>Unit_Turbo_Fire</SFXEvent_Fire>
-		<SFXEvent_Select>Unit_Select_Empire_Space_Station</SFXEvent_Select>
-		<SFXEvent_Attack>Unit_Attack_Empire_Space_Station</SFXEvent_Attack>
-		<SFXEvent_Barrage>Unit_Barrage_Empire_Space_Station</SFXEvent_Barrage>
-		<Death_SFXEvent_Start_Die>Unit_Space_Station_Death_SFX</Death_SFXEvent_Start_Die>
+                <Autoresolve_Health>4340</Autoresolve_Health>
+                <Tactical_Health>2840</Tactical_Health>
+                <Shield_Points>1500</Shield_Points>
+                <Shield_Refresh_Rate>55</Shield_Refresh_Rate>
+                <Energy_Capacity>9999</Energy_Capacity>
+                <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Empire_Space_Station</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Empire_Space_Station </SFXEvent_Attack_Hardpoint>
+                <Ship_Class>capital</Ship_Class>
+                <Squadron_Capacity>40</Squadron_Capacity>
+                <Build_Cost_Credits>6000</Build_Cost_Credits>
+                <AI_Combat_Power>4800</AI_Combat_Power>
+                <Build_Time_Seconds>100</Build_Time_Seconds>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Size_Value>8</Size_Value>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  Unit_Lost_Missile_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  Unit_Lost_Torpedo_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Empire_Space_Station </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
-		<SFXEvent_Unit_Under_Attack> EHD_Space_Station_Under_Attack </SFXEvent_Unit_Under_Attack>
+                <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
+                <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
 
-		<CategoryMask> Capital | AntiFrigate | SpaceHero</CategoryMask>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>0.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+                <Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+                <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
-		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
-		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+                <Death_Clone>Damage_Normal, Arc_Hammer_Death_Clone</Death_Clone>
+                <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
+                <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
-		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
+                <HardPoints>
+                        HP_ARC_HAMMER_LTL_01,
+                        HP_ARC_HAMMER_LTL_02,
+                        HP_ARC_HAMMER_LTL_03,
+                        HP_ARC_HAMMER_LTL_04,
+                        HP_ARC_HAMMER_LIB_01,
+                        HP_ARC_HAMMER_LIB_02,
+                        HP_ARC_HAMMER_MCM_01,
+                        HP_ARC_HAMMER_MCM_02,
+                        HP_ARC_HAMMER_SHIELD,
+                        HP_ARC_HAMMER_ENGINE,
+                        HP_ARC_HAMMER_HANGAR
+                </HardPoints>
 
-		<Score_Cost_Credits> 45000</Score_Cost_Credits>
+                <SFXEvent_Select>Unit_Select_Arc_Hammer</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_Arc_Hammer</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_Arc_Hammer</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_Arc_Hammer</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_Arc_Hammer</SFXEvent_Guard>
+                <SFXEvent_Barrage>Unit_Barrage_Arc_Hammer</SFXEvent_Barrage>
+                <SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Arc_Hammer </SFXEvent_Move_Into_Asteroid_Field>
+                <SFXEvent_Move_Into_Nebula> Unit_Nebula_Arc_Hammer </SFXEvent_Move_Into_Nebula>
+                <SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 
-		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-		<Tactical_Build_Cost_Multiplayer>8500</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<!--<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player> -->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
-		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-	</UniqueUnit>
-	
-	<SpaceUnit Name="UEAWArcHammer_Death_Clone">
-		<Text_ID>TEXT_UNIT_ARC_HAMMER</Text_ID>
-		<Space_Model_Name>EV_ARCHAMMER_D.ALO</Space_Model_Name>
-		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
-		<Scale_Factor> 2.0 </Scale_Factor>
-		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
-		<Max_Speed> 0.25 </Max_Speed>
-		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
-		<Max_Thrust> 0.05 </Max_Thrust>
-		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
-		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
-		<Affiliation> Empire </Affiliation>
-		<Ship_Class> capital_ship </Ship_Class>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
-	
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+                <SFXEvent_Attack_Hardpoint> HARD_POINT_FIGHTER_BAY, Unit_HP_BAY_Arc_Hammer </SFXEvent_Attack_Hardpoint>
+
+                <SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
+
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Arc_Hammer </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+                <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+
+                <SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>Unit_Complete_Arc_Hammer</SFXEvent_Build_Complete>
+                <SFXEvent_Hero_Respawned>Unit_Complete_Arc_Hammer</SFXEvent_Hero_Respawned>
+
+                <SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Star_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+                <CategoryMask> Capital | AntiFrigate | SpaceHero </CategoryMask>
+
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+                <Ranking_In_Category>5</Ranking_In_Category>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>0.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Priority_Set>Arc_Hammer_TP</Targeting_Priority_Set>
+
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+                <Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+                <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+                <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+                <Score_Cost_Credits> 45000</Score_Cost_Credits>
+                <Population_Value>2</Population_Value>
+
+                <!-- Non-Hero unit abilities description -->
+                <Unit_Abilities_Data SubObjectList="Yes">
+                        <!-- Primary ability -->
+                        <Unit_Ability>
+                                <Type>MISSILE_SHIELD</Type>
+                                <Disable_Movement>Yes</Disable_Movement>
+                                <Effective_Radius>1000</Effective_Radius>
+                                <Recharge_Seconds>45</Recharge_Seconds>
+                                <Expiration_Seconds>20</Expiration_Seconds>
+                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_GUI_Unit_Ability_Deactivated />
+                </Unit_Ability>
+
+                </Unit_Abilities_Data>
+
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>4500</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
+                <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+        </UniqueUnit>
+
+        <UniqueUnit Name="Arc_Hammer_Death_Clone">
+                <Text_ID>TEXT_TOOLTIP_ARC_HAMMER</Text_ID>
+                <Space_Model_Name>EV_archammer_D.alo</Space_Model_Name>
+                <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+                <Scale_Factor>1</Scale_Factor>
+                <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+                <Max_Speed>0.25</Max_Speed>
+                <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+                <Max_Thrust>0.05</Max_Thrust>
+                <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>5</Bank_Turn_Angle>
+                <Affiliation>Empire</Affiliation>
+                <Ship_Class>capital_ship</Ship_Class>
+                <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </UniqueUnit>
 </Data>
