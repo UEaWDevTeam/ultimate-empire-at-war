@@ -5687,6 +5687,81 @@
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
+   <!--Luke hardpoints-->
+
+        <HardPoint Name="HP_LUKE_L_01">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+                <Fire_Cone_Width>15.0</Fire_Cone_Width>
+                <Fire_Cone_Height>15.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>300.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
+
+                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+        <HardPoint Name="HP_LUKE_E3_L_02">
+                <Type> HARD_POINT_WEAPON_LASER </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEA_02</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEA_03</Fire_Bone_B>
+                <Fire_Cone_Width>15.0</Fire_Cone_Width>
+                <Fire_Cone_Height>15.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
+                <Projectile_Fire_Recharge_Seconds>0.6</Projectile_Fire_Recharge_Seconds>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>300.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
+
+               <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Capital, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Super, 2.5 </Fire_Inaccuracy_Distance>
+        </HardPoint>
+
+
+        <HardPoint Name="HP_LUKE_E3_SOPT">
+            <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>MuzzleB_00</Fire_Bone_A>
+            <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>6.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+            <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+        </HardPoint>
+
 <!-- Hard points for Admiral Ackbar -->
 
     <HardPoint Name="HP_ACKBAR_HTL_01">
