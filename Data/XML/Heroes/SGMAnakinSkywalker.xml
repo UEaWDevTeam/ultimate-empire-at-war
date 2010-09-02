@@ -1,123 +1,123 @@
-<?xml version="1.0" ?> 
+<?xml version="1.0" ?>
 <Data>
 <UniqueUnit Name="SGM_Anakin_Skywalker">
 
-	<!-- General ID -->
-		<Text_ID>TEXT_HERO_SGM_ANAKIN_SKYWALKER</Text_ID>
-		<Encyclopedia_Good_Against>    </Encyclopedia_Good_Against>
-		<Encyclopedia_Vulnerable_To>    </Encyclopedia_Vulnerable_To>
-		<Encyclopedia_Text>TEXT_TOOLTIP_SGM_ANAKIN_SKYWALKER</Encyclopedia_Text>
-		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
-		
-		<Icon_Name>i_button_captain_antillies.tga</Icon_Name>
-	<!-- Unit Model Details -->
-		<Space_Model_Name>VSF_ETA-2_ACTIS.alo</Space_Model_Name>
-		<Scale_Factor>0.63</Scale_Factor>
-		<Mass>0.999</Mass>
-		
-		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-	<!-- Basic Stats -->
-		<Affiliation>Light_Side, Old_Republic</Affiliation>
-		<Ship_Class>fighter</Ship_Class>
-		<CategoryMask> Fighter | AntiBomber </CategoryMask>
-		<FormationPriority>3</FormationPriority>
-		<Is_Escort>Yes</Is_Escort>
-		<Is_Bomber>no</Is_Bomber>
-		<Political_Control>0</Political_Control>
-		<Victory_Relevant>yes</Victory_Relevant>
-		<Is_Named_Hero>Yes</Is_Named_Hero>
-		
-		<Damage>20</Damage>
-		<Tactical_Health>100</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
-		<Autoresolve_Health>175</Autoresolve_Health>
-		<Shield_Points>75</Shield_Points>
-		<Shield_Refresh_Rate>10</Shield_Refresh_Rate>
-		<Energy_Capacity>9999</Energy_Capacity>
-		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
-		<Armor_Type> Armour_Starfighter </Armor_Type>
-		<Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
-		
-		<AI_Combat_Power>1000</AI_Combat_Power>
-		<Score_Cost_Credits> 35000 </Score_Cost_Credits>
-		<Number_per_Squadron>1</Number_per_Squadron>
-		<Size_Value>8</Size_Value>		
-	<!-- Build Stats -->			
-		<Build_Cost_Credits>500</Build_Cost_Credits>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		<Maintenance_Cost>0.1</Maintenance_Cost>
-		
-		<Tech_Level>0</Tech_Level>	
-		<GUI_Row> 1 </GUI_Row>
-	<!-- Movement Stats -->
-		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
-		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		
-		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
-		<Max_Speed>4.90</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
-		<Max_Lift>0.0</Max_Lift>
-		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>15</Bank_Turn_Angle>
-		<OverrideAcceleration> .12 </OverrideAcceleration>
-		<OverrideDeceleration> .12 </OverrideDeceleration>	
-		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
-		<Idle_Chase_Range>400.0</Idle_Chase_Range>
-		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
-		
-		<Hyperspace_Speed>1.0</Hyperspace_Speed>
-		<Max_Thrust>0.5</Max_Thrust>
-		<Hyperspace>Yes</Hyperspace>
-	<!-- Behaviours -->
-		<Behavior>
-			DUMMY_STARSHIP,
-			SELECTABLE,
-			POWERED,
-			SHIELDED
-		</Behavior>
-		<SpaceBehavior>
-			ABILITY_COUNTDOWN,
-			SIMPLE_SPACE_LOCOMOTOR,
-			SELECTABLE,
-			TARGETING,
-			REVEAL,
-			HIDE_WHEN_FOGGED,
-			UNIT_AI,
-			DAMAGE_TRACKING,
-			ION_STUN_EFFECT,
-			NEBULA
-		</SpaceBehavior>
-	<!-- Hardpoints -->
-		<HardPoints> 
-				HP_Jedi_Actis_L_01, 
-				HP_Jedi_Actis_L_02, 
-				HP_Jedi_Actis_LI_01, 
-				HP_Jedi_Actis_LI_02
-		</HardPoints>
-	<!-- Death Stats -->
-		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+        <!-- General ID -->
+                <Text_ID>TEXT_HERO_SGM_ANAKIN_SKYWALKER</Text_ID>
+                <Encyclopedia_Good_Against>    </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>    </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Text>TEXT_TOOLTIP_SGM_ANAKIN_SKYWALKER</Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_HERO_MAJOR</Encyclopedia_Unit_Class>
+
+                <Icon_Name>I_BUTTON_HERO_ANAKIN.tga</Icon_Name>
+        <!-- Unit Model Details -->
+                <Space_Model_Name>VSF_ETA-2_ACTIS.alo</Space_Model_Name>
+                <Scale_Factor>0.63</Scale_Factor>
+                <Mass>0.999</Mass>
+
+                <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+        <!-- Basic Stats -->
+                <Affiliation>Light_Side, Old_Republic</Affiliation>
+                <Ship_Class>fighter</Ship_Class>
+                <CategoryMask> Fighter | AntiBomber </CategoryMask>
+                <FormationPriority>3</FormationPriority>
+                <Is_Escort>Yes</Is_Escort>
+                <Is_Bomber>no</Is_Bomber>
+                <Political_Control>0</Political_Control>
+                <Victory_Relevant>yes</Victory_Relevant>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+
+                <Damage>20</Damage>
+                <Tactical_Health>100</Tactical_Health><!-- Reverted to original value of 1800 from 5000 for MP  -->
+                <Autoresolve_Health>175</Autoresolve_Health>
+                <Shield_Points>75</Shield_Points>
+                <Shield_Refresh_Rate>10</Shield_Refresh_Rate>
+                <Energy_Capacity>9999</Energy_Capacity>
+                <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+                <Armor_Type> Armour_Starfighter </Armor_Type>
+                <Shield_Armor_Type>Shield_Starfighter</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+
+                <AI_Combat_Power>1000</AI_Combat_Power>
+                <Score_Cost_Credits> 35000 </Score_Cost_Credits>
+                <Number_per_Squadron>1</Number_per_Squadron>
+                <Size_Value>8</Size_Value>
+        <!-- Build Stats -->
+                <Build_Cost_Credits>500</Build_Cost_Credits>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+                <Maintenance_Cost>0.1</Maintenance_Cost>
+
+                <Tech_Level>0</Tech_Level>
+                <GUI_Row> 1 </GUI_Row>
+        <!-- Movement Stats -->
+                <MovementClass> Space </MovementClass>
+                <Space_Layer> Corvette </Space_Layer>
+                <Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+                <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+                <Max_Speed>4.90</Max_Speed>
+                <Min_Speed>2.0</Min_Speed>
+                <Max_Lift>0.0</Max_Lift>
+                <Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>15</Bank_Turn_Angle>
+                <OverrideAcceleration> .12 </OverrideAcceleration>
+                <OverrideDeceleration> .12 </OverrideDeceleration>
+                <Guard_Chase_Range>1000.0</Guard_Chase_Range>
+                <Idle_Chase_Range>400.0</Idle_Chase_Range>
+                <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+
+                <Hyperspace_Speed>1.0</Hyperspace_Speed>
+                <Max_Thrust>0.5</Max_Thrust>
+                <Hyperspace>Yes</Hyperspace>
+        <!-- Behaviours -->
+                <Behavior>
+                        DUMMY_STARSHIP,
+                        SELECTABLE,
+                        POWERED,
+                        SHIELDED
+                </Behavior>
+                <SpaceBehavior>
+                        ABILITY_COUNTDOWN,
+                        SIMPLE_SPACE_LOCOMOTOR,
+                        SELECTABLE,
+                        TARGETING,
+                        REVEAL,
+                        HIDE_WHEN_FOGGED,
+                        UNIT_AI,
+                        DAMAGE_TRACKING,
+                        ION_STUN_EFFECT,
+                        NEBULA
+                </SpaceBehavior>
+        <!-- Hardpoints -->
+                <HardPoints>
+                                HP_Jedi_Actis_L_01,
+                                HP_Jedi_Actis_L_02,
+                                HP_Jedi_Actis_LI_01,
+                                HP_Jedi_Actis_LI_02
+                </HardPoints>
+        <!-- Death Stats -->
+                <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
         <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
         <Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
         <Spin_Away_On_Death_Explosion>PEx_Explosion_Smaller_B</Spin_Away_On_Death_Explosion>
         <Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
         <Remove_Upon_Death>true</Remove_Upon_Death>
-		<Death_Explosions>PEx_Explosion_Smaller_B</Death_Explosions>
-		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
-	<!-- SFX GC -->
-		<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
-		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
-	<!-- SFX Given basic Order-->
-		<SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
-		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-		<SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
-	 <!-- SFX Given Attack Order -->
+                <Death_Explosions>PEx_Explosion_Smaller_B</Death_Explosions>
+                <Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+        <!-- SFX GC -->
+                <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
+                <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+                <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
+        <!-- SFX Given basic Order-->
+                <SFXEvent_Fire>Unit_X_Wing_Fire</SFXEvent_Fire>
+                <SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+                <SFXEvent_Select>Unit_Select_X_Wing</SFXEvent_Select>
+                <SFXEvent_Move>Unit_Move_X_Wing</SFXEvent_Move>
+                <SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
+                <SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
+                <SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
+         <!-- SFX Given Attack Order -->
         <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_X_Wing </SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_X_Wing </SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_X_Wing </SFXEvent_Attack_Hardpoint>
@@ -125,13 +125,13 @@
         <SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_X_Wing </SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_X_Wing </SFXEvent_Attack_Hardpoint>
         <SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_X_Wing </SFXEvent_Attack_Hardpoint>
-	<!-- Random -->
-		<SFXEvent_Engine_Idle_Loop> Unit_Corvette_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-		<SFXEvent_Engine_Moving_Loop> Unit_Corvette_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corvette_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
-	<!-- Abilities -->
-	<Unit_Abilities_Data SubObjectList="Yes">
+        <!-- Random -->
+                <SFXEvent_Engine_Idle_Loop> Unit_Corvette_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+                <SFXEvent_Engine_Moving_Loop> Unit_Corvette_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+                <SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Corvette_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+                <Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+        <!-- Abilities -->
+        <Unit_Abilities_Data SubObjectList="Yes">
                         <!-- Primary ability -->
                         <Unit_Ability>
                                 <Type>SPOILER_LOCK</Type>
@@ -145,33 +145,33 @@
                         </Unit_Ability>
        </Unit_Abilities_Data>
 
-	<!-- Radar and FOW Stats -->
-		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-	
-		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-		<Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
-		
-		<GUI_Distance>600</GUI_Distance>
-		<GUI_Offset>0 0 0</GUI_Offset>
-		<GUI_Velocity>45</GUI_Velocity>
-	<!-- Multiplayer / Skirmish -->
-		<Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
-		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
-		<Tactical_Build_Prerequisites />
-		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
-		<Population_Value>2</Population_Value>
-	<!-- Selection Stats -->
-		<Ranking_In_Category>3</Ranking_In_Category>
-		<Select_Box_Scale>250</Select_Box_Scale>
-		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-	<!-- Targetting Stats -->
-		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
-		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
-	<!-- Squadron Stats --> 
-		
-		
-	</UniqueUnit>
+        <!-- Radar and FOW Stats -->
+                <Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+                <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+                <Space_FOW_Reveal_Range>1000.0</Space_FOW_Reveal_Range>
+
+                <GUI_Distance>600</GUI_Distance>
+                <GUI_Offset>0 0 0</GUI_Offset>
+                <GUI_Velocity>45</GUI_Velocity>
+        <!-- Multiplayer / Skirmish -->
+                <Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites />
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+                <Population_Value>2</Population_Value>
+        <!-- Selection Stats -->
+                <Ranking_In_Category>3</Ranking_In_Category>
+                <Select_Box_Scale>250</Select_Box_Scale>
+                <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+        <!-- Targetting Stats -->
+                <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+                <Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+                <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
+        <!-- Squadron Stats -->
+
+
+        </UniqueUnit>
 </Data>
