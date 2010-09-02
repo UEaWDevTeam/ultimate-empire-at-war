@@ -1,0 +1,67 @@
+<?xml version="1.0"?>             
+<Data>
+        <UniqueUnit Name="Obi_Wan_Destroyer">
+                <Variant_Of_Existing_Type>NR_NEBULA_CLASS_STAR_DESTROYER</Variant_Of_Existing_Type>
+                <Encyclopedia_Good_Against>  </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To>  </Encyclopedia_Vulnerable_To>
+                <Is_Named_Hero>Yes</Is_Named_Hero>
+                <Text_ID>TEXT_HERO_OBI_WAN_DD</Text_ID>
+                <Prevents_Story_Campaign_Autoresolve>yes</Prevents_Story_Campaign_Autoresolve>
+
+                <Encyclopedia_Text> TEXT_TOOLTIP_HERO_OBI_WAN_DD </Encyclopedia_Text>
+                <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+
+                <SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON, DAMAGE_TRACKING </SpaceBehavior>
+
+        <Ranking_In_Category>3</Ranking_In_Category>
+
+                <HardPoints>
+                        HP_OBI_WAN_DD_HTL_01,
+                        HP_OBI_WAN_DD_HTL_02,
+                        HP_OBI_WAN_DD_HTL_03,
+                        HP_OBI_WAN_DD_HTL_04,
+                        HP_OBI_WAN_DD_MI_01,
+                        HP_OBI_WAN_DD_MI_02,
+                        HP_OBI_WAN_DD_MI_03,
+                        HP_OBI_WAN_DD_MI_04,
+                        HP_OBI_WAN_DD_LTL_01,
+                        HP_OBI_WAN_DD_LTL_02,
+                        HP_OBI_WAN_DD_LTL_03,
+                        HP_OBI_WAN_DD_LTL_04,
+                        HP_OBI_WAN_DD_LTL_05,
+                        HP_OBI_WAN_DD_LTL_06,
+                        HP_OBI_WAN_DD_APHCM_01,
+                        HP_OBI_WAN_DD_APHCM_02,
+                        HP_OBI_WAN_DD_APHCM_03,
+                        HP_OBI_WAN_DD_APHCM_04,
+                        HP_OBI_WAN_DD_HANGAR,
+                        HP_OBI_WAN_DD_ENGINE,
+                        HP_OBI_WAN_DD_SHIELD,
+                        HP_OBI_WAN_DD_TRACTOR
+
+                </HardPoints>
+
+                <Tech_Level>99</Tech_Level>
+
+                <AI_Combat_Power>4000</AI_Combat_Power>
+                <Score_Cost_Credits> 50000 </Score_Cost_Credits>
+        <Build_Cost_Credits>5000</Build_Cost_Credits>
+                <CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+                <Population_Value>10</Population_Value>
+
+                <Neutralization_Cost>2000.0</Neutralization_Cost>
+                <Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
+                <Can_Be_Neutralized_By_Minor_Heroes>No</Can_Be_Neutralized_By_Minor_Heroes>
+
+                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+                <Tactical_Build_Cost_Multiplayer>5800</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Prerequisites></Tactical_Build_Prerequisites>
+                <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>
+                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+
+
+        </UniqueUnit>
+</Data>
