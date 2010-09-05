@@ -39,9 +39,9 @@
 
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
-                <Autoresolve_Health>54</Autoresolve_Health>
+                <Autoresolve_Health>50</Autoresolve_Health>
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>54</Tactical_Health>
+                <Tactical_Health>50</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -239,7 +239,7 @@
                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
                 <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
-                <LOD_Bias>300</LOD_Bias>
+                <LOD_Bias>600</LOD_Bias>
 
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
@@ -263,9 +263,9 @@
 
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
-                <Autoresolve_Health>54</Autoresolve_Health>
+                <Autoresolve_Health>60</Autoresolve_Health>
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>54</Tactical_Health>
+                <Tactical_Health>60</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -473,11 +473,11 @@
 
                 <Max_Speed>5.0</Max_Speed>
                 <Min_Speed>3.5</Min_Speed>
-                <Max_Rate_Of_Turn>4.8</Max_Rate_Of_Turn>
-                <Max_Lift>4</Max_Lift>
-                <Max_Thrust>2.0</Max_Thrust>
-                <Max_Rate_Of_Roll>5.6</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>45</Bank_Turn_Angle>
+                <Max_Rate_Of_Turn>5.2</Max_Rate_Of_Turn>
+                <Max_Lift>6</Max_Lift>
+                <Max_Thrust>2.3</Max_Thrust>
+                <Max_Rate_Of_Roll>9</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>120</Bank_Turn_Angle>
                 <Hyperspace>no</Hyperspace>
                 <Hyperspace_Speed>0</Hyperspace_Speed>
 
@@ -486,7 +486,7 @@
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>65</Tactical_Health>
+                <Tactical_Health>57</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -507,6 +507,7 @@
                 <HardPoints>
                          HP_TRI_L_01,
                          HP_TRI_L_02,
+						 HP_TRI_L_03,
                          HP_TRI_HL
                 </HardPoints>
 
@@ -681,13 +682,13 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>2.4</Max_Speed>
+                <Max_Speed>2.1</Max_Speed>
                 <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
                 <Max_Lift>3</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>30</Bank_Turn_Angle>
+                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>80</Bank_Turn_Angle>
                 <Hyperspace>no</Hyperspace>
                 <Hyperspace_Speed>0</Hyperspace_Speed>
 
@@ -695,9 +696,9 @@
 
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
-                <Shield_Points>0</Shield_Points>
-                <Tactical_Health>85</Tactical_Health>
-                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Shield_Points>35</Shield_Points>
+                <Tactical_Health>80</Tactical_Health>
+                <Shield_Refresh_Rate>1.0</Shield_Refresh_Rate>
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -705,6 +706,7 @@
                 <Ship_Class>fighter</Ship_Class>
 
                 <Armor_Type> Armour_Starfighter </Armor_Type>
+				<Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>yes</Is_Bomber>
@@ -712,7 +714,7 @@
                 <Number_per_Squadron>12</Number_per_Squadron>
                 <Size_Value>8</Size_Value>
 
-                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+                <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, SHIELDED </SpaceBehavior>
 
                 <HardPoints>
                          HP_DROID_BOMBER_L_01,
@@ -901,7 +903,7 @@
 
                 <Max_Speed>2.4</Max_Speed>
                 <Min_Speed>1.0</Min_Speed>
-                <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
                 <Max_Lift>3</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
@@ -913,9 +915,9 @@
 
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
-                <Shield_Points>0</Shield_Points>
+                <Shield_Points>55</Shield_Points>
                 <Tactical_Health>85</Tactical_Health>
-                <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>1.8</Shield_Refresh_Rate>
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -923,7 +925,8 @@
                 <Ship_Class>fighter</Ship_Class>
 
                 <Armor_Type> Armour_Starfighter </Armor_Type>
-
+				<Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
+				
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>yes</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
@@ -1118,11 +1121,11 @@
 
                 <Max_Speed>3.8</Max_Speed>
                 <Min_Speed>2.4</Min_Speed>
-                <Max_Rate_Of_Turn>1.8</Max_Rate_Of_Turn>
-                <Max_Lift>3</Max_Lift>
+                <Max_Rate_Of_Turn>2.8</Max_Rate_Of_Turn>
+                <Max_Lift>4</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>2.9</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>30</Bank_Turn_Angle>
+                <Max_Rate_Of_Roll>4</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>100</Bank_Turn_Angle>
                 <Hyperspace>no</Hyperspace>
                 <Hyperspace_Speed>0</Hyperspace_Speed>
 
@@ -1131,7 +1134,7 @@
                 <Affiliation>Dark_Side, CIS</Affiliation>
 
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>85</Tactical_Health>
+                <Tactical_Health>75</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>

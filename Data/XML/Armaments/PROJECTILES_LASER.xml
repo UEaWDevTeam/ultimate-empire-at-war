@@ -1443,7 +1443,31 @@
                 <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
         </Projectile>
 
-
+        <Projectile Name="Proj_Blaster_E2_Red">
+                <AI_Combat_Power> 55 </AI_Combat_Power>
+                <Text_ID>TEXT_NONE</Text_ID>
+                <Space_Model_Name>W_LASER_LARGE.ALO</Space_Model_Name>
+                <Scale_Factor>0.24</Scale_Factor>
+                <Max_Speed>28.0</Max_Speed>
+                <Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+                <Projectile_Damage>2.85</Projectile_Damage>
+                <Damage_Type>Damage_Laser_E2</Damage_Type>
+                <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+                <Projectile_Category>Laser</Projectile_Category>
+                <Projectile_Max_Flight_Distance>2300</Projectile_Max_Flight_Distance>
+                <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+                <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+                <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+                <Projectile_Object_Detonation_Particle>PEx_Explosion_Laser_Red</Projectile_Object_Detonation_Particle>
+                <Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Laser_Red</Projectile_Object_Armor_Reduced_Detonation_Particle>
+                <Projectile_Ground_Detonation_Particle />
+                <Projectile_Lifetime_Detonation_Particle />
+                <Projectile_Absorbed_By_Shields_Particle>PS_Laser_Red_Shield_Absorb_Starfighter</Projectile_Absorbed_By_Shields_Particle>
+                <Projectile_Ground_Detonation_SurfaceFX />
+                <Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+                <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+        </Projectile>
+		
         <Projectile Name="Proj_Laser_E2_Red_Standard">
                 <AI_Combat_Power> 55 </AI_Combat_Power>
                 <Text_ID>TEXT_NONE</Text_ID>
