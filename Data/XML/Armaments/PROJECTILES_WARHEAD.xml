@@ -79,9 +79,36 @@
 
 <!-- Era 2 Basic Concussion Missiles -->
 
+
+	<Projectile Name="Proj_Cluster_Conc_Rocket_Basic_E2">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Concussion_Missile_01b_Engine_04.ALO</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Max_Speed>20.0</Max_Speed>
+		<Projectile_Damage>8.0</Projectile_Damage>
+		<Damage_Type>Damage_Concussion_Basic_E2</Damage_Type>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Rocket_Curve_Distance>300</Projectile_Rocket_Curve_Distance>
+		<Projectile_Rocket_Curve_Offset>0</Projectile_Rocket_Curve_Offset>
+		<Projectile_Rocket_Straight_Distance>100</Projectile_Rocket_Straight_Distance>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tiniest_B</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
 	<Projectile Name="Proj_Conc_Missile_Basic_E2_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_Concussion_Missile_01.ALO</Space_Model_Name>
+		<Space_Model_Name>W_Concussion_Missile_01_Engine_03.ALO</Space_Model_Name>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Max_Speed>14.7</Max_Speed>
 		<Projectile_Damage>15.0</Projectile_Damage>
