@@ -130,8 +130,8 @@
         <Corruption_Path_Offset>0, 0, 0</Corruption_Path_Offset>
 
         <!-- GMC - Galactic Mode camera 3D galaxy map settings -->
-        <GMC_InitialPitchAngleDegrees>-30.0</GMC_InitialPitchAngleDegrees>
-    <GMC_ZoomedPitchAngleDegrees>-35.0</GMC_ZoomedPitchAngleDegrees>
+        <GMC_InitialPitchAngleDegrees>-20.0</GMC_InitialPitchAngleDegrees>
+    <GMC_ZoomedPitchAngleDegrees>-25.0</GMC_ZoomedPitchAngleDegrees>
     <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
     <GMC_ZoomedPullbackPlanetRadiusFraction>3.0</GMC_ZoomedPullbackPlanetRadiusFraction>
     <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, 0.0, 1.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
@@ -231,7 +231,7 @@
         <Starting_Galactic_Camera_Position>0.0, 0.0, 0.0</Starting_Galactic_Camera_Position>
         <Camera_Stop_Left>-50.0f</Camera_Stop_Left>
         <Camera_Stop_Right>50.0f</Camera_Stop_Right>
-        <Camera_Z_Position>-80.0</Camera_Z_Position>
+        <Camera_Z_Position>-60.0</Camera_Z_Position>
 
         <!-- Display of game monetary credits balance -->
         <Credits_Display_Font_Name> Arial </Credits_Display_Font_Name>
@@ -778,7 +778,7 @@
         <Display_Bink_Movie_Frames>False</Display_Bink_Movie_Frames>
 
         <!-- Global speed modifier to everything with engines, and when they are destroyed -->
-        <Engines_Disabled_Speed_Modifier> 0.4 </Engines_Disabled_Speed_Modifier>
+        <Engines_Disabled_Speed_Modifier> 0.3 </Engines_Disabled_Speed_Modifier>
 
         <Crouch_Move_Fire_Angle_Cutoff> 20 </Crouch_Move_Fire_Angle_Cutoff>
 
@@ -786,9 +786,9 @@
 
         <Spread_Out_Spacing_Coefficient> 1.8 </Spread_Out_Spacing_Coefficient>
 
-        <Max_Formation_Area> 14.0 </Max_Formation_Area>
+        <Max_Formation_Area> 60.0 </Max_Formation_Area>
 
-        <Short_Range_Attack_Formation_Coefficient> 1.6 </Short_Range_Attack_Formation_Coefficient>
+        <Short_Range_Attack_Formation_Coefficient> 2.0 </Short_Range_Attack_Formation_Coefficient> <!-- was 1.6 -->
 
         <Solo_Attack_Range> 60.0 </Solo_Attack_Range>
 
