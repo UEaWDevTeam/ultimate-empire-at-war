@@ -513,10 +513,162 @@
 			<Overlap_Test> Unit_Calamari </Overlap_Test>
  </SFXEvent>
 
+<!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS --><!-- CIS -->
+	<SFXEvent Name="Unit_Attack_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPATTACK.wav
+				CIS_BATTLESHIPATTACK2.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	</SFXEvent>
+	
+	<SFXEvent Name="Unit_Move_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPMOVE.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  
+	<SFXEvent Name="Unit_Guard_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPGUARD.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  
+	  <SFXEvent Name="Unit_Standby_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPSTANDBY.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
 
-  
-
-
+	  <SFXEvent Name="Unit_Lost_Engines_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTENGINES.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_GravWell_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTGRAVWELL.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_Hangar_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTLAUNCHBAY.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_Primary_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTPRIMARY.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_Secondary_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTSECONDARY.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_Shields_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTSHIELDS.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Lost_Tractor_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPLOSTTRACTOR.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  <SFXEvent Name="Unit_Power_Engines_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPPOWERENGINES.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  	  <SFXEvent Name="Unit_Power_Shields_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPPOWERSHIELDS.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  	  <SFXEvent Name="Unit_Power_Tractor_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPPOWERTRACTOR.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
+	  	  <SFXEvent Name="Unit_Power_Weapons_Lucrehulk_Battleship">
+			<Use_Preset>Preset_UR</Use_Preset>
+			<Samples>
+				CIS_BATTLESHIPPOWERWEAPONS.wav
+			</Samples>
+			<Localize> Yes </Localize>
+			<Play_Sequentially> Yes </Play_Sequentially>
+			<Text_ID></Text_ID>
+			<Overlap_Test> Unit_Victory_Destroyer </Overlap_Test>
+	  </SFXEvent>
 
 
 
