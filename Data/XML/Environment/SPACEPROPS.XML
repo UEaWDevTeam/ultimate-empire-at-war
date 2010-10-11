@@ -6703,6 +6703,212 @@
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
         </SpaceProp>
+<!-- Republic Starbase Breakoffs, thanks to WarbNull for his excellent work! -->
+        <!-- Republic Starbase 1 break-off pieces... -->
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_One_CA">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbas_HP01_Comm.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+                <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, 0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.3, 0.8, 0.2 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge </Debris_Attached_Particle>
+
+                <Death_Explosions> Huge_Explosion_Space </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+
+        <!-- Republic Starbase 2 break-off pieces... -->
+
+        <!-- None -->
+
+        <!-- Empire Starbase 3 break-off pieces... -->
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Three_Weapon_CM">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbas_HP03_CM.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, 0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.3, 0.1 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Three_Weapon_IC">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP03_IC.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, -0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.1, 0.3 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Large_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Three_Weapon_PRT">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP03_PRT.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, 0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.3, 0.3 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Three_Weapon_PTBL">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP03_TBL.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, 0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.3, 0.3 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+
+        <!-- Republic Starbase 4 break-off pieces... -->
+
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Four_Weapon_TBL_01">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP04_TBL_01.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, -0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.2, 0.1 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Four_Weapon_TBL_02">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP04_TBL_02.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, -0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.2, 0.1 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+
+        <!-- Republic Starbase 5 break-off pieces... -->
+
+        <SpaceProp Name="Hardpoint_Breakoff_Empire_Station_Five_Weapon_TRP">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP05_TRP.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, -0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.1, 0.3, 0.1 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
+        <SpaceProp Name="Hardpoint_Breakoff_Republic_Starbase_Five_Weapon_TBL">
+                <Text_ID />
+                <Space_Model_Name> Rep_Starbase_HP05_TBL.alo </Space_Model_Name>
+                <Is_Decoration> No </Is_Decoration>
+    <Is_Discardable> No </Is_Discardable>
+                <Scale_Factor> 1.0 </Scale_Factor>
+                <Sort_Order_Adjust> -1 </Sort_Order_Adjust>
+                <Tactical_Health> 100 </Tactical_Health>
+
+                <SpaceBehavior> DEBRIS </SpaceBehavior>
+                <Debris_Movement_Vector> 0.0, 0.0, 0.5 </Debris_Movement_Vector>
+                <Debris_Facing_Rotate_Vector> 0.3, 0.1, 0.1 </Debris_Facing_Rotate_Vector>
+                <Debris_Min_Lifetime_Seconds> 15.0 </Debris_Min_Lifetime_Seconds>
+                <Debris_Max_Lifetime_Seconds> 25.0 </Debris_Max_Lifetime_Seconds>
+                <Debris_Attached_Particle> Space_Debris_Fire_Huge_Empire </Debris_Attached_Particle>
+
+                <Death_Explosions> Medium_Explosion_Space_Empire </Death_Explosions>
+                <Death_SFXEvent_Start_Die> Unit_Corvette_Death_SFX </Death_SFXEvent_Start_Die>
+                <Remove_Upon_Death>true</Remove_Upon_Death>
+        </SpaceProp>
+
 
 
 
