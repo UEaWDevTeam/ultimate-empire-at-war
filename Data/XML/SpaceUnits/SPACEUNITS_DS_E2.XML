@@ -75,7 +75,7 @@
 
 
                 <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
-                <SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+                <SFXEvent_Select> Unit_Select_Fighter_E2 </SFXEvent_Select>
                 <SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
                 <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
                 <SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
@@ -297,7 +297,7 @@
 
 
                 <SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
-                <SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+                <SFXEvent_Select> Unit_Select_Fighter_E2 </SFXEvent_Select>
                 <SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
                 <SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
                 <SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
@@ -507,7 +507,7 @@
                 <HardPoints>
                          HP_TRI_L_01,
                          HP_TRI_L_02,
-						 HP_TRI_L_03,
+                                                 HP_TRI_L_03,
                          HP_TRI_HL
                 </HardPoints>
 
@@ -706,7 +706,7 @@
                 <Ship_Class>fighter</Ship_Class>
 
                 <Armor_Type> Armour_Starfighter </Armor_Type>
-				<Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
+                                <Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>yes</Is_Bomber>
@@ -925,8 +925,8 @@
                 <Ship_Class>fighter</Ship_Class>
 
                 <Armor_Type> Armour_Starfighter </Armor_Type>
-				<Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
-				
+                                <Shield_Armor_Type> Shield_Starfighter </Shield_Armor_Type>
+
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>yes</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
@@ -1948,56 +1948,52 @@
 
 
                 <Unit_Abilities_Data SubObjectList="Yes">
-                        <Unit_Ability>
-                                <Type>LASER_DEFENSE</Type>
-                                <Recharge_Seconds>50.0</Recharge_Seconds>
-                                <GUI_Activated_Ability_Name> Crusader_Laser_Defense </GUI_Activated_Ability_Name>
-                                <Effective_Radius> 1500.0 </Effective_Radius>
-                                <SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>  <!--(by pressing the activate button)-->
-                                <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>  <!--(by pressing deactivate)-->
-                                <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-                                <Supports_Autofire>False</Supports_Autofire>
-                        </Unit_Ability>
+                         <Unit_Ability>
+                         <Type>LASER_DEFENSE</Type>
+                         <Recharge_Seconds>60.0</Recharge_Seconds>
+                         <GUI_Activated_Ability_Name> Recusant_Laser_Defense </GUI_Activated_Ability_Name>
+                         <Effective_Radius> 500.0 </Effective_Radius>
+                         <SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>  <!--(by pressing the activate button)-->
+                         <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>  <!--(by pressing deactivate)-->
+                         <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                         <Supports_Autofire>False</Supports_Autofire>
+                         </Unit_Ability>
 
-                        <Planet_Income_Bonus_Ability Name="Maintenance">
-                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
-                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-                <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
-                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
-            </Planet_Income_Bonus_Ability>
+                         <Planet_Income_Bonus_Ability Name="Maintenance">
+                         <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
+                         <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+                         <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+                         <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+                         </Planet_Income_Bonus_Ability>
 
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Laser_Defense_Ability Name="Crusader_Laser_Defense">
-                                <Activation_Style> User_Input </Activation_Style>
-                                <Defense_Duration_In_Secs> 35.0 </Defense_Duration_In_Secs>
-                                <Laser_Color>34, 34, 235, 255</Laser_Color>
-                                <Bone_Names>HP_L_01_FB01, HP_L_02_FB01, HP_L_02_FB01, HP_L_02_FB02</Bone_Names>
-                                <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-                                <Protection_Radius>1500.0</Protection_Radius>
-                                <Laser_Beam_Frames>6</Laser_Beam_Frames>
-                                <Laser_Beam_Width>4</Laser_Beam_Width>
-                                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
-                                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
-                                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-                                <Recharge_Time_In_Secs>.50</Recharge_Time_In_Secs>
-                                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
-                        </Laser_Defense_Ability>
+                         <Laser_Defense_Ability Name="Recusant_Laser_Defense">
+                         <Activation_Style> User_Input </Activation_Style>
+                         <Defense_Duration_In_Secs> 35.0 </Defense_Duration_In_Secs>
+                         <Laser_Color>34, 34, 235, 255</Laser_Color>
+                         <Bone_Names>HP_L_03_FB02</Bone_Names>
+                         <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
+                         <Protection_Radius>500.0</Protection_Radius>
+                         <Laser_Beam_Frames>2</Laser_Beam_Frames>
+                         <Laser_Beam_Width>4</Laser_Beam_Width>
+                         <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
+                         <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
+                         <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
+                         <Recharge_Time_In_Secs>.50</Recharge_Time_In_Secs>
+                         <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
+                         <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
+                         </Laser_Defense_Ability>
                 </Abilities>
 
 
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
 
-                <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-                <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-                <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
                 <Population_Value>3</Population_Value>
 
         </SpaceUnit>
@@ -2019,7 +2015,6 @@
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
         </SpaceUnit>
-
 
         <SpaceUnit Name="C_RECUSANT">
                 <Text_ID>TEXT_UNIT_RECUSANT</Text_ID>
