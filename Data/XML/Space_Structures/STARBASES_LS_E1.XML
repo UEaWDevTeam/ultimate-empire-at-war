@@ -9,11 +9,11 @@
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_RS_01</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
 
-                <Scale_Factor>9</Scale_Factor>
+                <Scale_Factor>9.0</Scale_Factor>
                 <GUI_Row> 0 </GUI_Row>
                 <Space_Model_Name>BM_OR_STARBASE_1.ALO</Space_Model_Name>
                 <Galactic_Model_Name>BM_OR_STARBASE_1.ALO</Galactic_Model_Name>
-                <Select_Box_Scale>1000</Select_Box_Scale>
+                <Select_Box_Scale>300</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Is_Dummy>No</Is_Dummy>
                 <Affiliation>Old_Republic</Affiliation>
@@ -41,19 +41,17 @@
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
                 <!-- Set to contuously spawn until fighter bay hard point is destroyed -->
-                <Starting_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 2</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+                <Starting_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
                 <Reserve_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-                <Starting_Spawned_Units_Tech_0>OR_CHELA_SQUADRON, 1</Starting_Spawned_Units_Tech_0> <!-- 2 X-wing squadrons at a time -->
+                <Starting_Spawned_Units_Tech_0>OR_CHELA_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
                 <Reserve_Spawned_Units_Tech_0>OR_CHELA_SQUADRON, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
                 <Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
 
                 <Tactical_Buildable_Objects_Campaign>
-                        Light_Side,
-                                RS_Enhanced_Shielding_L1_Upgrade,
-                                RS_Improved_Weapons_L1_Upgrade,
+                        Old_Republic,
                 </Tactical_Buildable_Objects_Campaign>
 
                 <Autoresolve_Health>750</Autoresolve_Health>
@@ -990,10 +988,7 @@
                         Old_Republic,
                                 OR_AUREK_SQUADRON,
                                 OR_CHELA_SQUADRON,
-                                OR_Starbase_Upgrade_Level_2,
-								Admiral_Dodonna,
-								Ebon_Hawk,
-								Reliance_I
+                                OR_Starbase_Upgrade_Level_2
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
                 <Reinforcement_Prevention_Radius> 2000 </Reinforcement_Prevention_Radius>

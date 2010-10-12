@@ -1,177 +1,190 @@
 <?xml version="1.0" ?>
 
 <Story>
-	
-	<Event Name="Universal_Story_Start">
-		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>0</Event_Param1>
-	</Event>
 
-	<!-- TECH CONTROLS. Do not edit without consulting LTCC :-) -->
-		
-	<Event Name="E1_CORVETTE_THEORY_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_CORVETTE_THEORY_RESULT">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_FORAY_CLASS</Reward_Param1>
-	</Event>
-	
-	
-	<Event Name="E1_ESCORT_THEORY_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_ESCORT_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_ESCORT_THEORY_RESULT">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_ESCORT_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_PRAETORIAN</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_ESCORT_THEORY_PROGRESS">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_ESCORT_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>E1_THRANTA</Reward_Param1>
-	</Event>
-	
-	
-	<Event Name="E1_THRANTA_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_THRANTA</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_THRANTA</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_THRANTA_RESULT">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_THRANTA</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_THRANTA</Reward_Param1>
-	</Event>
-	
-	
-	<Event Name="E1_ION_CANNON_THEORY_UNLOCK">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
-		<Prereq>E1_CORVETTE_THEORY_REMOVE</Prereq>
-		<Prereq>E1_ESCORT_THEORY_REMOVE</Prereq>
-	</Event>
-	
-	<Event Name="E1_ION_CANNON_THEORY_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_ION_CANNON_THEORY_RESULT">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>E1_BATTLECRUISER_PROGRAM</Reward_Param1>
-	</Event>
+        <Event Name="Universal_Story_Start">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
 
-	
-	<Event Name="E1_BATTLECRUISER_PROGRAM_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_BATTLECRUISER_PROGRAM</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_BATTLECRUISER_PROGRAM</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_BATTLECRUISER_PROGRAM_RESULT">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_BATTLECRUISER_PROGRAM</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_CENTURION</Reward_Param1>
-	</Event>
+         <Event Name="E1_TECH_LOCK_FIRST">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+         </Event>
 
-	
-	<Event Name="E1_UPSCALED_SHIELDING_UNLOCK">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>E1_UPSCALED_SHIELDING</Reward_Param1>
-		<Prereq>E1_CORVETTE_THEORY_RESULT, E1_ESCORT_THEORY_RESULT</Prereq>
-	</Event>
-	
-	<Event Name="E1_UPSCALED_SHIELDING_REMOVE">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>E1_UPSCALED_SHIELDING</Reward_Param1>
-	</Event>
-	
-	<Event Name="E1_UPSCALED_SHIELDING_RESULT_1">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_CENTURION_SU</Reward_Param1>
-		<Reward_Param2>OR_CENTURION</Reward_Param2>
-		<Prereq>E1_BATTLECRUISER_PROGRAM_RESULT</Prereq>
-	</Event>
-	
-	<Event Name="E1_UPSCALED_SHIELDING_RESULT_2">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_THRANTA_SU</Reward_Param1>
-		<Reward_Param2>OR_THRANTA</Reward_Param2>
-		<Prereq>E1_THRANTA_RESULT</Prereq>
-	</Event>
-	
-	<Event Name="E1_UPSCALED_SHIELDING_RESULT_3">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_HAMMERHEAD_SU</Reward_Param1>
-		<Reward_Param2>OR_HAMMERHEAD</Reward_Param2>
-	</Event>
+                 <!--
+        <Event Name="E1_TECH_UNLOCK_FIRST">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
+                 <Prereq>E1_TECH_LOCK_FIRST</Prereq>
+        </Event> -->
+<!--
+        <Event Name="E1_CORVETTE_THEORY_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
+        </Event>
 
-	<Event Name="E1_UPSCALED_SHIELDING_RESULT_4">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_PRAETORIAN_SU</Reward_Param1>
-		<Reward_Param2>OR_PRAETORIAN</Reward_Param2>
-	</Event>
+        <Event Name="E1_CORVETTE_THEORY_RESULT">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_FORAY_CLASS</Reward_Param1>
+        </Event>
 
-	<Event Name="E1_UPSCALED_SHIELDING_RESULT_5">
-		<Event_Type>STORY_CONSTRUCT</Event_Type>
-		<Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
-		<Event_Param2>1</Event_Param2>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>OR_INEXPUGNABLE_SU</Reward_Param1>
-		<Reward_Param2>OR_INEXPUGNABLE</Reward_Param2>
-	</Event>
-	
 
-	
-	</Story>
+        <Event Name="E1_ESCORT_THEORY_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ESCORT_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_ESCORT_THEORY_RESULT">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ESCORT_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_PRAETORIAN</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_ESCORT_THEORY_PROGRESS">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ESCORT_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>E1_THRANTA</Reward_Param1>
+        </Event>
+
+
+        <Event Name="E1_THRANTA_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_THRANTA</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_THRANTA</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_THRANTA_RESULT">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_THRANTA</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_THRANTA</Reward_Param1>
+        </Event>
+
+
+        <Event Name="E1_ION_CANNON_THEORY_UNLOCK">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
+                <Prereq>E1_CORVETTE_THEORY_REMOVE</Prereq>
+                <Prereq>E1_ESCORT_THEORY_REMOVE</Prereq>
+        </Event>
+
+        <Event Name="E1_ION_CANNON_THEORY_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_ION_CANNON_THEORY_RESULT">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>E1_BATTLECRUISER_PROGRAM</Reward_Param1>
+        </Event>
+
+
+        <Event Name="E1_BATTLECRUISER_PROGRAM_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_BATTLECRUISER_PROGRAM</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_BATTLECRUISER_PROGRAM</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_BATTLECRUISER_PROGRAM_RESULT">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_BATTLECRUISER_PROGRAM</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_CENTURION</Reward_Param1>
+        </Event>
+
+
+        <Event Name="E1_UPSCALED_SHIELDING_UNLOCK">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>E1_UPSCALED_SHIELDING</Reward_Param1>
+                <Prereq>E1_CORVETTE_THEORY_RESULT, E1_ESCORT_THEORY_RESULT</Prereq>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_REMOVE">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>REMOVE_UNIT</Reward_Type>
+                <Reward_Param1>E1_UPSCALED_SHIELDING</Reward_Param1>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_RESULT_1">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_CENTURION_SU</Reward_Param1>
+                <Reward_Param2>OR_CENTURION</Reward_Param2>
+                <Prereq>E1_BATTLECRUISER_PROGRAM_RESULT</Prereq>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_RESULT_2">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_THRANTA_SU</Reward_Param1>
+                <Reward_Param2>OR_THRANTA</Reward_Param2>
+                <Prereq>E1_THRANTA_RESULT</Prereq>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_RESULT_3">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_HAMMERHEAD_SU</Reward_Param1>
+                <Reward_Param2>OR_HAMMERHEAD</Reward_Param2>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_RESULT_4">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_PRAETORIAN_SU</Reward_Param1>
+                <Reward_Param2>OR_PRAETORIAN</Reward_Param2>
+        </Event>
+
+        <Event Name="E1_UPSCALED_SHIELDING_RESULT_5">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_UPSCALED_SHIELDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                <Reward_Param1>OR_INEXPUGNABLE_SU</Reward_Param1>
+                <Reward_Param2>OR_INEXPUGNABLE</Reward_Param2>
+        </Event>
+     -->
+
+
+        </Story>
