@@ -537,7 +537,6 @@
         <SFXEvent_Move_Into_Nebula> Unit_Nebula_A_Wing </SFXEvent_Move_Into_Nebula>
                 <Death_SFXEvent_Start_Die>Unit_A_Wing_Death_SFX</Death_SFXEvent_Start_Die>
 
-
                 <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_A_Wing </SFXEvent_Attack_Hardpoint>
                 <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_A_Wing </SFXEvent_Attack_Hardpoint>
                 <SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_A_Wing </SFXEvent_Attack_Hardpoint>
@@ -1464,8 +1463,7 @@
                 <Build_Initially_Locked> yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 20 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units> yes </Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes </Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
-                <Slice_Cost_Credits> 800 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
+                <Build_Can_Be_Unlocked_By_Slicer> No </Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.1</Maintenance_Cost> <!-- Redundant tag -->
 
@@ -1676,7 +1674,7 @@
 
                 <Affiliation>Rebel</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
-                <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>640</Slice_Cost_Credits>
                 <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
@@ -1872,6 +1870,7 @@
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
                                 <Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpaceUnit>
 
 
@@ -1926,7 +1925,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 30 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.1</Maintenance_Cost> <!-- Redundant tag -->
@@ -2175,7 +2174,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 30 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.1</Maintenance_Cost> <!-- Redundant tag -->
@@ -2425,7 +2424,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 50 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 1400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.1</Maintenance_Cost> <!-- Redundant tag -->
@@ -2652,7 +2651,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 45 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 1400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.2</Maintenance_Cost> <!-- Redundant tag -->
@@ -2876,7 +2875,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 45 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 1400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.2</Maintenance_Cost> <!-- Redundant tag -->
@@ -3493,7 +3492,7 @@
 
                 <Affiliation>Rebel</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
-                <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>2000</Slice_Cost_Credits>
                 <Tech_Level>3</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
@@ -3762,7 +3761,7 @@
 
                 <Affiliation>Rebel</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
-                <Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+                <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>2000</Slice_Cost_Credits>
                 <Tech_Level>3</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>

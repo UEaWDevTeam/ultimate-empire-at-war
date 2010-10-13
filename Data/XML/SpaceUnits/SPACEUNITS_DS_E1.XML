@@ -29,7 +29,7 @@
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
 
                 <Autoresolve_Health>64</Autoresolve_Health>
                 <Shield_Points>0</Shield_Points>
@@ -157,7 +157,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>648</Autoresolve_Health>
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -276,7 +276,7 @@
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
 
                 <Shield_Points>30</Shield_Points>
                 <Tactical_Health>85</Tactical_Health>
@@ -391,7 +391,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>yes</Is_Bomber>
                 <Autoresolve_Health>1020</Autoresolve_Health>
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -494,7 +494,7 @@
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
 
                 <Shield_Points>30</Shield_Points>
                 <Tactical_Health>85</Tactical_Health>
@@ -609,7 +609,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>1020</Autoresolve_Health>
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -689,14 +689,15 @@
                 <Encyclopedia_Text> TEXT_TOOLTIP_SITH_HEAVY_CRUISER</Encyclopedia_Text>
                 <Icon_Name> I_BUTTON_S_HEAVY_CRUISER.TGA </Icon_Name>
                 <Space_Model_Name>VCCr_SITH_HEAVY_CRUISER.ALO</Space_Model_Name>
-                <Affiliation> Sith </Affiliation>
+                <Affiliation> Sith, Empire </Affiliation>
                 <Death_Clone>Damage_Normal, S_HEAVY_CRUISER_DEATH_CLONE</Death_Clone>
         </SpaceUnit>
 
         <SpaceUnit Name="S_HEAVY_CRUISER_DEATH_CLONE">
                 <Variant_Of_Existing_Type>OR_HEAVY_CRUISER_DEATH_CLONE</Variant_Of_Existing_Type>
                 <Space_Model_Name>VCCr_SITH_HEAVY_CRUISER_D.ALO</Space_Model_Name>
-                <Affiliation> Sith </Affiliation>
+                <Affiliation> Sith, Empire </Affiliation>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpaceUnit>
 
 
@@ -738,7 +739,7 @@
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Tech_Level>99</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -758,6 +759,7 @@
                 <AI_Combat_Power>3800</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Size_Value>8</Size_Value>
                 <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
@@ -936,7 +938,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -982,7 +984,7 @@
                 <Hyperspace_Speed>1</Hyperspace_Speed>
                 <Maintenance_Cost>0.3</Maintenance_Cost>
 
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Tech_Level>99</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -997,6 +999,7 @@
                 <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
                 <Ship_Class>capital</Ship_Class>
                 <Surface_Bombardment_Capable>yes</Surface_Bombardment_Capable>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <!--<Political_Control>1</Political_Control>-->
                 <Political_Faction>Dark_Side</Political_Faction>
                 <Squadron_Capacity>40</Squadron_Capacity>
@@ -1164,7 +1167,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Sith</Affiliation>
+                <Affiliation>Sith, Empire</Affiliation>
                 <Ship_Class>capital_ship</Ship_Class>
                 <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
                 <Remove_Upon_Death>true</Remove_Upon_Death>

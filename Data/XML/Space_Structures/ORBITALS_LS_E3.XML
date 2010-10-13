@@ -3,21 +3,21 @@
 <SpecialStructures>
 
 <!--REBEL ALLIANCE ADDITIONAL ORBITAL STRUCTURES HERE-->
- 
+
         <SpecialStructure Name="RA_BERTH">
 
                  <Variant_Of_Existing_Type>GENERIC_BERTH</Variant_Of_Existing_Type>
                  <Lua_Script>RA_Berth</Lua_Script>
-                 <Affiliation>Light_Side</Affiliation>
-				 <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
+                 <Affiliation>Light_Side, Rebel</Affiliation>
+                                 <Build_Initially_Locked>Yes</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
                 <Encyclopedia_Text> TEXT_TOOLTIP_ORBITAL_BERTH  </Encyclopedia_Text>
         </SpecialStructure>
 
         <SpecialStructure Name="RA_GOLAN">
 
                  <Variant_Of_Existing_Type>GOLAN_GENERIC</Variant_Of_Existing_Type>
-                 <Affiliation>Light_Side</Affiliation>
-				 <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
+                 <Affiliation>Light_Side, Rebel</Affiliation>
+                                 <Build_Initially_Locked>Yes</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
                 <Starting_Spawned_Units_Tech_0>X-WING_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
         </SpecialStructure>
 

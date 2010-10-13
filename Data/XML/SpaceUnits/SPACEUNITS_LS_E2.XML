@@ -30,7 +30,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.75</Hyperspace_Speed>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Shield_Points>70</Shield_Points>
                 <Tactical_Health>95</Tactical_Health>
                 <Autoresolve_Health>160</Autoresolve_Health>
@@ -161,7 +161,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -170,7 +170,7 @@
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
                 <Required_Special_Structures />
-                <Build_Initially_Locked>No</Build_Initially_Locked>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
                 <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -286,7 +286,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Shield_Points>40</Shield_Points>
                 <Tactical_Health>80</Tactical_Health>
                 <Autoresolve_Health>160</Autoresolve_Health>
@@ -406,7 +406,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -415,7 +415,7 @@
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
                 <Required_Special_Structures />
-                <Build_Initially_Locked>No</Build_Initially_Locked>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
                 <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -521,7 +521,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Shield_Points>25</Shield_Points>
                 <Tactical_Health>65</Tactical_Health>
                 <Autoresolve_Health>160</Autoresolve_Health>
@@ -641,7 +641,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -650,7 +650,7 @@
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
                 <Required_Special_Structures />
-                <Build_Initially_Locked>No</Build_Initially_Locked>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 
                 <Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>
@@ -757,7 +757,7 @@
 
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
 
                 <Shield_Points>70</Shield_Points>
                 <Tactical_Health>110</Tactical_Health>
@@ -868,7 +868,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Autoresolve_Health>300</Autoresolve_Health>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -959,7 +959,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <!-- Basic Stats -->
-                <Affiliation> Republic </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Republic, Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -983,7 +983,7 @@
                 <Size_Value>120</Size_Value> <!-- Unsure of this one -->
                 <!-- Build stats -->
                 <Build_Cost_Credits> 1250 </Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
-                <Build_Initially_Locked> No</Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
+                <Build_Initially_Locked> Yes</Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 15 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units> Yes </Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
                 <Build_Can_Be_Unlocked_By_Slicer> No </Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
@@ -1153,7 +1153,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation> <!-- Same as Unit's -->
+                <Affiliation>Republic, Rebel</Affiliation> <!-- Same as Unit's -->
                 <Ship_Class>Corvette</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>True</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -1176,7 +1176,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <!-- Basic Stats -->
-                <Affiliation> Republic </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Republic, Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1203,7 +1203,7 @@
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
                 <Build_Time_Seconds> 30 </Build_Time_Seconds> <!-- How long the unit will take to be created || If PAYG then Divide Cost by this figure to see secondly deduction -->
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units> <!-- Should this appear in the space tab? || Probably Yes -->
-                <Build_Can_Be_Unlocked_By_Slicer> Yes</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
+                <Build_Can_Be_Unlocked_By_Slicer> No</Build_Can_Be_Unlocked_By_Slicer> <!-- Rebel = Yes, Others = No -->
                 <Slice_Cost_Credits> 400 </Slice_Cost_Credits> <!-- how much this unit costs to be sliced || Rebels only -->
                 <Piracy_Value_Credits>50</Piracy_Value_Credits> <!-- No idea -->
                 <Maintenance_Cost>0.1</Maintenance_Cost> <!-- Redundant tag -->
@@ -1368,7 +1368,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation> <!-- Same as Unit's -->
+                <Affiliation>Republic, Rebel</Affiliation> <!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -1416,7 +1416,7 @@
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1436,6 +1436,7 @@
                 <AI_Combat_Power>2500</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Size_Value>8</Size_Value>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1594,7 +1595,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -1645,7 +1646,7 @@
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1665,6 +1666,7 @@
                 <AI_Combat_Power>2500</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Size_Value>8</Size_Value>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1828,7 +1830,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -1864,6 +1866,7 @@
                          HP_CARRACK_CRUISER_ESCORT_L_04,
                          HP_CARRACK_CRUISER_ENGINES
                 </HardPoints>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpaceUnit>
 
 
@@ -1909,7 +1912,7 @@
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>400</Energy_Refresh_Rate>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -1929,6 +1932,7 @@
                 <AI_Combat_Power>2500</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Size_Value>8</Size_Value>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -2082,7 +2086,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -2095,7 +2099,7 @@
 
                 <Variant_Of_Existing_Type>E_ACCLAMATOR_ASSAULT_FRIGATE_II</Variant_Of_Existing_Type>
                 <Encyclopedia_Text> TEXT_TOOLTIP_ACCLAMATORII</Encyclopedia_Text>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <HardPoints>
                          HP_ACCLAMATOR_II_E2_MTL_01,
                          HP_ACCLAMATOR_II_E2_MTL_02,
@@ -2113,6 +2117,7 @@
                          HP_ACCLAMATOR_II_E2_DUMMY_03,
                          HP_ACCLAMATOR_II_E2_DUMMY_04
                 </HardPoints>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
         </SpaceUnit>
 
@@ -2120,7 +2125,7 @@
         <SpaceUnit Name="R_DREADNAUGHT">
 
                 <Variant_Of_Existing_Type>RA_DREADNAUGHT</Variant_Of_Existing_Type>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
                 <HardPoints>
@@ -2142,6 +2147,7 @@
                          HP_R_DREADNAUGHT_HANGAR,
                          HP_R_DREADNAUGHT_ENGINE
                 </HardPoints>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
         </SpaceUnit>
 
@@ -2186,7 +2192,7 @@
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Tech_Level>99</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -2206,6 +2212,7 @@
                 <AI_Combat_Power>3800</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+                <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Size_Value>8</Size_Value>
                 <Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SPAWN_SQUADRON, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
@@ -2393,7 +2400,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -2439,7 +2446,7 @@
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.3</Maintenance_Cost>
 
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
@@ -2460,7 +2467,7 @@
                 <Build_Time_Seconds>3</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Size_Value>8</Size_Value>
-                                <Build_Initially_Locked>No</Build_Initially_Locked>
+                                <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
                 <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 8</Starting_Spawned_Units_Tech_0>
@@ -2646,7 +2653,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Republic</Affiliation>
+                <Affiliation>Republic, Rebel</Affiliation>
                 <Ship_Class>capital_ship</Ship_Class>
                 <Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
                 <Remove_Upon_Death>true</Remove_Upon_Death>

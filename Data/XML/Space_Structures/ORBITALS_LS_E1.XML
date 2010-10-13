@@ -8,10 +8,17 @@
 
                  <Variant_Of_Existing_Type>GENERIC_BERTH</Variant_Of_Existing_Type>
                  <Lua_Script>OR_Berth</Lua_Script>
-                 <Affiliation>Light_Side</Affiliation>
-				 <Build_Initially_Locked>Yes</Build_Initially_Locked> <!-- Until teching systems are made, will remain locked for testing, E3 only unlocked-->
+                 <Affiliation>Light_Side, Rebel</Affiliation>
+                                 <Build_Initially_Locked>Yes</Build_Initially_Locked> <!-- Until teching systems are made, will remain locked for testing, E3 only unlocked-->
                 <Encyclopedia_Text> TEXT_TOOLTIP_ORBITAL_BERTH  </Encyclopedia_Text>
         </SpecialStructure>
 
+        <SpecialStructure Name="OR_GOLAN">
+
+                 <Variant_Of_Existing_Type>GOLAN_GENERIC</Variant_Of_Existing_Type>
+                 <Affiliation>Light_Side, Rebel</Affiliation>
+                                 <Build_Initially_Locked>Yes</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
+                <Starting_Spawned_Units_Tech_0>OR_AUREK_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
+        </SpecialStructure>
 
 </SpecialStructures>
