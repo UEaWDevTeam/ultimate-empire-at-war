@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <CommandBarComponents>
-	
+
     <CommandBarComponent Name="i_main_commandbar">
             <Model_Name>i_galactic_controls.alo</Model_Name>
             <Type>Shell</Type>
@@ -60,7 +60,7 @@
             <Text_Color>255 255 255 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="Text_Planetary_Income">
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
@@ -94,17 +94,17 @@
     <CommandBarComponent Name="Text_Allegiance_A">
             <Type>Icon</Type>
             <Icon_Alternate_Texture_Name><!-- Icon order: Good, Evil, Corrupt, Pirate, Hutt, OTHER (OTHER are considered PIRATE) -->
-               i_button_command_bar_rebel_symbol.tga 
+               i_button_command_bar_rebel_symbol.tga
                i_button_command_bar_empire_symbol.tga
-			   i_button_command_bar_jabba_symbol.tga
-               i_button_command_bar_pirate_symbol.tga        
-			   i_button_command_bar_jabba_symbol.tga
-			   i_button_blank.tga
+                           i_button_command_bar_jabba_symbol.tga
+               i_button_command_bar_pirate_symbol.tga
+                           i_button_command_bar_jabba_symbol.tga
+                           i_button_blank.tga
             </Icon_Alternate_Texture_Name>
             <Scale>1.0</Scale>
             <Cross_Fade>True</Cross_Fade>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="Text_Credits">
             <Type>TextButton</Type>
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
@@ -758,7 +758,7 @@
             <Selected_Alpha>True</Selected_Alpha>
             <Click_Shift>True</Click_Shift>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-	    <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+            <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
             <Tooltip_Text />
     </CommandBarComponent>
 
@@ -815,7 +815,7 @@
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-				<Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
@@ -833,7 +833,7 @@
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-				<Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
@@ -851,7 +851,7 @@
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-				<Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
@@ -869,7 +869,7 @@
             <Tab>True</Tab>
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-				<Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
             <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
@@ -955,7 +955,7 @@
             <Selected_Texture_Name>i_button_scroll_right_on.tga</Selected_Texture_Name>
             <Swap_Texture>True</Swap_Texture>
             <Base_Layer>4</Base_Layer>
-				<Click_SFX>GUI_Unit_Scroll_SFX</Click_SFX>
+                                <Click_SFX>GUI_Unit_Scroll_SFX</Click_SFX>
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_scroll_left">
@@ -966,7 +966,7 @@
             <Selected_Texture_Name>i_button_scroll_left_on.tga</Selected_Texture_Name>
             <Swap_Texture>True</Swap_Texture>
             <Base_Layer>4</Base_Layer>
-				<Click_SFX>GUI_Unit_Scroll_SFX</Click_SFX>
+                                <Click_SFX>GUI_Unit_Scroll_SFX</Click_SFX>
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_zoom">
@@ -1163,7 +1163,7 @@
             <Type>TextButton</Type>
             <Blank_Texture_Name>i_button_space.tga</Blank_Texture_Name>
     </CommandBarComponent>
-	
+
 
     <CommandBarComponent Name="Slot_00">
             <Type>TextButton</Type>
@@ -1348,7 +1348,7 @@
             <Ghost_Base_Only>True</Ghost_Base_Only>
             <Drag_Select>True</Drag_Select>
     </CommandBarComponent>
-    
+
 
 
     <CommandBarComponent Name="Planet_structure_00">
@@ -4247,7 +4247,7 @@
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Size>171 175</Size>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="Text_Credits_tactical">
             <Type>TextButton</Type>
             <Tooltip_Text>TEXT_TOOLTIP_GALACTIC_RESERVE</Tooltip_Text>
@@ -4258,7 +4258,7 @@
             <Right_Justified>True</Right_Justified>
             <Text_Offset>-10 0</Text_Offset>
             <Blink_Duration>3.0</Blink_Duration>
-            <Blink_Rate>0.15</Blink_Rate>          
+            <Blink_Rate>0.15</Blink_Rate>
     </CommandBarComponent>
 
     <CommandBarComponent Name="st_grab_bar">
@@ -4284,7 +4284,7 @@
             <Lower_Effect_Offset>0 30</Lower_Effect_Offset>
             <Upper_Effect_Offset>15 -15</Upper_Effect_Offset>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="st_health_bar">
             <Type>Bar</Type>
             <Bar_Texture_Name>i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga </Bar_Texture_Name>
@@ -4293,7 +4293,7 @@
             <No_Shell>True</No_Shell>
             <Smooth_Bar>True</Smooth_Bar>
             <Base_Layer>0</Base_Layer>
-	    <Pixel_Align>False</Pixel_Align>
+            <Pixel_Align>False</Pixel_Align>
             <Cross_Fade>False</Cross_Fade>
             <Offset>0 -16</Offset>
             <Scale>0.80</Scale>
@@ -4313,7 +4313,7 @@
             <Text_Outline>True</Text_Outline>
             <Text_Color2>255 255 255 180</Text_Color2>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="st_bracket_medium">
             <Type>TextButton</Type>
             <Icon_Alternate_Texture_Name>i_icon_select_med_l.tga i_icon_select_med_r.tga</Icon_Alternate_Texture_Name>
@@ -4328,7 +4328,7 @@
             <Text_Outline>True</Text_Outline>
             <Text_Color2>255 255 255 180</Text_Color2>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="st_bracket_large">
             <Type>TextButton</Type>
             <Icon_Alternate_Texture_Name>i_icon_select_big_l.tga i_icon_select_big_r.tga</Icon_Alternate_Texture_Name>
@@ -4343,7 +4343,7 @@
             <Text_Outline>True</Text_Outline>
             <Text_Color2>255 255 255 180</Text_Color2>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="st_hero_icon">
             <Type>TextButton</Type>
             <Lower_Effect_Texture_Name>i_icon_sa_heroglow.tga</Lower_Effect_Texture_Name>
@@ -4364,7 +4364,7 @@
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>9</Font_Point_Size>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="st_hero_health">
             <Type>Bar</Type>
             <Bar_Texture_Name>i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga i_bar_control_wide.tga </Bar_Texture_Name>
@@ -4482,7 +4482,7 @@
 
     <CommandBarComponent Name="st_ability_icon">
             <Type>TextButton</Type>
-            <Icon_Alternate_Texture_Name> NOT_USED      i_button_sa_power_to_shields.tga i_button_sa_deploy.tga i_button_sa_gravity_well_generator.tga i_button_sa_harass.tga i_button_sa_barrage.tga i_button_sa_hunt.tga i_button_sa_toggle_spread_out.tga i_button_sa_afterburn.tga i_button_sa_Turbo.tga i_button_sa_lure.tga i_button_sa_lure.tga   i_button_sa_lure.tga  i_button_sa_force_crush.tga i_button_sa_force_choke.tga i_button_sa_force_lightning.tga i_button_sa_flame_thrower.tga i_button_sa_jet_pack.tga i_button_sa_capture_vehicle.tga i_button_sa_lure.tga               i_button_sa_sticky_bomb.tga i_button_sa_stun_blast.tga i_button_sa_area_heal.tga i_button_sa_influence_weak_minded.tga	i_button_sa_influence_weak_minded.tga i_button_sa_lure.tga  i_button_sa_lure.tga     i_button_sa_lure.tga   </Icon_Alternate_Texture_Name>
+            <Icon_Alternate_Texture_Name> NOT_USED      i_button_sa_power_to_shields.tga i_button_sa_deploy.tga i_button_sa_gravity_well_generator.tga i_button_sa_harass.tga i_button_sa_barrage.tga i_button_sa_hunt.tga i_button_sa_toggle_spread_out.tga i_button_sa_afterburn.tga i_button_sa_Turbo.tga i_button_sa_lure.tga i_button_sa_lure.tga   i_button_sa_lure.tga  i_button_sa_force_crush.tga i_button_sa_force_choke.tga i_button_sa_force_lightning.tga i_button_sa_flame_thrower.tga i_button_sa_jet_pack.tga i_button_sa_capture_vehicle.tga i_button_sa_lure.tga               i_button_sa_sticky_bomb.tga i_button_sa_stun_blast.tga i_button_sa_area_heal.tga i_button_sa_influence_weak_minded.tga        i_button_sa_influence_weak_minded.tga i_button_sa_lure.tga  i_button_sa_lure.tga     i_button_sa_lure.tga   </Icon_Alternate_Texture_Name>
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
     </CommandBarComponent>
@@ -4551,7 +4551,7 @@
             <Text_Color>255 255 255 212</Text_Color>
     </CommandBarComponent>
 
-    
+
 
 
 
@@ -5789,7 +5789,7 @@
     </CommandBarComponent>
 
 
-	 <!-- ! IMPORTANT NOTE: For the special buttons, the <Icon_Alternate_Texture_Name> entries are completely depedent on the order of UnitAbilityType enums in UnitAbilityType.xml -->
+         <!-- ! IMPORTANT NOTE: For the special buttons, the <Icon_Alternate_Texture_Name> entries are completely depedent on the order of UnitAbilityType enums in UnitAbilityType.xml -->
 
     <CommandBarComponent Name="special_button_00">
             <Type>TextButton</Type>
@@ -6491,7 +6491,7 @@
             <Default_Offset>0 0</Default_Offset>  <!--  offset from hint bone -->
             <Offset>5 2</Offset>
             <Pixel_Align>False</Pixel_Align>
-            <Lower_Effect_Additive>True</Lower_Effect_Additive>          
+            <Lower_Effect_Additive>True</Lower_Effect_Additive>
     </CommandBarComponent>
 
     <CommandBarComponent Name="encyclopedia_header_text">
@@ -6690,7 +6690,7 @@
             <Default_Offset>36 42</Default_Offset> <!-- x = left/right fleet x offset, y = left/right fleet y offset -->
             <Drag_Back>True</Drag_Back> <!-- show the pancakes while dragging -->
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_planet_value">
             <Type>TextButton</Type>
             <Scale>1.0</Scale>
@@ -6708,7 +6708,7 @@
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_political_control">
             <Type>Bar</Type>
             <Bar_Overlay_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga i_bar_control_small5.tga</Bar_Overlay_Name>
@@ -6749,7 +6749,7 @@
             <Tooltip_Text>TEXT_TOOLTIP_GROUND_LEVEL</Tooltip_Text>
             <Default_Offset>34 -26</Default_Offset>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_space_level">
             <Type>Bar</Type>
             <Bar_Texture_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga</Bar_Texture_Name>
@@ -6791,7 +6791,7 @@
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_hero">
             <Type>Button</Type>
             <Icon_ALternate_Texture_Name>i_icon_hero_you.tga i_icon_hero_enemy.tga i_icon_rebel_hero.tga i_icon_empire_hero.tga i_icon_underworld_hero.tga</Icon_ALternate_Texture_Name>
@@ -6802,7 +6802,7 @@
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_enemy_hero">
             <Type>Button</Type>
             <Icon_ALternate_Texture_Name>i_icon_hero.tga i_icon_empire_hero.tga</Icon_ALternate_Texture_Name>
@@ -6813,7 +6813,7 @@
             <Blink_Rate>0.15</Blink_Rate>
             <Blink_Duration>3</Blink_Duration>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_build">
             <Type>Button</Type>
             <Icon_Texture_Name>i_icon_build.tga</Icon_Texture_Name>
@@ -6846,9 +6846,9 @@
     <CommandBarComponent Name="g_ground_sell">
             <Type>TextButton</Type>
             <Icon_Texture_Name>i_sa_blank_button.tga</Icon_Texture_Name>
-			<Mouse_Over_Texture_Name>i_sa_blank_button_over.tga</Mouse_Over_Texture_Name>
+                        <Mouse_Over_Texture_Name>i_sa_blank_button_over.tga</Mouse_Over_Texture_Name>
             <Disabled_Texture_Name>i_button_disabled.tga</Disabled_Texture_Name>
-			<Scale>1.0</Scale>
+                        <Scale>1.0</Scale>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
@@ -6871,7 +6871,7 @@
             <Default_Offset>0 13</Default_Offset>
             <Tooltip_Text>TEXT_TOOLTIP_CREDIT_EFFECT_SMUGGLER</Tooltip_Text>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_bounty_hunter">
             <Type>Button</Type>
             <Icon_Texture_Name>i_icon_hunter.tga</Icon_Texture_Name>
@@ -6881,7 +6881,7 @@
             <Default_Offset>0 13</Default_Offset>
             <Tooltip_Text>TEXT_TOOLTIP_EFFECT_BOUNTY_HUNTER</Tooltip_Text>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_planet_land_forces">
             <Type>Button</Type>
             <Blank_Texture_Name> fleet_empty.tga fleet_stacks_01.tga fleet_stacks_02.tga fleet_stacks_03.tga fleet_stacks_04.tga fleet_stacks_05.tga </Blank_Texture_Name>
@@ -6908,7 +6908,7 @@
             <Base_Layer>3</Base_Layer>
             <Tab>True</Tab>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_radar_view">
             <Type>Button</Type>
             <Icon_Texture_Name>i_radar_view.tga</Icon_Texture_Name>
@@ -6917,20 +6917,20 @@
             <Base_Layer>4</Base_Layer>
             <Size>88 60</Size>
     </CommandBarComponent>
-    
 
-	<CommandBarComponent Name="g_credit_bar">
-		<Type>Bar</Type>
-		<Bar_Texture_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Texture_Name>
-		<Bar_Overlay_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Overlay_Name>
-		<Max_Bar_Level>10</Max_Bar_Level>
-		<No_Shell>True</No_Shell>
-		<Base_Layer>0</Base_Layer>
-		<Cross_Fade>False</Cross_Fade>
-		<Default_Offset>0 8</Default_Offset>
-		<Scale>1.0</Scale>
-		<!-- Tooltip_Text>TEXT_TOOLTIP_CREDIT_BAR -->
-	</CommandBarComponent>
+
+        <CommandBarComponent Name="g_credit_bar">
+                <Type>Bar</Type>
+                <Bar_Texture_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Texture_Name>
+                <Bar_Overlay_Name>i_bar_shield_small_cb0.tga i_bar_shield_small_cb1.tga i_bar_shield_small_cb2.tga i_bar_shield_small_cb3.tga i_bar_shield_small_cb4.tga i_bar_shield_small_cb5.tga i_bar_shield_small_cb6.tga i_bar_shield_small_cb7.tga i_bar_shield_small_cb8.tga i_bar_shield_small_cb9.tga i_bar_shield_small_cb10.tga </Bar_Overlay_Name>
+                <Max_Bar_Level>10</Max_Bar_Level>
+                <No_Shell>True</No_Shell>
+                <Base_Layer>0</Base_Layer>
+                <Cross_Fade>False</Cross_Fade>
+                <Default_Offset>0 8</Default_Offset>
+                <Scale>1.0</Scale>
+                <!-- Tooltip_Text>TEXT_TOOLTIP_CREDIT_BAR -->
+        </CommandBarComponent>
 
     <CommandBarComponent Name="g_smuggled">
             <Type>Button</Type>
@@ -6941,7 +6941,7 @@
             <Default_Offset>0 13</Default_Offset>
             <Tooltip_Text>TEXT_TOOLTIP_EFFECT_SMUGGLER</Tooltip_Text>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_special_ability">
             <Type>TextButton</Type>
             <Blank_Texture_Name>i_button_unit_frame_dark.tga</Blank_Texture_Name>
@@ -6958,7 +6958,7 @@
             <Offset>-48 -20</Offset>                  <!-- x = offset to right of planet, y = offset to next ability -->
             <Right_Justified>True</Right_Justified>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_hero_icon">
             <Type>TextButton</Type>
             <Lower_Effect_Texture_Name>i_icon_sa_heroglow.tga</Lower_Effect_Texture_Name>
@@ -6974,7 +6974,7 @@
             <Group>Hero Grab Bar</Group>
             <Build_Texture_Name>i_button_build.tga</Build_Texture_Name>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_planet_ring">
             <Type>Button</Type>
             <Icon_Texture_Name>planet_ring.tga</Icon_Texture_Name>
@@ -6983,7 +6983,7 @@
             <Color>255 255 255 255</Color>   <!-- Only alpha is used to color rings -->
             <Base_Layer>0</Base_Layer>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_weather">
             <Type>Button</Type>
             <No_Shell>True</No_Shell>
@@ -6992,7 +6992,7 @@
             <Base_Layer>0</Base_Layer>
             <Offset>-20 -31</Offset>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_planet_ability">
             <Type>Button</Type>
             <No_Shell>True</No_Shell>
@@ -7015,7 +7015,7 @@
             <Offset>30 15</Offset>                  <!-- x = offset to right of planet, y = offset to next ability -->
             <Left_Justified>True</Left_Justified>
     </CommandBarComponent>
-    
+
     <CommandBarComponent Name="g_corruption_icon">
             <Type>Button</Type>
             <Icon_Texture_Name>i_icon_corrupted.tga</Icon_Texture_Name>
@@ -7074,7 +7074,7 @@
             <No_Shell>True</No_Shell>
             <Pixel_Align>False</Pixel_Align>
     </CommandBarComponent>
-    
+
 
 
     <CommandBarComponent Name="i_build_buttons">
@@ -7965,7 +7965,7 @@
             <Model_Offset_Y>False</Model_Offset_Y>
             <Hidden>True</Hidden>
             <Tutorial_Scene>True</Tutorial_Scene>
-    </CommandBarComponent>               
+    </CommandBarComponent>
 
     <CommandBarComponent Name="h_title">
             <Type>TextButton</Type>
@@ -8533,14 +8533,14 @@
 
 
   <CommandBarComponent Name="b_play_pause">
-		<Swap_Texture>False</Swap_Texture>
+                <Swap_Texture>False</Swap_Texture>
             <Tooltip_Text>TEXT_TOOLTIP_PAUSE_PLAY</Tooltip_Text>
             <Type>Button</Type>
             <Blank_Texture_Name>i_button_command_bar_play.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_play_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_command_bar_play_press.tga</Selected_Texture_Name>
-	    <Disabled_Texture_Name>i_button_command_bar_disabled.tga</Disabled_Texture_Name>
+            <Disabled_Texture_Name>i_button_command_bar_disabled.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
@@ -8554,13 +8554,13 @@
 
     <CommandBarComponent Name="b_fast_forward">
             <Tooltip_Text>TEXT_TOOLTIP_SPEED_TIME</Tooltip_Text>
-	    <Mouse_Over_Texture_Name>i_button_command_bar_ff_over.tga</Mouse_Over_Texture_Name>
+            <Mouse_Over_Texture_Name>i_button_command_bar_ff_over.tga</Mouse_Over_Texture_Name>
             <Type>Button</Type>
             <Blank_Texture_Name>i_button_command_bar_ff.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_ff.tga</Icon_Texture_Name>
-	    <Disabled_Texture_Name>i_button_command_bar_ff_disabled.tga</Disabled_Texture_Name>
-	    <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-	    <Selected_Texture_Name>i_button_command_bar_ff_press.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>i_button_command_bar_ff_disabled.tga</Disabled_Texture_Name>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Selected_Texture_Name>i_button_command_bar_ff_press.tga</Selected_Texture_Name>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
             <Click_Shift>True</Click_Shift>
@@ -8572,14 +8572,14 @@
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_play_pause_t">
-		<Swap_Texture>False</Swap_Texture>
+                <Swap_Texture>False</Swap_Texture>
             <Tooltip_Text>TEXT_TOOLTIP_PAUSE_PLAY</Tooltip_Text>
             <Type>Button</Type>
             <Blank_Texture_Name>i_button_command_bar_play.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_play.tga</Icon_Texture_Name>
             <Mouse_Over_Texture_Name>i_button_command_bar_play_over.tga</Mouse_Over_Texture_Name>
             <Selected_Texture_Name>i_button_command_bar_play_press.tga</Selected_Texture_Name>
-			<Disabled_Texture_Name>i_button_command_bar_play_disabled.tga</Disabled_Texture_Name>
+                        <Disabled_Texture_Name>i_button_command_bar_play_disabled.tga</Disabled_Texture_Name>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
@@ -8593,13 +8593,13 @@
 
     <CommandBarComponent Name="b_fast_forward_t">
             <Tooltip_Text>TEXT_TOOLTIP_SPEED_TIME</Tooltip_Text>
-			<Mouse_Over_Texture_Name>i_button_command_bar_ff_over.tga</Mouse_Over_Texture_Name>
+                        <Mouse_Over_Texture_Name>i_button_command_bar_ff_over.tga</Mouse_Over_Texture_Name>
             <Type>Button</Type>
             <Blank_Texture_Name>i_button_command_bar_ff.tga</Blank_Texture_Name>
             <Icon_Texture_Name>i_button_command_bar_ff.tga</Icon_Texture_Name>
-			<Disabled_Texture_Name>i_button_command_bar_ff_disabled.tga</Disabled_Texture_Name>
-			<Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-		<Selected_Texture_Name>i_button_command_bar_ff_press.tga</Selected_Texture_Name>
+                        <Disabled_Texture_Name>i_button_command_bar_ff_disabled.tga</Disabled_Texture_Name>
+                        <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+                <Selected_Texture_Name>i_button_command_bar_ff_press.tga</Selected_Texture_Name>
             <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
             <Selected_Alpha>True</Selected_Alpha>
             <Click_Shift>True</Click_Shift>
@@ -8609,7 +8609,7 @@
             <Toggle>True</Toggle>
             <Disabled_Darken>True</Disabled_Darken>
    </CommandBarComponent>
-    
+
     <CommandBarComponent Name="text_galactic_help">
             <Type>TextButton</Type>
             <Font_Name>Arial</Font_Name>
@@ -8623,7 +8623,7 @@
             <Text_Outline>True</Text_Outline>
             <Selected_Alpha>True</Selected_Alpha>
             <Base_Layer>5</Base_Layer>
-    </CommandBarComponent> 
+    </CommandBarComponent>
 
     <CommandBarComponent Name="text_tactical_help">
             <Type>TextButton</Type>
@@ -8638,8 +8638,8 @@
             <Text_Outline>True</Text_Outline>
             <Selected_Alpha>True</Selected_Alpha>
             <Base_Layer>5</Base_Layer>
-   </CommandBarComponent> 
-   
+   </CommandBarComponent>
+
     <CommandBarComponent Name="help_back">
             <Type>TextButton</Type>
             <Blank_Texture_Name>e_background.tga</Blank_Texture_Name>
@@ -8651,7 +8651,7 @@
             <Lower_Effect_Additive>True</Lower_Effect_Additive>
             <Size>262 0</Size>
             <Offset>5 2</Offset>
-    </CommandBarComponent>   
+    </CommandBarComponent>
 
 
 
@@ -8662,7 +8662,7 @@
             <Font_Point_Size>10</Font_Point_Size>
             <Text_Color>0 0 0 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="text_fleet2">
             <Type>TextButton</Type>
@@ -8670,31 +8670,31 @@
             <Font_Point_Size>10</Font_Point_Size>
             <Text_Color>0 0 0 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
-   </CommandBarComponent> 
-   
+   </CommandBarComponent>
+
    <CommandBarComponent Name="text_fleet3">
             <Type>TextButton</Type>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
             <Text_Color>0 0 0 255</Text_Color>
             <Max_Text_Width>110</Max_Text_Width>
-	</CommandBarComponent>    
-   
+        </CommandBarComponent>
+
    <CommandBarComponent Name="icon_fleet01">
             <Type>TextButton</Type>
             <Icon_Alternate_Texture_Name>i_icon_stealth_zoomed.tga i_icon_raid_zoomed.tga</Icon_Alternate_Texture_Name>
             <Tooltip_Text>TEXT_STEALTH_FLEET TEXT_RAID_FLEET</Tooltip_Text>
-	</CommandBarComponent>    
+        </CommandBarComponent>
 
    <CommandBarComponent Name="icon_fleet02">
             <Type>TextButton</Type>
             <Icon_Alternate_Texture_Name>i_icon_stealth_zoomed.tga i_icon_raid_zoomed.tga</Icon_Alternate_Texture_Name>
-	</CommandBarComponent>    
+        </CommandBarComponent>
 
    <CommandBarComponent Name="icon_fleet03">
             <Type>TextButton</Type>
             <Icon_Alternate_Texture_Name>i_icon_stealth_zoomed.tga i_icon_raid_zoomed.tga</Icon_Alternate_Texture_Name>
-	</CommandBarComponent>    
+        </CommandBarComponent>
 
    <CommandBarComponent Name="Text_Land_Fleet">
             <Type>TextButton</Type>
@@ -8705,7 +8705,7 @@
             <Text_Outline>True</Text_Outline>
             <Text_Offset2>0 -20</Text_Offset2>
             <Base_Layer>4</Base_Layer>
-	</CommandBarComponent>    
+        </CommandBarComponent>
 
 
 
@@ -8722,7 +8722,7 @@
            <No_Shell>True</No_Shell>
            <Offset>40 0</Offset>
            <Default_Offset>10 -22</Default_Offset>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="cs_ability_text">
            <Type>TextButton</Type>
@@ -8736,7 +8736,7 @@
            <Left_Justified>True</Left_Justified>
            <No_Shell>True</No_Shell>
            <Size>10 0</Size>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
 
 
@@ -8744,15 +8744,15 @@
    <CommandBarComponent Name="Movie_galactic">
             <Type>Icon</Type>
             <Size>200 200</Size>
-   </CommandBarComponent>    
-   
+   </CommandBarComponent>
+
    <CommandBarComponent Name="Movie_tactical">
             <Type>Icon</Type>
             <Size>200 200</Size>
-   </CommandBarComponent>    
-   
-   
-   
+   </CommandBarComponent>
+
+
+
    <CommandBarComponent Name="good_hero_frame">
            <Model_Name>i_main_hero_frame_rebel.alo</Model_Name>
            <Type>Shell</Type>
@@ -8774,7 +8774,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good01">
            <Type>TextButton</Type>
@@ -8787,7 +8787,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good02">
            <Type>TextButton</Type>
@@ -8800,7 +8800,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good03">
            <Type>TextButton</Type>
@@ -8813,7 +8813,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good04">
            <Type>TextButton</Type>
@@ -8826,7 +8826,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good05">
            <Type>TextButton</Type>
@@ -8839,7 +8839,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good06">
            <Type>TextButton</Type>
@@ -8852,7 +8852,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good07">
            <Type>TextButton</Type>
@@ -8865,7 +8865,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good08">
            <Type>TextButton</Type>
@@ -8878,7 +8878,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good09">
            <Type>TextButton</Type>
@@ -8891,7 +8891,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_good10">
            <Type>TextButton</Type>
@@ -8904,7 +8904,7 @@
            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
            <Group>Good_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
 
    <CommandBarComponent Name="hero_hb_good00">
@@ -9050,7 +9050,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil01">
            <Type>TextButton</Type>
@@ -9060,7 +9060,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil02">
            <Type>TextButton</Type>
@@ -9070,7 +9070,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil03">
            <Type>TextButton</Type>
@@ -9080,7 +9080,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil04">
            <Type>TextButton</Type>
@@ -9090,7 +9090,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil05">
            <Type>TextButton</Type>
@@ -9100,7 +9100,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil06">
            <Type>TextButton</Type>
@@ -9110,7 +9110,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil07">
            <Type>TextButton</Type>
@@ -9120,7 +9120,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil08">
            <Type>TextButton</Type>
@@ -9130,7 +9130,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil09">
            <Type>TextButton</Type>
@@ -9140,7 +9140,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
    <CommandBarComponent Name="hero_slot_evil10">
            <Type>TextButton</Type>
@@ -9150,7 +9150,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Group>Evil_Hero</Group>
            <Scale>0.8</Scale>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
 
    <CommandBarComponent Name="hero_hb_evil00">
@@ -9545,7 +9545,7 @@
            <Text_Outline>True</Text_Outline>
            <Selected_Alpha>True</Selected_Alpha>
            <Base_Layer>5</Base_Layer>
-   </CommandBarComponent> 
+   </CommandBarComponent>
 
 
 
@@ -10173,7 +10173,7 @@
            <Loop_Anim>True</Loop_Anim>
            <Animate_Back>True</Animate_Back>
    </CommandBarComponent>
-                                        
+
    <CommandBarComponent Name="build_pad08">
            <Type>TextButton</Type>
            <Blank_Texture_Name>i_button_units.tga</Blank_Texture_Name>
@@ -11224,7 +11224,7 @@
            <Model_Offset_Y>False</Model_Offset_Y>
            <Hidden>True</Hidden>
            <Dialog_Scene>True</Dialog_Scene>
-   </CommandBarComponent>               
+   </CommandBarComponent>
 
    <CommandBarComponent Name="market_title00">
            <Type>TextButton</Type>
@@ -11296,7 +11296,7 @@
            <No_Hidden_Collision>True</No_Hidden_Collision>
            <Base_Layer>7</Base_Layer>
    </CommandBarComponent>
-   
+
    <CommandBarComponent Name="market_tech_level01">
            <Type>Button</Type>
            <Scale>1.0</Scale>
@@ -11521,7 +11521,7 @@
            <Model_Offset_Y>False</Model_Offset_Y>
            <Hidden>True</Hidden>
            <Dialog_Scene>True</Dialog_Scene>
-   </CommandBarComponent>               
+   </CommandBarComponent>
 
    <CommandBarComponent Name="bm_title">
            <Type>TextButton</Type>
@@ -11576,7 +11576,7 @@
            <Base_Layer>7</Base_Layer>
    </CommandBarComponent>
 
-   
+
    <CommandBarComponent Name="bm_0000">
            <Type>Button</Type>
            <Mouse_Over_Texture_Name>i_black_market_selected.tga</Mouse_Over_Texture_Name>
@@ -12015,7 +12015,7 @@
 
    <CommandBarComponent Name="generic_collision">
             <Type>Icon</Type>
-   </CommandBarComponent>    
+   </CommandBarComponent>
 
 
 
@@ -12075,8 +12075,8 @@
             <!--<Icon_Texture_Name>i_icon_planet_pop.tga</Icon_Texture_Name>-->
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>7</Font_Point_Size>
-				<Text_Emboss>True</Text_Emboss>
-				<Text_Outline>False</Text_Outline>
+                                <Text_Emboss>True</Text_Emboss>
+                                <Text_Outline>False</Text_Outline>
             <Text_Color>255 255 0 255</Text_Color>
             <!--<Right_Justified>True</Right_Justified>-->
             <Text_Offset>0 0</Text_Offset>
@@ -12121,7 +12121,7 @@
             <Model_Offset_Y>False</Model_Offset_Y>
             <Hidden>True</Hidden>
             <Dialog_Scene>True</Dialog_Scene>
-    </CommandBarComponent>               
+    </CommandBarComponent>
 
     <CommandBarComponent Name="corrupt_planet_title00">
             <Type>TextButton</Type>
@@ -12236,7 +12236,7 @@
 
     <CommandBarComponent Name="corrupt_cost_a">
             <Type>TextButton</Type>
-			<Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
+                        <Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
             <Color>255 255 255 255</Color>
@@ -12247,7 +12247,7 @@
 
     <CommandBarComponent Name="corrupt_cost_b">
             <Type>TextButton</Type>
-			<Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
+                        <Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
             <Color>255 255 255 255</Color>
@@ -12258,7 +12258,7 @@
 
     <CommandBarComponent Name="corrupt_cost_c">
             <Type>TextButton</Type>
-			<Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
+                        <Tooltip_Text>TEXT_TOOLTIP_CORRUPTION_COST</Tooltip_Text>
             <Font_Name>EmpireAtWar-Medium</Font_Name>
             <Font_Point_Size>10</Font_Point_Size>
             <Color>255 255 255 255</Color>
@@ -12806,7 +12806,7 @@
             <Model_Offset_Y>False</Model_Offset_Y>
             <Hidden>True</Hidden>
             <Dialog_Scene>True</Dialog_Scene>
-    </CommandBarComponent>               
+    </CommandBarComponent>
 
     <CommandBarComponent Name="hack_title01">
             <Type>TextButton</Type>
@@ -12953,5 +12953,68 @@
             <Swap_Texture>True</Swap_Texture>
             <Base_Layer>7</Base_Layer>
     </CommandBarComponent>
+<!-- New UEAW Buttons (Sub Menu System) -->
 
+    <CommandBarComponent Name="b_sub_menu_ship">
+            <Type>TextButton</Type>
+            <Icon_Texture_Name>I_BUTTON_SUB_MENU_SHIP.TGA</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
+            <Flash_Texture_Name>I_BUTTON_FLASH_SUB_MENU.tga</Flash_Texture_Name>
+            <!--<Group>Structure Buttons</Group>
+            <Scale>1.0</Scale> -->
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 189 26 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_SUB_MENU_SHIP</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_sub_menu_structures">
+            <Type>TextButton</Type>
+            <Icon_Texture_Name>I_BUTTON_SUB_MENU_STRUCTURE.TGA</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
+            <Flash_Texture_Name>I_BUTTON_FLASH_SUB_MENU.tga</Flash_Texture_Name>
+            <!--<Group>Structure Buttons</Group>
+            <Scale>1.0</Scale> -->
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 189 26 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_SUB_MENU_STRUCTURE</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
+
+    <CommandBarComponent Name="b_sub_menu_research">
+            <Type>TextButton</Type>
+            <Icon_Texture_Name>I_BUTTON_SUB_MENU_RESEARCH.TGA</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
+            <Flash_Texture_Name>I_BUTTON_FLASH_SUB_MENU.tga</Flash_Texture_Name>
+            <!--<Group>Structure Buttons</Group>
+            <Scale>1.0</Scale> -->
+            <Font_Name>EmpireAtWar-Medium</Font_Name>
+            <Font_Point_Size>6</Font_Point_Size>
+            <Text_Offset>0 0</Text_Offset>
+            <Text_Offset2>0 -20</Text_Offset2>
+            <Text_Color2>255 189 26 180</Text_Color2>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
+            <Text_Emboss>False</Text_Emboss>
+            <Text_Outline>True</Text_Outline>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Tooltip_Text>TEXT_SUB_MENU_RESEARCH</Tooltip_Text>
+            <Click_Shift>True</Click_Shift>
+    </CommandBarComponent>
 </CommandBarComponents>
