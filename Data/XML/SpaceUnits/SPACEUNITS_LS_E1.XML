@@ -623,6 +623,14 @@
 
         </SpaceUnit>
 
+                <SpaceUnit Name="OR_FORAY_CLASS_SU">
+                        <Variant_Of_Existing_Type>OR_FORAY_CLASS</Variant_Of_Existing_Type>
+                        <Shield_Points> 1000 </Shield_Points>
+                        <Build_Cost_Credits> 2310 </Build_Cost_Credits>
+                        <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                        <Icon_Name>I_BUTTON_FORAY_ADV.TGA</Icon_Name>
+                </SpaceUnit>
+
     <SpaceUnit Name="OR_FORAY_CLASS_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
                 <Text_ID>TEXT_UNIT_CORELLIAN_CORVETTE</Text_ID> <!-- Same as unit's -->
                 <Space_Model_Name>VCCo_FORAY_CORVETTE_D.alo</Space_Model_Name> <!-- Ensure ".alo" suffix -->
@@ -837,6 +845,7 @@
                         <Shield_Points> 1800 </Shield_Points>
                         <Build_Cost_Credits> 2310 </Build_Cost_Credits>
                         <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                        <Icon_Name>I_BUTTON_HAMMERHEAD_ADV.TGA</Icon_Name>
                 </SpaceUnit>
 
     <SpaceUnit Name="OR_HAMMERHEAD_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
@@ -1091,7 +1100,8 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
-                <Icon_Name> I_BUTTON_PRAETORIAN.TGA </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Light_Side.tga = || Ensure .tga extension -->
+
+                <Icon_Name>I_BUTTON_PRAETORIAN_ADV.TGA</Icon_Name>
         <!-- Unit model details -->
                 <Space_Model_Name>VCFr_PRAETORIAN_FRIGATE.ALO</Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
                 <Scale_Factor> 0.315 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
@@ -1558,6 +1568,7 @@
                         <Shield_Points> 4224 </Shield_Points>
                         <Build_Cost_Credits> 2625 </Build_Cost_Credits>
                         <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                        <Icon_Name>I_BUTTON_THRANTA_ADV.TGA</Icon_Name>
                 </SpaceUnit>
 
         <SpaceUnit Name="OR_THRANTA_DEATH_CLONE"> <!-- Same as unit's with "_Death_Clone" suffix-->
@@ -2139,7 +2150,7 @@
                 <Maintenance_Cost>0.3</Maintenance_Cost>
 
                 <Affiliation>Old_Republic, Rebel</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>4</Required_Star_Base_Level>
