@@ -160,7 +160,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -382,7 +382,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -594,7 +594,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -816,7 +816,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -1033,7 +1033,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -1250,7 +1250,7 @@
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -1821,7 +1821,7 @@
                 <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
                 <Affiliation>CIS, Empire</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -1945,7 +1945,7 @@
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
                 <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
-
+                <Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 
                 <Unit_Abilities_Data SubObjectList="Yes">
@@ -1954,18 +1954,11 @@
                          <Recharge_Seconds>60.0</Recharge_Seconds>
                          <GUI_Activated_Ability_Name> Recusant_Laser_Defense </GUI_Activated_Ability_Name>
                          <Effective_Radius> 500.0 </Effective_Radius>
-                         <SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>  <!--(by pressing the activate button)-->
-                         <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>  <!--(by pressing deactivate)-->
+                         <SFXEvent_GUI_Unit_Ability_Activated> Unit_Laser_Defense_On_Crusader </SFXEvent_GUI_Unit_Ability_Activated>
+                         <SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Laser_Defense_Off_Crusader </SFXEvent_GUI_Unit_Ability_Deactivated>
                          <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                          <Supports_Autofire>False</Supports_Autofire>
                          </Unit_Ability>
-
-                         <Planet_Income_Bonus_Ability Name="Maintenance">
-                         <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
-                         <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-                         <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
-                         <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
-                         </Planet_Income_Bonus_Ability>
 
                 </Unit_Abilities_Data>
 
@@ -1986,6 +1979,13 @@
                          <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
                          <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
                          </Laser_Defense_Ability>
+
+                         <Planet_Income_Bonus_Ability Name="Maintenance">
+                         <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
+                         <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
+                         <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
+                         <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
+                         </Planet_Income_Bonus_Ability>
                 </Abilities>
 
 
@@ -2059,7 +2059,7 @@
                 <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
                 <Affiliation>CIS, Empire</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -2186,6 +2186,7 @@
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
                 <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Lua_Script>ObjectScript_PointDefense</Lua_Script>
 
 
 
@@ -2317,7 +2318,7 @@
                 <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
                 <Affiliation>CIS, Empire</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -2567,7 +2568,7 @@
                 <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
                 <Affiliation>CIS, Empire</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
@@ -2804,7 +2805,7 @@
                 <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
 
                 <Affiliation>CIS, Empire</Affiliation>
-                <Tech_Level>99</Tech_Level>
+                <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>

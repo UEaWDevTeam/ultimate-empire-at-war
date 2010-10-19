@@ -12956,65 +12956,56 @@
 <!-- New UEAW Buttons (Sub Menu System) -->
 
     <CommandBarComponent Name="b_sub_menu_ship">
-            <Type>TextButton</Type>
-            <Icon_Texture_Name>I_BUTTON_SFMENU.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
-            <Flash_Texture_Name>I_BUTTON_SFMENU_OVER.tga</Flash_Texture_Name>
-            <Group>Structure Buttons</Group>
-            <Scale>1.0</Scale>
-            <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>6</Font_Point_Size>
-            <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -20</Text_Offset2>
-            <Text_Color2>255 189 26 180</Text_Color2>
-            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
-            <Text_Emboss>False</Text_Emboss>
-            <Text_Outline>True</Text_Outline>
-            <Selected_Alpha>True</Selected_Alpha>
+            <Type>Button</Type>
             <Tooltip_Text>TEXT_SUB_MENU_SHIP</Tooltip_Text>
+            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Icon_Texture_Name>I_BUTTON_SFMENU.tga</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_SFMENU_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_SFMENU_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_SFMENU.tga</Disabled_Texture_Name>
+            <Group>SUB_MENU_FILTER</Group>
+            <Swap_Texture>False</Swap_Texture>
+            <Tab>True</Tab>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+            <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_sub_menu_structures">
-            <Type>TextButton</Type>
-            <Icon_Texture_Name>I_BUTTON_CONSMENU.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
-            <Flash_Texture_Name>I_BUTTON_CONSMENU_OVER.tga</Flash_Texture_Name>
-            <Group>Structure Buttons</Group>
-            <Scale>1.0</Scale>
-            <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>6</Font_Point_Size>
-            <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -20</Text_Offset2>
-            <Text_Color2>255 189 26 180</Text_Color2>
-            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
-            <Text_Emboss>False</Text_Emboss>
-            <Text_Outline>True</Text_Outline>
-            <Selected_Alpha>True</Selected_Alpha>
+            <Type>Button</Type>
             <Tooltip_Text>TEXT_SUB_MENU_STRUCTURE</Tooltip_Text>
+            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Icon_Texture_Name>I_BUTTON_CONSMENU.tga</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_CONSMENU_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_CONSMENU_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_CONSMENU.tga</Disabled_Texture_Name>
+            <Group>SUB_MENU_FILTER</Group>
+            <Swap_Texture>False</Swap_Texture>
+            <Tab>True</Tab>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+            <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
     <CommandBarComponent Name="b_sub_menu_research">
-            <Type>TextButton</Type>
-            <Icon_Texture_Name>I_BUTTON_RESMENU.tga</Icon_Texture_Name>
-            <Mouse_Over_Texture_Name>I_BUTTON_MOUSE_OVER_SUB_MENU</Mouse_Over_Texture_Name>
-            <Flash_Texture_Name>I_BUTTON_RESMENU_OVER.tga</Flash_Texture_Name>
-            <Group>Structure Buttons</Group>
-            <Scale>1.0</Scale>
-            <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>6</Font_Point_Size>
-            <Text_Offset>0 0</Text_Offset>
-            <Text_Offset2>0 -20</Text_Offset2>
-            <Text_Color2>255 189 26 180</Text_Color2>
-            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
-            <Click_SFX>GUI_Button_Press_2_SFX</Click_SFX>
-            <Text_Emboss>False</Text_Emboss>
-            <Text_Outline>True</Text_Outline>
-            <Selected_Alpha>True</Selected_Alpha>
+            <Type>Button</Type>
             <Tooltip_Text>TEXT_SUB_MENU_RESEARCH</Tooltip_Text>
+            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Icon_Texture_Name>I_BUTTON_RESMENU.tga</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_RESMENU_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_RESMENU_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_RESMENU.tga</Disabled_Texture_Name>
+            <Group>SUB_MENU_FILTER</Group>
+            <Swap_Texture>False</Swap_Texture>
+            <Tab>True</Tab>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+                                <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+            <Toggle>True</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 </CommandBarComponents>
