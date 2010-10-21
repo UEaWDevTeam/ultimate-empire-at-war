@@ -1,0 +1,232 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+        <Event Name="Universal_Story_Start">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
+
+         <Event Name="LOCK_BASE_S_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+<!-- Sub Menu Control System -->
+         <!-- Detect SpaceMenu click -->
+         <Event Name="CLICK_SHIP_SPACE_TAB">
+              <Event_Type>STORY_CLICK_GUI</Event_Type>
+                <Event_Param1>b_sub_menu_ship</Event_Param1>
+                <Prereq>Universal_Story_Start</Prereq>
+                <Perpetual>True</Perpetual>
+          </Event>
+
+        <!-- Units -->
+         <Event Name="UNLOCK_IR_TIE_SCOUT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_TIE_SCOUT_SQUADRON</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_TIE_DEFENDER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_TIE_DEFENDER_SQUADRON</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_TIE_PHANTOM_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_TIE_PHANTOM_SQUADRON</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_TIE_DROID_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_TIE_DROID_SQUADRON</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_ALPHA_XG1_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_XG_STAR_WING_SQUADRON</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_IPV_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_IPV_PATROL_CRAFT</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_TARTAN_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_TARTAN_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_BROADSIDE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_BROADSIDE</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_ACCLAMATOR_I_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_ACCLAMATOR_ASSAULT_FRIGATE_I</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_ACCLAMATOR_II_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_ACCLAMATOR_ASSAULT_FRIGATE_II</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_DREADNAUGHT_REFIT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_DREADNAUGHT_REFIT</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_VICTORY_I_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_VICTORY_I</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_VICTORY_II_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_VICTORY_II</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_STRIKE_CLASS_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_STRIKE_CLASS_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_ISDI_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_ISDI</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_ISDII_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_ISDII</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_EXECUTOR_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_ECLIPSE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>Eclipse_Super_Star_Destroyer</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_COMBINING_SUPERLASER_SUPERSHIPS_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+</Story>
