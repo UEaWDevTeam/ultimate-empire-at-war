@@ -182,7 +182,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>OR_FORAY_CLASS</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB && E1_CORVETTE_THEORY_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -198,7 +198,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>OR_HAMMERHEAD</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB && E1_ESCORT_THEORY_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -269,22 +269,6 @@
          <!-- Lock each other research/structure -->
 
          <!-- Research -->
-         <Event Name="LOCK_E1_CORVETTE_THEORY_SHIP">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="LOCK_E1_ESCORT_THEORY_SHIP">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="LOCK_E1_EXTENDED_ESCORT_THEORY_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -337,14 +321,6 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E1_SUPERSHIP_THEORY</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="LOCK_E1_ADVANCED_MATERIALS_SHIP">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ADVANCED_MATERIALS</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -560,7 +536,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>OR_STARBASE_2</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB && E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
          <Event Name="UNLOCK_OR_BASE_3_STRUCTURE">
@@ -646,7 +622,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>LS_ORBITAL_MANUFACTURING</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB && E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -662,7 +638,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>LS_GALACTIC_GAS_EXTRACTOR</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB && E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -685,22 +661,6 @@
          <!-- Lock each other research/ship -->
 
          <!-- Research -->
-         <Event Name="LOCK_E1_CORVETTE_THEORY_STRUCTURE">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="LOCK_E1_ESCORT_THEORY_STRUCTURE">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="LOCK_E1_EXTENDED_ESCORT_THEORY_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -753,14 +713,6 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E1_SUPERSHIP_THEORY</Reward_Param1>
-                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="LOCK_E1_ADVANCED_MATERIALS_STRUCTURE">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ADVANCED_MATERIALS</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -936,22 +888,6 @@
           </Event>
 
          <!-- Unlock Research -->
-         <Event Name="UNLOCK_E1_CORVETTE_THEORY_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="UNLOCK_E1_ESCORT_THEORY_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="UNLOCK_E1_EXTENDED_ESCORT_THEORY_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
@@ -964,14 +900,6 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E1_CRUISER_THEORY</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="UNLOCK_E1_ADVANCED_MATERIALS_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ADVANCED_MATERIALS</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1012,7 +940,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E1_CORVETTE_THEORY_CONSTRUCTED && E1_ESCORT_THEORY_CONSTRUCTED && E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED && E1_CRUISER_THEORY_CONSTRUCTED && E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED && E1_CRUISER_THEORY_CONSTRUCTED</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1048,19 +976,11 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
-         <Event Name="UNLOCK_E1_ADVANCED_MATERIALS_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E1_ADVANCED_MATERIALS</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="UNLOCK_E1_ADVANCED_DEFENCES_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E1_ADVANCED_DEFENCES</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1356,62 +1276,6 @@
 
 
          <!-- Tech Tree -->
-
-         <!-- Foray Class -->
-        <Event Name="E1_CORVETTE_THEORY_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E1_CORVETTE_THEORY_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E1_CORVETTE_THEORY</Event_Param1>
-                <Prereq>E1_CORVETTE_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_CORVETTE_THEORY_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E1_CORVETTE_THEORY_RESEARCH</Reward_Param1>
-                <Prereq>E1_CORVETTE_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_CORVETTE_THEORY_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E1_CORVETTE_THEORY</Reward_Param1>
-                 <Prereq>E1_CORVETTE_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-        <!-- Hammerhead -->
-        <Event Name="E1_ESCORT_THEORY_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E1_ESCORT_THEORY</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E1_ESCORT_THEORY_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E1_ESCORT_THEORY</Event_Param1>
-                <Prereq>E1_ESCORT_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_ESCORT_THEORY_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E1_ESCORT_THEORY_RESEARCH</Reward_Param1>
-                <Prereq>E1_ESCORT_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_ESCORT_THEORY_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E1_ESCORT_THEORY</Reward_Param1>
-                 <Prereq>E1_ESCORT_THEORY_CONSTRUCTED</Prereq>
-        </Event>
-
         <!-- Praetorian -->
         <Event Name="E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED">
                 <Event_Type>STORY_CONSTRUCT</Event_Type>
@@ -1721,33 +1585,6 @@
         </Event>
 
         <!-- Starbase Upgrades -->
-        <!-- Starbase lvl 2 -->
-        <Event Name="E1_ADVANCED_MATERIALS_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E1_ADVANCED_MATERIALS</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E1_ADVANCED_MATERIALS_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E1_ADVANCED_MATERIALS</Event_Param1>
-                <Prereq>E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_ADVANCED_MATERIALS_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E1_ADVANCED_MATERIALS_RESEARCH</Reward_Param1>
-                <Prereq>E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E1_ADVANCED_MATERIALS_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E1_ADVANCED_MATERIALS</Reward_Param1>
-                 <Prereq>E1_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
-        </Event>
 
         <!-- Starbase lvl 3 -->
         <Event Name="E1_ADVANCED_DEFENCES_CONSTRUCTED">
