@@ -197,7 +197,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>NR_E-WING_SQUADRON</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_DEVELOPMENT_SUPERIOR_FIGHTERS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
           </Event>
 
@@ -205,7 +205,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>NR_K-WING_SQUADRON</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_DEVELOPMENT_SUPERIOR_BOMBERS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
           </Event>
 
@@ -464,23 +464,6 @@
          </Event>
 
          <!-- Researches -->
-
-         <Event Name="LOCK_E4_DEVELOPMENT_SUPERIOR_FIGHTERS_SHIP">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_FIGHTERS</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="LOCK_E4_DEVELOPMENT_SUPERIOR_BOMBERS_SHIP">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_BOMBERS</Reward_Param1>
-                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="LOCK_E4_REDESIGN_ESCORT_SHIPS_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -894,27 +877,11 @@
           </Event>
 
           <!-- Researches -->
-         <Event Name="UNLOCK_E4_DEVELOPMENT_SUPERIOR_FIGHTERS_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_FIGHTERS</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
-         <Event Name="UNLOCK_E4_DEVELOPMENT_SUPERIOR_BOMBERS_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_BOMBERS</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
-                <Perpetual>True</Perpetual>
-         </Event>
-
          <Event Name="UNLOCK_E4_REDESIGN_ESCORT_SHIPS_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E4_REDESIGN_ESCORT_SHIPS</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_DEVELOPMENT_SUPERIOR_BOMBERS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -922,7 +889,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E4_DESIGNING_NEW_CARRIER_CLASS</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_DEVELOPMENT_SUPERIOR_FIGHTERS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -930,7 +897,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E4_DESIGNING_NEW_STAR_DESTROYER</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_REDESIGN_ESCORT_SHIPS_CONSTRUCTED && E4_DESIGNING_NEW_CARRIER_CLASS_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_REDESIGN_ESCORT_RESEARCHS_CONSTRUCTED && E4_DESIGNING_NEW_CARRIER_CLASS_CONSTRUCTED</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1247,62 +1214,6 @@
 
 
 <!-- Tech tree -->
-        <!-- Development of Superior Fighters -->
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_FIGHTERS_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E4_DEVELOPMENT_SUPERIOR_FIGHTERS</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_FIGHTERS_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E4_DEVELOPMENT_SUPERIOR_FIGHTERS</Event_Param1>
-                <Prereq>E2_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_FIGHTERS_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E4_DEVELOPMENT_SUPERIOR_FIGHTERS_RESEARCH</Reward_Param1>
-                <Prereq>E4_DEVELOPMENT_SUPERIOR_FIGHTERS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_FIGHTERS_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_FIGHTERS</Reward_Param1>
-                 <Prereq>E4_DEVELOPMENT_SUPERIOR_FIGHTERS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <!-- Development of Superior Bombers -->
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_BOMBERS_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E4_DEVELOPMENT_SUPERIOR_BOMBERS</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_BOMBERS_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E4_DEVELOPMENT_SUPERIOR_BOMBERS</Event_Param1>
-                <Prereq>E2_ADVANCED_MATERIALS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_BOMBERS_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E4_DEVELOPMENT_SUPERIOR_BOMBERS_RESEARCH</Reward_Param1>
-                <Prereq>E4_DEVELOPMENT_SUPERIOR_BOMBERS_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPMENT_SUPERIOR_BOMBERS_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPMENT_SUPERIOR_BOMBERS</Reward_Param1>
-                 <Prereq>E4_DEVELOPMENT_SUPERIOR_BOMBERS_CONSTRUCTED</Prereq>
-        </Event>
-
         <!-- Redesign to Escort Ships -->
         <Event Name="E4_REDESIGN_ESCORT_SHIPS_CONSTRUCTED">
                 <Event_Type>STORY_CONSTRUCT</Event_Type>
