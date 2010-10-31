@@ -98,7 +98,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>IR_TIE_PHANTOM_SQUADRON</Reward_Param1>
-                 <Prereq>Universal_Story_Start && E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED</Prereq>
+                 <Prereq>Universal_Story_Start</Prereq>
 
          </Event>
 
@@ -106,7 +106,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>IR_TIE_DROID_SQUADRON</Reward_Param1>
-                 <Prereq>Universal_Story_Start && E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
+                 <Prereq>Universal_Story_Start</Prereq>
 
          </Event>
 
@@ -186,7 +186,7 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>IR_STRIKE_CLASS_CRUISER</Reward_Param1>
-                 <Prereq>Universal_Story_Start && E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
+                 <Prereq>Universal_Story_Start</Prereq>
 
          </Event>
 
@@ -360,122 +360,16 @@
 
          </Event>
 
-         <Event Name="UNLOCK_E4_RESEARCHING_CLOAKING_TECHNOLOGY_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E4_RESEARCHING_CLOAKING_TECHNOLOGY</Reward_Param1>
-                 <Prereq>Universal_Story_Start</Prereq>
-
-         </Event>
-
-         <Event Name="UNLOCK_E4_AUTOMATED_COMBAT_SYSTEM_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E4_AUTOMATED_COMBAT_SYSTEM</Reward_Param1>
-                 <Prereq>Universal_Story_Start</Prereq>
-
-         </Event>
-
-         <Event Name="UNLOCK_E4_DEVELOPING_NEW_RAID_TECHNOLOGY_RESEARCH">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPING_NEW_RAID_TECHNOLOGY</Reward_Param1>
-                 <Prereq>Universal_Story_Start && E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED && E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
-
-         </Event>
-
          <Event Name="UNLOCK_E4_COMBINING_SUPERLASER_SUPERSHIPS_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E4_COMBINING_SUPERLASER_SUPERSHIPS</Reward_Param1>
-                 <Prereq>Universal_Story_Start && E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
-
+                 <Prereq>Universal_Story_Start</Prereq>
+                
          </Event>
+
+
 <!-- Tech Tree -->
-        <!-- Research Cloaking Technology -->
-        <Event Name="E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E4_RESEARCHING_CLOAKING_TECHNOLOGY</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E4_RESEARCHING_CLOAKING_TECHNOLOGY_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E4_RESEARCHING_CLOAKING_TECHNOLOGY</Event_Param1>
-                <Prereq>E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_RESEARCHING_CLOAKING_TECHNOLOGY_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E2_SUPERIOR_SYSTEMS_CI</Reward_Param1>
-                <Prereq>E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_RESEARCHING_CLOAKING_TECHNOLOGY_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E4_RESEARCHING_CLOAKING_TECHNOLOGY</Reward_Param1>
-                 <Prereq>E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <!-- Automated Systems -->
-        <Event Name="E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E4_AUTOMATED_COMBAT_SYSTEM</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E4_AUTOMATED_COMBAT_SYSTEM_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E4_AUTOMATED_COMBAT_SYSTEM</Event_Param1>
-                <Prereq>E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_AUTOMATED_COMBAT_SYSTEM_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E2_SUPERIOR_SYSTEMS_CI</Reward_Param1>
-                <Prereq>E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_AUTOMATED_COMBAT_SYSTEM_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E4_AUTOMATED_COMBAT_SYSTEM</Reward_Param1>
-                 <Prereq>E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
-        </Event>
-
-        <!-- Development of New Raid Technology -->
-        <Event Name="E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED">
-                <Event_Type>STORY_CONSTRUCT</Event_Type>
-                <Event_Param1>E4_DEVELOPING_NEW_RAID_TECHNOLOGY</Event_Param1>
-                <Event_Param2>1</Event_Param2>
-        </Event>
-
-        <Event Name="E4_DEVELOPING_NEW_RAID_TECHNOLOGY_REMOVE">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>LOCK_UNIT</Reward_Type>
-                <Event_Param1>E4_DEVELOPING_NEW_RAID_TECHNOLOGY</Event_Param1>
-                <Prereq>E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPING_NEW_RAID_TECHNOLOGY_DISABLE_EVENT">
-                <Event_Type>STORY_TRIGGER</Event_Type>
-                <Reward_Type>DISABLE_EVENT</Reward_Type>
-                <Reward_Param1>UNLOCK_E2_SUPERIOR_SYSTEMS_CI</Reward_Param1>
-                <Prereq>E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
-        <Event Name="E4_DEVELOPING_NEW_RAID_TECHNOLOGY_DESTROY">
-                 <Event_Type>STORY_TRIGGER</Event_Type>
-                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
-                 <Reward_Param1>E4_DEVELOPING_NEW_RAID_TECHNOLOGY</Reward_Param1>
-                 <Prereq>E4_DEVELOPING_NEW_RAID_TECHNOLOGY_CONSTRUCTED</Prereq>
-        </Event>
-
         <!-- Combining Superlaser with Superships  -->
         <Event Name="E4_COMBINING_SUPERLASER_SUPERSHIPS_CONSTRUCTED">
                 <Event_Type>STORY_CONSTRUCT</Event_Type>
