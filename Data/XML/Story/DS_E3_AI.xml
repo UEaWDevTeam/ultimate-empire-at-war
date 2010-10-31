@@ -1,0 +1,1210 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+        <Event Name="Universal_Story_Start">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
+
+         <Event Name="LOCK_BASE_S_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_S_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+        <!-- Units -->
+         <Event Name="UNLOCK_E_TIE_SCOUT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_TIE_SCOUT_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_TIE_DEFENDER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_TIE_DEFENDER_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_ALPHA_XG1_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_XG_STAR_WING_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_SUPERIOR_GUNBOATS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_IPV_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_IPV_PATROL_CRAFT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_TARTAN_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_TARTAN_CRUISER</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_BROADSIDE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_BROADSIDE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_ACCLAMATOR_I_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_ACCLAMATOR_ASSAULT_FRIGATE_I</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_ACCLAMATOR_II_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_ACCLAMATOR_ASSAULT_FRIGATE_II</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_DREADNAUGHT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_DREADNAUGHT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_DREADNAUGHT_REFIT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_DREADNAUGHT_REFIT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_VICTORY_I_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_VICTORY_I</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_VICTORY_II_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_VICTORY_II</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_VICTORY_I_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_ISDI_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_ISDI</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_ISDII_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_ISDII</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_EXECUTOR_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>Executor_Super_Star_Destroyer</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Bases -->
+         <Event Name="UNLOCK_E_BASE_1_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_BASE_2_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_BASE_3_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_BASE_4_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E_BASE_5_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Structures -->
+         <Event Name="UNLOCK_BERTH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_BERTH</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_GOLAN</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_SENSOR_RELAY_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_RELAY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONIC_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_CARGO</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_HYPERLANES</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_ASTEROID_MINE</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_GAS_EXTRACTOR</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_ORBITAL_DEFENCE_POD</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_HANGAR</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Research -->
+         <Event Name="UNLOCK_E3_ACQUIRATION_PATROL_CRAFT_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_ACQUIRATION_PATROL_CRAFT</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPING_NEW_PATROL_CLASS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_PATROL_CLASS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED && E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPING_NEW_GUNSHIPS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_GUNSHIPS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DRAFT_CLONE_WARS_SHIPS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DRAFT_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_REDESIGN_CLONE_WARS_DESIGNS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_CLONE_WARS_DESIGNS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_CONTINUE_CLONE_WARS_SHIPS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED && E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED && E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_REDESIGN_VICTORY_I_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_VICTORY_I</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_REDESIGN_VICTORY_CLASS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_VICTORY_CLASS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_VICTORY_I_CONSTRUCTED && E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPING_NEW_FIGHTERS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_FIGHTERS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_VICTORY_I_CONSTRUCTED && E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_SUPERIOR_GUNBOATS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_SUPERIOR_GUNBOATS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED && E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_SUPERIOR_GUNBOATS_CONSTRUCTED && E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_SUPERIOR_GUNBOATS_CONSTRUCTED && E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_DEVELOPMENT_SUPERSHIPS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERSHIPS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED && E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_REVISING_OLD_BATTLESTATION_PLANS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_REVISING_OLD_BATTLESTATION_PLANS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_BUILDING_PROTOTYPE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_PROTOTYPE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REVISING_OLD_BATTLESTATION_PLANS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_PLANNING_BUILDING_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_PLANNING_BUILDING</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_BUILDING_PROTOTYPE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_GATHER_RESSOURCES_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_GATHER_RESSOURCES</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_PLANNING_BUILDING_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_BUILDING_DEATH_STAR_I_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_DEATH_STAR_I</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_GATHER_RESSOURCES_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_REDESIGN_DEATH_STAR_I_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_DEATH_STAR_I</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_BUILDING_DEATH_STAR_I_CONSTRUCTED && E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_BUILDING_DEATH_STAR_II_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_DEATH_STAR_II</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_REDESIGN_DEATH_STAR_I_CONSTRUCTED && E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_ADVANCED_MATERIALS_EMPIRE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_MATERIALS_EMPIRE</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_ADVANCED_DEFENCES_EMPIRE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_DEFENCES_EMPIRE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E3_SUPERIOR_SYSTEMS_EMPIRE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_SUPERIOR_SYSTEMS_EMPIRE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+                
+         </Event>
+
+
+<!-- Tech tree -->
+         <!-- Acquiration of Patrol Craft-->
+        <Event Name="E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_ACQUIRATION_PATROL_CRAFT</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_ACQUIRATION_PATROL_CRAFT_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_ACQUIRATION_PATROL_CRAFT</Event_Param1>
+                <Prereq>E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ACQUIRATION_PATROL_CRAFT_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_ACQUIRATION_PATROL_CRAFT</Reward_Param1>
+                <Prereq>E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ACQUIRATION_PATROL_CRAFT_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_ACQUIRATION_PATROL_CRAFT</Reward_Param1>
+                 <Prereq>E3_ACQUIRATION_PATROL_CRAFT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing a new Patrol Class -->
+        <Event Name="E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_PATROL_CLASS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_PATROL_CLASS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_PATROL_CLASS</Event_Param1>
+                <Prereq>E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_PATROL_CLASS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPING_NEW_PATROL_CLASS</Reward_Param1>
+                <Prereq>E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_PATROL_CLASS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_PATROL_CLASS</Reward_Param1>
+                 <Prereq>E3_DEVELOPING_NEW_PATROL_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing new Gunships -->
+        <Event Name="E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_GUNSHIPS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_GUNSHIPS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_GUNSHIPS</Event_Param1>
+                <Prereq>E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_GUNSHIPS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPING_NEW_GUNSHIPS</Reward_Param1>
+                <Prereq>E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_GUNSHIPS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_GUNSHIPS</Reward_Param1>
+                 <Prereq>E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Draft old Clone Wars Ships -->
+        <Event Name="E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DRAFT_CLONE_WARS_SHIPS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DRAFT_CLONE_WARS_SHIPS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DRAFT_CLONE_WARS_SHIPS</Event_Param1>
+                <Prereq>E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DRAFT_CLONE_WARS_SHIPS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DRAFT_CLONE_WARS_SHIPS</Reward_Param1>
+                <Prereq>E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DRAFT_CLONE_WARS_SHIPS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DRAFT_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>E3_DRAFT_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Redesign Clone Wars Ships-->
+        <Event Name="E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_REDESIGN_CLONE_WARS_DESIGNS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_REDESIGN_CLONE_WARS_DESIGNS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_REDESIGN_CLONE_WARS_DESIGNS</Event_Param1>
+                <Prereq>E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_CLONE_WARS_DESIGNS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_REDESIGN_CLONE_WARS_DESIGNS</Reward_Param1>
+                <Prereq>E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_CLONE_WARS_DESIGNS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_CLONE_WARS_DESIGNS</Reward_Param1>
+                 <Prereq>E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Continue Constructing of newer Clone Wars Ships-->
+        <Event Name="E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_CONTINUE_CLONE_WARS_SHIPS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Event_Param1>
+                <Prereq>E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_CONTINUE_CLONE_WARS_SHIPS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
+                <Prereq>E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_CONTINUE_CLONE_WARS_SHIPS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Redesign of Victory I -->
+        <Event Name="E3_REDESIGN_VICTORY_I_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_REDESIGN_VICTORY_I</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_I_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_REDESIGN_VICTORY_I</Event_Param1>
+                <Prereq>E3_REDESIGN_VICTORY_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_I_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_REDESIGN_VICTORY_I</Reward_Param1>
+                <Prereq>E3_REDESIGN_VICTORY_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_I_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_VICTORY_I</Reward_Param1>
+                 <Prereq>E3_REDESIGN_VICTORY_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Total Redesign of Victory-Class -->
+        <Event Name="E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_REDESIGN_VICTORY_CLASS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_CLASS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_REDESIGN_VICTORY_CLASS</Event_Param1>
+                <Prereq>E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_CLASS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_REDESIGN_VICTORY_CLASS</Reward_Param1>
+                <Prereq>E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_VICTORY_CLASS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_VICTORY_CLASS</Reward_Param1>
+                 <Prereq>E3_REDESIGN_VICTORY_CLASS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing New Fighters -->
+        <Event Name="E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_FIGHTERS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_FIGHTERS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPING_NEW_FIGHTERS</Event_Param1>
+                <Prereq>E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_FIGHTERS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPING_NEW_FIGHTERS</Reward_Param1>
+                <Prereq>E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPING_NEW_FIGHTERS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPING_NEW_FIGHTERS</Reward_Param1>
+                 <Prereq>E3_DEVELOPING_NEW_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing Superior Gunboats -->
+        <Event Name="E3_SUPERIOR_GUNBOATS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_SUPERIOR_GUNBOATS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_GUNBOATS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_SUPERIOR_GUNBOATS</Event_Param1>
+                <Prereq>E3_SUPERIOR_GUNBOATS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_GUNBOATS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_SUPERIOR_GUNBOATS</Reward_Param1>
+                <Prereq>E3_SUPERIOR_GUNBOATS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_GUNBOATS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_SUPERIOR_GUNBOATS</Reward_Param1>
+                 <Prereq>E3_SUPERIOR_GUNBOATS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing Superior Battlehships-->
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS</Event_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS</Reward_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS</Reward_Param1>
+                 <Prereq>E3_DEVELOPMENT_SUPERIOR_BATTLESHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Developing Superior Assault Fighters -->
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS</Event_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS</Reward_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS</Reward_Param1>
+                 <Prereq>E3_DEVELOPMENT_SUPERIOR_ASSAULT_FIGHTERS_CONSTRUCTED</Prereq>
+        </Event>
+
+
+        <!-- Developing Superships -->
+        <Event Name="E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERSHIPS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERSHIPS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_DEVELOPMENT_SUPERSHIPS</Event_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERSHIPS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_DEVELOPMENT_SUPERSHIPS</Reward_Param1>
+                <Prereq>E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_DEVELOPMENT_SUPERSHIPS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_DEVELOPMENT_SUPERSHIPS</Reward_Param1>
+                 <Prereq>E3_DEVELOPMENT_SUPERSHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Revising old Battlestation Plans -->
+        <Event Name="E3_REVISING_OLD_BATTLESTATION_PLANS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_REVISING_OLD_BATTLESTATION_PLANS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_REVISING_OLD_BATTLESTATION_PLANS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_REVISING_OLD_BATTLESTATION_PLANS</Event_Param1>
+                <Prereq>E3_REVISING_OLD_BATTLESTATION_PLANS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REVISING_OLD_BATTLESTATION_PLANS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_REVISING_OLD_BATTLESTATION_PLANS</Reward_Param1>
+                <Prereq>E3_REVISING_OLD_BATTLESTATION_PLANS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REVISING_OLD_BATTLESTATION_PLANS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_REVISING_OLD_BATTLESTATION_PLANS</Reward_Param1>
+                 <Prereq>E3_REVISING_OLD_BATTLESTATION_PLANS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Building a Prototype of the Death Star -->
+        <Event Name="E3_BUILDING_PROTOTYPE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_BUILDING_PROTOTYPE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_BUILDING_PROTOTYPE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_BUILDING_PROTOTYPE</Event_Param1>
+                <Prereq>E3_BUILDING_PROTOTYPE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_PROTOTYPE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_BUILDING_PROTOTYPE</Reward_Param1>
+                <Prereq>E3_BUILDING_PROTOTYPE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_PROTOTYPE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_PROTOTYPE</Reward_Param1>
+                 <Prereq>E3_BUILDING_PROTOTYPE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Planning the Building -->
+        <Event Name="E3_PLANNING_BUILDING_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_PLANNING_BUILDING</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_PLANNING_BUILDING_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_PLANNING_BUILDING</Event_Param1>
+                <Prereq>E3_PLANNING_BUILDING_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_PLANNING_BUILDING_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_PLANNING_BUILDING</Reward_Param1>
+                <Prereq>E3_PLANNING_BUILDING_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_PLANNING_BUILDING_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_PLANNING_BUILDING</Reward_Param1>
+                 <Prereq>E3_PLANNING_BUILDING_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Gather Ressources -->
+        <Event Name="E3_GATHER_RESSOURCES_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_GATHER_RESSOURCES</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_GATHER_RESSOURCES_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_GATHER_RESSOURCES</Event_Param1>
+                <Prereq>E3_GATHER_RESSOURCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_GATHER_RESSOURCES_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_GATHER_RESSOURCES</Reward_Param1>
+                <Prereq>E3_GATHER_RESSOURCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_GATHER_RESSOURCES_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_GATHER_RESSOURCES</Reward_Param1>
+                 <Prereq>E3_GATHER_RESSOURCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Building DS I -->
+        <Event Name="E3_BUILDING_DEATH_STAR_I_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_BUILDING_DEATH_STAR_I</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_I_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_BUILDING_DEATH_STAR_I</Event_Param1>
+                <Prereq>E3_BUILDING_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_I_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_BUILDING_DEATH_STAR_I</Reward_Param1>
+                <Prereq>E3_BUILDING_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_I_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_DEATH_STAR_I</Reward_Param1>
+                 <Prereq>E3_BUILDING_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Redesigning DS I-->
+        <Event Name="E3_REDESIGN_DEATH_STAR_I_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_REDESIGN_DEATH_STAR_I</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_REDESIGN_DEATH_STAR_I_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_REDESIGN_DEATH_STAR_I</Event_Param1>
+                <Prereq>E3_REDESIGN_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_DEATH_STAR_I_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_REDESIGN_DEATH_STAR_I</Reward_Param1>
+                <Prereq>E3_REDESIGN_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_REDESIGN_DEATH_STAR_I_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_REDESIGN_DEATH_STAR_I</Reward_Param1>
+                 <Prereq>E3_REDESIGN_DEATH_STAR_I_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Building DS II -->
+        <Event Name="E3_BUILDING_DEATH_STAR_II_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_BUILDING_DEATH_STAR_II</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_II_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_BUILDING_DEATH_STAR_II</Event_Param1>
+                <Prereq>E3_BUILDING_DEATH_STAR_II_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_II_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_BUILDING_DEATH_STAR_II</Reward_Param1>
+                <Prereq>E3_BUILDING_DEATH_STAR_II_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_BUILDING_DEATH_STAR_II_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_BUILDING_DEATH_STAR_II</Reward_Param1>
+                 <Prereq>E3_BUILDING_DEATH_STAR_II_CONSTRUCTED</Prereq>
+        </Event>
+
+
+
+
+        <!-- Starbase Upgrades -->
+        <!-- Starbase lvl 2 -->
+        <Event Name="E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_ADVANCED_MATERIALS_EMPIRE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_ADVANCED_MATERIALS_EMPIRE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_ADVANCED_MATERIALS_EMPIRE</Event_Param1>
+                <Prereq>E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_MATERIALS_EMPIRE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_ADVANCED_MATERIALS_EMPIRE</Reward_Param1>
+                <Prereq>E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_MATERIALS_EMPIRE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_MATERIALS_EMPIRE</Reward_Param1>
+                 <Prereq>E3_ADVANCED_MATERIALS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 3 -->
+        <Event Name="E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_ADVANCED_DEFENCES_EMPIRE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_ADVANCED_DEFENCES_EMPIRE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_ADVANCED_DEFENCES_EMPIRE</Event_Param1>
+                <Prereq>E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_DEFENCES_EMPIRE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_ADVANCED_DEFENCES_EMPIRE</Reward_Param1>
+                <Prereq>E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_DEFENCES_EMPIRE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_DEFENCES_EMPIRE</Reward_Param1>
+                 <Prereq>E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 4 -->
+        <Event Name="E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE</Event_Param1>
+                <Prereq>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE</Reward_Param1>
+                <Prereq>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE</Reward_Param1>
+                 <Prereq>E3_ADVANCED_WEAPONS_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 5 -->
+        <Event Name="E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_SUPERIOR_SYSTEMS_EMPIRE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_SYSTEMS_EMPIRE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_SUPERIOR_SYSTEMS_EMPIRE</Event_Param1>
+                <Prereq>E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_SYSTEMS_EMPIRE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_SUPERIOR_SYSTEMS_CI</Reward_Param1>
+                <Prereq>E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_SUPERIOR_SYSTEMS_EMPIRE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_SUPERIOR_SYSTEMS_EMPIRE</Reward_Param1>
+                 <Prereq>E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+        </Event>
+</Story>
