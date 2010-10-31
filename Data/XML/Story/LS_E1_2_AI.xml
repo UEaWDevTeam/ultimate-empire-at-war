@@ -1,0 +1,944 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+        <Event Name="Universal_Story_Start">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
+
+        <!-- Locking each Starbase, since they have all the same affiliation (Rebel) -->
+
+         <Event Name="LOCK_BASE_OR_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_OR_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_OR_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_OR_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_OR_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_R_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_R_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_R_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_R_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_R_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+
+         <Event Name="LOCK_BASE_RA_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_RA_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_RA_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_RA_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_RA_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_NR_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_NR_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_NR_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_NR_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_NR_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+        <!-- Sub Menu System Control Magic Stuff -->
+        <!-- Detect Button clicks, locking units which don't belong to the button and unlocking the other ones -->
+
+         <!-- Detect SpaceMenu click -->
+         <Event Name="CLICK_SHIP_SPACE_TAB">
+              <Event_Type>STORY_CLICK_GUI</Event_Type>
+                <Event_Param1>b_sub_menu_ship</Event_Param1>
+                <Prereq>Universal_Story_Start</Prereq>
+
+          </Event>
+
+         <!-- Unlock each Space Unit (E1) -->
+         <Event Name="UNLOCK_AUREK_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_AUREK_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_CHELA_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_CHELA_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_FORAY_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_FORAY_CLASS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_FORAY_SU_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_FORAY_CLASS_SU</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HAMMERHEAD_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_HAMMERHEAD</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HAMMERHEAD_SU_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_HAMMERHEAD_SU</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_PRAETORIAN_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_PRAETORIAN</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_PRAETORIAN_SU_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_PRAETORIAN_SU</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_THRANTA_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_THRANTA</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_CRUISER_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_THRANTA_SU_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_THRANTA_SU</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+
+         <Event Name="UNLOCK_HEAVY_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_HEAVY_CRUISER</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_HEAVY_CRUISER_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_CENTURION_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_CENTURION</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_BATTLECRUISER_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_INEXPUGNABLE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_INEXPUGNABLE</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERSHIP_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Bases -->
+         <Event Name="UNLOCK_OR_BASE_1_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+         <Event Name="UNLOCK_OR_BASE_2_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+         <Event Name="UNLOCK_OR_BASE_3_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+
+         </Event>
+         <Event Name="UNLOCK_OR_BASE_4_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+         <Event Name="UNLOCK_OR_BASE_5_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Structures -->
+         <Event Name="UNLOCK_BERTH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_BERTH</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_GOLAN</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_SENSOR_RELAY_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_SENSOR_RELAY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_TRADE_PORT</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONIC_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYDROPONICS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GALACTIC_CARGO</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GALACTIC_HYPERLANES</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_MANUFACTURING</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GALACTIC_ASTEROID_MINE</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GALACTIC_GAS_EXTRACTOR</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GALACTIC_ORBITAL_DEFENCE_POD</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>OR_HANGAR</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Research -->
+         <Event Name="UNLOCK_E1_EXTENDED_ESCORT_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_EXTENDED_ESCORT_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_CRUISER_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_CRUISER_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_FORAY_ADVANCED_DEVELOPMENT">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_FORAY_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_HAMMERHEAD_ADVANCED_DEVELOPMENT">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_PRAETORIAN_ADVANCED_DEVELOPMENT">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_PRAETORIAN_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_THRANTA_ADVANCED_DEVELOPMENT">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_THRANTA_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_ION_CANNON_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED && E1_CRUISER_THEORY_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_ADVANCED_SHIELDS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_SHIELDS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ION_CANNON_THEORY_CONSTRUCTED && E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_HEAVY_CRUISER_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_HEAVY_CRUISER_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ION_CANNON_THEORY_CONSTRUCTED &&  E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_BATTLECRUISER_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_BATTLECRUISER_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_HEAVY_CRUISER_THEORY_CONSTRUCTED  && E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED && E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED && E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED && E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED && E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_SUPERSHIP_THEORY_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_SUPERSHIP_THEORY</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_BATTLECRUISER_THEORY_CONSTRUCTED && E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_ADVANCED_DEFENCES_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_DEFENCES</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_ADVANCED_WEAPONS_SYSTEMS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_WEAPONS_SYSTEMS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_SUPERIOR_SYSTEMS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_SYSTEMS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_FORAY_ADVANCED_DEVELOPMENT_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_FORAY_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_PRAETORIAN_ADVANCED_DEVELOPMENT_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_PRAETORIAN_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_THRANTA_ADVANCED_DEVELOPMENT_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_THRANTA_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+                
+         </Event>
+
+         <!-- Tech Tree -->
+        <!-- Praetorian -->
+        <Event Name="E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_EXTENDED_ESCORT_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_EXTENDED_ESCORT_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_EXTENDED_ESCORT_THEORY</Event_Param1>
+                <Prereq>E1_EXTENDED_ESCORT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_EXTENDED_ESCORT_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_EXTENDED_ESCORT_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_EXTENDED_ESCORT_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_EXTENDED_ESCORT_THEORY</Reward_Param1>
+                 <Prereq>E1_EXTENDED_ESCORT_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Thranta -->
+        <Event Name="E1_CRUISER_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_CRUISER_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_CRUISER_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_CRUISER_THEORY</Event_Param1>
+                <Prereq>>E1_CRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_CRUISER_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_CRUISER_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_CRUISER_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_CRUISER_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_CRUISER_THEORY</Reward_Param1>
+                 <Prereq>E1_CRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Heavy Cruiser -->
+        <Event Name="E1_HEAVY_CRUISER_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_HEAVY_CRUISER_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_HEAVY_CRUISER_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_HEAVY_CRUISER_THEORY</Event_Param1>
+                <Prereq>E1_HEAVY_CRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_HEAVY_CRUISER_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_HEAVY_CRUISER_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_HEAVY_CRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_HEAVY_CRUISER_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_HEAVY_CRUISER_THEORY</Reward_Param1>
+                 <Prereq>E1_HEAVY_CRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Centurion -->
+        <Event Name="E1_BATTLECRUISER_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_BATTLECRUISER_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_BATTLECRUISER_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_BATTLECRUISER_THEORY</Event_Param1>
+                <Prereq>E1_BATTLECRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_BATTLECRUISER_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_BATTLECRUISER_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_BATTLECRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_BATTLECRUISER_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_BATTLECRUISER_THEORY</Reward_Param1>
+                 <Prereq>E1_BATTLECRUISER_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Inexpugnable-->
+        <Event Name="E1_SUPERSHIP_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_SUPERSHIP_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_SUPERSHIP_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_SUPERSHIP_THEORY</Event_Param1>
+                <Prereq>E1_SUPERSHIP_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERSHIP_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_SUPERSHIP_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_SUPERSHIP_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERSHIP_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_SUPERSHIP_THEORY</Reward_Param1>
+                 <Prereq>E1_SUPERSHIP_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Adv. Foray-->
+        <Event Name="E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_FORAY_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_FORAY_ADVANCED_DEVELOPMENT_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_FORAY_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Prereq>E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_FORAY_ADVANCED_DEVELOPMENT_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_FORAY_ADVANCED_DEVELOPMENT_RESEARCH</Reward_Param1>
+                <Prereq>E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_FORAY_ADVANCED_DEVELOPMENT_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_FORAY_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>E1_FORAY_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Adv. Hammerhead-->
+        <Event Name="E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Prereq>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_RESEARCH</Reward_Param1>
+                <Prereq>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>E1_HAMMERHEAD_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Adv. Praetorian-->
+        <Event Name="E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_PRAETORIAN_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_PRAETORIAN_ADVANCED_DEVELOPMENT_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_PRAETORIAN_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Prereq>E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_PRAETORIAN_ADVANCED_DEVELOPMENT_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_PRAETORIAN_ADVANCED_DEVELOPMENT_RESEARCH</Reward_Param1>
+                <Prereq>E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_PRAETORIAN_ADVANCED_DEVELOPMENT_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_PRAETORIAN_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>E1_PRAETORIAN_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Adv. Thranta-->
+        <Event Name="E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_THRANTA_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_THRANTA_ADVANCED_DEVELOPMENT_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_THRANTA_ADVANCED_DEVELOPMENT</Event_Param1>
+                <Prereq>E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_THRANTA_ADVANCED_DEVELOPMENT_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_THRANTA_ADVANCED_DEVELOPMENT_RESEARCH</Reward_Param1>
+                <Prereq>E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_THRANTA_ADVANCED_DEVELOPMENT_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_THRANTA_ADVANCED_DEVELOPMENT</Reward_Param1>
+                 <Prereq>E1_THRANTA_ADVANCED_DEVELOPMENT_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Ion Cannon Theory-->
+        <Event Name="E1_ION_CANNON_THEORY_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_ION_CANNON_THEORY_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_ION_CANNON_THEORY</Event_Param1>
+                <Prereq>E1_ION_CANNON_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ION_CANNON_THEORY_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_ION_CANNON_THEORY_RESEARCH</Reward_Param1>
+                <Prereq>E1_ION_CANNON_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ION_CANNON_THEORY_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_ION_CANNON_THEORY</Reward_Param1>
+                 <Prereq>E1_ION_CANNON_THEORY_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Advanced Shields Theory-->
+        <Event Name="E1_ADVANCED_SHIELDS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ADVANCED_SHIELDS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_ADVANCED_SHIELDS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_ADVANCED_SHIELDS</Event_Param1>
+                <Prereq>E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_SHIELDS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_ADVANCED_SHIELDS_RESEARCH</Reward_Param1>
+                <Prereq>E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_SHIELDS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_SHIELDS</Reward_Param1>
+                 <Prereq>E1_ADVANCED_SHIELDS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase Upgrades -->
+
+        <!-- Starbase lvl 3 -->
+        <Event Name="E1_ADVANCED_DEFENCES_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ADVANCED_DEFENCES</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_ADVANCED_DEFENCES_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_ADVANCED_DEFENCES</Event_Param1>
+                <Prereq>E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_DEFENCES_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_ADVANCED_DEFENCES_RESEARCH</Reward_Param1>
+                <Prereq>E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_DEFENCES_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_DEFENCES</Reward_Param1>
+                 <Prereq>E1_ADVANCED_DEFENCES_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 4 -->
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ADVANCED_WEAPONS_SYSTEMS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_ADVANCED_WEAPONS_SYSTEMS</Event_Param1>
+                <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_ADVANCED_WEAPONS_SYSTEMS_RESEARCH</Reward_Param1>
+                <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_WEAPONS_SYSTEMS</Reward_Param1>
+                 <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 5 -->
+        <Event Name="E1_SUPERIOR_SYSTEMS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_SUPERIOR_SYSTEMS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_SUPERIOR_SYSTEMS</Event_Param1>
+                <Prereq>E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_SUPERIOR_SYSTEMS_RESEARCH</Reward_Param1>
+                <Prereq>E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_SYSTEMS</Reward_Param1>
+                 <Prereq>E1_SUPERIOR_SYSTEMS_CONSTRUCTED</Prereq>
+        </Event>
+
+</Story>
