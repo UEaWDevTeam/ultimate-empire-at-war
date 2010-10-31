@@ -1,0 +1,520 @@
+<?xml version="1.0" ?>
+
+<Story>
+
+        <Event Name="Universal_Story_Start">
+                <Event_Type>STORY_ELAPSED</Event_Type>
+                <Event_Param1>0</Event_Param1>
+        </Event>
+
+
+         <Event Name="LOCK_BASE_C_1">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_2">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_3">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_4">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_BASE_C_5">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+          <!-- Unlock Space Units -->
+
+         <Event Name="UNLOCK_S_FIGHTER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_SITH_FIGHTER_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_BOMBER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_SITH_BOMBER_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_GUNBOAT_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_SITH_GUNBOAT_SQUADRON</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_INTERDICTOR_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_INTERDICTOR_CRUISER</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_HEAVY_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_HEAVY_CRUISER</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_STEAL_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_ADV_INTERDICTOR_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_INTERDICTOR_CRUISER_ADV</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_ADV_HEAVY_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_HEAVY_CRUISER_ADV</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_IMPROVE_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_SITH_STAR_DESTROYER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_SITH_STAR_DESTROYER</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERIOR_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_CENTURION_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_CENTURION</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_STEAL_NEW_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Bases -->
+         <Event Name="UNLOCK_S_BASE_1_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_1</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_BASE_2_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_2</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_BASE_3_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_3</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_BASE_4_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_4</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_S_BASE_5_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_STARBASE_5</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Structures -->
+         <Event Name="UNLOCK_BERTH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_SENSOR_RELAY_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_RELAY</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONIC_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_CARGO</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_HYPERLANES</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_ASTEROID_MINE</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_GAS_EXTRACTOR</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_ORBITAL_DEFENCE_POD</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <!-- Unlock Research -->
+         <Event Name="UNLOCK_E1_STEAL_DESIGNS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_STEAL_DESIGNS</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_IMPROVE_DESIGNS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_IMPROVE_DESIGNS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_STEAL_DESIGNS_CONSTRUCTED && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_STEAL_NEW_DESIGNS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_STEAL_NEW_DESIGNS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_IMPROVE_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_FUSION_SITH_STOLEN_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_FUSION_SITH_STOLEN</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_STEAL_NEW_DESIGNS_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_SUPERIOR_DESIGNS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_DESIGNS</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_FUSION_SITH_STOLEN_CONSTRUCTED && E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_ADVANCED_WEAPONS_SYSTEMS_SITH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_WEAPONS_SYSTEMS_SITH</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+
+         </Event>
+
+         <Event Name="UNLOCK_E1_SUPERIOR_SYSTEMS_SITH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_SYSTEMS_SITH</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+         </Event>
+
+         <!-- Tech Tree -->
+         <!-- Steal Designs -->
+        <Event Name="E1_STEAL_DESIGNS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_STEAL_DESIGNS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_STEAL_DESIGNS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_STEAL_DESIGNS</Event_Param1>
+                <Prereq>E1_STEAL_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_STEAL_DESIGNS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_STEAL_DESIGNS_RESEARCH</Reward_Param1>
+                <Prereq>E1_STEAL_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_STEAL_DESIGNS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_STEAL_DESIGNS</Reward_Param1>
+                 <Prereq>E1_STEAL_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+         <!-- Improve Design -->
+        <Event Name="E1_IMPROVE_DESIGNS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_IMPROVE_DESIGNS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_IMPROVE_DESIGNS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_IMPROVE_DESIGNS</Event_Param1>
+                <Prereq>E1_IMPROVE_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_IMPROVE_DESIGNS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_IMPROVE_DESIGNS_RESEARCH</Reward_Param1>
+                <Prereq>E1_IMPROVE_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_IMPROVE_DESIGNS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_IMPROVE_DESIGNS</Reward_Param1>
+                 <Prereq>E1_IMPROVE_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+         <!-- Steal New Designs -->
+        <Event Name="E1_STEAL_NEW_DESIGNS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_STEAL_NEW_DESIGNS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_STEAL_NEW_DESIGNS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_STEAL_NEW_DESIGNS</Event_Param1>
+                <Prereq>E1_STEAL_NEW_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_STEAL_NEW_DESIGNS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_STEAL_NEW_DESIGNS_RESEARCH</Reward_Param1>
+                <Prereq>E1_STEAL_NEW_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_STEAL_NEW_DESIGNS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_STEAL_NEW_DESIGNS</Reward_Param1>
+                 <Prereq>E1_STEAL_NEW_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+         <!-- Fusion Sith/Stolen Designs -->
+        <Event Name="E1_FUSION_SITH_STOLEN_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_FUSION_SITH_STOLEN</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_FUSION_SITH_STOLEN_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_FUSION_SITH_STOLEN</Event_Param1>
+                <Prereq>E1_FUSION_SITH_STOLEN_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_FUSION_SITH_STOLEN_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_FUSION_SITH_STOLEN_RESEARCH</Reward_Param1>
+                <Prereq>E1_FUSION_SITH_STOLEN_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_FUSION_SITH_STOLEN_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_FUSION_SITH_STOLEN</Reward_Param1>
+                 <Prereq>E1_FUSION_SITH_STOLEN_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_FUSION_SITH_STOLEN_SPAWN">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>SPAWN_HERO</Reward_Type>
+                 <Reward_Param1>Darth_Nihilus</Reward_Param1>
+                 <Reward_Param2>Korriban</Reward_Param2>
+                 <Prereq>E1_FUSION_SITH_STOLEN_CONSTRUCTED</Prereq>
+        </Event>
+
+
+         <!-- Superior Designs -->
+        <Event Name="E1_SUPERIOR_DESIGNS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_SUPERIOR_DESIGNS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_DESIGNS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_SUPERIOR_DESIGNS</Event_Param1>
+                <Prereq>E1_SUPERIOR_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_DESIGNS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_SUPERIOR_DESIGNS_RESEARCH</Reward_Param1>
+                <Prereq>E1_SUPERIOR_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_DESIGNS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_DESIGNS</Reward_Param1>
+                 <Prereq>E1_SUPERIOR_DESIGNS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase Upgrades -->
+        <!-- Starbase lvl 4 -->
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_ADVANCED_WEAPONS_SYSTEMS_SITH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_SITH_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_ADVANCED_WEAPONS_SYSTEMS_SITH</Event_Param1>
+                <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_SITH_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_ADVANCED_WEAPONS_SYSTEMS_SITH_RESEARCH</Reward_Param1>
+                <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_ADVANCED_WEAPONS_SYSTEMS_SITH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_ADVANCED_WEAPONS_SYSTEMS_SITH</Reward_Param1>
+                 <Prereq>E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Starbase lvl 5 -->
+        <Event Name="E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E1_SUPERIOR_SYSTEMS_SITH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_SITH_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E1_SUPERIOR_SYSTEMS_SITH</Event_Param1>
+                <Prereq>E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_SITH_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E1_SUPERIOR_SYSTEMS_SITH_RESEARCH</Reward_Param1>
+                <Prereq>E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E1_SUPERIOR_SYSTEMS_SITH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E1_SUPERIOR_SYSTEMS_SITH</Reward_Param1>
+                 <Prereq>E1_SUPERIOR_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+        </Event>
+</Story>
