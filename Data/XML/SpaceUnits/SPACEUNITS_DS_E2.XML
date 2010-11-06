@@ -2778,39 +2778,39 @@
         <SpaceUnit Name="C_LUCREHULK_CARRIER">
                 <Text_ID>TEXT_UNIT_LUCREHULK_CONTROL_SHIP</Text_ID>
                 <Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK_CONTROL_SHIP</Encyclopedia_Text>
-                <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
+                <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLECARRIER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
-                <Space_Model_Name>VCCr_PROVIDENCE.ALO</Space_Model_Name>
+                <Space_Model_Name>VCCa_LUCREHULK_CONTROLSHIP.ALO</Space_Model_Name>
                 <Select_Box_Scale>500</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>1.01</Scale_Factor>
+                <Scale_Factor>7.86</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
-                <Max_Speed>1.4</Max_Speed>
-                <Max_Rate_Of_Turn>0.26</Max_Rate_Of_Turn>
+                <Max_Speed>0.9</Max_Speed>
+                <Max_Rate_Of_Turn>0.08</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
-                <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+                <Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.18</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>8</Bank_Turn_Angle>
-                <OverrideAcceleration> .013 </OverrideAcceleration>
-                <OverrideDeceleration> .013 </OverrideDeceleration>
+                <OverrideAcceleration> .006 </OverrideAcceleration>
+                <OverrideDeceleration> .006 </OverrideDeceleration>
 
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.75</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
 
-                <Armor_Type> Armour_Cruiser </Armor_Type>
-                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
-                <Autoresolve_Health>12936</Autoresolve_Health>
-                <Shield_Points>7056</Shield_Points>
-                <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
-                <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
+                <Armor_Type> Armour_Battleship </Armor_Type>
+                <Shield_Armor_Type>Shield_Battleship</Shield_Armor_Type>
+                <Autoresolve_Health>17500</Autoresolve_Health>
+                <Shield_Points>10000</Shield_Points>
+                <Tactical_Health>7500</Tactical_Health>  <!-- was 2600 -->
+                <Shield_Refresh_Rate>22</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -2824,12 +2824,12 @@
                 <Required_Special_Structures />
                 <Required_Planets />
                 <Ship_Class>frigate</Ship_Class>
-                <Formation_Priority>3</Formation_Priority>
+                <Formation_Priority>8</Formation_Priority>
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Political_Control>0</Political_Control>
-                <Squadron_Capacity>15</Squadron_Capacity>
-                <Transport_Capacity>12</Transport_Capacity>
+                <Squadron_Capacity>30</Squadron_Capacity>
+                <Transport_Capacity>15</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
                 <Build_Cost_Credits>3800</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -2848,43 +2848,40 @@
                 <Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
 
-                <Death_Clone>Damage_Normal, C_LUCREHULK_CARRIER_DEATH_CLONE</Death_Clone>
+                <Death_Clone>Damage_Normal, C_LUCREHULK_DEATH_CLONE</Death_Clone>
 
-                <Starting_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
-                <Starting_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 7</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>C_DROID_BOMBER_SQUADRON, 5</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>C_HYENA_BOMBER_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 7</Starting_Spawned_Units_Tech_0>
                 <Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
-                <Reserve_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
-                <Reserve_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>C_VULTURE_DROID_SQUADRON, 8</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>C_DROID_BOMBER_SQUADRON, 5</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>C_HYENA_BOMBER_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>C_TRI_FIGHTER_SQUADRON, 3</Reserve_Spawned_Units_Tech_0>
 
 
                 <HardPoints>
-                         HP_PROVIDENCE_MTL_01,
-                         HP_PROVIDENCE_MTL_02,
-                         HP_PROVIDENCE_MTL_03,
-                         HP_PROVIDENCE_MTL_04,
-                         HP_PROVIDENCE_HI_01,
-                         HP_PROVIDENCE_HI_02,
-                         HP_PROVIDENCE_MTL_05,
-                         HP_PROVIDENCE_MTL_06,
-                         HP_PROVIDENCE_MI_01,
-                         HP_PROVIDENCE_MI_02,
-                         HP_PROVIDENCE_APPTA_01,
-                         HP_PROVIDENCE_APPTA_02,
-                         HP_PROVIDENCE_L_01,
-                         HP_PROVIDENCE_L_02,
-                         HP_PROVIDENCE_L_03,
-                         HP_PROVIDENCE_L_04,
-                         HP_PROVIDENCE_HL_01,
-                         HP_PROVIDENCE_HL_02,
-                         HP_PROVIDENCE_ENGINE,
-                         HP_PROVIDENCE_HANGAR_01,
-                         HP_PROVIDENCE_HANGAR_02
-
+                         HP_LUCREHULK_CARRIER_LTL_01,
+                         HP_LUCREHULK_CARRIER_LTL_02,
+                         HP_LUCREHULK_CARRIER_LTL_03,
+                         HP_LUCREHULK_CARRIER_LTL_04,
+                         HP_LUCREHULK_CARRIER_LTL_05,
+                         HP_LUCREHULK_CARRIER_LTL_06,
+                         HP_LUCREHULK_CARRIER_LTL_07,
+                         HP_LUCREHULK_CARRIER_LTL_08,
+                         HP_LUCREHULK_CARRIER_LTL_09,
+                         HP_LUCREHULK_CARRIER_LTL_10,
+                         HP_LUCREHULK_CARRIER_SHIELD,
+                         HP_LUCREHULK_CARRIER_ENGINE,
+                         HP_LUCREHULK_CARRIER_HANGAR_01,
+                         HP_LUCREHULK_CARRIER_HANGAR_02,
+                         HP_LUCREHULK_CARRIER_TRACTOR
                 </HardPoints>
 
                 <CategoryMask> Frigate | AntiCorvette</CategoryMask>
-                <Icon_Name>I_BUTTON_INVISIBLEHAND.tga</Icon_Name>
-                <GUI_Model_Name>VCCr_PROVIDENCE.ALO</GUI_Model_Name>
+                <Icon_Name>I_BUTTON_LUCREHULK_CARRIER.tga</Icon_Name>
+                <GUI_Model_Name>VCCA_LUCREHULK_CONTROLSHIP.ALO</GUI_Model_Name>
                 <GUI_Distance>1100</GUI_Distance>
                 <GUI_Offset>0 0 0</GUI_Offset>
                 <GUI_Velocity>45</GUI_Velocity>
@@ -2920,13 +2917,13 @@
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Primary_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, Unit_Lost_Primary_Lucrehulk_Battleship  </SFXEvent_Hardpoint_Destroyed>
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, Unit_Lost_Primary_Lucrehulk_Battleship  </SFXEvent_Hardpoint_Destroyed>
-                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Secondary_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
-                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Primary_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, Unit_Lost_GravWell_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
                 <SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Hangar_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
-                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Hangar_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
-                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
+                <SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, Unit_Power_Tractor_Lucrehulk_Battleship </SFXEvent_Hardpoint_Destroyed>
 
                 <SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
                 <SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
@@ -2947,39 +2944,35 @@
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
                 <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
+           <Unit_Abilities_Data SubObjectList="Yes">
+              <!-- Primary ability -->
+              <Unit_Ability>
+                    <Type>TRACTOR_BEAM</Type>
+                    <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <Recharge_Seconds>20</Recharge_Seconds>
+                    <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+                                <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
+                                <Supports_Autofire>True</Supports_Autofire>
+              </Unit_Ability>
+           </Unit_Abilities_Data>
+
+           <Abilities SubObjectList="Yes">
+              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+                    <Activation_Style> User_Input </Activation_Style>
+                    <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                    <Activation_Min_Range>10</Activation_Min_Range>
+                    <Activation_Max_Range>1500</Activation_Max_Range>
 
 
-                <!-- Non-Hero unit abilities description -->
-                <Unit_Abilities_Data SubObjectList="Yes">
-                        <!-- Primary ability -->
-                        <Unit_Ability>
-                                <Type>POWER_TO_WEAPONS</Type>
-                                <Expiration_Seconds>20</Expiration_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,       0.4f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
-                                <Recharge_Seconds>60</Recharge_Seconds>
+                    <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Stacking_Category>0</Stacking_Category>
+              </Tractor_Beam_Attack_Ability>
 
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Power_Weapons_Lucrehulk_Battleship</SFXEvent_GUI_Unit_Ability_Activated>
-                        </Unit_Ability>
-
-                        <Unit_Ability>
-                                <Type>TURBO</Type>
-
-                                <Expiration_Seconds>20</Expiration_Seconds>
-                                <Recharge_Seconds>60</Recharge_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                2.0f</Mod_Multiplier>
-
-                                <SFXEvent_GUI_Unit_Ability_Activated>Unit_Speed_Corvette</SFXEvent_GUI_Unit_Ability_Activated>
-                                <SFXEvent_GUI_Unit_Ability_Deactivated />
-                        </Unit_Ability>
-
-                </Unit_Abilities_Data>
-
+           </Abilities>
 
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
 
@@ -2992,7 +2985,6 @@
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
         </SpaceUnit>
-
         <SpaceUnit Name="C_LUCREHULK_CARRIER_DEATH_CLONE">
                 <Text_ID>TEXT_UNIT_LUCREHULK</Text_ID>
                 <Space_Model_Name>VCCr_PROVIDENCE_D.alo</Space_Model_Name>
