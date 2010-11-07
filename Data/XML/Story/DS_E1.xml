@@ -423,6 +423,16 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <!-- Demolish Structures -->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+
          <!-- Detect StructureMenu click -->
          <Event Name="CLICK_STRUCTURE_SPACE_TAB">
               <Event_Type>STORY_CLICK_GUI</Event_Type>
@@ -574,6 +584,15 @@
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>S_HANGAR</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB && E1_ADVANCED_WEAPONS_SYSTEMS_SITH_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="UNLOCK_SENSOR_RELAY_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1179,6 +1198,15 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>S_STAR_FORGE</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- DEmolish Structures -->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
