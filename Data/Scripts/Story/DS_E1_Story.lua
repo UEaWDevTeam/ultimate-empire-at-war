@@ -75,8 +75,7 @@ function Begin_GC(message)
 				for j, structure in pairs(special_structures) do
 					temp_structure_list = Find_All_Objects_Of_Type(structure)
 					for k, obj in pairs(temp_structure_list) do
-						if obj.Get_Planet_Location() == FindPlanet(planetstring) then
-							Game_Message("TEXT_UNIT_VENGEANCE_FRIGATE")						
+						if obj.Get_Planet_Location() == FindPlanet(planetstring) then					
 							show_text.Set_Reward_Parameter(0, text_table[j])
 							Story_Event("SHOW_STRUCTURES")
 							Story_Event("RESET_TEXT_BRANCH")
@@ -98,9 +97,11 @@ function Begin_GC(message)
 		end		
 		
 		if Check_Story_Flag(empire, "DemolishSensorStructure", nil, true) then
+			
+			--Game_Message("TEXT_UNIT_VENGEANCE_FRIGATE")
 			type_list = Find_All_Objects_Of_Type("DS_SENSOR_RELAY")
 				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == selected_planet then
+					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
 					obj.Despawn()
 					end
 				end	

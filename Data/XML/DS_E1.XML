@@ -53,7 +53,6 @@
                         <Reward_Param1>DemolishSensorStructure</Reward_Param1>
                         <Reward_Param2>Empire</Reward_Param2>
                 <Perpetual>true</Perpetual>
-                <Branch>Demolish_Sensor</Branch>
         </Event>
 
         <Event Name="DS_SENSOR_DEMOLISH_DESTROY">
@@ -61,9 +60,9 @@
                  <Reward_Type>DESTROY_OBJECT</Reward_Type>
                  <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
                  <Perpetual>true</Perpetual>
-                 <Branch>Demolish_Sensor</Branch>
+                 <Prereq>DS_SENSOR_DEMOLISH_CONSTRUCTED</Prereq>
         </Event>
-                                     
+
          <!-- Select another Planet-->
 
         <Event Name="Select_Abgreado_Rae">
