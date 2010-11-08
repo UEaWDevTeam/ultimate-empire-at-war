@@ -63,6 +63,187 @@
                  <Prereq>DS_SENSOR_DEMOLISH_CONSTRUCTED</Prereq>
         </Event>
 
+        <Event Name="S_BERTH_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_BERTH_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishBerthStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_BERTH_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_BERTH_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="S_GOLAN_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_GOLAN_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishGolanStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_GOLAN_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_GOLAN_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_TRADE_PORT_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_TRADE_PORT_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishTradeStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_TRADE_PORT_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_TRADE_PORT_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_HYDROPONICS_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_HYDROPONICS_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishHydroponicsStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_HYDROPONICS_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_HYDROPONICS_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_CARGO_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_CARGO_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishCargoStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_CARGO_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_CARGO_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ORBITAL_MANUFACTURING_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishManufacturingStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ORBITAL_MANUFACTURING_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ORBITAL_MANUFACTURING_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ASTEROID_MINE_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ASTEROID_MINE_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishAsteroidStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ASTEROID_MINE_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ASTEROID_MINE_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_GAS_EXTRACTOR_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishGasStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_GAS_EXTRACTOR_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_GAS_EXTRACTOR_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishPodStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ORBITAL_DEFENCE_POD_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="S_HANGAR_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_HANGAR_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishHangarStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_HANGAR_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_HANGAR_CONSTRUCTED_DEMOLISH</Prereq>
+        </Event>
+
+
          <!-- Select another Planet-->
 
         <Event Name="Select_Abgreado_Rae">
@@ -1214,7 +1395,7 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
-         <!-- Demolish Structures -->
+         <!-- Demolish Structures-->
          <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1223,6 +1404,93 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_BERTH_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
 
          <!-- Detect StructureMenu click -->
          <Event Name="CLICK_STRUCTURE_SPACE_TAB">
@@ -1383,6 +1651,94 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_BERTH_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONICS_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1993,7 +2349,7 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
-         <!-- DEmolish Structures -->
+         <!-- Demolish Structures-->
          <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -2002,6 +2358,93 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_BERTH_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
 
          <!-- Tech Tree -->
 
