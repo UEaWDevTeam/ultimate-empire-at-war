@@ -8,10 +8,11 @@
                 <Text_ID>TEXT_REBEL_STAR_BASE_1</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION1 TEXT_TOOLTIP_GARRISON_RS_01</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+                <Scale_Factor>3.3</Scale_Factor>
 
                 <GUI_Row> 1 </GUI_Row>
-                <Space_Model_Name>BM_S_STARBASE_1.ALO</Space_Model_Name>
-                <Galactic_Model_Name>BM_S_STARBASE_1.ALO</Galactic_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_1.ALO</Space_Model_Name>
+                <Galactic_Model_Name>BM_C_STARBASE_1_GAL.ALO</Galactic_Model_Name>
                 <Select_Box_Scale>1000</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Is_Dummy>No</Is_Dummy>
@@ -80,7 +81,7 @@
 
                 <!-- Supply dock should be replaced by dummy hard points, comm array becomes autofire tractor beam -->
 
-                <GUI_Model_Name>BM_C_STARBASE_1.ALO</GUI_Model_Name>
+                <GUI_Model_Name>BM_C_STARBASE_1_GAL.ALO</GUI_Model_Name>
                 <GUI_Distance>4700</GUI_Distance>
                 <GUI_Offset>0 0 -300</GUI_Offset>
                 <GUI_Angles>90 0 0</GUI_Angles>
@@ -184,11 +185,12 @@
                 <Text_ID>TEXT_REBEL_STAR_BASE_2</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION2 TEXT_TOOLTIP_GARRISON_RS_02</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+                <Scale_Factor>3.3</Scale_Factor>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>No</Is_Dummy>
-                <Space_Model_Name>BM_S_STARBASE_2.ALO</Space_Model_Name>
-                <Galactic_Model_Name>BM_S_STARBASE_2.ALO</Galactic_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_2.ALO</Space_Model_Name>
+                <Galactic_Model_Name>BM_C_STARBASE_2_GAL.ALO</Galactic_Model_Name>
                 <Select_Box_Scale>1000</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Affiliation>CIS, Empire</Affiliation>
@@ -252,13 +254,14 @@
                         HP_C_STARBASE_1_TRACTOR,
                         HP_C_STARBASE_2_HL,
                         HP_C_STARBASE_2_APHPT,
-                        HP_C_STARBASE_2_HTL
+                        HP_C_STARBASE_2_HTL,
+                        HP_Familybase_Two_LC02
 
                 </HardPoints>
 
                 <!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 
-                <GUI_Model_Name>BM_C_STARBASE_2.ALO</GUI_Model_Name>
+                <GUI_Model_Name>BM_C_STARBASE_2_GAL.ALO</GUI_Model_Name>
                 <GUI_Distance>4700</GUI_Distance>
                 <GUI_Offset>0 0 -300</GUI_Offset>
                 <GUI_Angles>90 0 0</GUI_Angles>
@@ -360,11 +363,12 @@
                 <Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION3 TEXT_TOOLTIP_GARRISON_RS_03</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+                <Scale_Factor>3.3</Scale_Factor>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>No</Is_Dummy>
-                <Space_Model_Name>BM_S_STARBASE_3.ALO</Space_Model_Name>
-                <Galactic_Model_Name>BM_S_STARBASE_3.ALO</Galactic_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_3.ALO</Space_Model_Name>
+                <Galactic_Model_Name>BM_C_STARBASE_3_GAL.ALO</Galactic_Model_Name>
                 <Select_Box_Scale>1000</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Affiliation>CIS, Empire</Affiliation>
@@ -435,13 +439,15 @@
                         HP_C_STARBASE_2_HTL,
                         HP_C_STARBASE_3_APHCM,
                         HP_C_STARBASE_3_HI,
-                        HP_C_STARBASE_3_APHPT
+                        HP_C_STARBASE_3_APHPT,
+                        HP_Familybase_Two_LC02,
+                        HP_Familybase_Three_IC02
 
                 </HardPoints>
 
                 <!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 
-                <GUI_Model_Name>BM_C_STARBASE_3.ALO</GUI_Model_Name>
+                <GUI_Model_Name>BM_C_STARBASE_3_GAL.ALO</GUI_Model_Name>
                 <GUI_Distance>4700</GUI_Distance>
                 <GUI_Offset>0 0 -300</GUI_Offset>
                 <GUI_Angles>90 0 0</GUI_Angles>
@@ -531,7 +537,7 @@
 
         <StarBase Name="C_STARBASE_3_Death_Clone">
                 <Text_ID>TEXT_REBEL_STAR_BASE_3</Text_ID>
-                <Space_Model_Name>RB_station_03_break.alo</Space_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_3_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
                 <CategoryMask> Capital </CategoryMask>
@@ -544,11 +550,12 @@
                 <Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION4 TEXT_TOOLTIP_GARRISON_RS_04</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+                <Scale_Factor>3.3</Scale_Factor>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>No</Is_Dummy>
-                <Space_Model_Name>BM_S_STARBASE_4.ALO</Space_Model_Name>
-                <Galactic_Model_Name>BM_S_STARBASE_4.ALO</Galactic_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_4.ALO</Space_Model_Name>
+                <Galactic_Model_Name>BM_C_STARBASE_4_GAL.ALO</Galactic_Model_Name>
                 <Select_Box_Scale>1200</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Affiliation>CIS, Empire</Affiliation>
@@ -625,13 +632,15 @@
                         HP_C_STARBASE_4_HI,
                         HP_C_STARBASE_4_HL,
                         HP_C_STARBASE_4_HTL,
-                        HP_C_STARBASE_1_SHIELD
+                        HP_C_STARBASE_1_SHIELD,
+                        HP_Familybase_Two_LC02,
+                        HP_Familybase_Three_IC02
                 </HardPoints>
 
                 <!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 
 
-                <GUI_Model_Name>BM_C_STARBASE_4.ALO</GUI_Model_Name>
+                <GUI_Model_Name>BM_C_STARBASE_4_GAL.ALO</GUI_Model_Name>
                 <GUI_Distance>4700</GUI_Distance>
                 <GUI_Offset>0 0 -300</GUI_Offset>
                 <GUI_Angles>90 0 0</GUI_Angles>
@@ -724,7 +733,7 @@
 
         <StarBase Name="C_STARBASE_4_Death_Clone">
                 <Text_ID>TEXT_REBEL_STAR_BASE_4</Text_ID>
-                <Space_Model_Name>RB_station_04_break.alo</Space_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_4_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
                 <CategoryMask> Capital </CategoryMask>
@@ -737,11 +746,12 @@
                 <Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_STATION5 TEXT_TOOLTIP_GARRISON_RS_05</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STATION</Encyclopedia_Unit_Class>
+                <Scale_Factor>3.3</Scale_Factor>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Is_Dummy>No</Is_Dummy>
-                <Space_Model_Name>BM_S_STARBASE_5.ALO</Space_Model_Name>
-                <Galactic_Model_Name>BM_S_STARBASE_5.ALO</Galactic_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_5.ALO</Space_Model_Name>
+                <Galactic_Model_Name>BM_C_STARBASE_5_GAL.ALO</Galactic_Model_Name>
                 <Select_Box_Scale>1200</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Affiliation>CIS, Empire</Affiliation>
@@ -827,14 +837,18 @@
                         HP_C_STARBASE_5_APHPT,
                         HP_C_STARBASE_5_HTL01,
                         HP_C_STARBASE_5_HTL02,
-                        HP_C_STARBASE_1_SHIELD
+                        HP_C_STARBASE_1_SHIELD,
+                        HP_Familybase_Two_LC02,
+                        HP_Familybase_Three_IC02,
+                        HP_Familybase_Five_Torpedo,
+                        HP_Familybase_Five_IC
 
                 </HardPoints>
 
                 <!-- Comm Array and Supply dock should be replaced by dummy hard points -->
 
 
-                <GUI_Model_Name>BM_C_STARBASE_5.ALO</GUI_Model_Name>
+                <GUI_Model_Name>BM_C_STARBASE_5_GAL.ALO</GUI_Model_Name>
                 <GUI_Distance>4700</GUI_Distance>
                 <GUI_Offset>0 0 -300</GUI_Offset>
                 <GUI_Angles>90 0 0</GUI_Angles>
@@ -924,7 +938,7 @@
 
         <StarBase Name="C_STARBASE_5_Death_Clone">
                 <Text_ID>TEXT_REBEL_STAR_BASE_5</Text_ID>
-                <Space_Model_Name>RB_station_05_break.alo</Space_Model_Name>
+                <Space_Model_Name>BM_C_STARBASE_5_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
                 <CategoryMask> Capital </CategoryMask>
@@ -958,7 +972,7 @@
                 <Tactical_Buildable_Objects_Multiplayer>
                         CIS,
                                 C_VULTURE_DROID_IAI_SQUADRON,
-                                C_DROID_BOMBER_IAI_SQUADRON,      
+                                C_DROID_BOMBER_IAI_SQUADRON,
                                 C_Starbase_Upgrade_Level_2
                 </Tactical_Buildable_Objects_Multiplayer>
                 <Visible_To_Enemies_When_Empty>True</Visible_To_Enemies_When_Empty>
@@ -1025,7 +1039,8 @@
                          HP_C_STARBASE_1_COMM_ARRAY
                          HP_C_STARBASE_2_HL,
                          HP_C_STARBASE_2_APHPT,
-                         HP_C_STARBASE_2_HTL
+                         HP_C_STARBASE_2_HTL,
+                         HP_Familybase_Two_LC02
                 </HardPoints>
 
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1109,7 +1124,9 @@
                          HP_C_STARBASE_2_HTL,
                          HP_C_STARBASE_3_APHCM,
                          HP_C_STARBASE_3_HI,
-                         HP_C_STARBASE_3_APHPT
+                         HP_C_STARBASE_3_APHPT,
+                         HP_Familybase_Two_LC02,
+                         HP_Familybase_Three_IC02
                 </HardPoints>
 
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1198,7 +1215,9 @@
                         HP_C_STARBASE_4_HI,
                         HP_C_STARBASE_4_HL,
                         HP_C_STARBASE_4_HTL,
-                        HP_C_STARBASE_1_SHIELD
+                        HP_C_STARBASE_1_SHIELD,
+                        HP_Familybase_Two_LC02,
+                        HP_Familybase_Three_IC02
                 </HardPoints>
 
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -1293,7 +1312,11 @@
                         HP_C_STARBASE_5_HI,
                         HP_C_STARBASE_5_APHPT,
                         HP_C_STARBASE_5_HTL01,
-                        HP_C_STARBASE_5_HTL02
+                        HP_C_STARBASE_5_HTL02,
+                        HP_Familybase_Two_LC02,
+                        HP_Familybase_Three_IC02,
+                        HP_Familybase_Five_Torpedo,
+                        HP_Familybase_Five_IC
                 </HardPoints>
 
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>

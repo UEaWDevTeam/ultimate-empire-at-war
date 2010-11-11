@@ -5216,36 +5216,39 @@
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
         </HardPoint>
 
-<!-- CIS Space Station Level 1 Hardpoints -->
+<!-- CIS Base Level 1 Hardpoints -->
 
     <HardPoint Name="HP_C_STARBASE_1_APHCM">
-                <Type> HARD_POINT_WEAPON_MISSILE </Type>
-                    <Is_Targetable>Yes</Is_Targetable>
-                    <Is_Destroyable>Yes</Is_Destroyable>
-                    <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
-                    <Health>1000.0</Health>
-                    <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
-                    <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
+            <Health>1000.0</Health>
+            <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
+            <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
-                <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
-                    <Attachment_Bone>HP_APHCM_01</Attachment_Bone>
-                    <Collision_Mesh>HP_APHCM_01_COLL</Collision_Mesh>
-                    <Damage_Decal>HP_APHCM_BLAST</Damage_Decal>
-                    <Damage_Particles>HP_APHCM_01_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_01_CM</Attachment_Bone>
+            <Collision_Mesh>HP_01_CM</Collision_Mesh>
+            <Damage_Decal>HP_01_CM_BLAST</Damage_Decal>
+            <Damage_Particles>HP_01_CM_EMITDAMAGE</Damage_Particles>
 
-                    <Fire_Bone_A>HP_APHCM_01_FB01</Fire_Bone_A>
-                    <Fire_Bone_B>HP_APHCM_01_FB02</Fire_Bone_B>
-                    <Fire_Cone_Width>180.0</Fire_Cone_Width>
-                    <Fire_Cone_Height>180.0</Fire_Cone_Height>
-                    <Fire_Projectile_Type>Proj_Conc_Missile_AP_E2_Heavy</Fire_Projectile_Type>
-                    <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
-                    <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
-                    <Fire_Pulse_Count>4</Fire_Pulse_Count>
-                    <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-                    <Fire_Range_Distance>2200.0</Fire_Range_Distance>
-                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+            <Fire_Bone_A>HP_01_CM</Fire_Bone_A>
+            <Fire_Bone_B>HP_01_CM</Fire_Bone_B>
+            <Fire_Cone_Width>180.0</Fire_Cone_Width>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Conc_Missile_AP_E2_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2200.0</Fire_Range_Distance>
+                                <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+
     </HardPoint>
 
     <HardPoint Name="HP_C_STARBASE_1_HL">
@@ -5257,15 +5260,17 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HL_01</Attachment_Bone>
-            <Collision_Mesh>HP_HL_01_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HL_01_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_01_LC</Attachment_Bone>
+            <Collision_Mesh>HP_01_LC</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_01_LC_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HL_01_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HL_01_FB02</Fire_Bone_B>
+            <Fire_Bone_A>HP_01_LC</Fire_Bone_A>
+            <Fire_Bone_B>HP_01_LC</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Red_Capital_Heavy</Fire_Projectile_Type>
@@ -5296,15 +5301,20 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HTL_01</Attachment_Bone>
-            <Collision_Mesh>HP_HTL_01_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HTL_01_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_01_TBL</Attachment_Bone>
+            <Collision_Mesh>HP_01_TBL</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_01_TBL_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HTL_01_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HTL_01_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
+            <Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
+            <Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
@@ -5335,24 +5345,30 @@
             <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-                        <Attachment_Bone>HP_SHIELD</Attachment_Bone>
-            <Collision_Mesh> HP_SHIELD_COLL </Collision_Mesh>
-            <Damage_Particles>HP_SHIELD_EMITDAMAGE</Damage_Particles>
+                        <Model_To_Attach></Model_To_Attach>
+                        <Attachment_Bone>HP_01_SHIELD</Attachment_Bone>
+            <Collision_Mesh> HP_01_SHIELD </Collision_Mesh>
+
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Damage_Decal>HP_01_SHIELD_BLAST</Damage_Decal>
+            <Damage_Particles>HP_01_SHIELD_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
         <HardPoint Name="HP_C_STARBASE_1_HANGAR">
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
-                <Attachment_Bone>SPAWN00</Attachment_Bone>
-                <Collision_Mesh>SPAWN00</Collision_Mesh>
+                <Attachment_Bone>HP_01_SPAWN</Attachment_Bone>
+                <Collision_Mesh>HP_01_SPAWN</Collision_Mesh>
                 <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>1000.0</Health>
-                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+        <Damage_Particles>HP_01_SPAWN_EMITDAMAGE</Damage_Particles>
+                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
         <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
@@ -5362,19 +5378,20 @@
 
         <HardPoint Name="HP_C_STARBASE_1_SUPPLY">
                 <Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
-                <Special_Ability_Name>R_Supply_Dock_Income_Bonus</Special_Ability_Name>
+                <Special_Ability_Name>U_Supply_Dock_Income_Bonus</Special_Ability_Name>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
                 <Tooltip_Text>TEXT_SUPPLY_DOCK_HARDPOINT</Tooltip_Text>
             <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                <Attachment_Bone>HP_SUPPLY</Attachment_Bone>
-                <Collision_Mesh>HP_SUPPLY_COLL</Collision_Mesh>
-                <Damage_Particles>HP_SUPPLY_EMITDAMAGE</Damage_Particles>
+                <Attachment_Bone>HP_01_SUPP</Attachment_Bone>
+                <Collision_Mesh>HP_01_SUPP</Collision_Mesh>
+                <Damage_Decal>HP_01_SUPP_BLAST</Damage_Decal>
+                <Damage_Particles>HP_01_SUPP_EMITDAMAGE</Damage_Particles>
 
-                <Health>1000.0</Health>
-                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                <Health>450.0</Health>
+                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         </HardPoint>
 
@@ -5382,13 +5399,14 @@
                 <Type> HARD_POINT_DUMMY_ART </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
-                <Attachment_Bone>HP_SUPPLY</Attachment_Bone>
-                <Collision_Mesh>HP_SUPPLY_COLL</Collision_Mesh>
-                <Damage_Particles>HP_SUPPLY_EMITDAMAGE</Damage_Particles>
+                <Attachment_Bone>HP_01_SUPP</Attachment_Bone>
+                <Collision_Mesh>HP_01_SUPP</Collision_Mesh>
+                <Damage_Decal>HP_01_SUPP_BLAST</Damage_Decal>
+                <Damage_Particles>HP_01_SUPP_EMITDAMAGE</Damage_Particles>
         </HardPoint>
 
 
-    <HardPoint Name="HP_C_STARBASE_1_COMM_ARRAY">
+     <HardPoint Name="HP_C_STARBASE_1_COMM_ARRAY">
                         <Type> HARD_POINT_ENABLE_SPECIAL_ABILITY </Type>
                         <Special_Ability_Name>C_Comm_Array_Enable_Radar</Special_Ability_Name>
                         <Is_Targetable>Yes</Is_Targetable>
@@ -5400,32 +5418,38 @@
                         <!-- The Ion Cannon will be disabled for all Rebel players if this hardpoint is destroyed. -->
                         <Allows_Special_Weapon_Use> True </Allows_Special_Weapon_Use>
 
-                        <Attachment_Bone>HP_COMM_ARRAY</Attachment_Bone>
-                        <Collision_Mesh>HP_COMM_ARRAY_COLL</Collision_Mesh>
-                        <Damage_Particles>HP_COMM_ARRAY_EMITDAMAGE</Damage_Particles>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+                        <Model_To_Attach></Model_To_Attach>
+                        <Attachment_Bone>HP_01_COMM</Attachment_Bone>
+                        <Collision_Mesh>HP_01_COMM</Collision_Mesh>
+                        <Damage_Decal>HP_01_COMM_BLAST</Damage_Decal>
+                        <Damage_Particles>HP_01_COMM_EMITDAMAGE</Damage_Particles>
 
-                        <Health>1000.0</Health>
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Health>450.0</Health>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
      </HardPoint>
 
-    <HardPoint Name="HP_C_STARBASE_1_TRACTOR">
+     <HardPoint Name="HP_C_STARBASE_1_TRACTOR">
                 <Type> HARD_POINT_TRACTOR_BEAM </Type>
         <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>500.0</Health>
-                        <Attachment_Bone>HP_COMM_ARRAY</Attachment_Bone>
-                        <Collision_Mesh>HP_COMM_ARRAY_COLL</Collision_Mesh>
-                        <Damage_Particles>HP_COMM_ARRAY_EMITDAMAGE</Damage_Particles>
 
-                <Death_Explosion_Particles> PEx_Explosion_Medium_B</Death_Explosion_Particles>
-                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+                        <Attachment_Bone>HP_01_COMM</Attachment_Bone>
+                        <Collision_Mesh>HP_01_COMM</Collision_Mesh>
+                        <Damage_Decal>HP_01_COMM_BLAST</Damage_Decal>
+                        <Damage_Particles>HP_01_COMM_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
      </HardPoint>
 
-<!-- Old Republic Space Station Level 2 Hardpoints - use all level 1 hardpoints plus these -->
 
-    <HardPoint Name="HP_C_STARBASE_2_HL">
+<!-- Familybase Level 2 Hardpoints - use all level 1 hardpoints plus these -->
+
+     <HardPoint Name="HP_C_STARBASE_2_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5434,18 +5458,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HL_02</Attachment_Bone>
-            <Collision_Mesh>HP_HL_02_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HL_02_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_02_LC01</Attachment_Bone>
+            <Collision_Mesh>HP_02_LC01</Collision_Mesh>
+            <Damage_Decal>HP_02_LC01_BLAST</Damage_Decal>
+            <Damage_Particles>HP_02_LC01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HL_02_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HL_02_FB02</Fire_Bone_B>
-            <!-- Only Fire Bones A and B are supported, there is no C and D.
-            <Fire_Bone_C>FP02_LC_02</Fire_Bone_C>
-            <Fire_Bone_D>FP02_LC_03</Fire_Bone_D>-->
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_02_LC01</Fire_Bone_A>
+            <Fire_Bone_B>HP_02_LC01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Red_Capital_Heavy</Fire_Projectile_Type>
@@ -5467,6 +5492,17 @@
 
     </HardPoint>
 
+     <HardPoint Name="HP_Familybase_Two_LC02">
+                        <Type>HARD_POINT_DUMMY_ART</Type>
+                        <Is_Targetable>No</Is_Targetable>
+                        <Is_Destroyable>No</Is_Destroyable>
+                        <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_02_LC02</Attachment_Bone>
+            <Collision_Mesh>HP_02_LC02</Collision_Mesh>
+            <Damage_Decal>HP_02_LC02_BLAST</Damage_Decal>
+            <Damage_Particles>HP_02_LC02_EMITDAMAGE</Damage_Particles>
+     </HardPoint>
+
     <HardPoint Name="HP_C_STARBASE_2_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5476,17 +5512,17 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_02_TRP</Attachment_Bone>
+            <Collision_Mesh>HP_02_TRP</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_02_TRP_EMITDAMAGE</Damage_Particles>
 
-            <Attachment_Bone>HP_APPT_01</Attachment_Bone>
-            <Collision_Mesh>HP_APPT_01_COLL</Collision_Mesh>
-            <Damage_Decal>HP_APPT_BLAST</Damage_Decal>
-            <Damage_Particles>HP_APPT_01_EMITDAMAGE</Damage_Particles>
-
-            <Fire_Bone_A>HP_APPT_01_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_APPT_01_FB02</Fire_Bone_B>
+            <Fire_Bone_A>HP_02_TRP</Fire_Bone_A>
+            <Fire_Bone_B>HP_02_TRP</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E2</Fire_Projectile_Type>
@@ -5511,21 +5547,22 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HTL_02</Attachment_Bone>
-            <Collision_Mesh>HP_HTL_02_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HTL_02_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_02_TBL</Attachment_Bone>
+            <Collision_Mesh>HP_02_TBL</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_02_TBL_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HTL_02_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HTL_02_FB02</Fire_Bone_B>
-            <!-- Only Fire Bones A and B are supported, there is no C and D.
-            <Fire_Bone_C>FP02_TBL_02</Fire_Bone_C>
-            <Fire_Bone_D>FP02_TBL_03</Fire_Bone_D>-->
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_02_TBL</Fire_Bone_A>
+            <Fire_Bone_B>HP_02_TBL</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E2_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5544,9 +5581,10 @@
 
     </HardPoint>
 
- <!-- Old Republic Space Station Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
 
-    <HardPoint Name="HP_C_STARBASE_3_APHCM">
+ <!-- Familybase Level 3 Hardpoints - use all level 1-2 hardpoints plus these -->
+
+     <HardPoint Name="HP_C_STARBASE_3_APHCM">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5555,16 +5593,17 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_APHCM_02</Attachment_Bone>
-            <Collision_Mesh>HP_APHCM_02_COLL</Collision_Mesh>
-            <Damage_Decal>HP_APHCM_02_BLAST</Damage_Decal>
-            <Damage_Particles>HP_APHCM_02_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_03_CM</Attachment_Bone>
+            <Collision_Mesh>HP_03_CM</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_03_CM</Damage_Particles>
 
-            <Fire_Bone_A>HP_APHCM_02_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_APHCM_02_FB02</Fire_Bone_B>
+            <Fire_Bone_A>HP_03_CM</Fire_Bone_A>
+            <Fire_Bone_B>HP_03_CM</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E2_Heavy</Fire_Projectile_Type>
@@ -5578,7 +5617,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_C_STARBASE_3_HI">
+      <HardPoint Name="HP_C_STARBASE_3_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5587,16 +5626,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HI_01</Attachment_Bone>
-            <Collision_Mesh>HP_HI_01_COLL</Collision_Mesh>
-            <Damage_Decal>HP_HI_01_BLAST</Damage_Decal>
-            <Damage_Particles>HP_HI_01_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_03_IC01</Attachment_Bone>
+            <Collision_Mesh>HP_03_IC01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_03_IC01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HI_01_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HI_01_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_03_IC01</Fire_Bone_A>
+            <Fire_Bone_B>HP_03_IC01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Heavy</Fire_Projectile_Type>
@@ -5618,6 +5660,19 @@
 
     </HardPoint>
 
+      <HardPoint Name="HP_Familybase_Three_IC02">
+                        <Type>HARD_POINT_DUMMY_ART</Type>
+                        <Is_Targetable>No</Is_Targetable>
+                        <Is_Destroyable>No</Is_Destroyable>
+                        <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_03_IC02</Attachment_Bone>
+            <Collision_Mesh>HP_03_IC02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_03_IC02_EMITDAMAGE</Damage_Particles>
+
+    </HardPoint>
+
+
     <HardPoint Name="HP_C_STARBASE_3_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -5627,16 +5682,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_APPT_02</Attachment_Bone>
-            <Collision_Mesh>HP_APPT_02_COLL</Collision_Mesh>
-            <Damage_Decal>HP_APPT_02_BLAST</Damage_Decal>
-            <Damage_Particles>HP_APPT_02_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_03_TRP</Attachment_Bone>
+            <Collision_Mesh>HP_03_TRP</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_03_TRP_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_APPT_02_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_APPT_02_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_03_TRP</Fire_Bone_A>
+            <Fire_Bone_B>HP_03_TRP</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E2</Fire_Projectile_Type>
@@ -5652,9 +5710,9 @@
 
     </HardPoint>
 
- <!-- Rebel Space Station Level 4 Hardpoints - use all level 1-3 hardpoints plus these -->
+ <!-- Familybase Level 4 Hardpoints - use all level 1-3 hardpoints plus these -->
 
-    <HardPoint Name="HP_C_STARBASE_4_HI">
+      <HardPoint Name="HP_C_STARBASE_4_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5663,16 +5721,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_ion_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HI_02</Attachment_Bone>
-            <Collision_Mesh>HP_HI_02_COLL</Collision_Mesh>
-            <Damage_Decal>HP_HI_02_BLAST</Damage_Decal>
-            <Damage_Particles>HP_HI_02_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_04_IC</Attachment_Bone>
+            <Collision_Mesh>HP_04_IC</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_04_IC_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HI_02_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HI_02_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_04_IC</Fire_Bone_A>
+            <Fire_Bone_B>HP_04_IC</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Heavy</Fire_Projectile_Type>
@@ -5683,7 +5744,7 @@
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
-                                                <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 65.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 50.0 </Fire_Inaccuracy_Distance>
@@ -5693,7 +5754,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_C_STARBASE_4_HL">
+     <HardPoint Name="HP_C_STARBASE_4_HL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5702,15 +5763,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HL_03</Attachment_Bone>
-            <Collision_Mesh>HP_HL_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HL_03_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_04_LC</Attachment_Bone>
+            <Collision_Mesh>HP_04_LC</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_04_LC_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HL_03_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HL_03_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_04_LC</Fire_Bone_A>
+            <Fire_Bone_B>HP_04_LC</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Red_Capital_Heavy</Fire_Projectile_Type>
@@ -5729,26 +5794,32 @@
                         <Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 14.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 16.0 </Fire_Inaccuracy_Distance>
+
     </HardPoint>
 
     <HardPoint Name="HP_C_STARBASE_4_HTL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HTL_03</Attachment_Bone>
-            <Collision_Mesh>HP_HTL_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HTL_03_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_04_TBL</Attachment_Bone>
+            <Collision_Mesh>HP_04_TBL</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_04_TBL_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HTL_03_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HTL_03_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
+            <Fire_Bone_A>HP_04_TBL</Fire_Bone_A>
+            <Fire_Bone_B>HP_04_TBL</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
@@ -5769,9 +5840,10 @@
 
     </HardPoint>
 
-  <!-- Old Republic Space Station Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
 
-    <HardPoint Name="HP_C_STARBASE_5_APHCM">
+ <!-- Familybase Level 5 Hardpoints - use all level 1-4 hardpoints plus these -->
+
+     <HardPoint Name="HP_C_STARBASE_5_APHCM">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5780,16 +5852,19 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                        <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_APHCM_03</Attachment_Bone>
-            <Damage_Decal>HP_APHCM_03_BLAST</Damage_Decal>
-            <Collision_Mesh>HP_APHCM_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_APHCM_03_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_CM01</Attachment_Bone>
+            <Collision_Mesh>HP_05_CM01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_CM01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_APHCM_03_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_APHCM_03_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_05_CM01</Fire_Bone_A>
+            <Fire_Bone_B>HP_05_CM01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E2_Heavy</Fire_Projectile_Type>
@@ -5802,7 +5877,19 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_C_STARBASE_5_HI">
+     <HardPoint Name="HP_Familybase_Five_CCM">
+                        <Type>HARD_POINT_DUMMY_ART</Type>
+                        <Is_Targetable>No</Is_Targetable>
+                        <Is_Destroyable>No</Is_Destroyable>
+                        <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_CM02</Attachment_Bone>
+            <Collision_Mesh>HP_05_CM02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_CM02_EMITDAMAGE</Damage_Particles>
+
+    </HardPoint>
+
+      <HardPoint Name="HP_C_STARBASE_5_HI">
                         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -5811,16 +5898,18 @@
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HI_03</Attachment_Bone>
-            <Damage_Decal>HP_HI_03_BLAST</Damage_Decal>
-            <Collision_Mesh>HP_HI_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HI_03_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_IC01</Attachment_Bone>
+            <Collision_Mesh>HP_05_IC01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_IC01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HI_03_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HI_03_FB02</Fire_Bone_B>
+
+            <Fire_Bone_A>HP_05_IC01</Fire_Bone_A>
+            <Fire_Bone_B>HP_05_IC01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Heavy</Fire_Projectile_Type>
@@ -5841,28 +5930,42 @@
 
     </HardPoint>
 
+      <HardPoint Name="HP_Familybase_Five_IC">
+                        <Type>HARD_POINT_DUMMY_ART</Type>
+                        <Is_Targetable>No</Is_Targetable>
+                        <Is_Destroyable>No</Is_Destroyable>
+                        <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_IC02</Attachment_Bone>
+            <Collision_Mesh>HP_05_IC02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_IC02_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
     <HardPoint Name="HP_C_STARBASE_5_APHPT">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>450.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_APPT_03</Attachment_Bone>
-            <Damage_Decal>HP_APPT_02_BLAST</Damage_Decal>
-            <Collision_Mesh>HP_APPT_03_COLL</Collision_Mesh>
-            <Damage_Particles>HP_APPT_03_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_TRP01</Attachment_Bone>
+            <Collision_Mesh>HP_05_TRP01</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles>HP_05_TRP01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_APPT_03_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_APPT_03_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_05_TRP01</Fire_Bone_A>
+            <Fire_Bone_B>HP_05_TRP01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E2</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_AP_Heavy_Proton_Torp_E1</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>3</Fire_Pulse_Count>
@@ -5874,28 +5977,42 @@
 
     </HardPoint>
 
+    <HardPoint Name="HP_Familybase_Five_Torpedo">
+                        <Type>HARD_POINT_DUMMY_ART</Type>
+                        <Is_Targetable>No</Is_Targetable>
+                        <Is_Destroyable>No</Is_Destroyable>
+                        <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_TRP02</Attachment_Bone>
+            <Collision_Mesh>HP_05_TRP02</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles>HP_05_TRP02_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
     <HardPoint Name="HP_C_STARBASE_5_HTL01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>450.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HTL_04</Attachment_Bone>
-            <Damage_Decal>HP_HTL_04_BLAST</Damage_Decal>
-            <Collision_Mesh>HP_HTL_04_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HTL_04_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_TBL01</Attachment_Bone>
+            <Collision_Mesh>HP_05_TBL01</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_TBL01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HTL_04_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HTL_04_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_05_TBL01</Fire_Bone_A>
+            <Fire_Bone_B>HP_05_TBL01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -5911,7 +6028,6 @@
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 
-
     </HardPoint>
 
     <HardPoint Name="HP_C_STARBASE_5_HTL02">
@@ -5919,29 +6035,32 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>450.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                                <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
+                                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_HTL_05</Attachment_Bone>
-            <Damage_Decal>HP_HTL_05_BLAST</Damage_Decal>
-            <Collision_Mesh>HP_HTL_05_COLL</Collision_Mesh>
-            <Damage_Particles>HP_HTL_05_EMITDAMAGE</Damage_Particles>
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_05_TBL02</Attachment_Bone>
+            <Collision_Mesh>HP_05_TBL02</Collision_Mesh>
+            <Damage_Decal></Damage_Decal>
+            <Damage_Particles>HP_05_TBL02_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_HTL_05_FB01</Fire_Bone_A>
-            <Fire_Bone_B>HP_HTL_05_FB02</Fire_Bone_B>
+                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+
+            <Fire_Bone_A>HP_05_TBL02</Fire_Bone_A>
+            <Fire_Bone_B>HP_05_TBL02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Red_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
-                        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+                                <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
                         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
