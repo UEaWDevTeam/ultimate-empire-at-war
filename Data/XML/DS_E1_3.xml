@@ -43,6 +43,1138 @@
                  <Prereq>Universal_Story_Start</Prereq>
           </Event>
 
+
+         <!-- Demolish Buttons -->
+        <Event Name="DS_SENSOR_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_SENSOR_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishSensorStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_SENSOR_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_SENSOR_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="S_BERTH_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_BERTH_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishBerthStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_BERTH_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_BERTH_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="S_GOLAN_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_GOLAN_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishGolanStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_GOLAN_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_GOLAN_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_TRADE_PORT_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_TRADE_PORT_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishTradeStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_TRADE_PORT_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_TRADE_PORT_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_HYDROPONICS_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_HYDROPONICS_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishHydroponicsStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_HYDROPONICS_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_HYDROPONICS_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_CARGO_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_CARGO_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishCargoStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_CARGO_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_CARGO_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ORBITAL_MANUFACTURING_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishManufacturingStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ORBITAL_MANUFACTURING_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ORBITAL_MANUFACTURING_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ASTEROID_MINE_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ASTEROID_MINE_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishAsteroidStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ASTEROID_MINE_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ASTEROID_MINE_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_GAS_EXTRACTOR_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishGasStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_GAS_EXTRACTOR_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_GAS_EXTRACTOR_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishPodStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>DS_ORBITAL_DEFENCE_POD_DEMOLISH_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="S_HANGAR_DEMOLISH_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>S_HANGAR_DEMOLISH</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>DemolishHangarStructure</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+        </Event>
+
+        <Event Name="S_HANGAR_DEMOLISH_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
+                 <Perpetual>true</Perpetual>
+                 <Prereq>S_HANGAR_CONSTRUCTED_DEMOLISH</Prereq>
+        </Event>
+
+
+         <!-- Select another Planet-->
+
+        <Event Name="Select_Abgreado_Rae">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Abregado_Rae_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Abregado_Rae_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Alderaan">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Alderaan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Alderaan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Anaxes">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Anaxes_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Anaxes_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Atzerri">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Atzerri_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Atzerri_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Bestine">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Bestine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Bestine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Bespin">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Bespin_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Bespin_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Bonadan">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Bonadan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Bonadan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Bothawui">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Bothawui_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Bothawui_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Brentaal">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Brentaal_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Brentaal_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Carida">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Carida_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Carida_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Corellia">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Corellia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Corellia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Corulag">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Corulag_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Corulag_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Coruscant">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Coruscant_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Coruscant_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Dantooine">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Dantooine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Dantooine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Dathomir">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Dathomir_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Dathomir_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Dxun">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Dxun_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Dxun_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Felucia">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Felucia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Felucia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Fondor">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Fondor_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Fondor_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Fresia">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Fresia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Fresia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Hapes">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Hapes_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Hapes_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Honoghr">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Honoghr_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Honoghr_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Hoth">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Hoth_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Hoth_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Hypori">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Hypori_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Hypori_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Jabiim">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Jabiim_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Jabiim_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Kashyyyk">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Kashyyyk_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Kashyyyk_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Kessel">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Kessel_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Kessel_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Korriban">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Korriban_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Korriban_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Kuat">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Kuat_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Kuat_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Lok">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Lok_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Lok_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Manaan">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Manaan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Manaan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Mandalore">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Mandalore_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Mandalore_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Mechis3">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Mechis3_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Mechis3_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_MonCalimari">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>MonCalimari_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_MonCalimari_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Muunilinst">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Muunilinst_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Muunilinst_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Naboo">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Naboo_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Naboo_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_NalHutta">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>NalHutta_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_NalHutta_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Onderon">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Onderon_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Onderon_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Polus">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Polus_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Polus_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Ryloth">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Ryloth_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Ryloth_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Saleucami">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Saleucami_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Saleucami_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Sullust">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Sullust_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Sullust_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Taris">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Taris_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Taris_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Tatooine">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Tatooine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Tatooine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Utapau">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Utapau_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Utapau_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Select_Yavin">
+                <Event_Type>STORY_SELECT_PLANET</Event_Type>
+                        <Event_Param1>Yavin_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>SELECT_Yavin_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <!-- Display Structures Stuff -->
+        <!-- Show Structures -->
+        <Event Name="SCREEN_TEXT_Special_Structure">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                        <Event_Param2>SHOW_STRUCTURES</Event_Param2>
+                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                        <Reward_Param1></Reward_Param1>
+                        <Reward_Param2>-1</Reward_Param2>
+                <Branch>Screen_Text_Events</Branch>
+        </Event>
+
+        <Event Name="RESET_BRANCH_Screen_Text_Events">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                        <Event_Param2>RESET_TEXT_BRANCH</Event_Param2>
+                <Reward_Type>RESET_BRANCH</Reward_Type>
+                        <Reward_Param1>Screen_Text_Events</Reward_Param1>
+                <Branch>Screen_Text_Events</Branch>
+        </Event>
+
+        <Event Name="Zoom_out">
+                <Event_Type>STORY_ZOOM_OUT_PLANET</Event_Type>
+                        <Event_Param1></Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_OUT</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Abgreado_Rae">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Abregado_Rae_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Abregado_Rae_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Alderaan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Alderaan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Alderaan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Anaxes">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Anaxes_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Anaxes_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Atzerri">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Atzerri_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Atzerri_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bespin">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bespin_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bespin_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bestine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bestine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bestine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bonadan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bonadan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bonadan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bothawui">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bothawui_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bothawui_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Brentaal">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Brentaal_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Brentaal_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Carida">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Carida_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Carida_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Corellia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Corellia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Corellia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Corulag">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Corulag_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Corulag_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Coruscant">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Coruscant_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Coruscant_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dantooine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dantooine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dantooine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dathomir">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dathomir_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dathomir_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dxun">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dxun_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dxun_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Felucia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Felucia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Felucia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Fondor">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Fondor_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Fondor_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Fresia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Fresia_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Fresia_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hapes">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hapes_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hapes_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Honoghr">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Honoghr_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Honoghr_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hoth">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hoth_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hoth_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hypori">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hypori_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hypori_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Jabiim">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Jabiim_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Jabiim_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kashyyyk">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kashyyyk_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kashyyyk_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kessel">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kessel_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kessel_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Korriban">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Korriban_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Korriban_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kuat">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kuat_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kuat_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Lok">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Lok_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Lok_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Manaan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Manaan_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Manaan_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Mandalore">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Mandalore_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mandalore_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Mechis3">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Mechis3_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mechis3_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_MonCalimari">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>MonCalimari_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_MonCalimari_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Muunilinst">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Muunilinst_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Muunilinst_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Naboo">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Naboo_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Naboo_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_NalHutta">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>NalHutta_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_NalHutta_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Onderon">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Onderon_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Onderon_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Polus">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Polus_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Polus_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Ryloth">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Ryloth_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Ryloth_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Saleucami">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Saleucami_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Saleucami_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Sullust">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Sullust_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Sullust_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Taris">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Taris_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Taris_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Tatooine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Tatooine_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Tatooine_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Utapau">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Utapau_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Utapau_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Yavin">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Yavin_E1</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Yavin_E1</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
         <!-- Sub Menu System Control Magic Stuff -->
         <!-- Detect Button clicks, locking units which don't belong to the button and unlocking the other ones -->
 
@@ -294,6 +1426,103 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <!-- Demolish Structures-->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_BERTH_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <!-- Detect StructureMenu click -->
          <Event Name="CLICK_STRUCTURE_SPACE_TAB">
               <Event_Type>STORY_CLICK_GUI</Event_Type>
@@ -436,6 +1665,103 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>S_HANGAR</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="UNLOCK_SENSOR_RELAY_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_BERTH_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONICS_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -791,6 +2117,103 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>S_HANGAR</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_BERTH_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>

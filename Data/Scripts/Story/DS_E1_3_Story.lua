@@ -40,7 +40,7 @@ function Begin_GC(message)
 
 
 		-- put all planets as strings in this table  
-		planet_list = {"Abregado_Rae_E1", "Alderaan_E1", "Anaxes_E1", "Atzerri_E1", "Bestine_E1", "Bonadan_E1", "Bothawui_E1", "Brentaal_E1", "Carida_E1", "Corellia_E1", "Corulag_E1", "Coruscant_E1", "Dantooine_E1", "Dxun_E1", "Felucia_E1", "Fondor_E1", "Fresia_E1", "Hapes_E1", "Honoghr_E1", "Hypori_E1", "Kashyyyk_E1", "Kessel_E1", "Korriban_E1", "Kuat_E1", "Manaan_E1", "Mandalore_E1", "Mechis3_E1", "MonCalimari_E1", "Naboo_E1", "NalHutta_E1", "Onderon_E1", "Ryloth_E1", "Saleucami_E1", "Sullust_E1", "Taris_E1", "Tatooine_E1"}
+		planet_list = {"Abregado_Rae_E1", "Alderaan_E1", "Anaxes_E1", "Atzerri_E1", "Bestine_E1", "Bespin_E1", "Bonadan_E1", "Bothawui_E1", "Brentaal_E1", "Carida_E1", "Corellia_E1", "Corulag_E1", "Coruscant_E1", "Dantooine_E1", "Dathomir_E1", "Dxun_E1", "Felucia_E1", "Fondor_E1", "Fresia_E1", "Hapes_E1", "Honoghr_E1", "Hoth_E1", "Hypori_E1", "Jabiim_E1", "Kashyyyk_E1", "Kessel_E1", "Korriban_E1", "Kuat_E1", "Lok_E1", "Manaan_E1", "Mandalore_E1", "Mechis3_E1", "MonCalimari_E1", "Muunilinst_E1", "Naboo_E1", "NalHutta_E1", "Onderon_E1", "Polus_E1", "Ryloth_E1", "Saleucami_E1", "Sullust_E1", "Taris_E1", "Tatooine_E1", "Utapau_E1", "Yavin_E1"}
 		
 		-- put all special structures as strings in this table  
 		special_structures = {"S_BERTH", "S_GOLAN", "DS_SENSOR_RELAY", "DS_TRADE_PORT", "DS_HYDROPONICS", "DS_GALACTIC_CARGO", "DS_GALACTIC_HYPERLANES", "DS_ORBITAL_MANUFACTURING", "DS_GALACTIC_ASTEROID_MINE", "DS_GALACTIC_GAS_EXTRACTOR", "DS_GALACTIC_ORBITAL_DEFENCE_POD", "S_HANGAR"}
@@ -51,7 +51,7 @@ function Begin_GC(message)
 
 
 		-- put the name of your story file in here. IMPORTANT: the command is case sensitive!
-		plot = Get_Story_Plot("DS_E1_2.XML") 
+		plot = Get_Story_Plot("DS_E1_3.XML") 
 
 
 		show_text = plot.Get_Event("SCREEN_TEXT_Special_Structure")
