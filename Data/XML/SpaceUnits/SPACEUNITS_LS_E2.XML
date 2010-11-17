@@ -1867,6 +1867,7 @@
                          HP_CARRACK_CRUISER_ENGINES
                 </HardPoints>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
+                <Population_Value>3</Population_Value>
         </SpaceUnit>
 
 
@@ -2071,7 +2072,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-                <Population_Value>3</Population_Value>
+                <Population_Value>5</Population_Value>
         </SpaceUnit>
 
         <SpaceUnit Name="R_ACCLAMATOR_ASSAULT_FRIGATE_I_DEATH_CLONE">
@@ -2384,7 +2385,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-                <Population_Value>7</Population_Value>
+                <Population_Value>6</Population_Value>
 
         </SpaceUnit>
 
@@ -2469,11 +2470,13 @@
                 <Size_Value>8</Size_Value>
                                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
-                <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 6</Starting_Spawned_Units_Tech_0>
-                <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 8</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 3</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>R_ARC-170_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
+                <Starting_Spawned_Units_Tech_0>R_NTB_630_SQUADRON, 2</Starting_Spawned_Units_Tech_0>
                 <Spawned_Squadron_Delay_Seconds>3</Spawned_Squadron_Delay_Seconds>
-                <Reserve_Spawned_Units_Tech_0>R_ARC-170_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>R_V-WING_SQUADRON, 3</Reserve_Spawned_Units_Tech_0>
                 <Reserve_Spawned_Units_Tech_0>R_ARC-170_SQUADRON, 1</Reserve_Spawned_Units_Tech_0>
+                <Reserve_Spawned_Units_Tech_0>R_NTB_630_SQUADRON, 2</Reserve_Spawned_Units_Tech_0>
 
 
                 <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -2640,6 +2643,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>10</Population_Value>
         </SpaceUnit>
 
         <SpaceUnit Name="R_VENATOR_DEATH_CLONE">

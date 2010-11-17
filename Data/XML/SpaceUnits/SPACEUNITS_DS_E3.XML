@@ -2004,7 +2004,7 @@
                 <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->
 
 
-                <SpaceUnit Name="E_INTERDICTOR_CRUISER">
+        <SpaceUnit Name="E_INTERDICTOR_CRUISER">
                 <Text_ID>TEXT_UNIT_INTERDICTOR</Text_ID>
                 <Encyclopedia_Good_Against>RA_Z-95 RA_DP20 RA_MARAUDER_DB</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> RA_Y-WING RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE</Encyclopedia_Vulnerable_To>
@@ -2407,7 +2407,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-                <Population_Value>3</Population_Value>
+                <Population_Value>5</Population_Value>
         </SpaceUnit>
 
             <SpaceUnit Name="E_ACCLAMATOR_ASSAULT_FRIGATE_I_DEATH_CLONE">
@@ -2637,6 +2637,33 @@
 
             <SpaceUnit Name="E_DREADNAUGHT">
                 <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
+                <Text_ID>TEXT_UNIT_DREADNAUGHT_EMPIRE</Text_ID>
+                <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_EMPIRE</Encyclopedia_Text>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_MARAUDER RA_EF76_FRIGATE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
+                <Space_Model_Name>VCCr_Dreadnaught_Empire.ALO</Space_Model_Name>
+                <Affiliation>Empire</Affiliation>
+
+                <HardPoints>
+                         HP_E_DREADNAUGHT_MTL_01,
+                         HP_E_DREADNAUGHT_MTL_02,
+                         HP_E_DREADNAUGHT_MTL_03,
+                         HP_E_DREADNAUGHT_MTL_04,
+                         HP_E_DREADNAUGHT_MTL_05,
+                         HP_E_DREADNAUGHT_MTL_06,
+                         HP_E_DREADNAUGHT_HL_01,
+                         HP_E_DREADNAUGHT_HL_02,
+                         HP_E_DREADNAUGHT_L_01,
+                         HP_E_DREADNAUGHT_L_02,
+                         HP_E_DREADNAUGHT_L_03,
+                         HP_E_DREADNAUGHT_L_04,
+                         HP_E_DREADNAUGHT_L_05,
+                         HP_E_DREADNAUGHT_L_06,
+                         HP_E_DREADNAUGHT_SHIELD,
+                         HP_E_DREADNAUGHT_HANGAR,
+                         HP_E_DREADNAUGHT_ENGINE
+                 </HardPoints>
+
                 <GUI_Row> 1 </GUI_Row>
                 <Mass>0.999</Mass>
                 <Scale_Factor>0.49</Scale_Factor>
@@ -2759,34 +2786,9 @@
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
-                <!--<MULTIPLAYER SKIRMISH VALUES END>-->
-                <Population_Value>3</Population_Value>
-                        <Text_ID>TEXT_UNIT_DREADNAUGHT_EMPIRE</Text_ID>
-            <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_EMPIRE</Encyclopedia_Text>
-            <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_MARAUDER RA_EF76_FRIGATE </Encyclopedia_Good_Against>
-            <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
-                        <Space_Model_Name>VCCr_Dreadnaught_Empire.ALO</Space_Model_Name>
-                        <Affiliation>Empire</Affiliation>
-
-                        <HardPoints>
-                         HP_E_DREADNAUGHT_MTL_01,
-                         HP_E_DREADNAUGHT_MTL_02,
-                         HP_E_DREADNAUGHT_MTL_03,
-                         HP_E_DREADNAUGHT_MTL_04,
-                         HP_E_DREADNAUGHT_MTL_05,
-                         HP_E_DREADNAUGHT_MTL_06,
-                         HP_E_DREADNAUGHT_HL_01,
-                         HP_E_DREADNAUGHT_HL_02,
-                         HP_E_DREADNAUGHT_L_01,
-                         HP_E_DREADNAUGHT_L_02,
-                         HP_E_DREADNAUGHT_L_03,
-                         HP_E_DREADNAUGHT_L_04,
-                         HP_E_DREADNAUGHT_L_05,
-                         HP_E_DREADNAUGHT_L_06,
-                         HP_E_DREADNAUGHT_SHIELD,
-                         HP_E_DREADNAUGHT_HANGAR,
-                         HP_E_DREADNAUGHT_ENGINE
-            </HardPoints>
+                <!--<MULTIPLAYER SKIRMISH VALUES END>
+                Big unit, really ineffecient-->
+                <Population_Value>6</Population_Value>
 
                         <Starting_Spawned_Units_Tech_0>E_TIE_FIGHTER_SQUADRON, 1</Starting_Spawned_Units_Tech_0>
 
@@ -2852,6 +2854,7 @@
                                 </HardPoints>
 
                                 <Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer>
+                                 <Population_Value>5</Population_Value>
                         </SpaceUnit>
 
         <SpaceUnit Name="E_VICTORY_I">
@@ -3075,6 +3078,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>6</Population_Value>
         </SpaceUnit>
 
                 <SpaceUnit Name="E_VICTORY_I_DEATH_CLONE">
@@ -3317,6 +3321,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>7</Population_Value>
         </SpaceUnit>
 
                 <SpaceUnit Name="E_VICTORY_II_DEATH_CLONE">
@@ -3579,6 +3584,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>8</Population_Value>
         </SpaceUnit>
 
         <SpaceUnit Name="E_ISDI_DEATH_CLONE">
@@ -3832,6 +3838,7 @@
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
                 <!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>9</Population_Value>
         </SpaceUnit>
 
         <SpaceUnit Name="E_ISDII_DEATH_CLONE">
@@ -4078,6 +4085,7 @@
                 <Build_Limit_Current_For_All_Allies>1</Build_Limit_Current_For_All_Allies>
                 <Build_Limit_Lifetime_Per_Player>1</Build_Limit_Lifetime_Per_Player>
                 <!--<MULTIPLAYER SKIRMISH VALUES END>-->
+                <Population_Value>25</Population_Value>
         </SpaceUnit>
 
         <SpaceUnit Name="Executor_Death_Clone">
