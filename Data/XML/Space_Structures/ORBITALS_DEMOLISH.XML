@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Data>
 
-      <SpaceUnit Name="DS_SENSOR_DEMOLISH">
+      <SpecialStructure Name="DS_SENSOR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_SENSOR_RELAY_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -11,22 +11,22 @@
                 <Affiliation>Dark_Side, Sith, CIS, Empire, Imperial_Remnant</Affiliation>
                 <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+                <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
                 <Required_Special_Structures>DS_SENSOR_RELAY</Required_Special_Structures>
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_SENSOR_DEMOLISH">
+      <SpecialStructure Name="LS_SENSOR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_SENSOR_RELAY_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -42,16 +42,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_TRADE_PORT_DEMOLISH">
+      <SpecialStructure Name="DS_TRADE_PORT_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_TRADE_PORT_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -67,16 +67,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_TRADE_PORT_DEMOLISH">
+      <SpecialStructure Name="LS_TRADE_PORT_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_TRADE_PORT_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -92,16 +92,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_HYDROPONICS_DEMOLISH">
+      <SpecialStructure Name="DS_HYDROPONICS_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HYDROPONICS_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -117,16 +117,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_HYDROPONICS_DEMOLISH">
+      <SpecialStructure Name="LS_HYDROPONICS_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HYDROPONICS_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -142,16 +142,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_CARGO_DEMOLISH">
+      <SpecialStructure Name="DS_CARGO_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_CARGO_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -167,16 +167,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_CARGO_DEMOLISH">
+      <SpecialStructure Name="LS_CARGO_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_CARGO_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -192,16 +192,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_HYPERLANES_DEMOLISH">
+      <SpecialStructure Name="DS_HYPERLANES_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HYPERLANES_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -217,16 +217,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_HYPERLANES_DEMOLISH">
+      <SpecialStructure Name="LS_HYPERLANES_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HYPERLANES_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -242,16 +242,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_MANUFACTURING_DEMOLISH">
+      <SpecialStructure Name="DS_MANUFACTURING_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_MANUFACTURING_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -267,16 +267,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_MANUFACTURING_DEMOLISH">
+      <SpecialStructure Name="LS_MANUFACTURING_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_MANUFACTURING_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -292,16 +292,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_ASTEROID_MINE_DEMOLISH">
+      <SpecialStructure Name="DS_ASTEROID_MINE_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_ASTEROID_MINE_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -317,16 +317,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_ASTEROID_MINE_DEMOLISH">
+      <SpecialStructure Name="LS_ASTEROID_MINE_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_ASTEROID_MINE_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -342,16 +342,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_GAS_EXTRACTOR_DEMOLISH">
+      <SpecialStructure Name="DS_GAS_EXTRACTOR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GAS_EXTRACTOR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -367,16 +367,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_GAS_EXTRACTOR_DEMOLISH">
+      <SpecialStructure Name="LS_GAS_EXTRACTOR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GAS_EXTRACTOR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -392,16 +392,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
+      <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -417,16 +417,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
+      <SpecialStructure Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -442,16 +442,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
+      <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -467,16 +467,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
+      <SpecialStructure Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -492,16 +492,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="S_HANGAR_DEMOLISH">
+      <SpecialStructure Name="S_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -517,16 +517,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="C_HANGAR_DEMOLISH">
+      <SpecialStructure Name="C_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -542,16 +542,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="E_HANGAR_DEMOLISH">
+      <SpecialStructure Name="E_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -567,16 +567,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="IR_HANGAR_DEMOLISH">
+      <SpecialStructure Name="IR_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -592,16 +592,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="OR_HANGAR_DEMOLISH">
+      <SpecialStructure Name="OR_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -617,16 +617,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="R_HANGAR_DEMOLISH">
+      <SpecialStructure Name="R_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -642,16 +642,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="RA_HANGAR_DEMOLISH">
+      <SpecialStructure Name="RA_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -667,16 +667,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="NR_HANGAR_DEMOLISH">
+      <SpecialStructure Name="NR_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -692,16 +692,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="S_BERTH_DEMOLISH">
+      <SpecialStructure Name="S_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -717,16 +717,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="C_BERTH_DEMOLISH">
+      <SpecialStructure Name="C_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -742,16 +742,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="E_BERTH_DEMOLISH">
+      <SpecialStructure Name="E_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -767,16 +767,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="IR_BERTH_DEMOLISH">
+      <SpecialStructure Name="IR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -792,16 +792,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="OR_BERTH_DEMOLISH">
+      <SpecialStructure Name="OR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -817,16 +817,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="R_BERTH_DEMOLISH">
+      <SpecialStructure Name="R_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -842,16 +842,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="RA_BERTH_DEMOLISH">
+      <SpecialStructure Name="RA_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -867,16 +867,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="NR_BERTH_DEMOLISH">
+      <SpecialStructure Name="NR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -892,16 +892,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="NR_HANGAR_DEMOLISH">
+      <SpecialStructure Name="NR_HANGAR_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -917,16 +917,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="S_BERTH_DEMOLISH">
+      <SpecialStructure Name="S_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -942,16 +942,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="C_BERTH_DEMOLISH">
+      <SpecialStructure Name="C_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -967,16 +967,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="E_BERTH_DEMOLISH">
+      <SpecialStructure Name="E_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -992,16 +992,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="IR_BERTH_DEMOLISH">
+      <SpecialStructure Name="IR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1017,16 +1017,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="OR_BERTH_DEMOLISH">
+      <SpecialStructure Name="OR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1042,16 +1042,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="R_BERTH_DEMOLISH">
+      <SpecialStructure Name="R_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1067,16 +1067,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="RA_BERTH_DEMOLISH">
+      <SpecialStructure Name="RA_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1092,16 +1092,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="NR_BERTH_DEMOLISH">
+      <SpecialStructure Name="NR_BERTH_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1117,16 +1117,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="S_GOLAN_DEMOLISH">
+      <SpecialStructure Name="S_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1142,16 +1142,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="C_GOLAN_DEMOLISH">
+      <SpecialStructure Name="C_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1167,16 +1167,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="E_GOLAN_DEMOLISH">
+      <SpecialStructure Name="E_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1192,16 +1192,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="IR_GOLAN_DEMOLISH">
+      <SpecialStructure Name="IR_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1217,16 +1217,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="OR_GOLAN_DEMOLISH">
+      <SpecialStructure Name="OR_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1242,16 +1242,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="R_GOLAN_DEMOLISH">
+      <SpecialStructure Name="R_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1267,16 +1267,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="RA_GOLAN_DEMOLISH">
+      <SpecialStructure Name="RA_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1292,16 +1292,16 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 
-      <SpaceUnit Name="NR_GOLAN_DEMOLISH">
+      <SpecialStructure Name="NR_GOLAN_DEMOLISH">
                 <Text_ID>TEXT_ORBITAL_GOLAN_DEMOLISH</Text_ID>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
                 <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
@@ -1317,12 +1317,12 @@
                 <Required_Planets />
                 <Build_Time_Seconds>0.01</Build_Time_Seconds>
                 <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
-                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
-        </SpaceUnit>
+                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+        </SpecialStructure>
 </Data>
