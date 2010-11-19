@@ -60,12 +60,6 @@ function Begin_GC(message)
 		
 		selected_planet = "none"
 		
-		
-
-
-		
-
-		
 	elseif message == OnUpdate then
 		
 				-- concatenate strings by using string1..string2
@@ -85,9 +79,6 @@ function Begin_GC(message)
 				end
 				zoomed_in = true
 			end
-			if Check_Story_Flag(empire, "SELECT_"..planetstring, nil, true) then
-				selected_planet = planetstring
-			end
 		end
 		
 		if Check_Story_Flag(empire, "ZOOMED_OUT", nil, true) then
@@ -96,105 +87,6 @@ function Begin_GC(message)
 		zoomed_in = false
 		end	
 			--Game_Message("TEXT_UNIT_VENGEANCE_FRIGATE")	
-		
-		if Check_Story_Flag(empire, "DemolishSensorStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_SENSOR_RELAY")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishBerthStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("S_BERTH")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishGolanStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("S_GOLAN")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishTradeStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_TRADE_PORT")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishHydroponicsStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_HYDROPONICS")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishCargoStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_GALACTIC_CARGO")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishManufacturingStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_ORBITAL_MANUFACTURING")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishAsteroidStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_GALACTIC_ASTEROID_MINE")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishGasStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_GALACTIC_GAS_EXTRACTOR")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishPodStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("DS_GALACTIC_ORBITAL_DEFENCE_POD")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
-		
-		if Check_Story_Flag(empire, "DemolishHangarStructure", nil, true) then			
-			type_list = Find_All_Objects_Of_Type("S_HANGAR")
-				for i, obj in pairs(type_list) do
-					if obj.Get_Planet_Location() == FindPlanet(selected_planet) then
-					obj.Despawn()
-					end
-				end	
-		end
 		
 	end
 end
