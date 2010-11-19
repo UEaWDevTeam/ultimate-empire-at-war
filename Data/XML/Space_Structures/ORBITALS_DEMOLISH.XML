@@ -23,7 +23,8 @@
                 <Population_Value>0</Population_Value>
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Sensor_Relay</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_SENSOR_DEMOLISH">
@@ -49,6 +50,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Sensor_Relay</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_TRADE_PORT_DEMOLISH">
@@ -74,6 +76,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Trade_Port</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_TRADE_PORT_DEMOLISH">
@@ -99,6 +102,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Trade_Port</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_HYDROPONICS_DEMOLISH">
@@ -124,6 +128,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Hydroponics</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_HYDROPONICS_DEMOLISH">
@@ -149,6 +154,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Hydroponics</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_CARGO_DEMOLISH">
@@ -174,6 +180,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Cargo</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_CARGO_DEMOLISH">
@@ -199,6 +206,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Cargo</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_HYPERLANES_DEMOLISH">
@@ -224,6 +232,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Hyperlanes</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_HYPERLANES_DEMOLISH">
@@ -249,6 +258,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Hyperlanes</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_MANUFACTURING_DEMOLISH">
@@ -274,6 +284,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Manufacturing</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_MANUFACTURING_DEMOLISH">
@@ -299,6 +310,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Manufacturing</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_ASTEROID_MINE_DEMOLISH">
@@ -324,6 +336,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Asteroids</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_ASTEROID_MINE_DEMOLISH">
@@ -349,6 +362,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Asteroids</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_GAS_EXTRACTOR_DEMOLISH">
@@ -374,6 +388,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Extractor</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_GAS_EXTRACTOR_DEMOLISH">
@@ -399,6 +414,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Extractor</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
@@ -424,6 +440,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_DS_Defence_Pod</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
@@ -449,56 +466,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="DS_ORBITAL_DEFENCE_POD_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_DEFENCE_POD_DEMOLISH.TGA</Icon_Name>
-
-                <Affiliation>Dark_Side, Sith, CIS, Empire, Imperial_Remnant</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>DS_GALACTIC_ORBITAL_DEFENCE_POD</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="LS_ORBITAL_DEFENCE_POD_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_DEFENCE_POD_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_DEFENCE_POD_DEMOLISH.TGA</Icon_Name>
-
-                <Affiliation>Light_Side, Old_Republic, Republic, Rebel, New_Republic</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>LS_GALACTIC_ORBITAL_DEFENCE_POD</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_LS_Defence_Pod</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="S_HANGAR_DEMOLISH">
@@ -524,6 +492,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_S_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="C_HANGAR_DEMOLISH">
@@ -549,6 +518,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_C_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="E_HANGAR_DEMOLISH">
@@ -574,6 +544,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_E_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="IR_HANGAR_DEMOLISH">
@@ -599,6 +570,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_IR_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="OR_HANGAR_DEMOLISH">
@@ -624,6 +596,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_OR_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="R_HANGAR_DEMOLISH">
@@ -649,6 +622,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_R_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="RA_HANGAR_DEMOLISH">
@@ -674,6 +648,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_RA_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="NR_HANGAR_DEMOLISH">
@@ -699,6 +674,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_NR_Hangar</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="S_BERTH_DEMOLISH">
@@ -724,6 +700,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_S_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="C_BERTH_DEMOLISH">
@@ -749,6 +726,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_C_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="E_BERTH_DEMOLISH">
@@ -774,6 +752,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_E_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="IR_BERTH_DEMOLISH">
@@ -799,6 +778,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_IR_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="OR_BERTH_DEMOLISH">
@@ -824,6 +804,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_OR_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="R_BERTH_DEMOLISH">
@@ -849,6 +830,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_R_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="RA_BERTH_DEMOLISH">
@@ -874,6 +856,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_RA_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="NR_BERTH_DEMOLISH">
@@ -899,231 +882,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="NR_HANGAR_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_HANGAR_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_HANGAR_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Rebel, New_Republic</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>NR_HANGAR</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="S_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Empire, Sith</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>S_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="C_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Empire, CIS</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>C_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="E_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Empire, Dark_Side</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>E_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="IR_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Empire, Imperial_Remnant</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>IR_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="OR_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Rebel, Old_Republic</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>OR_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="R_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Rebel, Republic</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>R_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="RA_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Light_Side, Rebel</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>RA_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
-        </SpecialStructure>
-
-      <SpecialStructure Name="NR_BERTH_DEMOLISH">
-                <Text_ID>TEXT_ORBITAL_BERTH_DEMOLISH</Text_ID>
-                <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_RESEARCH</Encyclopedia_Unit_Class>
-                <Encyclopedia_Text>TEXT_NONE</Encyclopedia_Text>
-
-                <Icon_Name>I_BUTTON_BERTH_DEMOLISH.TGA </Icon_Name>
-
-                <Affiliation>Rebel, New_Republic</Affiliation>
-                <Tech_Level>1</Tech_Level>
-                <Required_Timeline>0</Required_Timeline>
-                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures>NR_BERTH</Required_Special_Structures>
-                <Required_Planets />
-                <Build_Time_Seconds>0.01</Build_Time_Seconds>
-                <Build_Cost_Credits>100</Build_Cost_Credits>
-                <Build_Max_Instances_Per_Planet>1</Build_Max_Instances_Per_Planet>
-                <Build_Initially_Locked>Yes</Build_Initially_Locked>
-
-                <Population_Value>0</Population_Value>
-                <GUI_Row>1</GUI_Row>
-                <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
-                <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_NR_Berth</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="S_GOLAN_DEMOLISH">
@@ -1149,6 +908,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_S_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="C_GOLAN_DEMOLISH">
@@ -1174,6 +934,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_C_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="E_GOLAN_DEMOLISH">
@@ -1199,6 +960,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_E_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="IR_GOLAN_DEMOLISH">
@@ -1224,6 +986,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_IR_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="OR_GOLAN_DEMOLISH">
@@ -1249,6 +1012,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_OR_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="R_GOLAN_DEMOLISH">
@@ -1274,6 +1038,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_R_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="RA_GOLAN_DEMOLISH">
@@ -1299,6 +1064,7 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_RA_Golan</Lua_Script>
         </SpecialStructure>
 
       <SpecialStructure Name="NR_GOLAN_DEMOLISH">
@@ -1324,5 +1090,6 @@
                 <GUI_Row>1</GUI_Row>
                 <Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
                 <Behavior> DUMMY_ORBITAL_STRUCTURE, SELECTABLE, POWERED </Behavior>
+                <Lua_Script>Demolish_NR_Golan</Lua_Script>
         </SpecialStructure>
 </Data>
