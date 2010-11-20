@@ -117,7 +117,7 @@
                 <Perpetual>true</Perpetual>
                 <Branch>Zoom</Branch>
         </Event>
-                                 
+
         <Event Name="Zoom_Into_Aeten_II">
                 <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
                         <Event_Param1>Aeten_II_E2</Event_Param1>
@@ -673,6 +673,16 @@
                         <Event_Param1>Tatooine_E2</Event_Param1>
                 <Reward_Type>TRIGGER_AI</Reward_Type>
                         <Reward_Param1>ZOOMED_INTO_Tatooine_E2</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Thyferra">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Thyferra_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Thyferra_E2</Reward_Param1>
                         <Reward_Param2>Empire</Reward_Param2>
                 <Perpetual>true</Perpetual>
                 <Branch>Zoom</Branch>

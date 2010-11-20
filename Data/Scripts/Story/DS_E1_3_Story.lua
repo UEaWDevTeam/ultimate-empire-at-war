@@ -1,16 +1,12 @@
 --//////////////////////////////////////////////////////////////////////////////////////
---       #                                   ######                       
---      # #   #      #####  #    #   ##      #     # #      #    # ###### 
---     #   #  #      #    # #    #  #  #     #     # #      #    # #      
---    #     # #      #    # ###### #    #    ######  #      #    # #####  
---    ####### #      #####  #    # ######    #     # #      #    # #      
---    #     # #      #      #    # #    #    #     # #      #    # #      
---    #     # ###### #      #    # #    #    ######  ######  ####  ###### 
---
---
+--      UU    UU    EEEEEEEE     AAAA     WW   WW   WW
+--      UU    UU    EE         AA    AA   WW   WW   WW
+--      UU    UU    EEEEE      AAAAAAAA   WW   WW   WW
+--      UU    UU    EE         AA    AA    WW WWWW WW
+--       UUUUUU     EEEEEEEE   AA    AA      WW  WW
 -- Displays a screen text containing all orbital structures when zooming into a planet
--- © SmallPox
--- Modified for UEAW GC E1 LS (so not just Smallpoxscript :P)
+-- © SmallPox & UEAW Team
+-- Modified for UEAW GC E1 DS
 --//////////////////////////////////////////////////////////////////////////////////////
 
 require("PGDebug")
