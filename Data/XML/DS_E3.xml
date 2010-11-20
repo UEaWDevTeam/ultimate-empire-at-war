@@ -867,6 +867,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="UNLOCK_E_INTERDICTOR_CRUISER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_INTERDICTOR_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E3_GET_INTERDICTOR_PLANS_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="UNLOCK_E_VICTORY_I_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
@@ -1184,6 +1192,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_E3_GET_INTERDICTOR_PLANS_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E3_GET_INTERDICTOR_PLANS</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1657,6 +1673,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="UNLOCK_E_INTERDICTOR_CRUISER_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_INTERDICTOR_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="LOCK_E_VICTORY_I_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1742,6 +1766,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_E3_GET_INTERDICTOR_PLANS_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E3_GET_INTERDICTOR_PLANS</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1944,6 +1976,14 @@
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB && E3_REDESIGN_CLONE_WARS_DESIGNS_CONSTRUCTED && E3_DEVELOPING_NEW_GUNSHIPS_CONSTRUCTED && E3_ADVANCED_DEFENCES_EMPIRE_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_E3_GET_INTERDICTOR_PLANS_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E3_GET_INTERDICTOR_PLANS</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -2168,6 +2208,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E_DREADNAUGHT_REFIT</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_E_INTERDICTOR_CRUISER_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_INTERDICTOR_CRUISER</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2611,6 +2659,34 @@
                  <Reward_Type>DESTROY_OBJECT</Reward_Type>
                  <Reward_Param1>E3_CONTINUE_CLONE_WARS_SHIPS</Reward_Param1>
                  <Prereq>E3_CONTINUE_CLONE_WARS_SHIPS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Redesign of Victory I -->
+        <Event Name="E3_GET_INTERDICTOR_PLANS_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E3_GET_INTERDICTOR_PLANS</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E3_GET_INTERDICTOR_PLANS_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E3_GET_INTERDICTOR_PLANS</Event_Param1>
+                <Prereq>E3_GET_INTERDICTOR_PLANS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_GET_INTERDICTOR_PLANS_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E3_GET_INTERDICTOR_PLANS</Reward_Param1>
+                <Prereq>E3_GET_INTERDICTOR_PLANS_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E3_GET_INTERDICTOR_PLANS_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E3_GET_INTERDICTOR_PLANS</Reward_Param1>
+                 <Prereq>E3_GET_INTERDICTOR_PLANS_CONSTRUCTED</Prereq>
         </Event>
 
         <!-- Redesign of Victory I -->
