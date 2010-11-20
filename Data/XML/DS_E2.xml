@@ -688,6 +688,16 @@
                 <Branch>Zoom</Branch>
         </Event>
 
+        <Event Name="Zoom_Into_Trandosha">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Trandosha_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Trandosha_E2</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
         <Event Name="Zoom_Into_Utapau">
                 <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
                         <Event_Param1>Utapau_E2</Event_Param1>

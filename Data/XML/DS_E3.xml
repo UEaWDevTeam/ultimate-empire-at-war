@@ -717,6 +717,16 @@
                 <Branch>Zoom</Branch>
         </Event>
 
+        <Event Name="Zoom_Into_Trandosha">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Trandosha_E3</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Trandosha_E3</Reward_Param1>
+                        <Reward_Param2>Empire</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
         <Event Name="Zoom_Into_Utapau">
                 <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
                         <Event_Param1>Utapau_E3</Event_Param1>
@@ -1044,7 +1054,7 @@
          <Event Name="LOCK_BERTH_DEMOLISH_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_BERTH_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_BERTH_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1052,7 +1062,7 @@
          <Event Name="LOCK_GOLAN_DEMOLISH_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_GOLAN_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_GOLAN_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1124,7 +1134,7 @@
          <Event Name="LOCK_HANGAR_DEMOLISH_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_HANGAR_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1480,7 +1490,7 @@
          <Event Name="UNLOCK_BERTH_DEMOLISH_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>C_BERTH_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_BERTH_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1488,7 +1498,7 @@
          <Event Name="UNLOCK_GOLAN_DEMOLISH_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>C_GOLAN_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_GOLAN_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1560,7 +1570,7 @@
          <Event Name="UNLOCK_HANGAR_DEMOLISH_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
-                 <Reward_Param1>C_HANGAR_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2348,7 +2358,7 @@
          <Event Name="LOCK_BERTH_DEMOLISH_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_BERTH_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_BERTH_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2356,7 +2366,7 @@
          <Event Name="LOCK_GOLAN_DEMOLISH_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_GOLAN_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_GOLAN_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2428,7 +2438,7 @@
          <Event Name="LOCK_HANGAR_DEMOLISH_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
-                 <Reward_Param1>C_HANGAR_DEMOLISH</Reward_Param1>
+                 <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
