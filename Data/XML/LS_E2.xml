@@ -151,6 +151,675 @@
           </Event>
 
 
+        <!-- Display Structures Stuff -->
+        <!-- Show Structures -->
+        <Event Name="SCREEN_TEXT_Special_Structure">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                        <Event_Param2>SHOW_STRUCTURES</Event_Param2>
+                <Reward_Type>SCREEN_TEXT</Reward_Type>
+                        <Reward_Param1></Reward_Param1>
+                        <Reward_Param2>-1</Reward_Param2>
+                <Branch>Screen_Text_Events</Branch>
+        </Event>
+
+        <Event Name="RESET_BRANCH_Screen_Text_Events">
+                <Event_Type>STORY_AI_NOTIFICATION</Event_Type>
+                        <Event_Param2>RESET_TEXT_BRANCH</Event_Param2>
+                <Reward_Type>RESET_BRANCH</Reward_Type>
+                        <Reward_Param1>Screen_Text_Events</Reward_Param1>
+                <Branch>Screen_Text_Events</Branch>
+        </Event>
+
+        <Event Name="Zoom_out">
+                <Event_Type>STORY_ZOOM_OUT_PLANET</Event_Type>
+                        <Event_Param1></Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_OUT</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Abgreado_Rae">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Abregado_Rae_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Abregado_Rae_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Aeten_II">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Aeten_II_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Aeten_II_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Alderaan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Alderaan_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Alderaan_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_AlzocIII">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>AlzocIII_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_AlzocIII_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Anaxes">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Anaxes_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Anaxes_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Atzerri">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Atzerri_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Atzerri_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bastion">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bastion_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bastion_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bespin">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bespin_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bespin_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bestine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bestine_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bestine_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bonadan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bonadan_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bonadan_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Bothawui">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Bothawui_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Bothawui_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Brentaal">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Brentaal_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Brentaal_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Carida">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Carida_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Carida_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Corellia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Corellia_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Corellia_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Corulag">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Corulag_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Corulag_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Coruscant">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Coruscant_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Coruscant_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dantooine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dantooine_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dantooine_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dagobah">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dagobah_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dagobah_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dathomir">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dathomir_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dathomir_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Dxun">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Dxun_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Dxun_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Endor">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Endor_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Endor_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Eriadu">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Eriadu_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Eriadu_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Felucia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Felucia_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Felucia_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Fondor">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Fondor_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Fondor_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Fresia">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Fresia_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Fresia_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Geonosis">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Geonosis_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Geonosis_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hapes">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hapes_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hapes_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Honoghr">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Honoghr_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Honoghr_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hoth">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hoth_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hoth_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Hypori">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Hypori_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Hypori_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Ilum">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Ilum_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Ilum_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Jabiim">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Jabiim_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Jabiim_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kamino">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kamino_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kamino_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kashyyyk">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kashyyyk_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kashyyyk_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kessel">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kessel_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kessel_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Korriban">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Korriban_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Korriban_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Kuat">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Kuat_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Kuat_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Lok">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Lok_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Lok_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Manaan">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Manaan_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Manaan_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Mandalore">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Mandalore_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mandalore_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Mechis3">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Mechis3_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mechis3_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_MonCalimari">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>MonCalimari_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_MonCalimari_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Mustafar">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Mustafar_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mustafar_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Muunilinst">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Muunilinst_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Muunilinst_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Myrkr">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Myrkr_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Mustafar_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Naboo">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Naboo_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Naboo_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_NalHutta">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>NalHutta_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_NalHutta_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Onderon">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Onderon_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Onderon_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Ord_Mantell">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Ord_Mantell_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Ord_Mantell_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Polus">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Polus_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Polus_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Praesitlyn">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Praesitlyn_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Praesitlyn_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Ryloth">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Ryloth_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Ryloth_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Saleucami">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Saleucami_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Saleucami_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Sluis_Van">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Sluis_Van_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Sluis_Van_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Sullust">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Sullust_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Sullust_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Taris">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Taris_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Taris_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Tatooine">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Tatooine_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Tatooine_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Thyferra">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Thyferra_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Thyferra_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Trandosha">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Trandosha_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Trandosha_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Utapau">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Utapau_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Utapau_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Wayland">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Wayland_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Wayland_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_VergessoAsteroids">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>VergessoAsteroids_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_VergessoAsteroids_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Yaga_Minor">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Yaga_Minor_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Yaga_Minor_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
+        <Event Name="Zoom_Into_Yavin">
+                <Event_Type>STORY_ZOOM_INTO_PLANET</Event_Type>
+                        <Event_Param1>Yavin_E2</Event_Param1>
+                <Reward_Type>TRIGGER_AI</Reward_Type>
+                        <Reward_Param1>ZOOMED_INTO_Yavin_E2</Reward_Param1>
+                        <Reward_Param2>Rebel</Reward_Param2>
+                <Perpetual>true</Perpetual>
+                <Branch>Zoom</Branch>
+        </Event>
+
          <!-- Detect SpaceMenu click -->
          <Event Name="CLICK_SHIP_SPACE_TAB">
               <Event_Type>STORY_CLICK_GUI</Event_Type>
@@ -402,6 +1071,103 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>R_HANGAR</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_BERTH_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -692,6 +1458,103 @@
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>R_HANGAR</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB && E2_ADVANCED_WEAPONS_SYSTEMS_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="UNLOCK_SENSOR_RELAY_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_BERTH_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>R_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GOLAN_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>R_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_TRADE_PORT_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYDROPONICS_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HYPERLANES_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_CARGO_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_MANUFACTURING_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_ASTEROID_MINE_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_GAS_EXTRACTOR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_DEFENCE_POD_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_HANGAR_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>R_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1352,6 +2215,103 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>R_HANGAR</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <!-- Demolish Structures-->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_BERTH_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>LS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_HANGAR_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
