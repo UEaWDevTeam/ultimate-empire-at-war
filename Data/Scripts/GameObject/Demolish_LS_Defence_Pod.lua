@@ -19,7 +19,7 @@ function State_Init(message)
 		if message == OnEnter then
 			Planet = Object.Get_Planet_Location()
 			--Structure which has to be demolished
-			structures = Find_All_Objects_Of_Type("DS_GALACTIC_ORBITAL_DEFENCE_POD")
+			structures = Find_All_Objects_Of_Type("LS_GALACTIC_ORBITAL_DEFENCE_POD")
 			for i, obj in pairs(structures) do
 				if(obj.Get_Planet_Location() == Planet) then
 					obj.Despawn()
