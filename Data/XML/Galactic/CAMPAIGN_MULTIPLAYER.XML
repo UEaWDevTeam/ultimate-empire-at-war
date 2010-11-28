@@ -10,9 +10,9 @@
 
 <Campaign Name="The_Jedi_Civil_War_Multiplayer">
 
-         <Campaign_Set> Multiplayer_Testing_Campaign </Campaign_Set>
+         <Campaign_Set> TJCV_MP </Campaign_Set>
          <Text_ID>TEXT_V1_GC_E1_LS_1</Text_ID> <!--GC name in game-->
-         <Description_Text>TEXT_V1_GC_E1_LS_1_DESCRIPTION</Description_Text> <!-- GC description in game -->
+         <Description_Text>TEXT_V1_GC_E1_MP_DESCRIPTION</Description_Text> <!-- GC description in game -->
 
         <Camera_Shift_X> 40.0 </Camera_Shift_X>
         <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
@@ -364,5 +364,415 @@
                 <Starting_Forces> Sith, Rakata_Prime_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
                 <Starting_Forces> Sith, Rakata_Prime_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
                 <Starting_Forces> Sith, Rakata_Prime_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+    </Campaign>
+
+<Campaign Name="The_New_Sith_Wars_Multiplayer">
+
+         <Campaign_Set> TNSW_MP </Campaign_Set>
+         <Text_ID>TEXT_V1_GC_E1_3</Text_ID> <!--GC name in game-->
+         <Description_Text>TEXT_V1_GC_E1_2_MP_DESCRIPTION</Description_Text> <!-- GC description in game -->
+
+        <Camera_Shift_X> 40.0 </Camera_Shift_X>
+        <Camera_Shift_Y> 0.0 </Camera_Shift_Y>
+        <Camera_Distance> 1200.0 </Camera_Distance>
+
+                <Locations>
+                                Galaxy_Core_Art_Model,
+                                Abregado_Rae_E1,
+                                Alderaan_E1,
+                                Anaxes_E1,
+                                Atzerri_E1,
+                                Bestine_E1,
+                                Bespin_E1,
+                                Bonadan_E1,
+                                Bothawui_E1,
+                                Brentaal_E1,
+                                Carida_E1,
+                                Corellia_E1,
+                                Corulag_E1,
+                                Coruscant_E1,
+                                Dantooine_E1,
+                                Dathomir_E1,
+                                Dxun_E1,
+                                Felucia_E1,
+                                Fondor_E1,
+                                Fresia_E1,
+                                Hapes_E1,
+                                Honoghr_E1,
+                                Hoth_E1,
+                                Hypori_E1,
+                                Jabiim_E1,
+                                Kashyyyk_E1,
+                                Kessel_E1,
+                                Korriban_E1,
+                                Kuat_E1,
+                                Lok_E1,
+                                Manaan_E1,
+                                Mandalore_E1,
+                                Mechis3_E1,
+                                MonCalimari_E1,
+                                Muunilinst_E1,
+                                Naboo_E1,
+                                NalHutta_E1,
+                                Onderon_E1,
+                                Polus_E1,
+                                Ryloth_E1,
+                                Saleucami_E1,
+                                Sullust_E1,
+                                Taris_E1,
+                                Tatooine_E1,
+                                Thyferra_E1,
+                                Trandosha_E1,
+                                Utapau_E1,
+                                Yavin_E1
+
+                </Locations> <!--Planet list, comma separated. Galaxy_Core_Art_Model is required -->
+
+                <Trade_Routes>
+                Abregado_Rae_Fondor_E1,
+                Fondor_Thyferra_E1,
+                Thyferra_Sullust_E1,
+                Sullust_Eriadu_E1,
+                Eriadu_Sluis_Van_E1,
+                Coruscant_Anaxes_E1,
+                Anaxes_Corulag_E1,
+                Corulag_Brentaal_E1,
+                Bonadan_Taris_E1,
+                Taris_Brentaal_E1,
+                Coruscant_Corellia_E1,
+                Corellia_Ryloth_E1,
+                Corellia_Bestine_E1,
+                Bestine_Mechis3_E1,
+                Mechis3_Bespin_E1,
+                Eriadu_Bespin_E1,
+                Kessel_Jabiim_E1,
+                Dantooine_Bastion_E1,
+                Bastion_Muunilinst_E1,
+                Muunlinst_Yaga_Minor_E1,
+                Bothawui_Kashyyyk_E1,
+                Byss_Coruscant_E1,
+                Fondor_Atzerri_E1,
+                NalHutta_Kashyyyk_E1,
+                AetenII_Ilum_E1,
+                Endor_Bespin_E1,
+                Shola_Hypori_E1,
+                Yaga_Minor_Ord_Mantell_E1,
+                Brentaal_Alderaan_E1,
+                Honoghr_NalHutta_E1,
+                Bothawui_NalHutta_E1
+
+
+                </Trade_Routes> <!--hyperspace lanes, comma separated-->
+
+
+
+        <Home_Location> Sith, Korriban </Home_Location>
+        <Home_Location> Old_Republic, Coruscant </Home_Location>
+
+        <Is_Multiplayer> Yes </Is_Multiplayer>
+
+                <Markup_Filename>Sith, DefaultGalacticHints </Markup_Filename>
+                <Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
+                <Markup_Filename>Old_Republic, DefaultGalacticHints </Markup_Filename>
+
+                <Supports_Custom_Settings>True</Supports_Custom_Settings>
+                <Show_Completed_Tab>False</Show_Completed_Tab>
+
+                <!-- Win Conditions -->
+
+                <Human_Victory_Conditions>
+                                Galactic_All_Planets_Controlled
+                </Human_Victory_Conditions>
+
+                <AI_Victory_Conditions>
+                                Galactic_All_Planets_Controlled
+                </AI_Victory_Conditions>
+
+
+                <!-- Rebel Starting Forces -->
+
+                <Starting_Credits> Old_Republic,  10000 </Starting_Credits>
+                <Starting_Tech_Level> Old_Republic, 3 </Starting_Tech_Level>
+                <Max_Tech_Level> Old_Republic, 5 </Max_Tech_Level>
+
+                <!-- Alderaan Space Forces -->
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_HAMMERHEAD_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Alderaan_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Anaxes Space Forces -->
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_AUREK_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Anaxes_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Bestine Space Forces -->
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_AUREK_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Bestine_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Bothawui Space Forces -->
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Bothawui_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Carida Space Forces -->
+                <Starting_Forces> Old_Republic, Carida_E1, OR_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Carida_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Carida_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Carida_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Carida_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Carida_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Corellia Space Forces -->
+                <Starting_Forces> Old_Republic, Corellia_E1, OR_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Corellia_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Corellia_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Corellia_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Corellia_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Corulag Space Forces -->
+                <Starting_Forces> Old_Republic, Corulag_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Corulag_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Corulag_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Corulag_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Corulag_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Coruscant Space Forces -->
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_STARBASE_5 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Coruscant_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Dantooine Space Forces -->
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Dantooine_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Fondor Space Forces -->
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_STARBASE_5 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_HAMMERHEAD_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Fondor_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+
+                <!-- Fresia Space Forces -->
+                <Starting_Forces> Old_Republic, Fresia_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Fresia_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Fresia_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Fresia_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Jabiim Space Forces -->
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Jabiim_E1, OR_CHELA_SQUADRON_MP</Starting_Forces>
+
+                <!-- Kuat Space Forces -->
+                <Starting_Forces> Old_Republic, Kuat_E1, OR_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Kuat_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Kuat_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Kuat_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Kuat_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+
+                <!-- Mechis3 Space Forces -->
+                <Starting_Forces> Old_Republic, Mechis3_E1, OR_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Mechis3_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Mechis3_E1, OR_AUREK_SQUADRON_MP</Starting_Forces>
+
+                <!-- Mon Calamari Space Forces -->
+                <Starting_Forces> Old_Republic, MonCalimari_E1, OR_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Old_Republic, MonCalimari_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, MonCalimari_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, MonCalimari_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, MonCalimari_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+
+                <!-- Onderon Space Forces -->
+                <Starting_Forces> Old_Republic, Onderon_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Onderon_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Onderon_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Onderon_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+
+                <!-- Sullust Space Forces -->
+                <Starting_Forces> Old_Republic, Sullust_E1, OR_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Sullust_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Sullust_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Sullust_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Sullust_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+
+                <!-- Onderon Space Forces -->
+                <Starting_Forces> Old_Republic, Thyferra_E1, OR_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Old_Republic, Thyferra_E1, OR_FORAY_CLASS_MP </Starting_Forces>
+                <Starting_Forces> Old_Republic, Thyferra_E1, OR_FORAY_CLASS_MP</Starting_Forces>
+                <Starting_Forces> Old_Republic, Thyferra_E1, OR_HAMMERHEAD_MP</Starting_Forces>
+
+
+                <!-- Empire Starting Forces -->
+
+                <Starting_Credits> Sith,  10000 </Starting_Credits>
+                <Starting_Tech_Level> Sith, 3 </Starting_Tech_Level>
+                <Max_Tech_Level> Sith, 5 </Max_Tech_Level>
+
+                <!-- Abregado Rae Space Forces -->
+                <Starting_Forces> Sith, Abregado_Rae_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Abregado_Rae_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Abregado_Rae_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Abregado_Rae_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Abregado_Rae_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Atzerri Space Forces -->
+                <Starting_Forces> Sith, Atzerri_E1, S_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Sith, Atzerri_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Atzerri_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Atzerri_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Atzerri_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Bonadan Space Forces -->
+                <Starting_Forces> Sith, Bonadan_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Bonadan_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Bonadan_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Bonadan_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Bonadan_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+
+                <!-- Dathomir Space Forces -->
+                <Starting_Forces> Sith, Dathomir_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Dathomir_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Brentaal Space Forces -->
+                <Starting_Forces> Sith, Brentaal_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Brentaal_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Honoghr Space Forces -->
+                <Starting_Forces> Sith, Honoghr_E1, S_STARBASE_1 </Starting_Forces>
+                <Starting_Forces> Sith, Honoghr_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Honoghr_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Honoghr_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Honoghr_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Honoghr_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Hoth Space Forces -->
+                <Starting_Forces> Sith, Hoth_E1, S_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Sith, Hoth_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hoth_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hoth_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hoth_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Hypori Space Forces -->
+                <Starting_Forces> Sith, Hypori_E1, S_STARBASE_5 </Starting_Forces>
+                <Starting_Forces> Sith, Hypori_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hypori_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hypori_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Hypori_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+
+                <!-- Kessel Space Forces -->
+                <Starting_Forces> Sith, Kessel_E1, S_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Sith, Kessel_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Kessel_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Kessel_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Kessel_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Kessel_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Korriban Space Forces -->
+                <Starting_Forces> Sith, Korriban_E1, S_STARBASE_5 </Starting_Forces>
+                <Starting_Forces> Sith, Korriban_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Korriban_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Korriban_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Korriban_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+                <Starting_Forces> Sith, Korriban_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+
+                <!-- Lok Space Forces -->
+                <Starting_Forces> Sith, Lok_E1, S_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Sith, Lok_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Lok_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Lok_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Lok_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Muunilinst Space Forces -->
+                <Starting_Forces> Sith, Muunilinst_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Muunilinst_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Polus Space Forces -->
+                <Starting_Forces> Sith, Polus_E1, S_STARBASE_2 </Starting_Forces>
+                <Starting_Forces> Sith, Polus_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Polus_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Polus_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Polus_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Rhyloth Space Forces -->
+                <Starting_Forces> Sith, Rhyloth_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Rhyloth_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Rhyloth_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Rhyloth_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Rhyloth_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Rhyloth_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Saleucami Space Forces -->
+                <Starting_Forces> Sith, Saleucami_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Saleucami_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Saleucami_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Saleucami_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Saleucami_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Saleucami_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Taris Space Forces -->
+                <Starting_Forces> Sith, Taris_E1, S_STARBASE_4 </Starting_Forces>
+                <Starting_Forces> Sith, Taris_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Taris_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Taris_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Taris_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Taris_E1, S_INTERDICTOR_CRUISER </Starting_Forces>
+
+                <!-- Tatooine Space Forces -->
+                <Starting_Forces> Sith, Tatooine_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Tatooine_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Tatooine_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Tatooine_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Tatooine_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Tatooine_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
+                <!-- Yavin Space Forces -->
+                <Starting_Forces> Sith, Yavin_E1, S_STARBASE_3 </Starting_Forces>
+                <Starting_Forces> Sith, Yavin_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Yavin_E1, S_SITH_GUNBOAT_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Yavin_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Yavin_E1, S_SITH_BOMBER_SQUADRON_MP </Starting_Forces>
+                <Starting_Forces> Sith, Yavin_E1, S_SITH_FIGHTER_SQUADRON_MP </Starting_Forces>
+
     </Campaign>
 </Campaigns>
