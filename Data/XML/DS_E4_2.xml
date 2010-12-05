@@ -859,6 +859,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="UNLOCK_IR_LANCER_FRIGATE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="UNLOCK_IR_BROADSIDE_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
@@ -1487,6 +1495,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_IR_LANCER_FRIGATE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="LOCK_IR_BROADSIDE_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1661,6 +1677,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>IR_TARTAN_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_IR_LANCER_FRIGATE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>

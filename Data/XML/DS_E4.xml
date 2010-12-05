@@ -1063,6 +1063,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>IR_TARTAN_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB && E4_ADV_AF_DEFENCE_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_IR_LANCER_FRIGATE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1411,6 +1419,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_E4_ADV_AF_DEFENCE_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E4_ADV_AF_DEFENCE</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="LOCK_E4_DEVELOPING_NEW_RAID_TECHNOLOGY_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1727,6 +1743,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_IR_LANCER_FRIGATE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="LOCK_IR_BROADSIDE_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1840,6 +1864,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_E4_ADV_AF_DEFENCE_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E4_ADV_AF_DEFENCE</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="LOCK_E4_DEVELOPING_NEW_RAID_TECHNOLOGY_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -1880,11 +1912,19 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="UNLOCK_E4_ADV_AF_DEFENCE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E4_ADV_AF_DEFENCE</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED && E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <Event Name="UNLOCK_E4_DEVELOPING_NEW_RAID_TECHNOLOGY_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E4_DEVELOPING_NEW_RAID_TECHNOLOGY</Reward_Param1>
-                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED && E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB && E4_ADV_AF_DEFENCE_CONSTRUCTED</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
 
@@ -1949,6 +1989,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>IR_TARTAN_CRUISER</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_IR_LANCER_FRIGATE_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_LANCER_FRIGATE</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2280,6 +2328,103 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <!-- Demolish Structures-->
+         <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_SENSOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_BERTH_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_BERTH_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GOLAN_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_GOLAN_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_TRADE_PORT_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_TRADE_PORT_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYDROPONICS_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYDROPONICS_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HYPERLANES_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_HYPERLANES_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_CARGO_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GALACTIC_CARGO_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_MANUFACTURING_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_MANUFACTURING_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_ASTEROID_MINE_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ASTEROID_MINE_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_GAS_EXTRACTOR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_GAS_EXTRACTOR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_DEFENCE_POD_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>DS_ORBITAL_DEFENCE_POD_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_HANGAR_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
 <!-- Tech Tree -->
         <!-- Research Cloaking Technology -->
         <Event Name="E4_RESEARCHING_CLOAKING_TECHNOLOGY_CONSTRUCTED">
@@ -2335,6 +2480,34 @@
                  <Reward_Type>DESTROY_OBJECT</Reward_Type>
                  <Reward_Param1>E4_AUTOMATED_COMBAT_SYSTEM</Reward_Param1>
                  <Prereq>E4_AUTOMATED_COMBAT_SYSTEM_CONSTRUCTED</Prereq>
+        </Event>
+
+        <!-- Development of Advanced Anti-Fighter Defences -->
+        <Event Name="E4_ADV_AF_DEFENCE_CONSTRUCTED">
+                <Event_Type>STORY_CONSTRUCT</Event_Type>
+                <Event_Param1>E4_ADV_AF_DEFENCE</Event_Param1>
+                <Event_Param2>1</Event_Param2>
+        </Event>
+
+        <Event Name="E4_ADV_AF_DEFENCE_REMOVE">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>LOCK_UNIT</Reward_Type>
+                <Event_Param1>E4_ADV_AF_DEFENCE</Event_Param1>
+                <Prereq>E4_ADV_AF_DEFENCE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E4_ADV_AF_DEFENCE_DISABLE_EVENT">
+                <Event_Type>STORY_TRIGGER</Event_Type>
+                <Reward_Type>DISABLE_EVENT</Reward_Type>
+                <Reward_Param1>UNLOCK_E4_ADV_AF_DEFENCE_RESEARCH</Reward_Param1>
+                <Prereq>E4_ADV_AF_DEFENCE_CONSTRUCTED</Prereq>
+        </Event>
+
+        <Event Name="E4_ADV_AF_DEFENCE_DESTROY">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>DESTROY_OBJECT</Reward_Type>
+                 <Reward_Param1>E4_ADV_AF_DEFENCE</Reward_Param1>
+                 <Prereq>E4_ADV_AF_DEFENCE_CONSTRUCTED</Prereq>
         </Event>
 
         <!-- Development of New Raid Technology -->
