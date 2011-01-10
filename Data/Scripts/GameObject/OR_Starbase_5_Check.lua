@@ -90,7 +90,22 @@ function State_Init(message) --initialise
 			PELLAEON_LIST = Find_All_Objects_Of_Type("Chimaera_Star_Destroyer")
 			THRAWN_LIST = Find_All_Objects_Of_Type("Admonitor_Star_Destroyer")
 			EXECUTOR_LIST = Find_All_Objects_Of_Type("Executor_Super_Star_Destroyer")
-			
+			--Multiplayer
+			E_TIE_SCOUT_MP_LIST = Find_All_Objects_Of_Type("E_TIE_SCOUT_MP_SQUADRON")
+			E_TIE_DEFENDER_MP_LIST = Find_All_Objects_Of_Type("E_TIE_DEFENDER_MP_SQUADRON")
+			E_XG_STAR_WING_MP_LIST = Find_All_Objects_Of_Type("E_XG_STAR_WING_MP_SQUADRON")
+			E_TARTAN_CRUISER_MP = Find_All_Objects_Of_Type("E_TARTAN_CRUISER_MP")
+			E_IPV_PATROL_CRAFT_MP_LIST = Find_All_Objects_Of_Type("E_IPV_PATROL_CRAFT_MP")
+			E_BROADSIDE_MP_LIST = Find_All_Objects_Of_Type("E_BROADSIDE_MP")
+			E_ACCLAMATOR_ASSAULT_FRIGATE_I_MP_LIST = Find_All_Objects_Of_Type("E_ACCLAMATOR_ASSAULT_FRIGATE_I_MP")
+			E_ACCLAMATOR_ASSAULT_FRIGATE_II_MP_LIST = Find_All_Objects_Of_Type("E_ACCLAMATOR_ASSAULT_FRIGATE_II_MP")
+			E_INTERDICTOR_CRUISER_MP = Find_All_Objects_Of_Type("E_INTERDICTOR_CRUISER_MP")
+			E_DREADNAUGHT_MP_LIST = Find_All_Objects_Of_Type("E_DREADNAUGHT_MP")
+			E_DREADNAUGHT_REFIT_MP_LIST = Find_All_Objects_Of_Type("E_DREADNAUGHT_REFIT_MP")
+			E_VICTORY_I_MP_LIST = Find_All_Objects_Of_Type("E_VICTORY_I_MP")
+			E_VICTORY_II_MP_LIST = Find_All_Objects_Of_Type("E_VICTORY_II_MP")
+			E_ISDI_MP_LIST = Find_All_Objects_Of_Type("E_ISDI_MP")
+			E_ISDII_MP_LIST = Find_All_Objects_Of_Type("E_ISDII_MP")			
 			
 			Rebel = Find_Player("Rebel")
 			starbase_marker = Object.Get_Bone_Position("ROOT")
@@ -195,7 +210,35 @@ function State_Init(message) --initialise
 				Object.Despawn()	
 				ScriptExit()
 			end
+						
+			--Check for Empire Multiplayer Units
+			if table.getn(E_TIE_SCOUT_MP_LIST) > 0 or table.getn(E_TIE_DEFENDER_MP_LIST) > 0 or table.getn(E_XG_STAR_WING_MP_LIST) > 0 or table.getn(E_TARTAN_CRUISER_MP) > 0 then
+				starbase = { "RA_STARBASE_5" } 
+				SpawnList(starbase, starbase_marker, Rebel, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end
 			
+			if table.getn(E_IPV_PATROL_CRAFT_MP_LIST) > 0 or table.getn(E_BROADSIDE_MP_LIST) > 0 or table.getn(E_ACCLAMATOR_ASSAULT_FRIGATE_I_MP_LIST) > 0 or table.getn(E_ACCLAMATOR_ASSAULT_FRIGATE_II_MP_LIST) > 0 then				
+				starbase = { "RA_STARBASE_5" } 
+				SpawnList(starbase, starbase_marker, Rebel, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end
+			
+			if table.getn(E_INTERDICTOR_CRUISER_MP) > 0 or table.getn(E_DREADNAUGHT_MP_LIST) > 0 or table.getn(E_DREADNAUGHT_REFIT_MP_LIST) > 0 or table.getn(E_VICTORY_I_MP_LIST) > 0 then
+				starbase = { "RA_STARBASE_5" } 
+				SpawnList(starbase, starbase_marker, Rebel, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end
+			
+			if table.getn(E_VICTORY_II_MP_LIST) > 0 or table.getn(E_ISDI_MP_LIST) > 0 or table.getn(E_ISDII_MP_LIST) > 0 then				
+				starbase = { "RA_STARBASE_5" } 
+				SpawnList(starbase, starbase_marker, Rebel, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end			
 			
 		end
 end

@@ -85,7 +85,24 @@ function State_Init(message) --initialise
 			NR_MC80_HOMEONETYPE_LIST = Find_All_Objects_Of_Type("NR_MC80_HOMEONETYPE")
 			NR_NEBULA_CLASS_STAR_DESTROYER_LIST = Find_All_Objects_Of_Type("NR_NEBULA_CLASS_STAR_DESTROYER")
 			NR_MC90_LIST = Find_All_Objects_Of_Type("NR_MC90")
-			OBI_WAN_DESTROYER_LIST = Find_All_Objects_Of_Type("Obi_Wan_Destroyer")
+			OBI_WAN_DESTROYER_LIST = Find_All_Objects_Of_Type("Obi_Wan_Destroyer")		
+			--Multiplayer
+			RA_X_WING_MP_LIST = Find_All_Objects_Of_Type("RA_X-WING_MP_SQUADRON")
+			RA_Y_WING_MP_LIST = Find_All_Objects_Of_Type("RA_Y-WING_MP_SQUADRON")
+			RA_A_WING_MP_LIST = Find_All_Objects_Of_Type("RA_A-WING_MP_SQUADRON")
+			RA_B_WING_MP_LIST = Find_All_Objects_Of_Type("RA_B-WING_MP_SQUADRON")
+			RA_CORELLIAN_CORVETTE_MP_LIST = Find_All_Objects_Of_Type("RA_CORELLIAN_CORVETTE_MP")
+			RA_CORELLIAN_GUNBOAT_MP_LIST = Find_All_Objects_Of_Type("RA_CORELLIAN_GUNBOAT_MP")
+			RA_MARAUDER_MP_LIST = Find_All_Objects_Of_Type("RA_MARAUDER_MP")
+			RA_EF76_FRIGATE_MP_LIST = Find_All_Objects_Of_Type("RA_EF76_FRIGATE_MP")
+			RA_EF76_HOSPITAL_FRIGATE_MP_LIST = Find_All_Objects_Of_Type("RA_EF76_HOSPITAL_FRIGATE_MP")
+			RA_DREADNAUGHT_MP_LIST = Find_All_Objects_Of_Type("RA_DREADNAUGHT_MP")
+			RA_DREADNAUGHT_REFIT_MP_LIST = Find_All_Objects_Of_Type("RA_DREADNAUGHT_REFIT_MP")
+			RA_ASSAULT_FRIGATE_I_MP_LIST = Find_All_Objects_Of_Type("RA_ASSAULT_FRIGATE_I_MP")
+			RA_ASSAULT_FRIGATE_II_MP_LIST = Find_All_Objects_Of_Type("RA_ASSAULT_FRIGATE_II_MP")
+			RA_MC30_FRIGATE_MP_LIST = Find_All_Objects_Of_Type("RA_MC30_FRIGATE_MP")
+			RA_MC80_LIBERTYTYPE_MP_LIST = Find_All_Objects_Of_Type("RA_MC80_LIBERTYTYPE_MP")
+			RA_MC80_HOMEONETYPE_MP_LIST = Find_All_Objects_Of_Type("RA_MC80_HOMEONETYPE_MP")
 			
 			Empire = Find_Player("Empire")
 			starbase_marker = Object.Get_Bone_Position("ROOT")
@@ -200,6 +217,42 @@ function State_Init(message) --initialise
 			
 			if table.getn(OBI_WAN_DESTROYER_LIST) > 0 or table.getn(NR_NEBULA_CLASS_STAR_DESTROYER_LIST) > 0 or table.getn(NR_MC90_LIST) > 0 or table.getn(NR_QUASAR_FIRE_CRUISER_LIST) > 0 then
 				starbase = { "IR_STARBASE_4" } 
+				SpawnList(starbase, starbase_marker, Empire, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end	
+			
+			--Check for Multiplayer Rebel Units
+			if table.getn(RA_X_WING_MP_LIST) > 0 or table.getn(RA_Y_WING_MP_LIST) > 0 or table.getn(RA_A_WING_MP_LIST) > 0 or table.getn(RA_B_WING_MP_LIST) > 0 then
+				starbase = { "E_STARBASE_4" } 
+				SpawnList(starbase, starbase_marker, Empire, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end
+
+			if table.getn(RA_CORELLIAN_CORVETTE_MP_LIST) > 0 or table.getn(RA_CORELLIAN_GUNBOAT_MP_LIST) > 0 or table.getn(RA_MARAUDER_MP_LIST) > 0 or table.getn(RA_EF76_HOSPITAL_FRIGATE_MP_LIST) > 0 then
+				starbase = { "E_STARBASE_4" } 
+				SpawnList(starbase, starbase_marker, Empire, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end	
+
+			if table.getn(RA_EF76_FRIGATE_MP_LIST) > 0 then
+				starbase = { "E_STARBASE_4" } 
+				SpawnList(starbase, starbase_marker, Empire, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end				
+
+			if table.getn(RA_DREADNAUGHT_MP_LIST) > 0 or table.getn(RA_DREADNAUGHT_REFIT_MP_LIST) > 0 or table.getn(RA_ASSAULT_FRIGATE_I_MP_LIST) > 0 or table.getn(RA_ASSAULT_FRIGATE_II_MP_LIST) > 0 then
+				starbase = { "E_STARBASE_4" } 
+				SpawnList(starbase, starbase_marker, Empire, true, true)		
+				Object.Despawn()	
+				ScriptExit()
+			end		
+
+			if table.getn(RA_MC30_FRIGATE_MP_LIST) > 0 or table.getn(RA_MC80_LIBERTYTYPE_MP_LIST) > 0 or table.getn(RA_MC80_HOMEONETYPE_MP_LIST) > 0 then
+				starbase = { "E_STARBASE_4" } 
 				SpawnList(starbase, starbase_marker, Empire, true, true)		
 				Object.Despawn()	
 				ScriptExit()
