@@ -836,8 +836,8 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_HTL_00.ALO</Model_To_Attach>
-            <Attachment_Bone>HTL_ATTACH_00</Attachment_Bone>
-            <Collision_Mesh>HTL_ATTACH_00_COLL</Collision_Mesh>
+            <Attachment_Bone>Turret_00</Attachment_Bone>
+            <Collision_Mesh>Turret_00_COLL</Collision_Mesh>
             <Damage_Particles>HTL_00_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>HTL_00_FB00</Fire_Bone_A>
@@ -851,8 +851,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>HTL_TURRET_00</Turret_Bone_Name>
-            <Barrel_Bone_Name>HTL_BARREL_00</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_00</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front00</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
@@ -880,8 +880,8 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_HTL_01.ALO</Model_To_Attach>
-            <Attachment_Bone>HTL_ATTACH_01</Attachment_Bone>
-            <Collision_Mesh>HTL_ATTACH_01_COLL</Collision_Mesh>
+            <Attachment_Bone>Turret_01</Attachment_Bone>
+            <Collision_Mesh>Turret_01_COLL</Collision_Mesh>
             <Damage_Particles>HTL_01_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>HTL_01_FB00</Fire_Bone_A>
@@ -895,8 +895,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>HTL_TURRET_01</Turret_Bone_Name>
-            <Barrel_Bone_Name>HTL_BARREL_01</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_01</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front01</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
@@ -924,8 +924,8 @@
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_HTL_02.ALO</Model_To_Attach>
-            <Attachment_Bone>HTL_ATTACH_02</Attachment_Bone>
-            <Collision_Mesh>HTL_ATTACH_02_COLL</Collision_Mesh>
+            <Attachment_Bone>Turret_02</Attachment_Bone>
+            <Collision_Mesh>Turret_02_COLL</Collision_Mesh>
             <Damage_Particles>HTL_02_EMITDAMAGE</Damage_Particles>
 
             <Fire_Bone_A>HTL_02_FB00</Fire_Bone_A>
@@ -939,8 +939,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>HTL_TURRET_02</Turret_Bone_Name>
-            <Barrel_Bone_Name>HTL_BARREL_02</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_02</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front02</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Heavy</Fire_Projectile_Type>
@@ -960,6 +960,8 @@
                         <Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
 
+
+
    <HardPoint Name="HP_PERIMETER_LTL_01">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -968,7 +970,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_00.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_00</Attachment_Bone>
+            <Attachment_Bone>Turret_03</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_00_COLL</Collision_Mesh>
             <Damage_Particles>LTL_00_EMITDAMAGE</Damage_Particles>
 
@@ -983,8 +985,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_00</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_00</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_03</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front03</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1012,7 +1014,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_01.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_01</Attachment_Bone>
+            <Attachment_Bone>Turret_04</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_01_COLL</Collision_Mesh>
             <Damage_Particles>LTL_01_EMITDAMAGE</Damage_Particles>
 
@@ -1027,8 +1029,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_01</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_01</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_04</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front04</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1056,7 +1058,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_02.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_02</Attachment_Bone>
+            <Attachment_Bone>Turret_05</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_02_COLL</Collision_Mesh>
             <Damage_Particles>LTL_02_EMITDAMAGE</Damage_Particles>
 
@@ -1071,8 +1073,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_02</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_02</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_05</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front05</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1100,7 +1102,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_03.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_03</Attachment_Bone>
+            <Attachment_Bone>Turret_06</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_03_COLL</Collision_Mesh>
             <Damage_Particles>LTL_03_EMITDAMAGE</Damage_Particles>
 
@@ -1115,8 +1117,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_03</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_03</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_06</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front06</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1144,7 +1146,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_04.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_04</Attachment_Bone>
+            <Attachment_Bone>Turret_07</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_04_COLL</Collision_Mesh>
             <Damage_Particles>LTL_04_EMITDAMAGE</Damage_Particles>
 
@@ -1159,8 +1161,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_04</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_04</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_07</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front07</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1188,7 +1190,7 @@
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
 
             <Model_To_Attach>RVBm_PERIMETER_LTL_05.ALO</Model_To_Attach>
-            <Attachment_Bone>LTL_ATTACH_05</Attachment_Bone>
+            <Attachment_Bone>Turret_08</Attachment_Bone>
             <Collision_Mesh>LTL_ATTACH_05_COLL</Collision_Mesh>
             <Damage_Particles>LTL_05_EMITDAMAGE</Damage_Particles>
 
@@ -1203,8 +1205,8 @@
             <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>160.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>60.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>LTL_TURRET_05</Turret_Bone_Name>
-            <Barrel_Bone_Name>LTL_BARREL_05</Barrel_Bone_Name>
+            <Turret_Bone_Name>Turret_08</Turret_Bone_Name>
+            <Barrel_Bone_Name>b_barrel_front08</Barrel_Bone_Name>
 
 
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
@@ -1231,25 +1233,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_00.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_00</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_00_COLL</Collision_Mesh>
             <Damage_Particles>L_00_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_00_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_00_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_00_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_00_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_00</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_00</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -1275,25 +1266,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_01.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_01</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_01_COLL</Collision_Mesh>
             <Damage_Particles>L_01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_01_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_01_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_01_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_01</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_01</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -1319,25 +1299,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_02.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_02</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_02_COLL</Collision_Mesh>
             <Damage_Particles>L_02_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_02_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_02_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_02_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_02_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_02</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_02</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -1363,25 +1332,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_03.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_03</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_03_COLL</Collision_Mesh>
             <Damage_Particles>L_03_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_03_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_03_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_03_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_03_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_03</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_03</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -1407,25 +1365,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_04.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_04</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_04_COLL</Collision_Mesh>
             <Damage_Particles>L_04_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_04_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_04_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_04_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_04_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_04</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_04</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
@@ -1451,25 +1398,14 @@
             <Health>300.0</Health>
             <Tooltip_Text>TEXT_HARDPOINT_L</Tooltip_Text>
 
-            <Model_To_Attach>RVBm_PERIMETER_L_05.ALO</Model_To_Attach>
             <Attachment_Bone>L_ATTACH_05</Attachment_Bone>
             <Collision_Mesh>L_ATTACH_05_COLL</Collision_Mesh>
             <Damage_Particles>L_05_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>L_05_FB00</Fire_Bone_A>
-            <Fire_Bone_B>L_05_FB01</Fire_Bone_B>
+            <Fire_Bone_A>HP_L_05_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_L_05_FB01</Fire_Bone_B>
             <Fire_Cone_Width>20.0</Fire_Cone_Width>
             <Fire_Cone_Height>20.0</Fire_Cone_Height>
-
-            <Is_Turret>Yes</Is_Turret>
-            <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
-            <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
-            <Turret_Rotate_Extent_Degrees>200.0</Turret_Rotate_Extent_Degrees>
-            <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
-            <Turret_Bone_Name>L_TURRET_05</Turret_Bone_Name>
-            <Barrel_Bone_Name>L_BARREL_05</Barrel_Bone_Name>
-
 
             <Fire_Projectile_Type>Proj_Laser_E3_Red_Capital</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
