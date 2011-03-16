@@ -303,6 +303,62 @@
           </Event>
 
 
+         <Event Name="LOCK_Structure_43">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_44">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_45">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_46">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_47">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_48">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_49">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_50">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
          <Event Name="LOCK_BASE_S_1">
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
@@ -667,6 +723,13 @@
                  <Reward_Param1>C_HANGAR</Reward_Param1>
                  <Prereq>Universal_Story_Start && E2_ADVANCED_WEAPONS_SYSTEMS_CIS_CONSTRUCTED</Prereq>
 
+         </Event>
+
+         <Event Name="UNLOCK_PERIMETER_OUTPOST">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>C_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start && E2_SUPERIOR_SYSTEMS_CIS_CONSTRUCTED</Prereq>
          </Event>
 
          <!-- Researches -->
