@@ -302,6 +302,62 @@
                  <Prereq>Universal_Story_Start</Prereq>
           </Event>
 
+         <Event Name="LOCK_Structure_43">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>S_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_44">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>C_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_45">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_46">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>IR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_47">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>OR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_48">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>R_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_49">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>RA_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
+         <Event Name="LOCK_Structure_50">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>NR_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>Universal_Story_Start</Prereq>
+          </Event>
+
 
          <Event Name="LOCK_BASE_S_1">
                  <Event_Type>STORY_TRIGGER</Event_Type>
@@ -1415,6 +1471,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_PERIMETER_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <!-- Demolish Structures-->
          <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
@@ -1508,6 +1572,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_PERIMETER_DEMOLISH_SHIP">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_PERIMETER_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -1859,6 +1931,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="UNLOCK_PERIMETER_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB && E3_SUPERIOR_SYSTEMS_EMPIRE_CONSTRUCTED</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <!-- Demolish Structures-->
          <Event Name="UNLOCK_SENSOR_RELAY_DEMOLISH_STRUCTURE">
                  <Event_Type>STORY_TRIGGER</Event_Type>
@@ -1952,6 +2032,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>BUILDABLE_UNIT</Reward_Type>
                  <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="UNLOCK_PERIMETER_DEMOLISH_STRUCTURE">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>BUILDABLE_UNIT</Reward_Type>
+                 <Reward_Param1>E_PERIMETER_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
@@ -2759,6 +2847,14 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
+         <Event Name="LOCK_PERIMETER_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_GALACTIC_PERIMETER_OUTPOST</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
          <!-- Demolish Structures-->
          <Event Name="LOCK_SENSOR_RELAY_DEMOLISH_RESEARCH">
                  <Event_Type>STORY_TRIGGER</Event_Type>
@@ -2852,6 +2948,14 @@
                  <Event_Type>STORY_TRIGGER</Event_Type>
                  <Reward_Type>LOCK_UNIT</Reward_Type>
                  <Reward_Param1>E_HANGAR_DEMOLISH</Reward_Param1>
+                 <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+                <Perpetual>True</Perpetual>
+         </Event>
+
+         <Event Name="LOCK_PERIMETER_DEMOLISH_RESEARCH">
+                 <Event_Type>STORY_TRIGGER</Event_Type>
+                 <Reward_Type>LOCK_UNIT</Reward_Type>
+                 <Reward_Param1>E_PERIMETER_DEMOLISH</Reward_Param1>
                  <Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
                 <Perpetual>True</Perpetual>
          </Event>
