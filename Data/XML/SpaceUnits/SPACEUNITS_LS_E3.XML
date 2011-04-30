@@ -3458,7 +3458,7 @@
                 <Text_ID>TEXT_UNIT_MC80_HOMEONE</Text_ID>
                 <Encyclopedia_Good_Against> E_ACCLAMATOR_ASSAULT_FRIGATE_II E_VICTORY_II E_ISDI </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TIE_BOMBER E_TIE_DEFENDER </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text> TEXT_TOOLTIP_MC80_HOMEONE TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_MC80_HOMEONE TEXT_TOOLTIP_REQUIREMENTS_E3</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
                 <Icon_Name>I_BUTTON_HOME_ONE.TGA</Icon_Name>
 
@@ -3498,9 +3498,9 @@
                 <Tech_Level>3</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>4</Required_Star_Base_Level>
-                <Required_Special_Structures/>
-                <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+                <Required_Star_Base_Level>5</Required_Star_Base_Level>
+                <Required_Special_Structures>RA_Berth</Required_Special_Structures>
+                <Required_Planets>Yaga_Minor_E3, Fondor_E3, Kuat_E3, MonCalimari_E3, Sullust_E3</Required_Planets>
                 <Autoresolve_Health>28520</Autoresolve_Health>
                 <Tactical_Health>16200</Tactical_Health>
                 <Shield_Points>8624</Shield_Points>
@@ -3665,7 +3665,7 @@
                 <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> MC80_HomeOne_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <GUI_Activated_Ability_Name> RA_Homeonetype_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -3675,21 +3675,20 @@
                 </Unit_Abilities_Data>
 
                                 <Abilities SubObjectList="Yes">
-              <Tractor_Beam_Attack_Ability Name="MC80_HomeOne_Tractor_Beam_Attack_Ability">
-                    <Activation_Style> User_Input </Activation_Style>
-                    <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
-                                <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-                    <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                                        <Tractor_Beam_Attack_Ability Name="RA_Homeonetype_Tractor_Beam_Attack_Ability">
+                                                <Activation_Style> User_Input </Activation_Style>
+                                                <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+                                                <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
+                                                                        <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
+                                                <Activation_Min_Range>10</Activation_Min_Range>
+                                                <Activation_Max_Range>1800</Activation_Max_Range>
 
 
-                    <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
-                    <Stacking_Category>0</Stacking_Category>
-              </Tractor_Beam_Attack_Ability>
-
-           </Abilities>
+                                                <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+                                                <Target_Speed_Decrease_Percent>0.9</Target_Speed_Decrease_Percent>
+                                                 <Stacking_Category>0</Stacking_Category>
+                                         </Tractor_Beam_Attack_Ability>
+                                 </Abilities>
 
                 <Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
@@ -3727,7 +3726,7 @@
                 <Text_ID>TEXT_UNIT_MC80_LIBERTY</Text_ID>
                 <Encyclopedia_Good_Against> E_BROADSIDE E_ACCLAMATOR_ASSAULT_FRIGATE_II E_VICTORY_II </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TIE_BOMBER E_TIE_DEFENDER E_ISDII </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Text> TEXT_TOOLTIP_MC80_LIBERTY TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_MC80_LIBERTY TEXT_TOOLTIP_REQUIREMENTS_E3</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER </Encyclopedia_Unit_Class>
                 <Icon_Name>i_button_mon_calimari_cruiser.tga</Icon_Name>
 
@@ -3768,8 +3767,8 @@
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>4</Required_Star_Base_Level>
-                <Required_Special_Structures/>
-                <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+                <Required_Special_Structures>RA_Berth</Required_Special_Structures>
+                <Required_Planets>Yaga_Minor_E3, Fondor_E3, Kuat_E3, MonCalimari_E3, Sullust_E3</Required_Planets>
                 <Autoresolve_Health>12650</Autoresolve_Health>
                 <Tactical_Health>6650</Tactical_Health>
                 <Shield_Points>4200</Shield_Points>
@@ -3932,17 +3931,17 @@
                 </Unit_Abilities_Data>
 
                                 <Abilities SubObjectList="Yes">
-                                        <Tractor_Beam_Attack_Ability Name="MC80_Liberty_Tractor_Beam_Attack_Ability">
+                                        <Tractor_Beam_Attack_Ability Name="RA_Libertytype_Tractor_Beam_Attack_Ability">
                                                 <Activation_Style> User_Input </Activation_Style>
                                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                                                <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                                <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                                                         <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                                                 <Activation_Min_Range>10</Activation_Min_Range>
-                                                <Activation_Max_Range>1400</Activation_Max_Range>
+                                                <Activation_Max_Range>1700</Activation_Max_Range>
 
 
                                                 <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                                                <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                                                <Target_Speed_Decrease_Percent>0.9</Target_Speed_Decrease_Percent>
                                                 <Stacking_Category>0</Stacking_Category>
                                         </Tractor_Beam_Attack_Ability>
 

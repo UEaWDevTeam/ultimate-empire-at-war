@@ -1,4 +1,4 @@
-<?xml version=1.0?>
+<?xml version="1.0"?>
 <Data>
 <!-- SITH (E1 DS) MULTIPLAYER UNITS -->
         <Squadron Name="S_SITH_FIGHTER_SQUADRON_MP">
@@ -286,6 +286,14 @@
         <SpaceUnit Name="IR_ISDII_MP">
                 <GUI_Row> 1 </GUI_Row>
                 <Variant_of_Existing_Type>IR_ISDII</Variant_of_Existing_Type>
+                <Affiliation>Imperial_Remnant</Affiliation>
+                <Tech_Level>5</Tech_Level>
+                <Build_Initially_Locked>No</Build_Initially_Locked>
+        </SpaceUnit>
+
+        <SpaceUnit Name="IR_ECLIPSE_MP">
+                <GUI_Row> 1 </GUI_Row>
+                <Variant_of_Existing_Type>IR_ECLIPSE</Variant_of_Existing_Type>
                 <Affiliation>Imperial_Remnant</Affiliation>
                 <Tech_Level>5</Tech_Level>
                 <Build_Initially_Locked>No</Build_Initially_Locked>
@@ -656,6 +664,23 @@
         <SpaceUnit Name="NR_MC90_MP">
                 <GUI_Row> 1 </GUI_Row>
                 <Variant_of_Existing_Type>NR_MC90</Variant_of_Existing_Type>
+                <Affiliation>New_Republic</Affiliation>
+                <Tech_Level>5</Tech_Level>
+                <Build_Initially_Locked>No</Build_Initially_Locked>
+        </SpaceUnit>
+        <!--SSD's-->
+
+        <SpaceUnit Name="DS_SSD_MP">
+                <GUI_Row> 1 </GUI_Row>
+                <Variant_of_Existing_Type>DS_SSD</Variant_of_Existing_Type>
+                <Affiliation>Imperial_Remnant</Affiliation>
+                <Tech_Level>5</Tech_Level>
+                <Build_Initially_Locked>No</Build_Initially_Locked>
+        </SpaceUnit>
+
+        <SpaceUnit Name="LS_SSD_MP">
+                <GUI_Row> 1 </GUI_Row>
+                <Variant_of_Existing_Type>LS_SSD</Variant_of_Existing_Type>
                 <Affiliation>New_Republic</Affiliation>
                 <Tech_Level>5</Tech_Level>
                 <Build_Initially_Locked>No</Build_Initially_Locked>

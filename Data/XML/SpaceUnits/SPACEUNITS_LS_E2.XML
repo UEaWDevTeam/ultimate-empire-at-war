@@ -2126,6 +2126,7 @@
         <SpaceUnit Name="R_DREADNAUGHT">
 
                 <Variant_Of_Existing_Type>RA_DREADNAUGHT</Variant_Of_Existing_Type>
+                <Space_Model_Name>VCCr_Dreadnaught_Generic.alo</Space_Model_Name>
                 <Affiliation>Republic, Rebel</Affiliation>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
@@ -2339,7 +2340,7 @@
                         <Unit_Ability>
                                 <Type>TRACTOR_BEAM</Type>
                                 <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                                <GUI_Activated_Ability_Name> VSD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                                <GUI_Activated_Ability_Name> R_Victory_I_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                                 <Recharge_Seconds>25</Recharge_Seconds>
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -2349,13 +2350,13 @@
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Tractor_Beam_Attack_Ability Name="VSD_Tractor_Beam_Attack_Ability">
+                        <Tractor_Beam_Attack_Ability Name="R_Victory_I_Tractor_Beam_Attack_Ability">
                                 <Activation_Style> User_Input </Activation_Style>
                                 <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                                <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                                <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                                 <Activation_Min_Range>10</Activation_Min_Range>
-                                <Activation_Max_Range>1200</Activation_Max_Range>
+                                <Activation_Max_Range>1600</Activation_Max_Range>
 
 
                                 <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -2451,8 +2452,9 @@
                 <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures />
+                <Required_Star_Base_Level>5</Required_Star_Base_Level>
+                <Required_Special_Structures>R_Berth</Required_Special_Structures>
+                <Required_Planets>Fondor_E2, Kuat_E2, MonCalimari_E2, Sullust_E2</Required_Planets>
 
                 <Autoresolve_Health>23600</Autoresolve_Health>
                 <Shield_Points>6720</Shield_Points>
@@ -2497,7 +2499,7 @@
                          HP_VENATOR_CLASS_HL_02,
                          HP_VENATOR_CLASS_HL_03,
                          HP_VENATOR_CLASS_HL_04,
-                                                 HP_VENATOR_CLASS_HTL_02,
+                         HP_VENATOR_CLASS_HTL_02,
                          HP_VENATOR_CLASS_HTL_01,
                          HP_VENATOR_CLASS_HTL_03,
                          HP_VENATOR_CLASS_HTL_04,
@@ -2517,8 +2519,8 @@
                          HP_VENATOR_CLASS_HANGAR_02,
                          HP_VENATOR_CLASS_SHIELD_01,
                          HP_VENATOR_CLASS_SHIELD_02,
-                                                 HP_VENATOR_CLASS_MTL_03,
-                                                 HP_VENATOR_CLASS_MTL_04
+                         HP_VENATOR_CLASS_MTL_03,
+                         HP_VENATOR_CLASS_MTL_04
                 </HardPoints>
 
                 <SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
@@ -2618,20 +2620,20 @@
               <Tractor_Beam_Attack_Ability Name="Venator_Tractor_Beam_Attack_Ability">
                     <Activation_Style>User_Input</Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                     <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Max_Range>2000</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
 
            </Abilities>
 
-                <Encyclopedia_Text> TEXT_TOOLTIP_VENATOR TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_VENATOR TEXT_TOOLTIP_CAPITAL_REQUIREMENTS_E1_E2</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CARRIER </Encyclopedia_Unit_Class>
                 <Score_Cost_Credits> 45000</Score_Cost_Credits>
 

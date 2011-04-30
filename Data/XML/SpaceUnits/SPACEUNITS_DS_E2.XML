@@ -2036,7 +2036,7 @@
                 <Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
-                <Layer_Z_Adjust>-600.0</Layer_Z_Adjust>
+                <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>8</Bank_Turn_Angle>
                 <OverrideAcceleration> .013 </OverrideAcceleration>
@@ -2527,7 +2527,7 @@
 
         <SpaceUnit Name="C_LUCREHULK">
                 <Text_ID>TEXT_UNIT_LUCREHULK</Text_ID>
-                <Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK TEXT_TOOLTIP_CAPITAL_REQUIREMENTS_E2_C</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLESHIP </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -2571,8 +2571,8 @@
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
-                <Required_Special_Structures />
-                <Required_Planets />
+                <Required_Special_Structures>C_BERTH</Required_Special_Structures>
+                <Required_Planets>MonCalimari_E2, Kuat_E2, Fondor_E2, Sullust_E2, Geonosis_E2</Required_Planets>
                 <Ship_Class>frigate</Ship_Class>
                 <Formation_Priority>8</Formation_Priority>
                 <Is_Escort>yes</Is_Escort>
@@ -2719,7 +2719,7 @@
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <GUI_Activated_Ability_Name> C_Lucrehulk_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -2728,17 +2728,17 @@
            </Unit_Abilities_Data>
 
            <Abilities SubObjectList="Yes">
-              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+              <Tractor_Beam_Attack_Ability Name="C_Lucrehulk_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                     <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Max_Range>2000</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
               <Population_Value>12</Population_Value>
@@ -2778,7 +2778,7 @@
 
         <SpaceUnit Name="C_LUCREHULK_CARRIER">
                 <Text_ID>TEXT_UNIT_LUCREHULK_CONTROL_SHIP</Text_ID>
-                <Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK_CONTROL_SHIP</Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_LUCREHULK_CONTROL_SHIP TEXT_TOOLTIP_CAPITAL_REQUIREMENTS_E2_C</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLECARRIER </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -2822,8 +2822,8 @@
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>3</Required_Star_Base_Level>
-                <Required_Special_Structures />
-                <Required_Planets />
+                <Required_Special_Structures>C_BERTH</Required_Special_Structures>
+                <Required_Planets>MonCalimari_E2, Kuat_E2, Fondor_E2, Sullust_E2, Geonosis_E2</Required_Planets>
                 <Ship_Class>frigate</Ship_Class>
                 <Formation_Priority>8</Formation_Priority>
                 <Is_Escort>yes</Is_Escort>
@@ -2950,7 +2950,7 @@
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <GUI_Activated_Ability_Name> C_Lucrehulk_Carrier_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -2959,17 +2959,17 @@
            </Unit_Abilities_Data>
 
            <Abilities SubObjectList="Yes">
-              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+              <Tractor_Beam_Attack_Ability Name="C_Lucrehulk_Carrier_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                     <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Max_Range>2100</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
 

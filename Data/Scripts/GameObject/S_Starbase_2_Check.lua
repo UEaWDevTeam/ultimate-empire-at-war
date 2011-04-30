@@ -38,6 +38,7 @@ function State_Init(message) --initialise
 			R_ACCLAMATOR_ASSAULT_FRIGATE_I_LIST = Find_All_Objects_Of_Type("R_ACCLAMATOR_ASSAULT_FRIGATE_I")
 			R_ACCLAMATOR_ASSAULT_FRIGATE_II_LIST = Find_All_Objects_Of_Type("R_ACCLAMATOR_ASSAULT_FRIGATE_II")
 			R_DREADNAUGHT_LIST = Find_All_Objects_Of_Type("R_DREADNAUGHT")
+			R_VICTORY_LIST = Find_All_Objects_Of_Type("R_VICTORY_I")
 			R_VENATOR_LIST = Find_All_Objects_Of_Type("R_VENATOR")
 			ARRESTOR_LIST = Find_All_Objects_Of_Type("Arrestor")
 			INTEGRITY_LIST = Find_All_Objects_Of_Type("Integrity")
@@ -129,7 +130,7 @@ function State_Init(message) --initialise
 				ScriptExit()
 			end		
 
-			if table.getn(R_VENATOR_LIST) > 0 or table.getn(ARRESTOR_LIST) > 0 or table.getn(INTEGRITY_LIST) > 0 then
+			if table.getn(R_VENATOR_LIST) > 0 or table.getn(ARRESTOR_LIST) > 0 or table.getn(INTEGRITY_LIST) > 0 or table.getn(R_VICTORY_LIST) > 0 then
 				starbase = { "C_STARBASE_2" } 
 				SpawnList(starbase, starbase_marker, Empire, true, true)		
 				Object.Despawn()	

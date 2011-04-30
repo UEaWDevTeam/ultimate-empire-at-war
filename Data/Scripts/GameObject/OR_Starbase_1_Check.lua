@@ -40,6 +40,7 @@ function State_Init(message) --initialise
 			C_VULTURE_DROID_IAI_LIST = Find_All_Objects_Of_Type("C_VULTURE_DROID_IAI_SQUADRON")
 			C_DROID_BOMBER_IAI_LIST = Find_All_Objects_Of_Type("C_DROID_BOMBER_IAI_SQUADRON")
 			C_TRI_FIGHTER_LIST = Find_All_Objects_Of_Type("C_TRI_FIGHTER_SQUADRON")
+			C_HYENA_LIST = Fidn_All_Objects_Of
 			C_MISSILE_FRIGATE_LIST = Find_All_Objects_Of_Type("C_MISSILE_FRIGATE")
 			C_RECUSANT_LIST = Find_All_Objects_Of_Type("C_RECUSANT")
 			C_MUNIFICENT_LIST = Find_All_Objects_Of_Type("C_MUNIFICENT")

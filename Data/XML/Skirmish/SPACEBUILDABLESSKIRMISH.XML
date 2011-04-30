@@ -665,41 +665,89 @@
                 <Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
                 <Influences_Capture_Point> False </Influences_Capture_Point>
                 <Victory_Relevant>No</Victory_Relevant>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Empire,
+                                E_UPGRADE_SATELLITES_L_1,
+                                E_UPGRADE_SATELLITES_L_2,
+                                E_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="RA_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>Rebel</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Rebel,
+                                RA_UPGRADE_SATELLITES_L_1,
+                                RA_UPGRADE_SATELLITES_L_2,
+                                RA_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="C_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>CIS</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        CIS,
+                                C_UPGRADE_SATELLITES_L_1,
+                                C_UPGRADE_SATELLITES_L_2,
+                                C_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="R_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Republic,
+                                R_UPGRADE_SATELLITES_L_1,
+                                R_UPGRADE_SATELLITES_L_2,
+                                R_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="IR_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>Imperial_Remnant</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Imperial_Remnant,
+                                IR_UPGRADE_SATELLITES_L_1,
+                                IR_UPGRADE_SATELLITES_L_2,
+                                IR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="NR_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>New_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        New_Republic,
+                                NR_UPGRADE_SATELLITES_L_1,
+                                NR_UPGRADE_SATELLITES_L_2,
+                                NR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="OR_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>Old_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Old_Republic,
+                                OR_UPGRADE_SATELLITES_L_1,
+                                OR_UPGRADE_SATELLITES_L_2,
+                                OR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="S_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
                 <Affiliation>Sith</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Sith,
+                                S_UPGRADE_SATELLITES_L_1,
+                                S_UPGRADE_SATELLITES_L_2,
+                                S_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
 
@@ -788,42 +836,90 @@
                                 <Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
                         </Force_Healing_Ability>
                 </Abilities>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Rebel,
+                                RA_UPGRADE_SATELLITES_L_1,
+                                RA_UPGRADE_SATELLITES_L_2,
+                                RA_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
 
         </SpaceBuildable>
 
         <SpaceBuildable Name="E_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>Empire</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Empire,
+                                E_UPGRADE_SATELLITES_L_1,
+                                E_UPGRADE_SATELLITES_L_2,
+                                E_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="IR_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>Imperial_Remnant</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Imperial_Remnant,
+                                IR_UPGRADE_SATELLITES_L_1,
+                                IR_UPGRADE_SATELLITES_L_2,
+                                IR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="NR_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>New_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        New_Republic,
+                                NR_UPGRADE_SATELLITES_L_1,
+                                NR_UPGRADE_SATELLITES_L_2,
+                                NR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="C_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>CIS</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        CIS,
+                                C_UPGRADE_SATELLITES_L_1,
+                                C_UPGRADE_SATELLITES_L_2,
+                                C_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="R_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Republic,
+                                R_UPGRADE_SATELLITES_L_1,
+                                R_UPGRADE_SATELLITES_L_2,
+                                R_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="OR_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>Old_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Old_Republic,
+                                OR_UPGRADE_SATELLITES_L_1,
+                                OR_UPGRADE_SATELLITES_L_2,
+                                OR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="S_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
                 <Affiliation>Sith</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Sith,
+                                S_UPGRADE_SATELLITES_L_1,
+                                S_UPGRADE_SATELLITES_L_2,
+                                S_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="E_DEFSAT_M">
@@ -909,41 +1005,89 @@
                 <Initial_State_Visible_Under_FOW>False</Initial_State_Visible_Under_FOW>
                 <Influences_Capture_Point> False </Influences_Capture_Point>
                 <Victory_Relevant>No</Victory_Relevant>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Empire,
+                                E_UPGRADE_SATELLITES_L_1,
+                                E_UPGRADE_SATELLITES_L_2,
+                                E_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="RA_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>Rebel</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Rebel,
+                                RA_UPGRADE_SATELLITES_L_1,
+                                RA_UPGRADE_SATELLITES_L_2,
+                                RA_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="NR_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>New_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        New_Republic,
+                                NR_UPGRADE_SATELLITES_L_1,
+                                NR_UPGRADE_SATELLITES_L_2,
+                                NR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="IR_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>Imperial_Remnant</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Imperial_Remnant,
+                                IR_UPGRADE_SATELLITES_L_1,
+                                IR_UPGRADE_SATELLITES_L_2,
+                                IR_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="C_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>CIS</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        CIS,
+                                C_UPGRADE_SATELLITES_L_1,
+                                C_UPGRADE_SATELLITES_L_2,
+                                C_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="R_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Republic,
+                                R_UPGRADE_SATELLITES_L_1,
+                                R_UPGRADE_SATELLITES_L_2,
+                                R_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="OR_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>Old_Republic</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Old_Republic,
+                                E_UPGRADE_SATELLITES_L_1,
+                                E_UPGRADE_SATELLITES_L_2,
+                                E_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="S_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
                 <Affiliation>Sith</Affiliation>
+                <Tactical_Buildable_Objects_Multiplayer>
+                        Sith,
+                                S_UPGRADE_SATELLITES_L_1,
+                                S_UPGRADE_SATELLITES_L_2,
+                                S_UPGRADE_SATELLITES_L_3
+                </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
 <!--**************** Orbital Construction Pod ************************-->
@@ -1319,9 +1463,9 @@
                 <Score_Cost_Credits> 5000 </Score_Cost_Credits>
                 <Tactical_Buildable_Objects_Multiplayer>
                         Empire,
-                                ES_Increased_Supplies_L1_Upgrade,
-                                ES_Increased_Supplies_L2_Upgrade,
-                                ES_Increased_Supplies_L3_Upgrade,
+                                E_Increased_Supplies_L1_Upgrade,
+                                E_Increased_Supplies_L2_Upgrade,
+                                E_Increased_Supplies_L3_Upgrade,
                 </Tactical_Buildable_Objects_Multiplayer>
 
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1350,9 +1494,9 @@
 
                 <Tactical_Buildable_Objects_Multiplayer>
                         Rebel,
-                                RS_Increased_Supplies_L1_Upgrade,
-                                RS_Increased_Supplies_L2_Upgrade,
-                                RS_Increased_Supplies_L3_Upgrade,
+                                RA_Increased_Supplies_L1_Upgrade,
+                                RA_Increased_Supplies_L2_Upgrade,
+                                RA_Increased_Supplies_L3_Upgrade,
                 </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 

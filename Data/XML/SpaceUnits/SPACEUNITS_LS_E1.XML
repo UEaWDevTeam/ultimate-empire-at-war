@@ -1844,7 +1844,7 @@
         </SpaceUnit>
 
 
-                <SpaceUnit Name="OR_INEXPUGNABLE">
+        <SpaceUnit Name="OR_INEXPUGNABLE">
                 <Text_ID>TEXT_UNIT_INEXPUGNABLE</Text_ID>
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
@@ -1887,9 +1887,8 @@
                 <Tech_Level>1</Tech_Level>
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-                <Required_Star_Base_Level>1</Required_Star_Base_Level>
-                <Required_Special_Structures />
-
+                <Required_Star_Base_Level>5</Required_Star_Base_Level>
+                <Required_Planets>Fondor_E1</Required_Planets>
 
                 <Autoresolve_Health>15000</Autoresolve_Health>
                                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2036,7 +2035,7 @@
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.1f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <GUI_Activated_Ability_Name> OR_Inexpugnable_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -2045,32 +2044,25 @@
            </Unit_Abilities_Data>
 
            <Abilities SubObjectList="Yes">
-              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+              <Tractor_Beam_Attack_Ability Name="OR_Inexpugnable_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                     <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Max_Range>2500</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
-
-                            <Planet_Income_Bonus_Ability Name="Generic_Cargo_Bonus">
-                                <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
-                                <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
-                                <Absolute_Income_Modifier>-10</Absolute_Income_Modifier>
-                                <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
-                            </Planet_Income_Bonus_Ability>
 
 
            </Abilities>
 
 
-                <Encyclopedia_Text> TEXT_TOOLTIP_INEXPUGNABLE </Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_INEXPUGNABLE TEXT_TOOLTIP_REQUIREMENTS_FONDOR </Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
                 <Score_Cost_Credits> 45000</Score_Cost_Credits>
 
@@ -2155,8 +2147,8 @@
                 <Required_Timeline>0</Required_Timeline>
                 <Required_Ground_Base_Level>0</Required_Ground_Base_Level>
                 <Required_Star_Base_Level>4</Required_Star_Base_Level>
-                <Required_Special_Structures />
-                <Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore</Required_Planets>
+                <Required_Special_Structures>OR_Berth</Required_Special_Structures>
+                <Required_Planets>Fondor_E1, Kuat_E1, MonCalimari_E1, Sullust_E1</Required_Planets>
 
                 <Autoresolve_Health>15000</Autoresolve_Health>
                                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
@@ -2299,7 +2291,7 @@
               <Unit_Ability>
                     <Type>TRACTOR_BEAM</Type>
                     <Mod_Multiplier>SPEED_MULTIPLIER, 0.1f</Mod_Multiplier>
-                    <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+                    <GUI_Activated_Ability_Name> OR_Centurion_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                     <Recharge_Seconds>20</Recharge_Seconds>
                     <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
@@ -2308,24 +2300,24 @@
            </Unit_Abilities_Data>
 
            <Abilities SubObjectList="Yes">
-              <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+              <Tractor_Beam_Attack_Ability Name="OR_Centurion_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-                    <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+                    <Applicable_Unit_Types>Millennium_Falcon, Ebon_Hawk, Slave_I</Applicable_Unit_Types>
                                 <Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
                     <Activation_Min_Range>10</Activation_Min_Range>
-                    <Activation_Max_Range>1500</Activation_Max_Range>
+                    <Activation_Max_Range>1900</Activation_Max_Range>
 
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.9</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
               </Tractor_Beam_Attack_Ability>
 
            </Abilities>
 
 
-                <Encyclopedia_Text> TEXT_TOOLTIP_CENTURION </Encyclopedia_Text>
+                <Encyclopedia_Text> TEXT_TOOLTIP_CENTURION TEXT_TOOLTIP_CAPITAL_REQUIREMENTS_E1_E2</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BATTLECRUISER </Encyclopedia_Unit_Class>
                 <Score_Cost_Credits> 45000</Score_Cost_Credits>
 
