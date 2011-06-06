@@ -107,7 +107,8 @@
 
 <!-- FORAY CLASS BLOCKADE RUNNER HARDPOINT DATA -->
 
-    <HardPoint Name="HP_FORAY_CLASS_MTL_01">
+<!-- These turrets are NOT functioning correctly presently -->
+    <HardPoint Name="HP_FORAY_CLASS_LTL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -124,13 +125,13 @@
             <Is_Turret>Yes</Is_Turret>
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 45.0, 0.0</Turret_Rotation_Offset>
-            <Turret_Rotate_Speed>5.0</Turret_Rotate_Speed>
+            <Turret_Rotate_Speed>8.0</Turret_Rotate_Speed>
             <Turret_Rotate_Extent_Degrees>360.0</Turret_Rotate_Extent_Degrees>
             <Turret_Elevate_Extent_Degrees>90.0</Turret_Elevate_Extent_Degrees>
             <Turret_Bone_Name>TURRET_L</Turret_Bone_Name>
             <Barrel_Bone_Name>TURRET_L_BARREL</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Medium</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -138,9 +139,9 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 7.5 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 12.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
@@ -149,7 +150,7 @@
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-    <HardPoint Name="HP_FORAY_CLASS_MTL_02">
+    <HardPoint Name="HP_FORAY_CLASS_LTL_02">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -172,7 +173,7 @@
             <Turret_Bone_Name>TURRET_R</Turret_Bone_Name>
             <Barrel_Bone_Name>TURRET_R_BARREL</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Medium</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E1_Green_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -180,9 +181,9 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Bomber, 40.0 </Fire_Inaccuracy_Distance>
-            <Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 7.5 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 12.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
@@ -191,7 +192,8 @@
                          <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
-        <HardPoint Name="HP_FORAY_CLASS_HL_01">
+   
+    <HardPoint Name="HP_FORAY_CLASS_HL_01">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>No</Is_Targetable>
             <Is_Destroyable>No</Is_Destroyable>
@@ -200,16 +202,16 @@
             <Fire_Bone_B>HP06</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -228,16 +230,16 @@
             <Fire_Bone_B>HP08</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -257,16 +259,16 @@
             <Fire_Bone_B>HP10</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>0.5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>0.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Pulse_Delay_Seconds>0.10</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -279,10 +281,12 @@
 
    <!-- PRAETORIAN CLASS FRIGATE HARDPOINT DATA -->
 
-   <!--Primary Hardpoints-->
-
-    <HardPoint Name="HP_PRAETORIAN_CLASS_LTL_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+	<!--Primary Hardpoints-->
+	
+	<!-- I redesignated these as secondary for display purposes on the smaller ships. They still operate as normal LTCC 03/06/2011 -->
+	
+	    <HardPoint Name="HP_PRAETORIAN_CLASS_LTL_01">
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
@@ -319,10 +323,10 @@
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-                         <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+                         <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
@@ -331,7 +335,7 @@
    </HardPoint>
 
     <HardPoint Name="HP_PRAETORIAN_CLASS_LTL_02">
-                        <Type> HARD_POINT_WEAPON_LASER </Type>
+                        <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
                         <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
@@ -366,10 +370,10 @@
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-                         <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+                         <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 12.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
@@ -377,6 +381,7 @@
                          <Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
    </HardPoint>
 
+   
    <!-- Secondary Weapons -->
 
     <HardPoint Name="HP_PRAETORIAN_CLASS_L_01">
@@ -397,10 +402,10 @@
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
@@ -433,10 +438,10 @@
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
@@ -469,10 +474,10 @@
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
@@ -505,10 +510,10 @@
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>2</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>1.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
@@ -559,7 +564,7 @@
         <!--- Primary Weapons -->
 
         <HardPoint Name="HP_THRANTA_CLASS_MTL_01">
-                       <Type> HARD_POINT_WEAPON_LASER </Type>
+                       <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -596,7 +601,7 @@
     </HardPoint>
 
         <HardPoint Name="HP_THRANTA_CLASS_MTL_02">
-                       <Type> HARD_POINT_WEAPON_LASER </Type>
+                       <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
@@ -777,7 +782,7 @@
             <Fire_Bone_B>HP_L_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -814,7 +819,7 @@
             <Fire_Bone_B>HP_L_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -851,7 +856,7 @@
             <Fire_Bone_B>HP_L_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -905,7 +910,7 @@
         <!-- HAMMERHEAD CLASS CRUISER HARDPOINT DATA -->
 
     <HardPoint Name="HP_HAMMERHEAD_CLASS_MTL_01">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -952,7 +957,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_HAMMERHEAD_CLASS_MTL_02">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -999,7 +1004,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_HAMMERHEAD_CLASS_MTL_03">
-            <Type> HARD_POINT_WEAPON_LASER </Type>
+            <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
@@ -1093,7 +1098,7 @@
             <Fire_Bone_B>L_L_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1130,7 +1135,7 @@
             <Fire_Bone_B>R_L_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1167,7 +1172,7 @@
             <Fire_Bone_B>L_HL_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1203,7 +1208,7 @@
             <Fire_Bone_B>R_HL_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -1444,7 +1449,7 @@
             <Turret_Bone_Name>TURRET_01</Turret_Bone_Name>
             <Barrel_Bone_Name>BARRELS_01</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1489,7 +1494,7 @@
             <Turret_Bone_Name>TURRET_02</Turret_Bone_Name>
             <Barrel_Bone_Name>BARRELS_02</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1534,7 +1539,7 @@
             <Turret_Bone_Name>TURRET_03</Turret_Bone_Name>
             <Barrel_Bone_Name>BARRELS_03</Barrel_Bone_Name>
 
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1569,7 +1574,7 @@
             <Fire_Bone_B>HP_HL_04_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1604,7 +1609,7 @@
             <Fire_Bone_B>HP_L_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>360</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1639,7 +1644,7 @@
             <Fire_Bone_B>HP_L_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>360</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -1964,7 +1969,7 @@
             <Fire_Bone_B>L_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>130</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Red_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2002,7 +2007,7 @@
             <Fire_Bone_B>L_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>130</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Red_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2040,7 +2045,7 @@
             <Fire_Bone_B>L_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>130</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Red_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2078,7 +2083,7 @@
             <Fire_Bone_B>L_04_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>130</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Red_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Red_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>5</Fire_Pulse_Count>
@@ -2751,7 +2756,7 @@
             <Fire_Bone_B>HP_L_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2788,7 +2793,7 @@
             <Fire_Bone_B>HP_L_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2825,7 +2830,7 @@
             <Fire_Bone_B>HP_L_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -2862,7 +2867,7 @@
             <Fire_Bone_B>HP_L_04_FB02</Fire_Bone_B>
             <Fire_Cone_Width>90.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
@@ -3146,7 +3151,7 @@
             <Fire_Bone_B>L_L_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3183,7 +3188,7 @@
             <Fire_Bone_B>R_L_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Standard</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3220,7 +3225,7 @@
             <Fire_Bone_B>L_HL_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3256,7 +3261,7 @@
             <Fire_Bone_B>R_HL_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180</Fire_Cone_Width>
             <Fire_Cone_Height>135</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3472,7 +3477,7 @@
             <Fire_Bone_B>HP_HL_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3652,7 +3657,7 @@
             <Fire_Bone_D>FP02_LC_03</Fire_Bone_D>-->
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E1_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E1_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -3917,7 +3922,7 @@
             <Fire_Bone_B>HP_HL_03_FB02</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Laser_E3_Green_Capital_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Laser_E3_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>

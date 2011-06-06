@@ -16,7 +16,7 @@
                 <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
                 <LOD_Bias>300</LOD_Bias>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
@@ -240,7 +240,7 @@
                 <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
                 <LOD_Bias>600</LOD_Bias>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
@@ -462,7 +462,7 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_DROID_TRIFIGHTER.TGA</Icon_Name>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_TRIFIGHTER.ALO</Space_Model_Name>
                 <Scale_Factor>0.5</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
@@ -673,7 +673,7 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
                 <Scale_Factor>0.17</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
@@ -892,7 +892,7 @@
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
                 <Scale_Factor>0.17</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
@@ -1116,7 +1116,7 @@
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
                 <Max_Speed>3.8</Max_Speed>
@@ -1328,7 +1328,7 @@
                 <Encyclopedia_Unit_Class> UNIT_CLASS_GUNSHIP </Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To> </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Icon_Name> I_BUTTON_MISSILE_FRIGATE.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
                 <!-- Unit model details -->
                 <Space_Model_Name> VCCo_MISSILE_FRIGATE.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
@@ -1540,6 +1540,7 @@
                 <Affiliation>CIS</Affiliation> <!-- Same as Unit's -->
                 <Ship_Class>Corvette</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
 
@@ -1551,11 +1552,12 @@
                 <Encyclopedia_Unit_Class> UNIT_CLASS_CRUISER</Encyclopedia_Unit_Class> <!-- One entry Only -->
                 <Encyclopedia_Good_Against> </Encyclopedia_Good_Against> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
                 <Encyclopedia_Vulnerable_To></Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Icon_Name>I_BUTTON_MUNIFICENT.TGA</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
                 <!-- Unit model details -->
-                <Space_Model_Name>VCFr_MUNIFICENT.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
-                <Scale_Factor> 0.521 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
+                <Space_Model_Name>VCFr_MUNIFICENT.ALO </Space_Model_Name>
+				<!-- Munificent pre-beta was 0.521 -->
+                <Scale_Factor> 0.48 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.9995</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1705,7 +1707,7 @@
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
                 <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
-                <No_Colorization_Color> 21, 21, 95, 255  </No_Colorization_Color>
+                <No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
 
                 <!-- Abilities -->
                 <Unit_Abilities_Data SubObjectList="Yes">
@@ -1775,7 +1777,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
 
@@ -1963,22 +1965,6 @@
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                         <Laser_Defense_Ability Name="Recusant_Laser_Defense">
-                         <Activation_Style> User_Input </Activation_Style>
-                         <Defense_Duration_In_Secs> 35.0 </Defense_Duration_In_Secs>
-                         <Laser_Color>34, 34, 235, 255</Laser_Color>
-                         <Bone_Names>HP_L_03_FB02</Bone_Names>
-                         <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-                         <Protection_Radius>500.0</Protection_Radius>
-                         <Laser_Beam_Frames>2</Laser_Beam_Frames>
-                         <Laser_Beam_Width>4</Laser_Beam_Width>
-                         <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
-                         <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
-                         <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-                         <Recharge_Time_In_Secs>.50</Recharge_Time_In_Secs>
-                         <Must_Be_Bought_On_Black_Market>No</Must_Be_Bought_On_Black_Market>
-                         <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
-                         </Laser_Defense_Ability>
 
                          <Planet_Income_Bonus_Ability Name="Maintenance">
                          <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
@@ -2014,7 +2000,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
         <SpaceUnit Name="C_RECUSANT">
@@ -2217,22 +2203,6 @@
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
-                        <Laser_Defense_Ability Name="Crusader_Laser_Defense">
-                                <Activation_Style> User_Input </Activation_Style>
-                                <Defense_Duration_In_Secs> 35.0 </Defense_Duration_In_Secs>
-                                <Laser_Color>34, 34, 235, 255</Laser_Color>
-                                <Bone_Names>HP_L_01_FB01, HP_L_02_FB01, HP_L_02_FB01, HP_L_02_FB02</Bone_Names>
-                                <Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-                                <Protection_Radius>1500.0</Protection_Radius>
-                                <Laser_Beam_Frames>6</Laser_Beam_Frames>
-                                <Laser_Beam_Width>4</Laser_Beam_Width>
-                                <Projectile_Dist_Travelled>100</Projectile_Dist_Travelled>
-                                <Lightning_Effect_Name>Force_Lightning</Lightning_Effect_Name>
-                                <Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-                                <Recharge_Time_In_Secs>.50</Recharge_Time_In_Secs>
-                                <Must_Be_Bought_On_Black_Market>Yes</Must_Be_Bought_On_Black_Market>
-                                <Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
-                        </Laser_Defense_Ability>
 
                         <Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
@@ -2522,7 +2492,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
-
+				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
         <SpaceUnit Name="C_LUCREHULK">
@@ -2772,7 +2742,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
-
+<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
 
@@ -2788,7 +2758,7 @@
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
                 <Scale_Factor>1.00</Scale_Factor>
-
+				
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
                 <Max_Speed>0.9</Max_Speed>
@@ -3002,7 +2972,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
-
+<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
         </SpaceUnit>
 
 

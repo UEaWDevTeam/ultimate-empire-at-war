@@ -307,7 +307,17 @@
 	<!-- PROJECTILE IMPACT EFFECTS -->
 		
 		<!-- CONCUSSION MISSILES -->
-		
+	
+	<Particle Name="PEx_Explosion_Cluster_Rocket">
+		<Land_Model_Name>P_Explosion_Cluster.ALO</Land_Model_Name>
+		<Space_Model_Name>P_Explosion_Cluster.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Is_Decoration>Yes</Is_Decoration>
+		<Behavior>PARTICLE</Behavior>
+		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+	</Particle>
+	
 	<Particle Name="PEx_Explosion_Concussion">
 		<Land_Model_Name>P_Explosion_Concussion.ALO</Land_Model_Name>
 		<Space_Model_Name>P_Explosion_Concussion.ALO</Space_Model_Name>
