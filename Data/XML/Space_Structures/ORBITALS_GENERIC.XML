@@ -3929,4 +3929,141 @@
                 <SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
                 <SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
         </SpecialStructure>
+<!--Position MArkers for different Z-layers-->
+<SpaceUnit Name="Dummy_Position_Marker">
+        <Space_Model_Name>w_flag_marker_blue.alo</Space_Model_Name>
+        <Behavior>DUMMY_STARSHIP</Behavior>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+        <Tactical_Health>1.0</Tactical_Health>
+        <Is_Valid_Target>False</Is_Valid_Target>
+        <Is_Dummy>True</Is_Dummy>
+</SpaceUnit>
+<SpaceUnit Name="Position_Marker_1">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-400.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_2">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-350.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_3">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-300.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_4">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-250.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_5">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_6">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_7">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_8">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-50.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_9">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>0.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_10">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-30.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_11">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-80.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_12">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-120.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_13">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-170.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_14">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-190.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_15">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>-240.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
+
+<SpaceUnit Name="Position_Marker_16">
+         <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
+        <Space_Layer>Capital</Space_Layer>
+        <Layer_Z_Adjust>50.0</Layer_Z_Adjust>
+        <SpaceBehavior>SIMPLE_SPACE_LOCOMOTOR</SpaceBehavior>
+        <Max_Speed>10000.0</Max_Speed>
+</SpaceUnit>
 </Data>
