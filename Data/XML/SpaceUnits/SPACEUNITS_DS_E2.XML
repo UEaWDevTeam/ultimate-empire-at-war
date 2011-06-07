@@ -239,13 +239,13 @@
                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
                 <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
-                <LOD_Bias>600</LOD_Bias>
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
+                <LOD_Bias>300</LOD_Bias>
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -468,6 +468,7 @@
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
+                <LOD_Bias>300</LOD_Bias>
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -486,7 +487,7 @@
                 <Affiliation>CIS, Empire</Affiliation>
 
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>57</Tactical_Health>
+                <Tactical_Health>50</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1573,8 +1574,8 @@
 
                 <Tactical_Health> 4160 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total ||-->
                 <Autoresolve_Health> 7260 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 3100 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 17.85 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 2000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 25.00 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 6000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 1000 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Cruiser </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -1611,7 +1612,7 @@
                 <Max_Rate_Of_Roll> 0.36 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .02 </OverrideAcceleration> <!-- Unsure -->
-                <OverrideDeceleration> .02 </OverrideDeceleration> <!-- Unsure -->
+                <OverrideDeceleration> .01 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
                 <Idle_Chase_Range>0</Idle_Chase_Range> <!-- Eh? -->
                 <Attack_Move_Response_Range> 400.0 </Attack_Move_Response_Range> <!-- If a unit is closer than this during an Attack Move, it will attack it || Was 400.0-->
@@ -1708,31 +1709,46 @@
                 <Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
                 <No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
-
+				<Hyperspace_Fleet_Reveal_Range>75.0</Hyperspace_Fleet_Reveal_Range>
                 <!-- Abilities -->
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <Unit_Ability>
                                 <Type>POWER_TO_WEAPONS</Type>
                                 <Expiration_Seconds>20</Expiration_Seconds>
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.5f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        -2f</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        0.75f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        0.25f</Mod_Multiplier>
                                 <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.5f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                0.75f</Mod_Multiplier>
                                 <Recharge_Seconds>60</Recharge_Seconds>
 
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
                         </Unit_Ability>
+						
+						<Unit_Ability>
+							<Type>SENSOR_JAMMING</Type>
+							<GUI_Activated_Ability_Name> Munificent_Hyperwave_Jamming </GUI_Activated_Ability_Name> 
+							<Recharge_Seconds>0</Recharge_Seconds>
+                            <Expiration_Seconds>0</Expiration_Seconds>
+							<Effective_Radius>800.0</Effective_Radius> 
+							<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
+							<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
+						</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
                 <Abilities SubObjectList="Yes">
 
-                        <Planet_Income_Bonus_Ability Name="Maintenance">
+            <Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
                 <Percentage_Income_Modifier>0</Percentage_Income_Modifier>
                 <Absolute_Income_Modifier>-3</Absolute_Income_Modifier>
                 <Additional_Multiplier_On_Mining_Colonies>0.0</Additional_Multiplier_On_Mining_Colonies>
             </Planet_Income_Bonus_Ability>
+
+			<Sensor_Jamming_Ability Name="Munificent_Hyperwave_Jamming">
+				<Activation_Style> User_Input </Activation_Style>
+                <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+			</Sensor_Jamming_Ability>
 
                 </Abilities>
 
@@ -1741,7 +1757,7 @@
                 <Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
                 <Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 
-                <Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>4000.0</Space_FOW_Reveal_Range>
                 <!-- Multiplayer/Skirmish-->
                 <Tactical_Build_Cost_Multiplayer>2250</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
