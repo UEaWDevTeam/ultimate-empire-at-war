@@ -1574,7 +1574,7 @@
 
                 <Tactical_Health> 4160 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total ||-->
                 <Autoresolve_Health> 7260 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 2000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Points> 2300 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 25.00 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 6000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 1000 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
@@ -1730,13 +1730,13 @@
 							<Recharge_Seconds>0</Recharge_Seconds>
                             <Expiration_Seconds>0</Expiration_Seconds>
 							<Effective_Radius>800.0</Effective_Radius> 
-							<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 				
+							<SFXEvent_GUI_Unit_Ability_Activated> Unit_Jam_Sensors_On_Skipray </SFXEvent_GUI_Unit_Ability_Activated> 			
 							<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Jam_Sensors_Off_Skipray </SFXEvent_GUI_Unit_Ability_Deactivated> 
 						</Unit_Ability>
 
                 </Unit_Abilities_Data>
 
-                <Abilities SubObjectList="Yes">
+           <Abilities SubObjectList="Yes">
 
             <Planet_Income_Bonus_Ability Name="Maintenance">
                 <Specific_Mod_Source_Text>TEXT_ECONOMICS_MAINTENANCE</Specific_Mod_Source_Text>
@@ -1748,8 +1748,10 @@
 			<Sensor_Jamming_Ability Name="Munificent_Hyperwave_Jamming">
 				<Activation_Style> User_Input </Activation_Style>
                 <Owner_Particle_Effect>Sensor_Jamming_Effect_Skipray</Owner_Particle_Effect>
+
 			</Sensor_Jamming_Ability>
 
+			
                 </Abilities>
 
                 <!-- Radar and FOW Stats -->
@@ -1769,7 +1771,7 @@
                 <Population_Value>3</Population_Value>
                 <!-- Selection Stats -->
                 <Ranking_In_Category>6</Ranking_In_Category>
-                <Select_Box_Scale>330</Select_Box_Scale>
+                <Select_Box_Scale>550</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
@@ -1808,7 +1810,9 @@
                 <Select_Box_Scale>500</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>1.02</Scale_Factor>
+				
+				<!-- Was 1.02 pre-beta -->
+                <Scale_Factor>1.18</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2030,7 +2034,8 @@
                 <Select_Box_Scale>500</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>1.02</Scale_Factor>
+				<!-- Was 1.02 pre-beta -->
+                <Scale_Factor>1.18</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2052,9 +2057,9 @@
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Autoresolve_Health>14520</Autoresolve_Health>
-                <Shield_Points>7920</Shield_Points>
+                <Shield_Points>5000</Shield_Points>
                 <Tactical_Health>6600</Tactical_Health>
-                <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>30</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
@@ -2295,9 +2300,9 @@
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Autoresolve_Health>12936</Autoresolve_Health>
-                <Shield_Points>7056</Shield_Points>
+                <Shield_Points>7500</Shield_Points>
                 <Tactical_Health>5880</Tactical_Health>  <!-- was 2600 -->
-                <Shield_Refresh_Rate>18</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>30</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 

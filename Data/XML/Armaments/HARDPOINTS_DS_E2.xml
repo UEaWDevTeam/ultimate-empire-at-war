@@ -17,7 +17,7 @@
                 <Fire_Cone_Width>160.0</Fire_Cone_Width>
                 <Fire_Cone_Height>30.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Blaster_E2_Red</Fire_Projectile_Type>
-                <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+                <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
                 <Fire_Pulse_Count>10</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -42,7 +42,7 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Blaster_E2_Red</Fire_Projectile_Type>
-                <Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+                <Projectile_Fire_Recharge_Seconds>3.0</Projectile_Fire_Recharge_Seconds>
                 <Fire_Pulse_Count>10</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>500.0</Fire_Range_Distance>
@@ -596,7 +596,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -633,7 +633,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -671,7 +671,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -709,7 +709,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -749,7 +749,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -787,7 +787,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -825,7 +825,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -863,7 +863,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -901,8 +901,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_FLAK_AS</Tooltip_Text>
-            <Health>260.0</Health>
-                        <Targeting_Fire_Inaccuracy_Fixed_Radius> 120 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+            <Health>350.0</Health>
+            <!--            <Targeting_Fire_Inaccuracy_Fixed_Radius> 120 </Targeting_Fire_Inaccuracy_Fixed_Radius> -->
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -915,16 +915,16 @@
             <Fire_Bone_A>HP_FLAK_01_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_FLAK_01_FB02</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Flak_AS_E2</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>1.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1300.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
-
+			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
                         <Fire_Inaccuracy_Distance> Fighter, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -940,11 +940,11 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_FLAK_AS</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
-<Targeting_Fire_Inaccuracy_Fixed_Radius> 120 </Targeting_Fire_Inaccuracy_Fixed_Radius>
+<!-- <Targeting_Fire_Inaccuracy_Fixed_Radius> 120 </Targeting_Fire_Inaccuracy_Fixed_Radius> -->
             <Attachment_Bone>HP_FLAK_02</Attachment_Bone>
             <Collision_Mesh>HP_FLAK_02_COLL</Collision_Mesh>
             <Damage_Particles>HP_FLAK_02_EMITDAMAGE</Damage_Particles>
@@ -953,16 +953,16 @@
             <Fire_Bone_A>HP_FLAK_02_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_FLAK_02_FB02</Fire_Bone_B>
             <Fire_Cone_Width>175.0</Fire_Cone_Width>
-            <Fire_Cone_Height>90.0</Fire_Cone_Height>
+            <Fire_Cone_Height>140.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Flak_AS_E2</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>1.8</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1300.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
-
+<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
                         <Fire_Inaccuracy_Distance> Fighter, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 12.0 </Fire_Inaccuracy_Distance>
@@ -988,7 +988,7 @@
 
             <Fire_Bone_A>HP_HI_FB01</Fire_Bone_A>
             <Fire_Bone_B>HP_HI_FB02</Fire_Bone_B>
-            <Fire_Cone_Width>1500.0</Fire_Cone_Width>
+            <Fire_Cone_Width>130.0</Fire_Cone_Width>
             <Fire_Cone_Height>90.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Ion_Cannon_E2_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.5</Fire_Min_Recharge_Seconds>
@@ -1029,7 +1029,7 @@
             <Fire_Bone_A>HTL_FB01</Fire_Bone_A>
             <Fire_Bone_B>HTL_FB02</Fire_Bone_B>
             <Fire_Cone_Width>60.0</Fire_Cone_Width>
-            <Fire_Cone_Height>120.0</Fire_Cone_Height>
+            <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Is_Turret>Yes</Is_Turret>
             <Turret_Rest_Angle>0.0, 0.0, 0.0</Turret_Rest_Angle>
             <Turret_Rotation_Offset>0.0, 0.0, 0.0</Turret_Rotation_Offset>
@@ -1044,7 +1044,7 @@
             <Fire_Max_Recharge_Seconds>4.5</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>3000.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
             <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
@@ -1054,7 +1054,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
+			
+			<Fire_Category_Restrictions>Fighter, Bomber</Fire_Category_Restrictions>
                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -1066,7 +1067,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>420.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -1082,7 +1083,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>420.0</Health>
 
                                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1101,7 +1102,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1138,7 +1139,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1175,7 +1176,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1212,7 +1213,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1249,7 +1250,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1286,7 +1287,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1325,7 +1326,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1362,7 +1363,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>350.0</Health>
+
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1399,7 +1401,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>350.0</Health>
+
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1437,7 +1440,8 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_FLAK_AS</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>350.0</Health>
+
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1453,19 +1457,21 @@
             <Fire_Projectile_Type>Proj_Flak_AS_E2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1300.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+				<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -1490,20 +1496,22 @@
             <Fire_Projectile_Type>Proj_Flak_AS_E2</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>1.5</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>1.5</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1300.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-
+						
+						
+					<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
     </HardPoint>
 
         <HardPoint Name="HP_RECUSANT_CARRIER_L_01">
@@ -1586,7 +1594,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>400.0</Health>
 
                                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1604,7 +1612,7 @@
                 <Attachment_Bone>HP_SPAWN00</Attachment_Bone>
                 <Collision_Mesh>HP_SPAWN00_COLL</Collision_Mesh>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                <Health>280.0</Health>
+                <Health>400.0</Health>
                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
         </HardPoint>
@@ -1616,7 +1624,7 @@
                 <Attachment_Bone>HP_SPAWN01</Attachment_Bone>
                 <Collision_Mesh>HP_SPAWN01_COLL</Collision_Mesh>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                <Health>280.0</Health>
+                <Health>400.0</Health>
                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
         </HardPoint>
@@ -1628,7 +1636,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1665,7 +1673,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1703,7 +1711,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1740,7 +1748,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1777,7 +1785,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1814,7 +1822,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>450.0</Health>
+            <Health>600.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1853,7 +1861,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTL</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1900,7 +1908,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1937,7 +1945,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1974,7 +1982,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2011,7 +2019,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2049,7 +2057,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2086,7 +2094,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2123,7 +2131,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2160,7 +2168,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2197,7 +2205,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2235,7 +2243,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2272,7 +2280,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2309,7 +2317,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>350.0</Health>
 
             <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
             <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2346,7 +2354,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>500.0</Health>
 
                                 <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>

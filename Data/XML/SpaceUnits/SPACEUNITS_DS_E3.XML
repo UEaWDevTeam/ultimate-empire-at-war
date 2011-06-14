@@ -60,7 +60,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
                 <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
-                <Space_FOW_Reveal_Range>1500.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
                 <Dense_FOW_Reveal_Range_Multiplier>0.75</Dense_FOW_Reveal_Range_Multiplier>
                 <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
                 <Death_Explosions>PEx_Explosion_Smaller_B_Empire</Death_Explosions>
@@ -3051,8 +3051,8 @@
 
                 </Unit_Abilities_Data>
 
-                                <Abilities SubObjectList="Yes">
-                                        <Tractor_Beam_Attack_Ability Name="Victory_I_Tractor_Beam_Attack_Ability">
+                    <Abilities SubObjectList="Yes">
+                    <Tractor_Beam_Attack_Ability Name="Victory_I_Tractor_Beam_Attack_Ability">
                     <Activation_Style> User_Input </Activation_Style>
                     <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
                     <Applicable_Unit_Types>Millennium_Falcon, Slave_I, Ebon_Hawk</Applicable_Unit_Types>
@@ -3061,7 +3061,7 @@
                     <Activation_Max_Range>1500</Activation_Max_Range>
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
                                         </Tractor_Beam_Attack_Ability>
 
@@ -3303,7 +3303,7 @@
                     <Activation_Max_Range>1600</Activation_Max_Range>
 
                     <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-                    <Target_Speed_Decrease_Percent>0.8</Target_Speed_Decrease_Percent>
+                    <Target_Speed_Decrease_Percent>0.95</Target_Speed_Decrease_Percent>
                     <Stacking_Category>0</Stacking_Category>
                                         </Tractor_Beam_Attack_Ability>
 

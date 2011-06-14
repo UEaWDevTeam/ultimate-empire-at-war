@@ -218,14 +218,15 @@
 
         <!-- Galactic Mode camera settings -->
 
-        <Max_Galactic_Zoom_Distance>66</Max_Galactic_Zoom_Distance>
+        <Max_Galactic_Zoom_Distance>100</Max_Galactic_Zoom_Distance>
         <Min_Galactic_Zoom_Speed>400</Min_Galactic_Zoom_Speed>
         <Max_Galactic_Zoom_Speed>3000</Max_Galactic_Zoom_Speed>
         <Galactic_Zoom_Acceleration>3000</Galactic_Zoom_Acceleration>
         <Galactic_Zoom_Light_Level>0.5</Galactic_Zoom_Light_Level>
         <Galactic_Zoom_In_Light_Angle>0 235 18</Galactic_Zoom_In_Light_Angle>
         <Galactic_Zoom_Out_Light_Angle>0 160 58</Galactic_Zoom_Out_Light_Angle>
-        <Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset>
+		<Galactic_Zoom_In_Station_Offset>0.0 0.0 0.0</Galactic_Zoom_In_Station_Offset>
+        <!-- <Galactic_Zoom_In_Station_Offset>-2.51 -9.11 14.93</Galactic_Zoom_In_Station_Offset> -->
         <Galactic_Zoom_In_Station_Rotation>0.04</Galactic_Zoom_In_Station_Rotation>
 
         <Starting_Galactic_Camera_Position>0.0, 0.0, 0.0</Starting_Galactic_Camera_Position>
@@ -1760,7 +1761,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
 
         <!-- Ion cannons, strangely enough, fire highly polarised masses of particles, or, in the heaviest examples, polarised plasma. Whilst the effects of these polarised shots on the hulls and armour of vessels is negligible, the purpose of these charged shots is not to physically damage the hulls of vessels; rather the massive polarisation has major effect on shields and electrical systems; though most vessels are polar-armoured against complete loss of function, ion cannons are especially effective against shielding, disrupting the energy barrier and its projectors, and can, in some circumstances, disable systems temporarily on enemy vessels.
 
-        Ion cannons come in a variety of grades, with the lightest mounted on starfighters as an additional armament in both sorties on enemy capital ships, but also as an aid to overcoming the shields of enemy starfighters. Capital ships mount a variety from light to super-heavy, with varying roles targeting different sized foes to bring down their shields and potentially immobilise them; these turreted variants are often the size of turbolasers (and sometimes bigger) and can have a devastating effect on enemy vessels' shields. They are usually combined with turbolasers in a vessel's armament to help bring down the shields of an enemy vessel at which point the turbolasers can fire directly on enemy systems and the hull. Though the replacement of potential turbolaser batteries with ion cannons nominally reduces the offensive firepower that can potentially be brought to bear on an enemy, this is considered a more-than-fair exchange for the extra capability against shielded enemies, who make up the majority of foes faces. -->
+        Ion cannons come in a variety of grades, with the lightest mounted on starfighters as an additional armament in both sorties on enemy capital ships, but also as an aid to overcoming the shields of enemy starfighters. Capital ships mount a variety from light to super-heavy, with varying roles targeting different sized foes to bring down their shields and potentially immobilise them; these turreted variants are often the size of turbolasers (and sometimes bigger) and can have a devastating effect on enemy vessels' shields. They are usually combined with turbolasers in a vessel's armament to help bring down the shields of an enemy vessel at which point the turbolasers can fire directly on enemy systems and the hull. Though the replacement of potential turbolaser batteries with ion cannons nominally reduces the offensive firepower that can potentially be brought to bear on an enemy, this is considered a more-than-fair exchange for the extra capability against shielded enemies, who make up the majority of foes faced. -->
 
         <!-- ERA 1 BASIC ION STARTS -->
 
@@ -3266,19 +3267,19 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Skirmish_Reinforcement_Delay_Frames>90</Skirmish_Reinforcement_Delay_Frames>
         <Distribute_Credit_Quantum>1000</Distribute_Credit_Quantum>
 
-        <Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower>  <!--Mild effect-->
+       <!-- <Diminishing_Firepower>0, 0.6, 0.3, 0.7, 0.9, 0.9, 1, 1, 2, 1</Diminishing_Firepower> -->  <!--Mild effect-->
 
-        <!-- <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
+        <Diminishing_Firepower>0, 1, 1, 1</Diminishing_Firepower>--> <!-- Turned Off by CR-->
 
         <Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
         <Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
     <Force_Ability_Disable_Time>0.0</Force_Ability_Disable_Time>
-        <Depleted_Shield_Disable_Time>5.0</Depleted_Shield_Disable_Time>
+        <Depleted_Shield_Disable_Time>1.0</Depleted_Shield_Disable_Time>
         <Depleted_Shield_Damage_Increment>0.0</Depleted_Shield_Damage_Increment>
-        <Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap>
+       <!-- <Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap> -->
 
         <!-- when ships go into nebula, they are tinted/faded using the following settings -->
-        <Nebula_Effect_Color>255, 255, 255, 64</Nebula_Effect_Color>
+        <Nebula_Effect_Color>255, 255, 255, 255</Nebula_Effect_Color>
 
         <Base_Shield_Speed_Modifier>0.5f</Base_Shield_Speed_Modifier>
         <Base_Shield_Vulnerability_Modifier>2.0f</Base_Shield_Vulnerability_Modifier>
@@ -3361,7 +3362,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Tractor_Beam_Width>10.0</Tractor_Beam_Width>
         <Tractor_Beam_Frames>10</Tractor_Beam_Frames>
         <Tractor_Beam_Texture>tractor_beam00.tga</Tractor_Beam_Texture>
-        <Tractor_Beam_Color>0, 75, 0</Tractor_Beam_Color>
+        <Tractor_Beam_Color>87, 110, 211</Tractor_Beam_Color>
 
         <Energy_Beam_Width>30.0</Energy_Beam_Width>
         <Energy_Beam_Frames>10</Energy_Beam_Frames>

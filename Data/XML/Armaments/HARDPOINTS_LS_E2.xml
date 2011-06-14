@@ -42,8 +42,8 @@
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Cluster_Conc_Rocket_Basic_E2</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>8.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
@@ -52,7 +52,7 @@
                         <Fire_Inaccuracy_Distance> Fighter, 12.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Bomber, 11.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Corvette, 70.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
@@ -109,6 +109,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+				<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
         </HardPoint>
 
          <HardPoint Name="HP_ARC-170_SOPT">
@@ -138,6 +140,32 @@
                 <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+				
+				<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
+    </HardPoint>
+	
+	     <HardPoint Name="HP_ARC-170_APPT">
+                <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+                <Is_Targetable>No</Is_Targetable>
+                <Is_Destroyable>No</Is_Destroyable>
+
+                <Fire_Bone_A>MUZZLEC_00</Fire_Bone_A>
+                <Fire_Bone_B>MUZZLEC_00</Fire_Bone_B>
+                <Fire_Cone_Width>130.0</Fire_Cone_Width>
+                <Fire_Cone_Height>40.0</Fire_Cone_Height>
+                <Fire_Projectile_Type>Proj_AP_Proton_Torp_E2</Fire_Projectile_Type>
+                <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
+                <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
+                <Fire_Pulse_Count>6</Fire_Pulse_Count>
+                <Fire_Pulse_Delay_Seconds>4.0</Fire_Pulse_Delay_Seconds>
+                <Fire_Range_Distance>600.0</Fire_Range_Distance>
+                <Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+
+                <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+                <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+
+				<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
+				
     </HardPoint>
 
 <!-- V-WING HARD POINT DATA -->
@@ -204,7 +232,7 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E2_Green_Heavy</Fire_Projectile_Type>
-                <Projectile_Fire_Recharge_Seconds>1.75</Projectile_Fire_Recharge_Seconds>
+                <Projectile_Fire_Recharge_Seconds>2.5</Projectile_Fire_Recharge_Seconds>
                 <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>650.0</Fire_Range_Distance>
@@ -242,6 +270,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+				<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+            <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
         </HardPoint>
 
     <HardPoint Name="HP_NTB-630_APHPT">
@@ -6503,6 +6533,8 @@
                     <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
                     <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+				
+				<Fire_Category_Restrictions>Fighter, Bomber, Transport</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_R_STARBASE_1_HL">
@@ -6545,7 +6577,7 @@
 
     </HardPoint>
 
-    <HardPoint Name="HP_R_STARBASE_1_HTL">
+    <HardPoint Name="HP_R_STARBASE_1_MTL">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
@@ -6566,19 +6598,19 @@
             <Fire_Bone_B>FP01_LC_01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_Turbolaser_E2_Green_Heavy</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_Turbolaser_E2_Green_Medium</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>12</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Transport, 60.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 24.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Transport, 23.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Corvette, 17.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
@@ -6790,9 +6822,9 @@
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E2_Green_Heavy</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>2.5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
@@ -7267,7 +7299,7 @@
             <Fire_Projectile_Type>Proj_Turbolaser_E2_Green_Heavy</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
+            <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
