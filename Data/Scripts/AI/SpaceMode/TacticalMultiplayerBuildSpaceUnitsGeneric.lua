@@ -83,13 +83,13 @@ function ReserveForce_Thread()
 	-- Give some time to accumulate money.
 	tech_level = PlayerObject.Get_Tech_Level()
 	min_credits = 2000
-	max_sleep_seconds = 30
+	max_sleep_seconds = 20
 	if tech_level == 2 then
 		min_credits = 4000
-		max_sleep_seconds = 50
+		max_sleep_seconds = 25
 	elseif tech_level >= 3 then
 		min_credits = 6000
-		max_sleep_seconds = 80
+		max_sleep_seconds = 40
 	end
 	
 	current_sleep_seconds = 0
