@@ -51,9 +51,14 @@ function Definitions()
 	TaskForce = {
 	{
 		"ReserveForce"
+		,"OR_Starbase_Upgrade_Level_2 | OR_Starbase_Upgrade_Level_3 | OR_Starbase_Upgrade_Level_4 | OR_Starbase_Upgrade_Level_5 = 0,1"
+		,"S_Starbase_Upgrade_Level_2 | S_Starbase_Upgrade_Level_3 | S_Starbase_Upgrade_Level_4 | S_Starbase_Upgrade_Level_5 = 0,1"
+		,"R_Starbase_Upgrade_Level_2 | R_Starbase_Upgrade_Level_3 | R_Starbase_Upgrade_Level_4 | R_Starbase_Upgrade_Level_5 = 0,1"
+		,"C_Starbase_Upgrade_Level_2 | C_Starbase_Upgrade_Level_3 | C_Starbase_Upgrade_Level_4 | C_Starbase_Upgrade_Level_5 = 0,1"
 		,"RS_Level_Two_Starbase_Upgrade | RS_Level_Three_Starbase_Upgrade | RS_Level_Four_Starbase_Upgrade | RS_Level_Five_Starbase_Upgrade = 0,1"
 		,"ES_Level_Two_Starbase_Upgrade | ES_Level_Three_Starbase_Upgrade | ES_Level_Four_Starbase_Upgrade | ES_Level_Five_Starbase_Upgrade = 0,1"
-		,"US_Level_Two_Starbase_Upgrade | US_Level_Three_Starbase_Upgrade | US_Level_Four_Starbase_Upgrade | US_Level_Five_Starbase_Upgrade = 0,1"
+		,"NR_Starbase_Upgrade_Level_2 | NR_Starbase_Upgrade_Level_3 | NR_Starbase_Upgrade_Level_4 | NR_Starbase_Upgrade_Level_5 = 0,1"
+		,"IR_Starbase_Upgrade_Level_2 | IR_Starbase_Upgrade_Level_3 | IR_Starbase_Upgrade_Level_4 | IR_Starbase_Upgrade_Level_5 = 0,1"
 	}
 	}
 	RequiredCategories = {"Upgrade"}

@@ -49,7 +49,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor | UC_Underworld_Mineral_Extractor = 1"
+		,"UC_Empire_Mineral_Extractor | UC_Rebel_Mineral_Extractor | UC_S_Mineral_Extractor | UC_OR_Mineral_Extractor | UC_R_Mineral_Extractor | UC_C_Mineral_Extractor | UC_NR_Mineral_Extractor | UC_IR_Mineral_Extractor = 1"
 	}
 	}
 --	RequiredCategories = {"Structure"}
@@ -72,23 +72,63 @@ function MainForce_Thread()
 	end
 	
 	if good_pad then 
-	
+	    is_built = false
 		faction_name = PlayerObject.Get_Faction_Name()
 		if faction_name == "EMPIRE" then
 			MainForce.Build("UC_Empire_Mineral_Extractor", good_pad)
-		elseif faction_name == "REBEL" then
+			is_built=true
+		end
+		
+		if faction_name == "REBEL" then
 			MainForce.Build("UC_Rebel_Mineral_Extractor", good_pad)
-		elseif faction_name == "UNDERWORLD" then
-			MainForce.Build("UC_Underworld_Mineral_Extractor", good_pad)			
-		else
+			is_built=true
+		end
+			
+		if faction_name == "OLD_REPUBLIC" then
+			MainForce.Build("UC_OR_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+			
+		if faction_name == "SITH" then
+			MainForce.Build("UC_S_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+			
+		if faction_name == "CIS" then
+			MainForce.Build("UC_C_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+			
+		if faction_name == "REPUBLIC" then
+			MainForce.Build("UC_R_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+			
+		if faction_name == "NEW_REPUBLIC" then
+			MainForce.Build("UC_NR_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+			
+		if faction_name == "IMPERIAL_REMNANT" then
+			MainForce.Build("UC_IR_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+			
+						
+		if is_built == false then
 			MessageBox("unexpected faction name: %s", faction_name)
 		end
 
 		-- Make sure we track the results	
 		MainForce.Set_As_Goal_System_Removable(false)
 	
-		-- If it survives X seconds, consider it a successful plan
-		Sleep(30)
+		-- If it survives X (before 30, now 20) seconds, consider it a successful plan
+		Sleep(20)
 		if TestValid(good_pad) then
 			refinery = good_pad.Get_Build_Pad_Contents()
 			if TestValid(refinery) then
@@ -97,7 +137,7 @@ function MainForce_Thread()
 		end
 	else
 		-- This plan/target sucks. Pause for a moment, then release the allocated cash.
-		Sleep(5)
+		Sleep(3)
 	end
 	
 	ScriptExit()

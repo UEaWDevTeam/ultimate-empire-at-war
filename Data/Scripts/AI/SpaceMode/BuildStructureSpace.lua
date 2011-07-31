@@ -49,9 +49,14 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"
-		,"UC_Empire_Defense_Satellite_Laser | UC_Empire_Defense_Satellite_Missile | UC_Empire_Defense_Satellite_Tractor = 0,1"
-		,"UC_Rebel_Defense_Satellite_Laser | UC_Rebel_Defense_Satellite_Missile | UC_Rebel_Defense_Satellite_Repair = 0,1"
-		,"UC_Underworld_Defense_Satellite_Plasma | UC_Underworld_Defense_Satellite_DBM | UC_Underworld_Defense_Satellite_Sensor = 0,1"
+		,"UC_S_DEFSAT_L | UC_S_DEFSAT_M | UC_S_DEFSAT_R = 0,1"
+		,"UC_OR_DEFSAT_L | UC_OR_DEFSAT_M | UC_OR_DEFSAT_R = 0,1"
+		,"UC_C_DEFSAT_L | UC_C_DEFSAT_M | UC_C_DEFSAT_R = 0,1"
+		,"UC_R_DEFSAT_L | UC_R_DEFSAT_M | UC_R_DEFSAT_R = 0,1"
+		,"UC_RA_DEFSAT_L | UC_RA_DEFSAT_M | UC_RA_DEFSAT_R = 0,1"
+		,"UC_E_DEFSAT_L | UC_E_DEFSAT_M | UC_E_DEFSAT_R = 0,1"
+		,"UC_IR_DEFSAT_L | UC_IR_DEFSAT_M | UC_IR_DEFSAT_R = 0,1"
+		,"UC_NR_DEFSAT_L | UC_NR_DEFSAT_M | UC_NR_DEFSAT_R = 0,1"
 	}
 	}
 	RequiredCategories = {"Structure"}
