@@ -59,6 +59,7 @@ function Definitions()
 		,"NR_Starbase_Upgrade_Level_2 | NR_Starbase_Upgrade_Level_3 | NR_Starbase_Upgrade_Level_4 | NR_Starbase_Upgrade_Level_5 = 0,1"
 		,"IR_Starbase_Upgrade_Level_2 | IR_Starbase_Upgrade_Level_3 | IR_Starbase_Upgrade_Level_4 | IR_Starbase_Upgrade_Level_5 = 0,1"
 		,"C_Starbase_Upgrade_Level_2 | C_Starbase_Upgrade_Level_3 | C_Starbase_Upgrade_Level_4 | C_Starbase_Upgrade_Level_5 = 0,1"
+		,"OR_FORAY_CLASS | OR_HAMMERHEAD = 0,3"
 		,"OR_AUREK_SQUADRON | OR_CHELA_SQUADRON | OR_FORAY_CLASS | OR_HAMMERHEAD | OR_PRAETORIAN | OR_THRANTA | OR_HEAVY_CRUISER | OR_INEXPUGNABLE | OR_CENTURION = 0,3"
 		,"S_SITH_FIGHTER_SQUADRON | S_SITH_BOMBER_SQUADRON | S_SITH_GUNBOAT_SQUADRON | S_INTERDICTOR_CRUISER | S_CENTURION | S_SITH_STAR_DESTROYER = 0,3"
 		,"R_ARC-170_SQUADRON | R_V19_TORRENT_SQUADRON | R_NTB_630_SQUADRON | R_CONSULAR_CLASS | R_LIGHT_CRUISER | R_VICTORY_FRIGATE | R_CARRACK_CRUISER | R_ACCLAMATOR_ASSAULT_FRIGATE_I | R_ACCLAMATOR_ASSAULT_FRIGATE_II | R_DREADNAUGHT | R_VICTORY_I | R_VENATOR = 0,3"
