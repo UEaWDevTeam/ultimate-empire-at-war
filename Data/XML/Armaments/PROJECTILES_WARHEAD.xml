@@ -152,6 +152,32 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	
+	<Projectile Name="Proj_Conc_Missile_FT_E2_Medium">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Concussion_Missile_01_Engine3.ALO</Space_Model_Name>
+		<Scale_Factor>0.2</Scale_Factor>
+		<Max_Speed>17.0</Max_Speed>
+		<Projectile_Damage>30.0</Projectile_Damage>
+		<Damage_Type>Damage_Concussion_Basic_E2</Damage_Type>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Scan_Range>500.0</Projectile_Max_Scan_Range>
+		<Projectile_Max_Flight_Distance>2500</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>No</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tiniest_B</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
 	<Projectile Name="Proj_Conc_Missile_Basic_E2_Heavy">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_Concussion_Missile_01_Engine2.ALO</Space_Model_Name>
@@ -817,7 +843,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>12</Max_Speed>
-		<Projectile_Damage>85.0</Projectile_Damage>
+		<Projectile_Damage>50.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -842,7 +868,7 @@
 		<Space_Model_Name>Proj_Proton_Torp_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>9</Max_Speed>
-		<Projectile_Damage>150.0</Projectile_Damage>
+		<Projectile_Damage>85.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -867,7 +893,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>13.5</Max_Speed>
-		<Projectile_Damage>85.0</Projectile_Damage>
+		<Projectile_Damage>50.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E2</Damage_Type>
 		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -892,7 +918,7 @@
 		<Space_Model_Name>Proj_Proton_Torp_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>10.5</Max_Speed>
-		<Projectile_Damage>150.0</Projectile_Damage>
+		<Projectile_Damage>85.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -917,7 +943,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>15</Max_Speed>
-		<Projectile_Damage>85.0</Projectile_Damage>
+		<Projectile_Damage>50.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E3</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -942,7 +968,7 @@
 		<Space_Model_Name>Proj_Proton_Torp_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>12</Max_Speed>
-		<Projectile_Damage>150.0</Projectile_Damage>
+		<Projectile_Damage>85.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E3</Damage_Type>
 		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -967,7 +993,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>16.5</Max_Speed>
-		<Projectile_Damage>85.0</Projectile_Damage>
+		<Projectile_Damage>50.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E4</Damage_Type>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -992,7 +1018,7 @@
 		<Space_Model_Name>Proj_Proton_Torp_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>13.5</Max_Speed>
-		<Projectile_Damage>150.0</Projectile_Damage>
+		<Projectile_Damage>85.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E4</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -1018,7 +1044,7 @@
 		<Variant_Of_Existing_Type>Proj_AP_Heavy_Proton_Torp_E4</Variant_Of_Existing_Type>
 		<Space_Model_Name>P_Missile_Engine_1.alo</Space_Model_Name>
 		<Max_Speed>10.0</Max_Speed>
-		<Projectile_Damage>75</Projectile_Damage>
+		<Projectile_Damage>120</Projectile_Damage>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Projectile_Max_Flight_Distance>2500</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>

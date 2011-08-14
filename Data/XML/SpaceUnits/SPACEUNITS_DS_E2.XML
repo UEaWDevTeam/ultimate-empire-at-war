@@ -15,10 +15,10 @@
                 <Icon_Name>I_BUTTON_VULTURE_DROID.TGA</Icon_Name>
                 <!--Have still to work out how this tag works; seems that a higher value means faster LOD reduction 09/26/2010 Shimrra-->
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
-                <LOD_Bias>300</LOD_Bias>
+                <LOD_Bias>3000</LOD_Bias>
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
-                <Scale_Factor>0.80</Scale_Factor>
+                <Scale_Factor>1.7</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -241,11 +241,11 @@
                 <!--100 is to less, attached 300, think it's kind of vertical distance-->
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_VULTURE_DROID.alo</Space_Model_Name>
-                <Scale_Factor>0.80</Scale_Factor>
+                <Scale_Factor>1.5</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
-                <LOD_Bias>300</LOD_Bias>
+                <LOD_Bias>3000</LOD_Bias>
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -464,11 +464,11 @@
                 <Icon_Name>I_BUTTON_DROID_TRIFIGHTER.TGA</Icon_Name>
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSF_TRIFIGHTER.ALO</Space_Model_Name>
-                <Scale_Factor>0.5</Scale_Factor>
+                <Scale_Factor>0.9375</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
-                <LOD_Bias>300</LOD_Bias>
+                <LOD_Bias>3000</LOD_Bias>
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
@@ -676,7 +676,7 @@
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
-                <Scale_Factor>0.17</Scale_Factor>
+                <Scale_Factor>0.319</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -895,7 +895,7 @@
                 <Icon_Name>I_BUTTON_DROIDBOMBER.TGA</Icon_Name>
 				<No_Colorization_Color> 21, 21, 95, 255 </No_Colorization_Color>
                 <Space_Model_Name>VSB_DROIDBOMBER.ALO</Space_Model_Name>
-                <Scale_Factor>0.17</Scale_Factor>
+                <Scale_Factor>0.319</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -1113,7 +1113,7 @@
                 <Icon_Name>I_BUTTON_HYENABOMBER.TGA</Icon_Name>
 
                 <Space_Model_Name>VSB_HYENA_BOMBER.ALO</Space_Model_Name>
-                <Scale_Factor>0.0654</Scale_Factor>
+                <Scale_Factor>0.123</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -1411,9 +1411,9 @@
                 <!-- Hardpoints -->
                 <HardPoints>
                         HP_MISSILE_CORVETTE_APHCM_01,
-                        HP_MISSILE_CORVETTE_APHCM_01,
-                        HP_MISSILE_CORVETTE_MCM_01,
-                        HP_MISSILE_CORVETTE_MCM_01,
+                        HP_MISSILE_CORVETTE_APHCM_02,
+                        HP_MISSILE_CORVETTE_AFCM_01,
+                        HP_MISSILE_CORVETTE_AFCM_02,
                         HP_MISSILE_CORVETTE_L_01,
                         HP_MISSILE_CORVETTE_L_02,
                         HP_MISSILE_CORVETTE_L_03
@@ -1531,7 +1531,7 @@
                 <Space_Model_Name>VCCo_MISSILE_FRIGATE_D.ALO</Space_Model_Name> <!-- Ensure ".alo" suffix -->
                 <Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Medium_B</Death_Explosions>
-                <Scale_Factor>.37</Scale_Factor>
+                <Scale_Factor>.29</Scale_Factor>
                 <Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
                 <Max_Speed>0.25</Max_Speed>
                 <Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
@@ -1558,7 +1558,7 @@
                 <!-- Unit model details -->
                 <Space_Model_Name>VCFr_MUNIFICENT.ALO </Space_Model_Name>
 				<!-- Munificent pre-beta was 0.521 -->
-                <Scale_Factor> 0.48 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
+                <Scale_Factor> 0.521 </Scale_Factor> <!-- How much should the model be scaled by? || Originally = 3 = -->
                 <Mass>0.9995</Mass>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -1785,7 +1785,7 @@
                 <Space_Model_Name>VCFr_MUNIFICENT_D.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>0.521</Scale_Factor>
+                <Scale_Factor>0.576</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -1812,7 +1812,7 @@
                 <Mass>0.9995</Mass>
 				
 				<!-- Was 1.02 pre-beta -->
-                <Scale_Factor>1.18</Scale_Factor>
+                <Scale_Factor>1.475</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -1870,7 +1870,7 @@
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 
                 <Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
-                <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
+                <Space_FOW_Reveal_Range>4500.0</Space_FOW_Reveal_Range>
                 <Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
 
@@ -2010,7 +2010,7 @@
                 <Space_Model_Name>VCCa_RECUSANT_VARIANT_D.ALO</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>1.02</Scale_Factor>
+                <Scale_Factor>1.475</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -2035,7 +2035,7 @@
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
 				<!-- Was 1.02 pre-beta -->
-                <Scale_Factor>1.18</Scale_Factor>
+                <Scale_Factor>1.02</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2503,7 +2503,7 @@
                 <Space_Model_Name>VCCr_PROVIDENCE_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>0.95</Scale_Factor>
+                <Scale_Factor>1.145</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -2527,7 +2527,7 @@
                 <Select_Box_Scale>500</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>1.0</Scale_Factor>
+                <Scale_Factor>0.8</Scale_Factor>
 
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2753,7 +2753,7 @@
                 <Space_Model_Name>VCCr_PROVIDENCE_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>0.95</Scale_Factor>
+                <Scale_Factor>0.8</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
@@ -2778,7 +2778,7 @@
                 <Select_Box_Scale>500</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-60</Select_Box_Z_Adjust>
                 <Mass>0.9995</Mass>
-                <Scale_Factor>1.00</Scale_Factor>
+                <Scale_Factor>0.8</Scale_Factor>
 				
                 <Ranking_In_Category>6</Ranking_In_Category>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
@@ -2983,7 +2983,7 @@
                 <Space_Model_Name>VCCr_PROVIDENCE_D.alo</Space_Model_Name>
                 <Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
                 <Death_Explosions>PEx_Explosion_Large_B_Empire</Death_Explosions>
-                <Scale_Factor>0.95</Scale_Factor>
+                <Scale_Factor>0.8</Scale_Factor>
                 <Layer_Z_Adjust>-200.0</Layer_Z_Adjust>
                 <Max_Speed>1.2</Max_Speed>
                 <Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
