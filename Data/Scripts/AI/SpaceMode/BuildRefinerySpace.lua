@@ -83,6 +83,16 @@ function MainForce_Thread()
 			MainForce.Build("UC_Rebel_Mineral_Extractor", good_pad)
 			is_built=true
 		end
+		
+		if faction_name == "GALACTIC_EMPIRE" then
+			MainForce.Build("UC_Empire_Mineral_Extractor", good_pad)
+			is_built=true
+		end
+		
+		if faction_name == "REBEL_ALLIANCE" then
+			MainForce.Build("UC_Rebel_Mineral_Extractor", good_pad)
+			is_built=true
+		end
 			
 		if faction_name == "OLD_REPUBLIC" then
 			MainForce.Build("UC_OR_Mineral_Extractor", good_pad)

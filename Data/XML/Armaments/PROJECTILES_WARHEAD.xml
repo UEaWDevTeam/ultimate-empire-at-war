@@ -9,12 +9,12 @@
 <!-- Era 1 Basic Concussion Missiles -->
 	<Projectile Name="Proj_Conc_Missile_Basic_E1_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_Concussion_Missile.ALO</Space_Model_Name> <!-- All model names to be filled in later -->
+		<Space_Model_Name>W_Concussion_Missile_02.ALO</Space_Model_Name>
 		<Scale_Factor>0.12</Scale_Factor>
-		<Max_Speed>14.4</Max_Speed> <!-- And speed -->
-		<Projectile_Damage>20.0</Projectile_Damage> <!-- And Damage -->
-		<Damage_Type>Damage_Concussion_Basic_E1</Damage_Type>
-		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn> <!-- And Rate of turn -->
+		<Max_Speed>18</Max_Speed>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Damage_Type>Damage_Concussion_Basic_E3</Damage_Type>
+		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance> <!-- And flight distance -->
@@ -35,7 +35,7 @@
 		<Space_Model_Name>W_Concussion_Missile.ALO</Space_Model_Name>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Max_Speed>11.4</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -58,7 +58,7 @@
 		<Space_Model_Name>W_Concussion_Missile.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>8.4</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -108,12 +108,12 @@
 
 	<Projectile Name="Proj_Conc_Missile_Basic_E2_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_Concussion_Missile_01_Engine_03.ALO</Space_Model_Name>
+		<Space_Model_Name>W_Concussion_Missile_02.ALO</Space_Model_Name>
 		<Scale_Factor>0.12</Scale_Factor>
-		<Max_Speed>14.7</Max_Speed>
+		<Max_Speed>18</Max_Speed>
 		<Projectile_Damage>20.0</Projectile_Damage>
-		<Damage_Type>Damage_Concussion_Basic_E2</Damage_Type>
-		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
+		<Damage_Type>Damage_Concussion_Basic_E3</Damage_Type>
+		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance>
@@ -134,7 +134,7 @@
 		<Space_Model_Name>W_Concussion_Missile_01_Engine1.ALO</Space_Model_Name>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Max_Speed>11.7</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -183,7 +183,7 @@
 		<Space_Model_Name>W_Concussion_Missile_01_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>8.7</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -206,12 +206,12 @@
 
 	<Projectile Name="Proj_Conc_Missile_Basic_E3_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_Concussion_Missile_02.ALO</Space_Model_Name>
+		<Space_Model_Name>W_Concussion_Missile_02_Engine1.ALO</Space_Model_Name>
 		<Scale_Factor>0.12</Scale_Factor>
-		<Max_Speed>15</Max_Speed>
+		<Max_Speed>18</Max_Speed>
 		<Projectile_Damage>20.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E3</Damage_Type>
-		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>6.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance>
@@ -232,7 +232,7 @@
 		<Space_Model_Name>W_Concussion_Missile_02_Engine1.ALO</Space_Model_Name>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Max_Speed>12</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E3</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -255,7 +255,7 @@
 		<Space_Model_Name>W_Concussion_Missile_02_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>9</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E3</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -304,7 +304,7 @@
 		<Space_Model_Name>W_Concussion_Missile_03_Engine1.ALO</Space_Model_Name>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Max_Speed>12.3</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>5.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -327,7 +327,7 @@
 		<Space_Model_Name>W_Concussion_Missile_03_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>9.3</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -376,7 +376,7 @@
 		<Space_Model_Name>W_Concussion_Missile_04.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>8.4</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>1.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -399,7 +399,7 @@
 		<Space_Model_Name>W_Concussion_Missile_05.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Speed>6.9</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -448,7 +448,7 @@
 		<Space_Model_Name>W_Concussion_Missile_01_Engine3.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>8.7</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E2</Damage_Type>
 		<Max_Rate_Of_Turn>2.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -471,7 +471,7 @@
 		<Space_Model_Name>W_Concussion_Missile_05_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Speed>7.2</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E2</Damage_Type>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -520,7 +520,7 @@
 		<Space_Model_Name>W_Concussion_Missile_04_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>9</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E3</Damage_Type>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -538,7 +538,53 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	<Projectile Name="Proj_Conc_Missile_AP_E3_Medium_Artillery">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Concussion_Missile_04_Engine2.ALO</Space_Model_Name>
+		<Scale_Factor>0.38</Scale_Factor>
+		<Max_Speed>9</Max_Speed>
+		<Projectile_Damage>50.0</Projectile_Damage>
+		<Damage_Type>Damage_Concussion_AP_E3</Damage_Type>
+		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>4500</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>P_Explosion_Tiny_A</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
 	<Projectile Name="Proj_Conc_Missile_AP_E3_Heavy">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>W_Concussion_Missile_05_Engine2.ALO</Space_Model_Name>
+		<Scale_Factor>0.7</Scale_Factor>
+		<Max_Speed>7.5</Max_Speed>
+		<Projectile_Damage>58.0</Projectile_Damage>
+		<Damage_Type>Damage_Concussion_AP_E3</Damage_Type>
+		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>MISSILE</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>350</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle>PEx_Explosion_Concussion_Large</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Explosion_Concussion</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>PEx_Explosion_Tiniest_B</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PS_Concussion_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	<Projectile Name="Proj_Conc_Missile_AP_E3_Heavy_Artillery">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_Concussion_Missile_05_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
@@ -548,7 +594,7 @@
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>MISSILE</Projectile_Category>
-		<Projectile_Max_Flight_Distance>2900</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>5000</Projectile_Max_Flight_Distance>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -592,7 +638,7 @@
 		<Space_Model_Name>W_Concussion_Missile_04_Engine2.ALO</Space_Model_Name>
 		<Scale_Factor>0.38</Scale_Factor>
 		<Max_Speed>9.3</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>45.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E4</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -615,7 +661,7 @@
 		<Space_Model_Name>W_Concussion_Missile_05_Engine3.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Max_Speed>7.8</Max_Speed>
-		<Projectile_Damage>65.0</Projectile_Damage>
+		<Projectile_Damage>58.0</Projectile_Damage>
 		<Damage_Type>Damage_Concussion_AP_E4</Damage_Type>
 		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -843,7 +889,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>12</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E1</Damage_Type>
 		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -893,7 +939,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>13.5</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E2</Damage_Type>
 		<Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -943,7 +989,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>15</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E3</Damage_Type>
 		<Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -993,7 +1039,7 @@
 		<Space_Model_Name>Proj_Proton_Torp.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>16.5</Max_Speed>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>60.0</Projectile_Damage>
 		<Damage_Type>Damage_Proton_AP_E4</Damage_Type>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

@@ -26,6 +26,7 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	
 	<Projectile Name="Proj_Conc_Missile_Basic_Medium_Skirmish">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>Proj_Conc_Missle.ALO</Space_Model_Name>
@@ -49,6 +50,7 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	
 	<Projectile Name="Proj_Conc_Missile_Basic_Heavy_Skirmish">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_Concussion_Missile.ALO</Space_Model_Name>
@@ -96,6 +98,7 @@
 		<Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
+	
 	<Projectile Name="Proj_Conc_Missile_AP_Medium_Skirmish">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>W_Concussion_Missile.ALO</Space_Model_Name>
@@ -850,5 +853,34 @@
                 <Variant_Of_Existing_Type>Proj_Turbolaser_Green_Medium_Skirmish</Variant_Of_Existing_Type>
 				<Damage_Type>Damage_Turbolaser_Superior_Skirmish</Damage_Type>
         </Projectile>
+	
+		<Projectile Name="Proj_Flak_AS_Skirmish">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Flak_Shell.ALO</Space_Model_Name>
+		<Scale_Factor>3.0</Scale_Factor>
+		<Damage_Type> Damage_Flak_AS_Skirmish</Damage_Type>
+		<Explode_When_Reached_Target_Radius> Yes </Explode_When_Reached_Target_Radius>
+		<Max_Speed>30.0</Max_Speed>
+		<Collision_Mesh>Collision</Collision_Mesh>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>ROCKET</Projectile_Category>
+		<Projectile_Max_Flight_Distance>900.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>0.0</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 10 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 200 </Projectile_Blast_Area_Range>
+		<Projectile_SFXEvent_Detonate>Unit_Anti_Air_Small_Explosion_SFX</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Anti_Air_Small_Explosion_SFX </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+		<Death_SFXEvent_Start_Die>Unit_Anti_Air_Explosion_SFX</Death_SFXEvent_Start_Die>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>PEx_Flak_AS</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle>PEx_Flak_AS</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>PEx_Flak_AS</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>100</AI_Combat_Power>
+	</Projectile>
 	
 </Projectiles>

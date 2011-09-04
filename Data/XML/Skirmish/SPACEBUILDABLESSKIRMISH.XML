@@ -43,10 +43,18 @@
                                 UC_R_DEFSAT_L,
                                 UC_R_DEFSAT_M,
                                 UC_R_DEFSAT_R,
+						Galactic_Empire,
+                                UC_E_DEFSAT_L,
+                                UC_E_DEFSAT_M,
+                                UC_E_DEFSAT_R,
+						Rebel_Alliance,
+                                UC_RA_DEFSAT_L,
+                                UC_RA_DEFSAT_M,
+                                UC_RA_DEFSAT_R,
                 </Tactical_Buildable_Objects_Multiplayer>
 
                 <Tactical_Buildable_Objects_Campaign />
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Text_ID> TEXT_ORBITAL_DEFENSE_SATELLITE </Text_ID>
                 <Space_Model_Name>NV_LDS_pad.ALO</Space_Model_Name>
                 <Icon_Name>i_button_lds.tga</Icon_Name>
@@ -54,7 +62,7 @@
                 <Is_Dummy>Yes</Is_Dummy>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Neutral, Rebel, Empire, Imperial_Remnant, New_Republic, Old_Republic, Sith, CIS, Republic</Affiliation>
+                <Affiliation>Neutral, Rebel, Empire, Imperial_Remnant, New_Republic, Old_Republic, Sith, CIS, Republic, Rebel_Alliance, Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Tactical_Health>1200</Tactical_Health>
 
@@ -83,7 +91,6 @@
                 <Is_Visible_On_Radar>True</Is_Visible_On_Radar>
                 <Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
                 <Select_Box_Scale> 50 </Select_Box_Scale>
-                <Scale_Factor> 1.0 </Scale_Factor>
                 <Victory_Relevant> No </Victory_Relevant>
                 <Custom_Soft_Footprint_Radius> 100 </Custom_Soft_Footprint_Radius>
                 <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
@@ -117,7 +124,7 @@
                 <Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
                 <Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
                 <Victory_Relevant>No</Victory_Relevant>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
@@ -125,7 +132,7 @@
                 <Icon_Name>i_button_lds.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Tactical_Health>1200</Tactical_Health>
                 <Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
@@ -173,7 +180,7 @@
                 <Tactical_Build_Cost_Campaign>400</Tactical_Build_Cost_Campaign>
                 <Tactical_Build_Time_Seconds> 25 </Tactical_Build_Time_Seconds>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
                 <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -269,7 +276,7 @@
                 <Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</Encyclopedia_Text>
                 <MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Space_Model_Name>RV_SATALLITE_REPAIR.ALO</Space_Model_Name>
                 <Icon_Name>i_button_repair.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
@@ -285,7 +292,7 @@
                 <Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
                 <Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <Victory_Relevant>No</Victory_Relevant>
                 <Size_Value>30</Size_Value>
                 <GUI_Row> 0 </GUI_Row>
@@ -327,7 +334,7 @@
                 <Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
                 <Tactical_Build_Start_Lower_Z> 0.0 </Tactical_Build_Start_Lower_Z>
 
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
                 <SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -426,7 +433,7 @@
 
            <SpaceBuildable Name="UC_E_DEFSAT_M">
                 <Behavior>SPACE_OBSTACLE, TACTICAL_UNDER_CONSTRUCTION, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED</Behavior>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Tactical_Buildable_Constructed> E_DEFSAT_M </Tactical_Buildable_Constructed>
                 <Tactical_Build_Cost_Multiplayer> 700 </Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
@@ -440,7 +447,7 @@
                 <Icon_Name>i_button_mds.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Tactical_Health>1200</Tactical_Health>
                 <Space_FOW_Reveal_Range>200.0</Space_FOW_Reveal_Range>
@@ -503,7 +510,7 @@
                 <Tactical_Build_Cost_Campaign>275</Tactical_Build_Cost_Campaign>
                 <Tactical_Build_Time_Seconds> 28 </Tactical_Build_Time_Seconds>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
                 <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -597,7 +604,7 @@
                 <!--<Barrel_Bone_Name>Barrel_00</Barrel_Bone_Name>-->
                 <Apply_Z_Turret_Rotate_To_Axis>2</Apply_Z_Turret_Rotate_To_Axis>
                 <Apply_Y_Turret_Rotate_To_Axis>1</Apply_Y_Turret_Rotate_To_Axis>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Text_ID>TEXT_ORBITAL_DEFENSE_SATELLITE_LASER</Text_ID>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
@@ -605,7 +612,7 @@
                 <Icon_Name>i_button_lds.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Shield_Points>500</Shield_Points>
                 <Tactical_Health>1200</Tactical_Health>
@@ -669,18 +676,26 @@
                         Empire,
                                 E_UPGRADE_SATELLITES_L_1,
                                 E_UPGRADE_SATELLITES_L_2,
-                                E_UPGRADE_SATELLITES_L_3
+                                E_UPGRADE_SATELLITES_L_3,
+						Galactic_Empire,
+                                E_UPGRADE_SATELLITES_L_1,
+                                E_UPGRADE_SATELLITES_L_2,
+                                E_UPGRADE_SATELLITES_L_3,
                 </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
         <SpaceBuildable Name="RA_DEFSAT_L">
                 <Variant_Of_Existing_Type>E_DEFSAT_L</Variant_Of_Existing_Type>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <Tactical_Buildable_Objects_Multiplayer>
                         Rebel,
                                 RA_UPGRADE_SATELLITES_L_1,
                                 RA_UPGRADE_SATELLITES_L_2,
-                                RA_UPGRADE_SATELLITES_L_3
+                                RA_UPGRADE_SATELLITES_L_3,
+						Rebel_Alliance,
+                                RA_UPGRADE_SATELLITES_L_1,
+                                RA_UPGRADE_SATELLITES_L_2,
+                                RA_UPGRADE_SATELLITES_L_3,						
                 </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 
@@ -757,7 +772,7 @@
                 <Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</Encyclopedia_Text>
                 <MP_Encyclopedia_Text>TEXT_TOOLTIP_REP_TURRET_SPACE</MP_Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Space_Model_Name>RV_SATALLITE_REPAIR.ALO</Space_Model_Name>
                 <Icon_Name>i_button_repair.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
@@ -769,7 +784,7 @@
 
                 <SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL </SpaceBehavior>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Armor_Type> Armour_Cruiser </Armor_Type>
                 <Shield_Points>700</Shield_Points>
@@ -847,7 +862,7 @@
 
         <SpaceBuildable Name="E_DEFSAT_R">
                 <Variant_Of_Existing_Type>RA_DEFSAT_R</Variant_Of_Existing_Type>
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <Tactical_Buildable_Objects_Multiplayer>
                         Empire,
                                 E_UPGRADE_SATELLITES_L_1,
@@ -924,7 +939,7 @@
 
         <SpaceBuildable Name="E_DEFSAT_M">
                 <SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, TARGETING, WEAPON, POWERED, SHIELDED, DAMAGE_TRACKING, TURRET, TACTICAL_SELL </SpaceBehavior>
-
+				<Scale_Factor>0.75</Scale_Factor>
                 <Turret_Rotate_Extent_Degrees>360</Turret_Rotate_Extent_Degrees>
                 <Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
                 <Turret_Rotate_Speed>3.5</Turret_Rotate_Speed>
@@ -941,7 +956,7 @@
                 <Icon_Name>i_button_mds.tga</Icon_Name>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Empire</Affiliation>
+                <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
 
                 <Shield_Points>500</Shield_Points>
@@ -1015,7 +1030,7 @@
 
         <SpaceBuildable Name="RA_DEFSAT_M">
                 <Variant_Of_Existing_Type>E_DEFSAT_M</Variant_Of_Existing_Type>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <Tactical_Buildable_Objects_Multiplayer>
                         Rebel,
                                 RA_UPGRADE_SATELLITES_L_1,
@@ -1174,6 +1189,10 @@
                                 UC_NR_Mineral_Extractor,
                         Imperial_Remnant,
                                 UC_IR_Mineral_Extractor,
+						Rebel_Alliance,
+                                UC_Rebel_Mineral_Extractor,
+                        Galactic_Empire,
+                                UC_Empire_Mineral_Extractor,
 
 
                 <!--        Underworld,
@@ -1190,7 +1209,7 @@
                 <Is_Dummy>Yes</Is_Dummy>
                 <Select_Box_Scale>330</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
-                <Affiliation>Neutral, Rebel, Empire, CIS, Imperial_Remnant, New_Republic, Old_Republic, Republic, Sith </Affiliation>
+                <Affiliation>Neutral, Rebel, Empire, CIS, Imperial_Remnant, New_Republic, Old_Republic, Republic, Sith, Galactic_Empire, Rebel_Alliance </Affiliation>
 <!-- Underworld, this came from above just for reference -->
                 <Size_Value>30</Size_Value>
 
@@ -1302,7 +1321,7 @@
                 <Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <SFXEvent_Build_Started>RHD_Build_Structure</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Building_Canceled</SFXEvent_Build_Cancelled>
                 <SFXEvent_Build_Complete>RHD_Construction_Complete</SFXEvent_Build_Complete>
@@ -1459,13 +1478,23 @@
                         </Force_Healing_Ability>
                 </Abilities>
 
-                <Tactical_Health>1700</Tactical_Health>
+				
+				<Shield_Points>2000</Shield_Points>
+                <Tactical_Health>70</Tactical_Health>
+                <Shield_Refresh_Rate>5</Shield_Refresh_Rate>
+				<Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
+                <Tactical_Health>2000</Tactical_Health>
                 <Score_Cost_Credits> 5000 </Score_Cost_Credits>
                 <Tactical_Buildable_Objects_Multiplayer>
                         Empire,
                                 E_Increased_Supplies_L1_Upgrade,
                                 E_Increased_Supplies_L2_Upgrade,
                                 E_Increased_Supplies_L3_Upgrade,
+						Galactic_Empire,
+                                E_Increased_Supplies_L1_Upgrade,
+                                E_Increased_Supplies_L2_Upgrade,
+                                E_Increased_Supplies_L3_Upgrade,
+
                 </Tactical_Buildable_Objects_Multiplayer>
 
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
@@ -1480,7 +1509,7 @@
 
         <SpaceBuildable Name="Rebel_Mineral_Extractor">
                 <Variant_Of_Existing_Type>Empire_Mineral_Extractor</Variant_Of_Existing_Type>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel_Alliance</Affiliation>
                 <Abilities SubObjectList="Yes">
                         <Income_Stream_Ability Name="RA_Mineral_Extractor_Income_Stream">
                                 <Base_Income_Value>200</Base_Income_Value>
@@ -1497,6 +1526,11 @@
                                 RA_Increased_Supplies_L1_Upgrade,
                                 RA_Increased_Supplies_L2_Upgrade,
                                 RA_Increased_Supplies_L3_Upgrade,
+						Rebel_Alliance,
+                                RA_Increased_Supplies_L1_Upgrade,
+                                RA_Increased_Supplies_L2_Upgrade,
+                                RA_Increased_Supplies_L3_Upgrade,		
+				
                 </Tactical_Buildable_Objects_Multiplayer>
         </SpaceBuildable>
 

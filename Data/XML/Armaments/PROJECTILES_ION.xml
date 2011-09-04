@@ -15,7 +15,7 @@
 		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>27.5</Max_Speed>
-		<Projectile_Damage>12.0</Projectile_Damage>
+		<Projectile_Damage>18.0</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -40,7 +40,7 @@
 		<Space_Model_Name>Proj_Ion_Light.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>30</Projectile_Damage>
+		<Projectile_Damage>24</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -65,7 +65,7 @@
 		<Space_Model_Name>Proj_Ion_Standard.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>38</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -90,7 +90,7 @@
 		<Space_Model_Name>Proj_Ion_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>80</Projectile_Damage>
+		<Projectile_Damage>50</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E1</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -116,7 +116,7 @@
 		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>27.5</Max_Speed>
-		<Projectile_Damage>12.0</Projectile_Damage>
+		<Projectile_Damage>18.0</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -141,7 +141,7 @@
 		<Space_Model_Name>Proj_Ion_Light.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>30</Projectile_Damage>
+		<Projectile_Damage>24</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -166,7 +166,7 @@
 		<Space_Model_Name>Proj_Ion_Standard.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>38</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -191,7 +191,7 @@
 		<Space_Model_Name>Proj_Ion_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>80</Projectile_Damage>
+		<Projectile_Damage>50</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E2</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -217,8 +217,33 @@
 		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>27.5</Max_Speed>
-		<Projectile_Damage>9.0</Projectile_Damage>
+		<Projectile_Damage>18.0</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E3</Damage_Type>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2650</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>85</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Object_Armor_Reduced_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle></Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
+	<Projectile Name="Proj_Ion_Cannon_E3_Starfighter_Advanced">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>27.5</Max_Speed>
+		<Projectile_Damage>18.0</Projectile_Damage>
+		<Damage_Type>Damage_Ion_Advanced_E3</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
@@ -242,7 +267,7 @@
 		<Space_Model_Name>Proj_Ion_Light.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>30</Projectile_Damage>
+		<Projectile_Damage>24</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E3</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -267,7 +292,7 @@
 		<Space_Model_Name>Proj_Ion_Standard.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>38</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E3</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -292,7 +317,7 @@
 		<Space_Model_Name>Proj_Ion_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>80</Projectile_Damage>
+		<Projectile_Damage>50</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E3</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -318,7 +343,7 @@
 		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>27.5</Max_Speed>
-		<Projectile_Damage>12.0</Projectile_Damage>
+		<Projectile_Damage>18.0</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -338,12 +363,37 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 	
+	<Projectile Name="Proj_Ion_Cannon_E4_Starfighter_Advanced">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Space_Model_Name>Proj_Ion_Small.ALO</Space_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<Max_Speed>27.5</Max_Speed>
+		<Projectile_Damage>18.0</Projectile_Damage>
+		<Damage_Type>Damage_Ion_Advanced_E4</Damage_Type>
+		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2650</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>Yes</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>
+		<AI_Combat_Power>85</AI_Combat_Power>
+		<Projectile_Object_Detonation_Particle />
+		<Projectile_Object_Armor_Reduced_Detonation_Particle />
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle></Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX />
+		<Projectile_SFXEvent_Detonate>SFX_Ion_Detonation</Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+	
 	<Projectile Name="Proj_Ion_Cannon_E4_Light">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Space_Model_Name>Proj_Ion_Light.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>30</Projectile_Damage>
+		<Projectile_Damage>24</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -368,7 +418,7 @@
 		<Space_Model_Name>Proj_Ion_Standard.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>50</Projectile_Damage>
+		<Projectile_Damage>38</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -393,7 +443,7 @@
 		<Space_Model_Name>Proj_Ion_Heavy.ALO</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>29.0</Max_Speed>
-		<Projectile_Damage>80</Projectile_Damage>
+		<Projectile_Damage>50</Projectile_Damage>
 		<Damage_Type>Damage_Ion_Basic_E4</Damage_Type>
 		<Max_Rate_Of_Turn>0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>

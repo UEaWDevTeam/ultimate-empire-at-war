@@ -31,7 +31,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Shield_Points>14</Shield_Points>
                 <Tactical_Health>50</Tactical_Health>
                 <Autoresolve_Health>70</Autoresolve_Health>
@@ -145,7 +145,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>1080</Autoresolve_Health>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -209,7 +209,7 @@
                                 </Unit_Abilities_Data>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>75</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -235,7 +235,7 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>4.0</Max_Speed>
+                <Max_Speed>3.8</Max_Speed>
                 <Min_Speed>2.5</Min_Speed>
                 <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
                 <Max_Thrust>0.9</Max_Thrust>
@@ -246,8 +246,8 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
-                <Affiliation>Rebel</Affiliation>
-                <Shield_Points>28</Shield_Points>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
+                <Shield_Points>30</Shield_Points>
                 <Tactical_Health>60</Tactical_Health>
                 <Autoresolve_Health>100</Autoresolve_Health>
                 <Shield_Refresh_Rate>0.85</Shield_Refresh_Rate>
@@ -349,10 +349,10 @@
             <Unit_Ability>
                                 <Type>SPOILER_LOCK</Type>
 
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        2.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.2</Mod_Multiplier>
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
@@ -379,7 +379,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>1200</Autoresolve_Health>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -435,7 +435,7 @@
                 <!-- <Create_Team_Type> StarViper_Team </Create_Team_Type> -->
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -449,10 +449,10 @@
             <Unit_Ability>
                                 <Type>SPOILER_LOCK</Type>
 
-                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        3.0f</Mod_Multiplier>
-                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.1</Mod_Multiplier>
+                                <Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,        2.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,        1.0f</Mod_Multiplier>
+                                <Mod_Multiplier>SPEED_MULTIPLIER,                            1.2</Mod_Multiplier>
                                 <SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
                                 <SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
             </Unit_Ability>
@@ -492,7 +492,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Shield_Points>21</Shield_Points>
                 <Tactical_Health>45</Tactical_Health>
                 <Autoresolve_Health>75</Autoresolve_Health>
@@ -655,7 +655,7 @@
                 <Is_Escort>Yes</Is_Escort>
                 <Is_Bomber>No</Is_Bomber>
                 <Autoresolve_Health>900</Autoresolve_Health>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -780,7 +780,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Shield_Points>35</Shield_Points>
                 <Tactical_Health>75</Tactical_Health>
                 <Autoresolve_Health>125</Autoresolve_Health>
@@ -899,7 +899,7 @@
                 <Is_Escort>No</Is_Escort>
                 <Is_Bomber>Yes</Is_Bomber>
                 <Autoresolve_Health>1500</Autoresolve_Health>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>10</Build_Time_Seconds>
@@ -1000,7 +1000,7 @@
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Shield_Points>53</Shield_Points>
                 <Tactical_Health>60</Tactical_Health>
                 <Autoresolve_Health>120</Autoresolve_Health>
@@ -1129,7 +1129,7 @@
                 <Is_Escort>No</Is_Escort>
                 <Is_Bomber>Yes</Is_Bomber>
                 <Autoresolve_Health>1440</Autoresolve_Health>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Political_Control>0</Political_Control>
                 <Build_Cost_Credits>300</Build_Cost_Credits>
                 <Build_Time_Seconds>20</Build_Time_Seconds>
@@ -1230,7 +1230,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1241,8 +1241,8 @@
 
                 <Tactical_Health> 750 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 1430 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 476 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 4.25 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 1500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 5.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 1500 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 300 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Corvette </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -1274,10 +1274,10 @@
                 <Space_Layer> Corvette </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.4 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 3.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.85 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
-                <Bank_Turn_Angle> 40 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
+                <Bank_Turn_Angle> 70 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0</Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
@@ -1382,7 +1382,7 @@
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
-                <Tactical_Build_Cost_Multiplayer>1125</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>1300</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1414,7 +1414,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>Corvette</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>True</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -1437,7 +1437,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Corvette | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1448,12 +1448,12 @@
 
                 <Tactical_Health> 300 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 1200 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 420 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate>4.25 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 2000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 9.0 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 1500</Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 350</Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type>Armour_Corvette </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type> Shield_Corvette </Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+        <Shield_Armor_Type> Shield_Corvette_Superior </Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power>1350 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits>1350</Score_Cost_Credits> <!-- Unsure of this one -->
@@ -1480,10 +1480,10 @@
                 <Space_Layer> Corvette </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 3.0 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.9 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
-                <Bank_Turn_Angle> 15 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
+                <Bank_Turn_Angle> 70 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
                 <Guard_Chase_Range> 1000.0 </Guard_Chase_Range> <!-- How far the unit will travel for when in guard mode to chase a target || Was 1000.0 -->
@@ -1508,10 +1508,10 @@
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
         <!-- Hardpoints -->
                 <HardPoints>
+                        HP_DP20_E3_BLCM_01,
+                        HP_DP20_E3_BLCM_02,
                         HP_DP20_E3_APMCM_01,
                         HP_DP20_E3_APMCM_02,
-                        HP_DP20_E3_APMCM_03,
-                        HP_DP20_E3_APMCM_04,
                         HP_DP20_E3_L_01,
                         HP_DP20_E3_L_02,
                         HP_DP20_E3_L_03,
@@ -1523,11 +1523,11 @@
                 </HardPoints>
         <!-- Death  Stats -->
                 <Death_Leave_Hulk_Behind> No </Death_Leave_Hulk_Behind>
-                <Death_Clone>Damage_Normal, RA_CORELLIAN_GUNBOAT_DEATH_CLONE</Death_Clone>
+               <Death_Clone>Damage_Normal, RA_CORELLIAN_GUNBOAT_DEATH_CLONE</Death_Clone>
 
-                                <Land_Damage_Thresholds>1, 0.6, 0.3, 0.1</Land_Damage_Thresholds>
+                    <!--            <Land_Damage_Thresholds>1, 0.6, 0.3, 0.1</Land_Damage_Thresholds>
                 <Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
-                <Land_Damage_SFX>null, null</Land_Damage_SFX>
+                <Land_Damage_SFX>null, null</Land_Damage_SFX> -->
         <!-- SFX  GC-->
                 <SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
                 <SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
@@ -1599,7 +1599,7 @@
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
-                <Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>1600</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1631,7 +1631,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>Corvette</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -1651,29 +1651,29 @@
                 <Scale_Factor>0.48</Scale_Factor>
 
         <Ranking_In_Category>7</Ranking_In_Category>
-                <Max_Speed>1.8</Max_Speed> <!-- Was 3.25 -->
+                <Max_Speed>2.8</Max_Speed> <!-- Was 3.25 -->
                 <Max_Rate_Of_Turn>0.8</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Corvette </Space_Layer>
                 <Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
                 <Max_Rate_Of_Roll>0.9</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>15</Bank_Turn_Angle>
+                <Bank_Turn_Angle>70</Bank_Turn_Angle>
                 <OverrideAcceleration> .035 </OverrideAcceleration>
                 <OverrideDeceleration> .035 </OverrideDeceleration>
 
                 <Ranged_Target_Z_Adjust>35</Ranged_Target_Z_Adjust>
                 <Armor_Type> Armour_Corvette</Armor_Type>
-        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Max_Thrust>0.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.05</Maintenance_Cost>
-                <Min_Speed>2.0</Min_Speed>
-                <Max_Lift>0.0</Max_Lift>
+                <Min_Speed>1.0</Min_Speed>
+                <Max_Lift>0.5</Max_Lift>
 
                 <Death_Clone>Damage_Normal, RA_MARAUDER_DEATH_CLONE</Death_Clone>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>640</Slice_Cost_Credits>
@@ -1684,7 +1684,7 @@
                 <Required_Special_Structures/>
                 <Required_Planets/>
                 <Autoresolve_Health>1720</Autoresolve_Health>
-                <Shield_Points>550</Shield_Points>
+                <Shield_Points>1000</Shield_Points>
                 <Tactical_Health>1000</Tactical_Health>
                 <Shield_Refresh_Rate>6</Shield_Refresh_Rate>
                 <Energy_Capacity>1500</Energy_Capacity>
@@ -1790,7 +1790,7 @@
                 <Score_Cost_Credits> 1400</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>1500</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -1848,7 +1848,7 @@
                 <Max_Thrust>0.05</Max_Thrust>
                 <Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>5</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Ship_Class>corvette</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
 
@@ -1869,7 +1869,7 @@
                          HP_MARAUDER_TRACTOR
                 </HardPoints>
                 <Targeting_Max_Attack_Distance>3000.0</Targeting_Max_Attack_Distance>
-                                <Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
+                                <Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
         </SpaceUnit>
@@ -1899,7 +1899,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -1910,8 +1910,8 @@
 
                 <Tactical_Health> 900 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 2740 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 1288 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 14.16 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 2200 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 17 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -1943,7 +1943,7 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 1.6 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
@@ -2124,7 +2124,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -2148,7 +2148,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -2159,8 +2159,8 @@
 
                 <Tactical_Health> 1800 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 3400 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 1120 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 14.16 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 2300 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 16 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Frigate </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -2192,7 +2192,7 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 1.6 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
@@ -2341,7 +2341,7 @@
 
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
-                <Tactical_Build_Cost_Multiplayer>2025</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>1650</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2374,7 +2374,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -2398,7 +2398,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -2409,8 +2409,8 @@
 
                 <Tactical_Health> 975 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 2975 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 1400 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 20.4 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 2700 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 19</Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Frigate</Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -2568,7 +2568,7 @@
 
                 <Space_FOW_Reveal_Range>1200.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
-                <Tactical_Build_Cost_Multiplayer>2160</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -2600,7 +2600,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -2626,7 +2626,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -2637,12 +2637,12 @@
 
                 <Tactical_Health> 3900 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total ||-->
                 <Autoresolve_Health> 7660 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 2632 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 17.85 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 3500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 18 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 6000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 1000 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
-                <Armor_Type> Armour_Cruiser_Basic </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Cruiser_Basic</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+                <Armor_Type> Armour_Cruiser </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power>2600 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -2708,14 +2708,14 @@
                 <HardPoints>
                         HP_ASSAULT_FRIGATE_I_E3_MTL_01,
                         HP_ASSAULT_FRIGATE_I_E3_MTL_02,
+						HP_ASSAULT_FRIGATE_I_E3_MTL_03,
+                        HP_ASSAULT_FRIGATE_I_E3_MTL_04,
                         HP_ASSAULT_FRIGATE_I_E3_LTL_01,
                         HP_ASSAULT_FRIGATE_I_E3_LTL_02,
                         HP_ASSAULT_FRIGATE_I_E3_L_01,
                         HP_ASSAULT_FRIGATE_I_E3_L_02,
                         HP_ASSAULT_FRIGATE_I_E3_L_03,
                         HP_ASSAULT_FRIGATE_I_E3_L_04,
-                        HP_ASSAULT_FRIGATE_I_E3_L_05,
-                        HP_ASSAULT_FRIGATE_I_E3_L_06,
                         HP_ASSAULT_FRIGATE_I_E3_HL_01,
                         HP_ASSAULT_FRIGATE_I_E3_HL_02,
                         HP_ASSAULT_FRIGATE_I_E3_ENGINES
@@ -2825,7 +2825,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -2850,7 +2850,7 @@
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
         <!-- Basic Stats -->
-                <Affiliation> Rebel </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
                 <CategoryMask> Frigate | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
@@ -2861,12 +2861,12 @@
 
                 <Tactical_Health> 2464 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 7160 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 3520 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 17.85 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Points> 5000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Refresh_Rate> 21 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 3000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 500 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Cruiser </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
-        <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
+        <Shield_Armor_Type>Shield_Cruiser_Superior</Shield_Armor_Type> <!-- The Shield type || Denotes Shield Vulnerabilities/Strengths -->
 
                 <AI_Combat_Power>2800 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
@@ -2893,7 +2893,7 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.35 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.3 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 20 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
@@ -3030,7 +3030,7 @@
 
                 <Space_FOW_Reveal_Range>3000.0</Space_FOW_Reveal_Range>
         <!-- Multiplayer/Skirmish-->
-                <Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>23</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3061,7 +3061,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation><!-- Same as Unit's -->
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation><!-- Same as Unit's -->
                 <Ship_Class>frigate</Ship_Class> <!-- Same as unit's -->
                 <Remove_Upon_Death>true</Remove_Upon_Death> <!-- True or False | Should the death clone dissapear eventually -->
         </SpaceUnit>
@@ -3079,14 +3079,14 @@
                 <Scale_Factor>0.6125</Scale_Factor>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
                 <Autoresolve_Health>8400</Autoresolve_Health>
-                <Shield_Points>2240</Shield_Points>
+                <Shield_Points>3000</Shield_Points>
                 <Tactical_Health>5200</Tactical_Health>
-                <Shield_Refresh_Rate>17</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>16</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>450</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-                <Max_Speed>1.04</Max_Speed>
+                <Max_Speed>2.1</Max_Speed>
                 <Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
@@ -3096,8 +3096,8 @@
                 <OverrideAcceleration> .02 </OverrideAcceleration>
                 <OverrideDeceleration> .02 </OverrideDeceleration>
 
-                <Armor_Type> Armour_Frigate_Basic </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+                <Armor_Type> Armour_Cruiser_Basic </Armor_Type>
+        <Shield_Armor_Type>Shield_Cruiser_Basic</Shield_Armor_Type>
                 <Max_Thrust>0.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Select_Box_Scale>330</Select_Box_Scale>
@@ -3105,7 +3105,7 @@
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
                 <Hyperspace_Speed>1.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Build_Initially_Locked> Yes </Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>250</Slice_Cost_Credits>
@@ -3241,7 +3241,7 @@
 
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>2100</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3263,7 +3263,7 @@
                 <Max_Thrust>1</Max_Thrust>
                 <Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>0</Bank_Turn_Angle>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Ship_Class>frigate</Ship_Class>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
         </SpaceUnit>
@@ -3280,14 +3280,14 @@
                 <Scale_Factor>0.735</Scale_Factor>
                 <Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
                 <Autoresolve_Health>8370</Autoresolve_Health>
-                <Shield_Points>2520</Shield_Points>
+                <Shield_Points>3000</Shield_Points>
                 <Tactical_Health>4770</Tactical_Health>
-                <Shield_Refresh_Rate>25.5</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>17</Shield_Refresh_Rate>
                 <Energy_Capacity>3000</Energy_Capacity>
                 <Energy_Refresh_Rate>450</Energy_Refresh_Rate>
 
         <Ranking_In_Category>6</Ranking_In_Category>
-                <Max_Speed>1.1</Max_Speed>
+                <Max_Speed>2.4</Max_Speed>
                 <Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Frigate </Space_Layer>
@@ -3297,8 +3297,8 @@
                 <OverrideAcceleration> .03 </OverrideAcceleration>
                 <OverrideDeceleration> .03 </OverrideDeceleration>
 
-                <Armor_Type> Armour_Frigate </Armor_Type>
-                <Shield_Armor_Type>Shield_Frigate_Superior</Shield_Armor_Type>
+                <Armor_Type> Armour_Cruiser </Armor_Type>
+                <Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Max_Thrust>1.5</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Select_Box_Scale>330</Select_Box_Scale>
@@ -3306,7 +3306,7 @@
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
                 <Maintenance_Cost>0.1</Maintenance_Cost>
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Build_Initially_Locked> Yes </Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>250</Slice_Cost_Credits>
@@ -3442,7 +3442,7 @@
 
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>3000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>2700</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3472,7 +3472,7 @@
                 <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
-                <Max_Speed>2.4</Max_Speed>
+                <Max_Speed>2.3</Max_Speed>
                 <Max_Rate_Of_Turn>0.18</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
@@ -3482,8 +3482,8 @@
 
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
-                <Max_Rate_Of_Roll>0.04</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>25</Bank_Turn_Angle>
+                <Max_Rate_Of_Roll>0.05</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>45</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1</Hyperspace_Speed>
@@ -3491,7 +3491,7 @@
 
                 <Death_Clone>Damage_Normal, RA_MC80_HOMEONETYPE_DEATH_CLONE</Death_Clone>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>2000</Slice_Cost_Credits>
@@ -3503,8 +3503,8 @@
                 <Required_Planets>Yaga_Minor_E3, Fondor_E3, Kuat_E3, MonCalimari_E3, Sullust_E3</Required_Planets>
                 <Autoresolve_Health>28520</Autoresolve_Health>
                 <Tactical_Health>16200</Tactical_Health>
-                <Shield_Points>8624</Shield_Points>
-                <Shield_Refresh_Rate>40.8</Shield_Refresh_Rate>
+                <Shield_Points>9000</Shield_Points>
+                <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
                 <Energy_Capacity>8000</Energy_Capacity>
                 <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
                 <Ship_Class>capital</Ship_Class>
@@ -3693,7 +3693,7 @@
                 <Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>8000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>7800</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3715,7 +3715,7 @@
                 <Max_Thrust> 0.05 </Max_Thrust>
                 <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
                 <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
-                <Affiliation> Rebel </Affiliation>
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation>
                 <Ship_Class> capital_ship </Ship_Class>
                 <Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
                 <Remove_Upon_Death>true</Remove_Upon_Death>
@@ -3740,7 +3740,7 @@
                 <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
                 <Ranking_In_Category>5</Ranking_In_Category>
-                <Max_Speed>2.5</Max_Speed>
+                <Max_Speed>2.4</Max_Speed>
                 <Max_Rate_Of_Turn>0.25</Max_Rate_Of_Turn>
                 <MovementClass> Space </MovementClass>
                 <Space_Layer> Capital </Space_Layer>
@@ -3751,7 +3751,7 @@
                 <Armor_Type> Armour_Battleship </Armor_Type>
                 <Shield_Armor_Type>Shield_Battleship_Superior</Shield_Armor_Type>
                 <Max_Rate_Of_Roll>0.06</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>25</Bank_Turn_Angle>
+                <Bank_Turn_Angle>60</Bank_Turn_Angle>
                 <Max_Thrust>0.1</Max_Thrust>
                 <Hyperspace>Yes</Hyperspace>
                 <Hyperspace_Speed>1</Hyperspace_Speed>
@@ -3759,7 +3759,7 @@
 
                 <Death_Clone>Damage_Normal, RA_MC80_LIBERTYTYPE_DEATH_CLONE</Death_Clone>
 
-                <Affiliation>Rebel</Affiliation>
+                <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
                 <Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
                 <Slice_Cost_Credits>2000</Slice_Cost_Credits>
@@ -3771,8 +3771,8 @@
                 <Required_Planets>Yaga_Minor_E3, Fondor_E3, Kuat_E3, MonCalimari_E3, Sullust_E3</Required_Planets>
                 <Autoresolve_Health>12650</Autoresolve_Health>
                 <Tactical_Health>6650</Tactical_Health>
-                <Shield_Points>4200</Shield_Points>
-                <Shield_Refresh_Rate>34</Shield_Refresh_Rate>
+                <Shield_Points>8000</Shield_Points>
+                <Shield_Refresh_Rate>23</Shield_Refresh_Rate>
                 <Energy_Capacity>8000</Energy_Capacity>
                 <Energy_Refresh_Rate>800</Energy_Refresh_Rate>
                 <Ship_Class>capital</Ship_Class>
@@ -3950,7 +3950,7 @@
                 <Score_Cost_Credits> 42500 </Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>5000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>5400</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites/>
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -3972,7 +3972,7 @@
                 <Max_Thrust> 0.05 </Max_Thrust>
                 <Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
                 <Bank_Turn_Angle> 5 </Bank_Turn_Angle>
-                <Affiliation> Rebel </Affiliation>
+                <Affiliation> Rebel, Rebel_Alliance </Affiliation>
                 <Ship_Class> capital_ship </Ship_Class>
                 <Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
                 <Remove_Upon_Death>true</Remove_Upon_Death>

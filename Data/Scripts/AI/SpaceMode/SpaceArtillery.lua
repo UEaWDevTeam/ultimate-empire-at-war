@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce"						
-		,"RA_MARAUDER | NR_MARAUDER | E_BROADSIDE | IR_BROADSIDE = 1,2"
+		,"RA_MARAUDER_DB | NR_MARAUDER_DB | E_BROADSIDE | E_BROADSIDE_DB | IR_BROADSIDE | IR_BROADSIDE_DB = 1,2"
 	},
 	{
 		"EscortForce"		

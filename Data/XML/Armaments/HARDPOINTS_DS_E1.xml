@@ -33,6 +33,11 @@
                 <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
         </HardPoint>
+		
+		<HardPoint Name="HP_SITH_FIGHTER_L_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_FIGHTER_L</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Green_Standard_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
 <!-- Hard points for the Sith bomber -->
 
@@ -61,6 +66,11 @@
                 <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
 
         </HardPoint>
+		
+		<HardPoint Name="HP_SITH_BOMBER_L_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_BOMBER_L</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
         <HardPoint Name="HP_SITH_BOMBER_APPT_01">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -85,6 +95,11 @@
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
     </HardPoint>
+	
+	<HardPoint Name="HP_SITH_BOMBER_APPT_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_BOMBER_APPT_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_AP_Proton_Torp_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
         <HardPoint Name="HP_SITH_BOMBER_APPT_02">
                         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
@@ -109,6 +124,11 @@
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
     </HardPoint>
+	
+		<HardPoint Name="HP_SITH_BOMBER_APPT_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_BOMBER_APPT_0</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_AP_Proton_Torp_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
 
 <!-- Hard points for the Sith Gunboat -->
@@ -140,6 +160,11 @@
                 <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
 
         </HardPoint>
+		
+		<HardPoint Name="HP_SITH_GUNBOAT_L_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_GUNBOAT_L</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
     <HardPoint Name="HP_SITH_GUNBOAT_FLAK">
                         <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -166,6 +191,11 @@
                 <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
 
         </HardPoint>
+		
+		<HardPoint Name="HP_SITH_GUNBOAT_FLAK_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_GUNBOAT_FLAK</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Flak_AS_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
         <HardPoint Name="HP_SITH_GUNBOAT_MCM">
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -188,6 +218,11 @@
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
     </HardPoint>
+	
+	<HardPoint Name="HP_SITH_GUNBOAT_MCM_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_GUNBOAT_MCM</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Conc_Missile_Basic_Medium_Skirmish</Fire_Projectile_Type>
+        </HardPoint>
 
 <!-- Interdictor  Battlecruiser -->
 
@@ -226,6 +261,46 @@
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
 
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+		
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+		
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_03_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_03</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+		
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_04_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_04</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_05_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_05</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_06_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_06</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_07_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_07</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_08_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_MTL_08</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
     </HardPoint>
 
         <HardPoint Name="HP_INTERDICTOR_CRUISER_MTL_02">
@@ -451,6 +526,26 @@
 
     </HardPoint>
 
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_L_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_L_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_L_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_L_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_L_03_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_L_03</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_INTERDICTOR_CRUISER_L_04_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_INTERDICTOR_CRUISER_L_04</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
     <HardPoint Name="HP_INTERDICTOR_CRUISER_L_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -712,6 +807,28 @@
 
     </HardPoint>
 
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_MTL_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_MTL_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_MTL_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_MTL_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_MI_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_MI_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Ion_Cannon_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_MI_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_MI_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Ion_Cannon_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	
    <HardPoint Name="HP_SITH_STAR_DESTROYER_MTL_02">
             <Type> HARD_POINT_WEAPON_LASER </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -825,6 +942,51 @@
     </HardPoint>
 
 <!--Secondary Weapons-->
+
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_03_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_03</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_04_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_04</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_05_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_05</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_06_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_06</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_07_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_HTL_07</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Heavy_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_LTL_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_LTL_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Light_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_SITH_STAR_DESTROYER_LTL_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_SITH_STAR_DESTROYER_LTL_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Light_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
 
     <HardPoint Name="HP_SITH_STAR_DESTROYER_HTL_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
@@ -1890,8 +2052,43 @@
 
     </HardPoint>
 
+	<HardPoint Name="HP_LEVIATHAN_MTL_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_MTL_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_MTL_03_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_03</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
     <!--Secondary Weapons-->
 
+	<HardPoint Name="HP_LEVIATHAN_MTL_04_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_04</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_MTL_05_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_05</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_MTL_06_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_06</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_MTL_07_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_MTL_07</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Turbolaser_Red_Medium_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
         <HardPoint Name="HP_LEVIATHAN_MTL_04">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
@@ -2040,6 +2237,26 @@
 
     </HardPoint>
 
+	<HardPoint Name="HP_LEVIATHAN_L_01_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_L_01</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_L_02_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_L_02</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_L_03_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_L_03</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
+	<HardPoint Name="HP_LEVIATHAN_L_04_SKIRMISH">
+            <Variant_Of_Existing_Type>HP_LEVIATHAN_L_04</Variant_Of_Existing_Type>
+			<Fire_Projectile_Type>Proj_Laser_Red_Standard_Skirmish</Fire_Projectile_Type>
+    </HardPoint>
+	
     <HardPoint Name="HP_LEVIATHAN_L_01">
             <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>

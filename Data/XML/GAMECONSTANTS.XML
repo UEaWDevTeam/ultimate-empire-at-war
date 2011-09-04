@@ -384,19 +384,19 @@
 
         <!-- -->
 
-        <HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
+        <HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY </HardPoint_Target_Reticle_Enemy_Texture>
 
-        <HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
+        <HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
 
-        <HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
+        <HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY </HardPoint_Target_Reticle_Friendly_Texture>
 
-        <HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
+        <HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
 
-        <HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
+        <HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
 
-        <HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
+        <HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY</HardPoint_Target_Reticle_Friendly_Disabled_Texture>
 
-        <HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
+        <HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_HARD_POINT_RETICLE_WEAPONS_SECONDARY_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
         <!-- -->
 
@@ -1031,21 +1031,22 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Shield_Starfighter, 0.7 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Shield_Starfighter_Superior, 0.6 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship_Basic, 0.90 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship, 0.85 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship_Superior, 0.80 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser_Basic, 1.05 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser, 1.0 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser_Superior, 0.95 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate_Basic, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate_Superior, 1.1 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette_Basic, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette_Superior, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter_Basic, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter_Superior, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship_Basic, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship, 0.765 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Battleship_Superior, 0.72 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser_Basic, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Cruiser_Superior, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate_Basic, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Frigate_Superior, 0.99 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette_Basic, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Corvette_Superior, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E1, Armour_Starfighter_Superior, 1.08 </Damage_To_Armor_Mod>
+		
 
         <!-- ERA 1 BASIC TURBOLASER MODIFIER ENDS -->
 
@@ -1066,22 +1067,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Shield_Starfighter_Basic, 0.976 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Shield_Starfighter, 0.854 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Shield_Starfighter_Superior, 0.732 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship_Basic, 0.90 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship, 0.85 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship_Superior, 0.80 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser_Basic, 1.05 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser, 1.0 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser_Superior, 0.95 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate_Basic, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate, 1.15 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate_Superior, 1.1 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette_Basic, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette_Superior, 1.15 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter_Basic, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter_Superior, 1.20 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship_Basic, 1.10 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship, 1.04 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Battleship_Superior, 0.976 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser_Basic, 1.281 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser, 1.22 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Cruiser_Superior, 1.159 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate_Basic, 1.464 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate, 1.403 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Frigate_Superior, 1.342 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette_Basic, 1.525 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette, 1.464 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Corvette_Superior, 1.403 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter_Basic, 1.586 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter, 1.525 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E2, Armour_Starfighter_Superior, 1.464 </Damage_To_Armor_Mod>
+
 
         <!-- ERA 2 BASIC TURBOLASER MODIFIER ENDS -->
 
@@ -1102,23 +1105,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Shield_Starfighter_Basic, 1.122 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Shield_Starfighter, 0.982 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Shield_Starfighter_Superior, 0.842 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship_Basic, 1.10 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship, 1.04 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship_Superior, 0.976 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser_Basic, 1.281 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser, 1.22 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser_Superior, 1.159 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate_Basic, 1.464 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate, 1.403 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate_Superior, 1.342 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette_Basic, 1.525 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette, 1.464 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette_Superior, 1.403 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter_Basic, 1.586 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter, 1.525 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter_Superior, 1.464 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship_Basic, 1.265 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship, 1.196 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Battleship_Superior, 1.122 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser_Basic, 1.473 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser, 1.403 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Cruiser_Superior, 1.333 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate_Basic, 1.684 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate, 1.613 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Frigate_Superior, 1.543 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette_Basic, 1.754 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette, 1.684 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Corvette_Superior, 1.613 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter_Basic, 1.824 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter, 1.754 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E3, Armour_Starfighter_Superior, 1.377 </Damage_To_Armor_Mod>
-
+        
         <!-- ERA 3 BASIC TURBOLASER MODIFIER ENDS -->
 
         <!-- ERA 4 BASIC TURBOLASER STARTS -->
@@ -1138,8 +1142,27 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Shield_Starfighter_Basic, 1.290 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Shield_Starfighter, 1.129 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Shield_Starfighter_Superior, 0.969 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship_Basic, 1.265 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship, 1.196 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship_Superior, 1.122 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Cruiser_Basic, 1.473 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Cruiser, 1.403 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Cruiser_Superior, 1.333 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Frigate_Basic, 1.684 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Frigate, 1.613 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Frigate_Superior, 1.543 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Corvette_Basic, 1.754 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Corvette, 1.684 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Corvette_Superior, 1.613 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter_Basic, 1.824 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter, 1.754 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter_Superior, 1.377 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship_Basic, 1.455 </Damage_To_Armor_Mod>
+
+		<!-- Obsolete - old values saved for quick restore if necessary -->
+		
+      <!--  <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship_Basic, 1.455 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship, 1.375 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Battleship_Superior, 1.290 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Cruiser_Basic, 1.694 </Damage_To_Armor_Mod>
@@ -1153,7 +1176,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Corvette_Superior, 1.855 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter_Basic, 2.098 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter, 2.017 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter_Superior, 1.584 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_E4, Armour_Starfighter_Superior, 1.584 </Damage_To_Armor_Mod> -->
 
         <!-- ERA 4 BASIC TURBOLASER MODIFIER ENDS -->
 
@@ -1174,8 +1197,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Shield_Starfighter_Basic, 0.8 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Shield_Starfighter, 0.7 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Shield_Starfighter_Superior, 0.6 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship_Basic, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship, 0.765 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship_Superior, 0.72 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Cruiser_Basic, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Cruiser, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Cruiser_Superior, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Frigate_Basic, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Frigate, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Frigate_Superior, 0.99 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Corvette_Basic, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Corvette, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Corvette_Superior, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter_Superior, 1.08 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship_Basic, 0.90 </Damage_To_Armor_Mod>
+     <!--   <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship_Basic, 0.90 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship, 0.85 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Battleship_Superior, 0.80 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Cruiser_Basic, 1.05 </Damage_To_Armor_Mod>
@@ -1189,7 +1228,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Corvette_Superior, 1.15 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter_Basic, 1.30 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter_Superior, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Basic_Skirmish, Armour_Starfighter_Superior, 1.20 </Damage_To_Armor_Mod> -->
 
         <!-- SKIRMISH BASIC TURBOLASER MODIFIER ENDS -->
 
@@ -1212,21 +1251,21 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Shield_Starfighter, 0.75 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Shield_Starfighter_Superior, 0.65 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship_Basic, 0.95 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship, 0.90 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship_Superior, 0.85 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship_Basic, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Battleship_Superior, 0.765 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Cruiser_Basic, 1.10 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Cruiser, 1.5 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Cruiser_Superior, 1.0 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate_Basic, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate_Superior, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette_Basic, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette_Superior, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter_Basic, 1.35 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter_Superior, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Cruiser, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Cruiser_Superior, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate_Basic, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Frigate_Superior, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Corvette_Superior, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter_Basic, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E1, Armour_Starfighter_Superior, 1.125 </Damage_To_Armor_Mod>
 
         <!-- ERA 1 SUPERIOR TURBOLASER MODIFIER ENDS -->
 
@@ -1248,22 +1287,22 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Shield_Starfighter, 0.904 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Shield_Starfighter_Superior, 0.782 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship_Basic, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship, 1.09 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship_Superior, 1.026 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser_Basic, 1.331 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser, 1.27 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser_Superior, 1.209 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate_Basic, 1.514 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate, 1.453 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate_Superior, 1.392 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette_Basic, 1.575 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette, 1.514 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette_Superior, 1.453 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter_Basic, 1.636 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter, 1.575 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter_Superior, 1.514 </Damage_To_Armor_Mod>
-
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship_Basic, 0.95 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship, 0.90 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Battleship_Superior, 0.85 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser_Basic, 1.10 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser, 1.05 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Cruiser_Superior, 1.0 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate_Basic, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Frigate_Superior, 1.15 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette_Basic, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Corvette_Superior, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter_Basic, 1.35 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E2, Armour_Starfighter_Superior, 1.25 </Damage_To_Armor_Mod>
+		
         <!-- ERA 2 SUPERIOR TURBOLASER MODIFIER ENDS -->
 
         <!-- ERA 3 SUPERIOR TURBOLASER STARTS -->
@@ -1283,22 +1322,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Shield_Starfighter_Basic, 1.172 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Shield_Starfighter, 1.032 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Shield_Starfighter_Superior, 0.892 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship_Basic, 1.15 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship, 1.09 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship_Superior, 1.026 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser_Basic, 1.331 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser, 1.27 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser_Superior, 1.209 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate_Basic, 1.514 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate, 1.453 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate_Superior, 1.392 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette_Basic, 1.575 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette, 1.514 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette_Superior, 1.453 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter_Basic, 1.636 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter, 1.575 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter_Superior, 1.514 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship_Basic, 1.315 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship, 1.246 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Battleship_Superior, 1.172 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser_Basic, 1.523 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser, 1.453 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Cruiser_Superior, 1.383 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate_Basic, 1.734 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate, 1.663 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Frigate_Superior, 1.593 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette_Basic, 1.804 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette, 1.734 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Corvette_Superior, 1.663 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter_Basic, 1.874 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter, 1.804 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E3, Armour_Starfighter_Superior, 1.427 </Damage_To_Armor_Mod>
+        
 
         <!-- ERA 3 SUPERIOR TURBOLASER MODIFIER ENDS -->
 
@@ -1319,8 +1360,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Shield_Starfighter_Basic, 1.340 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Shield_Starfighter, 1.179 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Shield_Starfighter_Superior, 1.019 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship_Basic, 1.315 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship, 1.246 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship_Superior, 1.172 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Cruiser_Basic, 1.523 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Cruiser, 1.453 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Cruiser_Superior, 1.383 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Frigate_Basic, 1.734 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Frigate, 1.663 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Frigate_Superior, 1.593 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Corvette_Basic, 1.804 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Corvette, 1.734 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Corvette_Superior, 1.663 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter_Basic, 1.874 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter, 1.804 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter_Superior, 1.427 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship_Basic, 1.505 </Damage_To_Armor_Mod>
+       <!-- <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship_Basic, 1.505 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship, 1.425 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Battleship_Superior, 1.340 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Cruiser_Basic, 1.744 </Damage_To_Armor_Mod>
@@ -1334,7 +1391,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Corvette_Superior, 1.905 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter_Basic, 2.148 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter, 2.067 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter_Superior, 1.634 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_E4, Armour_Starfighter_Superior, 1.634 </Damage_To_Armor_Mod> -->
 
         <!-- ERA 4 SUPERIOR TURBOLASER MODIFIER ENDS -->
 
@@ -1356,21 +1413,21 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Shield_Starfighter, 0.75 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Shield_Starfighter_Superior, 0.65 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship_Basic, 0.95 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship, 0.90 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship_Superior, 0.85 </Damage_To_Armor_Mod>
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship_Basic, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Battleship_Superior, 0.765 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Cruiser_Basic, 1.10 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Cruiser, 1.05 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Cruiser_Superior, 1.0 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate_Basic, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate_Superior, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette_Basic, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette_Superior, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter_Basic, 1.35 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter_Superior, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Cruiser, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Cruiser_Superior, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate_Basic, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Frigate_Superior, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Corvette_Superior, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter_Basic, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Superior_Skirmish, Armour_Starfighter_Superior, 1.125 </Damage_To_Armor_Mod>
 
 
         <!-- ERA 1 ADVANCED TURBOLASER STARTS -->
@@ -1391,21 +1448,22 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Shield_Starfighter, 0.80 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Shield_Starfighter_Superior, 0.70 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship, 0.95 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship_Superior, 0.90 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser_Basic, 1.15 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser, 1.55 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser_Superior, 1.05 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate_Basic, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate_Superior, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette_Basic, 1.35 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette, 1.30 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette_Superior, 1.25 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter_Basic, 1.40 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter, 1.35 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter_Superior, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship_Basic, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Battleship_Superior, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser_Basic, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser, 1.395 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Cruiser_Superior, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Frigate_Superior, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette_Basic, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Corvette_Superior, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter_Basic, 1.26 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E1, Armour_Starfighter_Superior, 1.17 </Damage_To_Armor_Mod>
+		
 
         <!-- ERA 1 ADVANCED TURBOLASER MODIFIER ENDS -->
 
@@ -1426,22 +1484,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Shield_Starfighter_Basic, 1.086 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Shield_Starfighter, 0.954 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Shield_Starfighter_Superior, 0.832 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship, 0.95 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship_Superior, 0.90 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser_Basic, 1.15 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser, 1.55 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser_Superior, 1.05 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate_Basic, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate_Superior, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette_Basic, 1.35 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette_Superior, 1.25 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter_Basic, 1.40 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter, 1.35 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter_Superior, 1.30 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship_Basic, 1.20 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship, 1.14 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Battleship_Superior, 1.076 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser_Basic, 1.381 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser, 1.32 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Cruiser_Superior, 1.259 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate_Basic, 1.564 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate, 1.503 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Frigate_Superior, 1.442 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette_Basic, 1.625 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette, 1.564 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Corvette_Superior, 1.503 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter_Basic, 1.686 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter, 1.625 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E2, Armour_Starfighter_Superior, 1.564 </Damage_To_Armor_Mod>
+
 
         <!-- ERA 2 ADVANCED TURBOLASER MODIFIER ENDS -->
 
@@ -1462,22 +1522,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Shield_Starfighter_Basic, 1.222 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Shield_Starfighter, 1.082 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Shield_Starfighter_Superior, 0.942 </Damage_To_Armor_Mod>
+		
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship_Basic, 1.20 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship, 1.14 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship_Superior, 1.076 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser_Basic, 1.381 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser, 1.32 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser_Superior, 1.259 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate_Basic, 1.564 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate, 1.503 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate_Superior, 1.442 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette_Basic, 1.625 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette, 1.564 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette_Superior, 1.503 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter_Basic, 1.686 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter, 1.625 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter_Superior, 1.564 </Damage_To_Armor_Mod>		
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship_Basic, 1.365 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship, 1.296 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Battleship_Superior, 1.222 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser_Basic, 1.573 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser, 1.503 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Cruiser_Superior, 1.433 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate_Basic, 1.784 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate, 1.713 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Frigate_Superior, 1.643 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette_Basic, 1.854 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette, 1.784 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Corvette_Superior, 1.713 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter_Basic, 1.924 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter, 1.854 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E3, Armour_Starfighter_Superior, 1.477 </Damage_To_Armor_Mod>
+        
 
         <!-- ERA 3 ADVANCED TURBOLASER MODIFIER ENDS -->
 
@@ -1498,8 +1560,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Shield_Starfighter_Basic, 1.390 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Shield_Starfighter, 1.229 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Shield_Starfighter_Superior, 1.069 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship_Basic, 1.365 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship, 1.296 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship_Superior, 1.222 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Cruiser_Basic, 1.573 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Cruiser, 1.503 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Cruiser_Superior, 1.433 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Frigate_Basic, 1.784 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Frigate, 1.713 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Frigate_Superior, 1.643 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Corvette_Basic, 1.854 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Corvette, 1.784 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Corvette_Superior, 1.713 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter_Basic, 1.924 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter, 1.854 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter_Superior, 1.477 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship_Basic, 1.555 </Damage_To_Armor_Mod>
+       <!-- <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship_Basic, 1.555 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship, 1.475 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Battleship_Superior, 1.390 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Cruiser_Basic, 1.794 </Damage_To_Armor_Mod>
@@ -1513,7 +1591,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Corvette_Superior, 1.955 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter_Basic, 2.198 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter, 2.117 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter_Superior, 1.684 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_E4, Armour_Starfighter_Superior, 1.684 </Damage_To_Armor_Mod> -->
 
         <!-- ERA 4 ADVANCED TURBOLASER MODIFIER ENDS -->
 
@@ -1534,8 +1612,24 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Shield_Starfighter_Basic, 0.90 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Shield_Starfighter, 0.80 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Shield_Starfighter_Superior, 0.70 </Damage_To_Armor_Mod>
+		
+		<Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship_Basic, 0.9 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship, 0.855 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship_Superior, 0.81 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Cruiser_Basic, 1.035 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Cruiser, 1.395 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Cruiser_Superior, 0.945 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Frigate_Basic, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Frigate, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Frigate_Superior, 1.08 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Corvette_Basic, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Corvette, 1.17 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Corvette_Superior, 1.125 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter_Basic, 1.26 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter, 1.215 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter_Superior, 1.17 </Damage_To_Armor_Mod>
 
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
+        <!-- <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship_Basic, 1.0 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship, 0.95 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Battleship_Superior, 0.90 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Cruiser_Basic, 1.15 </Damage_To_Armor_Mod>
@@ -1549,7 +1643,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Corvette_Superior, 1.25 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter_Basic, 1.35 </Damage_To_Armor_Mod>
         <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter, 1.35 </Damage_To_Armor_Mod>
-        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter_Superior, 1.30 </Damage_To_Armor_Mod>
+        <Damage_To_Armor_Mod> Damage_Turbolaser_Advanced_Skirmish, Armour_Starfighter_Superior, 1.30 </Damage_To_Armor_Mod> -->
         <!-- SKIRMISH ADVANCED TURBOLASER MODIFIER ENDS -->
 
 
