@@ -130,10 +130,10 @@
         <Corruption_Path_Offset>0, 0, 0</Corruption_Path_Offset>
 
         <!-- GMC - Galactic Mode camera 3D galaxy map settings -->
-        <GMC_InitialPitchAngleDegrees>-20.0</GMC_InitialPitchAngleDegrees>
-    <GMC_ZoomedPitchAngleDegrees>-25.0</GMC_ZoomedPitchAngleDegrees>
-    <GMC_InitialPullbackDistance>700.0</GMC_InitialPullbackDistance>
-    <GMC_ZoomedPullbackPlanetRadiusFraction>3.0</GMC_ZoomedPullbackPlanetRadiusFraction>
+    <GMC_InitialPitchAngleDegrees>-42.0</GMC_InitialPitchAngleDegrees>
+    <GMC_ZoomedPitchAngleDegrees>-30.0</GMC_ZoomedPitchAngleDegrees>
+    <GMC_InitialPullbackDistance>750.0</GMC_InitialPullbackDistance>
+    <GMC_ZoomedPullbackPlanetRadiusFraction>6.0</GMC_ZoomedPullbackPlanetRadiusFraction>
     <GMC_ZoomedPositionOffsetPlanetRadiusFractions>0.0, 0.0, 1.05</GMC_ZoomedPositionOffsetPlanetRadiusFractions>
     <GMC_ZoomTime>0.65</GMC_ZoomTime>
     <GMC_Battle_Zoom_Time>1.0</GMC_Battle_Zoom_Time>
@@ -750,11 +750,11 @@
         <XYExpansionDistanceLand> 60.0 </XYExpansionDistanceLand>
 
         <!-- Shield flashing effect -->
-        <Shield_Flash_Scale> 1.0, 1.1, 1.25 </Shield_Flash_Scale>
-        <Shield_Flash_Duration> 0.1 </Shield_Flash_Duration>
+        <Shield_Flash_Scale> 1.25, 1.35, 1.50 </Shield_Flash_Scale>
+        <Shield_Flash_Duration> 0.15 </Shield_Flash_Duration>
 
         <!-- How closely to tie hull vs. hard point healths together in releation to one another -->
-        <Hull_Vs_Hard_Points_Health_Constraint> 0.2 </Hull_Vs_Hard_Points_Health_Constraint>
+        <Hull_Vs_Hard_Points_Health_Constraint> 1.0 </Hull_Vs_Hard_Points_Health_Constraint>
 
         <!-- An object being influenced by a telekinesis effect -->
         <Telekinesis_Hover_Height>22.0</Telekinesis_Hover_Height>
@@ -3368,7 +3368,7 @@ Turbolasers saw extensive action against all forms of capital ships, against the
         <Ion_Storm_Shield_Disable_Time>5.0</Ion_Storm_Shield_Disable_Time>
         <Nebula_Ability_Disable_Time>5.0</Nebula_Ability_Disable_Time>
     <Force_Ability_Disable_Time>0.0</Force_Ability_Disable_Time>
-        <Depleted_Shield_Disable_Time>1.0</Depleted_Shield_Disable_Time>
+        <Depleted_Shield_Disable_Time>0.5</Depleted_Shield_Disable_Time>
         <Depleted_Shield_Damage_Increment>0.0</Depleted_Shield_Damage_Increment>
        <!-- <Depleted_Shield_Regen_Cap>0.25</Depleted_Shield_Regen_Cap> -->
 

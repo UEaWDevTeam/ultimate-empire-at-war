@@ -32,22 +32,22 @@
                 <Hyperspace_Speed>0.5</Hyperspace_Speed>
 
                 <Affiliation>Rebel, Rebel_Alliance</Affiliation>
-                <Shield_Points>14</Shield_Points>
-                <Tactical_Health>50</Tactical_Health>
+                <Shield_Points>25</Shield_Points>
+                <Tactical_Health>60</Tactical_Health>
                 <Autoresolve_Health>70</Autoresolve_Health>
-                <Shield_Refresh_Rate>0.34</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>1.0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
                 <Ship_Class>fighter</Ship_Class>
 
-                <Armor_Type> Armour_Starfighter_Basic</Armor_Type>
+                <Armor_Type> Armour_Starfighter</Armor_Type>
                 <Shield_Armor_Type>Shield_Starfighter_Basic</Shield_Armor_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Number_per_Squadron>12</Number_per_Squadron>
-                <Size_Value>4</Size_Value>
+                <Size_Value>6</Size_Value>
 
                 <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
@@ -109,7 +109,7 @@
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
                 <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
-                <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+                <Targeting_Priority_Set>Z95</Targeting_Priority_Set>
 
                 <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
                 <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -138,7 +138,7 @@
                 <Encyclopedia_Good_Against> E_TIE_BOMBER E_TIE_SCOUT</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER E_IPV_PATROL_CRAFT</Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_z95_headhunter.tga</Icon_Name>
-
+				<Targeting_Priority_Set>Z95</Targeting_Priority_Set>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
                 <Formation_Priority>1</Formation_Priority>
@@ -247,10 +247,10 @@
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
                 <Affiliation>Rebel, Rebel_Alliance</Affiliation>
-                <Shield_Points>30</Shield_Points>
-                <Tactical_Health>60</Tactical_Health>
+                <Shield_Points>38</Shield_Points>
+                <Tactical_Health>80</Tactical_Health>
                 <Autoresolve_Health>100</Autoresolve_Health>
-                <Shield_Refresh_Rate>0.85</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>1.5</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
                 <Ship_Class>fighter</Ship_Class>
@@ -262,7 +262,7 @@
                 <Is_Bomber>no</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Number_per_Squadron>12</Number_per_Squadron>
-                <Size_Value>4</Size_Value>
+                <Size_Value>6</Size_Value>
 
                 <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
@@ -331,7 +331,7 @@
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
                 <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
-                <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+                <Targeting_Priority_Set>T65</Targeting_Priority_Set>
 
                 <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
                 <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -372,7 +372,7 @@
                 <Encyclopedia_Good_Against> E_TIE_FIGHTER E_TIE_BOMBER</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_x_wing.tga</Icon_Name>
-
+				<Targeting_Priority_Set>T65</Targeting_Priority_Set>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
                 <Formation_Priority>1</Formation_Priority>
@@ -493,10 +493,10 @@
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
                 <Affiliation>Rebel, Rebel_Alliance</Affiliation>
-                <Shield_Points>21</Shield_Points>
-                <Tactical_Health>45</Tactical_Health>
+                <Shield_Points>40</Shield_Points>
+                <Tactical_Health>60</Tactical_Health>
                 <Autoresolve_Health>75</Autoresolve_Health>
-                <Shield_Refresh_Rate>0.85</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
                 <Energy_Capacity>600</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
                 <Ship_Class>fighter</Ship_Class>
@@ -508,7 +508,7 @@
                 <Is_Bomber>no</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Number_per_Squadron>12</Number_per_Squadron>
-                <Size_Value>1</Size_Value>
+                <Size_Value>3</Size_Value>
 
                 <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA, ABILITY_COUNTDOWN, LURE </SpaceBehavior>
 
@@ -573,7 +573,7 @@
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
                 <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
-                <Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+                <Targeting_Priority_Set>RZ1</Targeting_Priority_Set>
 
                 <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
                 <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -641,14 +641,14 @@
 
         </SpaceUnit>
 
-                <Squadron Name="RA_A-WING_SQUADRON">
+        <Squadron Name="RA_A-WING_SQUADRON">
                 <Text_ID>TEXT_UNIT_A_WING_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
                 <Encyclopedia_Good_Against> E_TIE_FIGHTER E_TIE_BOMBER E_TIE_DEFENDER</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_a_wing.tga</Icon_Name>
-
+				<Targeting_Priority_Set>RZ1</Targeting_Priority_Set>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
                 <Formation_Priority>1</Formation_Priority>
@@ -781,10 +781,10 @@
                 <Hyperspace_Speed>1.0</Hyperspace_Speed>
 
                 <Affiliation>Rebel, Rebel_Alliance</Affiliation>
-                <Shield_Points>35</Shield_Points>
-                <Tactical_Health>75</Tactical_Health>
+                <Shield_Points>75</Shield_Points>
+                <Tactical_Health>95</Tactical_Health>
                 <Autoresolve_Health>125</Autoresolve_Health>
-                <Shield_Refresh_Rate>0.85</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>1.3</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
                 <Ship_Class>bomber</Ship_Class>
@@ -796,7 +796,7 @@
                 <Is_Bomber>yes</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Number_per_Squadron>12</Number_per_Squadron>
-                <Size_Value>3</Size_Value>
+                <Size_Value>6</Size_Value>
 
                 <SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
@@ -863,7 +863,7 @@
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
                 <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
-                <Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+                <Targeting_Priority_Set>BTL</Targeting_Priority_Set>
 
                 <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
                 <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -889,10 +889,10 @@
                 <Text_ID>TEXT_UNIT_Y_WING_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
-               <Encyclopedia_Good_Against> E_ACCLAMATOR_ASSAULT_FRIGATE_I E_VICTORY_I</Encyclopedia_Good_Against>
+				<Encyclopedia_Good_Against> E_ACCLAMATOR_ASSAULT_FRIGATE_I E_VICTORY_I</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER E_TIE_FIGHTER E_TIE_INTERCEPTOR </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_y_wing.tga</Icon_Name>
-
+				<Targeting_Priority_Set>BTL</Targeting_Priority_Set>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
                 <Formation_Priority>1</Formation_Priority>
@@ -1002,9 +1002,9 @@
 
                 <Affiliation>Rebel, Rebel_Alliance</Affiliation>
                 <Shield_Points>53</Shield_Points>
-                <Tactical_Health>60</Tactical_Health>
+                <Tactical_Health>90</Tactical_Health>
                 <Autoresolve_Health>120</Autoresolve_Health>
-                <Shield_Refresh_Rate>0.85</Shield_Refresh_Rate>
+                <Shield_Refresh_Rate>2.5</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
                 <Ship_Class>bomber</Ship_Class>
@@ -1016,7 +1016,7 @@
                 <Is_Bomber>yes</Is_Bomber>
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Number_per_Squadron>12</Number_per_Squadron>
-                <Size_Value>3</Size_Value>
+                <Size_Value>6</Size_Value>
 
                 <SpaceBehavior>FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 
@@ -1086,7 +1086,7 @@
                 <Create_Team>Yes</Create_Team>
                 <AI_Combat_Power>60</AI_Combat_Power>
                 <Collision_Box_Modifier>2.0</Collision_Box_Modifier>
-                <Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
+                <Targeting_Priority_Set>BWING</Targeting_Priority_Set>
 
                 <Spin_Away_On_Death>Yes</Spin_Away_On_Death>
                 <Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
@@ -1122,7 +1122,7 @@
                 <Encyclopedia_Good_Against> E_ACCLAMATOR_ASSAULT_FRIGATE_II E_VICTORY_II E_ISDI </Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_TARTAN_CRUISER E_TIE_INTERCEPTOR</Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_RV_bwing.tga</Icon_Name>
-
+				<Targeting_Priority_Set>BWING</Targeting_Priority_Set>
                 <GUI_Row> 0 </GUI_Row>
                 <Is_Dummy>Yes</Is_Dummy>
                 <Formation_Priority>1</Formation_Priority>
@@ -1232,17 +1232,17 @@
         <!-- Basic Stats -->
                 <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> corvette </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
-                <CategoryMask> Corvette | AntiFighter | AntiBomber</CategoryMask>
+                <CategoryMask> Corvette | AntiFighter | AntiBomber | AntiCorvette</CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
                 <Is_Escort>Yes</Is_Escort> <!-- Is this an escort unit || yes or no -->
                 <Is_Bomber>no </Is_Bomber> <!-- Is this a bomber unit || As above -->
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Tactical_Health> 750 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Tactical_Health> 1250 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 1430 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 1500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
-                <Shield_Refresh_Rate> 5.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
+                <Shield_Refresh_Rate> 6.5 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 1500 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 300 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
                 <Armor_Type> Armour_Corvette </Armor_Type> <!-- The armour type of the ship || Denotes weapon vulnerabilities/Strengths -->
@@ -1251,7 +1251,7 @@
                 <AI_Combat_Power>1250 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 1250 </Score_Cost_Credits> <!-- Unsure of this one -->
                 <Number_per_Squadron> 1 </Number_per_Squadron> <!-- How many instances of the unit per Galactic Unit -->
-                <Size_Value>120</Size_Value> <!-- Unsure of this one -->
+                <Size_Value>100</Size_Value> <!-- Unsure of this one -->
         <!-- Build stats -->
                 <Build_Cost_Credits> 1250 </Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
                 <Build_Initially_Locked> Yes</Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
@@ -1275,7 +1275,7 @@
 
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 3.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
-                <Max_Rate_Of_Turn> 0.7 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
+                <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.85 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 70 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
@@ -1396,7 +1396,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+                <Targeting_Priority_Set>CR90</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
                 <Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 
@@ -1446,7 +1446,7 @@
                 <Political_Control>0</Political_Control> <!-- Redundant Tag - leave as 0 -->
                 <Victory_Relevant> yes </Victory_Relevant> <!-- Stick to yes -->
 
-                <Tactical_Health> 300 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
+                <Tactical_Health> 1000 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total-->
                 <Autoresolve_Health> 1200 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
                 <Shield_Points> 2000 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 9.0 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
@@ -1458,7 +1458,7 @@
                 <AI_Combat_Power>1350 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits>1350</Score_Cost_Credits> <!-- Unsure of this one -->
                 <Number_per_Squadron>1</Number_per_Squadron> <!-- How many instances of the unit per Galactic Unit -->
-                <Size_Value>2</Size_Value> <!-- Unsure of this one -->
+                <Size_Value>100</Size_Value> <!-- Unsure of this one -->
         <!-- Build stats -->
                 <Build_Cost_Credits> 1350</Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
                 <Build_Initially_Locked> yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
@@ -1613,7 +1613,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>DP20</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 
@@ -1685,7 +1685,7 @@
                 <Required_Planets/>
                 <Autoresolve_Health>1720</Autoresolve_Health>
                 <Shield_Points>1000</Shield_Points>
-                <Tactical_Health>1000</Tactical_Health>
+                <Tactical_Health>1400</Tactical_Health>
                 <Shield_Refresh_Rate>6</Shield_Refresh_Rate>
                 <Energy_Capacity>1500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -1782,7 +1782,7 @@
                 <Idle_Chase_Range>0</Idle_Chase_Range>
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>SpaceArtillery</Targeting_Priority_Set>
+                <Targeting_Priority_Set>Marauder</Targeting_Priority_Set>
 
                 <Tactical_Bribe_Cost>900</Tactical_Bribe_Cost>
 
@@ -1858,7 +1858,7 @@
                 <Variant_Of_Existing_Type>RA_MARAUDER</Variant_Of_Existing_Type>
                 <Text_ID>TEXT_UNIT_MARAUDER_M</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_MARAUDER_M</Encyclopedia_Text>
-
+				<Targeting_Priority_Set>SpaceArtillery</Targeting_Priority_Set>
                                 <Encyclopedia_Good_Against> E_TIE_BOMBER E_BROADSIDE E_ACCLAMATOR_ASSAULT_FRIGATE_I</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> E_VICTORY_I E_ISDI</Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_marauder_m.tga</Icon_Name>
@@ -1920,7 +1920,7 @@
                 <AI_Combat_Power>2200 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2250 </Score_Cost_Credits> <!-- Unsure of this one -->
                 <Number_per_Squadron> 1</Number_per_Squadron> <!-- How many instances of the unit per Galactic Unit -->
-                <Size_Value>8</Size_Value> <!-- Unsure of this one -->
+                <Size_Value>135</Size_Value> <!-- Unsure of this one -->
         <!-- Build stats -->
                 <Build_Cost_Credits> 2200 </Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
@@ -2105,7 +2105,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>EF76H</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 
@@ -2150,7 +2150,7 @@
         <!-- Basic Stats -->
                 <Affiliation> Rebel, Rebel_Alliance </Affiliation> <!-- The faction this unit will represent || Multiple entries seperated by a comma and space ", " || Originally Empire -->
                 <Ship_Class> Frigate </Ship_Class> <!-- The type of ship the unit is || One entry allowed || -->
-                <CategoryMask> Frigate | AntiCorvette </CategoryMask>
+                <CategoryMask> Frigate | AntiFighter | AntiBomber | AntiCorvette </CategoryMask>
                 <Formation_Priority> 3 </Formation_Priority>
                 <Is_Escort> Yes</Is_Escort> <!-- Is this an escort unit || yes or no -->
                 <Is_Bomber> No </Is_Bomber> <!-- Is this a bomber unit || As above -->
@@ -2169,7 +2169,7 @@
                 <AI_Combat_Power>2300 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2250 </Score_Cost_Credits> <!-- Unsure of this one -->
                 <Number_per_Squadron> 1</Number_per_Squadron> <!-- How many instances of the unit per Galactic Unit -->
-                <Size_Value>8</Size_Value> <!-- Unsure of this one -->
+                <Size_Value>135</Size_Value> <!-- Unsure of this one -->
         <!-- Build stats -->
                 <Build_Cost_Credits> 2200 </Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
@@ -2192,7 +2192,7 @@
                 <Space_Layer> Frigate </Space_Layer> <!-- Match this to the typ of unit -->
 
                 <Layer_Z_Adjust> -90.0</Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
-                <Max_Speed> 2.5 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
+                <Max_Speed> 2.4 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
                 <Max_Rate_Of_Roll> 0.6 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 5</Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
@@ -2355,7 +2355,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>EF76</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
                 <Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
 
@@ -2419,7 +2419,7 @@
                 <AI_Combat_Power>2500 </AI_Combat_Power> <!-- Used in Autoresolve calculations -->
                 <Score_Cost_Credits> 2500 </Score_Cost_Credits> <!-- Unsure of this one -->
                 <Number_per_Squadron> 1</Number_per_Squadron> <!-- How many instances of the unit per Galactic Unit -->
-                <Size_Value>8</Size_Value> <!-- Unsure of this one -->
+                <Size_Value>130</Size_Value> <!-- Unsure of this one -->
         <!-- Build stats -->
                 <Build_Cost_Credits> 2700 </Build_Cost_Credits> <!-- How many credits will be deducted from the Galactic Total on creation -->
                 <Build_Initially_Locked> Yes </Build_Initially_Locked> <!-- Must the unit be unlocked before creation -->
@@ -2582,7 +2582,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>MC30</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         </SpaceUnit>
@@ -2617,7 +2617,7 @@
                 <Encyclopedia_Vulnerable_To> E_TIE_BOMBER E_VICTORY_I E_ISDI </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
                 <Moniker>Alliance_Assault_Frigate.txt</Moniker>
-
+				<Size_Value>175</Size_Value>
                 <Icon_Name>I_BUTTON_ASSAULT_FRIGATE_1.TGA</Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
                 <Space_Model_Name>VCFr_ASSAULT_FRIGATE_MK_I.ALO </Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
@@ -2808,7 +2808,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>AF1</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>1400.0</Targeting_Max_Attack_Distance>
 
         </SpaceUnit>
@@ -2841,7 +2841,7 @@
                 <Encyclopedia_Vulnerable_To> E_TIE_BOMBER E_ISDII </Encyclopedia_Vulnerable_To> <!-- Multiple entries seperated by a single space " "  || Max of 3-->
 
                 <Moniker>Alliance_Assault_Frigate.txt</Moniker>
-
+				<Size_Value>200</Size_Value>
                 <Icon_Name> i_button_alliance_assault_frigate.tga </Icon_Name> <!-- The icon name for the unit || Orignally = UEAW_BUTTON_DREADNAUGHT_Rebel.tga = || Ensure .tga extension -->
         <!-- Unit model details -->
                 <Space_Model_Name>VCFr_ASSAULTFRIGATE_MK_II.ALO</Space_Model_Name> <!-- The model that will be displayed || Originally = UEAW_Dreadnaught_Empire.alo = || Ensure .alo extension -->
@@ -3044,7 +3044,7 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
         <!-- Targetting Stats -->
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>AF2</Targeting_Priority_Set>
                 <Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
         </SpaceUnit>
@@ -3128,7 +3128,7 @@
                 <AI_Combat_Power>2000</AI_Combat_Power>
                 <Build_Time_Seconds>35</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Size_Value>2</Size_Value>
+                <Size_Value>175</Size_Value>
                 <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 
@@ -3219,7 +3219,7 @@
                 <Idle_Chase_Range>0</Idle_Chase_Range>
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>Dreadnaught</Targeting_Priority_Set>
 
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <Unit_Ability>
@@ -3329,7 +3329,7 @@
                 <AI_Combat_Power>2000</AI_Combat_Power>
                 <Build_Time_Seconds>35</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Size_Value>2</Size_Value>
+                <Size_Value>175</Size_Value>
                 <Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
                 <SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON</SpaceBehavior>
 
@@ -3420,7 +3420,7 @@
                 <Idle_Chase_Range>0</Idle_Chase_Range>
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+                <Targeting_Priority_Set>Dreadnaught</Targeting_Priority_Set>
 
                 <Unit_Abilities_Data SubObjectList="Yes">
                         <Unit_Ability>
@@ -3467,7 +3467,7 @@
                 <Select_Box_Scale>600</Select_Box_Scale>
                 <Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
                 <Mass>0.995</Mass>
-                <Scale_Factor>0.13</Scale_Factor>
+                <Scale_Factor>0.17</Scale_Factor>
                 <Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
                 <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
                 <Multisample_FOW_Check>Yes</Multisample_FOW_Check>
@@ -3516,7 +3516,7 @@
                 <AI_Combat_Power>4250</AI_Combat_Power>
                 <Build_Time_Seconds>90</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-                <Size_Value>360</Size_Value>
+                <Size_Value>350</Size_Value>
                 <Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
                 <SpaceBehavior>
                          SPAWN_SQUADRON,
@@ -3640,7 +3640,7 @@
                 <Idle_Chase_Range>0.0</Idle_Chase_Range>
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+                <Targeting_Priority_Set>MC80</Targeting_Priority_Set>
 
                 <Tactical_Bribe_Cost>3000</Tactical_Bribe_Cost>
 
@@ -3896,7 +3896,7 @@
                 <Idle_Chase_Range>0.0</Idle_Chase_Range>
                 <Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
                 <Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-                <Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+                <Targeting_Priority_Set>MC80</Targeting_Priority_Set>
 
                 <Tactical_Bribe_Cost>3000</Tactical_Bribe_Cost>
 

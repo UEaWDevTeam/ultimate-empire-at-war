@@ -614,9 +614,10 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
-                <Shield_Points>500</Shield_Points>
+                <Shield_Points>1500</Shield_Points>
                 <Tactical_Health>1200</Tactical_Health>
                 <Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+				<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
                 <Energy_Capacity>10000</Energy_Capacity>
                 <Energy_Refresh_Rate>20</Energy_Refresh_Rate>
                 <Projectile_Types>Proj_Turbolaser_Red_Light_Skirmish</Projectile_Types>
@@ -781,13 +782,14 @@
                 <Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
                 <GUI_Bracket_Size>1</GUI_Bracket_Size>
                 <GUI_Row> 0 </GUI_Row>
+				<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 
                 <SpaceBehavior> TACTICAL_SELL, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, SHIELDED, DAMAGE_TRACKING, TACTICAL_SELL </SpaceBehavior>
 
                 <Affiliation>Rebel_Alliance</Affiliation>
                 <Size_Value>30</Size_Value>
                 <Armor_Type> Armour_Cruiser </Armor_Type>
-                <Shield_Points>700</Shield_Points>
+                <Shield_Points>1800</Shield_Points>
                 <Shield_Refresh_Rate>25</Shield_Refresh_Rate>
                 <Tactical_Health>1100</Tactical_Health>
                 <Energy_Capacity>10000</Energy_Capacity>
@@ -958,8 +960,8 @@
                 <Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
                 <Affiliation>Galactic_Empire</Affiliation>
                 <Size_Value>30</Size_Value>
-
-                <Shield_Points>500</Shield_Points>
+				<Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+                <Shield_Points>1500</Shield_Points>
                 <Tactical_Health>1000</Tactical_Health>
                 <Shield_Refresh_Rate>20</Shield_Refresh_Rate>
                 <Energy_Capacity>10000</Energy_Capacity>
@@ -1172,6 +1174,7 @@
                 <GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
                 <Behavior> SPACE_OBSTACLE, TACTICAL_BUILD_OBJECTS, REVEAL, CAPTURE_POINT, HIDE_WHEN_FOGGED </Behavior>
 
+
                 <Tactical_Buildable_Objects_Multiplayer>
                         Old_Republic,
                                 UC_OR_Mineral_Extractor,
@@ -1300,8 +1303,8 @@
                 <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
                 <Space_Layer> StaticObject </Space_Layer>
 
-                <Tactical_Health>1700</Tactical_Health>
-                <Tactical_Build_Cost_Multiplayer> 850 </Tactical_Build_Cost_Multiplayer>
+                <Tactical_Health>2000</Tactical_Health>
+                <Tactical_Build_Cost_Multiplayer> 1200 </Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds> 35 </Tactical_Build_Time_Seconds>
                 <Has_Space_Evaluator>True</Has_Space_Evaluator>
                 <Encyclopedia_Text> TEXT_STRUCTURE_GENERIC_PAD_UC </Encyclopedia_Text>
@@ -1411,7 +1414,7 @@
 
                 <GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 
-                <SpaceBehavior> SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, UNIT_AI, DAMAGE_TRACKING, IDLE, HIDE_WHEN_FOGGED </SpaceBehavior>
+                <SpaceBehavior>SHIELDED, SPACE_OBSTACLE, DUMMY_ORBITAL_STRUCTURE, SELECTABLE, REVEAL, UNIT_AI, DAMAGE_TRACKING, IDLE, HIDE_WHEN_FOGGED </SpaceBehavior>
                 <Scale_Factor>0.75 </Scale_Factor>
 
                 <Text_ID> TEXT_ASTEROID_MINING_FACILITY </Text_ID>
@@ -1480,7 +1483,7 @@
 
 				
 				<Shield_Points>2000</Shield_Points>
-                <Tactical_Health>70</Tactical_Health>
+                <Tactical_Health>2000</Tactical_Health>
                 <Shield_Refresh_Rate>5</Shield_Refresh_Rate>
 				<Shield_Armor_Type>Shield_Cruiser</Shield_Armor_Type>
                 <Tactical_Health>2000</Tactical_Health>

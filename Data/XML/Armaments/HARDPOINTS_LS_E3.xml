@@ -54,8 +54,8 @@
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 6.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 4.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 7.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -77,7 +77,7 @@
             <Fire_Max_Recharge_Seconds>20.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>1</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>600.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -102,8 +102,8 @@
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -127,8 +127,8 @@
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_X_Wing_Fire</Fire_SFXEvent>
 
-               <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+				<Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -193,7 +193,7 @@
             <Fire_Bone_B>MuzzleB_01</Fire_Bone_B>
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
-            <Fire_Projectile_Type>Proj_SO_Proton_Torp_E3</Fire_Projectile_Type>
+            <Fire_Projectile_Type>Proj_SO_Heavy_Proton_Torp_E3</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>120.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>120.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
@@ -203,7 +203,7 @@
 
             <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>s
+            <Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
         </HardPoint>
 
@@ -219,14 +219,14 @@
                 <Fire_Cone_Width>20.0</Fire_Cone_Width>
                 <Fire_Cone_Height>120.0</Fire_Cone_Height> <!-- see wookieepedia -->
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
-                <Projectile_Fire_Recharge_Seconds>1.1</Projectile_Fire_Recharge_Seconds>
+                <Projectile_Fire_Recharge_Seconds>0.7</Projectile_Fire_Recharge_Seconds>
                 <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_A_Wing_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 5.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 5.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -244,12 +244,14 @@
             <Fire_Cone_Width>30.0</Fire_Cone_Width>
             <Fire_Cone_Height>30.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_Basic_E3_Light</Fire_Projectile_Type>
-            <Fire_Min_Recharge_Seconds>60.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>60.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>6</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>4.0</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>500.0</Fire_Range_Distance>
+            <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>16.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>3</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>1.0</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>600.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+			
+			
 
         </HardPoint>
 
@@ -272,8 +274,8 @@
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 6.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 6.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -345,13 +347,13 @@
                 <Fire_Cone_Height>20.0</Fire_Cone_Height>
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Standard</Fire_Projectile_Type>
                 <Projectile_Fire_Recharge_Seconds>0.4</Projectile_Fire_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 2.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -371,13 +373,13 @@
                 <Fire_Projectile_Type>Proj_Laser_E3_Red_Heavy</Fire_Projectile_Type>
                 <Fire_Min_Recharge_Seconds>0.6</Fire_Min_Recharge_Seconds>
                 <Fire_Max_Recharge_Seconds>0.6</Fire_Max_Recharge_Seconds>
-                <Fire_Pulse_Count>1</Fire_Pulse_Count>
+                <Fire_Pulse_Count>2</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0</Fire_Pulse_Delay_Seconds>
                 <Fire_Range_Distance>300.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 6.5 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 6.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -516,7 +518,7 @@
 
             <Model_To_Attach>VCCo_CR90_BT.ALO</Model_To_Attach>
             <Attachment_Bone>TURRET_BOTTOM_ATTACH</Attachment_Bone>
-            <Collision_Mesh>TURRET_TOP_ATTACH_COLL</Collision_Mesh>
+            <Collision_Mesh />
 
             <Fire_Bone_A>BF_01</Fire_Bone_A>
             <Fire_Bone_B>BF_02</Fire_Bone_B>
@@ -564,13 +566,13 @@
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -592,13 +594,13 @@
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -620,13 +622,13 @@
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -648,13 +650,13 @@
             <Fire_Projectile_Type>Proj_Turbolaser_E3_Red_Light</Fire_Projectile_Type>
             <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
             <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>800.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -680,7 +682,7 @@
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -701,7 +703,7 @@
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1350.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
@@ -722,9 +724,9 @@
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1700.0</Fire_Range_Distance>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
-
+<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 
     </HardPoint>
@@ -743,10 +745,10 @@
             <Fire_Max_Recharge_Seconds>6.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.15</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1700.0</Fire_Range_Distance>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-
+	<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_DP20_E3_L_01">
@@ -768,8 +770,8 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0</Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -798,8 +800,8 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0</Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -827,8 +829,8 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0</Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 8.0</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -855,8 +857,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -883,8 +885,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -910,8 +912,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -938,8 +940,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-            <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 7.5 </Fire_Inaccuracy_Distance>
@@ -1049,7 +1051,7 @@
             <Fire_Max_Recharge_Seconds>50</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>3500.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
 
    </HardPoint>
@@ -1068,7 +1070,7 @@
             <Fire_Max_Recharge_Seconds>50</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>10</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>2500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>3500.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Boron_Missile_Fire</Fire_SFXEvent>
 
    </HardPoint>
@@ -1096,7 +1098,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1123,8 +1125,8 @@
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1138,7 +1140,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1165,8 +1167,8 @@
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1179,7 +1181,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1197,12 +1199,12 @@
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1218,7 +1220,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1237,12 +1239,12 @@
             <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>6</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1256,7 +1258,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>500.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1282,8 +1284,8 @@
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 			<Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1297,7 +1299,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>500.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1323,8 +1325,8 @@
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1338,7 +1340,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>500.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1360,8 +1362,8 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1375,7 +1377,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>500.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1397,8 +1399,8 @@
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1412,7 +1414,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>700.0</Health>
 
                                 <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1437,7 +1439,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-            <Health>260.0</Health>
+            <Health>550.0</Health>
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
             <Attachment_Bone>HP_B-R_BONE</Attachment_Bone>
@@ -1467,7 +1469,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>850.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1494,8 +1496,8 @@
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1509,7 +1511,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>850.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1536,8 +1538,8 @@
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 8.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -1551,7 +1553,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1577,8 +1579,8 @@
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1591,7 +1593,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -1617,8 +1619,8 @@
             <Fire_Range_Distance>1150.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 6.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 4.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -1644,7 +1646,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>180.0</Health>
+            <Health>700.0</Health>
 
                                 <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -1666,7 +1668,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>600.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1706,6 +1708,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 12.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 7.5 </Fire_Inaccuracy_Distance>
+				
+				<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_MTL_02">
@@ -1713,7 +1717,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>600.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1752,6 +1756,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 12.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 7.5 </Fire_Inaccuracy_Distance>
+				
+				<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_MTL_03">
@@ -1759,7 +1765,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>600.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1798,6 +1804,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 12.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 7.5 </Fire_Inaccuracy_Distance>
+				
+				<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_MTL_04">
@@ -1805,7 +1813,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>600.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -1844,6 +1852,8 @@
                 <Fire_Inaccuracy_Distance> Frigate, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Capital, 12.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 7.5 </Fire_Inaccuracy_Distance>
+				
+				<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_HL_01">
@@ -1851,7 +1861,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_09</Attachment_Bone>
             <Collision_Mesh>HP_09_COLL</Collision_Mesh>
             <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
@@ -1867,11 +1877,11 @@
                 <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
                 <Fire_Pulse_Count>12</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-                <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+                <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 7.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -1884,7 +1894,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_08</Attachment_Bone>
             <Collision_Mesh>HP_08_COLL</Collision_Mesh>
             <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
@@ -1900,11 +1910,11 @@
                 <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
                 <Fire_Pulse_Count>12</Fire_Pulse_Count>
                 <Fire_Pulse_Delay_Seconds>0.25</Fire_Pulse_Delay_Seconds>
-                <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+                <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                <Fire_Inaccuracy_Distance> Fighter, 9.0 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 7.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -1919,7 +1929,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_05</Attachment_Bone>
             <Collision_Mesh>HP_05_COLL</Collision_Mesh>
             <Damage_Particles>HP_05_EMITDAMAGE</Damage_Particles>
@@ -1945,6 +1955,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_MTL_06">
@@ -1952,7 +1964,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_04</Attachment_Bone>
             <Collision_Mesh>HP_04_COLL</Collision_Mesh>
             <Damage_Particles>HP_04_EMITDAMAGE</Damage_Particles>
@@ -1978,6 +1990,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_L_01">
@@ -1985,7 +1999,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_00</Attachment_Bone>
             <Collision_Mesh>HP_00_COLL</Collision_Mesh>
             <Damage_Particles>HP_00_EMITDAMAGE</Damage_Particles>
@@ -2004,8 +2018,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2020,7 +2034,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_01</Attachment_Bone>
             <Collision_Mesh>HP_01_COLL</Collision_Mesh>
             <Damage_Particles>HP_01_EMITDAMAGE</Damage_Particles>
@@ -2039,8 +2053,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2055,7 +2069,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_07</Attachment_Bone>
             <Collision_Mesh>HP_07_COLL</Collision_Mesh>
             <Damage_Particles>HP_07_EMITDAMAGE</Damage_Particles>
@@ -2074,8 +2088,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2090,7 +2104,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_06</Attachment_Bone>
             <Collision_Mesh>HP_06_COLL</Collision_Mesh>
             <Damage_Particles>HP_06_EMITDAMAGE</Damage_Particles>
@@ -2109,8 +2123,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2125,7 +2139,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_02</Attachment_Bone>
             <Collision_Mesh>HP_02_COLL</Collision_Mesh>
             <Damage_Particles>HP_02_EMITDAMAGE</Damage_Particles>
@@ -2144,8 +2158,8 @@
             <Fire_Range_Distance>1200.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2160,7 +2174,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
             <Attachment_Bone>HP_03</Attachment_Bone>
             <Collision_Mesh>HP_03_COLL</Collision_Mesh>
             <Damage_Particles>HP_03_EMITDAMAGE</Damage_Particles>
@@ -2180,8 +2194,8 @@
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -2197,7 +2211,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>650.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -2217,7 +2231,7 @@
                 <Collision_Mesh>SPAWN_00_COLL</Collision_Mesh>
 
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                <Health>600.0</Health>
+                <Health>650.0</Health>
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
     </HardPoint>
@@ -2227,7 +2241,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>600.0</Health>  <!-- Was 250 -->
+            <Health>900.0</Health>  <!-- Was 250 -->
             <Attachment_Bone>HP_ENGINES</Attachment_Bone>
             <Collision_Mesh>HP_ENGINES_COLL</Collision_Mesh>
 
@@ -2245,7 +2259,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2285,6 +2299,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_MTL_02">
@@ -2292,7 +2308,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2331,6 +2347,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_MTL_03">
@@ -2338,7 +2356,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2377,6 +2395,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_MTL_04">
@@ -2384,7 +2404,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2423,6 +2443,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_LI_01">
@@ -2430,7 +2452,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_09</Attachment_Bone>
             <Collision_Mesh>HP_09_COLL</Collision_Mesh>
             <Damage_Particles>HP_09_EMITDAMAGE</Damage_Particles>
@@ -2446,7 +2468,7 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                          <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
@@ -2463,7 +2485,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
             <Attachment_Bone>HP_08</Attachment_Bone>
             <Collision_Mesh>HP_08_COLL</Collision_Mesh>
             <Damage_Particles>HP_08_EMITDAMAGE</Damage_Particles>
@@ -2479,7 +2501,7 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>8</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
             <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                          <Fire_Inaccuracy_Distance> Fighter, 40.0 </Fire_Inaccuracy_Distance>
@@ -2497,7 +2519,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2525,6 +2547,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_MTL_06">
@@ -2532,7 +2556,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>300.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2561,6 +2585,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_DREADNAUGHT_REFIT_LTL_01">
@@ -2568,7 +2594,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2586,12 +2612,12 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                         <Fire_Inaccuracy_Distance> Fighter, 10.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 9.0 </Fire_Inaccuracy_Distance>
+                         <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2604,7 +2630,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2622,12 +2648,12 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
 
-                         <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                         <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2643,7 +2669,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2661,13 +2687,13 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2683,7 +2709,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>300.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -2701,13 +2727,13 @@
             <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1500.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2795,7 +2821,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2817,8 +2843,8 @@
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2834,7 +2860,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2856,8 +2882,8 @@
             <Fire_Range_Distance>1400.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -2874,7 +2900,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPTA</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>1000.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2906,7 +2932,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2937,7 +2963,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>600.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
@@ -2979,7 +3005,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Health>400.0</Health>
+        <Health>900.0</Health>
 
                 <Death_Explosion_Particles> PEx_Explosion_Small_B </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -3001,7 +3027,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3042,6 +3068,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_MTL_02">
@@ -3049,7 +3077,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3089,6 +3117,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_LTL_01">
@@ -3096,7 +3126,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>700.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3128,8 +3158,8 @@
             <Fire_Range_Distance>1100.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
-                        <Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -3146,7 +3176,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTL</Tooltip_Text>
-            <Health>390.0</Health>
+            <Health>700.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3178,8 +3208,8 @@
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1100.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-<Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+<Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -3198,7 +3228,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>650.0</Health> <!-- was 280 -->
+            <Health>925.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3237,6 +3267,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_MTL_04">
@@ -3244,7 +3276,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTL</Tooltip_Text>
-            <Health>650.0</Health> <!-- was 280 -->
+            <Health>925.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3283,6 +3315,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_I_E3_L_01">
@@ -3290,7 +3324,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3319,8 +3353,8 @@
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -3335,7 +3369,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3364,8 +3398,8 @@
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -3380,7 +3414,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3409,8 +3443,8 @@
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -3425,7 +3459,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>700.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3454,8 +3488,8 @@
             <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
 <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
-                        <Fire_Inaccuracy_Distance> Fighter, 7.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Fighter, 13.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 3.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 12.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
@@ -3470,7 +3504,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>925.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3503,7 +3537,7 @@
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
                         <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -3516,7 +3550,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HL</Tooltip_Text>
-            <Health>390.0</Health> <!-- was 280 -->
+            <Health>925.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3549,7 +3583,7 @@
 <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
                         <Fire_Inaccuracy_Distance> Fighter, 8.0 </Fire_Inaccuracy_Distance>
-                        <Fire_Inaccuracy_Distance> Bomber, 6.0 </Fire_Inaccuracy_Distance>
+                        <Fire_Inaccuracy_Distance> Bomber, 13.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 4.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Corvette, 17.5 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
@@ -3562,7 +3596,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>650.0</Health>
+            <Health>925.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -3598,7 +3632,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>675.0</Health> <!-- was 280 -->
+            <Health>1000.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3632,6 +3666,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E3_MTL_02">
@@ -3639,7 +3675,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>675.0</Health> <!-- was 280 -->
+            <Health>1000.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3673,6 +3709,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E3_MTL_03">
@@ -3680,7 +3718,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>675.0</Health> <!-- was 280 -->
+            <Health>1000.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3714,6 +3752,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ASSAULT_FRIGATE_II_E3_MTL_04">
@@ -3721,7 +3761,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>675.0</Health> <!-- was 280 -->
+            <Health>1000.0</Health> <!-- was 280 -->
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3755,6 +3795,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
 <!--Secondary Weapons-->
@@ -3764,7 +3806,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3805,7 +3847,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3846,7 +3888,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3887,7 +3929,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LB</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3928,7 +3970,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>400.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3951,8 +3993,8 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1100.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-<Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+<Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -3968,7 +4010,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LTLB</Tooltip_Text>
-            <Health>280.0</Health>
+            <Health>780.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -3991,8 +4033,8 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>1100.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
-<Fire_Inaccuracy_Distance> Fighter, 11.5 </Fire_Inaccuracy_Distance>
-                <Fire_Inaccuracy_Distance> Bomber, 10.5 </Fire_Inaccuracy_Distance>
+<Fire_Inaccuracy_Distance> Fighter, 14.0 </Fire_Inaccuracy_Distance>
+                <Fire_Inaccuracy_Distance> Bomber, 14.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Corvette, 13.5 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Frigate, 12.5 </Fire_Inaccuracy_Distance>
@@ -4008,7 +4050,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>675.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -4069,7 +4111,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4102,6 +4144,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4110,7 +4154,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4143,6 +4187,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4151,7 +4197,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4184,6 +4230,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4192,7 +4240,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4225,6 +4273,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4233,7 +4283,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4274,7 +4324,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4316,7 +4366,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4346,6 +4396,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4354,7 +4406,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4384,6 +4436,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4392,7 +4446,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4429,7 +4483,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4466,7 +4520,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4502,7 +4556,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4538,7 +4592,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4574,7 +4628,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_LIB</Tooltip_Text>
-            <Health>350.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4610,7 +4664,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>500.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -4628,7 +4682,7 @@
                   <Is_Targetable>Yes</Is_Targetable>
                   <Is_Destroyable>Yes</Is_Destroyable>
                   <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                  <Health>500.0</Health>
+                  <Health>900.0</Health>
                   <Death_Explosion_Particles>PEx_Explosion_Medium_B</Death_Explosion_Particles>
                   <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -4642,7 +4696,7 @@
                 <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
-                <Health>500.0</Health>
+                <Health>800.0</Health>
 
                 <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
                 <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
@@ -4662,7 +4716,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4693,6 +4747,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4701,7 +4757,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4732,6 +4788,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4740,7 +4798,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4771,6 +4829,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4779,7 +4839,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4810,6 +4870,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4818,7 +4880,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4849,6 +4911,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4857,7 +4921,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -4888,6 +4952,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4896,7 +4962,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4926,6 +4992,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -4934,7 +5002,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>780.0</Health>
+            <Health>1200.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -4965,6 +5033,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
 	<!-- Secondaries -->
@@ -4975,7 +5044,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5006,6 +5075,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5014,7 +5085,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5045,6 +5116,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5053,7 +5126,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5084,6 +5157,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E3_HTL_06">
@@ -5091,7 +5166,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5122,6 +5197,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5130,7 +5207,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -5160,7 +5237,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E3_HI_04">
@@ -5168,7 +5246,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -5199,6 +5277,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
 
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_MC80_HOMEONETYPE_E3_HI_05">
@@ -5206,7 +5285,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -5236,6 +5315,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5244,7 +5325,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -5274,6 +5355,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5282,7 +5365,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5321,7 +5404,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>480.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5360,7 +5443,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-            <Health>750.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -5375,7 +5458,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-            <Health>750.0</Health>
+            <Health>800.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -5390,7 +5473,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-            <Health>1100.0</Health>
+            <Health>1500.0</Health>
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
@@ -5404,7 +5487,7 @@
                         <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-            <Health>750.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -5422,7 +5505,7 @@
                 <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
-                <Health>750.0</Health>
+                <Health>800.0</Health>
 
                 <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
                 <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
@@ -5841,7 +5924,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5872,6 +5955,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5880,7 +5965,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5911,6 +5996,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5919,7 +6006,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5950,6 +6037,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5958,7 +6047,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -5989,6 +6078,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -5997,7 +6088,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6028,6 +6119,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+
 
     </HardPoint>
 
@@ -6036,7 +6129,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6067,6 +6160,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 5.0 </Fire_Inaccuracy_Distance>
+			
+
 
     </HardPoint>
 
@@ -6075,7 +6170,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6105,6 +6200,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6113,7 +6210,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>900.0</Health>
+            <Health>1300.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6143,6 +6240,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6153,7 +6252,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6184,6 +6283,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6192,7 +6293,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6223,6 +6324,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6231,7 +6334,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6261,6 +6364,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_ACKBAR_HTL_06">
@@ -6268,7 +6373,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6298,6 +6403,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6306,7 +6413,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6326,7 +6433,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                          <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
@@ -6336,6 +6443,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6344,7 +6453,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6364,7 +6473,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                          <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
@@ -6374,6 +6483,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6382,7 +6493,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6402,7 +6513,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                         <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
@@ -6412,6 +6523,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6420,7 +6533,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
@@ -6440,7 +6553,7 @@
             <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
             <Fire_Pulse_Count>4</Fire_Pulse_Count>
             <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1600.0</Fire_Range_Distance>
+            <Fire_Range_Distance>1900.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
 
                        <Fire_Inaccuracy_Distance> Fighter, 80.0 </Fire_Inaccuracy_Distance>
@@ -6450,6 +6563,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 22.5</Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6458,7 +6573,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6497,7 +6612,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_MTLB</Tooltip_Text>
-            <Health>600.0</Health>
+            <Health>900.0</Health>
 
                         <Death_Explosion_Particles> PEx_Explosion_Medium_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
@@ -6616,8 +6731,8 @@
                     <Is_Targetable>Yes</Is_Targetable>
                     <Is_Destroyable>Yes</Is_Destroyable>
                     <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
-<!--   UEAW, taken out to have the starbase more powerfull, Fynbos <Health>1000.0</Health> -->
-                    <Health>1000.0</Health>
+<!--   UEAW, taken out to have the starbase more powerfull, Fynbos <Health>2000.0</Health> -->
+                    <Health>2000.0</Health>
                     <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
                     <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6641,6 +6756,8 @@
                     <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
                     <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+				
+				<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_STARBASE_1_HL">
@@ -6648,7 +6765,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6689,7 +6806,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6724,6 +6841,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6757,7 +6876,7 @@
                 <Collision_Mesh>SPAWN_00</Collision_Mesh>
                 <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
                 <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-                <Health>1000.0</Health>
+                <Health>2000.0</Health>
                 <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
@@ -6780,7 +6899,7 @@
                 <Damage_Decal>HP01_SupD_BLAST</Damage_Decal>
                 <Damage_Particles>HP01_SupD_EMITDAMAGE</Damage_Particles>
 
-                <Health>1000.0</Health>
+                <Health>2000.0</Health>
                 <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                 <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
         </HardPoint>
@@ -6815,7 +6934,7 @@
                         <Damage_Decal>HP01_CA_BLAST</Damage_Decal>
                         <Damage_Particles>HP01_CA_EMITDAMAGE</Damage_Particles>
 
-                        <Health>1000.0</Health>
+                        <Health>2000.0</Health>
                         <Death_Explosion_Particles> PEx_Explosion_Large_B </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
      </HardPoint>
@@ -6844,7 +6963,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6891,7 +7010,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6926,7 +7045,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -6964,6 +7083,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -6975,7 +7096,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7000,6 +7121,7 @@
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
+								<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -7008,7 +7130,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7044,6 +7166,7 @@
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
 
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
     </HardPoint>
 
     <HardPoint Name="HP_RA_STARBASE_3_APHPT">
@@ -7051,7 +7174,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7090,7 +7213,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7124,6 +7247,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -7132,7 +7257,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7177,7 +7302,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7212,6 +7337,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -7244,7 +7371,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7270,6 +7397,8 @@
             <Fire_Pulse_Delay_Seconds>0.3</Fire_Pulse_Delay_Seconds>
             <Fire_Range_Distance>2200.0</Fire_Range_Distance>
                         <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -7278,7 +7407,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HIB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7312,6 +7441,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 20.0 </Fire_Inaccuracy_Distance>
+						
+						<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -7320,7 +7451,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_APPT</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7356,7 +7487,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7390,6 +7521,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
 
     </HardPoint>
@@ -7399,7 +7532,7 @@
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_HARDPOINT_HTLB</Tooltip_Text>
-            <Health>1000.0</Health>
+            <Health>2000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
@@ -7436,6 +7569,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+						
+			<Fire_Category_Restrictions> Fighter, Bomber</Fire_Category_Restrictions>
 
     </HardPoint>
 
