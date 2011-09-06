@@ -24,8 +24,8 @@
                 <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
                 <Max_Thrust>0.7</Max_Thrust>
-                <Max_Rate_Of_Roll>3.0</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>40</Bank_Turn_Angle>
+                <Max_Rate_Of_Roll>3.5</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>140</Bank_Turn_Angle>
                 <Max_Lift>4</Max_Lift>
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
@@ -237,10 +237,10 @@
 
                 <Max_Speed>3.8</Max_Speed>
                 <Min_Speed>2.5</Min_Speed>
-                <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
+                <Max_Rate_Of_Turn>3.75</Max_Rate_Of_Turn>
                 <Max_Thrust>0.9</Max_Thrust>
                 <Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>40</Bank_Turn_Angle>
+                <Bank_Turn_Angle>130</Bank_Turn_Angle>
                 <Max_Lift>4</Max_Lift>
                 <Begin_Turn_Towards_Distance>800.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
@@ -486,7 +486,7 @@
                 <Max_Rate_Of_Turn>4.0</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>50</Bank_Turn_Angle>
+                <Bank_Turn_Angle>170</Bank_Turn_Angle>
                 <Max_Lift>4</Max_Lift>
                 <Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
@@ -773,8 +773,8 @@
                 <Min_Speed>1.0</Min_Speed>
                 <Max_Rate_Of_Turn>1.3</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
-                <Max_Rate_Of_Roll>1.8</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>70</Bank_Turn_Angle>
+                <Max_Rate_Of_Roll>2.8</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>140</Bank_Turn_Angle>
                 <Max_Lift>3</Max_Lift>
                 <Begin_Turn_Towards_Distance>500.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
@@ -994,7 +994,7 @@
                 <Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Rate_Of_Roll>3.2</Max_Rate_Of_Roll>
-                <Bank_Turn_Angle>80</Bank_Turn_Angle>
+                <Bank_Turn_Angle>170</Bank_Turn_Angle>
                 <Max_Lift>3</Max_Lift>
                 <Begin_Turn_Towards_Distance>600.0</Begin_Turn_Towards_Distance>
                 <Hyperspace>Yes</Hyperspace>
@@ -1276,7 +1276,7 @@
                 <Layer_Z_Adjust> -20.0 </Layer_Z_Adjust> <!-- Adjusts how high the unit is represented || Negative is down -Positive is up -->
                 <Max_Speed> 3.2 </Max_Speed> <!-- The speed of the ship || Was 2.2-->
                 <Max_Rate_Of_Turn> 0.9 </Max_Rate_Of_Turn> <!-- How fast the ship can corner || Was 0.7 -->
-                <Max_Rate_Of_Roll> 0.85 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
+                <Max_Rate_Of_Roll> 1.35 </Max_Rate_Of_Roll> <!-- How fast the ship can roll, i.e. drop its left or right edge || Was 0.2 -->
                 <Bank_Turn_Angle> 70 </Bank_Turn_Angle> <!-- How much it rolls when turning ? || Was 5 -->
                 <OverrideAcceleration> .04 </OverrideAcceleration> <!-- Unsure -->
                 <OverrideDeceleration> .04 </OverrideDeceleration> <!-- Unsure -->
@@ -2637,7 +2637,7 @@
 
                 <Tactical_Health> 3900 </Tactical_Health> <!-- How much tactical health this unit has || Only neccesary when HP's are non targetable || Probs make it equal the HP's health total ||-->
                 <Autoresolve_Health> 7660 </Autoresolve_Health> <!-- How much health a unit has during an autoresolve || Should be the same as above-->
-                <Shield_Points> 3500 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
+                <Shield_Points> 3600 </Shield_Points> <!-- How many points of damage your shields can withstand before failing -->
                 <Shield_Refresh_Rate> 18 </Shield_Refresh_Rate> <!-- How many shield points a ship can regenerate in a second -->
                 <Energy_Capacity> 6000 </Energy_Capacity> <!-- How much energy your ship has || Used for firing weapons etc -->
                 <Energy_Refresh_Rate> 1000 </Energy_Refresh_Rate> <!-- How much energy your ship can regenerate in a second -->
