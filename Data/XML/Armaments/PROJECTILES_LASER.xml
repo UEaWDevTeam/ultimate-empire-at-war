@@ -449,8 +449,8 @@
                 <Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
                 <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E2_Red_Super_Heavy">
+
+                <Projectile Name="Proj_Turbolaser_E2_Red_Super_Heavy">
                 <Text_ID>TEXT_NONE</Text_ID>
                 <Space_Model_Name>Proj_Turbo_Red_Heavy.ALO</Space_Model_Name>
                 <Scale_Factor>1.0</Scale_Factor>
@@ -766,8 +766,8 @@
                 <Projectile_SFXEvent_Detonate>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate>
                 <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E2_Blue_Heavy_Ven_Dual">
+
+                <Projectile Name="Proj_Turbolaser_E2_Blue_Heavy_Ven_Dual">
                 <Text_ID>TEXT_NONE</Text_ID>
                 <Space_Model_Name>Proj_Turbo_Blue_Heavy_Ven_Dual.ALO</Space_Model_Name>
                 <Scale_Factor>0.80</Scale_Factor>
@@ -1157,8 +1157,8 @@
                 <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Large_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
         </Projectile>
 
-       
-			
+
+
         <Projectile Name="Proj_Turbolaser_E4_Green_Light">
                 <Text_ID>TEXT_NONE</Text_ID>
                 <Space_Model_Name>Proj_Turbo_Green_Light.ALO</Space_Model_Name>
@@ -1515,7 +1515,7 @@
                 <Projectile_SFXEvent_Detonate>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate>
                 <Projectile_SFXEvent_Detonate_Reduced_By_Armor>SFX_Small_Damage_Detonation</Projectile_SFXEvent_Detonate_Reduced_By_Armor>
         </Projectile>
-		
+
         <Projectile Name="Proj_Laser_E2_Red_Standard">
                 <AI_Combat_Power> 55 </AI_Combat_Power>
                 <Text_ID>TEXT_NONE</Text_ID>
@@ -1857,7 +1857,7 @@
                 <Damage_Type>Damage_Laser_E3</Damage_Type>
                 <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
                 <Projectile_Category>Laser</Projectile_Category>
-                <Projectile_Max_Flight_Distance>2300</Projectile_Max_Flight_Distance>
+                <Projectile_Max_Flight_Distance>4500</Projectile_Max_Flight_Distance>
                 <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
                 <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
                 <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1908,7 +1908,7 @@
                 <Damage_Type>Damage_Laser_E4</Damage_Type>
                 <Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
                 <Projectile_Category>Laser</Projectile_Category>
-                <Projectile_Max_Flight_Distance>2300</Projectile_Max_Flight_Distance>
+                <Projectile_Max_Flight_Distance>4500</Projectile_Max_Flight_Distance>
                 <Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
                 <Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
                 <Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
@@ -1933,286 +1933,286 @@
 
 <!-- Green -->
 
-	<Projectile Name="Proj_Laser_E1_Green_Capital">
+        <Projectile Name="Proj_Laser_E1_Green_Capital">
                 <Variant_Of_Existing_Type>Proj_Laser_E1_Green_Standard</Variant_Of_Existing_Type>
                 <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E1_Green_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E1_Green_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E2_Green_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Green_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E2_Green_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Green_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E3_Green_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Green_Standard</Variant_Of_Existing_Type>
-               <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E3_Green_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Green_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E4_Green_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Green_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E4_Green_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Green_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-<!-- Red -->	
-	
-	<Projectile Name="Proj_Laser_E1_Red_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E1_Red_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E1_Red_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E1_Red_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E2_Red_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Red_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E2_Red_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Red_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E3_Red_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Red_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E3_Red_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Red_Heavy</Variant_Of_Existing_Type>
-               <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E4_Red_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Red_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E4_Red_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Red_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-<!-- Blue -->	
-	
-	<Projectile Name="Proj_Laser_E1_Blue_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E1_Blue_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E1_Blue_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E1_Blue_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E2_Blue_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Blue_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E2_Blue_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E2_Blue_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E3_Blue_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Blue_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E3_Blue_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E3_Blue_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
-    </Projectile>
-	
-	<Projectile Name="Proj_Laser_E4_Blue_Capital">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Blue_Standard</Variant_Of_Existing_Type>
-                <Projectile_Damage>10</Projectile_Damage>
-				<Scale_Factor>0.35</Scale_Factor>
-    </Projectile>
-		
-	<Projectile Name="Proj_Laser_E4_Blue_Capital_Heavy">
-                <Variant_Of_Existing_Type>Proj_Laser_E4_Blue_Heavy</Variant_Of_Existing_Type>
-                <Projectile_Damage>15</Projectile_Damage>
-				<Scale_Factor>0.55</Scale_Factor>
+                                <Scale_Factor>0.35</Scale_Factor>
     </Projectile>
 
-	<!-- Special cases for the ISD I -->
-	
-		<!-- Era 3 -->
-	
-	<Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Advanced">
+        <Projectile Name="Proj_Laser_E1_Green_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E1_Green_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Green_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Green_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Green_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Green_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Green_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Green_Standard</Variant_Of_Existing_Type>
+               <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Green_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Green_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Green_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Green_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Green_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Green_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+<!-- Red -->
+
+        <Projectile Name="Proj_Laser_E1_Red_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E1_Red_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E1_Red_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E1_Red_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Red_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Red_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Red_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Red_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Red_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Red_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Red_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Red_Heavy</Variant_Of_Existing_Type>
+               <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Red_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Red_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Red_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Red_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+<!-- Blue -->
+
+        <Projectile Name="Proj_Laser_E1_Blue_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E1_Blue_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E1_Blue_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E1_Blue_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Blue_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Blue_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E2_Blue_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E2_Blue_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Blue_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Blue_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E3_Blue_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E3_Blue_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Blue_Capital">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Blue_Standard</Variant_Of_Existing_Type>
+                <Projectile_Damage>10</Projectile_Damage>
+                                <Scale_Factor>0.35</Scale_Factor>
+    </Projectile>
+
+        <Projectile Name="Proj_Laser_E4_Blue_Capital_Heavy">
+                <Variant_Of_Existing_Type>Proj_Laser_E4_Blue_Heavy</Variant_Of_Existing_Type>
+                <Projectile_Damage>15</Projectile_Damage>
+                                <Scale_Factor>0.55</Scale_Factor>
+    </Projectile>
+
+        <!-- Special cases for the ISD I -->
+
+                <!-- Era 3 -->
+
+        <Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
         </Projectile>
-		
-	<Projectile Name="Proj_Turbolaser_E3_Green_Medium_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E3_Green_Medium_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
     </Projectile>
-	
-	<Projectile Name="Proj_Turbolaser_E3_Green_Light_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E3_Green_Light_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Light</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
     </Projectile>
-		
-		
-		<!-- Era 4 -->
-	
-	<Projectile Name="Proj_Turbolaser_E4_Green_Heavy_Advanced">
+
+
+                <!-- Era 4 -->
+
+        <Projectile Name="Proj_Turbolaser_E4_Green_Heavy_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
         </Projectile>
-		
-	<Projectile Name="Proj_Turbolaser_E4_Green_Medium_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E4_Green_Medium_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
     </Projectile>
-	
-	<Projectile Name="Proj_Turbolaser_E4_Green_Light_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E4_Green_Light_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Light</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
     </Projectile>
-			
-	
-	<!-- Special cases for the ISD II -->
-		
-		<!-- Era 3 -->
+
+
+        <!-- Special cases for the ISD II -->
+
+                <!-- Era 3 -->
 
         <Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Quad">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Heavy</Variant_Of_Existing_Type>
                 <Space_Model_Name>Proj_Turbo_Green_Heavy_Quad.alo</Space_Model_Name>
                 <Projectile_Damage>200</Projectile_Damage>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
-				<Scale_Factor>1.03</Scale_Factor>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Scale_Factor>1.03</Scale_Factor>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Superior">
+
+                <Projectile Name="Proj_Turbolaser_E3_Green_Heavy_Superior">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E3_Green_Medium_Superior">
+
+                <Projectile Name="Proj_Turbolaser_E3_Green_Medium_Superior">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Green_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
         </Projectile>
-		
-		<!-- Era 4 -->
+
+                <!-- Era 4 -->
 
         <Projectile Name="Proj_Turbolaser_E4_Green_Heavy_Quad">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Heavy</Variant_Of_Existing_Type>
                 <Space_Model_Name>Proj_Turbo_Green_Heavy_Quad.alo</Space_Model_Name>
                 <Projectile_Damage>160</Projectile_Damage>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
         </Projectile>
-			
-		<Projectile Name="Proj_Turbolaser_E4_Green_Heavy_Superior">
-                <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
-        </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E4_Green_Medium_Superior">
-                <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
-        </Projectile>
-		
-		
-	<!-- Special cases for the MC80 Liberty -->
 
-		<!-- Era 3 -->
-	
-	<Projectile Name="Proj_Turbolaser_E3_Red_Heavy_Advanced">
+                <Projectile Name="Proj_Turbolaser_E4_Green_Heavy_Superior">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Heavy</Variant_Of_Existing_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
+        </Projectile>
+
+                <Projectile Name="Proj_Turbolaser_E4_Green_Medium_Superior">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Green_Medium</Variant_Of_Existing_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
+        </Projectile>
+
+
+        <!-- Special cases for the MC80 Liberty -->
+
+                <!-- Era 3 -->
+
+        <Projectile Name="Proj_Turbolaser_E3_Red_Heavy_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Red_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
         </Projectile>
-		
-	<Projectile Name="Proj_Turbolaser_E3_Red_Medium_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E3_Red_Medium_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Red_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E3</Damage_Type>
     </Projectile>
-	
-		<!-- Era 4 -->
-	
-	<Projectile Name="Proj_Turbolaser_E4_Red_Heavy_Advanced">
+
+                <!-- Era 4 -->
+
+        <Projectile Name="Proj_Turbolaser_E4_Red_Heavy_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Red_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
         </Projectile>
-		
-	<Projectile Name="Proj_Turbolaser_E4_Red_Medium_Advanced">
+
+        <Projectile Name="Proj_Turbolaser_E4_Red_Medium_Advanced">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Red_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Advanced_E4</Damage_Type>
     </Projectile>
-	
-	
-	<!-- Special cases for the MC80 Home One -->
-	
-		<!-- Era 3 -->
+
+
+        <!-- Special cases for the MC80 Home One -->
+
+                <!-- Era 3 -->
 
         <Projectile Name="Proj_Turbolaser_E3_Red_Heavy_Superior">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Red_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E3_Red_Medium_Superior">
-                <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Red_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
-        </Projectile>
-		
-		<!-- Era 4 -->
 
-       	<Projectile Name="Proj_Turbolaser_E4_Red_Heavy_Superior">
+                <Projectile Name="Proj_Turbolaser_E3_Red_Medium_Superior">
+                <Variant_Of_Existing_Type>Proj_Turbolaser_E3_Red_Medium</Variant_Of_Existing_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E3</Damage_Type>
+        </Projectile>
+
+                <!-- Era 4 -->
+
+               <Projectile Name="Proj_Turbolaser_E4_Red_Heavy_Superior">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Red_Heavy</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
         </Projectile>
-		
-		<Projectile Name="Proj_Turbolaser_E4_Red_Medium_Superior">
+
+                <Projectile Name="Proj_Turbolaser_E4_Red_Medium_Superior">
                 <Variant_Of_Existing_Type>Proj_Turbolaser_E4_Red_Medium</Variant_Of_Existing_Type>
-				<Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
+                                <Damage_Type>Damage_Turbolaser_Superior_E4</Damage_Type>
         </Projectile>
-		
-	
+
+
 </Projectiles>
