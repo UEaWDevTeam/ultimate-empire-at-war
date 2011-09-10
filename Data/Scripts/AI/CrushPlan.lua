@@ -55,12 +55,11 @@ function Definitions()
 	{
 		"MainForce"						
 		,"MinimumTotalSize = 10"
-		,"MinimumTotalForce = 8000"					
-		, "Infantry | Vehicle | Air | Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
+		,"MinimumTotalForce = 6000" --changed from 8000 to 6000, maybe AI will attack more often then :P					
+		, "Fighter | Bomber | Corvette | Frigate | Super | Capital = 100%"
 	}
 	}
 	RequiredCategories =	{ 
-								"Infantry",
 								"Corvette | Frigate | Capital | Super"
 							}	
 	

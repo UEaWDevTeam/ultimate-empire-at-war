@@ -52,6 +52,7 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Fighter | Bomber = 4"
 		,"Corvette | Frigate = 2"
+		,"DS_GALACTIC_ORBITAL_DEFENCE_POD | LS_GALACTIC_ORBITAL_DEFENCE_POD = 1"
 	}
 	}
 	AllowFreeStoreUnits = false

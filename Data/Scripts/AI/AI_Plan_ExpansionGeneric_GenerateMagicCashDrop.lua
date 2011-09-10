@@ -60,6 +60,6 @@ end
 
 function ReserveForce_Thread()		
 	PlayerObject.Give_Money(6000)
-	Sleep(120)
+	Sleep(100) --before: 120
 	ScriptExit()
 end

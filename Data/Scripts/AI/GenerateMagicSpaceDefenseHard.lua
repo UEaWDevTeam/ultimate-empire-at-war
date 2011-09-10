@@ -52,6 +52,7 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Fighter | Bomber = 10"
 		,"Corvette | Frigate | Capital = 6"
+		,"S_GOLAN | C_GOLAN | E_GOLAN | IR_GOLAN | OR_GOLAN | R_GOLAN | RA_GOLAN | NR_GOLAN = 1"
 	}
 	}
 	AllowFreeStoreUnits = false

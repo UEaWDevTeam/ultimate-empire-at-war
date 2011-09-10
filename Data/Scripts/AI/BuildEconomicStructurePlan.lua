@@ -50,7 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"StructureForce",
-		"Rebel_Ground_Mining_Facility | Empire_Ground_Mining_Facility = 1"
+		"DS_GALACTIC_ASTEROID_MINE | LS_GALACTIC_ASTEROID_MINE | DS_GALACTIC_GAS_EXTRACTOR | LS_GALACTIC_GAS_EXTRACTOR  = 1"
 	}
 	}
 

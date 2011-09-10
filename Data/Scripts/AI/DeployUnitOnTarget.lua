@@ -50,8 +50,7 @@ function Definitions()
 	TaskForce = {
 	{
 		"MainForce",
-		"DenyHeroAttach",
-		"Bounty_Hunter_Team_E | Bounty_Hunter_Team_R = 1"
+		"DenyHeroAttach"
 	}
 	}
 

@@ -52,6 +52,7 @@ function Definitions()
 		,"DenyHeroAttach"
 		,"Fighter | Bomber = 6"
 		,"Corvette | Frigate = 4"
+		,"S_HANGAR | C_HANGAR | E_HANGAR | IR_HANGAR | OR_HANGAR | R_HANGAR | RA_HANGAR | NR_HANGAR = 1"
 	}
 	}
 	AllowFreeStoreUnits = false

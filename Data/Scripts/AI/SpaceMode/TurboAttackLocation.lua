@@ -55,7 +55,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"DenyHeroAttach"
-		,"Corellian_Corvette | Corellian_Gunboat | Tartan_Patrol_Cruiser | Slave_I | Sundered_Heart = 1, 3"
+		,"OR_FORAY_CLASS | R_VICTORY_FRIGATE | RA_CORELLIAN_CORVETTE | NR_CORELLIAN_CORVETTE | C_MISSILE_FRIGATE | E_IPV_PATROL_CRAFT | E_TARTAN_CRUISER | IR_TARTAN_CRUISER | IR_LANCER_FRIGATE = 1, 3"
 	}
 	}
 

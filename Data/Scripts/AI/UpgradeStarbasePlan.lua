@@ -47,12 +47,19 @@ ScriptPoolCount = 16
 function Definitions()
 	DebugMessage("%s -- In Definitions", tostring(Script))
 	
-	Category = "Upgrade_Starbase | Build_Initial_Starbase_Only"
+	Category = "Upgrade_Starbase"
 	IgnoreTarget = true
 	TaskForce = {
 	{
 		"BaseForce",
-		"Rebel_Star_Base_1 = 1"
+		"S_STARBASE_1 | S_STARBASE_2 | S_STARBASE_3 | S_STARBASE_4 | S_STARBASE_5 = 1",
+		"C_STARBASE_1 | C_STARBASE_2 | C_STARBASE_3 | C_STARBASE_4 | C_STARBASE_5 = 1",
+		"E_STARBASE_1 | E_STARBASE_2 | E_STARBASE_3 | E_STARBASE_4 | E_STARBASE_5 = 1",
+		"IR_STARBASE_1 | IR_STARBASE_2 | IR_STARBASE_3 | IR_STARBASE_4 | IR_STARBASE_5 = 1",
+		"OR_STARBASE_1 | OR_STARBASE_2 | OR_STARBASE_3 | OR_STARBASE_4 | OR_STARBASE_5 = 1",
+		"R_STARBASE_1 | R_STARBASE_2 | R_STARBASE_3 | R_STARBASE_4 | R_STARBASE_5 = 1",
+		"RA_STARBASE_1 | RA_STARBASE_2 | RA_STARBASE_3 | RA_STARBASE_4 | RA_STARBASE_5 = 1",
+		"NR_STARBASE_1 | NR_STARBASE_2 | NR_STARBASE_3 | NR_STARBASE_4 | NR_STARBASE_5 = 1"
 	}
 	}
 

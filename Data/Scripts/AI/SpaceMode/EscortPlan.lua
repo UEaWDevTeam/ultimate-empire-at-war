@@ -56,7 +56,7 @@ function Definitions()
 	{
 		"MainForce"
 		,"Fighter = 1,4"
-		,"Interdictor_Cruiser = 0,1"
+		,"E_INTERDICTOR_CRUISER | IR_INTERDICTOR_CRUISER = 0,1"
 	}
 	}
 end
