@@ -85,7 +85,7 @@
                 <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
                 <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
     </HardPoint>
-	-->
+        -->
 <!--Hard points for Tri-Fighter-->
         <HardPoint Name="HP_TRI_L_01">
                 <Type> HARD_POINT_WEAPON_LASER </Type>
@@ -465,7 +465,7 @@
             <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
 
     </HardPoint>
-	
+
     <HardPoint Name="HP_MISSILE_CORVETTE_AFCM_01">
                <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>No</Is_Targetable>
@@ -964,7 +964,7 @@
             <Fire_Range_Distance>1300.0</Fire_Range_Distance>
                                 <Fire_SFXEvent>Unit_Anti_Air_Fire</Fire_SFXEvent>
 
-			<Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
+                        <Fire_Category_Restrictions>Corvette, Frigate, Capital, Super</Fire_Category_Restrictions>
                         <Fire_Inaccuracy_Distance> Fighter, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Bomber, 22.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -1094,8 +1094,8 @@
             <Fire_Inaccuracy_Distance> Frigate, 25.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Capital, 20.0 </Fire_Inaccuracy_Distance>
             <Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
-			
-			<Fire_Category_Restrictions>Fighter, Bomber</Fire_Category_Restrictions>
+
+                        <Fire_Category_Restrictions>Fighter, Bomber</Fire_Category_Restrictions>
                         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
 
@@ -1510,8 +1510,8 @@
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-						
-				<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+
+                                <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
 
     </HardPoint>
 
@@ -1549,9 +1549,9 @@
                         <Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
                         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-						
-						
-					<Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
+
+
+                                        <Fire_Category_Restrictions> Corvette, Frigate, Capital, Super </Fire_Category_Restrictions>
     </HardPoint>
 
         <HardPoint Name="HP_RECUSANT_CARRIER_L_01">
@@ -5270,7 +5270,7 @@
                         <Type> HARD_POINT_WEAPON_MISSILE </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_HARDPOINT_APCM</Tooltip_Text>
+            <Tooltip_Text>TEXT_HARDPOINT_APHCM</Tooltip_Text>
             <Health>1000.0</Health>
             <Repair_Cost_Per_Frame>1.3</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
@@ -5279,13 +5279,13 @@
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
 
             <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>HP_01_CM</Attachment_Bone>
-            <Collision_Mesh>HP_01_CM</Collision_Mesh>
-            <Damage_Decal>HP_01_CM_BLAST</Damage_Decal>
-            <Damage_Particles>HP_01_CM_EMITDAMAGE</Damage_Particles>
+            <Attachment_Bone>HP_APHCM_01</Attachment_Bone>
+            <Collision_Mesh>HP_APHCM_01_COLL</Collision_Mesh>
+            <Damage_Decal>HP_APHCM_01_BAST</Damage_Decal>
+            <Damage_Particles>HP_APHCM_01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_01_CM</Fire_Bone_A>
-            <Fire_Bone_B>HP_01_CM</Fire_Bone_B>
+            <Fire_Bone_A>HP_APHCM_01_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_APHCM_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Conc_Missile_AP_E2_Heavy</Fire_Projectile_Type>
@@ -5311,14 +5311,13 @@
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>HP_01_LC</Attachment_Bone>
-            <Collision_Mesh>HP_01_LC</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles>HP_01_LC_EMITDAMAGE</Damage_Particles>
+            <Attachment_Bone>HP_HL_01</Attachment_Bone>
+            <Collision_Mesh>HP_HL_01_COLL</Collision_Mesh>
+            <Damage_Decal>HP_HL_01_BLAST</Damage_Decal>
+            <Damage_Particles>HP_HL_01_EMITDAMAGE</Damage_Particles>
 
-            <Fire_Bone_A>HP_01_LC</Fire_Bone_A>
-            <Fire_Bone_B>HP_01_LC</Fire_Bone_B>
+            <Fire_Bone_A>HP_HL_01_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_HL_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Laser_E2_Red_Capital_Heavy</Fire_Projectile_Type>
@@ -5352,17 +5351,13 @@
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
-            <Model_To_Attach></Model_To_Attach>
-            <Attachment_Bone>HP_01_TBL</Attachment_Bone>
-            <Collision_Mesh>HP_01_TBL</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles>HP_01_TBL_EMITDAMAGE</Damage_Particles>
+            <Attachment_Bone>HP_HTL_01</Attachment_Bone>
+            <Collision_Mesh>HP_HTL_01_COLL</Collision_Mesh>
+            <Damage_Decal>HP_HTL_01_BLAST</Damage_Decal>
+            <Damage_Particles>HP_HTL_01_EMITDAMAGE</Damage_Particles>
 
-                        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-
-                        <Damage_Type> Damage_Station_Turbolaser </Damage_Type>
-            <Fire_Bone_A>FP01_TBL_00</Fire_Bone_A>
-            <Fire_Bone_B>FP01_TBL_01</Fire_Bone_B>
+            <Fire_Bone_A>HP_HTL_01_FB00</Fire_Bone_A>
+            <Fire_Bone_B>HP_HTL_01_FB01</Fire_Bone_B>
             <Fire_Cone_Width>180.0</Fire_Cone_Width>
             <Fire_Cone_Height>180.0</Fire_Cone_Height>
             <Fire_Projectile_Type>Proj_Turbolaser_E2_Red_Heavy</Fire_Projectile_Type>
@@ -5385,7 +5380,7 @@
     </HardPoint>
 
     <HardPoint Name="HP_C_STARBASE_1_SHIELD">
-                        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+               <Type> HARD_POINT_SHIELD_GENERATOR </Type>
             <Is_Targetable>Yes</Is_Targetable>
             <Is_Destroyable>Yes</Is_Destroyable>
             <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
@@ -5396,31 +5391,31 @@
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-                        <Model_To_Attach></Model_To_Attach>
-                        <Attachment_Bone>HP_01_SHIELD</Attachment_Bone>
-            <Collision_Mesh> HP_01_SHIELD </Collision_Mesh>
+            <Attachment_Bone>HP_SHIELD</Attachment_Bone>
+            <Collision_Mesh> HP_SHIELD_COLL </Collision_Mesh>
 
-                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-
-            <Damage_Decal>HP_01_SHIELD_BLAST</Damage_Decal>
-            <Damage_Particles>HP_01_SHIELD_EMITDAMAGE</Damage_Particles>
+            <Damage_Decal>HP_SHIELD_BLAST</Damage_Decal>
+            <Damage_Particles>HP_SHIELD_EMITDAMAGE</Damage_Particles>
     </HardPoint>
 
         <HardPoint Name="HP_C_STARBASE_1_HANGAR">
                 <Type> HARD_POINT_FIGHTER_BAY </Type>
+                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Is_Targetable>Yes</Is_Targetable>
                 <Is_Destroyable>Yes</Is_Destroyable>
-                <Attachment_Bone>HP_01_SPAWN</Attachment_Bone>
-                <Collision_Mesh>HP_01_SPAWN</Collision_Mesh>
-                <Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>
-                <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
                 <Health>1000.0</Health>
-        <Damage_Particles>HP_01_SPAWN_EMITDAMAGE</Damage_Particles>
-                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 
-        <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
-        <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
+                <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
+                <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
+                <Fighter_Bay_Flyout_Distance>100.0</Fighter_Bay_Flyout_Distance>
+
+                <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>
+
+                <Attachment_Bone>HP_HANGAR_01</Attachment_Bone>
+                <Collision_Mesh>HP_HANGAR_01_COLL</Collision_Mesh>
+                <Damage_Particles>HP_HANGAR_01_EMITDAMAGE</Damage_Particles>
+
 
         </HardPoint>
 
@@ -5433,10 +5428,10 @@
             <Repair_Cost_Per_Frame>1.5</Repair_Cost_Per_Frame>
             <Repair_Amount_Per_Frame>.50</Repair_Amount_Per_Frame>
 
-                <Attachment_Bone>HP_01_SUPP</Attachment_Bone>
-                <Collision_Mesh>HP_01_SUPP</Collision_Mesh>
-                <Damage_Decal>HP_01_SUPP_BLAST</Damage_Decal>
-                <Damage_Particles>HP_01_SUPP_EMITDAMAGE</Damage_Particles>
+                <Attachment_Bone>HP_SUPPLY_DEPOT</Attachment_Bone>
+                <Collision_Mesh>HP_SUPPLY_DEPOT_COLL</Collision_Mesh>
+                <Damage_Decal>HP_SUPPLY_DEPOT_BLAST</Damage_Decal>
+                <Damage_Particles>HP_SUPPLY_DEPOT_EMITDAMAGE</Damage_Particles>
 
                 <Health>450.0</Health>
                 <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -5447,10 +5442,11 @@
                 <Type> HARD_POINT_DUMMY_ART </Type>
                 <Is_Targetable>No</Is_Targetable>
                 <Is_Destroyable>No</Is_Destroyable>
-                <Attachment_Bone>HP_01_SUPP</Attachment_Bone>
-                <Collision_Mesh>HP_01_SUPP</Collision_Mesh>
-                <Damage_Decal>HP_01_SUPP_BLAST</Damage_Decal>
-                <Damage_Particles>HP_01_SUPP_EMITDAMAGE</Damage_Particles>
+
+                <Attachment_Bone>HP_SUPPLY_DEPOT</Attachment_Bone>
+                <Collision_Mesh>HP_SUPPLY_DEPOT_COLL</Collision_Mesh>
+                <Damage_Decal>HP_SUPPLY_DEPOT_BLAST</Damage_Decal>
+                <Damage_Particles>HP_SUPPLY_DEPOT_EMITDAMAGE</Damage_Particles>
         </HardPoint>
 
 
@@ -5466,12 +5462,11 @@
                         <!-- The Ion Cannon will be disabled for all Rebel players if this hardpoint is destroyed. -->
                         <Allows_Special_Weapon_Use> True </Allows_Special_Weapon_Use>
 
-                        <Death_Breakoff_Prop>  </Death_Breakoff_Prop>
-                        <Model_To_Attach></Model_To_Attach>
-                        <Attachment_Bone>HP_01_COMM</Attachment_Bone>
-                        <Collision_Mesh>HP_01_COMM</Collision_Mesh>
-                        <Damage_Decal>HP_01_COMM_BLAST</Damage_Decal>
-                        <Damage_Particles>HP_01_COMM_EMITDAMAGE</Damage_Particles>
+                        <Model_To_Attach>RVBm_C_STARBASE_COMM_ARRAY.ALO</Model_To_Attach>
+                        <Attachment_Bone>HP_COMM_ARRAY</Attachment_Bone>
+                        <Collision_Mesh>HP_COMM_ARRAY_COLL</Collision_Mesh>
+                        <Damage_Decal>HP_COMM_ARRAY_BLAST</Damage_Decal>
+                        <Damage_Particles>HP_COMM_ARRAY_EMITDAMAGE</Damage_Particles>
 
                         <Health>450.0</Health>
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
@@ -5485,10 +5480,25 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Health>500.0</Health>
 
-                        <Attachment_Bone>HP_01_COMM</Attachment_Bone>
-                        <Collision_Mesh>HP_01_COMM</Collision_Mesh>
-                        <Damage_Decal>HP_01_COMM_BLAST</Damage_Decal>
-                        <Damage_Particles>HP_01_COMM_EMITDAMAGE</Damage_Particles>
+                        <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
+                        <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
+                        <Damage_Decal>HP_TRACTOR_BLAST</Damage_Decal>
+                        <Damage_Particles>HP_TRACTOR_EMITDAMAGE</Damage_Particles>
+
+                        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+                        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+     </HardPoint>
+
+     <HardPoint Name="HP_C_STARBASE_1_TRACTOR_DUMMY">
+                <Type> HARD_POINT_DUMMY_ART </Type>
+        <Tooltip_Text>TEXT_TRACTOR_BEAM_HARDPOINT</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+                        <Attachment_Bone>HP_TRACTOR</Attachment_Bone>
+                        <Collision_Mesh>HP_TRACTOR_COLL</Collision_Mesh>
+                        <Damage_Decal>HP_TRACTOR_BLAST</Damage_Decal>
+                        <Damage_Particles>HP_TRACTOR_EMITDAMAGE</Damage_Particles>
 
                         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
                         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
