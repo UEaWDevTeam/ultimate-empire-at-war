@@ -1,0 +1,1083 @@
+<?xml version="1.0" ?>
+<!-- Equations that define perception functions -->
+<Equations>
+<!--Defensivegalacticequations-->
+        <!-- High priority whenever a friendly planet has an enemy force in orbit
+                        ... consider how valuable this planet is
+                        ... and if we don't own much space, this is even more important
+                        and don't use this coventional goal/plan on systems disconnected by one planet
+                        Plan: Delete each need for ground things
+                        -->
+        <Needs_Blockade_Lifted>
+                (Variable_Target.EnemyForce.HasSpaceForce)
+                *
+                Function_First_Attack_Allowed.Evaluate
+                *
+                (Variable_Target.EnemyForce.SpaceTotalUnnormalized > 0)
+                *
+                (30 +
+                (10.0 * Function_GenericPlanetValue.Evaluate) +
+                (10.0 * Function_More_Planets_Needed.Evaluate))
+                *
+                ((Function_Need_To_Reconnect_Islands.Evaluate == 0.0) +  <!--TODO: What are isles? -->
+                Variable_Target.ConnectsLargestIslands)
+                *
+                (Variable_Target.TimeSinceSpaceConflict > Function_Blockade_Wait_Time.Evaluate)
+        </Needs_Blockade_Lifted>
+
+        <Blockade_Wait_Time>
+                Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
+                * 90.0
+                +
+                Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
+                * 60.0    <!--90->60-->
+                +
+                Variable_Self.IsDifficulty{Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
+                * 20.0
+        </Blockade_Wait_Time>
+
+        <Has_Friendly_Ground_Force>
+                Variable_Target.FriendlyForce.HasGroundForce
+        </Has_Friendly_Ground_Force>
+
+        <!-- Is there space? -->
+        <!-- Are the groundbase and defensive force worth protecting? -->
+        <!-- Is the planet worth protecting -->
+        <Needs_Ground_Defensive_Structure>
+                0.0
+                <!--  0, because there aren't any ground things 5.0 *
+                Variable_Target.OpenStructureSlots *
+                Variable_Target.GroundbaseLevel *
+                Variable_Target.FriendlyForce.GroundTotalNBTD *
+                Function_DefensiveValue.Evaluate -->
+        </Needs_Ground_Defensive_Structure>
+
+        <Needs_Space_Defensive_Structure>
+                5.0 *
+                Variable_Target.OpenStructureSlots *
+                Variable_Target.StarbaseLevel *
+                Variable_Target.FriendlyForce.SpaceTotalNBTD *
+                Function_DefensiveValue.Evaluate
+        </Needs_Space_Defensive_Structure>
+
+        <!-- Don't defend planets with enemy forces blockading (handled by Lift_Blockade) -->
+        <!-- How valuable is the planet? -->
+        <!-- How many trade routes do I also control the other end for? -->
+        <!-- How strong is the enemy around here? -->
+        <!-- Is this planet already well-defended -->
+        <DefensiveValue>
+                (1.0 - Variable_Target.EnemyForce.SpaceTotalNBTT) *
+                (Function_GenericPlanetValue.Evaluate +
+                Variable_Target.ActiveTradeRoutes +
+                <!--Variable_Target.EnemyForce.NearbyGroundTotal +--> Variable_Target.EnemyForce.NearbySpaceTotal <!---
+                Variable_Target.FriendlyForce.GroundTotal--> - Variable_Target.FriendlyForce.SpaceTotal)
+                +
+                Variable_Target.Hints.Chokepoint
+                +
+                Variable_Target.Hints.PriorityTarget
+        </DefensiveValue>
+
+        <!--Don't know whether it has to be 0 or anything else (will the planet still be defended when 0?)-->
+    <GroundDefensiveValue>
+                (Variable_Target.EnemyForce.HasSpaceForce == 0.0)
+                *
+                <!-- (1.1 - Variable_Target.FriendlyForce.GroundTotalNBTD)
+                * -->
+                (
+                        5.0 * Variable_Target.Hints.Chokepoint
+                        +
+                        5.0 * Function_Is_Connected_To_Enemy.Evaluate
+                        +
+                        <!--5.0 * (Variable_Target.FriendlyForce.HasGroundUnitsBitfield {Parameter_Type = "MON_MOTHMA", Parameter_Type = "Emperor_Palpatine"} > 0)
+                        +   -->
+                        Function_Defense_Level.Evaluate
+                )
+    </GroundDefensiveValue>
+
+    <SpaceDefensiveValue>
+                (1.1 - Variable_Target.FriendlyForce.SpaceTotalNBTD)
+                *
+                (
+                        5.0 * Variable_Target.Hints.Chokepoint
+                        +
+                        5.0 * Function_Is_Connected_To_Enemy.Evaluate
+                        +
+                        Function_Defense_Level.Evaluate
+                )
+    </SpaceDefensiveValue>
+
+        <Needs_Weapon>
+                2.0 * Variable_Target.StarbaseLevelUnnormalized
+                +
+                <!-- 2.0 * Variable_Target.GroundbaseLevelUnnormalized
+                + -->
+                8.0 * Variable_Target.Hints.Chokepoint
+                +
+                2.0 * Function_DefensiveValue.Evaluate
+                +
+                8.0 * Function_Is_Connected_To_Enemy.Evaluate
+                +
+                Variable_Target.FriendlyForce.SpaceTotalUnnormalized / 5000.0
+                <!-- +
+                Variable_Target.FriendlyForce.GroundTotalUnnormalized / 2500.0 -->
+        </Needs_Weapon>
+
+
+
+        <!--Don't need any ground things -->
+        <Needs_Base_Shield>
+                0.0
+                <!-- 2.0 * Variable_Target.GroundbaseLevelUnnormalized
+                +
+                8.0 * Variable_Target.Hints.Chokepoint
+                +
+                2.0 * Function_DefensiveValue.Evaluate
+                +
+                8.0 * Function_Is_Connected_To_Enemy.Evaluate
+                +
+                Variable_Target.FriendlyForce.GroundTotalUnnormalized / 2500.0 -->
+        </Needs_Base_Shield>
+
+        <Needs_Turbolasers>
+                 0.0
+                <!-- 2.0 * Variable_Target.GroundbaseLevelUnnormalized
+                +
+                8.0 * Variable_Target.Hints.Chokepoint
+                +
+                2.0 * Function_DefensiveValue.Evaluate
+                +
+                8.0 * Function_Is_Connected_To_Enemy.Evaluate
+                +
+                10.0 -->
+        </Needs_Turbolasers>
+
+        <!--We don't have a jamming station anymore (what a shame)-->
+        <Needs_Jamming_Station>
+                0.0
+                <!-- Variable_Target.OpenStructureSlots
+                *
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (Function_Defense_Level.Evaluate > 5) -->
+        </Needs_Jamming_Station>
+
+
+        <!--to do: assign different values to the structures (some are improving the defense level far more than others) -->
+        <Defense_Level>
+                Variable_Target.StarbaseLevelUnnormalized
+                + Variable_Target.HasStructure {Parameter_Type = "S_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "C_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "E_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "IR_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "OR_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "R_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "RA_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "NR_GALACTIC_PERIMETER_OUTPOST", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "S_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "C_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "E_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "IR_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "OR_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "R_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "RA_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "NR_GOLAN", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "S_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "C_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "E_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "IR_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "OR_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "R_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "RA_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "NR_BERTH", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "LS_GALACTIC_ORBITAL_DEFENCE_POD", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "DS_GALACTIC_ORBITAL_DEFENCE_POD", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "S_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "C_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "E_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "IR_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "OR_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "R_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "RA_HANGAR", Parameter_Count = 1}
+                + Variable_Target.HasStructure {Parameter_Type = "NR_HANGAR", Parameter_Count = 1}
+        </Defense_Level>
+
+        <Can_Park_Ground_Unit>
+                 0.0
+                 <!--  No
+                (Variable_Target.EnemyForce.HasSpaceForce == 0.0)
+                *
+
+                (Variable_Target.OpenGroundCompanySlots > 0)
+                *
+                Variable_Target.IsSurfaceAccessible  -->
+        </Can_Park_Ground_Unit>
+
+
+        <Low_Ground_Defense_Score>
+                1.0 <!-- Ground is okay - believe me - Variable_Target.FriendlyForce.GroundTotalNBTD -->
+        </Low_Ground_Defense_Score>
+
+        <Low_Space_Defense_Score>
+                1.0 - Variable_Target.FriendlyForce.SpaceTotalNBTD
+        </Low_Space_Defense_Score>
+
+        <!--Set to 0? Probably-->
+        <Ground_Priority_Defense_Score>
+                 0.0
+                <!--Variable_Target.Hints.Chokepoint
+                +
+                2.0 * Function_Is_Connected_To_Enemy.Evaluate
+                +
+                Variable_Target.HasStructure {Parameter_Type = "S_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "C_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "E_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "IR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "OR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "R_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "RA_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "NR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "S_GOLAN",
+                Parameter_Type = "C_GOLAN",
+                Parameter_Type = "E_GOLAN",
+                Parameter_Type = "IR_GOLAN",
+                Parameter_Type = "OR_GOLAN",
+                Parameter_Type = "R_GOLAN",
+                Parameter_Type = "RA_GOLAN",
+                Parameter_Type = "NR_GOLAN",
+                Parameter_Type = "S_BERTH",
+                Parameter_Type = "C_BERTH",
+                Parameter_Type = "E_BERTH",
+                Parameter_Type = "IR_BERTH",
+                Parameter_Type = "OR_BERTH",
+                Parameter_Type = "R_BERTH",
+                Parameter_Type = "RA_BERTH",
+                Parameter_Type = "NR_BERTH",
+                Parameter_Type = "LS_GALACTIC_ORBITAL_DEFENCE_POD",
+                Parameter_Type = "DS_GALACTIC_ORBITAL_DEFENCE_POD",
+                Parameter_Type = "S_HANGAR",
+                Parameter_Type = "C_HANGAR",
+                Parameter_Type = "E_HANGAR",
+                Parameter_Type = "IR_HANGAR",
+                Parameter_Type = "OR_HANGAR",
+                Parameter_Type = "R_HANGAR",
+                Parameter_Type = "RA_HANGAR",
+                Parameter_Type = "NR_HANGAR"}  -->
+        </Ground_Priority_Defense_Score>
+
+        <Space_Priority_Defense_Score>
+                Variable_Target.Hints.Chokepoint
+                +
+                2.0 * Function_Is_Connected_To_Enemy.Evaluate
+                +
+                Variable_Target.HasStructure {"S_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "C_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "E_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "IR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "OR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "R_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "RA_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "NR_GALACTIC_PERIMETER_OUTPOST",
+                Parameter_Type = "S_GOLAN",
+                Parameter_Type = "C_GOLAN",
+                Parameter_Type = "E_GOLAN",
+                Parameter_Type = "IR_GOLAN",
+                Parameter_Type = "OR_GOLAN",
+                Parameter_Type = "R_GOLAN",
+                Parameter_Type = "RA_GOLAN",
+                Parameter_Type = "NR_GOLAN",
+                Parameter_Type = "S_BERTH",
+                Parameter_Type = "C_BERTH",
+                Parameter_Type = "E_BERTH",
+                Parameter_Type = "IR_BERTH",
+                Parameter_Type = "OR_BERTH",
+                Parameter_Type = "R_BERTH",
+                Parameter_Type = "RA_BERTH",
+                Parameter_Type = "NR_BERTH",
+                Parameter_Type = "LS_GALACTIC_ORBITAL_DEFENCE_POD",
+                Parameter_Type = "DS_GALACTIC_ORBITAL_DEFENCE_POD",
+                Parameter_Type = "S_HANGAR",
+                Parameter_Type = "C_HANGAR",
+                Parameter_Type = "E_HANGAR",
+                Parameter_Type = "IR_HANGAR",
+                Parameter_Type = "OR_HANGAR",
+                Parameter_Type = "R_HANGAR",
+                Parameter_Type = "RA_HANGAR",
+                Parameter_Type = "NR_HANGAR"}
+        </Space_Priority_Defense_Score>
+
+        <Friendly_Space_Unit_Raw_Total>
+                Variable_Target.FriendlyForce.SpaceTotalUnnormalized - Variable_Target.FriendlyForce.SpaceTotalUnnormalized {Parameter_Category = GameObjectCategoryType[SpaceHero]}
+        </Friendly_Space_Unit_Raw_Total>
+
+        <Friendly_Global_Space_Unit_Raw_Total>
+                Variable_Self.SpaceTotalUnnormalized - Variable_Self.SpaceTotalUnnormalized {Parameter_Category = GameObjectCategoryType[SpaceHero]}
+        </Friendly_Global_Space_Unit_Raw_Total>
+
+        <Friendly_Land_Unit_Raw_Total>
+                Variable_Target.FriendlyForce.GroundTotalUnnormalized - Variable_Target.FriendlyForce.GroundTotalUnnormalized {Parameter_Category = GameObjectCategoryType[LandHero]}
+        </Friendly_Land_Unit_Raw_Total>
+
+        <Friendly_Global_Land_Unit_Raw_Total>
+                Variable_Self.GroundTotalUnnormalized - Variable_Self.GroundTotalUnnormalized {Parameter_Category = GameObjectCategoryType[LandHero]}
+        </Friendly_Global_Land_Unit_Raw_Total>
+
+        <Enemy_Global_Space_Unit_Raw_Total>
+                Game.EnemyForce.SpaceTotalUnnormalized - Game.EnemyForce.SpaceTotalUnnormalized {Parameter_Category = GameObjectCategoryType[SpaceHero]}
+        </Enemy_Global_Space_Unit_Raw_Total>
+
+        <Enemy_Global_Land_Unit_Raw_Total>
+                Game.EnemyForce.GroundTotalUnnormalized - Game.EnemyForce.GroundTotalUnnormalized {Parameter_Category = GameObjectCategoryType[LandHero]}
+        </Enemy_Global_Land_Unit_Raw_Total>
+
+        <!--ground magic - burn at the stake-->
+        <Needs_Magic_Ground_Defense>
+                 0.0
+               <!-- (Variable_Target.OpenGroundCompanySlots > 6) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]} *
+                Variable_Target.IsSurfaceAccessible -->
+        </Needs_Magic_Ground_Defense>
+
+        <Needs_Magic_Space_Defense>
+                (3000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                (Variable_Target.EnemyForce.HasSpaceForce == 0.0) *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}
+        </Needs_Magic_Space_Defense>
+
+        <Needs_Magic_Ground_Defense_Easy>
+        0.0
+        <!--
+                (Variable_Target.OpenGroundCompanySlots > 7) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]} *
+                Variable_Target.IsSurfaceAccessible        -->
+        </Needs_Magic_Ground_Defense_Easy>
+
+        <Needs_Magic_Space_Defense_Easy>
+                (2000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                (Variable_Target.EnemyForce.HasSpaceForce == 0.0) *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}
+        </Needs_Magic_Space_Defense_Easy>
+
+        <Needs_Magic_Ground_Defense_Hard>
+        0.0
+        <!--
+                (Variable_Target.OpenGroundCompanySlots > 5) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]} *
+                Variable_Target.IsSurfaceAccessible     -->
+        </Needs_Magic_Ground_Defense_Hard>
+
+        <Needs_Magic_Space_Defense_Hard>
+                (7000 > Function_Friendly_Space_Unit_Raw_Total.Evaluate) *
+                Function_Is_Connected_To_Enemy.Evaluate *
+                Function_Is_Connected_To_Me.Evaluate *
+                (Variable_Target.EnemyForce.HasSpaceForce == 0.0) *
+                Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}
+        </Needs_Magic_Space_Defense_Hard>
+
+        <Needs_Magic_Ground_Structure>
+        0.0
+        <!--
+                Function_Is_Connected_To_Enemy.Evaluate *
+                (Variable_Target.OpenGroundCompanySlots > 0) *
+                (
+                        (Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Hard]}) *
+                        (Variable_Target.OpenStructureSlotsUnnormalized > 1) +
+                        (Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Normal]}) *
+                        (Variable_Target.OpenStructureSlotsUnnormalized > 2) +
+                        (Variable_Self.IsDifficulty {Parameter_Difficulty_Level_Type = DifficultyLevelType[Easy]}) *
+                        (Variable_Target.OpenStructureSlotsUnnormalized > 3)
+                )                                   -->
+        </Needs_Magic_Ground_Structure>
+
+        <Needs_Magic_Cash_Drop>
+                (Game.Age > 300)
+                *
+                (2000 > Variable_Self.CreditsUnnormalized)
+                *
+                (Function_Am_I_In_Winning_Position.Evaluate == 0.0)
+        </Needs_Magic_Cash_Drop>
+<!--BasicGalacticEquations-->
+        <GenericPlanetValue>
+                ( 15.0 * Variable_Target.BaseIncome +
+                  1.0 * Variable_Target.MaxStructureSlots +
+                  2.0 * Variable_Target.MaxStarbaseLevel +
+                  10.0 * Variable_Target.TradeRoutes) / 30.0
+        </GenericPlanetValue>
+
+        <Is_Empire>
+                Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+        </Is_Empire>
+
+        <Is_Rebel>
+                Variable_Self.IsFaction {Parameter_Faction = "Rebel"}
+        </Is_Rebel>
+
+        <Is_Underworld>
+                Variable_Self.IsFaction {Parameter_Faction = "Underworld"}
+        </Is_Underworld>
+<!--Infrastructuregalacticequations-->
+
+        <Needs_Groundbase_Upgrade>
+               0.0
+               <!-- (Variable_Target.GroundbaseLevel > 0.0)
+                *
+                (Variable_Target.MaxGroundbaseLevel != Variable_Target.GroundbaseLevel)
+                *
+                (
+                        4.0 * (Variable_Target.Hints.Chokepoint)
+                        +
+                        2.0 * Variable_Target.BaseIncomeNBTP
+                        +
+                        1.0 * (Variable_Target.MaxGroundbaseLevel - Variable_Target.GroundbaseLevel)
+                        +
+                        4.0 * Function_Is_Connected_To_Enemy.Evaluate
+                )
+                /
+                7.0    -->
+        </Needs_Groundbase_Upgrade>
+
+
+        <!--
+        Bring this into line with ground base component building (since they share the infrastructure category)
+        AND
+        Do we already have an initial base (handled by another goal)
+        AND
+        Zero out desire when defending the home planet (template change isn't enough)
+        AND
+        Are we not already maxed out
+        AND
+        Scale by relative economic worth
+        AND EITHER
+                lift a tech upgrade purchase dependency OR offensive space production dependency
+                if this is a location with a ground research facility
+                OR
+                If we're badly blocked on space production
+                OR
+                If we don't need a tech upgrade dependency lifted, scale desire by:
+                        if this is a chokepoint planet
+                        by likely purchase needs (high tech can only be bought at high level bases)
+                        by how far we are from maxing out base upgrades
+
+
+        UNUSED:
+         Require the starbase upgrade boost for unblocking tech to be on the highest level system.
+                        *
+                        (Variable_Target.StarbaseLevelUnnormalized == Variable_Self.MaxStarbaseLevelUnnormalized)
+
+      -->
+        <Needs_Starbase_Upgrade>
+                (Variable_Target.StarbaseLevel > 0.0)
+                *
+                (Variable_Target.MaxStarbaseLevel != Variable_Target.StarbaseLevel)
+                *
+                (
+                        13.0 * (1 - Function_Can_Build_Offensive_Space.Evaluate)
+                        +
+                        (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                        *
+                        (
+                                4.0 * (Variable_Target.Hints.Chokepoint + Function_Is_Connected_To_Enemy.Evaluate)
+                                +
+                                2.0 * Function_Needs_Better_Buying_Capability_Space.Evaluate
+                        )
+                )
+        </Needs_Starbase_Upgrade>
+
+
+        <!-- This desire is used by things that can improve STARBASE LEVEL.
+        -->
+        <Need_Tech_Upgrade_Unblocked>
+                Function_Empire_Should_Upgrade_Tech.Evaluate
+        </Need_Tech_Upgrade_Unblocked>
+
+        <!-- Determine if this target planet needs to better assist production.
+
+        If we prefer having a higher ratio of level X starbases to this many planets controlled,
+        AND
+        This planet is level X-1
+        OR
+        ...
+        TEST IT!!
+        -->
+        <Needs_Better_Buying_Capability_Space>
+                12 * ((0.33 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 2} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
+                (Variable_Target.StarbaseLevelUnnormalized == 1.0)
+                +
+                10 * ((0.25 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 3} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
+                (Variable_Target.StarbaseLevelUnnormalized == 2.0)
+                +
+                5 * ((0.15 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 4} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
+                (Variable_Target.StarbaseLevelUnnormalized == 3.0)
+                +
+                3 * ((0.06 - (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 5} / Variable_Self.PlanetsControlledUnnormalized)) > 0) *
+                (Variable_Target.StarbaseLevelUnnormalized == 4.0)
+        </Needs_Better_Buying_Capability_Space>
+
+        <!-- Currently, the Empire has steep requirements before it can build a single
+        offensive space unit.
+        -->
+        <Can_Build_Offensive_Space>
+                (Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "Empire"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "Old_Republic"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "Republic"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "New_Republic"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "Sith"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "CIS"})
+                +
+                (Variable_Self.IsFaction {Parameter_Faction = "Imperial_Remnant"})
+                *
+                (
+                        (Variable_Self.HasStarbaseOfLevel {Parameter_Level = 3, Parameter_Count = 1}
+                        +
+                        Variable_Self.HasStarbaseOfLevel {Parameter_Level = 2, Parameter_Count = 1} *
+                        (Variable_Self.TechLevel >= 2))
+                        >= 1
+                )
+        </Can_Build_Offensive_Space>
+
+        <!-- SCALE DOWN as we improve to the desired ratio of structures per planet
+        PLUS
+        Boost if we need to upgrade the base
+
+        <Need_Light_Vehicle_Factory>
+                20 * clamp(0.5 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Type = "R_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0} /
+                                                                                                        Variable_Self.PlanetsControlledUnnormalized), 0.1, 0.5)
+                *
+                (
+                        Function_Needs_Groundbase_Upgrade.Evaluate
+                        +
+                        (3.0 * Variable_Target.StructureCount {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Type = "R_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                )
+                *
+                (3 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Type = "R_Ground_Light_Vehicle_Factory",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Need_Light_Vehicle_Factory>
+
+        <Need_Barracks>
+                20 * clamp(0.5 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Barracks",
+                                                                                                                Parameter_Type = "R_Ground_Barracks",
+                                                                                                                Parameter_Only_Consider_Complete = 1.0} /
+                                                                                                                Variable_Self.PlanetsControlledUnnormalized), 0.1, 0.5)
+                *
+                (
+                        Function_Needs_Groundbase_Upgrade.Evaluate
+                        +
+                        (3.0 * Variable_Target.StructureCount {Parameter_Type = "E_Ground_Barracks",
+                                                                                                        Parameter_Type = "R_Ground_Barracks",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                )
+                *
+                (2 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Barracks",
+                                                                                                        Parameter_Type = "R_Ground_Barracks",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Need_Barracks>
+
+        <Need_Heavy_Vehicle_Factory>
+                (
+                        25 * clamp(0.4 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory",
+                                                                                                                Parameter_Type = "R_Ground_Heavy_Vehicle_Factory",
+                                                                                                                Parameter_Only_Consider_Complete = 1.0} /
+                                                                                                                Variable_Self.PlanetsControlledUnnormalized), 0.1, 0.4)
+                        +
+                        3 * Function_Needs_Groundbase_Upgrade.Evaluate
+                        +
+                        (5.0 * Variable_Target.StructureCount {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory",
+                                                                                                        Parameter_Type = "R_Ground_Heavy_Vehicle_Factory",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                )
+                *
+                (3 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory",
+                                                                                                        Parameter_Type = "R_Ground_Heavy_Vehicle_Factory",
+                                                                                                        Parameter_Only_Consider_Complete = 1.0})
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+        </Need_Heavy_Vehicle_Factory>
+
+        <Need_Advanced_Vehicle_Factory>
+                Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+                *
+                (
+                        25 * clamp(0.4 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory",
+                                                                                                                Parameter_Only_Consider_Complete = 1.0} /
+                                                                                                                Variable_Self.PlanetsControlledUnnormalized), 0.1, 0.4)
+                        +
+                        5 * Function_Needs_Groundbase_Upgrade.Evaluate
+                        +
+                        (5.0 * Variable_Target.StructureCount {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0})
+                )
+                *
+                (3 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory", Parameter_Only_Consider_Complete = 1.0})
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+        </Need_Advanced_Vehicle_Factory>
+
+        <Need_First_Research_Facility>
+                (1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
+                *
+                (
+                        1
+                        +
+                        Function_Defense_Level.Evaluate
+                        +
+                        (Function_Is_Connected_To_Enemy.Evaluate == 0)
+                        +
+                        Function_Is_Home_Planet.Evaluate
+                        +
+                        Variable_Target.FriendlyForce.SpaceTotal
+                        +
+                        Variable_Target.FriendlyForce.GroundTotal
+                )
+        </Need_First_Research_Facility>
+
+        <Need_Research_Facility>
+                Variable_Self.IsFaction {Parameter_Faction = "Empire"}
+                *
+                (1 - Variable_Target.HasStructure {Parameter_Type = "E_Ground_Research_Facility"})
+                *
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (Variable_Target.MaxStarbaseLevel == 5)
+                *
+                (
+                        20 * (1 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1.0} / 2))
+                        +
+                        10 * Function_Empire_Should_Upgrade_Tech.Evaluate *
+                        (1 - Variable_Self.HasStructure {Parameter_Type = "E_Ground_Research_Facility", Parameter_Count = 1})
+                        +
+                        3 * Function_Defense_Level.Evaluate
+                        +
+                        3 * Function_Needs_Groundbase_Upgrade.Evaluate
+                )
+        </Need_Research_Facility>
+
+        <Need_Comm_Array>
+                (1 - Variable_Target.HasStructure {Parameter_Type = "Communications_Array"})
+                *
+                (
+                        2
+                        +
+                        5 * clamp(Function_Needs_Groundbase_Upgrade.Evaluate, 0.0, 1.0)
+                )
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Need_Comm_Array>
+
+        <Need_Officer_Academy>
+                40 * clamp(0.25 - (Variable_Self.StructureCount {Parameter_Type = "E_Ground_Officer_Academy",
+                                                                                                Parameter_Type = "R_Ground_Officer_Academy",
+                                                                                                Parameter_Only_Consider_Complete = 1.0} /
+                                                                                                Variable_Self.PlanetsControlledUnnormalized), 0.05, 0.25)
+                *
+                (Variable_Self.PlanetsControlledUnnormalized > 4)
+                *
+                (
+                        Function_Needs_Groundbase_Upgrade.Evaluate
+                        +
+                        (3 * Variable_Target.StructureCount {Parameter_Type = "E_Ground_Officer_Academy",
+                                                                                                Parameter_Type = "R_Ground_Officer_Academy",
+                                                                                                Parameter_Only_Consider_Complete = 1.0})
+                )
+                *
+                (2.0 > Variable_Target.StructureCount {Parameter_Type = "E_Ground_Officer_Academy",
+                                                                                                Parameter_Type = "R_Ground_Officer_Academy",
+                                                                                                Parameter_Only_Consider_Complete = 1.0})
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Need_Officer_Academy>         -->
+
+        <No_Level_5_Starbase>
+                (Variable_Self.HasStarbaseOfLevel {Parameter_Level = 5, Parameter_Count = 1} == 0.0)
+        </No_Level_5_Starbase>
+
+        <!-- Does this planet have a starbase already? -->
+        <Needs_Initial_Starbase>
+                50.0 *
+                (1.0 - clamp(Variable_Self.PlanetsControlled - 0.33, 0.0, 1.0)) *
+                (Variable_Target.StarbaseLevel == 0.0) *
+                (Variable_Target.MaxStarbaseLevel > 0.0) *
+        (Variable_Target.EnemyForce.HasSpaceForce == 0)
+        </Needs_Initial_Starbase>
+
+        <!-- Does this planet have a groundbase already?  This now builds a barracks.
+        High base desire
+        AND
+        Only needed if we don't yet have a groundbase
+        AND
+        Only needed if we can build a groundbase
+        AND
+        Wait until the starbase has been built, if one can be
+
+        <Needs_Initial_Groundbase>
+                50.0
+                *
+                (1.0 - clamp(Variable_Self.PlanetsControlled - 0.33, 0.0, 1.0))
+                *
+                (Variable_Target.GroundbaseLevel == 0.0)
+                *
+                (Variable_Target.MaxGroundbaseLevel > 0)
+                *
+                ((Variable_Target.StarbaseLevel > 0) + (Variable_Target.MaxStarbaseLevel == 0.0))
+        </Needs_Initial_Groundbase>
+
+
+        <Needs_Cantina>
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                (Variable_Target.StructureCount {Parameter_Type = "Ground_Cantina_E",
+                                                                                        Parameter_Type = "Ground_Cantina_R",
+                                                                                        Parameter_Only_Consider_Complete = 1.0} == 1.0)
+                *
+                50.0
+        </Needs_Cantina>
+
+        <Needs_Mining_Facility>
+                (
+                        (
+                                10.0
+                                *
+                                (1.0 + Variable_Target.IncomeUnnormalized * Variable_Target.IncomeUnnormalized / 250000.0)
+                                +
+                                10 * (0.5 > (Variable_Self.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility", Parameter_Type = "Rebel_Ground_Mining_Facility", Parameter_Only_Consider_Complete = 1.0} / Variable_Self.PlanetsControlledUnnormalized))
+                        )
+                        *
+                        clamp(Function_Defense_Level.Evaluate - 1, 0.0, 2.0)
+                        *
+                        ((Variable_Target.MaxStructureSlotsUnnormalized / 2.0) > Variable_Target.StructureCount {Parameter_Type = "Empire_Ground_Mining_Facility",
+                                                                                                                                                                                                                Parameter_Type = "Rebel_Ground_Mining_Facility",
+                                                                                                                                                                                                                Parameter_Only_Consider_Complete = 1.0})
+                        *
+                        Variable_Self.HasStructure {Parameter_Type = "E_Ground_Light_Vehicle_Factory",
+                                                                                        Parameter_Type = "R_Ground_Light_Vehicle_Factory",
+                                                                                        Parameter_Only_Consider_Complete = 1.0}
+                        *
+                        Variable_Self.HasStructure {Parameter_Type = "E_Ground_Barracks",
+                                                                                        Parameter_Type = "R_Ground_Barracks",
+                                                                                        Parameter_Only_Consider_Complete = 1.0}
+                        *
+                        (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+                        +
+                        50.0
+                        *
+                        (Variable_Self.HasStructure {Parameter_Type = "Empire_Ground_Mining_Facility",
+                                                                                        Parameter_Type = "Rebel_Ground_Mining_Facility",
+                                                                                        Parameter_Only_Consider_Complete = 1.0} == 0.0)
+                )
+                *
+                (0.33 + 0.67 * (Function_Is_Connected_To_Enemy.Evaluate == 0))
+        </Needs_Mining_Facility>
+
+                Is this a chokepoint planet
+                AND
+                Do we need info
+                AND
+                Do we have enough slots to afford one for a scanner
+                AND
+                Have we already addressed production bottleneck issues
+
+        <Needs_Scanner>
+                Variable_Target.OpenStructureSlots
+                *
+                (Function_Defense_Level.Evaluate > 5)
+                *
+                (Variable_Target.Hints.Chokepoint != 0)
+                *
+                Function_Global_Scout_Need.Evaluate
+                *
+                (Variable_Target.MaxStructureSlotsUnnormalized >=2)
+                *
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (0 >= Function_Needs_Better_Buying_Capability_Space.Evaluate)
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Needs_Scanner>
+
+        <Needs_Hutt_Palace>
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (1.0 - Function_Need_Tech_Upgrade_Unblocked.Evaluate)
+                *
+                50.0
+        </Needs_Hutt_Palace>
+
+
+                are we Rebels?
+                AND
+                Is the system reasonably defended
+                AND
+                make sure it's not a chokepoint system (would waste a slot there)
+                AND
+                scale by how many open slots we have
+                AND
+                We can't really use more than 2 total of this structure
+                AND
+                Have we already addressed production bottleneck issues
+                AND
+                Big Bonus if we have no structure of this type yet
+        <Needs_Ground_Infiltrator_Facility>
+                (
+                        5.0
+                        *
+                        (Variable_Self.IsFaction {Parameter_Faction = "Rebel"})
+                        *
+                        Function_Defense_Level.Evaluate
+                        *
+                        Function_Has_Enough_Bases_For_Tech.Evaluate
+                        +
+                        5.0 * Variable_Target.HasStructure {Parameter_Type = "Ground_Infiltrator_Facility"}
+                )
+                *
+                (2.0 > Variable_Target.StructureCount {Parameter_Type = "Ground_Infiltrator_Facility", Parameter_Only_Consider_Complete = 1.0})
+                *
+                (Function_Should_Save_For_Desirable_Structures.Evaluate == 0)
+        </Needs_Ground_Infiltrator_Facility>
+
+
+                           -->
+        <!--
+                Require at least a certain number of bases, so that unit production
+                won't be severly interrupted during tech production.
+
+                Edited to scale better with different galaxy sizes.  Used to require a fixed number of bases.
+
+                More than one planet controlled
+                AND
+                More than 10% of the galaxy controlled
+                AND
+                More than 75% of owned planets have a level 1 starbase
+                AND
+                More than 75% of owned planets have a level 1 groundbase
+                AND
+                At least one level 3 starbase
+                 -->
+        <Has_Enough_Bases_For_Tech>
+                (Variable_Self.PlanetsControlledUnnormalized > 1)
+                *
+                (Variable_Self.NumStarbaseOfLevel {Parameter_Level = 1} >= (0.75 * Variable_Self.PlanetsControlledUnnormalized))
+                *
+                (Variable_Self.NumGroundbaseOfLevel {Parameter_Level = 1} >= (0.25 * Variable_Self.PlanetsControlledUnnormalized))
+        </Has_Enough_Bases_For_Tech>
+
+        <!--
+                Are we the Empire
+                AND
+                We're not sure to win anyway
+                AND
+                Do we not yet have the Death Star
+                AND
+                Do we have enough bases to afford keeping a base tied up for a lengthy tech upgrade
+                AND
+                        Is it possible to immediately purchase the next tech item without pause using only X% of the gross income
+                        Or
+                        Is it mostly already paid for by the MajorItem slush fund
+
+
+                UNUSED:
+                 Scale with income relative to max possible income
+                Variable_Self.GrossIncomeNBTF
+
+                 We haven't been attacked in a while OR
+                 The enemy is ahead in tech OR        -WAITING ON Enemy.TechLevel
+                 We have enough systems that it couldn't hurt to have one tied up in tech OR
+                 We're so far ahead in space forces that it can't hurt
+                 Game.FriendlyForce.SpaceTotalUnnormalized - Game.EnemyForce.SpaceTotalUnnormalized
+                 -->
+        <Empire_Should_Upgrade_Tech>
+                (Variable_Self.IsFaction {Parameter_Faction = "Empire"})
+                *
+                (1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Count = 1, Parameter_Only_Consider_Complete = 1.0})
+                *
+                Function_Has_Enough_Bases_For_Tech.Evaluate
+                *
+                (
+                        clamp(Function_Has_Enough_Space_Force_Globally.Evaluate +
+                                        (Game.Timeline > Variable_Self.TechLevel) * (Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) ,
+                                        0.0, 1.0)
+                        *
+                        (
+                                (1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"}) *
+                                ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"}) +
+                                (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                                +
+                                Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"} *
+                                (Variable_Self.TechLevel == 1) *
+                                ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"}) +
+                                (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                                +
+                                (Variable_Self.TechLevel == 2) *
+                                ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"}) +
+                                (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                                +
+                                (Variable_Self.TechLevel == 3) *
+                                ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"}) +
+                                (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                                +
+                                (Variable_Self.TechLevel == 4) *
+                                ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"}) +
+                                (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                        )
+                        +
+                        (Variable_Self.TechLevel == 5) *
+                        ((0.7 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"}) +
+                        (0.9 >= Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star", Parameter_Category = AIGoalCategoryType[MajorItem]}) >= 1.0)
+                )
+        </Empire_Should_Upgrade_Tech>
+
+
+        <!-- Do we want to switch to the "tech up" template?
+
+        If we want to upgrade tech
+        AND
+                We need a research facility
+                OR
+                We're able to advance the tech level
+                OR
+                we're tech 5 and we want to buy the death star
+        -->
+        <Empire_Tech_Trigger>
+                Function_Empire_Should_Upgrade_Tech.Evaluate
+                *
+                (
+                        (
+                                (1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility"})
+                                +
+                                Variable_Self.CanAdvanceTech
+                                +
+                                (Variable_Self.TechLevel == 5) * (1.0 - Variable_Self.HasUnit{Parameter_Type = "Death_Star"})
+                        )
+                        >= 1.0
+                )
+        </Empire_Tech_Trigger>
+
+        <!-- an untrigger for the tech template at a higher budgetFractionToBuild threshold,
+                because the template is having trouble sticking.
+
+                Untrigger if:
+                We're less than level 5 AND we already have a research facility AND we can't advance tech level
+                OR
+                We really can no longer afford to both pay for this item and maintain other activities
+                OR
+                We already have the Death Star
+                -->
+        <Empire_Tech_Untrigger>
+                (5 > Variable_Self.TechLevel) *
+                Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                (1.0 - Variable_Self.CanAdvanceTech)
+                +
+                (
+                        (1 - Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1}) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "E_Ground_Research_Facility"} >= 0.8)
+                        +
+                        Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                        (Variable_Self.TechLevel == 1) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Primary_Hyperdrive"} >= 0.8)
+                        +
+                        Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                        (Variable_Self.TechLevel == 2) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Shield_Gen"} >= 0.8)
+                        +
+                        Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                        (Variable_Self.TechLevel == 3) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Superlaser_Core"} >= 0.8)
+                        +
+                        Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                        (Variable_Self.TechLevel == 4) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "DS_Durasteel"} >= 0.8)
+                        +
+                        Variable_Self.HasStructure{Parameter_Type = "E_Ground_Research_Facility", Parameter_Only_Consider_Complete = 1} *
+                        (Variable_Self.TechLevel == 5) *
+                        (Variable_Self.BudgetFractionToBuild{Parameter_Type = "Death_Star"} >= 0.80)
+                )
+                +
+                Variable_Self.HasUnit{Parameter_Type = "Death_Star", Parameter_Only_Consider_Complete = 1}
+        </Empire_Tech_Untrigger>
+
+        <Can_Reclaim_Excess_MajorItem_Budget>
+                (Variable_Self.ActiveGoals {Parameter_Category = AIGoalCategoryType[MajorItem]} > 0)
+        </Can_Reclaim_Excess_MajorItem_Budget>
+
+        <Can_Afford_Steal_Tech>
+                (Variable_Self.CreditsUnnormalized > 1000)
+                *
+                ((Variable_Self.NetIncomeUnnormalized > 500) + (Variable_Self.CreditsUnnormalized > 2500))
+        </Can_Afford_Steal_Tech>
+
+        <Should_Save_For_Desirable_Structures>
+                (Variable_Target.GroundBaseLevelUnnormalized > 1.0)
+                *
+                (
+                        (Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Heavy_Vehicle_Factory", Parameter_Type = "R_Ground_Heavy_Vehicle_Factory"})
+                        *
+                        (Function_Need_Heavy_Vehicle_Factory.Evaluate > 10.0)
+                        +
+                        (Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Advanced_Vehicle_Factory"})
+                        *
+                        (Function_Need_Advanced_Vehicle_Factory.Evaluate > 10.0)
+                        +
+                        (Variable_Self.HasTechToProduce {Parameter_Type = "Ground_Empire_Hypervelocity_Gun", Parameter_Type = "Ground_Ion_Cannon"})
+                        *
+                        (Function_Needs_Weapon.Evaluate > 15.0)
+                        +
+                        (Variable_Self.HasTechToProduce {Parameter_Type = "E_Ground_Base_Shield", Parameter_Type = "R_Ground_Base_Shield"})
+                        *
+                        (Function_Needs_Base_Shield.Evaluate > 15.0)
+                        +
+                        (Variable_Self.HasTechToProduce {Parameter_Type = "E_Galactic_Turbolaser_Tower_Defenses", Parameter_Type = "R_Galactic_Turbolaser_Tower_Defenses"})
+                        *
+                        (Function_Needs_Turbolasers.Evaluate > 15.0)
+                )
+        </Should_Save_For_Desirable_Structures>
+
+        <Num_Planets_Controlled>
+                Variable_Self.PlanetsControlledUnnormalized
+        </Num_Planets_Controlled>
+
+        <Num_Enemy_Space_Territories>
+                Variable_Human.SpaceDefendedPlanets * Variable_Human.PlanetsControlledUnnormalized
+        </Num_Enemy_Space_Territories>
+
+        <Num_Enemy_Land_Territories>
+                Variable_Human.GroundDefendedPlanets * Variable_Human.PlanetsControlledUnnormalized
+        </Num_Enemy_Land_Territories>
+
+        <Enemy_Planets_Controlled>
+                Variable_Human.PlanetsControlledUnnormalized
+        </Enemy_Planets_Controlled>
+
+
+</Equations>
