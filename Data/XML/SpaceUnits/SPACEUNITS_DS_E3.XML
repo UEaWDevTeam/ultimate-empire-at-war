@@ -14,7 +14,7 @@
                 <Icon_Name>i_button_tie_scout.tga</Icon_Name>
 
                 <Space_Model_Name>VSF_TIESCOUT.ALO</Space_Model_Name>
-                <Scale_Factor>1.05</Scale_Factor>
+                <Scale_Factor>0.95</Scale_Factor>
                 <Select_Box_Scale>30</Select_Box_Scale>
                 <Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
                 <Mass>0.98</Mass>
@@ -37,7 +37,7 @@
                 <Affiliation>Empire</Affiliation>
 
                 <Shield_Points>0</Shield_Points>
-                <Tactical_Health>70</Tactical_Health>
+                <Tactical_Health>150</Tactical_Health>
                 <Shield_Refresh_Rate>0</Shield_Refresh_Rate>
                 <Energy_Capacity>500</Energy_Capacity>
                 <Energy_Refresh_Rate>300</Energy_Refresh_Rate>
@@ -59,7 +59,7 @@
                 </HardPoints>
 
                 <Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
-                <Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
+                <Land_FOW_Reveal_Range>250.0</Land_FOW_Reveal_Range>
                 <Space_FOW_Reveal_Range>3500.0</Space_FOW_Reveal_Range>
                 <Dense_FOW_Reveal_Range_Multiplier>0.75</Dense_FOW_Reveal_Range_Multiplier>
                 <Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
@@ -121,7 +121,7 @@
                                 <Recharge_Seconds> 30.0 </Recharge_Seconds>
                                 <Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
                                 <Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
-                                <Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance>
+                                <Area_Effect_Decal_Distance> 1000.0 </Area_Effect_Decal_Distance>
                                 <GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                         </Unit_Ability>
 
@@ -159,7 +159,7 @@
                 <Autoresolve_Health>420</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>240</Build_Cost_Credits>
+                <Build_Cost_Credits>250</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>25</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -197,8 +197,8 @@
                 <Build_Initially_Locked>Yes</Build_Initially_Locked>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>50</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -223,7 +223,7 @@
                                 <Recharge_Seconds> 30.0 </Recharge_Seconds>
                                 <Spawned_Object_Type> Proj_Special_Space_FOW_Reveal_Ping_Blast </Spawned_Object_Type>
                                 <Effective_Radius> 0.0 </Effective_Radius> <!-- 0.0 means no distance factor, unlimited to entire map -->
-                                <Area_Effect_Decal_Distance> 600.0 </Area_Effect_Decal_Distance>
+                                <Area_Effect_Decal_Distance> 1000.0 </Area_Effect_Decal_Distance>
                                 <GUI_Activated_Ability_Name>  </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
                         </Unit_Ability>
 
@@ -238,7 +238,7 @@
                 <Text_ID>TEXT_UNIT_TIE_FIGHTER</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Z-95</Encyclopedia_Good_Against>
+                <Encyclopedia_Good_Against> RA_Z-95 RA_Y-WING</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> RA_X-WING RA_A-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 
@@ -251,12 +251,18 @@
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
                 <Max_Speed>4.0</Max_Speed>
-                <Min_Speed>2.5</Min_Speed>
+                <Min_Speed>3.85</Min_Speed>
+				<Min_Speed_Fraction_For_Turn>0.8</Min_Speed_Fraction_For_Turn>
                 <Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
                 <Max_Lift>4</Max_Lift>
                 <Max_Thrust>1.5</Max_Thrust>
+<<<<<<< .mine
+                <Max_Rate_Of_Roll>5.5</Max_Rate_Of_Roll>
+                <Bank_Turn_Angle>90</Bank_Turn_Angle>
+=======
                 <Max_Rate_Of_Roll>5.8</Max_Rate_Of_Roll>
                 <Bank_Turn_Angle>40</Bank_Turn_Angle>
+>>>>>>> .r1432
                 <Hyperspace>no</Hyperspace>
                 <Hyperspace_Speed>0</Hyperspace_Speed>
 
@@ -274,7 +280,7 @@
 
                 <Ship_Class>fighter</Ship_Class>
 
-                <Armor_Type> Armour_Starfighter_Basic </Armor_Type>
+                <Armor_Type> Armour_Starfighter </Armor_Type>
 
                 <Is_Escort>yes</Is_Escort>
                 <Is_Bomber>no</Is_Bomber>
@@ -374,7 +380,7 @@
                 <Text_ID>TEXT_UNIT_TIE_FIGHTER_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Z-95</Encyclopedia_Good_Against>
+                <Encyclopedia_Good_Against> RA_Z-95 RA_Y-WING</Encyclopedia_Good_Against>
                 <Encyclopedia_Vulnerable_To> RA_X-WING RA_A-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_tie_fighter.tga</Icon_Name>
 
@@ -386,10 +392,10 @@
                 <Autoresolve_Health>648</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Build_Cost_Credits>125</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -446,7 +452,7 @@
 
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>150</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Cost_Multiplayer>100</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
@@ -461,8 +467,8 @@
                 <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Y-WING RA_X-WING RA_Z-95</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_B-WING RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Z-95 RA_Y-WING RA_X-WING </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_A-WING RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_EV_TIE_INTERCEPTOR.TGA</Icon_Name>
 
                 <Space_Model_Name>VSF_TIE_INTERCEPTOR.ALO</Space_Model_Name>
@@ -474,12 +480,17 @@
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
                 <Max_Speed>4.4</Max_Speed>
-                <Min_Speed>3.5</Min_Speed>
+                <Min_Speed>4.2</Min_Speed>
                 <Max_Rate_Of_Turn>4.8</Max_Rate_Of_Turn>
+				<Min_Speed_Fraction_For_Turn>0.85</Min_Speed_Fraction_For_Turn>
                 <Max_Lift>4</Max_Lift>
                 <Max_Thrust>2.0</Max_Thrust>
                 <Max_Rate_Of_Roll>5.6</Max_Rate_Of_Roll>
+<<<<<<< .mine
+                <Bank_Turn_Angle>90</Bank_Turn_Angle>
+=======
                 <Bank_Turn_Angle>45</Bank_Turn_Angle>
+>>>>>>> .r1432
                 <Hyperspace>no</Hyperspace>
                 <Hyperspace_Speed>0</Hyperspace_Speed>
 
@@ -588,8 +599,8 @@
                 <Text_ID>TEXT_UNIT_TIE_INTERCEPTOR_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_INTERCEPTOR</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_INTERCEPTOR </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Y-WING RA_X-WING RA_Z-95</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_B-WING RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Z-95 RA_Y-WING RA_X-WING </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_A-WING RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_EV_TIE_INTERCEPTOR.TGA</Icon_Name>
 
                 <GUI_Row> 0 </GUI_Row>
@@ -600,10 +611,10 @@
                 <Autoresolve_Health>780</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Build_Cost_Credits>270</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -659,8 +670,8 @@
 
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>200</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -676,8 +687,8 @@
                 <Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_MARAUDER RA_EF76_FRIGATE RA_MC80_LIBERTYTYPE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_X-WING RA_A-WING</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_DREADNAUGHT RA_ASSAULT_FRIGATE_II E RA_MC80_LIBERTYTYPE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Z-95 RA_X-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_TIE_BOMBER.TGA</Icon_Name>
 
                 <Space_Model_Name>VSB_TIEBOMBER.ALO</Space_Model_Name>
@@ -688,9 +699,10 @@
 
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-                <Max_Speed>2.4</Max_Speed>
-                <Min_Speed>1.0</Min_Speed>
+                <Max_Speed>2.6</Max_Speed>
+                <Min_Speed>2.0</Min_Speed>
                 <Max_Rate_Of_Turn>1.4</Max_Rate_Of_Turn>
+				<Min_Speed_Fraction_For_Turn>0.75</Min_Speed_Fraction_For_Turn>
                 <Max_Lift>3</Max_Lift>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Rate_Of_Roll>2.7</Max_Rate_Of_Roll>
@@ -805,8 +817,8 @@
                 <Text_ID>TEXT_UNIT_TIE_BOMBER_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_BOMBER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_MARAUDER RA_EF76_FRIGATE RA_MC80_LIBERTYTYPE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_X-WING RA_A-WING</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_DREADNAUGHT RA_ASSAULT_FRIGATE_II E RA_MC80_LIBERTYTYPE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Z-95 RA_X-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_TIE_BOMBER.TGA</Icon_Name>
 
                 <GUI_Row> 0 </GUI_Row>
@@ -817,10 +829,10 @@
                 <Autoresolve_Health>1020</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Build_Cost_Credits>250</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
-                <Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+                <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
                 <Tech_Level>0</Tech_Level>
                 <Required_Timeline />
                 <Required_Star_Base_Level>1</Required_Star_Base_Level>
@@ -867,8 +879,8 @@
                 <Score_Cost_Credits> 420</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>75</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>125</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>13</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -882,8 +894,8 @@
                 <Text_ID>TEXT_UNIT_TIE_DEFENDER</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Y-WING_SQUADRON RA_X-WING_SQUADRON RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Y-WING RA_A-WING RA_MC80_HOMEONETYPE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_GUNBOAT RA_A-WING </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
 
                 <Space_Model_Name>VSB_TIE_DEFENDER.ALO</Space_Model_Name>
@@ -895,7 +907,8 @@
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
                 <Max_Speed>6.2</Max_Speed>
-                <Min_Speed>3.0</Min_Speed>
+                <Min_Speed>6.0</Min_Speed>
+				<Min_Speed_Fraction_For_Turn>0.85</Min_Speed_Fraction_For_Turn>
                 <Max_Rate_Of_Turn>4.5</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Lift>4</Max_Lift>
@@ -908,9 +921,15 @@
 
                 <Affiliation>Empire</Affiliation>
 
+<<<<<<< .mine
+                <Shield_Points>40</Shield_Points>
+                <Tactical_Health>110</Tactical_Health>
+                <Shield_Refresh_Rate>1.8</Shield_Refresh_Rate>
+=======
                 <Shield_Points>35</Shield_Points>
                 <Tactical_Health>70</Tactical_Health>
                 <Shield_Refresh_Rate>1.36</Shield_Refresh_Rate>
+>>>>>>> .r1432
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -1022,8 +1041,8 @@
                 <Text_ID>TEXT_UNIT_TIE_DEFENDER_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TIE_DEFENDER</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_ASSAULT_FIGHTER </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Y-WING_SQUADRON RA_X-WING_SQUADRON RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Y-WING RA_A-WING RA_MC80_HOMEONETYPE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_GUNBOAT RA_A-WING </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_EV_TIE_Defender.tga</Icon_Name>
 
                 <GUI_Row> 0 </GUI_Row>
@@ -1034,7 +1053,7 @@
                 <Autoresolve_Health>1560</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Build_Cost_Credits>750</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -1107,8 +1126,8 @@
 
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>675</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>400</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1122,8 +1141,8 @@
                 <Text_ID>TEXT_UNIT_ALPHA_CLASS</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ALPHA_CLASS</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Z-95_SQUADRON RA_X-WING_SQUADRON RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_A-WING RA_B-WING </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Z-95_SQUADRON RA_Y-WING RA_CORELLIAN_CORVETTE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_A-WING RA_B-WING RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_XG_STAR_WING.tga</Icon_Name>
 
                 <Space_Model_Name>VSG_XG1_STAR_WING.ALO</Space_Model_Name>
@@ -1135,7 +1154,8 @@
                 <Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
                 <Max_Speed>3.6</Max_Speed>
-                <Min_Speed>1.0</Min_Speed>
+                <Min_Speed>2.0</Min_Speed>
+				<Min_Speed_Fraction_For_Turn>0.5</Min_Speed_Fraction_For_Turn>
                 <Max_Rate_Of_Turn>2.2</Max_Rate_Of_Turn>
                 <Max_Thrust>1.0</Max_Thrust>
                 <Max_Lift>4</Max_Lift>
@@ -1148,9 +1168,15 @@
 
                 <Affiliation>Empire</Affiliation>
 
+<<<<<<< .mine
+                <Shield_Points>60</Shield_Points>
+                <Tactical_Health>180</Tactical_Health>
+                <Shield_Refresh_Rate>1.0</Shield_Refresh_Rate>
+=======
                 <Shield_Points>35</Shield_Points>
                 <Tactical_Health>65</Tactical_Health>
                 <Shield_Refresh_Rate>1.19</Shield_Refresh_Rate>
+>>>>>>> .r1432
                 <Energy_Capacity>999</Energy_Capacity>
                 <Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
@@ -1268,8 +1294,8 @@
                 <Text_ID>TEXT_UNIT_ALPHA_CLASS_SQUADRON</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_ALPHA_CLASS</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_GUNBOAT </Encyclopedia_Unit_Class>
-                <Encyclopedia_Good_Against> RA_Z-95_SQUADRON RA_X-WING_SQUADRON RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_A-WING RA_B-WING </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_Z-95_SQUADRON RA_Y-WING RA_CORELLIAN_CORVETTE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_A-WING RA_B-WING RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Icon_Name>i_button_XG_STAR_WING.tga</Icon_Name>
 
                 <GUI_Row> 0 </GUI_Row>
@@ -1280,7 +1306,7 @@
                 <Autoresolve_Health>1500</Autoresolve_Health>
                 <Affiliation>Empire</Affiliation>
                 <Political_Control>0</Political_Control>
-                <Build_Cost_Credits>300</Build_Cost_Credits>
+                <Build_Cost_Credits>450</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
                 <Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
@@ -1361,8 +1387,8 @@
                 </Unit_Abilities_Data>
 
                                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>450</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>375</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1377,8 +1403,8 @@
 
         <SpaceUnit Name="E_TARTAN_CRUISER">
                 <Text_ID>TEXT_UNIT_TARTAN</Text_ID>
-                <Encyclopedia_Good_Against> RA_X-WING RA_Y-WING RA_A-WING</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I RA_ASSAULT_FRIGATE_II</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_X-WING RA_Y-WING RA_A-WING </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Encyclopedia_Text>TEXT_TOOLTIP_TARTAN</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_CORVETTE</Encyclopedia_Unit_Class>
 
@@ -1429,7 +1455,7 @@
                 <Squadron_Capacity>5</Squadron_Capacity>
                 <Transport_Capacity>4</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>1250</Build_Cost_Credits>
+                <Build_Cost_Credits>700</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>1250</AI_Combat_Power>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1548,8 +1574,13 @@
                 <Score_Cost_Credits> 1250</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>650</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>1125</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1578,8 +1609,8 @@
 
         <SpaceUnit Name="E_IPV_PATROL_CRAFT">
                 <Text_ID>TEXT_UNIT_IPV1</Text_ID>
-                <Encyclopedia_Good_Against>RA_Z-95 RA_X-WING RA_A-WING </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I RA_ASSAULT_FRIGATE_II </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against>RA_Z-95 RA_X-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_EF76_FRIGATE </Encyclopedia_Vulnerable_To>
                 <Encyclopedia_Text>TEXT_TOOLTIP_IPV1</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class>UNIT_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
                 <Space_Model_Name>VCCo_IPV1.ALO</Space_Model_Name>
@@ -1631,7 +1662,7 @@
                 <Squadron_Capacity>5</Squadron_Capacity>
                 <Transport_Capacity>4</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>1250</Build_Cost_Credits>
+                <Build_Cost_Credits>900</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>1250</AI_Combat_Power>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1748,8 +1779,13 @@
                 <Score_Cost_Credits> 1250</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>750</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>1125</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>12</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1780,9 +1816,9 @@
             <SpaceUnit Name="E_BROADSIDE">
                 <Text_ID>TEXT_UNIT_BROADSIDE</Text_ID>
                 <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE</Encyclopedia_Text>
-                <Encyclopedia_Good_Against> RA_Y-WING RA_X-WING RA_CORELLIAN_CORVETTE </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
-                <Encyclopedia_Unit_Class>UNIT_CLASS_GUNSHIP</Encyclopedia_Unit_Class>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_X-WING RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Unit_Class>UNIT_CLASS_SPACE_ARTILLERY</Encyclopedia_Unit_Class>
 
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCFr_BROADSIDE.ALO</Space_Model_Name>
@@ -1839,7 +1875,7 @@
                 <Squadron_Capacity>0</Squadron_Capacity>
                 <Transport_Capacity>4</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>1850</Build_Cost_Credits>
+                <Build_Cost_Credits>2000</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>1400</AI_Combat_Power>
                 <Build_Time_Seconds>15</Build_Time_Seconds>
@@ -1950,8 +1986,13 @@
                 <Score_Cost_Credits> 1400</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>1400</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>1350</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>22</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -1984,13 +2025,14 @@
         </SpaceUnit>
 
                 <SpaceUnit Name="E_BROADSIDE_DB">
-                 <Variant_Of_Existing_Type>E_BROADSIDE</Variant_Of_Existing_Type>
+                <Variant_Of_Existing_Type>E_BROADSIDE</Variant_Of_Existing_Type>
 
-                 <Text_ID>TEXT_UNIT_BROADSIDE_M</Text_ID>
-                 <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE_M</Encyclopedia_Text>
-                                 <Encyclopedia_Good_Against> RA_Y-WING RA_X-WING RA_EF76_FRIGATE </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
+                <Text_ID>TEXT_UNIT_BROADSIDE_M</Text_ID>
+                <Encyclopedia_Text>TEXT_TOOLTIP_BROADSIDE_M</Encyclopedia_Text>
+                <Encyclopedia_Good_Against> RA_X-WING RA_EF76_FRIGATE RA_MC80_LIBERTYTYPE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_X-WING RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I </Encyclopedia_Vulnerable_To>
                 <Icon_Name>I_BUTTON_BROADSIDE_M.TGA</Icon_Name>
+				<Build_Cost_Credits>3000</Build_Cost_Credits>
                  <HardPoints>
                          HP_BROADSIDE_REFIT_E3_LTL_01,
                          HP_BROADSIDE_REFIT_E3_LTL_02,
@@ -1999,6 +2041,7 @@
                  </HardPoints>
 
                                  <Tactical_Build_Cost_Multiplayer>2400</Tactical_Build_Cost_Multiplayer>
+								 <Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
         </SpaceUnit>
 
                 <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->                <!-- Utility -->
@@ -2006,8 +2049,8 @@
 
         <SpaceUnit Name="E_INTERDICTOR_CRUISER">
                 <Text_ID>TEXT_UNIT_INTERDICTOR</Text_ID>
-                <Encyclopedia_Good_Against>RA_Z-95 RA_DP20 RA_MARAUDER_DB</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against>RA_Z-95 RA_MARAUDER_DB</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>EV_Interdictor.alo</Space_Model_Name>
                 <Select_Box_Scale>250</Select_Box_Scale>
@@ -2059,7 +2102,7 @@
                 <Squadron_Capacity>5</Squadron_Capacity>
                 <Transport_Capacity>4</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>3000</Build_Cost_Credits>
+                <Build_Cost_Credits>3500</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>3000</AI_Combat_Power>
                 <Build_Time_Seconds>50</Build_Time_Seconds>
@@ -2186,8 +2229,13 @@
                 <Score_Cost_Credits> 3000</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>2750</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>40</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>2350</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -2220,8 +2268,8 @@
 
             <SpaceUnit Name="E_ACCLAMATOR_ASSAULT_FRIGATE_I">
                 <Text_ID>TEXT_UNIT_GCW_ACCLAMATORI</Text_ID>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_MARAUDER</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_ASSAULT_FRIGATE_I</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_MARAUDER RA_EF76_HOSPITAL_FRIGATE</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_CORELLIAN_GUNBOAT RA_ASSAULT_FRIGATE_I RA_ASSAULT_FRIGATE_II</Encyclopedia_Vulnerable_To>
                 <Encyclopedia_Text> TEXT_TOOLTIP_GCW_ACCLAMATORI</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_TROOP_TRANSPORT </Encyclopedia_Unit_Class>
                 <GUI_Row> 1 </GUI_Row>
@@ -2275,7 +2323,7 @@
                 <Squadron_Capacity>10</Squadron_Capacity>
                 <Transport_Capacity>8</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>2500</Build_Cost_Credits>
+                <Build_Cost_Credits>2700</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>2500</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
@@ -2401,8 +2449,13 @@
                 <Score_Cost_Credits> 1800</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>27</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>3600</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -2432,8 +2485,8 @@
 
             <SpaceUnit Name="E_ACCLAMATOR_ASSAULT_FRIGATE_II">
                 <Text_ID>TEXT_UNIT_GCW_ACCLAMATORII</Text_ID>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_ASSAULT_FRIGATE_II</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE RA_DREADNAUGHT</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE</Encyclopedia_Vulnerable_To>
                 <Encyclopedia_Text> TEXT_TOOLTIP_GCW_ACCLAMATORII</Encyclopedia_Text>
                 <Encyclopedia_Unit_Class> UNIT_CLASS_LIGHT_CRUISER </Encyclopedia_Unit_Class>
                 <GUI_Row> 1 </GUI_Row>
@@ -2466,7 +2519,11 @@
                 <Armor_Type> Armour_Cruiser_Basic </Armor_Type>
                 <Shield_Armor_Type>Shield_Cruiser_Basic</Shield_Armor_Type>
                 <Autoresolve_Health>4310</Autoresolve_Health>
+<<<<<<< .mine
+                <Shield_Points>3300</Shield_Points>
+=======
                 <Shield_Points>1288</Shield_Points>
+>>>>>>> .r1432
                 <Tactical_Health>2470</Tactical_Health>
                 <Shield_Refresh_Rate>17</Shield_Refresh_Rate> <!-- was 50 -->
                 <Energy_Capacity>3000</Energy_Capacity>
@@ -2487,7 +2544,7 @@
                 <Squadron_Capacity>10</Squadron_Capacity>
                 <Transport_Capacity>8</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>2500</Build_Cost_Credits>
+                <Build_Cost_Credits>3200</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>2500</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
@@ -2624,8 +2681,13 @@
                 <Score_Cost_Credits> 1800</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>32</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>2025</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -2642,8 +2704,8 @@
                 <Encyclopedia_Unit_Class> UNIT_CLASS_HEAVY_CRUISER </Encyclopedia_Unit_Class>
                 <Text_ID>TEXT_UNIT_DREADNAUGHT_EMPIRE</Text_ID>
                 <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_EMPIRE</Encyclopedia_Text>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_MARAUDER RA_EF76_FRIGATE </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_HOSPITAL_FRIGATE RA_EF76_FRIGATE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_ASSAULT_FRIGATE_I RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
                 <Space_Model_Name>VCCr_Dreadnaught_Empire.ALO</Space_Model_Name>
                 <Affiliation>Empire</Affiliation>
 
@@ -2715,7 +2777,7 @@
                 <Squadron_Capacity>10</Squadron_Capacity>
                 <Transport_Capacity>8</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>2000</Build_Cost_Credits>
+                <Build_Cost_Credits>3000</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>2000</AI_Combat_Power>
                 <Build_Time_Seconds>35</Build_Time_Seconds>
@@ -2783,8 +2845,8 @@
 
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
-                <Tactical_Build_Cost_Multiplayer>2500</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>18</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Cost_Multiplayer>2300</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>28</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -2826,11 +2888,11 @@
                                 <Encyclopedia_Text> TEXT_TOOLTIP_DREADNAUGHT_REFIT_EMPIRE</Encyclopedia_Text>
 
                                 <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I</Encyclopedia_Good_Against>
-                                <Encyclopedia_Vulnerable_To> RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE RA_B-WING </Encyclopedia_Vulnerable_To>
+                                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
 
                                 <Icon_Name>I_BUTTON_DREADNAUGHT_REFIT.tga</Icon_Name>
                                 <Max_Speed>1.1</Max_Speed>
-
+								<Build_Cost_Credits>3500</Build_Cost_Credits>
                                 <Autoresolve_Health>8340</Autoresolve_Health>
                                 <Shield_Points>2520</Shield_Points>
                                 <Tactical_Health>4740</Tactical_Health>
@@ -2858,14 +2920,15 @@
                                 </HardPoints>
 
                                 <Tactical_Build_Cost_Multiplayer>2650</Tactical_Build_Cost_Multiplayer>
+								<Tactical_Build_Time_Seconds>34</Tactical_Build_Time_Seconds>
                                  <Population_Value>5</Population_Value>
                         </SpaceUnit>
 
         <SpaceUnit Name="E_VICTORY_I">
                 <Text_ID>TEXT_UNIT_VICTORYI</Text_ID>
                 <Encyclopedia_Text> TEXT_TOOLTIP_VICTORYI</Encyclopedia_Text>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_CORELLIAN_GUNBOAT RA_EF76_FRIGATE</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_ASSAULT_FRIGATE_II RA_B-WING</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I RA_DREADNAUGHT_REFIT</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_MC30_FRIGATE RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCr_VICTORY_I.ALO</Space_Model_Name>
                 <Select_Box_Scale>350</Select_Box_Scale>
@@ -2914,7 +2977,7 @@
                 <Squadron_Capacity>15</Squadron_Capacity>
                 <Transport_Capacity>12</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>3800</Build_Cost_Credits>
+                <Build_Cost_Credits>4500</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>3800</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
@@ -3075,7 +3138,7 @@
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>3250</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Time_Seconds>34</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -3106,8 +3169,8 @@
         <SpaceUnit Name="E_VICTORY_II">
                 <Text_ID>TEXT_UNIT_VICTORYII</Text_ID>
                 <Encyclopedia_Text> TEXT_TOOLTIP_VICTORYII</Encyclopedia_Text>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I</Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_MC80_LIBERTYTYPE RA_B-WING</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_I RA_ASSAULT_FRIGATE_II</Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_MC30_FRIGATE RA_MC80_LIBERTYTYPE </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCCr_VICTORY_II.ALO</Space_Model_Name>
                 <Select_Box_Scale>350</Select_Box_Scale>
@@ -3156,7 +3219,7 @@
                 <Squadron_Capacity>15</Squadron_Capacity>
                 <Transport_Capacity>12</Transport_Capacity>
                 <Number_per_Squadron>1</Number_per_Squadron>
-                <Build_Cost_Credits>3800</Build_Cost_Credits>
+                <Build_Cost_Credits>5000</Build_Cost_Credits>
                 <Piracy_Value_Credits>50</Piracy_Value_Credits>
                 <AI_Combat_Power>3800</AI_Combat_Power>
                 <Build_Time_Seconds>30</Build_Time_Seconds>
@@ -3317,8 +3380,13 @@
                 <Score_Cost_Credits> 2250</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>4000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>37</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>3450</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>25</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -3350,8 +3418,8 @@
 
         <SpaceUnit Name="E_ISDI">
                 <Text_ID>TEXT_UNIT_ISDI</Text_ID>
-                <Encyclopedia_Good_Against> RA_CORELLIAN_CORVETTE RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_II </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_B-WING RA_MC80_HOMEONETYPE </Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_B-WING RA_MC80_HOMEONETYPE </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCBa_ISDI.ALO</Space_Model_Name>
 
@@ -3405,7 +3473,7 @@
                 <!--<Political_Control>1</Political_Control>-->
                 <Political_Faction>Empire</Political_Faction>
                 <Squadron_Capacity>40</Squadron_Capacity>
-                <Build_Cost_Credits>5900</Build_Cost_Credits>
+                <Build_Cost_Credits>8500</Build_Cost_Credits>
                 <Piracy_Value_Credits>250</Piracy_Value_Credits>
                 <AI_Combat_Power>5900</AI_Combat_Power>
                 <Build_Time_Seconds>90</Build_Time_Seconds>
@@ -3581,8 +3649,13 @@
                 <Score_Cost_Credits> 45000</Score_Cost_Credits>
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+<<<<<<< .mine
+                <Tactical_Build_Cost_Multiplayer>7000</Tactical_Build_Cost_Multiplayer>
+                <Tactical_Build_Time_Seconds>45</Tactical_Build_Time_Seconds>
+=======
                 <Tactical_Build_Cost_Multiplayer>5100</Tactical_Build_Cost_Multiplayer>
                 <Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+>>>>>>> .r1432
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
@@ -3612,8 +3685,8 @@
 
         <SpaceUnit Name="E_ISDII">
                 <Text_ID>TEXT_UNIT_ISDII</Text_ID>
-                <Encyclopedia_Good_Against> RA_EF76_FRIGATE RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE </Encyclopedia_Good_Against>
-                <Encyclopedia_Vulnerable_To> RA_B-WING RA_MC80_HOMEONETYPE</Encyclopedia_Vulnerable_To>
+                <Encyclopedia_Good_Against> RA_ASSAULT_FRIGATE_II RA_MC80_LIBERTYTYPE RA_MC80_HOMEONETYPE </Encyclopedia_Good_Against>
+                <Encyclopedia_Vulnerable_To> RA_Y-WING RA_B-WING RA_MC80_HOMEONETYPE </Encyclopedia_Vulnerable_To>
                 <GUI_Row> 1 </GUI_Row>
                 <Space_Model_Name>VCBa_ISDII.ALO</Space_Model_Name>
 
@@ -3667,7 +3740,7 @@
                 <!--<Political_Control>1</Political_Control>-->
                 <Political_Faction>Empire</Political_Faction>
                 <Squadron_Capacity>40</Squadron_Capacity>
-                <Build_Cost_Credits>5900</Build_Cost_Credits>
+                <Build_Cost_Credits>9750</Build_Cost_Credits>
                 <Piracy_Value_Credits>250</Piracy_Value_Credits>
                 <AI_Combat_Power>5900</AI_Combat_Power>
                 <Build_Time_Seconds>90</Build_Time_Seconds>
@@ -3837,7 +3910,7 @@
 
                 <!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
                 <Tactical_Build_Cost_Multiplayer>5700</Tactical_Build_Cost_Multiplayer>
-                <Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>
+                <Tactical_Build_Time_Seconds>50</Tactical_Build_Time_Seconds>
                 <Tactical_Build_Prerequisites />
                 <Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
                 <!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
