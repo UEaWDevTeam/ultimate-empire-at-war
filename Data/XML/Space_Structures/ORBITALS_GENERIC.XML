@@ -592,14 +592,14 @@
        </SpecialStructure>
 
         <SpecialStructure Name="LS_HYDROPONICS">
-
+				<Place_Other_Type_At_Every_Specific_Marker_Position>LS_HYDROPONICS</Place_Other_Type_At_Every_Specific_Marker_Position>
                  <Variant_Of_Existing_Type>GENERIC_HYDROPONICS</Variant_Of_Existing_Type>
                  <Affiliation>Old_Republic, Republic, Rebel, New_Republic</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
         </SpecialStructure>
 
         <SpecialStructure Name="DS_HYDROPONICS">
-
+				<Place_Other_Type_At_Every_Specific_Marker_Position>DS_HYDROPONICS</Place_Other_Type_At_Every_Specific_Marker_Position>
                  <Variant_Of_Existing_Type>GENERIC_HYDROPONICS</Variant_Of_Existing_Type>
                  <Affiliation>Sith, CIS, Empire, Imperial_Remnant</Affiliation>
                  <Build_Initially_Locked>No</Build_Initially_Locked> <!-- Until teching systems are made, will remain unlocked for testing -->
@@ -3939,6 +3939,7 @@
         <Is_Valid_Target>False</Is_Valid_Target>
         <Is_Dummy>True</Is_Dummy>
 </SpaceUnit>
+
 <SpaceUnit Name="Position_Marker_1">
          <Variant_Of_Existing_Type>Dummy_Position_Marker</Variant_Of_Existing_Type>
         <Space_Layer>Capital</Space_Layer>

@@ -1001,14 +1001,115 @@
         <!-- Sub Menu System Control Magic Stuff -->
         <!-- Detect Button clicks, locking units which don't belong to the button and unlocking the other ones -->
 
-         <!-- Detect SpaceMenu click -->
-         <Event Name="CLICK_SHIP_SPACE_TAB">
-              <Event_Type>STORY_CLICK_GUI</Event_Type>
-                <Event_Param1>b_sub_menu_ship</Event_Param1>
-                <Prereq>Universal_Story_Start</Prereq>
-                <Perpetual>True</Perpetual>
+				<!-- LTCC for UEaW, September 2011: Auto-refreshing sub-menus. God, I'm brilliant :P -->
+		
+    <!-- Detect SpaceMenu click -->
+         
+		<Event Name="CLICK_SHIP_SPACE_TAB_DETECT">
+            <Event_Type>STORY_CLICK_GUI</Event_Type>
+            <Event_Param1>b_sub_menu_ship</Event_Param1>
+            <Prereq>Universal_Story_Start</Prereq>
+            <Perpetual>True</Perpetual>
           </Event>
-          <!-- Unlock Space Units -->
+		 
+		<Event Name="CLICK_SHIP_SPACE_TAB">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+			<Prereq>CLICK_SHIP_SPACE_TAB_DETECT</Prereq>
+            <Prereq>REFRESH_SHIP</Prereq>
+            <Perpetual>True</Perpetual>
+        </Event>
+	
+	<!-- Detect StructureMenu click -->
+	
+        <Event Name="CLICK_STRUCTURE_SPACE_TAB_DETECT">
+            <Event_Type>STORY_CLICK_GUI</Event_Type>
+            <Event_Param1>b_sub_menu_structures</Event_Param1>
+            <Prereq>Universal_Story_Start</Prereq>
+            <Perpetual>True</Perpetual>
+        </Event>
+		  
+		<Event Name="CLICK_STRUCTURE_SPACE_TAB">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+			<Prereq>CLICK_STRUCTURE_SPACE_TAB_DETECT</Prereq>
+            <Prereq>REFRESH_STRUCTURE</Prereq>
+            <Perpetual>True</Perpetual>
+        </Event>
+		
+	<!-- Detect ResearchMenu click -->
+	
+        <Event Name="CLICK_RESEARCH_SPACE_TAB_DETECT">
+            <Event_Type>STORY_CLICK_GUI</Event_Type>
+            <Event_Param1>b_sub_menu_research</Event_Param1>
+            <Prereq>Universal_Story_Start</Prereq>
+            <Perpetual>True</Perpetual>
+          </Event>
+		  
+		<Event Name="CLICK_RESEARCH_SPACE_TAB">
+            <Event_Type>STORY_TRIGGER</Event_Type>
+			<Prereq>CLICK_RESEARCH_SPACE_TAB_DETECT</Prereq>
+            <Prereq>REFRESH_RESEARCH</Prereq>
+            <Perpetual>True</Perpetual>
+        </Event>
+
+		  
+		<Event Name="SET_FLAG_SHIP_TAB">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SET_FLAG</Reward_Type>
+			<Reward_Param1>ACTIVE_MENU</Reward_Param1>
+			<Reward_Param2>1</Reward_Param2>
+			<Prereq>CLICK_SHIP_SPACE_TAB</Prereq>
+			<Perpetual>True</Perpetual>
+		</Event>
+		
+		<Event Name="SET_FLAG_STRUCTURE_TAB">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SET_FLAG</Reward_Type>
+			<Reward_Param1>ACTIVE_MENU</Reward_Param1>
+			<Reward_Param2>2</Reward_Param2>
+			<Prereq>CLICK_STRUCTURE_SPACE_TAB</Prereq>
+			<Perpetual>True</Perpetual>
+		</Event>
+		
+		<Event Name="SET_FLAG_RESEARCH_TAB">
+			<Event_Type>STORY_TRIGGER</Event_Type>
+			<Reward_Type>SET_FLAG</Reward_Type>
+			<Reward_Param1>ACTIVE_MENU</Reward_Param1>
+			<Reward_Param2>3</Reward_Param2>
+			<Prereq>CLICK_RESEARCH_SPACE_TAB</Prereq>
+			<Perpetual>True</Perpetual>
+		</Event>
+		
+		<!-- <Event Name="REFRESH">
+			<Event_Type>STORY_CLICK_GUI</Event_Type>
+			<Event_Param1>REFRESH</Event_Param1>
+			<Perpetual>True</Perpetual>
+		</Event> -->
+		
+		<Event Name="REFRESH_SHIP">
+			<Event_Type>STORY_FLAG</Event_Type>
+			<Event_Param1>ACTIVE_MENU</Event_Param1>
+			<Event_Param2>1</Event_Param2>
+			<Event_Param3>EQUAL_TO</Event_Param3>
+			<Perpetual>True</Perpetual>
+		</Event>
+		
+		<Event Name="REFRESH_STRUCTURE">
+			<Event_Type>STORY_FLAG</Event_Type>
+			<Event_Param1>ACTIVE_MENU</Event_Param1>
+			<Event_Param2>2</Event_Param2>
+			<Event_Param3>EQUAL_TO</Event_Param3>
+			<Perpetual>True</Perpetual>
+		</Event>
+		
+		<Event Name="REFRESH_RESEARCH">
+			<Event_Type>STORY_FLAG</Event_Type>
+			<Event_Param1>ACTIVE_MENU</Event_Param1>
+			<Event_Param2>3</Event_Param2>
+			<Event_Param3>EQUAL_TO</Event_Param3>
+			<Perpetual>True</Perpetual>
+		</Event>
+		  
+		  
 
          <Event Name="UNLOCK_S_FIGHTER_SHIP">
                  <Event_Type>STORY_TRIGGER</Event_Type>
@@ -1362,13 +1463,7 @@
                 <Perpetual>True</Perpetual>
          </Event>
 
-         <!-- Detect StructureMenu click -->
-         <Event Name="CLICK_STRUCTURE_SPACE_TAB">
-              <Event_Type>STORY_CLICK_GUI</Event_Type>
-                <Event_Param1>b_sub_menu_structures</Event_Param1>
-                <Prereq>Universal_Story_Start</Prereq>
-                <Perpetual>True</Perpetual>
-          </Event>
+
 
          <!-- Unlock Bases -->
          <Event Name="UNLOCK_S_BASE_1_STRUCTURE">
@@ -1728,13 +1823,6 @@
                <Perpetual>True</Perpetual>
          </Event>
 
-         <!-- Detect ResearchMenu click -->
-         <Event Name="CLICK_RESEARCH_SPACE_TAB">
-              <Event_Type>STORY_CLICK_GUI</Event_Type>
-                <Event_Param1>b_sub_menu_research</Event_Param1>
-                <Prereq>Universal_Story_Start</Prereq>
-                <Perpetual>True</Perpetual>
-          </Event>
 
          <!-- Unlock Research -->
          <Event Name="UNLOCK_E1_STEAL_NEW_DESIGNS_RESEARCH">

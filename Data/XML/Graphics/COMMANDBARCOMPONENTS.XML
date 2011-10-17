@@ -12970,6 +12970,28 @@
     </CommandBarComponent>
 <!-- New UEAW Buttons (Sub Menu System) -->
 
+
+
+	<!-- Not needed anymore because I'm a bit of a genius :P - LTCC -->
+	
+  <!--  <CommandBarComponent Name="REFRESH">
+            <Type>TextButton</Type>
+            <Tooltip_Text>TEXT_SUB_MENU_SHIP</Tooltip_Text>
+            <Blank_Texture_Name>i_button_back_new.tga</Blank_Texture_Name>
+            <Icon_Texture_Name>I_BUTTON_REFRESH_MENU.tga</Icon_Texture_Name>
+            <Mouse_Over_Texture_Name>I_BUTTON_REFRESH_MENU_OVER.tga</Mouse_Over_Texture_Name>
+            <Selected_Texture_Name>I_BUTTON_REFRESH_MENU_OVER.tga</Selected_Texture_Name>
+            <Disabled_Texture_Name>I_BUTTON_REFRESH_MENU.tga</Disabled_Texture_Name>
+            <Group>SUB_MENU_FILTER</Group>
+            <Swap_Texture>False</Swap_Texture>
+            <Tab>True</Tab>
+            <Selected_Alpha>True</Selected_Alpha>
+            <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
+            <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
+            <Toggle>False</Toggle>
+            <Click_Shift>False</Click_Shift>
+    </CommandBarComponent> -->
+	
     <CommandBarComponent Name="b_sub_menu_ship">
             <Type>Button</Type>
             <Tooltip_Text>TEXT_SUB_MENU_SHIP</Tooltip_Text>
@@ -12984,7 +13006,7 @@
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
                                 <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
-            <Toggle>True</Toggle>
+            <Toggle>False</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
@@ -13002,7 +13024,7 @@
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
                                 <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
-            <Toggle>True</Toggle>
+            <Toggle>False</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 
@@ -13020,7 +13042,7 @@
             <Selected_Alpha>True</Selected_Alpha>
             <Mouse_Over_SFX>GUI_Highlight_Mouse_Over</Mouse_Over_SFX>
                                 <Click_SFX>GUI_Dial_Switch_SFX</Click_SFX>
-            <Toggle>True</Toggle>
+            <Toggle>False</Toggle>
             <Click_Shift>True</Click_Shift>
     </CommandBarComponent>
 </CommandBarComponents>
